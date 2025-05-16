@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Rising Nalanda | Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+<style>
+  html {
+  scroll-behavior: smooth;
+}
+
+    .group:hover .group-hover\:block {
+      display: block;
+      animation: fadeIn 0.3s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    :target {
+      scroll-margin-top: 90px;
+    }
+
+    /* fade effect in buddha's image */
+    .fade-mask {
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 15%,
+    black 85%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 15%,
+    black 85%,
+    transparent 100%
+  );
+}
+
+/* text moving right to left at top */
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.scrolling-text {
+  display: inline-block;
+  min-width: 100%;
+  animation: scroll-left 18s linear infinite;
+}
+.scrolling-text:hover {
+  animation-play-state: paused;
+  cursor: pointer;
+}
+  </style>
+  </head>
+<body class="bg-[#f8faff] font-sans">
+  <a id="top"></a>
+
+<!-- Scrolling Banner -->
+<!-- Announcement Bar -->
+<div class="w-full bg-gradient-to-r from-indigo-500 via-pink-500 to-yellow-500 text-white py-2 overflow-hidden relative">
+  <div class="scrolling-text whitespace-nowrap text-lg font-semibold flex items-center">
+    🎓✨ Admission starting soon at <strong class="mx-1">The Raising Nalanda</strong>! 🚀 Enroll now and secure your future! 🌟📚
+  </div>
+</div>
+
+
+
+
+  <nav class="bg-white shadow-md p-4 sticky top-0 z-10">
+    <div class="container mx-auto flex justify-between items-center">
+      <div class="flex items-center space-x-3">
+        <!-- Logo with fallback using <picture> -->
+        <picture>
+          <source srcset="images/school_logo_webp.webp" type="image/webp">
+          <img src="images/school_logo.png" alt="The Rising Nalanda Logo" class="h-10 w-10 scale-150 transform rounded-full ">
+        </picture>
+        <h1 class="text-2xl font-bold text-blue-700">The Rising Nalanda</h1>
+      </div>
+       <!-- Center: Your faded image -->
+    <img src="images/buddha_long.jpeg" alt="Decorative" class="fade-mask h-[45px] w-[250px] opacity-15 mx-4 hidden md:block scale-[1.75] rounded-r ">
+      <ul class="flex gap-6 text-sm font-medium">
+
+       <li class="relative group py-2">
+          <a href="index.html" class="text-blue-600 font-semibold text-lg">Home</a>
+          <ul class="absolute left-0 hidden mt-2 bg-white shadow-md rounded-md py-2 w-48 group-hover:block z-20">
+            <li><a href="index.html#difference" class="block px-4 py-2 hover:bg-blue-100">How we are different</a></li>
+            <li><a href="index.html#special_quality" class="block px-4 py-2 hover:bg-blue-100">special qualities</a></li>
+            <li><a href="index.html#vision_and_mission" class="block px-4 py-2 hover:bg-blue-100">Vision and Mission</a></li>
+            <li><a href="index.html#unique_features" class="block px-4 py-2 hover:bg-blue-100">Unique features</a></li>
+            <li><a href="index.html#motivation" class="block px-4 py-2 hover:bg-blue-100">Founder's Motivation</a></li>
+          </ul>
+        </li>
+      
+        <li class="relative group py-2">
+          <a href="academics.html" class="hover:text-blue-600">Academics</a>
+          <ul class="absolute left-0 hidden mt-2 bg-white shadow-md rounded-md py-2 w-48 group-hover:block z-20">
+            <li><a href="academics.html#core-philosophy" class="block px-4 py-2 hover:bg-blue-100">Core Philosophy</a></li>
+            <li><a href="academics.html#courses" class="block px-4 py-2 hover:bg-blue-100">Courses</a></li>
+            <li><a href="academics.html#class-wise" class="block px-4 py-2 hover:bg-blue-100">Class-Wise Structure</a></li>
+            <li><a href="academics.html#strategies" class="block px-4 py-2 hover:bg-blue-100">Exam Strategies</a></li>
+            <li><a href="academics.html#ncyc" class="block px-4 py-2 hover:bg-blue-100">NCYC(Competition)</a></li>
+            <li><a href="academics.html#timetable" class="block px-4 py-2 hover:bg-blue-100">Timetable</a></li>
+            <li><a href="academics.html#syllabus" class="block px-4 py-2 hover:bg-blue-100">Syllabus</a></li>
+            <li><a href="academics.html#faculty-expertise" class="block px-4 py-2 hover:bg-blue-100">Faculty Expertise</a></li>
+          </ul>
+        </li>
+
+
+        <li class="relative group py-2">
+          <a href="admission.html" class="hover:text-blue-600">Admission</a>
+          <ul class="absolute left-0 hidden mt-2 bg-white shadow-md rounded-md py-2 w-48 group-hover:block z-20">
+            <li><a href="admission.html#admission-structure" class="block px-4 py-2 hover:bg-blue-100">Admission Structure</a></li>
+            <li><a href="admission.html#fee-and-scholarships" class="block px-4 py-2 hover:bg-blue-100">Fee and Scholarships</a></li>
+            <li><a href="admission.html#parental-role" class="block px-4 py-2 hover:bg-blue-100">Parental Role and Guidelines</a></li>
+            <li><a href="admission.html#complaint-and-review" class="block px-4 py-2 hover:bg-blue-100">Complaint & Review System</a></li>
+            <li><a href="admission.html#apply-for-admission" class="block px-4 py-2 hover:bg-blue-100">Apply for Admission</a></li>
+          </ul>
+        </li>
+
+
+         <li class="relative group py-2">
+          <a href="faculty.html" class="hover:text-blue-600">Faculty</a>
+          <ul class="absolute left-0 hidden mt-2 bg-white shadow-md rounded-md py-2 w-48 group-hover:block z-20">
+            <li><a href="faculty.html#faculty-unique" class="block px-4 py-2 hover:bg-blue-100">Why Our Faculty is Unique</a></li>
+            <li><a href="faculty.html#student-testimonials" class="block px-4 py-2 hover:bg-blue-100">Student Testimonials</a></li>
+            <li><a href="faculty.html#join-faculty" class="block px-4 py-2 hover:bg-blue-100">Join Our Faculty</a></li>
+            <li><a href="faculty.html#clubs-and-mentors" class="block px-4 py-2 hover:bg-blue-100">Our Clubs and Their mentors</a></li>
+          </ul>
+        </li>
+
+
+         <li class="relative group py-2">
+          <a href="research.html" class="hover:text-blue-600">Research</a>
+          <ul class="absolute left-0 hidden mt-2 bg-white shadow-md rounded-md py-2 w-48 group-hover:block z-20">
+           <li><a href="research.html#what-research-project" class="block px-4 py-2 hover:bg-blue-100">What is research project</a></li>
+            <li><a href="research.html#why-research-project" class="block px-4 py-2 hover:bg-blue-100">Why research project</a></li>
+            <li><a href="research.html#project-structure" class="block px-4 py-2 hover:bg-blue-100">Project Structure</a></li>
+            <li><a href="research.html#theme-of-innovation" class="block px-4 py-2 hover:bg-blue-100">Theme of Innovation</a></li>
+            <li><a href="research.html#technology-used" class="block px-4 py-2 hover:bg-blue-100">Technology used</a></li>
+            <li><a href="research.html#mentorship-evaluation" class="block px-4 py-2 hover:bg-blue-100">Mentorship</a></li>
+            <li><a href="research.html#our-achievements" class="block px-4 py-2 hover:bg-blue-100">Achievements</a></li>
+          </ul>
+        </li>
+
+        <li class="relative group py-2">
+          <a href="gallery.html" class="hover:text-blue-600">Gallery</a>
+          <ul class="absolute left-0 hidden mt-2 bg-white shadow-md rounded-md py-2 w-48 group-hover:block z-20">
+            <li><a href="gallery.html#smart-class" class="block px-4 py-2 hover:bg-blue-100">Our Smart Classes</a></li>
+            <li><a href="gallery.html#assembly" class="block px-4 py-2 hover:bg-blue-100">Assembly Photo</a></li>
+            <li><a href="gallery.html#science-fair" class="block px-4 py-2 hover:bg-blue-100">Science Fair</a></li>
+            <li><a href="gallery.html#sports-day" class="block px-4 py-2 hover:bg-blue-100">Sports Day</a></li>
+            <li><a href="gallery.html#coding-robotics" class="block px-4 py-2 hover:bg-blue-100">Coding and Robotics</a></li>
+            <li><a href="gallery.html#library" class="block px-4 py-2 hover:bg-blue-100">Library Photo</a></li>
+          </ul>
+        </li>
+
+        <li class="relative group py-2">
+          <a href="contact.html" class="hover:text-blue-600">Contact Us</a>
+          <ul class="absolute left-0 hidden mt-2 bg-white shadow-md rounded-md py-2 w-48 group-hover:block z-20">
+            <li><a href="contact.html#school-contact-info" class="block px-4 py-2 hover:bg-blue-100">Contact Info</a></li>
+            <li><a href="contact.html#opening-hours" class="block px-4 py-2 hover:bg-blue-100">Opening Hours</a></li>
+            <li><a href="contact.html#connect-with-us" class="block px-4 py-2 hover:bg-blue-100">Connect With Us</a></li>
+            <li><a href="contact.html#find-us" class="block px-4 py-2 hover:bg-blue-100">Find on Map</a></li>
+            <li><a href="contact.html#send-message" class="block px-4 py-2 hover:bg-blue-100">Ask Your Query</a></li>
+            <li><a href="contact.html#faq" class="block px-4 py-2 hover:bg-blue-100">FAQs</a></li>
+          </ul>
+        </li>
+
+        <li class="py-3"> <a href="index.html#fee-support" class="bg-green-600 text-white px-2 py-2 rounded hover:bg-green-700 transition">
+          Support Us
+        </a></li>
+      </ul>
+    </div>
+  </nav>
+      
+
+  <div class="bg-blue-100 py-1 text-center border-b border-gray-200 flex flex-col justify-center">
+    <h2 class="text-4xl font-bold text-blue-800 mb-4 pt-4">Welcome To The Rising Nalanda</h2>
+    <div class="text-[#1a2a3a] text-base md:text-lg -mt-3">Empowering Ambedkarite Thought, Justice, and Excellence</div>
+  </div>
+  
+  
+  
+    <!-- Image Section with Overlay Text -->
+     <section>
+    <div class="relative w-full h-[850px]">
+      <picture>
+          <source srcset="images/hero_photo_girl_webp.webp" type="image/webp">
+          <img src="images/hero_photo_girl.png" alt="Hero Image" class="w-full h-full object-cover">
+        </picture>
+      <!-- Text overlay -->
+      <!-- <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30">
+        <div class="bg-white bg-opacity-20 px-4 py-1 rounded">
+          <h1 class="text-red-400 text-3xl md:text-4xl font-semibold text-center">
+            Leadership, that Nalanda brings in you
+          </h1>
+        </div>
+      </div> -->
+    </div>
+  </section>
+
+  <!-- Main Content: Sections + Robotics image -->
+ <!-- Main Content: Sections + Robotics image -->
+<div class="flex flex-col md:flex-row max-w-full">
+
+  <!-- Left: Sections -->
+  <div class="flex-1 md:max-w-[80%] flex flex-col gap-6 px-1 md:px-8 py-6">
+
+    <!-- Why to choose us -->
+    <section id="board" class="rounded-xl bg-[#e6f0ff] border-l-8 border-[#2d5a8e] shadow p-4">
+      <div id="difference"  class="font-bold  text-4xl text-[#1a2a3a] mb-2">How we are different from other schools</div>
+      <!-- ... (content unchanged) ... -->
+      <ul class="list-disc pl-5 text-[#1a2a3a] text-xl">
+        <li>
+          <span class="font-bold">Not for profit Model:</span>
+          <ul class="list-disc pl-6 text-base space-y-1">
+            <li>we are focusing to educate society instead making profit.</li>
+            <li>Discounts on books, uniforms, bags, and other essentials will be offered to financially weaker families.</li>
+            <li> To reduce financial burden of parents we try not to change books yearly.</li>
+          </ul>
+        </li>
+        <li>
+          <span class="font-bold">Advanced and personalized academics:</span>
+          <ul class="list-disc pl-6 text-base space-y-1">
+            <li>Rising Beyond the Board toward leadership since School is owned by an IITian and Academics is designed by him. Make students to stand in Competitive Environment</li>
+            <li>We focus on brain development along with exams preparation, encouraging students not just to aim for success in exams but to embrace the joy of learning and make the process enjoyable.                
+              </li>
+            <li>ensure each student becomes skilled in at least one game (e.g., badminton, chess, basketball) (will be implement later if sufficient fund…)</li>
+            <li>Special Research classes will involve hands-on projects—such as building robots, designing aircraft, and solving complex problems—that require research and critical thinking.</li>
+           
+          </ul>
+        </li>
+        <li>
+          <span class="font-bold">National & International Exam Preparation at school level:</span>
+          <ul class="list-disc pl-6 text-base space-y-1">
+            <li>Early Exposure to JEE, NEET, Olympiad, NTSE, KVPY & other national and International Platforms</li>
+            <li>prepare students for international exams like TOEFL and GRE too, which helps in getting abroad admission which lacks even in high profile schools as far as I have looked into it.</li>
+            
+          </ul>
+        </li>
+        <li>
+          <span class="font-bold">Building a Strong Foundation in Technology & Innovation:</span>
+          <ul class="list-disc pl-6 text-base space-y-1">
+            <li>Comprehensive technology learning & research projects</li>
+            <li>introduction to web development and app development</li>
+            <li>Machine learning</li>
+            <li> Data Structure and algorithm</li>
+            <li>  competitive programming</li>
+          </ul>
+        </li>
+        <li>
+          <span class="font-bold">We offer open courses:</span>
+          <ul class="list-disc pl-6 text-base space-y-1">
+            <li>we will offer courses like robotics, machine learning, computer vision, web development, app development, languages(e.g. Japanese (later if fund allowed)) at basic level. Other school’s students can also join these courses.</li>
+           
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Programming & Tech Focus -->
+    <section id="tech" class="rounded-xl bg-[#e6ffe6] border-l-8 border-[#1c8c4e] shadow p-4">
+      <div id="special_quality" class="font-bold text-4xl text-[#1a2a3a] mb-2">Some other special quality</div>
+      <!-- ... (content unchanged) ... -->
+      <ul class="list-disc pl-5 text-[#1a2a3a] text-xl">
+        <li>
+          <span class="font-bold">Future guidance:</span>
+          <ul class="list-disc pl-6 text-base space-y-1">
+            <li>Guidance by IITian for Engineering students and by AIIMS doctor for medical students will be provided. </li>
+          </ul>
+        </li>
+        <li>
+          <span class="font-bold">Inclusive Fee Structure: </span>
+          <ul class="list-disc pl-6 text-base space-y-1">
+            <li>A 10% income-based fee ensures affordability for all families, encouraging access to quality education irrespective of socio-economic status (will be implemented later T&C apply).</li>
+            <li>We have introduced Forward Fee System(FFS) and Reverse Fee System(RFS) <a href="admission.html#fee-and-scholarships" class="text-blue-700" >Click here for more Information</a></li>
+          </ul>
+        </li>
+        <li>
+          <span class="font-bold">Holistic Education & Social Values:</span>
+          <ul class="list-disc pl-6 text-base space-y-1">
+            <li>In addition to academics, students are encouraged to excel in sports, research, and special focus on societal values, shaping them into well-rounded individuals.</li>
+            
+          </ul>
+        </li>
+
+        <li>
+          <span class="font-bold">Parental Involvement & Feedback:</span>
+          <ul class="list-disc pl-6 text-base space-y-1">
+            <li>Complaint/Suggestion portal for students & parents will be there so that parents can suggest improvements. school will take final decision on that.</li>  
+          </ul>
+        </li>
+
+      </ul>
+    </section>
+
+  </div>
+
+  <!-- Right: Robotics/Machines Image -->
+  <div class="flex-1 md:max-w-[30%] flex flex-col items-center py-6 px-2 md:px-4">
+
+    <!-- Image Box 1 -->
+    <div class="w-full h-[250px] bg-[#f6f6f6] border-2 border-dashed border-gray-300 rounded-xl overflow-hidden flex items-center justify-center mb-4">
+      <img src="images/robotic_arms_thumb.jpg" alt="Robotics Arm or Machines" class="w-full h-full object-cover opacity-85">
+    </div>
+
+    <!-- Image Box 2 -->
+    <div class="w-full h-[250px] bg-[#f6f6f6] border-2 border-dashed border-gray-300 rounded-xl overflow-hidden flex items-center justify-center mb-4">
+      <img src="https://as2.ftcdn.net/v2/jpg/04/63/37/51/1000_F_463375173_vBKRkUbVoCuS9lpUmhdfCc13pprPr148.jpg" alt="Second Image Description" class="w-full h-full object-cover opacity-85">
+    </div>
+
+    <!-- Image Box 3 -->
+    <div class="w-full h-[300px] bg-[#f6f6f6] border-2 border-dashed border-gray-300 rounded-xl overflow-hidden flex items-center justify-center">
+      <img src="images/school_image.jpg" alt="Third Image Description" class="w-full h-full object-cover opacity-85">
+    </div>
+  </div>
+</div>
+
+<!-- FULL WIDTH SECTIONS -->
+<div class="w-full flex flex-col gap-6 px-1 md:px-8 pb-6">
+
+  <!-- Vision & Mission -->
+  <section id="vision" class="rounded-xl bg-[#f3e6ff] border-l-8 border-[#8c4ea4] shadow p-4 max-w-none">
+    <div id="vision_and_mission" class="font-bold text-4xl text-[#1a2a3a] mb-2">Vision & Mission</div>
+    <ul class="list-disc pl-5 text-[#1a2a3a] text-xl">
+      <li>To empower Ambedkarites make them sharp-minded, compassionate, socially responsible, and business-minded individuals who excel in academics, sports, and research. Our vision is to empower students, particularly from reserved categories, to achieve academic excellence on par with the general category in national-level exams and secure positions in top institutions like IITs, AIIMS, and NLU, while also preparing them for global opportunities and entrepreneurial success. </li>
+      <li>Our mission is to establish a school in Greater Noida that provides high-quality education to underprivileged children, focusing on academic excellence and holistic development. We aim to bridge educational disparities by offering resources, guidance, and support to students specially from SC, ST, and OBC(Ambedkarites only) communities. Inspired by the teachings of Dr. B.R. Ambedkar, our goal is to promote educational equity, instill values of compassion and justice, and prepare students to become empowered and responsible citizens.</li>
+      <li>This is our confidential vision_and_mission. Publicly something else will be shown...</li>
+
+    </ul>
+  </section>
+
+  <!-- Unique Features -->
+  <section id="features" class="rounded-xl bg-[#fff9b2] border-l-8 border-[#bba400] shadow p-4 max-w-none">
+    <div id="unique_features" class="font-bold text-4xl text-[#1a2a3a] mb-2">Unique Features</div>
+    <ul class="list-disc pl-5 text-[#1a2a3a] text-xl">
+      <li ><strong class="text-blue-700"> <a href="AEC.html" >Excellence Certificate (AEC): </a></strong> Students performing outstanding will get this certificate, this certificate not only honors academic and personal excellence but also offers a tuition fee waiver for new admissions, promoting a cycle of inspiration and equity.</li>
+      <li><strong>Global Language Learning:</strong> Students have the opportunity to learn international languages like Japanese, Spanish, and French, expanding their cultural horizons and global communication skills. (will be implemented later).</li>
+      <li><strong>Inclusive Education Rooted in Social Justice: </strong>Inspired by Dr. B.R. Ambedkar, we promote an inclusive environment where students from all backgrounds thrive with dignity and equality.</li>
+      <li><strong>Taught by Passionate Educators & IITians: </strong>With guidance from mentors who have cleared top exams and walked the same road, students get real insight and direction.</li>
+      <li><strong> Moral Development & Discipline:</strong> With a strong focus on values, time respect, and empathy, we shape students into socially responsible human beings, not just high scorers.</li>
+
+    </ul>
+  </section>
+
+  <!-- Founder's Motivation -->
+  <section id="certificate" class="rounded-xl bg-[#ffe6f7] border-l-8 border-[#d46b9a] shadow p-4 max-w-none">
+    <div id="motivation" class="font-bold text-4xl text-[#1a2a3a] mb-2">Founder's Motivation</div>
+    <ul class="list-disc pl-5 text-[#1a2a3a] text-xl">
+      <li> When I secured admission to IIT Kanpur with a rank around 21,500, I was overjoyed. But I also became aware of the vast disparity in educational opportunities across different social backgrounds. It was a reminder that our community still has a long way to go. </li>
+      <li>I have faced struggles throughout my life, being born into the Scheduled Caste (SC) community. I’ve even worked as a labourer. Experiencing caste discrimination—even at a prestigious institution like IIT Kanpur—deeply affected me and made me reflect on the systemic challenges our community faces. It forced me to look into these problems. </li>
+      <li> I draw my inspiration from <strong>B.R. Ambedkar</strong> , whose lifelong struggle for justice and equality laid the foundation for a better India. Compared to his sacrifices, our challenges are smaller, yet they guide me to follow his path. I see education—especially through a school—as the most effective way to serve society and uplift the next generation.</li>
+      <li> I am deeply passionate about teaching, and I genuinely love being around children. A school is the one place where I can educate, empower, and play with young minds—making it my ideal space to give back to society.</li>
+
+    </ul>
+  </section>
+
+  <!-- Fee and Support Section -->
+  <section id="fee-support" class="rounded-xl bg-[#e6faff] border-l-8 border-[#2da4a4] shadow p-4 max-w-none flex flex-col md:flex-row items-center gap-6">
+    <!-- Fee Payment Column -->
+    <div class="flex-1 w-full">
+      <div class="font-bold text-3xl text-[#1a2a3a] mb-2">Fee Payment</div>
+      <p class="text-xl text-[#1a2a3a] mb-2">Pay your school fee securely online:</p>
+      <a href="images/my_qr_code.png" class="inline-block bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-800 transition mb-4">
+        Pay Fee Now
+      </a>
+      <div class="flex flex-col md:flex-row items-center gap-4 mt-4">
+        <!-- QR Code Box -->
+        <div class="w-40 h-40 bg-white border-2 border-dashed border-blue-300 rounded-lg flex items-center justify-center">
+          <!-- Replace src with your QR code image -->
+          <img src="images/my_qr_code.png" alt="Fee Payment QR Code" class="w-36 h-36 object-contain" />
+        </div>
+        <!-- Bank Details -->
+        <div class="flex-1">
+          <div class="font-semibold text-lg text-[#1a2a3a] mb-1">Bank Details</div>
+          <div class="text-base text-gray-700 leading-relaxed">
+            Account Name: <span class="font-semibold">Rohit Gautam</span><br>
+            Account No.: <span class="font-semibold">1112001700200306</span><br>
+            IFSC: <span class="font-semibold">PUNB0111200</span><br>
+            Bank: <span class="font-semibold">Punjab National Bank</span><br>
+            Branch: <span class="font-semibold">Bilaspur</span>
+          </div>
+          <div class="mt-2">
+            <span class="font-semibold text-[#1a2a3a]">UPI ID:</span>
+            <span class="text-base text-gray-700">srgsjhupi@okicici</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Support/Donate Column -->
+    <div class="flex-1 w-full">
+      <div class="font-bold text-3xl text-[#1a2a3a] mb-2">Support Us</div>
+      <p class="text-xl text-[#1a2a3a] mb-2">Help us uplift more students and communities:</p>
+      <a href="images/my_qr_code.png" class="inline-block bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition mb-4">
+        Donate / Support
+      </a>
+      <div class="flex flex-col md:flex-row items-center gap-4 mt-4">
+        <!-- QR Code Box for Donations -->
+        <div class="w-40 h-40 bg-white border-2 border-dashed border-green-300 rounded-lg flex items-center justify-center">
+          <!-- Replace src with your QR code image -->
+          <img src="images/my_qr_code.png" alt="Donation QR Code" class="w-36 h-36 object-contain" />
+        </div>
+        <!-- Donation Bank Details -->
+        <div class="flex-1">
+          <div class="font-semibold text-lg text-[#1a2a3a] mb-1">Bank Details</div>
+          <div class="text-base text-gray-700 leading-relaxed">
+            Account Name: <span class="font-semibold">Rohit Gautam</span><br>
+            Account No.: <span class="font-semibold">1112001700200306</span><br>
+            IFSC: <span class="font-semibold">PUNB0111200</span><br>
+            Bank: <span class="font-semibold">Punjab National Bank</span><br>
+            Branch: <span class="font-semibold">Bilaspur</span>
+          </div>
+          <div class="mt-2">
+            <span class="font-semibold text-[#1a2a3a]">UPI ID:</span>
+            <span class="text-base text-gray-700">srgsjhupi@okicici</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+</div>
+
+<div class="text-center my-6">
+  <a href="#top" class="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
+    ↑ Go to Top
+  </a>
+</div>
+
+  <!-- Footer -->
+  <!-- Tailwind CSS Footer with Social Media Icons -->
+ <footer class="bg-gray-800 text-white py-8">
+  <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-1 px-8">
+
+    <div>
+      <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+      <ul class="space-y-2">
+        <li><a href="pdf/The_Raising_Nalanda_Policies.pdf" target="_blank" class="hover:text-blue-400">Privacy Policy</a></li>
+        <li><a href="pdf/The_Raising_Nalanda_Policies.pdf" target="_blank" class="hover:text-blue-400">Terms of Service</a></li>
+        <li><a href="pdf/The_Raising_Nalanda_Policies.pdf" target="_blank" class="hover:text-blue-400">Careers</a></li>
+      </ul>
+    </div>
+    
+    <!-- Contact -->
+    <div>
+      <h4 class="text-lg font-semibold mb-4">Contact</h4>
+      <p class="mb-2"><i class="fas fa-map-marker-alt mr-2"></i> Greater Noida, Uttar Pradesh</p>
+      <p class="mb-2"><i class="fas fa-phone mr-2"></i> +91 9627440910</p>
+      <p class="mb-2"><i class="fas fa-envelope mr-2"></i> srgsjhupi@gmail.com</p>
+      <div class="mt-4">
+        <h5 class="font-semibold text-base mb-1">Opening Hours</h5>
+        <ul class="text-xs text-gray-400">
+          <li>Mon-Fri: 8:00 AM – 3:00 PM</li>
+          <li>Sat: 8:00 AM – 3:30 PM</li>
+          <li>Sun: Closed</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Social -->
+    <div>
+      <h4 class="text-lg font-semibold mb-4">Follow Us</h4>
+      <div class="flex gap-4 mb-3">
+        <a href="https://www.facebook.com/rohitgautam.gautam.568" target="_blank" class="text-2xl hover:text-blue-400"><i class="fab fa-facebook"></i></a>
+        <a href="https://x.com/Rational_Idea" target="_blank" class="text-2xl hover:text-blue-400"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/rohit_gautam_gi/" target="_blank" class="text-2xl hover:text-blue-400"><i class="fab fa-instagram"></i></a>
+      </div>
+      <form class="flex flex-col gap-2">
+        <label for="newsletter" class="text-xs text-gray-300">Newsletter Signup</label>
+        <div class="flex">
+          <input id="newsletter" type="email" placeholder="Your email" class="p-1 rounded-l bg-gray-700 text-white border-0 text-xs focus:outline-none" />
+          <button class="bg-blue-600 px-3 rounded-r text-xs hover:bg-blue-700">Subscribe</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Extra Info -->
+    <div>
+      <h4 class="text-lg font-semibold mb-4">Info</h4>
+      <ul class="text-xs text-gray-400 space-y-1">
+        <li>Site Map</li>
+        <li>Accessibility</li>
+        <li>Developed by the founder</li>
+        <li>Last updated: May 11, 2025</li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="text-center mt-8 pt-4 border-t border-gray-700 text-xs text-gray-400">
+    &copy; 2025 The Rising Nalanda. All rights reserved.
+  </div>
+</footer>
+
+  <!-- Fancy Modal Popup -->
+<div id="customModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+  <div class="bg-white rounded-xl shadow-lg p-6 w-80 text-center">
+    <h2 class="text-xl font-semibold mb-4">👨‍💻 Developer Note</h2>
+    <p class="text-gray-700 mb-6">This website is developed by <strong>Rohit Gautam</strong> himself.</p>
+    <p class="text-gray-700 mb-6">This website is still under development so images used are just for illustrative purpose.</p>
+    <button onclick="closeModal()" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+       I understood please proceed now.
+    </button>
+  </div>
+</div>
+
+<script>
+  // Show modal only if not shown before
+  window.addEventListener('load', () => {
+    if (!localStorage.getItem('developerModalShown')) {
+      document.getElementById('customModal').classList.remove('hidden');
+      localStorage.setItem('developerModalShown', 'true');
+    }
+  });
+  function closeModal() {
+    document.getElementById('customModal').classList.add('hidden');
+  }
+</script>
+
+<!-- to go to correct subsection take care to load first dynamically content to appear then go to desired subsection -->
+<script>
+window.addEventListener('load', () => {
+  const hash = window.location.hash;
+  if (hash) {
+    setTimeout(() => {
+      const el = document.querySelector(hash);
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth" });
+      }
+    }, 100); // wait for dynamic content to appear
+  }
+});
+</script>
+
+</body>
+</html>
