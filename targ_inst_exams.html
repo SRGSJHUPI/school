@@ -1,0 +1,398 @@
+<!-- File: gallery.html -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>The Rising Nalanda | Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Tailwind CSS CDN -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+      <style>
+         html {
+  scroll-behavior: smooth;
+}
+    .group:hover .group-hover\:block {
+      display: block;
+      animation: fadeIn 0.3s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    :target {
+      scroll-margin-top: 90px;
+    }
+  </style>
+  </head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <a id="top"></a>
+
+  <!-- Navbar -->
+    <nav class="bg-white shadow-md p-4 sticky top-0 z-10">
+    <div class="container mx-auto flex justify-between items-center">
+      <div class="flex items-center space-x-3">
+        <!-- Logo with fallback using <picture> -->
+        <picture>
+          <source srcset="images/school_logo_webp.webp" type="image/webp">
+          <img src="images/school_logo.png" alt="The Rising Nalanda Logo" class="h-10 w-10 scale-150 transform rounded-full ">
+        </picture>
+        <h1 class="text-2xl font-bold text-blue-700">The Rising Nalanda</h1>
+      </div>
+      <ul class="flex gap-6 text-sm font-medium">
+
+       <li class="relative group py-2">
+          <a href="index.html" class="hover:text-blue-600">Home</a>
+          <ul class="absolute left-0 hidden mt-2 bg-white shadow-md rounded-md py-2 w-48 group-hover:block z-20">
+            <li><a href="index.html#difference" class="block px-4 py-2 hover:bg-blue-100">How we are different</a></li>
+            <li><a href="index.html#special_quality" class="block px-4 py-2 hover:bg-blue-100">special qualities</a></li>
+            <li><a href="index.html#vision_and_mission" class="block px-4 py-2 hover:bg-blue-100">Vision and Mission</a></li>
+            <li><a href="index.html#unique_features" class="block px-4 py-2 hover:bg-blue-100">Unique features</a></li>
+            <li><a href="index.html#motivation" class="block px-4 py-2 hover:bg-blue-100">Founder's Motivation</a></li>
+          </ul>
+        </li>
+      
+        <li class="relative group py-2">
+          <a href="academics.html" class="hover:text-blue-600">Academics</a>
+          <ul class="absolute left-0 hidden mt-2 bg-white shadow-md rounded-md py-2 w-48 group-hover:block z-20">
+            <li><a href="academics.html#core-philosophy" class="block px-4 py-2 hover:bg-blue-100">Core Philosophy</a></li>
+            <li><a href="academics.html#courses" class="block px-4 py-2 hover:bg-blue-100">Courses</a></li>
+            <li><a href="academics.html#class-wise" class="block px-4 py-2 hover:bg-blue-100">Class-Wise Structure</a></li>
+            <li><a href="academics.html#strategies" class="block px-4 py-2 hover:bg-blue-100">Exam Strategies</a></li>
+            <li><a href="academics.html#ncyc" class="block px-4 py-2 hover:bg-blue-100">NCYC(Competition)</a></li>
+            <li><a href="academics.html#timetable" class="block px-4 py-2 hover:bg-blue-100">Timetable</a></li>
+            <li><a href="academics.html#syllabus" class="block px-4 py-2 hover:bg-blue-100">Syllabus</a></li>
+            <li><a href="academics.html#faculty-expertise" class="block px-4 py-2 hover:bg-blue-100">Faculty Expertise</a></li>
+          </ul>
+        </li>
+
+
+        <li class="relative group py-2">
+          <a href="admission.html" class="hover:text-blue-600">Admission</a>
+          <ul class="absolute left-0 hidden mt-2 bg-white shadow-md rounded-md py-2 w-48 group-hover:block z-20">
+            <li><a href="admission.html#admission-structure" class="block px-4 py-2 hover:bg-blue-100">Admission Structure</a></li>
+            <li><a href="admission.html#fee-and-scholarships" class="block px-4 py-2 hover:bg-blue-100">Fee and Scholarships</a></li>
+            <li><a href="admission.html#parental-role" class="block px-4 py-2 hover:bg-blue-100">Parental Role and Guidelines</a></li>
+            <li><a href="admission.html#complaint-and-review" class="block px-4 py-2 hover:bg-blue-100">Complaint & Review System</a></li>
+            <li><a href="admission.html#apply-for-admission" class="block px-4 py-2 hover:bg-blue-100">Apply for Admission</a></li>
+          </ul>
+        </li>
+
+
+         <li class="relative group py-2">
+          <a href="faculty.html" class="hover:text-blue-600">Faculty</a>
+          <ul class="absolute left-0 hidden mt-2 bg-white shadow-md rounded-md py-2 w-48 group-hover:block z-20">
+            <li><a href="faculty.html#faculty-unique" class="block px-4 py-2 hover:bg-blue-100">Why Our Faculty is Unique</a></li>
+            <li><a href="faculty.html#student-testimonials" class="block px-4 py-2 hover:bg-blue-100">Student Testimonials</a></li>
+            <li><a href="faculty.html#join-faculty" class="block px-4 py-2 hover:bg-blue-100">Join Our Faculty</a></li>
+            <li><a href="faculty.html#clubs-and-mentors" class="block px-4 py-2 hover:bg-blue-100">Our Clubs and Their mentors</a></li>
+          </ul>
+        </li>
+
+
+         <li class="relative group py-2">
+          <a href="research.html" class="hover:text-blue-600">Research</a>
+          <ul class="absolute left-0 hidden mt-2 bg-white shadow-md rounded-md py-2 w-48 group-hover:block z-20">
+            <li><a href="research.html#what-research-project" class="block px-4 py-2 hover:bg-blue-100">What is research project</a></li>
+            <li><a href="research.html#why-research-project" class="block px-4 py-2 hover:bg-blue-100">Why research project</a></li>
+            <li><a href="research.html#project-structure" class="block px-4 py-2 hover:bg-blue-100">Project Structure</a></li>
+            <li><a href="research.html#theme-of-innovation" class="block px-4 py-2 hover:bg-blue-100">Theme of Innovation</a></li>
+            <li><a href="research.html#technology-used" class="block px-4 py-2 hover:bg-blue-100">Technology used</a></li>
+            <li><a href="research.html#mentorship-evaluation" class="block px-4 py-2 hover:bg-blue-100">Mentorship</a></li>
+            <li><a href="research.html#our-achievements" class="block px-4 py-2 hover:bg-blue-100">Achievements</a></li>
+          </ul>
+        </li>
+
+        <li class="relative group py-2">
+          <a href="gallery.html" class="hover:text-blue-600">Gallery</a>
+          <ul class="absolute left-0 hidden mt-2 bg-white shadow-md rounded-md py-2 w-48 group-hover:block z-20">
+            <li><a href="gallery.html#smart-class" class="block px-4 py-2 hover:bg-blue-100">Our Smart Classes</a></li>
+            <li><a href="gallery.html#assembly" class="block px-4 py-2 hover:bg-blue-100">Assembly Photo</a></li>
+            <li><a href="gallery.html#science-fair" class="block px-4 py-2 hover:bg-blue-100">Science Fair</a></li>
+            <li><a href="gallery.html#sports-day" class="block px-4 py-2 hover:bg-blue-100">Sports Day</a></li>
+            <li><a href="gallery.html#coding-robotics" class="block px-4 py-2 hover:bg-blue-100">Coding and Robotics</a></li>
+            <li><a href="gallery.html#library" class="block px-4 py-2 hover:bg-blue-100">Library Photo</a></li>
+          </ul>
+        </li>
+
+        <li class="relative group py-2">
+          <a href="contact.html" class="hover:text-blue-600">Contact Us</a>
+          <ul class="absolute left-0 hidden mt-2 bg-white shadow-md rounded-md py-2 w-48 group-hover:block z-20">
+            <li><a href="contact.html#school-contact-info" class="block px-4 py-2 hover:bg-blue-100">Contact Info</a></li>
+            <li><a href="contact.html#opening-hours" class="block px-4 py-2 hover:bg-blue-100">Opening Hours</a></li>
+            <li><a href="contact.html#connect-with-us" class="block px-4 py-2 hover:bg-blue-100">Connect With Us</a></li>
+            <li><a href="contact.html#find-us" class="block px-4 py-2 hover:bg-blue-100">Find on Map</a></li>
+            <li><a href="contact.html#send-message" class="block px-4 py-2 hover:bg-blue-100">Ask Your Query</a></li>
+            <li><a href="contact.html#faq" class="block px-4 py-2 hover:bg-blue-100">FAQs</a></li>
+          </ul>
+        </li>
+
+        <li class="py-3"> <a href="index.html#fee-support" class="bg-green-600 text-white px-2 py-2 rounded hover:bg-green-700 transition">
+          Support Us
+        </a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="bg-blue-100 py-1 text-center border-b border-gray-200 flex flex-col justify-center">
+    <h2 class="text-4xl font-bold text-blue-800 mb-4 pt-4">Our Targeted National and International-Level Institutes and Exams</h2>
+    <div class="text-[#1a2a3a] text-base md:text-lg -mt-3">Empowering Ambedkarite Thought, Justice, and Excellence</div>
+  </div>
+  <!-- Targeted Institutes and Exams Section -->
+<section class="py-12 bg-gray-50">
+    <div class="container mx-auto px-4 space-y-10">
+  
+      <!-- Institutes of National Importance -->
+      <div class="bg-white rounded-lg shadow-md p-6">
+        <h2 class="text-2xl font-bold text-blue-800 mb-4">Institutes of National Importance (India)</h2>
+        <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-gray-800">
+          <li>
+            <span class="font-semibold">IITs (Indian Institutes of Technology)</span> – 23 institutes, approx. 17,700 seats<br>
+            <a href="https://www.iitr.ac.in" class="text-blue-600 underline" target="_blank">IIT Roorkee</a>
+          </li>
+          <li>
+            <span class="font-semibold">IIMs (Indian Institutes of Management)</span> – 21 institutes, approx. 5,500 seats<br>
+            <a href="https://www.iimcal.ac.in/home" class="text-blue-600 underline" target="_blank">IIM Calcutta</a>
+          </li>
+          <li>
+            <span class="font-semibold">AIIMS (All India Institute of Medical Sciences)</span> – 20 institutes, approx. 2,500 seats<br>
+            <a href="https://aiimsguwahati.ac.in" class="text-blue-600 underline" target="_blank">AIIMS Guwahati</a>
+          </li>
+          <li>
+            <span class="font-semibold">NITs (National Institutes of Technology)</span> – 31 institutes<br>
+            <a href="https://www.nitc.ac.in/" class="text-blue-600 underline" target="_blank">NIT Calicut</a>
+          </li>
+          <li>
+            <span class="font-semibold">IIITs (Indian Institutes of Information Technology)</span> – 25 institutes<br>
+            <a href="https://www.iiit.ac.in/" class="text-blue-600 underline" target="_blank">IIIT Hyderabad</a>
+          </li>
+          <li>
+            <span class="font-semibold">Other INIs</span> – IISERs, NIPERs, SPAs, NIDs, NIFTEMs, Central Universities, etc.<br>
+            <a href="https://www.education.gov.in/institutions-national-importance" class="text-blue-600 underline" target="_blank">Full List</a>
+          </li>
+        </ul>
+      </div>
+  
+      <!-- Best Universities for Engineering -->
+      <div class="bg-white rounded-lg shadow-md p-6">
+        <h2 class="text-2xl font-bold text-blue-800 mb-4">Top Global Universities for Engineering</h2>
+        <ol class="list-decimal ml-6 space-y-1 text-gray-800">
+          <li><a href="https://www.harvard.edu/" class="text-blue-600 underline" target="_blank">Harvard University</a> (US)</li>
+          <li><a href="https://www.stanford.edu/" class="text-blue-600 underline" target="_blank">Stanford University</a> (US)</li>
+          <li><a href="https://web.mit.edu/" class="text-blue-600 underline" target="_blank">Massachusetts Institute of Technology (MIT)</a> (US)</li>
+          <li><a href="https://www.ox.ac.uk/" class="text-blue-600 underline" target="_blank">University of Oxford</a> (UK)</li>
+          <li><a href="https://www.cam.ac.uk/" class="text-blue-600 underline" target="_blank">University of Cambridge</a> (UK)</li>
+          <li><a href="https://www.berkeley.edu/" class="text-blue-600 underline" target="_blank">University of California, Berkeley</a> (US)</li>
+          <li><a href="https://www.caltech.edu/" class="text-blue-600 underline" target="_blank">California Institute of Technology (Caltech)</a> (US)</li>
+          <li><a href="https://www.princeton.edu/" class="text-blue-600 underline" target="_blank">Princeton University</a> (US)</li>
+          <li><a href="https://nus.edu.sg/" class="text-blue-600 underline" target="_blank">National University of Singapore (NUS)</a> (Singapore)</li>
+          <li><a href="https://www.imperial.ac.uk/" class="text-blue-600 underline" target="_blank">Imperial College London</a> (UK)</li>
+        </ol>
+      </div>
+  
+      <!-- Best Universities for Medicine -->
+      <div class="bg-white rounded-lg shadow-md p-6">
+        <h2 class="text-2xl font-bold text-blue-800 mb-4">Top Global Universities for Medicine & Health Sciences</h2>
+        <ol class="list-decimal ml-6 space-y-1 text-gray-800">
+          <li><a href="https://www.ox.ac.uk/" class="text-blue-600 underline" target="_blank">University of Oxford</a> (UK)</li>
+          <li><a href="https://www.harvard.edu/" class="text-blue-600 underline" target="_blank">Harvard University</a> (US)</li>
+          <li><a href="https://www.cam.ac.uk/" class="text-blue-600 underline" target="_blank">University of Cambridge</a> (UK)</li>
+          <li><a href="https://www.imperial.ac.uk/" class="text-blue-600 underline" target="_blank">Imperial College London</a> (UK)</li>
+          <li><a href="https://www.stanford.edu/" class="text-blue-600 underline" target="_blank">Stanford University</a> (US)</li>
+          <li><a href="https://www.jhu.edu/" class="text-blue-600 underline" target="_blank">Johns Hopkins University</a> (US)</li>
+          <li><a href="https://www.ucl.ac.uk/" class="text-blue-600 underline" target="_blank">UCL</a> (UK)</li>
+          <li><a href="https://www.yale.edu/" class="text-blue-600 underline" target="_blank">Yale University</a> (US)</li>
+          <li><a href="https://www.utoronto.ca/" class="text-blue-600 underline" target="_blank">University of Toronto</a> (Canada)</li>
+          <li><a href="https://www.upenn.edu/" class="text-blue-600 underline" target="_blank">University of Pennsylvania</a> (US)</li>
+        </ol>
+      </div>
+  
+      <!-- Best Universities for Business -->
+      <div class="bg-white rounded-lg shadow-md p-6">
+        <h2 class="text-2xl font-bold text-blue-800 mb-4">Top Global Universities for Business & Management</h2>
+        <ol class="list-decimal ml-6 space-y-1 text-gray-800">
+          <li><a href="https://www.harvard.edu/" class="text-blue-600 underline" target="_blank">Harvard University</a> (US)</li>
+          <li><a href="https://www.insead.edu/" class="text-blue-600 underline" target="_blank">INSEAD</a> (France)</li>
+          <li><a href="https://www.london.edu/" class="text-blue-600 underline" target="_blank">London Business School</a> (UK)</li>
+          <li><a href="https://www.stanford.edu/" class="text-blue-600 underline" target="_blank">Stanford University</a> (US)</li>
+          <li><a href="https://web.mit.edu/" class="text-blue-600 underline" target="_blank">MIT</a> (US)</li>
+          <li><a href="https://www.ox.ac.uk/" class="text-blue-600 underline" target="_blank">University of Oxford</a> (UK)</li>
+          <li><a href="https://www.upenn.edu/" class="text-blue-600 underline" target="_blank">University of Pennsylvania</a> (US)</li>
+          <li><a href="https://www.cam.ac.uk/" class="text-blue-600 underline" target="_blank">University of Cambridge</a> (UK)</li>
+          <li><a href="https://www.unibocconi.eu/" class="text-blue-600 underline" target="_blank">Bocconi University</a> (Italy)</li>
+          <li><a href="https://nus.edu.sg/" class="text-blue-600 underline" target="_blank">National University of Singapore (NUS)</a> (Singapore)</li>
+          <li><a href="https://www.hec.edu/en" class="text-blue-600 underline" target="_blank">HEC Paris Business School</a> (France)</li>
+          <li><a href="https://www.lse.ac.uk/" class="text-blue-600 underline" target="_blank">London School of Economics (LSE)</a> (UK)</li>
+          <li><a href="https://www.berkeley.edu/" class="text-blue-600 underline" target="_blank">University of California, Berkeley</a> (US)</li>
+          <li><a href="https://www.ntu.edu.sg/" class="text-blue-600 underline" target="_blank">Nanyang Technological University (NTU)</a> (Singapore)</li>
+          <li><a href="https://www.nyu.edu/" class="text-blue-600 underline" target="_blank">New York University (NYU)</a> (US)</li>
+        </ol>
+      </div>
+  
+      <!-- Targeted Exams -->
+      <div class="bg-white rounded-lg shadow-md p-6">
+        <h2 class="text-2xl font-bold text-blue-800 mb-4">Targeted Exams & Competitions</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!-- National Exams -->
+          <div>
+            <h3 class="text-lg font-semibold text-green-700 mb-2">National-Level (India)</h3>
+            <ul class="list-disc ml-6 space-y-2">
+              <li>
+                <span class="font-semibold">NSTSE</span> – Science, Math, Mental Ability<br>
+                <a href="https://www.unifiedcouncil.com/about-nstse.html" class="text-blue-600 underline" target="_blank">www.unifiedcouncil.com</a>
+              </li>
+              <li>
+                <span class="font-semibold">SOF Olympiads</span> – NSO, IMO, IEO, IGKO, NCO<br>
+                <a href="https://www.sofworld.org/" class="text-blue-600 underline" target="_blank">www.sofworld.org</a>
+              </li>
+              <li>
+                <span class="font-semibold">Hummingbird Olympiads</span> – Math, Science, English, GK, Cyber, Spelling, Reasoning<br>
+                <a href="https://www.olympiads.co.in/" class="text-blue-600 underline" target="_blank">www.olympiads.co.in</a>
+              </li>
+              <li>
+                <span class="font-semibold">Vidyarthi Vigyan Manthan (VVM)</span> – Science, Indian Scientists<br>
+                <a href="https://vvm.org.in/" class="text-blue-600 underline" target="_blank">www.vvm.org.in</a>
+              </li>
+              <li>
+                <span class="font-semibold">Aryabhata Ganit Challenge (CBSE)</span> – Math reasoning (CBSE schools)
+              </li>
+              <li>
+                <span class="font-semibold">Indian Talent Olympiad (ITO)</span> – Science, Math, English, GK, Art, Computer<br>
+                <a href="https://www.indiantalent.org/" class="text-blue-600 underline" target="_blank">www.indiantalent.org</a>
+              </li>
+              <li>
+                <span class="font-semibold">CREST Olympiads</span> – Science, Math, English, Reasoning, Computer<br>
+                <a href="https://www.crestolympiads.com/" class="text-blue-600 underline" target="_blank">www.crestolympiads.com</a>
+              </li>
+              <li><span class="font-semibold">Common Law Admission Test(CLAT)</span></li>
+              <li><span>Common University Entrance Test(CUET)</span></li>
+
+            </ul>
+          </div>
+          <!-- International Exams -->
+          <div>
+            <h3 class="text-lg font-semibold text-purple-700 mb-2">International-Level</h3>
+            <ul class="list-disc ml-6 space-y-2">
+              <li>
+                <span class="font-semibold">SASMO</span> – Singapore & Asian Schools Math Olympiad<br>
+                <a href="https://sasmo.sg/" class="text-blue-600 underline" target="_blank">www.sasmo.sg</a>
+              </li>
+              <li>
+                <span class="font-semibold">Silverzone Olympiads</span> – IOM, IOS, IOE<br>
+                <a href="https://www.silverzone.org/" class="text-blue-600 underline" target="_blank">www.silverzone.org</a>
+              </li>
+              <li>
+                <span class="font-semibold">Bebras Challenge</span> – Computational Thinking<br>
+                <a href="https://www.bebras.in/" class="text-blue-600 underline" target="_blank">www.bebras.in</a>
+              </li>
+              <li>
+                <span class="font-semibold">Google Code to Learn</span> – Coding, AI/ML, App Development<br>
+                <a href="https://g.co/codetolearn" class="text-blue-600 underline" target="_blank">g.co/codetolearn</a>
+              </li>
+              <li>
+                <span class="font-semibold">Kangaroo Math Competition</span><br>
+                <a href="https://www.ikkm.in/" class="text-blue-600 underline" target="_blank">www.ikkm.in</a>
+              </li>
+              <li>
+                <span class="font-semibold">Cambridge English Olympiads</span> – <a href="https://www.cambridgeenglish.org/exams-and-tests/qualifications/schools/" class="text-blue-600 underline" target="_blank">Details</a>
+              </li>
+              <li>
+                <span class="font-semibold">Wiz National Spell Bee</span> – <a href="https://www.wizspellbee.com/" class="text-blue-600 underline" target="_blank">www.wizspellbee.com</a>
+              </li>
+              <li>
+                <span class="font-semibold">MaRRS International Spelling Bee</span> – <a href="https://www.marrsspellingbee.com/" class="text-blue-600 underline" target="_blank">www.marrsspellingbee.com</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="text-center my-6">
+  <a href="#top" class="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
+    ↑ Go to Top
+  </a>
+</div>
+
+  
+  <!-- Footer -->
+ <!-- Footer -->
+  <!-- Tailwind CSS Footer with Social Media Icons -->
+ <footer class="bg-gray-800 text-white py-8">
+  <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-1 px-8">
+
+    <div>
+      <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+      <ul class="space-y-2">
+        <li><a href="pdf/The_Raising_Nalanda_Policies.pdf" target="_blank" class="hover:text-blue-400">Privacy Policy</a></li>
+        <li><a href="pdf/The_Raising_Nalanda_Policies.pdf" target="_blank" class="hover:text-blue-400">Terms of Service</a></li>
+        <li><a href="pdf/The_Raising_Nalanda_Policies.pdf" target="_blank" class="hover:text-blue-400">Careers</a></li>
+      </ul>
+    </div>
+    
+    <!-- Contact -->
+    <div>
+      <h4 class="text-lg font-semibold mb-4">Contact</h4>
+      <p class="mb-2"><i class="fas fa-map-marker-alt mr-2"></i> Greater Noida, Uttar Pradesh</p>
+      <p class="mb-2"><i class="fas fa-phone mr-2"></i> +91 9627440910</p>
+      <p class="mb-2"><i class="fas fa-envelope mr-2"></i> srgsjhupi@gmail.com</p>
+      <div class="mt-4">
+        <h5 class="font-semibold text-base mb-1">Opening Hours</h5>
+        <ul class="text-xs text-gray-400">
+          <li>Mon-Fri: 8:00 AM – 3:00 PM</li>
+          <li>Sat: 8:00 AM – 3:30 PM</li>
+          <li>Sun: Closed</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Social -->
+    <div>
+      <h4 class="text-lg font-semibold mb-4">Follow Us</h4>
+      <div class="flex gap-4 mb-3">
+        <a href="https://www.facebook.com/rohitgautam.gautam.568" target="_blank" class="text-2xl hover:text-blue-400"><i class="fab fa-facebook"></i></a>
+        <a href="https://x.com/Rational_Idea" target="_blank" class="text-2xl hover:text-blue-400"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/rohit_gautam_gi/" target="_blank" class="text-2xl hover:text-blue-400"><i class="fab fa-instagram"></i></a>
+      </div>
+      <form class="flex flex-col gap-2">
+        <label for="newsletter" class="text-xs text-gray-300">Newsletter Signup</label>
+        <div class="flex">
+          <input id="newsletter" type="email" placeholder="Your email" class="p-1 rounded-l bg-gray-700 text-white border-0 text-xs focus:outline-none" />
+          <button class="bg-blue-600 px-3 rounded-r text-xs hover:bg-blue-700">Subscribe</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Extra Info -->
+    <div>
+      <h4 class="text-lg font-semibold mb-4">Info</h4>
+      <ul class="text-xs text-gray-400 space-y-1">
+        <li>Site Map</li>
+        <li>Accessibility</li>
+        <li>Developed by the founder</li>
+        <li>Last updated: May 11, 2025</li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="text-center mt-8 pt-4 border-t border-gray-700 text-xs text-gray-400">
+    &copy; 2025 The Rising Nalanda. All rights reserved.
+  </div>
+</footer>
+<!-- to go to correct subsection take care to load first dynamically content to appear then go to desired subsection -->
+<script>
+window.addEventListener('load', () => {
+  const hash = window.location.hash;
+  if (hash) {
+    setTimeout(() => {
+      const el = document.querySelector(hash);
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth" });
+      }
+    }, 100); // wait for dynamic content to appear
+  }
+});
+</script>
+</body>
+</html>
