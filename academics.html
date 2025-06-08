@@ -408,13 +408,13 @@
         <li>Site Map</li>
         <li>Accessibility</li>
         <li>Developed by the founder</li>
-        <li>Last updated: May 11, 2025</li>
+        <li id="last-updated">Last updated: Loading...</li>
       </ul>
     </div>
   </div>
   
   <div class="text-center mt-8 pt-4 border-t border-gray-700 text-xs text-gray-400">
-    &copy; 2025 The Rising Nalanda. All rights reserved.
+    &copy; <span id="current-year">2025</span> The Rising Nalanda. All rights reserved.
   </div>
 </footer>
 <!-- to go to correct subsection take care to load first dynamically content to appear then go to desired subsection -->
@@ -430,6 +430,34 @@ window.addEventListener('load', () => {
     }, 100); // wait for dynamic content to appear
   }
 });
+</script>
+
+<script>
+  // Script 1: GitHub "Last updated"
+  async function updateLastModified() {
+    const res = await fetch("https://api.github.com/repos/SRGSJHUPI/school/commits/main");
+    if (!res.ok) return;
+
+    const data = await res.json();
+    const dateStr = new Date(data.commit.committer.date).toLocaleString("en-IN", {
+      dateStyle: "long",
+      timeStyle: "medium"
+    });
+
+    document.getElementById("last-updated").innerText = `Last updated: ${dateStr}`;
+  }
+
+  // Script 2: Set current year in footer
+  function updateYear() {
+    const yearSpan = document.getElementById("current-year");
+    if (yearSpan) {
+      yearSpan.textContent = new Date().getFullYear();
+    }
+  }
+
+  // Run both
+  updateLastModified();
+  updateYear();
 </script>
 </body>
 </html>
