@@ -1,0 +1,18 @@
+/* text moving right to left at top */
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.scrolling-text {
+  display: inline-block;
+  min-width: 100%;
+  animation: scroll-left 18s linear infinite;
+}
+.scrolling-text:hover {
+  animation-play-state: paused;
+  cursor: pointer;
+}
