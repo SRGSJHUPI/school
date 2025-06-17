@@ -6,81 +6,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- custom common CSS -->
+  <link rel="stylesheet" href="css/common.css">
+  <!-- only html CSS -->
+  <link rel="stylesheet" href="css/index.css">
+
 
 <meta name="description" content="The Raising Nalanda offers IIT-level education for rural students—combining values, robotics, programming, research, and preparation for JEE, NEET, Olympiads & more. Empowering sharp minds with discipline, English mastery, and national-level exposure. Admissions open!">
 <meta name="keywords" content="The Rising Nalanda, Nalanda school, rural school, IIT prep, NEET coaching, English mastery, coding, Greater Noida schools">
 <meta name="author" content="The Rising Nalanda">
 <meta name="robots" content="index, follow">
 
-<style>
-  html {
-  scroll-behavior: smooth;
-}
-
-    .group:hover .group-hover\:block {
-      display: block;
-      animation: fadeIn 0.3s ease-in-out;
-    }
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(-10px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-    :target {
-      scroll-margin-top: 90px;
-    }
-
-    /* fade effect in buddha's image */
-    .fade-mask {
-  -webkit-mask-image: linear-gradient(
-    to right,
-    transparent 0%,
-    black 15%,
-    black 85%,
-    transparent 100%
-  );
-  mask-image: linear-gradient(
-    to right,
-    transparent 0%,
-    black 15%,
-    black 85%,
-    transparent 100%
-  );
-}
-
-/* text moving right to left at top */
-@keyframes scroll-left {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
-.scrolling-text {
-  display: inline-block;
-  min-width: 100%;
-  animation: scroll-left 18s linear infinite;
-}
-.scrolling-text:hover {
-  animation-play-state: paused;
-  cursor: pointer;
-}
-  </style>
-  </head>
+</head>
 <body class="bg-[#f8faff] font-sans">
   <a id="top"></a>
 
-<!-- Scrolling Banner -->
-<!-- Announcement Bar -->
+<!-- Scrolling Announcement Bar -->
 <div class="w-full bg-gradient-to-r from-indigo-500 via-pink-500 to-yellow-500 text-white py-2 overflow-hidden relative">
   <div class="scrolling-text whitespace-nowrap text-lg font-semibold flex items-center">
     🎓✨ Admission starting soon at <strong class="mx-1">The Rising Nalanda</strong>! 🚀 Enroll now and secure your future! 🌟📚
   </div>
 </div>
-
-
-
 
   <nav class="bg-white shadow-md p-4 sticky top-0 z-10">
     <div class="container mx-auto flex justify-between items-center">
@@ -527,62 +475,7 @@
   </div>
 </div>
 
-<script>
-  // Show modal only if not shown before
-  window.addEventListener('load', () => {
-    if (!localStorage.getItem('developerModalShown')) {
-      document.getElementById('customModal').classList.remove('hidden');
-      localStorage.setItem('developerModalShown', 'true');
-    }
-  });
-  function closeModal() {
-    document.getElementById('customModal').classList.add('hidden');
-  }
-</script>
-
-<!-- to go to correct subsection take care to load first dynamically content to appear then go to desired subsection -->
-<script>
-window.addEventListener('load', () => {
-  const hash = window.location.hash;
-  if (hash) {
-    setTimeout(() => {
-      const el = document.querySelector(hash);
-      if (el) {
-        el.scrollIntoView({ behavior: "smooth" });
-      }
-    }, 100); // wait for dynamic content to appear
-  }
-});
-</script>
-
-<script>
-  // Script 1: GitHub "Last updated"
-  async function updateLastModified() {
-    const res = await fetch("https://api.github.com/repos/SRGSJHUPI/school/commits/main");
-    if (!res.ok) return;
-
-    const data = await res.json();
-    const dateStr = new Date(data.commit.committer.date).toLocaleString("en-IN", {
-      dateStyle: "long",
-      timeStyle: "medium"
-    });
-
-    document.getElementById("last-updated").innerText = `Last updated: ${dateStr}`;
-  }
-
-  // Script 2: Set current year in footer
-  function updateYear() {
-    const yearSpan = document.getElementById("current-year");
-    if (yearSpan) {
-      yearSpan.textContent = new Date().getFullYear();
-    }
-  }
-
-  // Run both
-  updateLastModified();
-  updateYear();
-</script>
-
-
+<!-- common js -->
+<script src="js/common.js"></script>
 </body>
 </html>

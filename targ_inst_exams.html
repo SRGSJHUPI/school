@@ -8,22 +8,9 @@
         <!-- Tailwind CSS CDN -->
         <script src="https://cdn.tailwindcss.com"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-      <style>
-         html {
-  scroll-behavior: smooth;
-}
-    .group:hover .group-hover\:block {
-      display: block;
-      animation: fadeIn 0.3s ease-in-out;
-    }
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(-10px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-    :target {
-      scroll-margin-top: 90px;
-    }
-  </style>
+        <!-- custom common CSS -->
+        <link rel="stylesheet" href="css/common.css">
+      
   </head>
 <body class="bg-gray-50 text-gray-800 font-sans">
 
@@ -380,47 +367,9 @@
     &copy; <span id="current-year">2025</span> The Rising Nalanda. All rights reserved.
   </div>
 </footer>
-<!-- to go to correct subsection take care to load first dynamically content to appear then go to desired subsection -->
-<script>
-window.addEventListener('load', () => {
-  const hash = window.location.hash;
-  if (hash) {
-    setTimeout(() => {
-      const el = document.querySelector(hash);
-      if (el) {
-        el.scrollIntoView({ behavior: "smooth" });
-      }
-    }, 100); // wait for dynamic content to appear
-  }
-});
-</script>
 
-<script>
-  // Script 1: GitHub "Last updated"
-  async function updateLastModified() {
-    const res = await fetch("https://api.github.com/repos/SRGSJHUPI/school/commits/main");
-    if (!res.ok) return;
+<!-- common js -->
+<script src="js/common.js"></script>
 
-    const data = await res.json();
-    const dateStr = new Date(data.commit.committer.date).toLocaleString("en-IN", {
-      dateStyle: "long",
-      timeStyle: "medium"
-    });
-
-    document.getElementById("last-updated").innerText = `Last updated: ${dateStr}`;
-  }
-
-  // Script 2: Set current year in footer
-  function updateYear() {
-    const yearSpan = document.getElementById("current-year");
-    if (yearSpan) {
-      yearSpan.textContent = new Date().getFullYear();
-    }
-  }
-
-  // Run both
-  updateLastModified();
-  updateYear();
-</script>
 </body>
 </html>
