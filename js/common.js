@@ -1,7 +1,7 @@
 // -----------------last updated date and time shown in footer-----------------------------
 // Script 1: GitHub "Last updated"
   async function updateLastModified() {
-    const res = await fetch("https://api.github.com/repos/SRGSJHUPI/school/commits/main");
+    const res = await fetch("https://api.github.com/repos/SRGSJHUPI/school/commits/dev");
     if (!res.ok) return;
 
     const data = await res.json();
