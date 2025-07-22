@@ -1,0 +1,81 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+  }
+  .container {
+    max-width: 900px;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .class-heading {
+    display: block;
+    width: 100%;
+    background-color: #1c4e80;
+    color: white;
+    cursor: pointer;
+    font-size: 2.2em;
+    font-weight: bold;
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    outline: none;
+  }
+
+ 
+.class-heading.active {
+  background-color: red;  /* expanded color */
+}
+
+  .class-heading:hover  {
+    background-color: blue ;
+  }
+  .class-panel {
+    display: none;
+    padding-left: 10px;
+    border-left: 6px solid #2980b9;
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+
+  
+  .accordion {
+    background-color: #17cbc8;
+    color: white;
+    cursor: pointer;
+    padding: 15px 20px;
+    margin: 7px 0;
+    border: none;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 1.1em;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    transition: background-color 0.3s ease;
+    outline: none;
+    width: 100%;
+  }
+  .accordion:hover, .accordion.active {
+    background-color: #2448fd;
+  }
+  .panel {
+    padding: 0 20px 10px 20px;
+    background-color: #f9f9f9;
+    display: none;
+    overflow: hidden;
+    border-left: 4px solid #2419ff;
+    margin-bottom: 8px;
+  }
+  ul, ol {
+    padding-left: 22px;
+    margin: 8px 0 6px 0;
+  }
