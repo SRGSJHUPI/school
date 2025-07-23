@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const expandAllBtn = document.getElementById("expandAll");
   const collapseAllBtn = document.getElementById("collapseAll");
 
+  const curriculum = window.curriculumData || {};
+
   const state = {
     panels: [],          // For all topic panels
     subjectContainers: [] // For class-wise subject grids
