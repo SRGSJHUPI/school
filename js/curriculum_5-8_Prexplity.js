@@ -65,13 +65,15 @@ Object.assign(window.curriculumData, {
     ],
     "🌱 Moral Values": [
       "Chapter 1(What is Humanity?) : Exploring the meaning of humanity through stories, activities, and school service.",
-      "Chapter 2(Understanding Caste and Fairness) : Stories (age-appropriate), classroom discussions on caste, equality, personal stories.",
-      "Chapter 3(Honoring All Work) : Projects about different jobs, cleaning duties, interviews with staff.",
-      "Chapter 4(Rules, Sharing, and Kindness) : Role-play, sharing in class, daily kindness prompts.",
-      "Chapter 5(Gender and Privacy) : Privacy and gender fairness activities, learning respect for all.",
-      "Chapter 6(Poster Project) : 'What I Believe In' – personal posters/writings, year-end presentation.",
-      "Chapter 7(Reflection and Ethics) : Truth in tough times, respect for everyone, listening to perspectives.",
-      "Chapter 8(Environmental Duties) : Individual and team projects for improving classroom/school environment."
+      "Chapter 2(Religions) : Introduction to Religions, why Religion , how to .",
+      "Chapter 3(Atheism) : Introduction to Atheism, who are Atheist, Religious V/S Atheist person, quotes of Babasaheb on Religion.",
+      "Chapter 4(Understanding Caste and Fairness) : Stories (age-appropriate), classroom discussions on caste, race, equality, personal stories.",
+      "Chapter 5(Honoring All Work) : Projects about different jobs, cleaning duties, interviews with staff.",
+      "Chapter 6(Rules, Sharing, and Kindness) : Role-play, sharing in class, daily kindness prompts.",
+      "Chapter 7(Gender and Privacy) : Privacy and gender fairness activities, learning respect for all.",
+      "Chapter 8(Poster Project) : 'What I Believe In' – personal posters/writings, year-end presentation.",
+      "Chapter 9(Reflection and Ethics) : Truth in tough times, respect for everyone, listening to perspectives.",
+      "Chapter 10(Environmental Duties) : Individual and team projects for improving classroom/school environment."
     ],
     "🗣️ Languages": [
       "Chapter 1(Multilingual Vocabulary) : Writing word meanings in English, Hindi, Japanese, Chinese, Spanish for key subject terms.",
@@ -211,16 +213,20 @@ Object.assign(window.curriculumData, {
       "Chapter 2(Respect and Gender Equality) : Respecting all, girls’ rights, speaking against harm, anti-bullying.",
       "Chapter 3(Caste Discrimination) : What is caste? Why is it wrong? Real stories, classroom discussion.",
       "Chapter 4(Ethics of Responsibility) : Home, school, environmental duties, empathy and kindness for animals.",
-      "Chapter 5(Friendship & Inclusion) : Peer support, inclusive behavior, recognition of all.",
-      "Chapter 6(Propaganda and Critical Thinking) : What is propaganda? Examples from life, religion, science. Analyzing propaganda song ‘Bhagat ke was me hai Bhagwan’.",
-      "Chapter 7(Ethical Issues Case Studies) : Topic-based study—caste atrocity, child labor, hate speech (e.g. Khairlanji, Vemula, Gujarat 2002).",
-      "Chapter 8(What Would You Do?) : Reflection, role-play, designing an action idea.",
-      "Chapter 9(Courtroom Drama) : Simulating litigation on caste/gender, RTI and citizens’ rights, role-play election and newsroom reporting.",
-      "Chapter 10(Debate and Research Projects) : Should religion influence law? Should inter-caste marriage be legal? Research casteism in your area, interviews with marginalized communities."
+      "Chapter 5(Veg V/S Non-Veg people) : Is eating meat necessary?, Need of meat for human body, people eating meat can love nature?, other countries vs India",
+      "Chapter 6(Friendship & Inclusion) : Peer support, inclusive behavior, recognition of all.",
+      "Chapter 7(Propaganda and Critical Thinking) : What is propaganda? Examples from life, religion, science. Analyzing propaganda songs like ‘Bhagat ke was me hai Bhagwan’.",
+      "Chapter 8(Ethical Issues Case Studies) : Topic-based study—caste atrocity, child labor, hate speech (e.g. Khairlanji, Vemula, Gujarat 2002).",
+      "Chapter 9(What Would You Do?) : Reflection, role-play, designing an action idea.",
+      "Chapter 10(Courtroom Drama) : Simulating litigation on caste/gender, RTI and citizens’ rights, role-play election and newsroom reporting.",
+      "Chapter 11(Debate and Research Projects) : Should religion influence law? Should inter-caste marriage be legal? Research casteism in your area, interviews with marginalized communities."
     ],
 
     "🗣️ Languages": [
-      "Chapter 1(Multilingual Awareness) : Basic communication, vocabulary, and greetings in major Indian and world languages; translation of 10–20 key subject terms."
+      "Chapter 1(Multilingual Awareness) : Basic communication, vocabulary, and greetings in major Indian and world languages; translation of 10–20 key subject terms.",
+      "Chapter 2(Importance of multiple languages) : why multi languages, benefits of being multilingual, real-life examples.",
+      "Chapter 3(Characters) : Writing Characters in different languages",
+      "Chapter 3(Word Meanings) : make them write word meaning in different languages like hindi, eng, japanese, mandarin"
     ],
 
     "👥 GGC (General Guidance Class)": [
@@ -274,7 +280,7 @@ Object.assign(window.curriculumData, {
       "Chapter 2(Algebraic Identities and Equations) : Manipulation and use of algebraic identities; solving simple linear equations.",
       "Chapter 3(3D, Vectors, Probability, and Statistics) : 3D geometry visualization, introduction to vectors, intermediate probability (with real-life experiment cases), central tendencies, bar, and pie charts.",
       "Chapter 4(Congruence of Triangles) : Tests of congruence, problems, and geometric proofs.",
-      "Chapter 5(Lines, Angles, and Circles) : Properties, theorem work with area and circumference of circles.",
+      "Chapter 5(Lines, Angles, and Circles) : Properties, theorem work with area and circumference of circles (class 9th chapter included).",
       "Chapter 6(Rational Numbers) : Properties, operations, ordering, and problems.",
       "Chapter 7(Data Handling & Graphs) : Pie charts, probability introductions, graph plotting in the first quadrant.",
       "Chapter 8(Percentages, Profit/Loss) : Real-life money problems, percentage calculations, gross/net profit problems."
@@ -285,7 +291,8 @@ Object.assign(window.curriculumData, {
       "Chapter 3(Reflection of Light) : Laws of reflection, role play, and mirror experiments.",
       "Chapter 4(Electric Circuits) : Conductors and insulators, circuit diagrams with bulbs and switches.",
       "Chapter 5(Force and Its Effects) : Newton’s laws, effects of force, problem-solving exercises.",
-      "Chapter 6(Wind, Storms, Cyclones) : Causes, impact, natural disaster safety, data-based analysis."
+      "Chapter 6(Wind, Storms, Cyclones) : Causes, impact, natural disaster safety, data-based analysis.",
+      "Chapter  (Rotation and Linear Motion) : Rotation motion, Linear motion, their relations, Types of Gear and Gear Ratios"
     ],
     "⚗️ Chemistry": [
       "Chapter 1(Properties and Classification of Matter) : Solid, liquid, gas, colloids, and suspensions; simple hands-on lab activities.",
@@ -409,16 +416,25 @@ Object.assign(window.curriculumData, {
 
     // Mathematics: Advanced School to Pre-University
     "➗ Mathematics": [
-      "Chapter 1(CBSE 12th Level Topics) : Full coverage of vector algebra, 3D geometry, advanced probability, statistics, and matrix operations.",
-      "Chapter 2(Taylor Series & Trigonometric Expansions) : Taylor and Maclaurin series, expansion of sin(Q), cos(Q), e^Q, with applications.",
-      "Chapter 3(Quadrilaterals & Proofs) : Properties of quadrilaterals, theorems, and visual proofs.",
-      "Chapter 4(Linear Equations) : One variable, word problems, algebraic solution strategies.",
-      "Chapter 5(Exponents and Powers) : Laws, simplification, scientific notation, calculations.",
-      "Chapter 6(Geometry: Constructions & Congruence) : Constructions using ruler/compass, congruence tests, problems involving triangles.",
-      "Chapter 7(Mensuration & Volumes) : Surface area and volume for cubes, cuboids, cylinders, cones, spheres.",
-      "Chapter 8(Factorisation, Square and Cube Roots) : Factoring algebraic expressions, shortcut methods, rationalizing, roots.",
-      "Chapter 9(Probability Basics) : Event, sample space, simple classical probability."
+      "Chapter 1(Number System) : Introduction to Number System(9+10 CBSE), Real Numbers, Complex Numbers Polynomials, ",
+      "Chapter 2(Linear Equations) : Linear Equations in n(1,2,3...) variables, word problems, algebraic solution strategies.",
+      "Chapter 3(Geometries) : Introduction to Triangles, quadrilaterals and other geometries. Their properties, theorems, and visual proofs.",
+      "Chapter 4(Coordinate Geometry) : Points, 1D, 2D, 3D, Euclid's postulates and axioms CBSE-9, Heron’s Formula, Parameter, of Circles, Parallelograms and Triangles",
+      "Chapter 5(Mensuration & Volumes) : Parameter, Surface area and volume for cubes, cuboids, cylinders, cones, spheres etc.",
+      "Chapter 6(Vectors and Matrix) :  vector algebra and matrix and its Determinants.",
+      "Chapter 7(Geometry: Constructions & Congruence) : Constructions using ruler/compass, congruence tests, problems involving triangles.",
+      "Chapter 8(Statistics) : introduction to statistics.",
+      "Chapter 9(Trigonometry) : Introduction to Trigonometry and Trigonometric Functions, Inverse Trigonometric Functions, and their Applications",
+      "Chapter 10(Taylor Series & Trigonometric Expansions) : Taylor and Maclaurin series, expansion of sin(Q), cos(Q), e^Q, with applications.",
+      "Chapter 11(Exponents and Powers) : Laws, simplification, scientific notation, calculations.",
+      "Chapter 12(Factorisation, Square and Cube Roots) : Factoring algebraic expressions, shortcut methods, rationalizing, roots.",
+      "Chapter 13(Probability Basics) : Event, sample space, simple classical probability.",
+      "Chapter 14(Progressions Series) : A.P, G.P, H.P., Sequences and Series",
+      "Chapter 15(Calculus) : Introduction to Limits, Dericatives and Integration. Also their Applications ",
+      "Chapter 16(Misc) : Sets, Relations and Functions, Conic Sections, Linear Inequalities"
+      //"Chapter 17(Optional) : PMI, Complex Numbers and Quadratic Equations, PnC, Binomial Theorem, Mathematical Reasoning, Continuity and Differentiability, Differential Equations, Linear Programming "
     ],
+
 
     // Physics
     "🔬 Physics": [

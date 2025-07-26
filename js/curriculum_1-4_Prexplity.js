@@ -2,11 +2,11 @@ window.curriculumData = window.curriculumData || {};
 Object.assign(window.curriculumData, {
   "📚 Class 1": {
     "📖 English – Priority Course": [
-      "Chapter 1(Importance of Education) : Poems and stories on why study is necessary, in both Hindi and English. Teacher-created and student-composed poems. Encourage each child to explain and retell, focusing on ethics and values.",
+      "Chapter 1(Importance of Education) : Poems and stories on why study is necessary. Teacher-created and student-composed poems. Encourage each child to explain and retell, focusing on ethics and values.",
       "Chapter 2(Building Speaking Skills) : Daily story retelling, peer sharing, roleplay with classroom themes, focus on clarity and confidence.",
-      "Chapter 3(Grammar Foundation) : Sentence formation, introduction to capital letters, full stops, question marks, and forming small questions.",
+      "Chapter 3(Grammar Foundation) : introduction to capital letters, small letters, full stops, question marks, and forming small questions.",
       "Chapter 4(Building Vocabulary) : Picture-word association, sight words, fun with word games, rhymes, and everyday vocabulary practice.",
-      "Chapter 5(GRE & TOEFL Foundation) : Listening exercises, vocabulary games, simple English comprehension passages, recognizing verbal analogies, question-based dialogs."
+      
     ],
     "💻 Computer Science": [
       "Chapter 1(Introduction to Computers) : What is a computer? Major parts – monitor, keyboard, mouse, CPU.",
@@ -86,7 +86,7 @@ Object.assign(window.curriculumData, {
   "📚 Class 2": {
     "📖 English – Focus Course": [
       "Chapter 1(Why We Study) : Poems and stories (English and Hindi), teacher- and student-made – classroom discussion on the necessity of education, ethics, and values[1].",
-      "Chapter 2(GRE & TOEFL Foundations) : Listening comprehension, speak and retell, answer logic-based questions, vocabulary games, basic reading practice.",
+      "Chapter 2(Story telling) : Story of social reformers like Dr. B.R. Ambedkar, Nalson Mandela and try to make them understand why one should study",
       "Chapter 3(Logic Building with Language) : Puzzle stories, sequencing sentences, riddles, storytelling with a beginning-middle-end exercise.",
       "Chapter 4(Grammar Essentials) : Nouns, verbs, adjectives, sentence making, plurals and simple tenses.",
       "Chapter 5(Vocabulary Expansion) : Antonyms, synonyms, picture-word exercises, making a personal dictionary.",
@@ -113,7 +113,9 @@ Object.assign(window.curriculumData, {
     "🔬 Physics": [
       "Chapter 1(Forces all Around) : Push, pull, rolling, sliding, toy experiments.",
       "Chapter 2(Simple Machines) : Use of levers, wheel and axle in day-to-day life.",
-      "Chapter 3(Light and Sound Fun) : Basic experiments with mirrors, sounds of objects, vibrations."
+      "Chapter 3(Light and Sound Fun) : Basic experiments with mirrors, sounds of objects, vibrations.",
+      "Chapter 4(physics is fun) : Do some experiments like making bubbles with soap, why things come back to earth and try explain its physics",
+      "Chapter 5(Our Earth) : How day night happen, its roration"
     ],
     "⚗️ Chemistry": [
       "Chapter 1(Materials Around Us) : Identify and sort – wood, plastic, glass, metal.",
@@ -145,7 +147,9 @@ Object.assign(window.curriculumData, {
       "Chapter 3(Cleanliness & Habits) : Clean classroom, clean desk, meaning of inner cleanliness.",
       "Chapter 4(Helping and Friendship) : 'What is friendship?', helping in need, acts of care.",
       "Chapter 5(Equal Treatment) : Celebrating differences, fairness, saying sorry, and learning from mistakes.",
-      "Chapter 6(Reflection & Dramatization) : Stories (Unity is Strength, The Honest Woodcutter), role-play: Good vs bad habits, pretend classroom to reinforce helping and respect."
+      "Chapter 6(Reflection & Dramatization) : Stories (Unity is Strength, The Honest Woodcutter), role-play: Good vs bad habits, pretend classroom to reinforce helping and respect.",
+      "Chapter 6(Behave with parents) : Behaviour with parents, with siblings, with others."
+      
     ],
     "🗣️ Languages": [
       "Chapter 1(What is Language?) : Exploring the need for language, different ways people communicate.",
@@ -167,14 +171,15 @@ Object.assign(window.curriculumData, {
     "🔬 Research Projects (R.P)": [
       "Chapter 1(Sensors in Action) : Different sensors used in airplanes, boats, robots (videos, simple kits).",
       "Chapter 2(Robotics Introduction) : Watch and handle toys/kits, draw a robot, match machines to tasks.",
-      "Chapter 3(Machine Learning for Kids) : Sorting games, matching images, 'what is learning for a robot?' question, excerpts and demos from NPTEL for kids."
+      "Chapter 3(Machine Learning for Kids) : Sorting games, matching images, 'what is learning for a robot?' question, excerpts and demos from NPTEL for kids.",
+      "Chapter 4(YouTube videos) : show youtube videos of airplane flying, drone flying, robot talking... to bring curiosity in them"
     ]
   },
 
   "📚 Class 3": {
     "📖 English – Priority Course": [
-      "Chapter 1(Importance of Education) : Stories and poems on the necessity of learning, including both Hindi and English versions; classroom activity where children explain and retell, fostering values and ethics, teacher- and student-made poems.",
-      "Chapter 2(Types of Books) : Which books are valuable to keep for the future and which can be ignored – discussions and sorting activities. Book review and book club sharing.",
+      "Chapter 1(Importance of Education) : Stories and poems on the necessity of learning, classroom activity where children explain and retell, fostering values and ethics, teacher- and student-made poems.",
+      "Chapter 2(Books) : What are Books, Who write books, value of books and thier care- discussions and sorting activities.",
       "Chapter 3(Logic Building with Language) : Logic puzzles, sequencing stories, riddles, cause/effect games, logic-based reading comprehension.",
       "Chapter 4(GRE & TOEFL Foundation) : Reading comprehension passages, vocabulary games, beginning verbal reasoning, listening exercises, analogy puzzles.",
       "Chapter 5(Grammar and Writing Skills) : Tenses, punctuation, sentence building, constructing paragraphs, simple creative writing exercises.",
@@ -186,7 +191,8 @@ Object.assign(window.curriculumData, {
       "Chapter 2(Basics of Text Editor) : Typing, saving files, using Notepad/Word/Paint for basic formatting and written exercises.",
       "Chapter 3(Input and Output Devices) : Functions of keyboard, mouse, monitor, printer, scanner, and real-world usage.",
       "Chapter 4(Logic and Patterns) : Introduction to patterns, sequences, filling missing blocks (unplugged logic games).",
-      "Chapter 5(Computer Etiquette and Cyber Safety) : Rules of safe computer use, respecting devices, password strength, kindness online, digital footprint basics."
+      "Chapter 5(Computer Etiquette and Cyber Safety) : Rules of safe computer use, respecting devices, password strength, kindness online, digital footprint basics.",
+      "Chapter 6(Typing master) : Allow them to type words in typing softwares"
     ],
     "➗ Mathematics": [
       "Chapter 1(Four-Digit Numbers) : Reading, writing, arranging, and comparing numbers up to 9,999.",
@@ -195,7 +201,7 @@ Object.assign(window.curriculumData, {
       "Chapter 4(Fractions) : Understanding halves, quarters, and thirds using visual aids and real-life examples (pizza, fruit).",
       "Chapter 5(Shapes and Symmetry) : Identifying 2D shapes, basic properties, introducing lines of symmetry through activity sheets.",
       "Chapter 6(Money Transactions) : Simulated buying and selling, making change, comparison of prices.",
-      "Chapter 7(Time in 24-Hour Format) : Reading digital/analog clocks, duration calculation, calendar activities.",
+      "Chapter 7(Time in 12, 24-Hour Format) : Reading digital/analog clocks, duration calculation, calendar activities.",
       "Chapter 8(Data Collection & Representation) : Gathering simple classroom data, tally marks, pictographs, bar graphs; creating and reading charts."
     ],
     "🔬 Physics": [

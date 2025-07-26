@@ -129,8 +129,9 @@ Object.assign(window.curriculumData, {
       "Chapter 5(Kinesiology and Biomechanics) : Understanding movement, posture, and body mechanics."
     ],
 
-    "🧠 General Knowledge (G.K)": [
-      "Chapter 1(Current Affairs) : Weekly world and national news analysis, international summits, Nobel and major awards, exam-based quiz practice."
+    "🧠 Logic World": [
+      "Chapter 1(Current Affairs) : Weekly world and national news analysis, international summits, Nobel and major awards, exam-based quiz practice.",
+      "Chapter 2(Aptitude) : Aptitude questions targetting different exams."
     ],
 
     "🔬 Research Projects (R.P)": [
@@ -243,8 +244,9 @@ Object.assign(window.curriculumData, {
       "Chapter 1(Advanced Training & Health) : Fitness principles, mental well-being, nutrition.",
       "Chapter 2(Sports Ethics & Psychology) : Motivation, injury prevention, leadership."
     ],
-    "🧠 General Knowledge": [
-      "Chapter 1(Current Affairs & World Knowledge) : Geopolitical events, scientific breakthroughs, international treaties."
+    "🧠 Logic World": [
+      "Chapter 1(Current Affairs & World Knowledge) : Geopolitical events, scientific breakthroughs, international treaties.",
+      "Chapter 2(Aptitude) : Aptitude questions targetting different exams."
     ],
     "🔬 Research Projects": [
       "Chapter 1(Robotics & Applied Technology) : Advanced robotics, machine principles, project presentations."
@@ -368,8 +370,9 @@ Object.assign(window.curriculumData, {
       "Chapter 1(Physical Education) : As per current board—advanced fitness principles, sports skills, team roles, health management."
     ],
 
-    "🧠 General Knowledge (G.K)": [
-      "Chapter 1(Exam & Life Preparation) : GK modules and current affairs tailored as per focus (UPSC/entrance/other)."
+    "🧠 Logic World": [
+      "Chapter 1(Exam & Life Preparation) : GK modules and current affairs tailored as per focus (UPSC/entrance/other).",
+      "Chapter 2(Aptitude) : Aptitude questions targetting different exams."
     ],
 
     "🔬 Research Projects (R.P)": [
@@ -475,8 +478,9 @@ Object.assign(window.curriculumData, {
       "Chapter 1(PE and Sports Science) : Fitness, career paths, health issues as per board guidelines for 12th."
     ],
 
-    "🧠 General Knowledge (G.K)": [
-      "Chapter 1(Current Affairs & Competitive Prep) : Focused on major exams, analytical skills, debating, and regular quiz practice."
+    "🧠 Logic World": [
+      "Chapter 1(Current Affairs & Competitive Prep) : Focused on major exams, analytical skills, debating, and regular quiz practice.",
+      "Chapter 2(Aptitude) : Aptitude questions targetting different exams."
     ],
 
     "🔬 Research Projects (R.P)": [
