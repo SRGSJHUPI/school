@@ -1,11 +1,28 @@
 window.curriculumData = window.curriculumData || {};
 Object.assign(window.curriculumData, {
     "📚 Class 5": {
-    "📖 English – Priority Course": [
-      "Chapter 1(Importance of Education) : Poems and stories in both English and Hindi on why education matters; student presentations, teacher and student-created poems, ethics through narrative, focused on classroom speaking and understanding.",
-      "Chapter 2(GRE & TOEFL Foundations) : Regular listening comprehension, vocabulary games and analogies, reading short passages, structured speaking drills, logic-based English quizzes.",
+      "📖 English 1 – Literature & Comprehension": [
+      "Chapter 1(Importance of Education) : Poems and stories highlighting why education matters; student presentations, teacher and student-created poems, ethics through narrative, focused on classroom speaking and understanding including class discussions, retelling, and original student/teacher poems.",
+      "Chapter 2(Stories of Courage and Role Models) : Folk tales, stories of Dr. Ambedkar, Panchatantra, Akbar-Birbal, and modern heroes featuring debate and storytelling.",
+      "Chapter 3(Reading Comprehension) : Skills in inference, sequencing, skimming, and scanning applied to short passages and literature.",
+      "Chapter 1(Importance of Education) :",
+
+    ],
+    "📖 English 2 – Communication & Listening": [
+      "Chapter 1(Speaking Skills) : Daily practice via role-plays, storytelling, class news hour, and personal experiences. Regular listening comprehension, vocabulary games and analogies, reading short passages, structured speaking drills, logic-based English quizzes",
+      "Chapter 2(Listening Skills) : Listening to stories, following instructions, peer-to-peer exercises, and recall games.",
+      "Chapter 3(Vocabulary and Word Games) : Synonyms, antonyms, analogies, logic puzzles from GRE/TOEFL foundations.",
+      "Chapter 4(Read-Aloud and Practice Tests) : Reading sample passages and answering comprehension/logical questions.",
+      "Chapter 5(Speaking and Listening Practice) : Presenting views, logical reasoning discussions, pronunciation and fluency exercises.",
       "Chapter 3(Advanced Communication) : Public speaking, debate, group discussion on current events and classroom topics, daily conversation practice.",
-      "Chapter 4(Grammar and Writing Mastery) : Sentence structure (all tenses), punctuation, conjunctions, subject-verb agreement, creative writing (stories, essays, letters), editing and peer review activities."
+
+    ],
+    "📖 English Grammar": [
+      "Chapter 1(Parts of Speech) : Nouns, pronouns, verbs, adjectives, adverbs, application through activities and worksheets.",
+      "Chapter 2(Tenses and Sentence Structure) : Simple present, past, future; constructing all types of sentences.",
+      "Chapter 3(Punctuation) : Capitals, full stops, question and exclamation marks, commas.",
+      "Chapter 4(Paragraph and Letter Writing) : Story writing, friendly and formal letter practice.",
+      "Chapter 4(Sentences) : Sentence structure (all tenses), punctuation, conjunctions, subject-verb agreement, creative writing (stories, essays, letters), editing and peer review activities."
     ],
     "💻 Computer Science & Digital Literacy": [
       "Chapter 1(Hardware and Software) : Deep dive into computer parts, hardware-vs-software exploration, assembly/disassembly demos, comparison studies.",
@@ -73,7 +90,8 @@ Object.assign(window.curriculumData, {
       "Chapter 7(Gender and Privacy) : Privacy and gender fairness activities, learning respect for all.",
       "Chapter 8(Poster Project) : 'What I Believe In' – personal posters/writings, year-end presentation.",
       "Chapter 9(Reflection and Ethics) : Truth in tough times, respect for everyone, listening to perspectives.",
-      "Chapter 10(Environmental Duties) : Individual and team projects for improving classroom/school environment."
+      "Chapter 10(Environmental Duties) : Individual and team projects for improving classroom/school environment.",
+      "Chapter 11(Parade) : Teaching about police, army ... duty and responsibility. Also there will be weekly parade and self safety in case of fire, earthquake or any other emergency."
     ],
     "🗣️ Languages": [
       "Chapter 1(Multilingual Vocabulary) : Writing word meanings in English, Hindi, Japanese, Chinese, Spanish for key subject terms.",
@@ -219,7 +237,8 @@ Object.assign(window.curriculumData, {
       "Chapter 8(Ethical Issues Case Studies) : Topic-based study—caste atrocity, child labor, hate speech (e.g. Khairlanji, Vemula, Gujarat 2002).",
       "Chapter 9(What Would You Do?) : Reflection, role-play, designing an action idea.",
       "Chapter 10(Courtroom Drama) : Simulating litigation on caste/gender, RTI and citizens’ rights, role-play election and newsroom reporting.",
-      "Chapter 11(Debate and Research Projects) : Should religion influence law? Should inter-caste marriage be legal? Research casteism in your area, interviews with marginalized communities."
+      "Chapter 11(Debate and Research Projects) : Should religion influence law? Should inter-caste marriage be legal? Research casteism in your area, interviews with marginalized communities.",
+      "Chapter 12(Parade) : Teaching about police, army ... duty and responsibility. Also there will be weekly parade and self safety in case of fire, earthquake or any other emergency."
     ],
 
     "🗣️ Languages": [
@@ -359,22 +378,25 @@ Object.assign(window.curriculumData, {
       "Chapter 8(Respect & Apology) : Strategies to apologize, forgive, classroom activities.",
       "Chapter 9(Children’s Rights) : Awareness of children’s rights through case readings.",
       "Chapter 10(Standing Up for Others) : Bystander effect and supporting friends.",
-      "Chapter 11(Self-Reflection) : 'Who Am I Becoming?'—discussion and journaling."
-    ],
+      "Chapter 11(Self-Reflection) : 'Who Am I Becoming?'—discussion and journaling.",
+      "Chapter 12(Parade) : Teaching about police, army ... duty and responsibility. Also there will be weekly parade and self safety in case fire, earthquake or any other emergency.",
+      "Chapter 13(Mental Strength) : Importance of life, Why do some people commit suicide?, Do we like for ourselves only?, understanding mental health and seeking help",
+      "Chapter 14(Philosophies) : <a href='pdf/Buddhist_Philosophy.pdf' target='_blank' class='text-blue-700 underline hover:text-blue-400'>Buddhist philosophy</a>, mindfulness, and the pursuit of inner peace."    ],
     "🗣️ Languages": [
       "Chapter 1(Foreign Language Foundations) : Exposure to Spanish, Japanese, French, Chinese through vocabulary, greetings, mini-dialogues, and subject terminology translation.",
       "Chapter 2(Language and Career) : Exploring the importance of language skills for international careers, basic CV exercises."
     ],
     "👥 GGC (General Guidance Class)": [
       "Chapter 1(Major Global Exams & Scholarships) : NTSE, KVPY, IOQM, INChO, IJSO, STEP, TOEFL Junior, SAT/PSAT explained.",
-      "Chapter 2(CV Building & Professional Profiles) : Early-stage CV/portfolio making; GitHub, LinkedIn basics.",
-      "Chapter 3(Project and Internship Guidance) : Social service project ideas (school & community), tracking progress.",
-      "Chapter 4(Career Planning) : How to align strengths, interests, values with impactful careers.",
-      "Chapter 5(Language in Careers) : How language skills open global doors (testimonials, examples).",
-      "Chapter 6(Inspirational Young Achievers) : Study and comparison of achievers—Faye Zhang, Anvita Gupta, Jordan Casey, Arjun Ajay, Zora Ball.",
-      "Chapter 7(Gaming & eSports) : Analysis of success stories: Mortal, Mavi, Rakin, Mongraal, Bizzle; what it takes to succeed.",
-      "Chapter 8(Social Contribution & Activism) : Case studies, project inspiration—Vihaan & Nav Agarwal, Jaylen Arnold, Payal Jangid, Naomi Wadler, Ananya Grover.",
-      "Chapter 9(Action-Oriented Reflection) : Mapping a personal journey, action plan (project, skill, mentor search) based on global achievers."
+      "Chapter 2(Major Scholarships) : Introduction to scholarship for graducation and post graduation also for foreign study will be explained like FFE,  Reliance, HDFC, NSP, overseas and others explained.",
+      "Chapter 3(CV Building & Professional Profiles) : Early-stage CV/portfolio making; GitHub, LinkedIn basics.",
+      "Chapter 4(Project and Internship Guidance) : Social service project ideas (school & community), tracking progress.",
+      "Chapter 5(Career Planning) : How to align strengths, interests, values with impactful careers.",
+      "Chapter 6(Language in Careers) : How language skills open global doors (testimonials, examples).",
+      "Chapter 7(Inspirational Young Achievers) : Study and comparison of achievers—Faye Zhang, Anvita Gupta, Jordan Casey, Arjun Ajay, Zora Ball.",
+      "Chapter 8(Gaming & eSports) : Analysis of success stories: Mortal, Mavi, Rakin, Mongraal, Bizzle; what it takes to succeed.",
+      "Chapter 9(Social Contribution & Activism) : Case studies, project inspiration—Vihaan & Nav Agarwal, Jaylen Arnold, Payal Jangid, Naomi Wadler, Ananya Grover.",
+      "Chapter 10(Action-Oriented Reflection) : Mapping a personal journey, action plan (project, skill, mentor search) based on global achievers."
     ],
     "🏃‍♂️ Games & Physical Education": [
       "Chapter 1(Muscular and Skeletal Systems) : Anatomy, function, and injury prevention.",
@@ -528,7 +550,10 @@ Object.assign(window.curriculumData, {
       "Chapter 11(Environmental Responsibility) : Role in ecological action, project on conservation.",
       "Chapter 12(Child Labour & Exploitation) : Research, films, poster presentations.",
       "Chapter 13(Group Projects) : Poster + presentation, school exhibition.",
-      "Chapter 14(Critical Societal Questions and Simulations) : Debates on Indian ethics, parliamentary simulation on reservation/free education, Model UN (climate, human rights), moot court (cyberbullying, SC/ST Act), stakeholder role-play, and panel on voting age."
+      "Chapter 14(Critical Societal Questions and Simulations) : Debates on Indian ethics, parliamentary simulation on reservation/free education, Model UN (climate, human rights), moot court (cyberbullying, SC/ST Act), stakeholder role-play, and panel on voting age.",
+      "Chapter 15(Parade) : Teaching about police, army ... duty and responsibility. Also there will be weekly parade and self safety in case fire, earthquake or any other emergency.",
+      "Chapter 16(Mental Strength) : Why do some people commit suicide?, understanding mental health and seeking help, Importance of life"
+
     ],
 
     // Languages
@@ -543,7 +568,8 @@ Object.assign(window.curriculumData, {
       "Chapter 3(Writing for Success) : SOPs, Letters of Recommendation, essays, statement of purpose and accomplishment.",
       "Chapter 4(Research & Exchange) : Applying for Vidyarthi Vigyan Manthan, IYSA, INSPIRE, other research, foreign exchange/fellowship programs.",
       // Young Achievers & Innovation
-      "Chapter 5(Youth Inspiration) : Stories of tech/gaming/social youth innovators: Riya Karumanchi, Lim Ding Wen, Mihir Garimella, Snax, Martoz, Vivienne Harr, Kavya Kopparapu; life, learning sources, habits, challenges, societal impact, personalized action plan projects."
+      "Chapter 5(Youth Inspiration) : Stories of tech/gaming/social youth innovators: Riya Karumanchi, Lim Ding Wen, Mihir Garimella, Snax, Martoz, Vivienne Harr, Kavya Kopparapu; life, learning sources, habits, challenges, societal impact, personalized action plan projects.",
+      "Chapter 6(Competitions) : Introduction to global competition like \"swift student challenge\".",
     ],
 
     // Games and Physical Education

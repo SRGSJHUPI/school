@@ -58,7 +58,8 @@ Object.assign(window.curriculumData, {
       "Chapter 3(Clean Hands, Clean Heart) : Hand wash activity, keeping self and classroom clean, honesty exercises.",
       "Chapter 4(Ethics Through Storytelling) : Stories on kindness to animals, listening to elders, helping at home.",
       "Chapter 5(Truthfulness and Respect) : Daily reflection, ‘what makes you happy’ journal, respecting everyone.",
-      "Chapter 6(Year-End Review) : Reflection over what was learned, student self-expression."
+      "Chapter 6(Year-End Review) : Reflection over what was learned, student self-expression.",
+      "Chapter 7(Parade) : Teaching about police, army ... duty and responsibility. Also there will be weekly parade and self safety in case of fire, earthquake or any other emergency."
     ],
     "🗣️ Languages": [
       "Chapter 1(Language Diversity) : Basic greetings and rhymes from other Indian and world languages, learning to say 'Hello' in 5+ languages.",
@@ -148,7 +149,8 @@ Object.assign(window.curriculumData, {
       "Chapter 4(Helping and Friendship) : 'What is friendship?', helping in need, acts of care.",
       "Chapter 5(Equal Treatment) : Celebrating differences, fairness, saying sorry, and learning from mistakes.",
       "Chapter 6(Reflection & Dramatization) : Stories (Unity is Strength, The Honest Woodcutter), role-play: Good vs bad habits, pretend classroom to reinforce helping and respect.",
-      "Chapter 6(Behave with parents) : Behaviour with parents, with siblings, with others."
+      "Chapter 6(Behave with parents) : Behaviour with parents, with siblings, with others.",
+      "Chapter 7(Parade) : Teaching about police, army ... duty and responsibility. Also there will be weekly parade and self safety in case of fire, earthquake or any other emergency."
       
     ],
     "🗣️ Languages": [
@@ -242,7 +244,8 @@ Object.assign(window.curriculumData, {
       "Chapter 6(Personal Reflection) : 'My favorite value', journal and group sharing.",
       "Chapter 7(Touch Safety) : Saying no to bad/unwanted touch, understanding boundaries.",
       "Chapter 8(Rules and Obedience) : Importance of obeying both classroom and home rules.",
-      "Chapter 9(Roleplaying & Kindness Drama) : Panchatantra & Akbar-Birbal tales, Buddha & kindness, Market Day simulation with fake currency to teach fairness, School Parliament activity, and acting out ‘Kindness is Contagious’ (real-life hero stories)."
+      "Chapter 9(Roleplaying & Kindness Drama) : Panchatantra & Akbar-Birbal tales, Buddha & kindness, Market Day simulation with fake currency to teach fairness, School Parliament activity, and acting out ‘Kindness is Contagious’ (real-life hero stories).",
+      "Chapter 10(Parade) : Teaching about police, army ... duty and responsibility. Also there will be weekly parade and self safety in case of fire, earthquake or any other emergency."
     ],
     "🗣️ Languages": [
       "Chapter 1(What is Language?) : Why and how do we communicate, importance and origin of languages, major language families.",
@@ -278,18 +281,16 @@ Object.assign(window.curriculumData, {
     ],
     "📖 English 2 – Communication & Listening": [
       "Chapter 1(Speaking Skills) : Daily practice via role-plays, storytelling, class news hour, and personal experiences.",
-      "Chapter 2(Listening Skills) : Listening to stories, following instructions, peer-to-peer exercises, and recall games."
+      "Chapter 2(Listening Skills) : Listening to stories, following instructions, peer-to-peer exercises, and recall games.",
+      "Chapter 3(Vocabulary and Word Games) : Synonyms, antonyms, analogies, logic puzzles from GRE/TOEFL foundations.",
+      "Chapter 4(Read-Aloud and Practice Tests) : Reading sample passages and answering comprehension/logical questions.",
+      "Chapter 5(Speaking and Listening Practice) : Presenting views, logical reasoning discussions, pronunciation and fluency exercises."
     ],
     "📖 English Grammar": [
       "Chapter 1(Parts of Speech) : Nouns, pronouns, verbs, adjectives, adverbs, application through activities and worksheets.",
       "Chapter 2(Tenses and Sentence Structure) : Simple present, past, future; constructing all types of sentences.",
       "Chapter 3(Punctuation) : Capitals, full stops, question and exclamation marks, commas.",
       "Chapter 4(Paragraph and Letter Writing) : Story writing, friendly and formal letter practice."
-    ],
-    "📖 English 3 – GRE/TOEFL Foundation": [
-      "Chapter 1(Vocabulary and Word Games) : Synonyms, antonyms, analogies, logic puzzles from GRE/TOEFL foundations.",
-      "Chapter 2(Read-Aloud and Practice Tests) : Reading sample passages and answering comprehension/logical questions.",
-      "Chapter 3(Speaking and Listening Practice) : Presenting views, logical reasoning discussions, pronunciation and fluency exercises."
     ],
     "Logic Building": [
       "Chapter 1(Reasoning Puzzles) : Sequencing, classification, coding-decoding, patterns, and logical stories.",
@@ -361,7 +362,8 @@ Object.assign(window.curriculumData, {
       "Chapter 6(Role and Duty) : My role in the world, stopping teasing, project: One good deed.",
       "Chapter 7(Mock Panchayat & Court Drama) : Roleplay water/road disputes, hospital/courtroom/police station scenes.",
       "Chapter 8(Debate & Skits) : Bullying, discrimination, plastic ban – yes/no; classroom dramas.",
-      "Chapter 9(Poems & Stories on Education/Ethics) : Recite, create and explain, both in Hindi/English; supports values and ethical reasoning."
+      "Chapter 9(Poems & Stories on Education/Ethics) : Recite, create and explain, both in Hindi/English; supports values and ethical reasoning.",
+      "Chapter 10(Parade) : Teaching about police, army ... duty and responsibility. Also there will be weekly parade and self safety in case of fire, earthquake or any other emergency."
     ],
 
     // Language Awareness
