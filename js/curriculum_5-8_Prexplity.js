@@ -86,16 +86,18 @@ Object.assign(window.curriculumData, {
       "Chapter 3(Atheism) : Introduction to Atheism, who are Atheist, Religious V/S Atheist person, quotes of Babasaheb on Religion.",
       "Chapter 4(Understanding Caste and Fairness) : Stories (age-appropriate), classroom discussions on caste, race, equality, personal stories.",
       "Chapter 5(Honoring All Work) : Projects about different jobs, cleaning duties, interviews with staff.",
-      "Chapter 6(Rules, Sharing, and Kindness) : Role-play, sharing in class, daily kindness prompts.",
-      "Chapter 7(Gender and Privacy) : Privacy and gender fairness activities, learning respect for all.",
-      "Chapter 8(Poster Project) : 'What I Believe In' – personal posters/writings, year-end presentation.",
-      "Chapter 9(Reflection and Ethics) : Truth in tough times, respect for everyone, listening to perspectives.",
-      "Chapter 10(Environmental Duties) : Individual and team projects for improving classroom/school environment.",
-      "Chapter 11(Parade) : Teaching about police, army ... duty and responsibility. Also there will be weekly parade and self safety in case of fire, earthquake or any other emergency."
+      "Chapter 6(Our Society) : Why society matters, should we directly oppose society if they are practicing unfairness? .",
+      "Chapter 7(Rules, Sharing, and Kindness) : Role-play, sharing in class, daily kindness prompts.",
+      "Chapter 8(Gender and Privacy) : Privacy and gender fairness activities, learning respect for all.",
+      "Chapter 9(Poster Project) : 'What I Believe In' – personal posters/writings, year-end presentation.",
+      "Chapter 10(Reflection and Ethics) : Truth in tough times, respect for everyone, listening to perspectives.",
+      "Chapter 11(Environmental Duties) : Individual and team projects for improving classroom/school environment.",
+      "Chapter 12(Parade) : Teaching about police, army ... duty and responsibility. Also there will be weekly parade and self safety in case of fire, earthquake or any other emergency."
     ],
     "🗣️ Languages": [
       "Chapter 1(Multilingual Vocabulary) : Writing word meanings in English, Hindi, Japanese, Chinese, Spanish for key subject terms.",
-      "Chapter 2(Linguistic Activities) : International greetings, translation games, creating a classroom language dictionary."
+      "Chapter 2(Linguistic Activities) : International greetings, translation games, creating a classroom language dictionary.",
+      "Chapter 3(Language Apps and Websites) : Duolingo, Rosetta Stone, Memrise, Beelinguapp, Busuu, 50Languages, language exchange programs."
     ],
     "👥 GGC (General Guidance Class)": [
       "Chapter 1(Inspirational Young Achievers) : Stories of Gitanjali Rao, Tanmay Bakshi, Samaira Mehta, Harshwardhansinh Zala, Anne Makosinski with lessons on innovation, problem-solving, and persistence.",
@@ -231,14 +233,15 @@ Object.assign(window.curriculumData, {
       "Chapter 2(Respect and Gender Equality) : Respecting all, girls’ rights, speaking against harm, anti-bullying.",
       "Chapter 3(Caste Discrimination) : What is caste? Why is it wrong? Real stories, classroom discussion.",
       "Chapter 4(Ethics of Responsibility) : Home, school, environmental duties, empathy and kindness for animals.",
-      "Chapter 5(Veg V/S Non-Veg people) : Is eating meat necessary?, Need of meat for human body, people eating meat can love nature?, other countries vs India",
+      "Chapter 5(Our Society) : Why society matters, should we directly oppose society if they are practicing unfairness? .",
       "Chapter 6(Friendship & Inclusion) : Peer support, inclusive behavior, recognition of all.",
       "Chapter 7(Propaganda and Critical Thinking) : What is propaganda? Examples from life, religion, science. Analyzing propaganda songs like ‘Bhagat ke was me hai Bhagwan’.",
       "Chapter 8(Ethical Issues Case Studies) : Topic-based study—caste atrocity, child labor, hate speech (e.g. Khairlanji, Vemula, Gujarat 2002).",
       "Chapter 9(What Would You Do?) : Reflection, role-play, designing an action idea.",
       "Chapter 10(Courtroom Drama) : Simulating litigation on caste/gender, RTI and citizens’ rights, role-play election and newsroom reporting.",
       "Chapter 11(Debate and Research Projects) : Should religion influence law? Should inter-caste marriage be legal? Research casteism in your area, interviews with marginalized communities.",
-      "Chapter 12(Parade) : Teaching about police, army ... duty and responsibility. Also there will be weekly parade and self safety in case of fire, earthquake or any other emergency."
+      "Chapter 12(Veg V/S Non-Veg) : Is eating meat necessary?, Need of meat for human body, can people eating meat love nature?, other countries vs India",
+      "Chapter 13(Parade) : Teaching about police, army ... duty and responsibility. Also there will be weekly parade and self safety in case of fire, earthquake or any other emergency."
     ],
 
     "🗣️ Languages": [
@@ -369,7 +372,7 @@ Object.assign(window.curriculumData, {
     ],
     "🌱 Moral Values": [
       "Chapter 1(Understanding Fairness) : True meaning of equality, real-world applications and class debates.",
-      "Chapter 2(Rules and Equality) : What is a rule? Why do societies have them? Practical scenarios.",
+      "Chapter 2(Rules, Equity and Equality) : What is a rule? Why do societies have them?, Equity vs Equality, Practical scenarios.",
       "Chapter 3(Treating Everyone Equally) : Role-play; analyzing biases, building inclusivity.",
       "Chapter 4(Caste Discrimination) : Stories of resistance, legal and ethical challenges, student journal.",
       "Chapter 5(Environmental Duty) : Water and waste responsibility, projects on conservation.",
@@ -417,7 +420,9 @@ Object.assign(window.curriculumData, {
     ],
     "🔬 Research Projects (R.P)": [
       "Chapter 1(Robotics Introduction & NPTEL Lectures) : Theory and hands-on activities with robot kits, autonomous task demos.",
-      "Chapter 2(Machine Principles) : Working principle of airplane, quadcopter, drone, etc., through comparative study, project/debate, and supported by video lectures."
+      "Chapter 2(Machine Principles) : Working principle of airplane, quadcopter, drone, etc., through comparative study, project/debate, and supported by video lectures.",
+      "Chapter 3(Cad Design) : Introduction to canvas, AutoCAD, Fusion 360, tensor flow etc., basic 3D modeling, and design principles.",
+      "Chapter 4(Machine Learning Basics) : Introduction to machine learning concepts, simple algorithms, and applications in real-world scenarios."
     ]
   },
   
@@ -594,7 +599,11 @@ Object.assign(window.curriculumData, {
 
     // Research Projects
     "🔬 Research Projects (R.P)": [
-      "Chapter 1(Robotics & Machine Principle: Advanced) : NPTEL-led robotics modules, working principles of airplanes, quadcopters, drones, ocean-cleaning tools (with self-study, videos, comparative charts)."
+      "Chapter 1(Robotics) : NPTEL-led robotics modules, .",
+      "Chapter 2(Machine Principles) : Working principle of airplane, quadcopter, drone, etc., through comparative study, project/debate, and supported by video lectures.",
+      "Chapter 3(Cad Design) : Introduction to canvas, AutoCAD, Fusion 360, tensor flow etc., basic 3D modeling, and design principles.",
+      "Chapter 4(Machine Learning) : Introduction to machine learning concepts, simple algorithms, and applications in real-world scenarios."
+    
     ]
   }
 
