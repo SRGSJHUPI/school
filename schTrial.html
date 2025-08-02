@@ -33,13 +33,6 @@
 <body class="bg-[#f8faff] font-sans">
   <a id="top"></a>
 
-<!-- Scrolling Announcement Bar -->
-<div class="w-full bg-gradient-to-r from-indigo-500 via-pink-500 to-yellow-500 text-white py-2 overflow-hidden relative">
-  <div class="scrolling-text whitespace-nowrap text-lg font-semibold flex items-center">
-    🎓✨ Admission starting soon at <strong class="mx-1">The Rising Nalanda</strong>! 🚀 Enroll now and secure your future! 🌟📚
-  </div>
-</div>
-
   <nav class="bg-white shadow-md px-4 py-1 sticky top-0 z-10">
     <div class="container mx-auto flex justify-between items-center">
       <div class="flex items-center space-x-3">
@@ -148,108 +141,26 @@
   </nav>
       
 
-  <!-- <div class="bg-blue-100 py-1 text-center border-b border-gray-200 flex flex-col justify-center">
+  <div class="bg-blue-100 py-1 text-center border-b border-gray-200 flex flex-col justify-center">
     <h2 class="text-4xl font-bold text-blue-800 mb-4 pt-4">Welcome To The Rising Nalanda</h2>
     <div class="text-[#1a2a3a] text-base md:text-lg -mt-3">Empowering Justice and Excellence</div>
-  </div> -->
+  </div>
 
   
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>School Curriculum</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    .class-panel, .panel {
-      display: none;
-    }
-  </style>
-</head>
-<body class="bg-gray-50 p-6 font-sans">
 
-  <h1 class="text-2xl font-bold text-center mb-6">📘 School Curriculum (1st to 12th Class)</h1>
 
-  <div class="space-y-4">
-    checking only
 
-    <!-- Reusable Template for Classes -->
-    <!-- Repeat for Class 1 to 12 -->
-    <!-- Example for Class 1 below -->
-    <!-- You can copy this block 12 times with class number changed -->
-
-    <!-- START CLASS BLOCK -->
-    <!-- You can copy-paste this entire block and change class number and content -->
-
-    <!-- We'll generate them using JavaScript below -->
-
-  </div>
-
-  <script>
-    const classContainer = document.querySelector('div.space-y-4');
-    const subjects = [
-      "💻 Computer Science",
-      "🔬 Research Projects",
-      "➗ Mathematics",
-      "⚗️ Chemistry",
-      "🔬 Physics",
-      "🧬 Biology",
-      "📖 English",
-      "⚖️ Law",
-      "📜 History",
-      "💰 Economics",
-      "🌍 Geography",
-      "🏛️ Political Science",
-      "📝 Hindi",
-      "🗣️ Languages",
-      "🌱 Moral Values",
-      "🧠 General Knowledge (G.K)",
-      "🏃‍♂️ Games & Physical Education",
-      "👥 GGC (General Guidance Class)"
-    ];
-
-    for (let i = 1; i <= 12; i++) {
-      const classBlock = document.createElement('div');
-      classBlock.innerHTML = `
-        <button class="class-heading bg-blue-600 text-white w-full text-left px-4 py-2 rounded font-semibold hover:bg-blue-700">
-          📚 Class ${i} Curriculum
-        </button>
-        <div class="class-panel p-2 space-y-2 border border-blue-200 rounded bg-white">
-          ${subjects.map(subject => `
-            <div>
-              <button class="accordion bg-gray-100 w-full text-left px-4 py-2 font-medium rounded hover:bg-gray-200">${subject}</button>
-              <div class="panel bg-white px-6 py-3 border rounded"><ul></ul></div>
-            </div>
-          `).join('')}
-        </div>
-      `;
-      classContainer.appendChild(classBlock);
-    }
-
-    // Class toggler
-    document.addEventListener('click', e => {
-      if (e.target.classList.contains('class-heading')) {
-        const panel = e.target.nextElementSibling;
-        panel.style.display = panel.style.display === 'block' ? 'none' : 'block';
-      }
-
-      if (e.target.classList.contains('accordion')) {
-        const subjectPanel = e.target.nextElementSibling;
-        subjectPanel.style.display = subjectPanel.style.display === 'block' ? 'none' : 'block';
-      }
-    });
-  </script>
 </body>
 </html>
 
 
+<section class="p-6 bg-gray-50 text-gray-800 space-y-10">
 
+  <h2 class="text-3xl font-bold text-center text-blue-900">Student Social Empowerment Groups</h2>
 
-
-
-
+ 
+</section>
 
 
 <div class="text-center my-6">

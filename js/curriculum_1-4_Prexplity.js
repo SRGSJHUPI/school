@@ -164,7 +164,8 @@ Object.assign(window.curriculumData, {
     ],
     "🏃‍♂️ Games & Physical Education": [
       "Chapter 1(Motor Skills) : Jumping, hopping, skipping; races and relays.",
-      "Chapter 2(Team Play and Fairness) : New games (tag, ball games), teaching patience, group cheer."
+      "Chapter 2(Team Play and Fairness) : New games (tag, ball games), teaching patience, group cheer.",
+      "Chapter 3(Drawing) : Drawing and coloring exercises, drawing of freedom fighters, famous leaders and nature."
     ],
     "🧠 General Knowledge (G.K)": [
       "Chapter 1(Famous People) : Leaders, inventors, sportspersons – story sessions.",
@@ -258,7 +259,9 @@ Object.assign(window.curriculumData, {
     ],
     "🏃‍♂️ Games and Physical Education": [
       "Chapter 1(Physical Fitness and Sports) : Relay, jumping, tag, dodgeball, yoga-based stretches.",
-      "Chapter 2(Team Spirit and Fair Play) : Group games, learning to win and lose graciously."
+      "Chapter 2(Team Spirit and Fair Play) : Group games, learning to win and lose graciously.",
+      "Chapter 3(Drawing) : Drawing and coloring exercises, drawing of freedom fighters, famous leaders and nature."
+
     ],
     "🧠 General Knowledge (G.K)": [
       "Chapter 1(Famous People and Amazing Facts) : Presidents, athletes, inventors – story time and quiz.",
@@ -383,7 +386,9 @@ Object.assign(window.curriculumData, {
     // Physical Education & Games
     "🏃‍♂️ Games & Physical Education": [
       "Chapter 1(Physical Fitness) : Yoga, stretching, relay, tag, dodgeball.",
-      "Chapter 2(Sportsmanship and Team Play) : Learning to win/lose with grace, group cheering, teamwork activities."
+      "Chapter 2(Sportsmanship and Team Play) : Learning to win/lose with grace, group cheering, teamwork activities.",
+      "Chapter 3(Drawing) : Drawing and coloring exercises, drawing of freedom fighters, famous leaders and nature."
+
     ],
 
     // General Knowledge
@@ -402,6 +407,5 @@ Object.assign(window.curriculumData, {
   }
  
   
- 
 
 });

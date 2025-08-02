@@ -348,7 +348,7 @@ Object.assign(window.curriculumData, {
       "Chapter 6(Labour and Employment) : Forms of work, worker rights, formal/informal sector differences.",
       "Chapter 7(Business Basics) : Core terms—profit, cost, market, supply, demand, real-world application activities."
     ],
-    "📚 History": [
+    "📚 History and Geography": [
       "Chapter 1(Physical Features of India & World) : Study of continents, major mountains, deserts, and oceans.",
       "Chapter 2(Drainage and River Basins) : Major river systems, water cycles, case studies on Indian/Asian/African rivers.",
       "Chapter 3(Climate, Vegetation & Zones) : Monsoon, natural vegetation, adaptation of communities.",
@@ -552,7 +552,8 @@ Object.assign(window.curriculumData, {
       "Chapter 13(Group Projects) : Poster + presentation, school exhibition.",
       "Chapter 14(Critical Societal Questions and Simulations) : Debates on Indian ethics, parliamentary simulation on reservation/free education, Model UN (climate, human rights), moot court (cyberbullying, SC/ST Act), stakeholder role-play, and panel on voting age.",
       "Chapter 15(Parade) : Teaching about police, army ... duty and responsibility. Also there will be weekly parade and self safety in case fire, earthquake or any other emergency.",
-      "Chapter 16(Mental Strength) : Why do some people commit suicide?, understanding mental health and seeking help, Importance of life"
+      "Chapter 16(Mental Strength) : Why do some people commit suicide?, understanding mental health and seeking help, Importance of life",
+      "Chapter 17(Religions) : Is Religion a failed experiment?,"
 
     ],
 
