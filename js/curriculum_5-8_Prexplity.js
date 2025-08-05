@@ -5,7 +5,6 @@ Object.assign(window.curriculumData, {
       "Chapter 1(Importance of Education) : Poems and stories highlighting why education matters; student presentations, teacher and student-created poems, ethics through narrative, focused on classroom speaking and understanding including class discussions, retelling, and original student/teacher poems.",
       "Chapter 2(Stories of Courage and Role Models) : Folk tales, stories of Dr. Ambedkar, Panchatantra, Akbar-Birbal, and modern heroes featuring debate and storytelling.",
       "Chapter 3(Reading Comprehension) : Skills in inference, sequencing, skimming, and scanning applied to short passages and literature.",
-      "Chapter 1(Importance of Education) :",
 
     ],
     "📖 English 2 – Communication & Listening": [
@@ -121,8 +120,9 @@ Object.assign(window.curriculumData, {
       "Chapter 5(Monuments and Current Affairs) : Landmarks worldwide and simple digest of current events."
     ],
     "🔬 Research Projects (R.P)": [
-      "Chapter 1(Sensors Around Us) : Demonstrations and research on sensors in airplanes, boats, robots using experiments and videos.",
-      "Chapter 2(Robotics – Introduction) : Basic robotics projects (kits or classroom build), connection to earlier C/C++ and Arduino modules, explain real-world examples."
+      "Chapter 1(AI) : What is AI?, Applications of AI in daily life.",
+      "Chapter 2(Sensors Around Us) : Demonstrations and research on sensors in airplanes, boats, robots using experiments and videos.",
+      "Chapter 3(Robotics – Introduction) : Basic robotics projects (kits or classroom build), connection to earlier C/C++ and Arduino modules, explain real-world examples."
     ]
   },
 
@@ -290,7 +290,7 @@ Object.assign(window.curriculumData, {
   "📚 Class 7": {
     "💻 Computer Science": [
       "Chapter 1(Java and Python Basics) : Core syntax, data types, variables, loops, basic input/output in both languages, completion of 70 CP (competitive programming) questions through the year (2 per week).",
-      "Chapter 2(HTML, CSS, and JavaScript) : Building advanced web pages, styling with CSS, interactivity with JavaScript. Creating complete mini-projects.",
+      "Chapter 2(HTML, CSS, and JavaScript) : Building advanced web pages, styling with CSS, interactivity with JavaScript. Creating complete mini-projects. also explore React.js and Node.js basics.",
       "Chapter 3(Scratch Projects) : Advanced games and simulation projects using Scratch; storyboarding and sprite logic.",
       "Chapter 4(Number Systems) : Binary, decimal, and octal conversions; practical coding exercises and logic drills.",
       "Chapter 5(Algorithmic Thinking) : Writing pseudocode, flowcharts, analyzing simple algorithms; practice on logic-building challenges.",
@@ -385,7 +385,8 @@ Object.assign(window.curriculumData, {
       "Chapter 12(Parade) : Teaching about police, army ... duty and responsibility. Also there will be weekly parade and self safety in case fire, earthquake or any other emergency.",
       "Chapter 13(Mental Strength) : Importance of life, Why do some people commit suicide?, Do we like for ourselves only?, understanding mental health and seeking help",
       "Chapter 14(Philosophies) : <a href='pdf/Buddhist_Philosophy.pdf' target='_blank' class='text-blue-700 underline hover:text-blue-400'>Buddhist philosophy</a>, mindfulness, and the pursuit of inner peace."    ],
-    "🗣️ Languages": [
+    
+      "🗣️ Languages": [
       "Chapter 1(Foreign Language Foundations) : Exposure to Spanish, Japanese, French, Chinese through vocabulary, greetings, mini-dialogues, and subject terminology translation.",
       "Chapter 2(Language and Career) : Exploring the importance of language skills for international careers, basic CV exercises."
     ],
@@ -429,16 +430,15 @@ Object.assign(window.curriculumData, {
   "📚 Class 8": {
     // Computer Science: Full-stack, App/Web & Foundational Coding
     "💻 Computer Science": [
-      "Chapter 1(Basics of Web Development) : HTML & CSS styling, HTML5 structure, building static pages, responsive design, best practices.",
+      "Chapter 1(Web Development) : HTML & CSS styling,Internal/external CSS, selectors, layouts using Flexbox/Grid, media queries. HTML5 at the level of web development, building static pages, responsive design, best practices,backend(only what is necessary) and design a website using frontend and backend.",
       "Chapter 2(App Development Concepts) : Introduction to app building logic, UI/UX basics for apps and web, planning an app layout.",
       "Chapter 3(C++ Programming and Problem Solving) : Solving ~100 basic-medium problems (with guidance) via Codeforces, AtCoder, GeeksforGeeks, Coding Ninja—focus on input/output, loops, conditionals, arrays.",
       "Chapter 4(Python Programming Basics) : Variables, data types, if-else, loops, input/output, simple applications.",
       "Chapter 5(SQL Introduction) : Basics of databases, creating tables, SELECT statements, simple queries to manage and retrieve data.",
-      "Chapter 6(HTML + CSS Advanced Web Styling) : Internal/external CSS, selectors, layouts using Flexbox/Grid, media queries.",
-      "Chapter 7(Cybersecurity Essentials) : Awareness of phishing, how to create and remember strong passwords, basics of two-factor authentication, safe browsing habits.",
+      "Chapter 6(Cybersecurity Essentials) : Awareness of phishing, how to create and remember strong passwords, basics of two-factor authentication, safe browsing habits.",
       // Recommended Next Steps for Web Development (after HTML, CSS, JS):
-      "Chapter 8(Web Development Roadmap: What's Next?) : Learn JavaScript frameworks (React, Angular, or Vue), understand backend development (Node.js, Python-Django/Flask, PHP), database connections, API integration, deployment tools (Netlify, GitHub Pages), version control (Git), and build small full-stack projects to consolidate skills[1][2][3][9].",
-      "Chapter 9(Online Platforms & Practice) : Codecademy, FreeCodeCamp, The Odin Project, LeetCode, Sololearn, W3Schools, CodePen for web and app practice and coding competitions[9][12]."
+      "Chapter 7(Web Development Roadmap: What's Next?) : Learn JavaScript frameworks (React, Angular, or Vue), understand backend development (Node.js, Python-Django/Flask, PHP), database connections, API integration, deployment tools (Netlify, GitHub Pages), version control (Git), and build small full-stack projects to consolidate skills[1][2][3][9].",
+      "Chapter 8(Online Platforms & Practice) : Codecademy, FreeCodeCamp, The Odin Project, LeetCode, Sololearn, W3Schools, CodePen for web and app practice and coding competitions[9][12]."
     ],
 
     // Mathematics: Advanced School to Pre-University
@@ -558,7 +558,8 @@ Object.assign(window.curriculumData, {
       "Chapter 14(Critical Societal Questions and Simulations) : Debates on Indian ethics, parliamentary simulation on reservation/free education, Model UN (climate, human rights), moot court (cyberbullying, SC/ST Act), stakeholder role-play, and panel on voting age.",
       "Chapter 15(Parade) : Teaching about police, army ... duty and responsibility. Also there will be weekly parade and self safety in case fire, earthquake or any other emergency.",
       "Chapter 16(Mental Strength) : Why do some people commit suicide?, understanding mental health and seeking help, Importance of life",
-      "Chapter 17(Religions) : Is Religion a failed experiment?,"
+      "Chapter 17(Religions) : what is Religion?, History and origin, who make it? why make it? is it necessary to have Religion?, Is Religion a failed experiment? has Religion been converted to Business?, can religion help to make the world a better place? are we independent to choose any religion or we are bound to one we born in?",
+      "Chapter 18(Value of Life) : what is the value of life?, Importance of life, people died in plane crash got 1 crore each whereas people died on mahakumbh got 25 lakh and so on does value of life depends on place where one dies? ,  Lakhan Pasi story(left from jail at 104 age)."
 
     ],
 
@@ -594,7 +595,8 @@ Object.assign(window.curriculumData, {
       "Chapter 2(Current Affairs) : Weekly editorials, news analysis, quizzes.",
       "Chapter 3(Judiciary Highlights) : Comparative studies, structure, high-profile judgements (India & world).",
       "Chapter 4(Science Frontiers) : CRISPR, fusion, AI/ethics breakthroughs, Nobel laureates.",
-      "Chapter 5(UN SDGs & Model UN) : Role-play climate negotiations, parliaments, SDGs."
+      "Chapter 5(UN SDGs & Model UN) : Role-play climate negotiations, parliaments, SDGs.",
+      "Chapter 5(INSPIRE MANAK Competition) : Overview, objectives, eligibility, application process.",
     ],
 
     // Research Projects

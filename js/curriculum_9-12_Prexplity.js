@@ -135,7 +135,12 @@ Object.assign(window.curriculumData, {
     ],
 
     "🔬 Research Projects (R.P)": [
-      "Chapter 1(Robotics and Applied Technology) : NPTEL lectures on robotics, hands-on projects exploring concepts learned across science and coding streams, culminating in a research project or innovation pitch."
+      "Chapter 1(Robotics and Applied Technology) : NPTEL lectures on robotics, hands-on projects exploring concepts learned across science and coding streams, culminating in a research project or innovation pitch(20% of total lectures).",
+      "Chapter 2(Data Analytics) : introduction to Data analytics from youtube tutorials(Codebasics) (20% of total lectures).",
+      "Chapter 3(Data Science) : introduction to Data Science from youtube tutorials() (20% of total lectures).",
+      "Chapter 4(ML) : introduction to Machine Learning from youtube tutorials(campusx) (20% of total lectures).",
+      "Chapter 5(Deep learning) : introduction to Deep Learning from youtube tutorials(campusx) (20% of total lectures).",
+
     ]
   },
 
@@ -249,7 +254,12 @@ Object.assign(window.curriculumData, {
       "Chapter 2(Aptitude) : Aptitude questions targetting different exams."
     ],
     "🔬 Research Projects": [
-      "Chapter 1(Robotics & Applied Technology) : Advanced robotics, machine principles, project presentations."
+      "Chapter 1(Robotics and Applied Technology) : NPTEL lectures on robotics, machine principles, project presentations, hands-on projects exploring concepts learned across science and coding streams, culminating in a research project or innovation pitch(40% of total lectures).",
+      "Chapter 2(Data Analytics) : introduction to Data analytics from youtube tutorials(Codebasics) (40% of total lectures).",
+      "Chapter 3(Data Science) : introduction to Data Science from youtube tutorials() (40% of total lectures).",
+      "Chapter 4(ML) : introduction to Machine Learning from youtube tutorials(campusx) (40% of total lectures).",
+      "Chapter 5(Deep learning) : introduction to Deep Learning from youtube tutorials(campusx) (40% of total lectures).",
+
     ]
   },
   
@@ -376,7 +386,13 @@ Object.assign(window.curriculumData, {
     ],
 
     "🔬 Research Projects (R.P)": [
-      "Chapter 1(Subject-Aligned Research) : Major independent or group project (STEM/social science), building on classroom concepts, with emphasis on innovation, real-world problem solving, and interdisciplinary depth."
+      "Chapter 1(Subject-Aligned Research) : Major independent or group project (STEM/social science), building on classroom concepts, with emphasis on innovation, real-world problem solving, and interdisciplinary depth.",
+      "Chapter 2(Robotics and Applied Technology) : NPTEL lectures on robotics, hands-on projects exploring concepts learned across science and coding streams, culminating in a research project or innovation pitch(100% of total lectures).",
+      "Chapter 3(Data Analytics) : introduction to Data analytics from youtube tutorials(Codebasics) (100% of total lectures).",
+      "Chapter 4(Data Science) : introduction to Data Science from youtube tutorials() (100% of total lectures).",
+      "Chapter 5(ML) : introduction to Machine Learning from youtube tutorials(campusx) (100% of total lectures).",
+      "Chapter 6(Deep learning) : introduction to Deep Learning from youtube tutorials(campusx) (100% of total lectures).",
+
     ]
   },
  
