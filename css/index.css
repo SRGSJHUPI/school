@@ -4,21 +4,29 @@
     transform: translateX(100%);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-70%);
   }
 }
 .scrolling-text {
   display: inline-block;
+  width: max-content; /* Important: makes the container exactly as wide as text */
   min-width: 100%;
-  animation: scroll-left 20s linear infinite;
+  white-space: nowrap;
+  animation: scroll-left 25s linear infinite;
 }
+/* .scroll-wrapper {
+  overflow: hidden;
+  width: 100vw; /* Full viewport width */
+  position: relative;
+} */
+
 .scrolling-text:hover {
   animation-play-state: paused;
   cursor: pointer;
 }
 @media (min-width: 1024px) {
   .scrolling-text {
-    animation-duration: 40s !important; /* Doubles the duration for laptops/desktops */
+    animation-duration: 35s !important; /* Doubles the duration for laptops/desktops */
   }
 }
 
