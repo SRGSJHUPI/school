@@ -281,7 +281,7 @@ Object.assign(window.curriculumData, {
     ],
 
     "🔬 Research Projects (R.P)": [
-      "Chapter 1(Sensors in Technology) : Types and applications in airplanes, boats, robots; hands-on sensor demonstration.",
+      "Chapter 1(Sensors in Technology) : Types and applications in airplanes, boats, drones, robots; hands-on sensor demonstration.",
       "Chapter 2(Robotics – Introduction) : NPTEL lectures, classroom kits; project build: basic robot with sensors.",
       "Chapter 3(Machine Learning) : Simplified machine learning concept lessons, using NPTEL videos/projects for age-appropriate examples."
     ]
@@ -381,14 +381,15 @@ Object.assign(window.curriculumData, {
       "Chapter 8(Respect & Apology) : Strategies to apologize, forgive, classroom activities.",
       "Chapter 9(Children’s Rights) : Awareness of children’s rights through case readings.",
       "Chapter 10(Standing Up for Others) : Bystander effect and supporting friends.",
-      "Chapter 11(Self-Reflection) : 'Who Am I Becoming?'—discussion and journaling.",
+      "Chapter 11(Self-Reflection) : What is shyness?, is it good or bad?, 'Who Am I Becoming?'—discussion and journaling.",
       "Chapter 12(Parade) : Teaching about police, army ... duty and responsibility. Also there will be weekly parade and self safety in case fire, earthquake or any other emergency.",
       "Chapter 13(Mental Strength) : Importance of life, Why do some people commit suicide?, Do we like for ourselves only?, understanding mental health and seeking help",
       "Chapter 14(Philosophies) : <a href='pdf/Buddhist_Philosophy.pdf' target='_blank' class='text-blue-700 underline hover:text-blue-400'>Buddhist philosophy</a>, mindfulness, and the pursuit of inner peace."    ],
     
       "🗣️ Languages": [
       "Chapter 1(Foreign Language Foundations) : Exposure to Spanish, Japanese, French, Chinese through vocabulary, greetings, mini-dialogues, and subject terminology translation.",
-      "Chapter 2(Language and Career) : Exploring the importance of language skills for international careers, basic CV exercises."
+      "Chapter 2(Language and Career) : Exploring the importance of language skills for international careers, basic CV exercises.",
+      "Chapter 3(Practice of Sentences) : write 1000 sentences in english and translate these in multiple languages."
     ],
     "👥 GGC (General Guidance Class)": [
       "Chapter 1(Major Global Exams & Scholarships) : NTSE, KVPY, IOQM, INChO, IJSO, STEP, TOEFL Junior, SAT/PSAT explained.",
@@ -543,9 +544,9 @@ Object.assign(window.curriculumData, {
     // Moral Values / Ethics
     "🌱 Moral Values & Ethics": [
       "Chapter 1(Dignity) : What is dignity? Real-world examples, self-respect vs disrespect.",
-      "Chapter 2(Role of Ambedkar) : Stories and class discussion on Ambedkar’s contributions to Indian equality.",
+      "Chapter 2(Role of Ambedkar) : Stories and class discussion on Ambedkar’s contributions to Indian society equality specially for Women(Hindu Code Bill).",
       "Chapter 3(Caste Atrocities in India) : Research, group presentation, impact in society and laws.",
-      "Chapter 4(Consent and Boundaries) : Personal/social consent, boundaries, assertiveness.",
+      "Chapter 4(Consent and Boundaries) : Personal/social consent, boundaries, assertiveness, Endogamy vs Exogamy.",
       "Chapter 5(Digital Ethics) : Handling trolls, fake news, hate speech, digital citizenship.",
       "Chapter 6(God vs Nature) : Debating the influence of beliefs on science/environment.",
       "Chapter 7(Speaking Up) : Whistleblowing, standing up to injustice, student-led dramatization.",
@@ -557,15 +558,17 @@ Object.assign(window.curriculumData, {
       "Chapter 13(Group Projects) : Poster + presentation, school exhibition.",
       "Chapter 14(Critical Societal Questions and Simulations) : Debates on Indian ethics, parliamentary simulation on reservation/free education, Model UN (climate, human rights), moot court (cyberbullying, SC/ST Act), stakeholder role-play, and panel on voting age.",
       "Chapter 15(Parade) : Teaching about police, army ... duty and responsibility. Also there will be weekly parade and self safety in case fire, earthquake or any other emergency.",
-      "Chapter 16(Mental Strength) : Why do some people commit suicide?, understanding mental health and seeking help, Importance of life",
-      "Chapter 17(Religions) : what is Religion?, History and origin, who make it? why make it? is it necessary to have Religion?, Is Religion a failed experiment? has Religion been converted to Business?, can religion help to make the world a better place? are we independent to choose any religion or we are bound to one we born in?",
-      "Chapter 18(Value of Life) : what is the value of life?, Importance of life, people died in plane crash got 1 crore each whereas people died on mahakumbh got 25 lakh and so on does value of life depends on place where one dies? ,  Lakhan Pasi story(left from jail at 104 age)."
+      "Chapter 16(Value of Life) : what is the value of life?, Importance of life, people died in plane crash got 1 crore each whereas people died on mahakumbh got 25 lakh and so on does value of life depends on place where one dies? ,  Lakhan Pasi story(left from jail at 104 age).",
+      "Chapter 17(Mental Strength) : Why do some people commit suicide(explain in very polite way)?, understanding mental health and seeking help, Importance of life",
+      "Chapter 18(Religions) : what is Religion?, History and origin, who make it? why make it? is it necessary to have Religion?, Is Religion a failed experiment? has Religion been converted to Business?, can religion help to make the world a better place? are we independent to choose any religion or we are bound to one we born in?",
 
     ],
 
     // Languages
     "🗣️ Languages": [
-      "Chapter 1(Multi-language Practice) : Vocabulary and key concepts for all major subjects (English, Hindi, Japanese, Spanish, Chinese), translation projects, dialogue building."
+      "Chapter 1(Multi-language Practice) : Vocabulary and key concepts for all major subjects (English, Hindi, Japanese, Spanish, Chinese), translation projects, dialogue building.",
+      "Chapter 2(Language and Culture) : Exploring cultural contexts, idiomatic expressions, and regional dialects.",
+      "Chapter 3(Effective Communication) : Public speaking, active listening, and interpersonal skills in multiple languages."
     ],
 
     // GGC: Global Guidance, Achievement & Career

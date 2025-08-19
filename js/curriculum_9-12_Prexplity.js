@@ -479,7 +479,8 @@ Object.assign(window.curriculumData, {
     "🌱 Moral Values & Ethics": [
       "Chapter 1(Integrated Ethics Project) : Year-long research, debate and presentation on digital and AI ethics (deepfakes, algorithm bias), neuroethics, eco-justice, leadership with integrity, bioethics, and global conflict topics (Palestine, racism, BLM).",
       "Chapter 2(Monthly Seminars & Activities) : Guest lectures (lawyers, activists), group RTIs, public petitions, survey projects, and the writing of an 'Ethics Constitution.'",
-      "Chapter 3(Ethics & Emotional Intelligence) : Mindfulness, emotional skills, forgiveness, responding to trauma, and reflections on conscience."
+      "Chapter 3(Ethics & Emotional Intelligence) : Mindfulness, emotional skills, forgiveness, responding to trauma, and reflections on conscience.",
+      "Chapter 4(Dark web) : Understanding the dark web, its implications, ethical considerations, and the impact of anonymity online, Playpen(Operation Pacifier), Daisy's Destruction."
     ],
 
     "🗣️ Languages": [
@@ -500,7 +501,8 @@ Object.assign(window.curriculumData, {
     ],
 
     "🔬 Research Projects (R.P)": [
-      "Chapter 1(Final Capstone Projects) : Major interdisciplinary projects—technology builds, scientific innovation, social research, or entrepreneurial prototypes for resume and higher education applications."
+      "Chapter 1(Final Capstone Projects) : Major interdisciplinary projects—technology builds, scientific innovation, social research, or entrepreneurial prototypes for resume and higher education applications.",
+      "Chapter 2(Vizuara AI) : show youtube videos."
     ]
   }
 
