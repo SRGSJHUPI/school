@@ -5,6 +5,7 @@
     //   document.getElementById('customModal').classList.remove('hidden');
     //   localStorage.setItem('developerModalShown', 'true');
     // }
+    
     // Always show the modal, every page load
     document.getElementById('customModal').classList.remove('hidden');
 
