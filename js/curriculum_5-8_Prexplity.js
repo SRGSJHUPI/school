@@ -125,7 +125,8 @@ Object.assign(window.curriculumData, {
     "🔬 Research Projects (R.P)": [
       "Chapter 1(AI) : What is AI?, Applications of AI in daily life.",
       "Chapter 2(Sensors Around Us) : Demonstrations and research on sensors in airplanes, boats, robots using experiments and videos.",
-      "Chapter 3(Robotics – Introduction) : Basic robotics projects (kits or classroom build), connection to earlier C/C++ and Arduino modules, explain real-world examples."
+      "Chapter 3(Robotics – Introduction) : Basic robotics projects (kits or classroom build), connection to earlier C/C++ and Arduino modules, explain real-world examples.",
+      "Chapter 4(softwares) : TinkerCAD, Arduino IDE, VS Code, brainly."
     ]
   },
 
@@ -286,7 +287,8 @@ Object.assign(window.curriculumData, {
     "🔬 Research Projects (R.P)": [
       "Chapter 1(Sensors in Technology) : Types and applications in airplanes, boats, drones, robots; hands-on sensor demonstration.",
       "Chapter 2(Robotics – Introduction) : NPTEL lectures, classroom kits; project build: basic robot with sensors.",
-      "Chapter 3(Machine Learning) : Simplified machine learning concept lessons, using NPTEL videos/projects for age-appropriate examples."
+      "Chapter 3(Machine Learning) : Simplified machine learning concept lessons, using NPTEL videos/projects for age-appropriate examples.",
+      "Chapter 4(softwares) : TinkerCAD, Arduino IDE."
     ]
   },
  
@@ -567,6 +569,8 @@ Object.assign(window.curriculumData, {
       "Chapter 16(Value of Life) : what is the value of life?, Importance of life, people died in plane crash got 1 crore each whereas people died on mahakumbh got 25 lakh and so on does value of life depends on place where one dies? ,  Lakhan Pasi story(left from jail at 104 age).",
       "Chapter 17(Mental Strength) : Why do some people commit suicide(explain in very polite way)?, understanding mental health and seeking help, Importance of life",
       "Chapter 18(Religions) : what is Religion?, History and origin, who make it? why make it? is it necessary to have Religion?, Is Religion a failed experiment? has Religion been converted to Business?, can religion help to make the world a better place? are we independent to choose any religion or we are bound to one we born in?",
+      "Chapter 19(Documentry) : https://youtu.be/NTXO6uptlC8?si=HU4TuGJ8yZj_jKyd discussion on girls rights.",
+      "Chapter 20(Casteism and Racism) : Understanding caste and race, casteism as termite, its impact on society, and discussions on equality and justice."
 
     ],
 
@@ -586,6 +590,8 @@ Object.assign(window.curriculumData, {
       // Young Achievers & Innovation
       "Chapter 5(Youth Inspiration) : Stories of tech/gaming/social youth innovators: Riya Karumanchi, Lim Ding Wen, Mihir Garimella, Snax, Martoz, Vivienne Harr, Kavya Kopparapu; life, learning sources, habits, challenges, societal impact, personalized action plan projects.",
       "Chapter 6(Competitions) : Introduction to global competition like \"swift student challenge\".",
+      "Chapter 7(Major Scholarships) : chevening, commonwealth, fulbright, rhodes and other scholarships.",
+
     ],
 
     // Games and Physical Education

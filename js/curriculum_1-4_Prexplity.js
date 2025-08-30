@@ -401,10 +401,11 @@ Object.assign(window.curriculumData, {
 
     // Research Projects
     "🔬 Research Projects (R.P)": [
-      "Chapter 1(Arduino Sensor Projects) : Simple sensor-based circuits (light, buzzer), applications in air/boat/robot.",
-      "Chapter 2(Robotics for Kids) : What is a robot? LEGO and Scratch projects.",
-      "Chapter 3(Machine Learning Demos) : Watch and discuss simple NPTEL videos on pattern recognition and visual learning.",
-      "Chapter 4(Education Applications and Softwares) : introduction to Brilliant, Khan Academy."
+      "Chapter 1(softwares) : TinkerCAD, Arduino IDE.",
+      "Chapter 2(Arduino Sensor Projects) : Simple sensor-based circuits (light, buzzer), applications in air/boat/robot.",
+      "Chapter 3(Robotics for Kids) : What is a robot? LEGO and Scratch projects.",
+      "Chapter 4(Machine Learning Demos) : Watch and discuss simple NPTEL videos on pattern recognition and visual learning.",
+      "Chapter 5(Education Applications and Softwares) : introduction to Brilliant, Khan Academy."
     ]
   }
  
