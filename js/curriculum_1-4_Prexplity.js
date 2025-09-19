@@ -371,10 +371,20 @@ Object.assign(window.curriculumData, {
 
     // Language Awareness
     "🗣️ Languages": [
-      "Chapter 1(Why Language? History & Types) : Origins of language, family tree of world languages, spoken, written, sign language.",
-      "Chapter 2(Multilingual Skills) : Students make word-lists of meanings in at least five languages (English, Hindi, Japanese, Chinese, Spanish) – thematic vocabulary.",
-      "Chapter 3(Fun Activities) : Language games, translation puzzles, international story day.",
-      "Chapter 4(Language Apps and Websites) : Duolingo, Rosetta Stone, Memrise, Beelinguapp, Busuu, 50Languages, language exchange programs."
+      "Chapter 1 (Why Language? History & Types) : Origins of language, family tree of world languages, spoken, written, sign language.",    
+      "Chapter 2 (Languages Apps and Websites) : Duolingo, Rosetta Stone, Memrise, Beelinguapp, Busuu, 50Languages, language exchange programs.",
+      "Chapter 3 (Alphabet Foundations): Spanish (Latin letters, accents), Japanese (Hiragana), Chinese (Pinyin with tones), Urdu (basic script).",
+      "Chapter 4 (Numbers 1–20): Learning to count with flashcards, chants, and small math problems in each language.",
+      "Chapter 5 (Greetings and Politeness): Hello, goodbye, please, thank you, sorry in 4 languages with pronunciation practice.",
+      "Chapter 6 (Colors & Shapes): Learning 10 colors and 5 shapes in all languages with drawing and labeling.",
+      "Chapter 7 (Days of the Week): Monday–Sunday with cultural notes on holidays in Spain, Japan, China, Pakistan.",
+      "Chapter 8 (Basic Classroom Words): Book, pen, teacher, student, sit, stand.",
+      "Chapter 9 (Family Vocabulary): Mother, father, brother, sister, grandparents with speaking drills.",
+      "Chapter 10 (Songs & Rhymes): Simple children’s songs in Spanish and Japanese; short rhymes in Chinese and Urdu.",
+      "Chapter 11 (Introduction to Cultures): Flag, traditional dress, famous food, one fun fact for each country.",
+      "Chapter 12 (Mini Dialogue): 'Hello, my name is… What is your name?' roleplay in pairs.",
+      "Chapter 13 (Fun Activities) : Language games, translation puzzles, international story day.",
+      "Chapter 14 (Multilingual Skills) : Students make word-lists of meanings in at least five languages (Spanish, French, German, Chinese, Japanese, English, Hindi) – thematic vocabulary.",
     ],
 
     // General Guidance (GGC)

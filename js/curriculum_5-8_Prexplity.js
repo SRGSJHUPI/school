@@ -97,10 +97,21 @@ Object.assign(window.curriculumData, {
       "Chapter 12(Parade) : Teaching about police, army ... duty and responsibility. Also there will be weekly parade and self safety in case of fire, earthquake or any other emergency."
     ],
     "🗣️ Languages": [
-      "Chapter 1(Multilingual Vocabulary) : Writing word meanings in English, Hindi, Japanese, Chinese, Spanish for key subject terms.",
-      "Chapter 2(Linguistic Activities) : International greetings, translation games, creating a classroom language dictionary.",
-      "Chapter 3(Language Apps and Websites) : Duolingo, Rosetta Stone, Memrise, Beelinguapp, Busuu, 50Languages, language exchange programs."
+      "Chapter 1 (Why Language? History & Types) : Origins of language, family tree of world languages, spoken, written, sign language.",    
+      "Chapter 2 (Languages Apps and Websites) : Duolingo, Rosetta Stone, Memrise, Beelinguapp, Busuu, 50Languages, language exchange programs.",
+      "Chapter 3 (Numbers 21–100): Using numbers in real contexts (age, money, dates).",
+      "Chapter 4 (Months & Seasons): Names of months and seasons with weather vocabulary.",
+      "Chapter 5 (Food & Drinks): 20 basic food items with roleplay (ordering in a restaurant).",
+      "Chapter 6 (Animals & Nature): Common animals and natural elements like river, mountain.",
+      "Chapter 7 (Classroom Sentences): 'May I go out?', 'Please repeat', 'I don’t understand.'",
+      "Chapter 8 (Polite Expressions): Excuse me, I’m sorry, thank you very much, no problem.",
+      "Chapter 9 (Body Parts): Vocabulary through drawing and Simon Says game.",
+      "Chapter 10 (Short Cultural Stories): One folktale per language (simplified for kids).",
+      "Chapter 11 (Festival Vocabulary): New Year (Japan, China, Spain) and Eid (Urdu).",
+      "Chapter 12 (Mini Dialogue II): Asking age, nationality, and how someone is feeling.",
+      "Chapter 13 (Multilingual Skills) : Students make word-lists of meanings in at least five languages (Spanish, French, German, Chinese, Japanese, English, Hindi) – thematic vocabulary.",
     ],
+
     "👥 GGC (General Guidance Class)": [
       "Chapter 1(Inspirational Young Achievers) : Stories of Gitanjali Rao, Tanmay Bakshi, Samaira Mehta, Harshwardhansinh Zala, Anne Makosinski with lessons on innovation, problem-solving, and persistence.",
       "Chapter 2(Gaming & eSports Inspiration) : Stories/discussions on Bugha, Sumail, Ana, Lil Poison, HydraFlick; analysis of their habits and learning path.",
@@ -249,10 +260,19 @@ Object.assign(window.curriculumData, {
     ],
 
     "🗣️ Languages": [
-      "Chapter 1(Multilingual Awareness) : Basic communication, vocabulary, and greetings in major Indian and world languages; translation of 10–20 key subject terms.",
-      "Chapter 2(Importance of multiple languages) : why multi languages, benefits of being multilingual, real-life examples.",
-      "Chapter 3(Characters) : Writing Characters in different languages",
-      "Chapter 3(Word Meanings) : make them write word meaning in different languages like hindi, eng, japanese, mandarin"
+      "Chapter 1 (Why Language? History & Types) : Origins of language, family tree of world languages, spoken, written, sign language.",    
+      "Chapter 2 (Languages Apps and Websites) : Duolingo, Rosetta Stone, Memrise, Beelinguapp, Busuu, 50Languages, language exchange programs.",
+      "Chapter 3 (Basic Grammar Intro): Word order differences – Spanish SVO, Japanese SOV, Chinese SVO with tones, Urdu right-to-left.",
+      "Chapter 4 (Self Introduction): 'My name is… I am … years old. I am from…'",
+      "Chapter 5 (Daily Routine): Wake up, eat, go to school, play, sleep.",
+      "Chapter 6 (School Vocabulary): Subjects, homework, exam, classroom items.",
+      "Chapter 7 (Asking Questions): What, Where, When, Who in all 4 languages.",
+      "Chapter 8 (Family and Friends): Talking about family members and best friend.",
+      "Chapter 9 (Shopping Dialogue): Asking price, saying expensive/cheap.",
+      "Chapter 10 (Culture Comparison): School life in Spain, Japan, China, Pakistan.",
+      "Chapter 11 (Numbers 100–1000): Using large numbers in practical exercises.",
+      "Chapter 12 (Mini Project): Write 5–6 sentences about yourself in all four languages.",
+      "Chapter 13 (Multilingual Skills) : Students make word-lists of meanings in at least five languages (Spanish, French, German, Chinese, Japanese, English, Hindi) – thematic vocabulary.",
     ],
 
     "👥 GGC (General Guidance Class)": [
@@ -379,8 +399,8 @@ Object.assign(window.curriculumData, {
       "Chapter 1(Understanding Fairness) : True meaning of equality, real-world applications and class debates.",
       "Chapter 2(Rules, Equity and Equality) : What is a rule? Why do societies have them?, Equity vs Equality, Practical scenarios.",
       "Chapter 3(Treating Everyone Equally) : Role-play; analyzing biases, building inclusivity.",
-      "Chapter 4(Caste Discrimination) : Stories of resistance, legal and ethical challenges, student journal.",
-      "Chapter 5(Environmental Duty) : Water and waste responsibility, projects on conservation.",
+      "Chapter 4(Discrimination) : Stories of resistance, legal and ethical challenges, student journal.",
+      "Chapter 5(Environmental Duty) : Why everyone talks about but none care? Why govt don't care? Water and waste responsibility, projects on conservation.",
       "Chapter 6(Gender Equality and Respect) : Games and stories on advocacy, group discussion.",
       "Chapter 7(Honesty vs Cheating) : Short stories, role play, ethical dilemmas.",
       "Chapter 8(Respect & Apology) : Strategies to apologize, forgive, classroom activities.",
@@ -392,9 +412,19 @@ Object.assign(window.curriculumData, {
       "Chapter 14(Philosophies) : <a href='pdf/Buddhist_Philosophy.pdf' target='_blank' class='text-blue-700 underline hover:text-blue-400'>Buddhist philosophy</a>, mindfulness, and the pursuit of inner peace."    ],
     
       "🗣️ Languages": [
-      "Chapter 1(Foreign Language Foundations) : Exposure to Spanish, Japanese, French, Chinese through vocabulary, greetings, mini-dialogues, and subject terminology translation.",
-      "Chapter 2(Language and Career) : Exploring the importance of language skills for international careers, basic CV exercises.",
-      "Chapter 3(Practice of Sentences) : write 1000 sentences in english and translate these in multiple languages."
+      "Chapter 1 (Why Language? History & Types) : Origins of language, family tree of world languages, spoken, written, sign language.",    
+      "Chapter 2 (Languages Apps and Websites) : Duolingo, Rosetta Stone, Memrise, Beelinguapp, Busuu, 50Languages, language exchange programs.",
+      "Chapter 1 (Hobbies & Sports): Talking about what you like/dislike doing.",
+      "Chapter 2 (Weather & Seasons): Describing today’s weather.",
+      "Chapter 3 (Food Conversation): Ordering food at restaurant – roleplay.",
+      "Chapter 4 (Travel Vocabulary): Train, bus, airport, ticket, hotel.",
+      "Chapter 5 (Describing People): Tall, short, kind, strong, beautiful.",
+      "Chapter 6 (Grammar Step II): Verb conjugations (Spanish), particles (Japanese), tones (Chinese), gender (Urdu).",
+      "Chapter 7 (Short Reading Texts): Simple stories, folk tales, or dialogues with translation.",
+      "Chapter 8 (Songs & Films): Learning language through simple movie clips or songs.",
+      "Chapter 9 (Skits & Roleplay): Acting out 2–3 minute skits in groups.",
+      "Chapter 10 (Translation Practice): Translate 20 simple English sentences into 4 languages.",
+      "Chapter 14 (Multilingual Skills) : Students make word-lists of meanings in at least five languages (Spanish, French, German, Chinese, Japanese, English, Hindi) – thematic vocabulary.",
     ],
     "👥 GGC (General Guidance Class)": [
       "Chapter 1(Major Global Exams & Scholarships) : NTSE, KVPY, IOQM, INChO, IJSO, STEP, TOEFL Junior, SAT/PSAT explained.",
@@ -560,7 +590,7 @@ Object.assign(window.curriculumData, {
       "Chapter 7(Speaking Up) : Whistleblowing, standing up to injustice, student-led dramatization.",
       "Chapter 8(Gender & Queer Rights) : Equality, bullying, LGBTQ+ issues, classroom policy exercises.",
       "Chapter 9(Mental Health & Friendship) : Support, stigma breaking, real-world stories.",
-      "Chapter 10(Ethics in School) : Cheating, favoritism, reflecting on discipline vs education.",
+      "Chapter 10(intoxicants) : what are intoxicants, How it effects society, Get rid of addiction.",
       "Chapter 11(Environmental Responsibility) : Role in ecological action, project on conservation.",
       "Chapter 12(Child Labour & Exploitation) : Research, films, poster presentations.",
       "Chapter 13(Group Projects) : Poster + presentation, school exhibition.",
@@ -570,15 +600,26 @@ Object.assign(window.curriculumData, {
       "Chapter 17(Mental Strength) : Why do some people commit suicide(explain in very polite way)?, understanding mental health and seeking help, Importance of life",
       "Chapter 18(Religions) : what is Religion?, History and origin, who make it? why make it? is it necessary to have Religion?, Is Religion a failed experiment? has Religion been converted to Business?, can religion help to make the world a better place? are we independent to choose any religion or we are bound to one we born in?",
       "Chapter 19(Documentry) : https://youtu.be/NTXO6uptlC8?si=HU4TuGJ8yZj_jKyd discussion on girls rights.",
-      "Chapter 20(Casteism and Racism) : Understanding caste and race, casteism as termite, its impact on society, and discussions on equality and justice."
+      "Chapter 20(Casteism and Racism) : Understanding caste and race, casteism as termite, its impact on society, and discussions on equality and justice.",
+      "Chapter 21(Ethics in School) : Cheating, favoritism, reflecting on discipline vs education"
 
     ],
 
     // Languages
     "🗣️ Languages": [
-      "Chapter 1(Multi-language Practice) : Vocabulary and key concepts for all major subjects (English, Hindi, Japanese, Spanish, Chinese), translation projects, dialogue building.",
-      "Chapter 2(Language and Culture) : Exploring cultural contexts, idiomatic expressions, and regional dialects.",
-      "Chapter 3(Effective Communication) : Public speaking, active listening, and interpersonal skills in multiple languages."
+      "Chapter 1 (Why Language? History & Types) : Origins of language, family tree of world languages, spoken, written, sign language.",    
+      "Chapter 2 (Languages Apps and Websites) : Duolingo, Rosetta Stone, Memrise, Beelinguapp, Busuu, 50Languages, language exchange programs.",
+      "Chapter 3 (Extended Conversations): Holding 1–2 minute conversations about daily life.",
+      "Chapter 4 (Travel Dialogues): Asking for directions, booking a room, buying a ticket.",
+      "Chapter 5 (Health & Emergency): Saying 'I feel sick', 'Call a doctor', 'Where is the hospital?'.",
+      "Chapter 6 (Technology Vocabulary): Phone, computer, internet, app, email.",
+      "Chapter 7 (Proverbs & Idioms): 3–5 simple proverbs in each language with meanings.",
+      "Chapter 8 (Grammar Review): Tenses (past/present/future basics).",
+      "Chapter 9 (Letter Writing): Writing a short postcard/email in Spanish or Japanese.",
+      "Chapter 10 (Career with Languages): Exploring jobs in tourism, IT, translation, diplomacy.",
+      "Chapter 11 (Cultural Projects): Students research one famous figure from each language country and present in English + basic target language.",
+      "Chapter 12 (Final Translation Project): 50 English sentences translated into all four languages, with oral presentations.",
+      "Chapter 13 (Multilingual Skills) : Students make word-lists of meanings in at least five languages (Spanish, French, German, Chinese, Japanese, English, Hindi) – thematic vocabulary.",
     ],
 
     // GGC: Global Guidance, Achievement & Career
@@ -623,12 +664,6 @@ Object.assign(window.curriculumData, {
     
     ]
   }
-
-
-
-
-
-
 
 
 });
