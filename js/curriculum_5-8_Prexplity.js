@@ -126,6 +126,13 @@ Object.assign(window.curriculumData, {
       "Chapter 4(Safety at School and Home) : Classroom and playground safety, understanding and reporting risks.",
       "Chapter 5(Emotional Literacy) : Understanding basic feelings, naming emotions, building empathy through group activities."
     ],
+
+    "🎨 Arts & Music": [
+      "Chapter 1(Art Appreciation) : Introduction to famous artists and their works.",
+      "Chapter 2(Music Fundamentals) : Basic music theory, rhythm exercises, and singing.",
+      "Chapter 3(Hands-on Art) : Creating art using various materials (paint, clay, digital tools)."
+    ],
+
     "🧠 General Knowledge (G.K)": [
       "Chapter 1(Famous Personalities) : Stories and achievements from India and the world.",
       "Chapter 2(National and World Symbols) : Flags, currencies, monuments, capitals.",
@@ -294,6 +301,13 @@ Object.assign(window.curriculumData, {
       "Chapter 7(Relationship Education) : Gender respect, building healthy relationships, assertive communication."
     ],
 
+    "🎨 Arts, Music and Dance": [
+      "Chapter 1(Art Appreciation) : Introduction to famous artists and their works.",
+      "Chapter 2(Music) : learn some music and sing.",
+      "Chapter 3(Dance) : Introduction to basic dance forms, rhythm, and movement.",
+      "Chapter 4(Dance show) : Creating a dance performance incorporating learned elements."
+    ],
+
     "🧠 General Knowledge (G.K)": [
       "Chapter 1(World Organizations) : UN, WHO, UNESCO; missions and contributions.",
       "Chapter 2(Environmental Initiatives) : Paris Agreement, climate summits, conservation heroes.",
@@ -447,6 +461,14 @@ Object.assign(window.curriculumData, {
       "Chapter 6(Fitness Testing & Assessment) : Conducting and understanding fitness assessments.",
       "Chapter 7(Internet and Screen Wellness) : Safe internet use, digital detox, balancing screen time."
     ],
+
+    "🎨 Arts, Music and Dance": [
+      "Chapter 1(Art Appreciation) : Make drawings of different birds, animals, etc.",
+      "Chapter 2(Music) : learn some music and sing.",
+      "Chapter 3(Dance) : Introduction to basic dance forms, rhythm, and movement.",
+      "Chapter 4(Dance show) : Creating a dance performance incorporating learned elements."
+    ],
+
     "🧠 General Knowledge (G.K)": [
       "Chapter 1(Indian Governance) : President, PM, Parliament—roles and powers.",
       "Chapter 2(Global Leaders and Conflicts) : Reviews of major world leaders, contemporary conflicts/peacekeeping.",

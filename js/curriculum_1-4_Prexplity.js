@@ -402,6 +402,13 @@ Object.assign(window.curriculumData, {
 
     ],
 
+    // Arts & Crafts
+    "🎨 Arts & Crafts": [
+      "Chapter 1(Drawing Basics) : Shapes, lines, and colors; creating simple still life drawings.",
+      "Chapter 2(Painting Techniques) : Watercolor vs acrylic, blending colors, and basic brush techniques.",
+      "Chapter 3(Crafts) : Introduction to paper mache, clay modeling, and recycling materials for art."
+    ],
+
     // General Knowledge
     "🧠 General Knowledge (G.K)": [
       "Chapter 1(National & Global Personalities) : Ambedkar, Kalam, Rani Laxmi Bai, Mandela.",
