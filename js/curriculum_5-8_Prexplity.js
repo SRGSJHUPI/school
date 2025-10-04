@@ -113,11 +113,19 @@ Object.assign(window.curriculumData, {
     ],
 
     "👥 GGC (General Guidance Class)": [
-      "Chapter 1(Inspirational Young Achievers) : Stories of Gitanjali Rao, Tanmay Bakshi, Samaira Mehta, Harshwardhansinh Zala, Anne Makosinski with lessons on innovation, problem-solving, and persistence.",
-      "Chapter 2(Gaming & eSports Inspiration) : Stories/discussions on Bugha, Sumail, Ana, Lil Poison, HydraFlick; analysis of their habits and learning path.",
-      "Chapter 3(Social Activists & Global Good) : Lessons from Malala, Greta, Licypriya, Zuriel, Bana Alabed; group discussion and project-based inspiration.",
-      "Chapter 4(Your Learning Path) : Reflect on how achievers started, their challenges, routines, and mindset. Make a plan for your own goals.",
-      "Chapter 5(Comparing and Action Plan) : What can I do to be like them? Creating a monthly personal skill-building project, finding support, and identifying local issues for improvement."
+      "Chapter 1(Why We Study) : Understanding that education develops our brain, discipline, and power to change society.",
+      "Chapter 2(Self-Study and Initiative) : How to study beyond the syllabus — asking questions, researching, and practicing curiosity.",
+      "Chapter 3(Time Management) : Learning to prioritize homework, hobbies, and rest using a balanced routine.",
+      "Chapter 4(Dealing with Failure) : Accepting mistakes as a part of learning; trying again with confidence.",
+      "Chapter 5(Respecting Education) : Appreciating books, school, and teachers as sources of empowerment.",
+      "Chapter 6(Self-Reflection) : Writing or talking about ‘What did I learn today?’ — becoming thoughtful and responsible.",
+      "Chapter 7(Global Education Systems) : Overview of school systems in UK, US, Japan, Finland; where India stands globally.",
+      "Chapter 8(Inspirational Achievers) : Stories of young innovators, gamers, and activists making a difference worldwide.",
+      "Chapter 9(Inspirational Young Achievers) : Stories of Gitanjali Rao, Tanmay Bakshi, Samaira Mehta, Harshwardhansinh Zala, Anne Makosinski with lessons on innovation, problem-solving, and persistence.",
+      "Chapter 10(Gaming & eSports Inspiration) : Stories/discussions on Bugha, Sumail, Ana, Lil Poison, HydraFlick; analysis of their habits and learning path.",
+      "Chapter 11(Social Activists & Global Good) : Lessons from Malala, Greta, Licypriya, Zuriel, Bana Alabed; group discussion and project-based inspiration.",
+      "Chapter 12(Your Learning Path) : Reflect on how achievers started, their challenges, routines, and mindset. Make a plan for your own goals.",
+      "Chapter 13(Comparing and Action Plan) : What can I do to be like them? Creating a monthly personal skill-building project, finding support, and identifying local issues for improvement."
     ],
     "🏃‍♂️ Games & Physical Education": [
       "Chapter 1(Hygiene and Personal Cleanliness) : Daily exercise, hand washing, teeth brushing routines.",

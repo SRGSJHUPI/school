@@ -252,10 +252,16 @@ Object.assign(window.curriculumData, {
       "Chapter 1(What is Language?) : Why and how do we communicate, importance and origin of languages, major language families.",
       "Chapter 2(Language Diversity) : Greetings, simple words in 10+ languages, exploring scripts, songs and games."
     ],
-    "👥 GGC (General Guidance Class)": [
-      "Chapter 1(My Aspirations and Role Models) : Dreaming about the future, classroom discussions, stories on role models (doctors, astronauts, teachers, etc.).",
-      "Chapter 2(Global Exchange) : Virtual exchange sessions with rural/urban/global students; comparing school life, holidays, uniforms, food from around the world.",
-      "Chapter 3(Global Awareness and Map Games) : Picture map activities to see where children live, work, and study across the globe."
+    "👥 GGC (General Guidance Class)": [     
+      "Chapter 1(What is Study?) : Understanding that study is not just reading or writing but learning, observing, and exploring new things every day.",
+      "Chapter 2(Homework vs Self-Study) : Knowing the difference between assigned work and personal curiosity-driven study; developing the habit of reviewing lessons daily.",
+      "Chapter 3(Learning from Environment) : Discovering lessons from nature, people, and surroundings — seeing the world as a classroom.",
+      "Chapter 4(Respect & Responsibility) : Respecting parents, teachers, and friends; taking care of school belongings.",
+      "Chapter 5(Time for Everything) : Learning simple daily scheduling — balancing study, play, and rest.",
+      "Chapter 6(Importance of Asking Questions) : Encouraging curiosity and confidence to ask 'why' and 'how' without fear.",
+      "Chapter 7(My Aspirations and Role Models) : Dreaming about the future, classroom discussions, stories on role models (doctors, astronauts, teachers, etc.).",
+      "Chapter 8(Global Exchange) : Virtual exchange sessions with rural/urban/global students; comparing school life, holidays, uniforms, food from around the world.",
+      "Chapter 9(Global Awareness and Map Games) : Picture map activities to see where children live, work, and study across the globe.",
     ],
     "🏃‍♂️ Games and Physical Education": [
       "Chapter 1(Physical Fitness and Sports) : Relay, jumping, tag, dodgeball, yoga-based stretches.",
@@ -390,8 +396,14 @@ Object.assign(window.curriculumData, {
     // General Guidance (GGC)
     "👥 GGC (General Guidance Class)": [
       "Chapter 1(Self-Understanding) : Goal setting, ‘What do I want to be?’, visualizing and drawing dreams.",
-      "Chapter 2(Social & Emotional Learning) : Managing feelings – anger, disappointment, happiness.",
-      "Chapter 3(Group Games) : Team cooperation, silent games, logic teamwork." 
+      "Chapter 2(Social & Emotional Learning) : Managing feelings – anger, disappointment, happiness.",     
+      "Chapter 3(Meaning of Study) : Understanding study as a way to grow in wisdom, behavior, and life skills — not just memorizing books.",
+      "Chapter 4(Reading with Focus) : Learning how to read carefully and find meaning, not just speed.",
+      "Chapter 5(Self-Discipline) : Building habits like punctuality, cleanliness, and completing tasks on time.",
+      "Chapter 6(Homework and Self-Learning) : Developing ownership of learning — doing homework sincerely and exploring extra topics independently.",
+      "Chapter 7(Handling Distractions) : Learning to focus during study and avoid distractions from TV, games, or mobile.",
+      "Chapter 8(Gratitude and Helpfulness) : Being thankful for teachers, parents, and classmates; helping those in need.",
+      "Chapter 9(Group Games) : Team cooperation, silent games, logic teamwork.",
     ],
 
     // Physical Education & Games
