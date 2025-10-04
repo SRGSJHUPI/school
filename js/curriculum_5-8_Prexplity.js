@@ -149,10 +149,16 @@ Object.assign(window.curriculumData, {
       "Chapter 5(Monuments and Current Affairs) : Landmarks worldwide and simple digest of current events."
     ],
     "🔬 Research Projects (R.P)": [
-      "Chapter 1(AI) : What is AI?, Applications of AI in daily life.",
-      "Chapter 2(Sensors Around Us) : Demonstrations and research on sensors in airplanes, boats, robots using experiments and videos.",
-      "Chapter 3(Robotics – Introduction) : Basic robotics projects (kits or classroom build), connection to earlier C/C++ and Arduino modules, explain real-world examples.",
-      "Chapter 4(softwares) : TinkerCAD, Arduino IDE, VS Code, brainly."
+      "Chapter 1(Scientific Curiosity) : Understanding how scientists think; asking logical questions before doing any experiment.",
+      "Chapter 2(Electrical Safety) : Learning about current, voltage, and precautions while handling cells, bulbs, and motors.",
+      "Chapter 3(Mechanical Safety) : Safe use of gears, pulleys, sharp tools, and moving parts while making machines or toys.",
+      "Chapter 4(Chemical Safety) : Understanding labels, handling cleaning liquids or glue safely, wearing protective gear if needed.",
+      "Chapter 5(Teamwork in Research) : Working with peers respectfully, sharing ideas, and dividing work fairly.",
+      "Chapter 6(Project Work) : Building a model (windmill, electric boat, or simple robot) with teacher supervision following all safety steps.",
+      "Chapter 7(AI) : What is AI?, Applications of AI in daily life.",
+      "Chapter 8(Sensors Around Us) : Demonstrations and research on sensors in airplanes, boats, robots using experiments and videos.",
+      "Chapter 9(Robotics – Introduction) : Basic robotics projects (kits or classroom build), connection to earlier C/C++ and Arduino modules, explain real-world examples.",
+      "Chapter 10(softwares) : TinkerCAD, Arduino IDE, VS Code, brainly."
     ]
   },
 
@@ -327,10 +333,16 @@ Object.assign(window.curriculumData, {
     ],
 
     "🔬 Research Projects (R.P)": [
-      "Chapter 1(Sensors in Technology) : Types and applications in airplanes, boats, drones, robots; hands-on sensor demonstration.",
-      "Chapter 2(Robotics – Introduction) : NPTEL lectures, classroom kits; project build: basic robot with sensors.",
-      "Chapter 3(Machine Learning) : Simplified machine learning concept lessons, using NPTEL videos/projects for age-appropriate examples.",
-      "Chapter 4(softwares) : TinkerCAD, Arduino IDE."
+      "Chapter 1(Introduction to Experimental Design) : Understanding hypothesis, materials, method, and result recording.",
+      "Chapter 2(Electrical Safety Advanced) : Learning about short circuits, insulation, overloading, and multimeter use.",
+      "Chapter 3(Mechanical Safety Advanced) : Safe handling of rotating machines, soldering tools, and protective equipment.",
+      "Chapter 4(Chemical Safety in Lab Work) : Reading Material Safety Data Sheets (MSDS), labeling bottles, and basic first-aid for spills.",
+      "Chapter 5(Environmental Safety) : Safe disposal of batteries, wires, and chemical waste; learning recycling practices.",
+      "Chapter 6(Research Project Exhibition) : Presenting group projects like drone, solar car, or robotic arm with complete safety documentation.",
+      "Chapter 7(Sensors in Technology) : Types and applications in airplanes, boats, drones, robots; hands-on sensor demonstration.",
+      "Chapter 8(Robotics – Introduction) : NPTEL lectures, classroom kits; project build: basic robot with sensors.",
+      "Chapter 9(Machine Learning) : Simplified machine learning concept lessons, using NPTEL videos/projects for age-appropriate examples.",
+      "Chapter 10(softwares) : TinkerCAD, Arduino IDE."
     ]
   },
  

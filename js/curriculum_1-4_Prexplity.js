@@ -430,11 +430,17 @@ Object.assign(window.curriculumData, {
 
     // Research Projects
     "🔬 Research Projects (R.P)": [
-      "Chapter 1(softwares) : TinkerCAD, Arduino IDE.",
-      "Chapter 2(Arduino Sensor Projects) : Simple sensor-based circuits (light, buzzer), applications in air/boat/robot.",
-      "Chapter 3(Robotics for Kids) : What is a robot? LEGO and Scratch projects.",
-      "Chapter 4(Machine Learning Demos) : Watch and discuss simple NPTEL videos on pattern recognition and visual learning.",
-      "Chapter 5(Education Applications and Softwares) : introduction to Brilliant, Khan Academy."
+      "Chapter 1(Introduction to Research Thinking) : Understanding what research means — observation, asking questions, and finding answers through experiments.",
+      "Chapter 2(Basic Lab Rules) : Keeping workspaces clean, handling materials carefully, and listening to teacher instructions.",
+      "Chapter 3(Understanding Tools) : Introduction to simple hand tools like scissors, screwdrivers, and glue guns; how to use them safely.",
+      "Chapter 4(Electrical Safety) : Do’s and don’ts while connecting wires, using batteries, and switching circuits on/off.",
+      "Chapter 5(Observation Journal) : Maintaining a small notebook to record what was done, what was observed, and what was learned.",
+      "Chapter 6(Mini Project) : Make a simple project like paper fan, motor car, or water wheel under guidance while following safety rules.",
+      "Chapter 7(softwares) : TinkerCAD, Arduino IDE.",
+      "Chapter 8(Arduino Sensor Projects) : Simple sensor-based circuits (light, buzzer), applications in air/boat/robot.",
+      "Chapter 9(Robotics for Kids) : What is a robot? LEGO and Scratch projects.",
+      "Chapter 10(Machine Learning Demos) : Watch and discuss simple NPTEL videos on pattern recognition and visual learning.",
+      "Chapter 11(Education Applications and Softwares) : introduction to Brilliant, Khan Academy.",
     ]
   }
  
