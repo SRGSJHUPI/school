@@ -44,7 +44,15 @@
         </picture>
         <h1 class="text-2xl font-bold text-blue-700">Rising Nalanda</h1>
       </div></a>
-      <ul class="flex gap-6 text-sm font-medium">
+
+      <!-- Hamburger Button (mobile only) -->
+    <button id="menu-toggle"
+      class="block md:hidden text-3xl px-2 py-1 rounded focus:outline-none"
+      aria-label="Open menu">
+      <i class="fas fa-bars"></i>
+    </button>
+
+      <ul id="navbar-menu" class="hidden md:flex gap-6 text-sm font-medium">
 
        <li class="relative group py-2">
           <a href="index.html" class="hover:text-blue-600">Home</a>
@@ -138,6 +146,24 @@
         </a></li>
       </ul>
     </div>
+
+    <!-- Right Sidebar (mobile menu) -->
+<div id="mobile-menu"
+     class="fixed rounded top-0 right-[0] top-12 w-50 max-w-[30vw] bg-white shadow-lg z-50 transform translate-x-full transition-transform duration-300 md:hidden">
+  <ul class="flex flex-col p-1.5 pr-0 mt-0 mb-0">
+    <li class="relative group py-0.5"><a href="index.html" class="text-blue-600 font-semibold text-lg">Home</a></li>      
+    <li class="relative group py-0.5"><a href="academics.html" class="hover:text-blue-600">Academics</a></li>
+    <li class="relative group py-0.5"><a href="admission.html" class="hover:text-blue-600">Admission</a></li>
+    <li class="relative group py-0.5"><a href="faculty.html" class="hover:text-blue-600">Faculty</a></li>
+    <li class="relative group py-0.5"><a href="research.html" class="hover:text-blue-600">Research</a></li>
+    <li class="relative group py-0.5"><a href="gallery.html" class="hover:text-blue-600">Gallery</a></li>
+    <li class="relative group py-0.5"><a href="contact.html" class="hover:text-blue-600">Contact Us</a></li>
+    <li class="py-3"> <a href="index.html#fee-support" class="bg-green-600 text-white px-2 py-2 rounded hover:bg-green-700 transition">Support Us</a></li>
+  </ul>
+</div>
+<!-- Add an overlay for dimming background, optional -->
+<div id="sidebar-overlay" class="fixed inset-0 bg-black bg-opacity-40 z-40 hidden md:hidden"></div>
+
   </nav>
 
    <!-- Page Header -->
@@ -682,7 +708,7 @@
 
 <!-- common js -->
 <script src="js/common.js"></script>
-<script src="js/academic_content.js"></script>
+<script src="js/academic_content_html_way.js"></script>
 </body>
 
 

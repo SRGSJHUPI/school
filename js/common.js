@@ -38,3 +38,16 @@
   }
 });
 
+// Simple mobile menu toggle
+const menuToggle = document.getElementById('menu-toggle');
+const mobileMenu = document.getElementById('mobile-menu');
+const sidebarOverlay = document.getElementById('sidebar-overlay');
+
+menuToggle.addEventListener('click', () => {
+  mobileMenu.classList.toggle('translate-x-full');
+  sidebarOverlay.classList.toggle('hidden');
+});
+sidebarOverlay.addEventListener('click', () => {
+  mobileMenu.classList.add('translate-x-full');
+  sidebarOverlay.classList.add('hidden');
+});
