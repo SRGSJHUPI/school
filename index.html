@@ -192,13 +192,38 @@
   
   
     <!-- Image Section with Overlay Text -->
-     <section>
+     <!-- <section>
     <div class="relative w-full h-[850px]">
       <picture>
           <source srcset="images/hero_photo_girl_webp.webp" type="image/webp">
           <img src="images/hero_photo_girl.png" alt="Hero Image" class="w-full h-full object-cover">
         </picture>
-      <!-- Text overlay -->
+    </div>
+  </section> -->
+
+  <!-- Hero Image Section -->
+<!-- Small screen hero section -->
+<section class="block md:hidden">
+  <div class="relative w-full mx-auto overflow-hidden max-w-prose">
+    <picture>
+      <source srcset="images/hero_photo_girl_webp.webp" type="image/webp" />
+      <img src="images/hero_photo_girl.png"
+           alt="Hero Image"
+           class="w-full h-auto object-contain"
+           style="max-height: 60vh;" />
+    </picture>
+  </div>
+</section>
+
+<!-- Medium and larger screen hero section -->
+<section class="hidden md:block">
+  <div class="relative w-full h-[850px]">
+    <picture>
+      <source srcset="images/hero_photo_girl_webp.webp" type="image/webp" />
+      <img src="images/hero_photo_girl.png" alt="Hero Image" class="w-full h-full object-cover" />
+    </picture>
+
+        <!-- Text overlay -->
       <!-- <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30">
         <div class="bg-white bg-opacity-20 px-4 py-1 rounded">
           <h1 class="text-red-400 text-3xl md:text-4xl font-semibold text-center">
@@ -206,8 +231,8 @@
           </h1>
         </div>
       </div> -->
-    </div>
-  </section>
+  </div>
+</section>
 
   <div class="w-full flex flex-col gap-6  md:px-4 mt-4 pb-2">
   <!-- Vision & Mission -->
@@ -631,5 +656,6 @@
 <!-- common js -->
 <script src="js/common.js"></script>
 <script src="js/index.js"></script>
+
 </body>
 </html>
