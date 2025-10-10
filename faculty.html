@@ -172,49 +172,52 @@
   </section>
 
 
-  <section class="grid grid-cols-1 p-4">
-  <div class="bg-white p-4 shadow rounded border-2 border-red-300">
-    <div class="flex flex-col md:flex-row lg:flex-row lg:items-start lg:gap-6">
-      
-      <!-- Photo + Biography + Quote area -->
-      <div class="flex flex-col md:flex-col lg:flex-row lg:w-2/3 md:gap-4 lg:gap-6">
-        
-        <!-- Photo Section -->
-        <div class="flex-shrink-0 w-full md:w-full lg:w-1/3 mb-4 md:mb-4 lg:mb-0">
-          <img src="images/Rohit_Gautam.jpeg" alt="Faculty Photo"
-            class="w-40 h-30 rounded-lg object-cover mb-4 border-2 border-blue-200">
-          <h4 class="text-base md:text-lg font-bold">Mr. Rohit Gautam</h4>
-          <p class="text-sm md:text-base">Founder & Director</p>
-          <p class="text-xs md:text-sm text-gray-600">Qualification: B.Tech (IIT KANPUR)</p>
-          <p class="text-xs md:text-sm text-gray-600">Experience: 3+ years</p>
-        </div>
-        
-        <!-- Biography + Quote area -->
-        <div class="flex flex-col w-full lg:w-2/3 break-words">
-          
-          <!-- Biography text -->
-          <div>
-            <p class="text-xs md:text-sm lg:text-base text-justify">
-              Rohit Gautam, an IIT Kanpur alumnus, is the visionary founder of Rising Nalanda. With a B.Tech degree, he is passionate about leveraging education to empower underprivileged children. His dedication to social equality and educational excellence drives the mission of Rising Nalanda, where he aims to provide quality education and opportunities to those in need, especially marginalized communities. He also believes in women empowerment and gives special attention to girl children in his school.
-            </p>
-          </div>
-          
-          <!-- Quote & author: vertical on md, horizontal on lg -->
-          <div class="mt-4 italic text-gray-600 flex flex-col md:flex-col lg:flex-row lg:items-center lg:gap-4 min-h-[48px]">
-            <span class="text-sm md:text-base lg:text-lg font-medium">
-              “Education is that sword which doesn't require shield to fight”
-            </span>
-            <p class="text-xs md:text-sm lg:text-base mt-2 md:mt-2 lg:mt-0">
-              – Rohit Gautam
-            </p>
-          </div>
-          
+<section class="p-1 md:p-4 lg:p-6 mb-1">
+  <div class="bg-green-50 p-4 md:pl-20 md:pr-1 shadow rounded border-2 border-red-300">
+
+    <div class="flex flex-col md:flex-row md:flex-wrap lg:flex-nowrap lg:items-start lg:gap-6">
+
+      <!-- Photo -->
+      <div class="flex-shrink-0 w-full mb-4 md:mb-0 lg:mb-0 lg:w-1/4">
+        <img src="images/Rohit_Gautam.jpeg" alt="Faculty Photo"
+          class="w-40 h-30 rounded-lg object-cover mb-4 border-2 border-blue-200 mx-auto md:mx-0">
+        <h4 class="text-base md:text-lg font-bold text-center md:text-left">Mr. Rohit Gautam</h4>
+        <p class="text-sm md:text-base text-center md:text-left">Founder & Director</p>
+        <p class="text-xs md:text-sm text-gray-600 text-center md:text-left">Qualification: B.Tech (IIT KANPUR)</p>
+        <p class="text-xs md:text-sm text-gray-600 text-center md:text-left">Experience: 3+ years</p>
+      </div>
+
+      <!-- Middle container for quote+author and biography -->
+      <div class="flex flex-col w-full md:w-2/3 lg:w-2/3 lg:flex-col lg:gap-6 md:mb-4">
+
+        <!-- Quote + Author: horizontal on medium, vertical on large -->
+        <!-- <div class="flex flex-col md:flex-row lg:flex-col items-center md:items-start md:justify-start md:gap-2 lg:gap-4 mb-4 md:mb-4 lg:mb-0">
+          <span class="text-sm md:text-base lg:text-lg italic font-medium text-center md:text-left">
+            “Education is that sword which doesn't require shield to fight”
+          </span>
+          <p class="text-xs md:text-sm lg:text-base mt-2 md:mt-0 md:ml-2 lg:mt-2 text-center md:text-left">
+            – Rohit Gautam
+          </p>
+        </div> -->
+        <!-- Teacher's thought goes here -->
+             <div class=" text-center relative inline-block">
+              <span class="text-sm md:text-base block text-lg font-medium">“Education is that sword which doesn't require shield to fight”</span>
+              <p class="text-right text-sm mt-1 pr-2">– Rohit Gautam</p>
+             </div>
+
+        <!-- Biography below quote+author -->
+        <div class="text-justify text-xs md:text-sm lg:text-base">
+          Rohit Gautam, an IIT Kanpur alumnus, is the visionary founder of Rising Nalanda. With a B.Tech degree,
+          he is passionate about leveraging education to empower underprivileged children. His dedication to social equality and educational excellence
+          drives the mission of Rising Nalanda, where he aims to provide quality education and opportunities to those
+          in need, especially marginalized communities. He also believes in women empowerment and gives special attention
+          to girl children in his school.
         </div>
       </div>
-      
-      <!-- Video on right side for md and lg -->
-      <div class="mt-6 md:mt-0 lg:mt-0 lg:w-1/3 flex-shrink-0">
-        <video controls class="rounded shadow w-full max-w-md mx-auto">
+
+      <!-- Video on right for medium and large -->
+      <div class="w-full md:w-1/2 lg:w-1/4 flex-shrink-0 mt-6 md:mt-0 lg:mt-0 mx-auto md:mx-0">
+        <video controls class="rounded shadow w-full md:max-w-full lg:max-w-md mx-auto md:mx-0">
           <source src="videos/rohit_gautam_intro.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -222,16 +225,16 @@
           Rising Nalanda: A Step Toward Educational Equality
         </p>
       </div>
-      
+
     </div>
+
   </div>
 </section>
 
-
   <!-- Faculty List -->
-  <section class="mb-8">
+  <section class="mb-4 mt-0">
     <div class="container mx-auto">
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-1">
 
         
         
