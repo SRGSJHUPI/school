@@ -172,44 +172,61 @@
   </section>
 
 
-  <section>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 p-4">
-
-    <div class="bg-white p-4 shadow rounded flex  items-start border-2 border-red-300">
-          <!-- Photo on the left -->
-           <div><img src="images/Rohit_Gautamm.jpeg" alt="Faculty Photo"
+  <section class="grid grid-cols-1 p-4">
+  <div class="bg-white p-4 shadow rounded border-2 border-red-300">
+    <div class="flex flex-col md:flex-row lg:flex-row lg:items-start lg:gap-6">
+      
+      <!-- Photo + Biography + Quote area -->
+      <div class="flex flex-col md:flex-col lg:flex-row lg:w-2/3 md:gap-4 lg:gap-6">
+        
+        <!-- Photo Section -->
+        <div class="flex-shrink-0 w-full md:w-full lg:w-1/3 mb-4 md:mb-4 lg:mb-0">
+          <img src="images/Rohit_Gautam.jpeg" alt="Faculty Photo"
             class="w-40 h-30 rounded-lg object-cover mb-4 border-2 border-blue-200">
-            <h4 class="text-lg font-bold">Mr. Rohit Gautam</h4>
-            <p>Founder & Director</p>
-            <p class="text-sm text-gray-600">Qualification: B.Tech (IIT KANPUR)</p>
-            <p class="text-sm text-gray-600">Experience: 3+ years</p>
-          </div>  
-          <!-- Info and Thought on the right -->
-          <div class="ml-6 flex-1">  
-            <div class="mt-16 text-gray-600 italic min-h-[48px]">
-              <!-- Teacher's thought goes here -->
-             <div class="text-center relative inline-block">
-              <span class="block text-lg font-medium">“Education is that sword which doesn't require shield to fight”</span>
-              <p class="text-right text-sm mt-1 pr-2">– Rohit Gautam</p>
-             </div>
-
-            </div>
-
-            
+          <h4 class="text-base md:text-lg font-bold">Mr. Rohit Gautam</h4>
+          <p class="text-sm md:text-base">Founder & Director</p>
+          <p class="text-xs md:text-sm text-gray-600">Qualification: B.Tech (IIT KANPUR)</p>
+          <p class="text-xs md:text-sm text-gray-600">Experience: 3+ years</p>
+        </div>
+        
+        <!-- Biography + Quote area -->
+        <div class="flex flex-col w-full lg:w-2/3 break-words">
+          
+          <!-- Biography text -->
+          <div>
+            <p class="text-xs md:text-sm lg:text-base text-justify">
+              Rohit Gautam, an IIT Kanpur alumnus, is the visionary founder of Rising Nalanda. With a B.Tech degree, he is passionate about leveraging education to empower underprivileged children. His dedication to social equality and educational excellence drives the mission of Rising Nalanda, where he aims to provide quality education and opportunities to those in need, especially marginalized communities. He also believes in women empowerment and gives special attention to girl children in his school.
+            </p>
           </div>
-
-          <div class="mb-2 mr-8">
-          <video controls class="rounded shadow w-full max-w-md mx-auto">
-            <source src="videos/rohit_gautam_intro.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <p class="text-center text-sm text-gray-500 mt-1">Rising Nalanda: A Step Toward Educational Equality</p>
+          
+          <!-- Quote & author: vertical on md, horizontal on lg -->
+          <div class="mt-4 italic text-gray-600 flex flex-col md:flex-col lg:flex-row lg:items-center lg:gap-4 min-h-[48px]">
+            <span class="text-sm md:text-base lg:text-lg font-medium">
+              “Education is that sword which doesn't require shield to fight”
+            </span>
+            <p class="text-xs md:text-sm lg:text-base mt-2 md:mt-2 lg:mt-0">
+              – Rohit Gautam
+            </p>
+          </div>
+          
         </div>
+      </div>
+      
+      <!-- Video on right side for md and lg -->
+      <div class="mt-6 md:mt-0 lg:mt-0 lg:w-1/3 flex-shrink-0">
+        <video controls class="rounded shadow w-full max-w-md mx-auto">
+          <source src="videos/rohit_gautam_intro.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <p class="text-center text-xs md:text-sm text-gray-500 mt-1">
+          Rising Nalanda: A Step Toward Educational Equality
+        </p>
+      </div>
+      
+    </div>
+  </div>
+</section>
 
-        </div>
-
-        </div>
-  </section>
 
   <!-- Faculty List -->
   <section class="mb-8">
@@ -220,7 +237,7 @@
         
         <div class="bg-white p-4 shadow-xl rounded flex items-start border-2 border-blue-500">
           <!-- Photo on the left -->
-           <div><img src="images/Rohit_Gautamm.jpeg" alt="Faculty Photo"
+           <div><img src="images/Rohit_Gautam.jpeg" alt="Faculty Photo"
             class="w-40 h-30 rounded-lg object-cover mb-4 border-2 border-blue-200">
             <h4 class="text-lg font-bold">Mr. Ankit Nagar</h4>
             <p class="text-red-800 text-xl">Principle</p>
@@ -238,7 +255,7 @@
 
         <div class="bg-white p-4 shadow-xl rounded flex items-start border-2 border-blue-500">
           <!-- Photo on the left -->
-           <div><img src="images/Rohit_Gautamm.jpeg" alt="Faculty Photo"
+           <div><img src="images/Rohit_Gautam.jpeg" alt="Faculty Photo"
             class="w-40 h-30 rounded-lg object-cover mb-4 border-2 border-blue-200">
             <h4 class="text-lg font-bold">Mrs. ABC</h4>
             <p>Expertise in OS</p>
@@ -249,14 +266,14 @@
           <div class="ml-6 flex-1">  
             <div class="mt-16 text-gray-600 italic min-h-[48px]">
               <!-- Teacher's thought goes here -->
-              <span>“Yet to come ...”</span>
+              <span>“Yet to come... When someone for this positioin will be appointed the phrase will be updated as soon as possible”</span>
             </div>
           </div>
         </div>
 
         <div class="bg-white p-4 shadow-xl rounded flex items-start border-2 border-blue-500">
           <!-- Photo on the left -->
-           <div><img src="images/Rohit_Gautamm.jpeg" alt="Faculty Photo"
+           <div><img src="images/Rohit_Gautam.jpeg" alt="Faculty Photo"
             class="w-40 h-30 rounded-lg object-cover mb-4 border-2 border-blue-200">
             <h4 class="text-lg font-bold">Mr. Unknown 3</h4>
             <p>XYZ</p>
@@ -267,14 +284,14 @@
           <div class="ml-6 flex-1">  
             <div class="mt-16 text-gray-600 italic min-h-[48px]">
               <!-- Teacher's thought goes here -->
-              <span>“Yet to come ...”</span>
+              <span>“Yet to come... When someone for this positioin will be appointed the phrase will be updated as soon as possible”</span>
             </div>
           </div>
         </div>
 
         <div class="bg-white p-4 shadow-xl rounded flex items-start border-2 border-blue-500">
           <!-- Photo on the left -->
-           <div><img src="images/Rohit_Gautamm.jpeg" alt="Faculty Photo"
+           <div><img src="images/Rohit_Gautam.jpeg" alt="Faculty Photo"
             class="w-40 h-30 rounded-lg object-cover mb-4 border-2 border-blue-200">
             <h4 class="text-lg font-bold">Mr. Unknown 4</h4>
             <p>XYZ</p>
@@ -284,15 +301,15 @@
           <!-- Info and Thought on the right -->
           <div class="ml-6 flex-1">  
             <div class="mt-16 text-gray-600 italic min-h-[48px]">
-              <!-- Teacher's thought goes here -->
-              <span>“Yet to come...”</span>
+              <!-- Teacher's thought goes here -->“Yet to come... When someone for this positioin will be appointed the phrase will be updated as soon as possible”
+              <span></span>
             </div>
           </div>
         </div>
 
         <div class="bg-white p-4 shadow-xl rounded flex items-start border-2 border-blue-500">
           <!-- Photo on the left -->
-           <div><img src="images/Rohit_Gautamm.jpeg" alt="Faculty Photo"
+           <div><img src="images/Rohit_Gautam.jpeg" alt="Faculty Photo"
             class="w-40 h-30 rounded-lg object-cover mb-4 border-2 border-blue-200">
             <h4 class="text-lg font-bold">Mr. Unknown 5</h4>
             <p>XYZ</p>
@@ -303,7 +320,7 @@
           <div class="ml-6 flex-1">  
             <div class="mt-16 text-gray-600 italic min-h-[48px]">
               <!-- Teacher's thought goes here -->
-              <span>“Yet to <come class=""></come>”</span>
+              <span>“Yet to come... When someone for this positioin will be appointed the phrase will be updated as soon as possible”</span>
             </div>
           </div>
         </div>      
@@ -311,7 +328,7 @@
 
         <div class="bg-white p-4 shadow-xl rounded flex items-start border-2 border-blue-500">
           <!-- Photo on the left -->
-           <div><img src="images/Rohit_Gautamm.jpeg" alt="Faculty Photo"
+           <div><img src="images/Rohit_Gautam.jpeg" alt="Faculty Photo"
             class="w-40 h-30 rounded-lg object-cover mb-4 border-2 border-blue-200">
             <h4 class="text-lg font-bold">Mr. Unknown 5</h4>
             <p>XYZ</p>
@@ -322,7 +339,7 @@
           <div class="ml-6 flex-1">  
             <div class="mt-16 text-gray-600 italic min-h-[48px]">
               <!-- Teacher's thought goes here -->
-              <span>“Yet to <come class=""></come>”</span>
+              <span>“Yet to come... When someone for this positioin will be appointed the phrase will be updated as soon as possible”</span>
             </div>
           </div>
         </div>     

@@ -150,15 +150,13 @@ Object.assign(window.curriculumData, {
     ],
     "🔬 Research Projects (R.P)": [
       "Chapter 1(Scientific Curiosity) : Understanding how scientists think; asking logical questions before doing any experiment.",
-      "Chapter 2(Electrical Safety) : Learning about current, voltage, and precautions while handling cells, bulbs, and motors.",
-      "Chapter 3(Mechanical Safety) : Safe use of gears, pulleys, sharp tools, and moving parts while making machines or toys.",
-      "Chapter 4(Chemical Safety) : Understanding labels, handling cleaning liquids or glue safely, wearing protective gear if needed.",
-      "Chapter 5(Teamwork in Research) : Working with peers respectfully, sharing ideas, and dividing work fairly.",
-      "Chapter 6(Project Work) : Building a model (windmill, electric boat, or simple robot) with teacher supervision following all safety steps.",
-      "Chapter 7(AI) : What is AI?, Applications of AI in daily life.",
-      "Chapter 8(Sensors Around Us) : Demonstrations and research on sensors in airplanes, boats, robots using experiments and videos.",
-      "Chapter 9(Robotics – Introduction) : Basic robotics projects (kits or classroom build), connection to earlier C/C++ and Arduino modules, explain real-world examples.",
-      "Chapter 10(softwares) : TinkerCAD, Arduino IDE, VS Code, brainly."
+      "Chapter 2(Safety in Labs) : Electrical Safety-> Learning about current, voltage, and precautions while handling cells, bulbs, and motors.Mechanical Safety-> Safe use of gears, pulleys, sharp tools, and moving parts while making machines or toys.Chemical Safety-> Understanding labels, handling cleaning liquids or glue safely, wearing protective gear if needed.",
+      "Chapter 3(Teamwork in Research) : Working with peers respectfully, sharing ideas, and dividing work fairly.",
+      "Chapter 4(AI) : What is AI?, Applications of AI in daily life.",
+      "Chapter 5(Sensors Around Us) : Demonstrations and research on sensors in airplanes, boats, robots using experiments and videos.",
+      "Chapter 6(Robotics – Introduction) : Basic robotics projects (kits or classroom build), connection to earlier C/C++ and Arduino modules, explain real-world examples.",
+      "Chapter 7(Project Work) : Building a model (windmill, electric boat, or simple robot) with teacher supervision following all safety steps.",
+      "Chapter 8(softwares) : TinkerCAD, Arduino IDE, VS Code, brainly."
     ]
   },
 
@@ -441,9 +439,12 @@ Object.assign(window.curriculumData, {
       "Chapter 9(Children’s Rights) : Awareness of children’s rights through case readings.",
       "Chapter 10(Standing Up for Others) : Bystander effect and supporting friends.",
       "Chapter 11(Self-Reflection) : What is shyness?, is it good or bad?, 'Who Am I Becoming?'—discussion and journaling.",
-      "Chapter 12(Parade) : Teaching about police, army ... duty and responsibility. Also there will be weekly parade and self safety in case fire, earthquake or any other emergency.",
+      "Chapter 12(Parade) : Teaching about police, army... duty and responsibility. Also there will be weekly parade and self safety in case fire, earthquake or any other emergency.",
       "Chapter 13(Mental Strength) : Importance of life, Why do some people commit suicide?, Do we like for ourselves only?, understanding mental health and seeking help",
-      "Chapter 14(Philosophies) : <a href='pdf/Buddhist_Philosophy.pdf' target='_blank' class='text-blue-700 underline hover:text-blue-400'>Buddhist philosophy</a>, mindfulness, and the pursuit of inner peace."    ],
+      "Chapter 14(Philosophies) : <a href='pdf/Buddhist_Philosophy.pdf' target='_blank' class='text-blue-700 underline hover:text-blue-400'>Buddhist philosophy</a>, mindfulness, and the pursuit of inner peace.",
+      "Chapter 15(Existence) : What does it mean to exist? Exploring consciousness, identity, and the human experience, how it matters even for animals, connect it to eating non-veg, violence within countries/religions/communities/families.",
+      "Chapter 16(NGO) : Understanding the role of NGOs in society, their impact on communities, and how students can get involved, CSR."
+    ],
     
       "🗣️ Languages": [
       "Chapter 1 (Why Language? History & Types) : Origins of language, family tree of world languages, spoken, written, sign language.",    
