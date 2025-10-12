@@ -308,13 +308,14 @@ Object.assign(window.curriculumData, {
 
     // Mathematics Topics with Detailed Chapters
     "➗ Mathematics": [
+      "Chapter 1(Basic Alzebra) : Addition, subtraction, multiplication, division of numbers; introduction to variables and simple equations.",
       "Chapter 1(Place Value and Rounding Off) : Numbers up to lakhs/millions; estimation and rounding rules.",
       "Chapter 2(Factors, Multiples, LCM and HCF) : Prime numbers, finding LCM/HCF of two/three numbers.",
       "Chapter 3(Basic Geometry) : Types of angles (acute, obtuse, right); triangles – scalene, isosceles, equilateral.",
       "Chapter 4(Perimeter and Area) : Perimeter and area of squares, rectangles, understanding units.",
       "Chapter 5(Fractions and Decimals) : Addition and subtraction, representing on number line, comparing and converting.",
-      "Chapter 6(Intro to Coordinate Grid) : Plotting and reading points on first quadrant.",
-      "Chapter 7(Maths Tables and Practice) : Tables up to 25, word problems, mental math drills."
+      "Chapter 6(Maths Tables and Practice) : Tables up to 25, word problems, mental math drills.",
+      "Chapter 7(coordinate geometry) : Introduction to coordinate geometry,Dimenstions, understanding x,y and z axes, plotting points on a grid."
     ],
 
     // Computer Science Topics as requested (including International / Indian Board best practices)

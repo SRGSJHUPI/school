@@ -43,7 +43,8 @@ Object.assign(window.curriculumData, {
       "Chapter 6(Symmetry and Transformations) : Reflection, rotation, translation, identifying symmetry in figures.",
       "Chapter 7(Geometry – Volume and 3D) : Volume, surface area of cubes/cuboids, drawing and counting faces/edges/vertices.",
       "Chapter 8(Prime Numbers and Patterns) : Identifying primes, building number sequences and mathematical patterns.",
-      "Chapter 9(Mental Math and Tables) : Tables up to 30, advanced logic-based drills, speed practice."
+      "Chapter 9(Mental Math and Tables) : Tables up to 30, advanced logic-based drills, speed practice.",
+      "Chapter 10(Operators and Expressions) : Understanding mathematical operators, Types of operators- Arithmetic Operators, Relational Operators, Logical Operators, Bitwise Operators, Assignment Operators and their uses"
     ],
     "🔬 Physics": [
       "Chapter 1(Forces in Action) : Push/pull, friction, gravity, illustrated by playground and home experiments.",
@@ -178,13 +179,13 @@ Object.assign(window.curriculumData, {
       "Chapter 1(Number Systems) : Natural, whole, integers, rational numbers; converting between types.",
       "Chapter 2(Fractions & Decimals) : Addition, subtraction, multiplication, division; real-life applications.",
       "Chapter 3(Basic Algebra) : Expressions, equations, identities; introduction to simple formula manipulation.",
-      "Chapter 4(Geometry) : Lines, angles, polygons, introduction to 3D objects (cube, cuboid, sphere, cylinder).",
-      "Chapter 5(Mensuration) : Area and volume calculations; surface area, perimeter for triangles, rectangles, and 3D objects.",
-      "Chapter 6(Statistics & Data) : Bar graphs, mean, mode; introduction to probability with simple experiments and real-world examples.",
-      "Chapter 7(Ratio & Proportion) : Direct/inverse variations, word problems from daily scenarios.",
-      "Chapter 8(Speed-Time-Distance) : Basic distance/speed/time calculations, relating to transportation and events.",
-      "Chapter 9(Vector & Introductory 3D Geometry) : Concept of direction and magnitude, basic vector addition, visualizing coordinate space.",
-      "Chapter 10(Gauss, Stokes, and Green's Theorems [Intro]) : Conceptual, visual introduction to field integration theorems, where/why they are used in higher mathematics and physics."
+      "Chapter 4(Operators and Expressions) : Understanding mathematical operators, Types of operators- Arithmetic Operators, Relational Operators, Logical Operators, Bitwise Operators, Assignment Operators, Unary Operators, Conditional (Ternary) Operator, Shift Operators, Special Operators, Miscellaneous Operators and their uses",
+      "Chapter 5(Geometry) : Lines, angles, polygons, introduction to 3D objects (cube, cuboid, sphere, cylinder).",
+      "Chapter 6(Mensuration) : Area and volume calculations; surface area, perimeter for triangles, rectangles, and 3D objects.",
+      "Chapter 7(Statistics & Data) : Bar graphs, mean, mode; introduction to probability with simple experiments and real-world examples.",
+      "Chapter 8(Ratio & Proportion) : Direct/inverse variations, word problems from daily scenarios.",
+      "Chapter 9(Speed-Time-Distance) : Basic distance/speed/time calculations, relating to transportation and events.",
+      "Chapter 10(Vector & Introductory 3D Geometry) : Concept of direction and magnitude, basic vector addition, visualizing coordinate space.",
     ],
 
     "🔬 Physics": [
@@ -362,7 +363,12 @@ Object.assign(window.curriculumData, {
       "Chapter 5(Lines, Angles, and Circles) : Properties, theorem work with area and circumference of circles (class 9th chapter included).",
       "Chapter 6(Rational Numbers) : Properties, operations, ordering, and problems.",
       "Chapter 7(Data Handling & Graphs) : Pie charts, probability introductions, graph plotting in the first quadrant.",
-      "Chapter 8(Percentages, Profit/Loss) : Real-life money problems, percentage calculations, gross/net profit problems."
+      "Chapter 8(Percentages, Profit/Loss) : Real-life money problems, percentage calculations, gross/net profit problems.",
+      "Chapter 9(functions) : Concept of Variables, functions, domain, range, types of functions.",
+      "chapter 10(differention) : Introduction to differentiation, basic rules and applications.",
+      "chapter 11(integration) : Introduction to integration, basic rules and applications.",
+      "chapter 12(Area under the curve) : area under the curve basics.",
+
     ],
     "🔬 Physics": [
       "Chapter 1(Units and Dimensions) : Unit conversions, dimensional analysis (Class 11 level introduction).",
@@ -536,8 +542,9 @@ Object.assign(window.curriculumData, {
       "Chapter 12(Factorisation, Square and Cube Roots) : Factoring algebraic expressions, shortcut methods, rationalizing, roots.",
       "Chapter 13(Probability Basics) : Event, sample space, simple classical probability.",
       "Chapter 14(Progressions Series) : A.P, G.P, H.P., Sequences and Series",
-      "Chapter 15(Calculus) : Introduction to Limits, Dericatives and Integration. Also their Applications ",
-      "Chapter 16(Misc) : Sets, Relations and Functions, Conic Sections, Linear Inequalities"
+      "Chapter 15(Calculus) : Introduction to Limits, Dericatives and Integration. Also their Applications area under the curve (area under two functions), rate of change, etc.",
+      "Chapter 16(Misc) : Sets, Relations and Functions, Conic Sections, Linear Inequalities",
+      "Chapter 17(Gauss, Stokes, and Green's Theorems [Intro]) : Conceptual, visual introduction to field integration theorems, where/why they are used in higher mathematics and physics."
       //"Chapter 17(Optional) : PMI, Complex Numbers and Quadratic Equations, PnC, Binomial Theorem, Mathematical Reasoning, Continuity and Differentiability, Differential Equations, Linear Programming "
     ],
 
