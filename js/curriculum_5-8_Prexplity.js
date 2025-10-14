@@ -49,10 +49,16 @@ Object.assign(window.curriculumData, {
     "🔬 Physics": [
       "Chapter 1(Forces in Action) : Push/pull, friction, gravity, illustrated by playground and home experiments.",
       "Chapter 2(Simple Machines) : Lever, pulley, wheel and axle – analysis of real-life tools.",
-      "Chapter 3(Energy and Its Forms) : Heat, light, sound basics; examples from daily life."
+      "Chapter 3(electromagnetic spectrum) : Waves, types of waves, uses of waves, sound wave, light wave, electromagnetic wave.",
+      "Chapter 4(Electricity and Circuits) : Simple circuits with batteries, bulbs, switches; understanding conductors and insulators.",
+      "Chpater 5(Magnetism) : Magnets, poles, magnetic fields, Earth as a magnet.",
+      "Chapter 6(Heat) : Sources of heat, conduction, convection, radiation – experiments with everyday materials.",
+      "Chapter 7(Light) : Reflection, refraction, shadows, colors – practical activities with lenses and prisms.",
+      "Chapter 8(Energy and Its Forms) : Heat, light, sound basics; examples from daily life."
     ],
     "⚗️ Chemistry": [
       "Chapter 1(Matter and Its Changes) : States of matter, reversible and irreversible changes (melting, boiling, mixing).",
+      "Chapter 2(Physical and Chemical Properties) : Identifying properties through experiments (density, solubility, conductivity), Physical Change VS Chemical Change, Physical change VS reversible change, etc.",
       "Chapter 2(Common Chemicals in Daily Life) : Acids, bases, salts – hands-on experiments with safe substances.",
       "Chapter 3(Environmental Chemistry) : Pollution causes and prevention, recycling, effects of chemicals on environment."
     ],
@@ -219,7 +225,10 @@ Object.assign(window.curriculumData, {
     ],
 
     "📖 English": [
-      "Chapter 1(GRE and TOEFL – Foundation) : Listening and reading comprehension, logic-based vocabulary, speaking and grammar exercises, practice tests for reasoning-based English."
+      "Chapter 1(GRE and TOEFL – Foundation) : Listening and reading comprehension, logic-based vocabulary, speaking and grammar exercises, practice tests for reasoning-based English.",
+      "Chapter 2(Active passive, tenses, modals) : Sentence structure (all tenses), punctuation, conjunctions, subject-verb agreement, creative writing (stories, essays, letters), editing and peer review activities.",
+      "Chapter 3(Direct and Indirect Speech) : Rules and practice exercises, converting sentences, dialogues.",
+      "Chapter 4(Storytelling and Role-Play) : Daily speaking practice through stories, debates, and presentations; peer feedback."
     ],
 
     "🏛️ Political Science": [
@@ -270,7 +279,7 @@ Object.assign(window.curriculumData, {
       "Chapter 4(Ethics of Responsibility) : Home, school, environmental duties, empathy and kindness for animals.",
       "Chapter 5(Our Society) : Why society matters, should we directly oppose society if they are practicing unfairness? .",
       "Chapter 6(Friendship & Inclusion) : Peer support, inclusive behavior, recognition of all.",
-      "Chapter 7(Propaganda and Critical Thinking) : What is propaganda? Examples from life, religion, science. Analyzing propaganda songs like ‘Bhagat ke was me hai Bhagwan’.",
+      "Chapter 7(Propaganda and Critical Thinking) : What is propaganda? Examples from life, religion, science. Analyzing propaganda songs like.",
       "Chapter 8(Ethical Issues Case Studies) : Topic-based study—caste atrocity, child labor, hate speech (e.g. Khairlanji, Vemula, Gujarat 2002).",
       "Chapter 9(What Would You Do?) : Reflection, role-play, designing an action idea.",
       "Chapter 10(Courtroom Drama) : Simulating litigation on caste/gender, RTI and citizens’ rights, role-play election and newsroom reporting.",
@@ -296,12 +305,14 @@ Object.assign(window.curriculumData, {
     ],
 
     "👥 GGC (General Guidance Class)": [
-      "Chapter 1(Introduction to Global Education) : Structure of UK, US, Japan, Finland school systems; where India stands globally.",
-      "Chapter 2(Study Mindset and Habits) : Learning from global achievers—profiles: Malala, Gitanjali Rao, student habit tracker.",
-      "Chapter 3(Exam and Platform Awareness) : Intro to Olympiad, NTSE, Spell Bee, and platforms like Khan Academy, Duolingo, Scratch.",
-      "Chapter 4(Global Technology and Youth Rights) : Major technologies, innovation in India, basics of rights under UN, UNICEF.",
-      "Chapter 5(Inspirational Achievers) : Technology innovators—Brittany Wenger, Krtin Nithiyanandam, Shubham Banerjee, Advait Thakur, Thomas Suarez; Gaming & eSports—TenZ, Ewok, ScoutOP, Clix, Ruri; Social activists—Kehkashan Basu, Mari Copeny, Gaurav Gaikwad, Ridhima Pandey, Jazz Jennings.",
-      "Chapter 6(Personal Learning Path) : Inspiration, challenges, habit building, comparing journeys, making your own action plan for social or tech impact."
+      "Chapter 1(Why Education Matters) : Education builds knowledge, skills, discipline, and power to change society.",
+      "Chapter 2(Types of Education) : Pre-Primary / Kindergarten / Early Childhood-Nursery, LKG, UKG (or Pre-KG, KG-1, KG-2), Primary (Elementary)-1st to 5th, Upper Primary / Middle School-6th to 8th, Secondary (High School)-9th to 10th, Higher Secondary (Senior Secondary/Intermediate)-11th to 12th, Undergraduate (Bachelor's)-3 to 4 years, Postgraduate (Master's)-2 years, Doctorate (PhD)-Varies.",
+      "Chapter 3(Introduction to Global Education) : Structure of UK, US, Japan, Finland school systems; where India stands globally.",
+      "Chapter 4(Study Mindset and Habits) : Learning from global achievers—profiles: Malala, Gitanjali Rao, student habit tracker.",
+      "Chapter 5(Exam and Platform Awareness) : Intro to Olympiad, NTSE, Spell Bee, and platforms like Khan Academy, Duolingo, Scratch.",
+      "Chapter 6(Global Technology and Youth Rights) : Major technologies, innovation in India, basics of rights under UN, UNICEF.",
+      "Chapter 7(Inspirational Achievers) : Technology innovators—Brittany Wenger, Krtin Nithiyanandam, Shubham Banerjee, Advait Thakur, Thomas Suarez; Gaming & eSports—TenZ, Ewok, ScoutOP, Clix, Ruri; Social activists—Kehkashan Basu, Mari Copeny, Gaurav Gaikwad, Ridhima Pandey, Jazz Jennings.",
+      "Chapter 8(Personal Learning Path) : Inspiration, challenges, habit building, comparing journeys, making your own action plan for social or tech impact."
     ],
 
     "🏃‍♂️ Games and P.E.": [
@@ -380,9 +391,19 @@ Object.assign(window.curriculumData, {
       "Chapter  (Rotation and Linear Motion) : Rotation motion, Linear motion, their relations, Types of Gear and Gear Ratios"
     ],
     "⚗️ Chemistry": [
-      "Chapter 1(Properties and Classification of Matter) : Solid, liquid, gas, colloids, and suspensions; simple hands-on lab activities.",
-      "Chapter 2(Atoms and the Periodic Table) : Definition, atomic number, valency; elements' arrangement in the periodic table; focus on real-world examples."
+      "Chapter 1(Separation Techniques) : Filtration, evaporation, distillation, chromatography with household examples.",
+      "Chapter 2(Metals and Non-Metals) : Properties, reactivity series, corrosion, and prevention methods.",
+      "Chapter 3(Compounds and Chemical Reactions) : Types of reactions, balancing equations, real-life examples.",
+      "Chapter 4(Air and Atmosphere) : Composition, layers, pollution causes/effects, and prevention.",
+      "Chapter 5(Water: Properties and Uses) : Physical/chemical properties, purification methods, water cycle.",
+      "Chapter 6(Carbon and Its Compounds) : Allotropes, hydrocarbons, simple organic chemistry concepts.",
+      "Chapter 7(Molecular Structure and Bonding) : Ionic/covalent bonds, molecular geometry basics.",
+      "Chapter 8(Acids, Bases, and Salts) : pH scale, neutralization reactions, household examples.",
+      "Chapter 9(Properties and Classification of Matter) : Solid, liquid, gas, colloids, and suspensions; simple hands-on lab activities.",
+      "Chapter 10(Atoms and the Periodic Table) : Definition, atomic number, valency; elements' arrangement in the periodic table; focus on real-world examples."
+  
     ],
+      
     "🧬 Biology": [
       "Chapter 1(Cell Structure and Organelles) : Animal and plant cell structures, function of organelles, microscope basics.",
       "Chapter 2(Tissues in Living Organisms) : Animal and plant tissues; structure, function, and types.",
@@ -491,7 +512,12 @@ Object.assign(window.curriculumData, {
 
     "🎨 Arts, Music and Dance": [
       "Chapter 1(Art Appreciation) : Make drawings of different birds, animals, etc.",
+      "Chapter 2(Painting Techniques) : Watercolor, acrylic basics, color theory.",
+      "Chapter 3(history of Art) : Study of famous artists and their styles.",
+      "Chapter 4(Craft Projects) : Paper mache, clay modeling, recycled art.",
+      "Chapter 1(Art Appreciation) : Introduction to famous artists and their works.",
       "Chapter 2(Music) : learn some music and sing.",
+      "Chapter 3(History of Music) : Study of different music genres and famous musicians.",
       "Chapter 3(Dance) : Introduction to basic dance forms, rhythm, and movement.",
       "Chapter 4(Dance show) : Creating a dance performance incorporating learned elements."
     ],
@@ -551,11 +577,21 @@ Object.assign(window.curriculumData, {
 
     // Physics
     "🔬 Physics": [
-      "Chapter 1(Force and Pressure) : Types of forces, measuring pressure, applications.",
-      "Chapter 2(Friction) : Causes, effects, practical uses, reduction/increase strategies.",
-      "Chapter 3(Sound) : Vibrations, pitch, amplitude, sound wave behavior.",
-      "Chapter 4(Chemical Effects of Current) : Conductors/insulators, simple circuits, real-life implications.",
-      "Chapter 5(Light and Optics) : Reflection, refraction, lenses, mirrors, vision defects and corrections."
+      "Chapter 1(Measurement and Experimentation) : Significant figures, error analysis, lab safety, basic tools.",
+      "Chatper 2(Units and dimensions) : Unit conversions, dimensional analysis (Class 11 level introduction).",
+      "Chapter 3(Force and Pressure) : Types of forces, measuring pressure, applications.",
+      "Chapter 4(Friction) : Causes, effects, practical uses, reduction/increase strategies.",
+      "Chapter 5(Motion) : Speed, velocity, acceleration, equations of motion, graphs.",
+      "Chapter 6(Gravitation) : Universal law, free fall, mass vs weight, orbital motion.",
+      "Chapter 7(Electricity and Magnetism) : Electric charges, fields, Ohm’s law, circuits, magnets.",
+      "Chapter 8(Water and Fluids) : Properties of fluids, buoyancy, Archimedes’ principle.",
+      "Chapter 9(Work and Energy) : Work done, kinetic/potential energy, conservation of energy.",
+      "Chapter 10(Machines and Simple Mechanisms) : Levers, pulleys, gears, mechanical advantage.",
+      "Chapter 11(Solar System and Space) : Planets, moons, stars, galaxies; space exploration basics.",
+      "Chapter 12(Sound) : Vibrations, pitch, amplitude, sound wave behavior.",
+      "Chapter 13(Chemical Effects of Current) : Conductors/insulators, simple circuits, real-life implications.",
+      "Chapter 14(Light and Optics) : Reflection, refraction, lenses, mirrors, vision defects and corrections."
+      //"Chapter 15(Optional) : Thermodynamics, Waves and Oscillations, Modern Physics (Photoelectric effect, atomic models)"
     ],
 
     // Chemistry

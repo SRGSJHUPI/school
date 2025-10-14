@@ -331,11 +331,15 @@ Object.assign(window.curriculumData, {
     // Science Streams, integrated and globally relevant
     "🔬 Physics": [
       "Chapter 1(Forces and Motion) : Push/pull, friction, real-life playground examples.",
-      "Chapter 2(Light and Shadows) : Transparent/opaque objects, natural vs artificial light sources."
+      "Chapter 2(Types of forces) : Gravity, magnetic force, electrostatic force with simple experiments.",
+      "Chapter 3(Light and Shadows) : Transparent/opaque objects, natural vs artificial light sources."
     ],
     "⚗️ Chemistry": [
       "Chapter 1(Matter Around Us) : Properties of solids, liquids, gases; changes on heating/cooling.",
-      "Chapter 2(Simple Mixtures and Solutions) : What dissolves, separating mixtures, home experiments."
+      "Chapter 2(Simple Mixtures and Solutions) : What dissolves, separating mixtures, home experiments.",
+      "Chapter 3(Chemicals in Daily Life) : Safe household chemicals, uses of soap, detergents, toothpaste.",
+      "Chapter 4(Elementary Chemistry) : Introduction to elements, Identifying elements like- iron, silver, copper,etc. compounds, and mixtures; basic periodic table concepts; simple experiments demonstrating physical and chemical changes.",
+      "Chapter 5(Atomic Structure) : Introduction to atoms, electrons, protons, neutrons, molecules, and ions."
     ],
     "🧬 Biology": [
       "Chapter 1(Human Anatomy) : Digestive, respiratory, nervous systems (with diagrams, age-appropriate activities).",
@@ -410,23 +414,33 @@ Object.assign(window.curriculumData, {
     // Physical Education & Games
     "🏃‍♂️ Games & Physical Education": [
       "Chapter 1(Physical Fitness) : Yoga, stretching, relay, tag, dodgeball.",
-      "Chapter 2(Sportsmanship and Team Play) : Learning to win/lose with grace, group cheering, teamwork activities.",
-      "Chapter 3(Drawing) : Drawing and coloring exercises, drawing of freedom fighters, famous leaders and nature."
+      "Chapter 2(Importance of Hygiene) : Daily habits, personal cleanliness, classroom and playground hygiene.",
+      "Chapter 3(Team Sports) : Basics of football, cricket, basketball – rules, teamwork, and practice drills.",
+      "Chapter 4(Sportsmanship and Team Play) : Learning to win/lose with grace, group cheering, teamwork activities.",
+      "Chapter 5(Drawing) : Drawing and coloring exercises, drawing of freedom fighters, famous leaders and nature."
 
     ],
 
     // Arts & Crafts
     "🎨 Arts & Crafts": [
       "Chapter 1(Drawing Basics) : Shapes, lines, and colors; creating simple still life drawings.",
-      "Chapter 2(Painting Techniques) : Watercolor vs acrylic, blending colors, and basic brush techniques.",
-      "Chapter 3(Crafts) : Introduction to paper mache, clay modeling, and recycling materials for art."
+      "Chapter 2(History of Art) : Story telling format, Introduction to famous artists (Van Gogh, Picasso, M.F. Husain) and their styles.",
+      "Chapter 3(Painting Techniques) : Watercolor vs acrylic, blending colors, and basic brush techniques.",
+      "Chapter 4(Crafts) : Introduction to paper mache, clay modeling, and recycling materials for art."
     ],
 
     // General Knowledge
     "🧠 General Knowledge (G.K)": [
-      "Chapter 1(National & Global Personalities) : Ambedkar, Kalam, Rani Laxmi Bai, Mandela.",
-      "Chapter 2(World Around Us) : Map study – continents, countries, famous places, inventions.",
-      "Chapter 3(Debate and Quiz) : Weekly quiz, awareness practice, current affairs adapted for kids."
+      "Chapter 1(My Country) : National festivals, leaders, symbols.",
+      "Chapter 2(National & Global Personalities) : Ambedkar, Kalam, Jhalkaribai, Rani Laxmi Bai, Mandela.",
+      "Chapter 3(Important Events) : Indian independence, major world events simplified for kids.",
+      "Chapter 4(Science & Technology) : Basic inventions that changed the world – wheel, electricity, internet.",
+      "Chapter 5(Plants & Animals) : Endangered species, famous trees, and plants.",
+      "Chapter 6(Sports & Games) : Olympics, World Cup, famous athletes.",
+      "Chapter 7(Current Affairs) : Simple news adapted for kids, weekly quiz.",
+      "Chapter 8(World Around Us) : Map study – continents, countries, famous places, inventions.",
+      "Chapter 9(Debate and Quiz) : Weekly quiz, awareness practice, current affairs adapted for kids.",
+      "Chapter 10(YouTube Videos) : Educational videos on science experiments, historical events, and famous personalities to enhance learning and curiosity."
     ],
 
     // Research Projects
