@@ -198,7 +198,15 @@ Object.assign(window.curriculumData, {
       "Chapter 1(Units and Dimensions) : Basic measurement units, dimensions of length, mass, time.",
       "Chapter 2(Motion and Measurement) : Measuring distances, types of motion (linear, circular, oscillatory), experiments and real-life examples.",
       "Chapter 3(Light and Shadows) : Propagation of light, formation of shadows, differences between transparent/opaque materials.",
-      "Chapter 4(Electricity Basics) : How bulbs, switches, and batteries work, constructing simple electrical circuits."
+      "Chapter 4(The Human Eye and the Colourful World) : Structure of the eye, how we see colors, rainbows, and prisms.",
+      "Chapter 5(Electricity Basics) : what are Voltage, Potential difference, Current, Resister, Inductor, Capacitor. How bulbs, switches, and batteries work, constructing simple electrical circuits.",
+      "Chapter 6(Force and Pressure) : Types of forces (gravitational, frictional), pressure concepts with practical demonstrations.",
+      "Chapter 7(Sound) : Nature of sound waves, pitch, loudness, experiments with vibrations and resonance.",
+      "Chapter 8(Heat and Temperature) : Measuring temperature, heat transfer methods (conduction, convection, radiation), everyday examples.",
+      "Chapter 9(Magnetism) : Magnetic fields, poles, Earth’s magnetism, practical activities with magnets.",
+      "Chapter 10(Energy Forms and Transformations) : Kinetic, potential, thermal energy; simple machines and energy conservation.",
+      "Chapter 11(Energy Laws in Physcis) : Law of Conservation of Energy, Law of Conservation of Mass, First Law of Thermodynamics, Second Law of Thermodynamics.",
+
     ],
 
     "⚗️ Chemistry": [
@@ -382,13 +390,18 @@ Object.assign(window.curriculumData, {
 
     ],
     "🔬 Physics": [
-      "Chapter 1(Units and Dimensions) : Unit conversions, dimensional analysis (Class 11 level introduction).",
+      "Chapter 1(Units and Dimensions) : Unit conversions, dimensional analysis, Error.",
       "Chapter 2(Heat and Temperature) : Concepts, measurement, real-life applications, and comparative scales.",
-      "Chapter 3(Reflection of Light) : Laws of reflection, role play, and mirror experiments.",
+      "Chapter 3(Light) : Reflection and Refraction, Laws of reflection, role play, and mirror experiments.",
       "Chapter 4(Electric Circuits) : Conductors and insulators, circuit diagrams with bulbs and switches.",
-      "Chapter 5(Force and Its Effects) : Newton’s laws, effects of force, problem-solving exercises.",
-      "Chapter 6(Wind, Storms, Cyclones) : Causes, impact, natural disaster safety, data-based analysis.",
-      "Chapter  (Rotation and Linear Motion) : Rotation motion, Linear motion, their relations, Types of Gear and Gear Ratios"
+      "Chapter 5(Force and Its Effects) : Newton’s laws of motion, effects of force, problem-solving exercises.",
+      "Chapter 6(Basic terms) : Work, Power, Energy types, and conversions.",
+      "Chapter 7(Wind, Storms, Cyclones) : Causes, impact, natural disaster safety, data-based analysis.",
+      "Chapter 8(Linear Motion) : Rotation motion, Linear motion, their relations, Types of Gear and Gear Ratios",
+      "Chapter 9(Rotational Motion) : Angular velocity, angular acceleration, Centripetal force and acceleration.",
+      "Chapter 10(Angular motion terms) : Torque, Angular Momentum, Moment of Inertia, and their applications.",
+      "chapter 11(EMI) : Magnetic Flux, Faraday's Law, Lenz's Law, and applications, DC motor and Generator.",
+      "Chapter 12(AC and DC currents) : Conductor, semi-conductor, insulator, Ohm’s Law, Resistance, Factor effect it, Cells, EMF, and Internal Resistance, Cells in Series and Parallel,   ."
     ],
     "⚗️ Chemistry": [
       "Chapter 1(Separation Techniques) : Filtration, evaporation, distillation, chromatography with household examples.",
@@ -578,19 +591,25 @@ Object.assign(window.curriculumData, {
     // Physics
     "🔬 Physics": [
       "Chapter 1(Measurement and Experimentation) : Significant figures, error analysis, lab safety, basic tools.",
-      "Chatper 2(Units and dimensions) : Unit conversions, dimensional analysis (Class 11 level introduction).",
+      "Chatper 2(Units and dimensions) : Unit conversions, dimensional analysis.",
       "Chapter 3(Force and Pressure) : Types of forces, measuring pressure, applications.",
       "Chapter 4(Friction) : Causes, effects, practical uses, reduction/increase strategies.",
       "Chapter 5(Motion) : Speed, velocity, acceleration, equations of motion, graphs.",
       "Chapter 6(Gravitation) : Universal law, free fall, mass vs weight, orbital motion.",
       "Chapter 7(Electricity and Magnetism) : Electric charges, fields, Ohm’s law, circuits, magnets.",
       "Chapter 8(Water and Fluids) : Properties of fluids, buoyancy, Archimedes’ principle.",
-      "Chapter 9(Work and Energy) : Work done, kinetic/potential energy, conservation of energy.",
+      "Chapter 9(Work, Energy and Power) : Work done, kinetic/potential energy, conservation of energy, power.",
       "Chapter 10(Machines and Simple Mechanisms) : Levers, pulleys, gears, mechanical advantage.",
       "Chapter 11(Solar System and Space) : Planets, moons, stars, galaxies; space exploration basics.",
-      "Chapter 12(Sound) : Vibrations, pitch, amplitude, sound wave behavior.",
+      "Chapter 12(Sound) : Vibrations, pitch, amplitude, frequency and time period, sound wave behavior and beats.",
       "Chapter 13(Chemical Effects of Current) : Conductors/insulators, simple circuits, real-life implications.",
-      "Chapter 14(Light and Optics) : Reflection, refraction, lenses, mirrors, vision defects and corrections."
+      "Chapter 14(Light and Optics) : Reflection, refraction, lenses, mirrors, vision defects and corrections.",
+      "Chapter 15(Magnetic Effects of Current) : Electromagnetism, applications in motors, generators, transformers.",
+      "Chapter 16(Thermal Properties of Matter) : temperature, temperature units conversion(Fahrenheit to Celsius etc), Heat, expansion, conduction, convection, radiation, thermometry, Principle of Thermometer, melting point, boiling point, vaporisation, sublimation, triple point, types of latent heat, effect of pressure.",
+      "Chapter 17Mechanical Properties of Fluids) : Pressure, Pascal's Law,  Archimedes Principle, Equation of Continuity, Bernoulli’s Theorem, Coefficient of Viscosity, Terminal Velocity, Surface Tension and Surface Energy. ",
+      "Chapter 18(Electric Charges and Fields) : Electrostatic charge, moving charges, Coulomb's Law, Electric Field, Electric Flux, Gauss's Law, Applications of Gauss's Law.",
+      "Chapter 19(Electromagnetic Induction and Alternating Currents) : Magnetic flux, Faraday's Law, Lenz's Law, Eddy currents, AC generation, RMS values, transformers.",
+      "Chapter 20(Optical Instruments and Human Eye) : Microscopes, telescopes, human eye structure, common vision defects and corrections.",
       //"Chapter 15(Optional) : Thermodynamics, Waves and Oscillations, Modern Physics (Photoelectric effect, atomic models)"
     ],
 
