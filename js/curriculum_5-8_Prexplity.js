@@ -163,7 +163,13 @@ Object.assign(window.curriculumData, {
       "Chapter 5(Sensors Around Us) : Demonstrations and research on sensors in airplanes, boats, robots using experiments and videos.",
       "Chapter 6(Robotics – Introduction) : Basic robotics projects (kits or classroom build), connection to earlier C/C++ and Arduino modules, explain real-world examples.",
       "Chapter 7(Project Work) : Building a model (windmill, electric boat, or simple robot) with teacher supervision following all safety steps.",
-      "Chapter 8(softwares) : TinkerCAD, Arduino IDE, VS Code, brainly."
+      "Chapter 8(softwares) : TinkerCAD, Arduino IDE, VS Code, brainly.",     
+      "Chapter 9(Videography & Presentation Skills) : Introduction to Videography, What is videography? Why we record our learning? Basic concepts of framing, angle, and light.",
+      "Chapter 10(Speaking on Camera) : How to talk confidently, smile, and maintain eye contact while explaining a project.",
+      "Chapter 11(Simple Shooting Practice) : Record a short 1-minute video explaining what you learned this week.",
+      "Chapter 12(Teamwork and Roles) : Camera person, speaker, helper — learning teamwork while shooting.",
+      "Chapter 13(Sharing and Reflection) : Watching classmates’ videos, giving positive feedback, and learning from each other."
+
     ]
   },
 
@@ -356,11 +362,17 @@ Object.assign(window.curriculumData, {
       "Chapter 3(Mechanical Safety Advanced) : Safe handling of rotating machines, soldering tools, and protective equipment.",
       "Chapter 4(Chemical Safety in Lab Work) : Reading Material Safety Data Sheets (MSDS), labeling bottles, and basic first-aid for spills.",
       "Chapter 5(Environmental Safety) : Safe disposal of batteries, wires, and chemical waste; learning recycling practices.",
-      "Chapter 6(Research Project Exhibition) : Presenting group projects like drone, solar car, or robotic arm with complete safety documentation.",
-      "Chapter 7(Sensors in Technology) : Types and applications in airplanes, boats, drones, robots; hands-on sensor demonstration.",
-      "Chapter 8(Robotics – Introduction) : NPTEL lectures, classroom kits; project build: basic robot with sensors.",
-      "Chapter 9(Machine Learning) : Simplified machine learning concept lessons, using NPTEL videos/projects for age-appropriate examples.",
-      "Chapter 10(softwares) : TinkerCAD, Arduino IDE."
+      "Chapter 6(Videography & Editing) : Storytelling Through Video, How to explain your project or idea step by step using visual storytelling.",
+      "Chapter 7(Smartphone Filming Techniques) : How to use mobile cameras for quality video — lighting, clarity, stability.",
+      "Chapter 8(Basic Editing) : Introduction to apps like CapCut, Canva, or InShot for trimming, adding captions, and background music.",
+      "Chapter 9(Presentation Voice and Confidence) : Speaking clearly, using pauses, and explaining with emotion.",
+      "Chapter 10(Safety and Ethics) : Understanding consent, not sharing personal data, and respecting online behavior.",
+      "Chapter 11(Project Showcase) : Record and edit your own explanation video about a science or robotics project to be featured on school’s YouTube channel.",
+      "Chapter 12(Research Project Exhibition) : Presenting group projects like drone, solar car, or robotic arm with complete safety documentation.",
+      "Chapter 13(Sensors in Technology) : Types and applications in airplanes, boats, drones, robots; hands-on sensor demonstration.",
+      "Chapter 14(Robotics – Introduction) : NPTEL lectures, classroom kits; project build: basic robot with sensors.",
+      "Chapter 15(Machine Learning) : Simplified machine learning concept lessons, using NPTEL videos/projects for age-appropriate examples.",
+      "Chapter 16(softwares) : TinkerCAD, Arduino IDE."
     ]
   },
  
