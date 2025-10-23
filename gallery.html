@@ -166,56 +166,28 @@
   </nav>
   
 
-  <!-- Gallery Header -->
-  <section class="bg-blue-100 py-10">
-    <div class="container mx-auto text-center">
-      <h2 class="text-3xl font-bold text-blue-800">Photo Gallery</h2>
-      <p class="text-gray-700 mt-2">Glimpses of our students, events, and school environment</p>
-    </div>
-  </section>
+  <!-- 📸 Photo Gallery Header -->
+<section class="bg-blue-100 py-10 text-center">
+  <h2 class="text-3xl font-bold text-blue-800">Photo Gallery</h2>
+  <p class="text-gray-700 mt-2">Explore memorable events and activities at Rising Nalanda</p>
+</section>
 
-  <!-- Gallery Grid -->
-  <section class="py-12">
-    <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-      <div id="smart-class" class="overflow-hidden rounded shadow">
-        <img src="images/Research Projects/student following robot.png" alt="Classroom photo here" class="w-full h-auto">
-        <p class="p-2 text-center text-sm bg-gray-100">Smart Class in Progress</p>
-      </div>
-      <div id="assembly" class="overflow-hidden rounded shadow">
-        <img src="images/Research Projects/students in class with mini robot wiring.png" alt="Students" class="w-full h-auto">
-        <p class="p-2 text-center text-sm bg-gray-100">Our Students in Lab</p>
-      </div>
-      <div id="science-fair" class="overflow-hidden rounded shadow">
-        <img src="images/Research Projects/students with and and wood plane.png" alt="Science Fair" class="w-full h-auto">
-        <p class="p-2 text-center text-sm bg-gray-100">Annual Science Project Exhibition</p>
-      </div>
-      <div id="sports-day" class="overflow-hidden rounded shadow">
-        <img src="images/Research Projects/student in lab with mini robot.png" alt="Sports Day" class="w-full h-auto">
-        <p class="p-2 text-center text-sm bg-gray-100">Robotics Club</p>
-      </div>
-      <div id="coding-robotics" class="overflow-hidden rounded shadow">
-        <img src="images/Research Projects/student with fire extinguiser.png" alt="Coding Workshop" class="w-full h-auto">
-        <p class="p-2 text-center text-sm bg-gray-100">Safety training</p>
-      </div>
-      <div id="library" class="overflow-hidden rounded shadow">
-        <img src="images/Research Projects/student connecting wire of humanoid robot.png" alt="Library" class="w-full h-auto">
-        <p class="p-2 text-center text-sm bg-gray-100">Research</p>
-      </div>
-      <div id="library" class="overflow-hidden rounded shadow">
-        <img src="images/Research Projects/me pilot.png" alt="Library" class="w-full h-auto">
-        <p class="p-2 text-center text-sm bg-gray-100">Mentoring</p>
-      </div>
-    </div>
-  </section>
+<!-- 📸 Gallery Container -->
+<section id="gallery" class="py-12 container mx-auto space-y-8">
+  <div id="galleryContainer" class="flex flex-wrap justify-center items-center max-w-6xl mx-auto gap-6"></div>
+</section>
+
+<div id="imageOverlay" class="hidden fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50">
+  <button id="prevBtn" class="absolute left-4 top-1/2 transform -translate-y-1/2 text-white text-3xl font-bold focus:outline-none">&lt;</button>
+  <img id="zoomedImage" src="" class="max-h-full max-w-full object-contain" />
+  <button id="nextBtn" class="absolute right-4 top-1/2 transform -translate-y-1/2 text-white text-3xl font-bold focus:outline-none">&gt;</button>
+</div>
 
   <div class="text-center my-6">
   <a href="#top" class="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
     ↑ Go to Top
   </a>
 </div>
-
-
-  <!-- Footer -->
   <!-- Footer -->
   <!-- Tailwind CSS Footer with Social Media Icons -->
   <footer class="bg-gray-800 text-white py-8">
@@ -282,5 +254,6 @@
 
 <!-- common js -->
 <script src="js/common.js"></script>
+<script src="js/gallery.js"></script>
 </body>
 </html>
