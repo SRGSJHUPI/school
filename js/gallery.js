@@ -21,7 +21,11 @@ document.addEventListener("DOMContentLoaded", () => {
       ],
       2028: [
         "images/Research Projects/student following robot.png",
-        "images/Research Projects/students in class with mini robot wiring.png"
+        "images/Research Projects/students in class with mini robot wiring.png",
+        "images/Research Projects/student in lab with mini robot.png",
+        "images/Research Projects/student with fire extinguiser.png",
+        "images/Research Projects/students with and and wood plane.png",
+        "images/Research Projects/student connecting wire of humanoid robot.png"
       ],
       2029: [
         "images/Research Projects/student following robot.png",
@@ -35,7 +39,9 @@ document.addEventListener("DOMContentLoaded", () => {
       ],
       2028: [
         "images/Research Projects/student following robot.png",
-        "images/Research Projects/students in class with mini robot wiring.png"
+        "images/Research Projects/students in class with mini robot wiring.png",
+        "images/Research Projects/student in lab with mini robot.png",
+        "images/Research Projects/student with fire extinguiser.png"
       ]
     },
     "Mentoring": {
@@ -162,7 +168,7 @@ document.addEventListener("DOMContentLoaded", () => {
       yearsView.innerHTML = "";
 
       const backBtn = document.createElement("button");
-      backBtn.textContent = "← Back to Sections";
+      backBtn.textContent = "← Back to select Sections";
       backBtn.className =
         "mb-6 bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition mx-auto block";
       backBtn.addEventListener("click", () => {
@@ -189,7 +195,7 @@ document.addEventListener("DOMContentLoaded", () => {
           photosView.innerHTML = "";
 
           const backYearBtn = document.createElement("button");
-          backYearBtn.textContent = "← Back to Years";
+          backYearBtn.textContent = "← Back to select Years";
           backYearBtn.className =
             "mb-6 bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition mx-auto block";
           backYearBtn.addEventListener("click", () => {
