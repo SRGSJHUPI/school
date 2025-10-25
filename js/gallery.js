@@ -25,6 +25,12 @@ document.addEventListener("DOMContentLoaded", () => {
         "images/Research Projects/student in lab with mini robot.png",
         "images/Research Projects/student with fire extinguiser.png",
         "images/Research Projects/students with and and wood plane.png",
+        "images/Research Projects/student connecting wire of humanoid robot.png",
+        "images/Research Projects/student following robot.png",
+        "images/Research Projects/students in class with mini robot wiring.png",
+        "images/Research Projects/student in lab with mini robot.png",
+        "images/Research Projects/student with fire extinguiser.png",
+        "images/Research Projects/students with and and wood plane.png",
         "images/Research Projects/student connecting wire of humanoid robot.png"
       ],
       2029: [
@@ -61,13 +67,17 @@ document.addEventListener("DOMContentLoaded", () => {
   galleryContainer.innerHTML = "";
 
   const sectionsView = document.createElement("div");
-  sectionsView.className = "space-y-6 flex flex-wrap justify-center gap-6 max-w-6xl mx-auto";
+  sectionsView.className = "bg-red-200 space-y-0 flex flex-wrap justify-center gap-6 max-w-6xl mx-auto";
 
   const yearsView = document.createElement("div");
-  yearsView.className = "hidden space-y-6 max-w-6xl mx-auto text-center";
+  yearsView.className = "bg-green-200 hidden space-y-6 max-w-6xl mx-auto text-center";
 
   const photosView = document.createElement("div");
-  photosView.className = "hidden space-y-6 max-w-6xl mx-auto text-center";
+  // photosView.className = "bg-yellow-200 hidden space-y-6 max-w-full px-4 mx-auto text-center";
+  photosView.className =
+  "bg-yellow-200 hidden space-y-6 w-full px-4 text-center overflow-x-visible";
+
+
 
   galleryContainer.appendChild(sectionsView);
   galleryContainer.appendChild(yearsView);
@@ -86,12 +96,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const prevBtn = document.createElement("button");
   prevBtn.id = "prevBtn";
   prevBtn.className = "absolute left-4 top-1/2 transform -translate-y-1/2 text-white text-3xl font-bold focus:outline-none";
-  prevBtn.innerHTML = "&lt;";
+  prevBtn.innerHTML = "&lt;Left";
 
   const nextBtn = document.createElement("button");
   nextBtn.id = "nextBtn";
   nextBtn.className = "absolute right-4 top-1/2 transform -translate-y-1/2 text-white text-3xl font-bold focus:outline-none";
-  nextBtn.innerHTML = "&gt;";
+  nextBtn.innerHTML = "Right&gt;";
 
   const overlayImg = document.createElement("img");
   overlayImg.id = "zoomedImage";
@@ -205,14 +215,21 @@ document.addEventListener("DOMContentLoaded", () => {
           photosView.appendChild(backYearBtn);
 
           const photoGrid = document.createElement("div");
-          photoGrid.className = "grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-5xl mx-auto";
+          // photoGrid.className = "grid md:grid-cols-4 lg:grid-cols-6 sm:grid-cols-2 gap-4 max-w-15xl mx-auto";
+photoGrid.className =
+  "grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-4 w-full";
+
+
 
           images.forEach((src, index) => {
             const img = document.createElement("img");
             img.src = src;
             img.alt = `${section} ${year}`;
-            img.className =
-              "w-full h-48 object-cover rounded-lg transition-transform hover:scale-105 cursor-pointer";
+            // img.className =
+            //   "w-full h-48 object-cover rounded-lg transition-transform hover:scale-[1.2] cursor-pointer";
+              img.className =
+              "w-full h-48 object-cover rounded-lg transition-transform duration-300 hover:scale-[1.2] cursor-pointer";
+
 
             img.addEventListener("click", () => {
               openOverlay(images, index);

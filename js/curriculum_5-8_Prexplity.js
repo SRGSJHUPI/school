@@ -168,7 +168,9 @@ Object.assign(window.curriculumData, {
       "Chapter 10(Speaking on Camera) : How to talk confidently, smile, and maintain eye contact while explaining a project.",
       "Chapter 11(Simple Shooting Practice) : Record a short 1-minute video explaining what you learned this week.",
       "Chapter 12(Teamwork and Roles) : Camera person, speaker, helper — learning teamwork while shooting.",
-      "Chapter 13(Sharing and Reflection) : Watching classmates’ videos, giving positive feedback, and learning from each other."
+      "Chapter 13(Sharing and Reflection) : Watching classmates’ videos, giving positive feedback, and learning from each other.",
+      "Chapter 17(Basic Tools) : Soldering iron, multimeter, wire stripper, pliers, screwdrivers, safety gear, gloves.",
+
 
     ]
   },
@@ -299,7 +301,10 @@ Object.assign(window.curriculumData, {
       "Chapter 10(Courtroom Drama) : Simulating litigation on caste/gender, RTI and citizens’ rights, role-play election and newsroom reporting.",
       "Chapter 11(Debate and Research Projects) : Should religion influence law? Should inter-caste marriage be legal? Research casteism in your area, interviews with marginalized communities.",
       "Chapter 12(Veg V/S Non-Veg) : Is eating meat necessary?, Need of meat for human body, can people eating meat love nature?, other countries vs India",
-      "Chapter 13(Parade) : Teaching about police, army ... duty and responsibility. Also there will be weekly parade and self safety in case of fire, earthquake or any other emergency."
+      "Chapter 13(Parade) : Teaching about police, army ... duty and responsibility. Also there will be weekly parade and self safety in case of fire, earthquake or any other emergency.",
+      "Chapter 14(Indian Social Reformers) : Raja Ram Mohan Roy, Savitribai Phule, Mahatma Gandhi, Dr. B. R. Ambedkar, Jyotirao Phule, Periyar E. V. Ramasamy, Ishwar Chandra Vidyasagar, Pandita Ramabai, Swami Vivekananda, Baba Amte, Tarabai Shinde, Swami Dayanand Saraswati, Vinoba Bhave, Ishwarbhai Patel, Darshan Ratan Ravan, Kandukuri Veeresalingam, Gopal Krishna Gokhale, Sarojini Naidu, Rabindranath Tagore, Ram Manohar Lohia, Annie Besant, Narayana Guru.",
+      "Chapter 15(International Social Reformers) : Nelson Mandela, Martin Luther King Jr., Rosa Parks, Susan B. Anthony, Florence Nightingale, Malala Yousafzai, William Wilberforce, Harriet Tubman, Mother Teresa, Desmond Tutu, Abraham Lincoln, Jane Addams, John Stuart Mill, Eleanor Roosevelt, Karl Marx, Helen Keller, Aung San Suu Kyi, Thomas Paine, Mahathma Phule, Bertrand Russell."
+
     ],
 
     "🗣️ Languages": [
@@ -372,7 +377,7 @@ Object.assign(window.curriculumData, {
       "Chapter 13(Sensors in Technology) : Types and applications in airplanes, boats, drones, robots; hands-on sensor demonstration.",
       "Chapter 14(Robotics – Introduction) : NPTEL lectures, classroom kits; project build: basic robot with sensors.",
       "Chapter 15(Machine Learning) : Simplified machine learning concept lessons, using NPTEL videos/projects for age-appropriate examples.",
-      "Chapter 16(softwares) : TinkerCAD, Arduino IDE."
+      "Chapter 16(softwares) : TinkerCAD, Arduino IDE.",
     ]
   },
  
@@ -718,7 +723,9 @@ Object.assign(window.curriculumData, {
       "Chapter 18(Religions) : what is Religion?, History and origin, who make it? why make it? is it necessary to have Religion?, Is Religion a failed experiment? has Religion been converted to Business?, can religion help to make the world a better place? are we independent to choose any religion or we are bound to one we born in?",
       "Chapter 19(Documentry) : https://youtu.be/NTXO6uptlC8?si=HU4TuGJ8yZj_jKyd discussion on girls rights.",
       "Chapter 20(Casteism and Racism) : Understanding caste and race, casteism as termite, its impact on society, and discussions on equality and justice.",
-      "Chapter 21(Ethics in School) : Cheating, favoritism, reflecting on discipline vs education"
+      "Chapter 21(Ethics in School) : Cheating, favoritism, reflecting on discipline vs education",
+      "Chapter 1(Famous Reincarnation Cases) : Shanti Devi, James Leininger, Cameron Macaulay, Kofel Case, Nirmal Singh, Martin (Sri Lanka), Sawney Bean Boy, Swarnlata, Thai Boy Case, Turkish Boy Case, Japanese Girl Case, Shiva-Sumitra Case (Etawah), The Pollock Twins (UK), The Case of the Pollock Twins (UK), The Case of the Pollock Twins (UK)"
+    
 
     ],
 
