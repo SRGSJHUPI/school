@@ -59,7 +59,68 @@ document.addEventListener("DOMContentLoaded", () => {
         "images/Research Projects/student following robot.png",
         "images/Research Projects/students in class with mini robot wiring.png"
       ]
-    }
+    },
+    "Field Trips": {
+      2027: [
+        "images/Research Projects/student in lab with mini robot.png",
+        "images/Research Projects/student with fire extinguiser.png"
+      ],
+      2028: [
+        "images/Research Projects/student following robot.png",
+        "images/Research Projects/students in class with mini robot wiring.png"
+      ]
+    },
+    "Workshops": {
+      2027: [
+        "images/Research Projects/student following robot.png",
+        "images/Research Projects/students in class with mini robot wiring.png"
+      ],
+      2028: [
+        "images/Research Projects/student in lab with mini robot.png",
+        "images/Research Projects/student with fire extinguiser.png"
+      ]
+    },
+    "Competitions": {
+      2027: [
+        "images/Research Projects/student following robot.png",
+        "images/Research Projects/students in class with mini robot wiring.png"
+      ],
+      2028: [
+        "images/Research Projects/student in lab with mini robot.png",
+        "images/Research Projects/student with fire extinguiser.png"
+      ]
+    },
+    "Exhibitions": {
+      2027: [
+        "images/Research Projects/student following robot.png",
+        "images/Research Projects/students in class with mini robot wiring.png"
+      ],
+      2028: [
+        "images/Research Projects/student in lab with mini robot.png",
+        "images/Research Projects/student with fire extinguiser.png"
+      ]
+    },
+    "sports day": {
+      2027: [
+        "images/Research Projects/student following robot.png",
+        "images/Research Projects/students in class with mini robot wiring.png"
+      ],
+      2028: [
+        "images/Research Projects/student in lab with mini robot.png",
+        "images/Research Projects/student with fire extinguiser.png"
+      ]
+    },
+    "School Day": {
+      2027: [
+        "images/Research Projects/student following robot.png",
+        "images/Research Projects/students in class with mini robot wiring.png"
+      ],
+      2028: [
+        "images/Research Projects/student in lab with mini robot.png",
+        "images/Research Projects/student with fire extinguiser.png"
+      ]
+    } 
+
   };
 
   const galleryContainer = document.getElementById("galleryContainer");
@@ -67,15 +128,14 @@ document.addEventListener("DOMContentLoaded", () => {
   galleryContainer.innerHTML = "";
 
   const sectionsView = document.createElement("div");
-  sectionsView.className = "bg-red-200 space-y-0 flex flex-wrap justify-center gap-6 max-w-6xl mx-auto";
+  sectionsView.className = "bg-red-50 space-y-0 flex flex-wrap justify-center gap-6 max-w-6xl mx-auto";
 
   const yearsView = document.createElement("div");
-  yearsView.className = "bg-green-200 hidden space-y-6 max-w-6xl mx-auto text-center";
+  yearsView.className = "bg-green-50 hidden space-y-6 max-w-6xl mx-auto text-center";
 
   const photosView = document.createElement("div");
   // photosView.className = "bg-yellow-200 hidden space-y-6 max-w-full px-4 mx-auto text-center";
-  photosView.className =
-  "bg-yellow-200 hidden space-y-6 w-full px-4 text-center overflow-x-visible";
+  photosView.className = "bg-yellow-50 hidden space-y-6 w-full px-4 text-center overflow-x-visible";
 
 
 
