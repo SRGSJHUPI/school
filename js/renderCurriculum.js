@@ -248,8 +248,33 @@ document.addEventListener("DOMContentLoaded", () => {
     state.subjectContainers = [];
 
     const isFiltering = filterText.trim() !== "";
+    // Helper: escape regex special chars in search string
+function escapeForRegex(str) {
+  return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
 
-    Object.entries(curriculum).forEach(([className, subjects]) => {
+// Helper: recursively check topics/sections for a match (case-insensitive)
+function matchesContent(value, needle) {
+  if (!value) return false;
+
+  if (typeof value === "string") {
+    return value.toLowerCase().includes(needle);
+  }
+
+  if (Array.isArray(value)) {
+    return value.some(v => matchesContent(v, needle));
+  }
+
+  if (typeof value === "object") {
+    return Object.values(value).some(v => matchesContent(v, needle));
+  }
+
+  return false;
+}
+
+
+
+    Object.entries(curriculum).forEach (([className, subjects]) => {
       let classHasMatch = false;
 
       const classWrapper = document.createElement("div");
@@ -263,7 +288,11 @@ document.addEventListener("DOMContentLoaded", () => {
       subjectContainer.className = "mt-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4";
 
       Object.entries(subjects).forEach(([subject, topics]) => {
-        const match = subject.toLowerCase().includes(filterText) || topics.some(t => t.toLowerCase().includes(filterText));
+const match =
+  subject.toLowerCase().includes(filterText) ||
+  matchesContent(topics, filterText) ||
+  topics.some(t => typeof t === "object" && matchesContent(t, filterText));
+
         if (isFiltering && !match) return;
 
         classHasMatch = true;
@@ -278,25 +307,6 @@ document.addEventListener("DOMContentLoaded", () => {
         panel.className = "panel chapter-panel hidden mt-1 p-2 bg-white border rounded text-sm ";
 
         const ul = document.createElement("ul");
-
-
-//  topics.forEach(topic => {
-//   const li = document.createElement("li");
-
-//   // Highlighting logic
-//   const regex = new RegExp(`(${filterText})`, "gi"); // Global, case-insensitive match
-//   let highlighted = topic.replace(regex, `<mark>$1</mark>`); // Wrap match with <mark>
-
-//   if (topic.includes(":")) {
-//     const [heading, rest] = topic.split(":", 2);
-//     const highlightedRest = rest.replace(regex, `<mark>$1</mark>`);
-//     li.innerHTML = `<strong class="text-blue-800">${heading.trim()}:</strong>${highlightedRest}`;
-//   } else {
-//     li.innerHTML = highlighted;
-//   }
-
-//   ul.appendChild(li);
-// });
 
 topics.forEach(topic => {
   const li = document.createElement("li");
@@ -328,7 +338,9 @@ topics.forEach(topic => {
             const subUl = document.createElement("ul");
             items.forEach(i => {
               const subLi = document.createElement("li");
-              subLi.textContent = i;
+              const regex = new RegExp(`(${escapeForRegex(filterText)})`, "gi");
+               subLi.innerHTML = i.replace(regex, "<mark>$1</mark>");
+                        ;
               subUl.appendChild(subLi);
             });
 
@@ -348,10 +360,33 @@ topics.forEach(topic => {
     } else {
       // 🟢 If it's just a normal array of strings
       sectionContent.forEach(item => {
-        const subLi = document.createElement("li");
-        subLi.textContent = item;
-        sectionUl.appendChild(subLi);
+  const subLi = document.createElement("li");
+  if (typeof item === "string") {
+    const regex = new RegExp(`(${filterText})`, "gi");
+    subLi.innerHTML = item.replace(regex, "<mark>$1</mark>");
+  } else if (typeof item === "object") {
+    // In case of nested object structure (deeply nested sections)
+    Object.entries(item).forEach(([subName, subItems]) => {
+      const subHeader = document.createElement("strong");
+      subHeader.textContent = subName;
+      sectionUl.appendChild(subHeader);
+
+      const innerUl = document.createElement("ul");
+      subItems.forEach(si => {
+        const innerLi = document.createElement("li");
+        if (typeof si === "string") {
+          const regex = new RegExp(`(${filterText})`, "gi");
+          innerLi.innerHTML = si.replace(regex, "<mark>$1</mark>");
+        } else innerLi.textContent = si;
+        innerUl.appendChild(innerLi);
       });
+      sectionUl.appendChild(innerUl);
+    });
+  }
+  sectionUl.appendChild(subLi);
+});
+
+
     }
 
     sectionPanel.appendChild(sectionUl);
@@ -365,12 +400,15 @@ topics.forEach(topic => {
   
   else {
     // ✅ Your existing topic highlighting logic for plain text
-    const regex = new RegExp(`(${filterText})`, "gi");
+    const safeFilter = filterText ? escapeForRegex(filterText) : "";
+    const regex = safeFilter ? new RegExp(`(${safeFilter})`, "gi") : null;
+
     if (topic.includes(":")) {
       const [headingRaw, ...restParts] = topic.split(":");
       const bodyRaw = restParts.join(":");
-      const highlightedHeading = headingRaw.replace(regex, "<mark>$1</mark>");
-      const highlightedBody = bodyRaw.replace(regex, "<mark>$1</mark>");
+      const highlightedHeading = regex ? headingRaw.replace(regex, "<mark>$1</mark>") : headingRaw;
+const highlightedBody = regex ? bodyRaw.replace(regex, "<mark>$1</mark>") : bodyRaw;
+
       li.innerHTML = `<strong class="text-blue-800">${highlightedHeading.trim()}:</strong>${highlightedBody}`;
     } else {
       li.innerHTML = topic.replace(regex, "<mark>$1</mark>");
@@ -379,10 +417,6 @@ topics.forEach(topic => {
 
   ul.appendChild(li);
 });
-
-
-
-
 
         panel.appendChild(ul);
         state.panels.push(panel); // save for Expand/Collapse All
@@ -395,11 +429,35 @@ topics.forEach(topic => {
         });
 
                 // Auto-expand matching panel if filtering and match found
-        if (isFiltering && match) {
-          panel.classList.remove("hidden");  // Expand this panel
-        } else {
-          panel.classList.add("hidden");     // Keep others collapsed
-        }
+        // ---------- REPLACE THIS BLOCK ----------
+if (isFiltering && match) {
+  panel.classList.remove("hidden");  // Show chapter
+
+  // Expand only matching sections
+  panel.querySelectorAll(".section-panel").forEach(sec => {
+    const text = sec.textContent.toLowerCase();
+    const hasMatch = text.includes(filterText);
+
+    if (hasMatch) {
+      sec.classList.remove("hidden");
+      // expand only matching parts inside
+      sec.querySelectorAll("ul, div").forEach(el => el.classList.remove("hidden"));
+    } else {
+      // fully collapse non-matching sections
+      sec.classList.add("hidden");
+      sec.querySelectorAll("ul, div").forEach(el => el.classList.add("hidden"));
+    }
+  });
+
+  // ✅ also collapse non-matching chapter-level list items (if plain text topics exist)
+  panel.querySelectorAll("li").forEach(li => {
+    const liText = li.textContent.toLowerCase();
+    if (!liText.includes(filterText)) li.classList.add("hidden");
+    else li.classList.remove("hidden");
+  });
+} else {
+  panel.classList.add("hidden");
+}
 
 
         subjectWrapper.appendChild(subjectBtn);
@@ -408,20 +466,27 @@ topics.forEach(topic => {
       });
 
       // Only add class if there's at least 1 subject match
-      if (!isFiltering || classHasMatch) {
-        if (isFiltering) subjectContainer.classList.remove("hidden");
-        else subjectContainer.classList.add("hidden");
+      // ✅ Only add class if there's at least 1 matching subject
+if (!isFiltering || classHasMatch) {
+  // If filtering — show matching classes only, others stay hidden
+  if (isFiltering) {
+    if (classHasMatch) subjectContainer.classList.remove("hidden");
+    else subjectContainer.classList.add("hidden");
+  } else {
+    subjectContainer.classList.add("hidden");
+  }
 
-        classBtn.addEventListener("click", () => {
-          subjectContainer.classList.toggle("hidden");
-        });
+  classBtn.addEventListener("click", () => {
+    subjectContainer.classList.toggle("hidden");
+  });
 
-        classWrapper.appendChild(classBtn);
-        classWrapper.appendChild(subjectContainer);
-        container.appendChild(classWrapper);
+  classWrapper.appendChild(classBtn);
+  classWrapper.appendChild(subjectContainer);
+  container.appendChild(classWrapper);
 
-        state.subjectContainers.push(subjectContainer);
-      }
+  state.subjectContainers.push(subjectContainer);
+}
+
     });
 
     // Expand classes if searching

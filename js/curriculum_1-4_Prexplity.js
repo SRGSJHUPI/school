@@ -383,7 +383,8 @@ Object.assign(window.curriculumData, {
     "🔬 Research Projects (R.P)": [
       "Chapter 1(How Robots and Sensors Work) : Inputs, outputs, and sensors used in airplanes, boats, robots; hands-on toy demos and video-based explanations.",
       "Chapter 2(Machine Learning for Kids) : Visual content and activities from NPTEL, logic-based games; introducing ‘what is learning for a robot?’",
-      "Chapter 3(Design a Simple Project) : Sketch and build ideas for sensor-based models – e.g., water-level detector in the classroom."
+      "Chapter 3(Design a Simple Project) : Sketch and build ideas for sensor-based models – e.g., water-level detector in the classroom.",
+      "Chapter 4(Electricity Basics terms) : Voltage, current, resistance, understanding conductors and insulators through safe experiments."
     ]
   },
 
