@@ -52,15 +52,95 @@ Object.assign(window.curriculumData, {
       "Chapter 3(व्याकरण की शुरुआत) : स्वर, व्यंजन, मात्राएँ, सरल वाक्य बनाना (खेलों के माध्यम से)।",
       "Chapter 4(बोलना और सुनना) : रोज़मर्रा के जीवन की बातें, कहानी सुनाना और समझाना।"
     ],
-    "🌱 Moral Values": [
-      "Chapter 1(What is Good Behavior?) : Stories and discussions about helpfulness, sharing, speaking politely.",
-      "Chapter 2(Basic Manners) : Saying sorry, thank you, please; waiting your turn, respecting everyone.",
-      "Chapter 3(Clean Hands, Clean Heart) : Hand wash activity, keeping self and classroom clean, honesty exercises.",
-      "Chapter 4(Ethics Through Storytelling) : Stories on kindness to animals, listening to elders, helping at home.",
-      "Chapter 5(Truthfulness and Respect) : Daily reflection, ‘what makes you happy’ journal, respecting everyone.",
-      "Chapter 6(Year-End Review) : Reflection over what was learned, student self-expression.",
-      "Chapter 7(Parade) : Teaching about police, army ... duty and responsibility. Also there will be weekly parade and self safety in case of fire, earthquake or any other emergency."
-    ],
+    
+  "Moral Values": [
+    {
+      "Chapter 1 (What is Good Behavior?)": [
+        {
+          "Stories & Discussions": [
+            "Helpfulness",
+            "Sharing",
+            "Speaking politely"
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter 2 (Basic Manners)": [
+        {
+          "Essential Manners": [
+            "Saying sorry",
+            "Thank you",
+            "Please"
+          ]
+        },
+        {
+          "Respect & Turn-taking": [
+            "Waiting your turn",
+            "Respecting everyone"
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter 3 (Clean Hands, Clean Heart)": [
+        {
+          "Activities": [
+            "Hand wash activity",
+            "Keeping self and classroom clean",
+            "Honesty exercises"
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter 4 (Ethics Through Storytelling)": [
+        {
+          "Stories": [
+            "Kindness to animals",
+            "Listening to elders",
+            "Helping at home"
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter 5 (Truthfulness and Respect)": [
+        {
+          "Reflections & Journals": [
+            "Daily reflection",
+            "‘What makes you happy’ journal"
+          ]
+        },
+        {
+          "Respect Activities": [
+            "Respecting everyone"
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter 6 (Year-End Review)": [
+        {
+          "Reflection": [
+            "Review what was learned",
+            "Student self-expression"
+          ]
+        }
+      ]
+    },
+    {
+      "Chapter 7 (Parade & Safety)": [
+        {
+          "Teaching": [
+            "About police, army—duty and responsibility",
+            "Weekly parade",
+            "Self safety: fire, earthquake, or emergency"
+          ]
+        }
+      ]
+    }
+  ],
     "🗣️ Languages": [
       "Chapter 1(Language Diversity) : Basic greetings and rhymes from other Indian and world languages, learning to say 'Hello' in 5+ languages.",
       "Chapter 2(Foundations) : Introduction to Hindi and English sentence structure; recognizing similarities and differences."
@@ -81,7 +161,34 @@ Object.assign(window.curriculumData, {
       "Chapter 1(Sensors in Daily Life) : Discover different types of sensors and their use in airplanes, boats, robots (show and tell with videos/toys).",
       "Chapter 2(Introduction to Robotics) : What is a robot? Play with simple robots, introduce basics with fun activities.",
       "Chapter 3(Machine Learning for Kids) : Watch and interact with very simple NPTEL lecture clips, age-appropriate demonstrations (image matching, sorting games)."
-    ]
+    ],
+    "🌋 Scientists Stories": [
+  "Chapter 1 (Indian Scientists) : ",
+  {
+    "Chapter 2 (foreign scientists)": [
+      {
+        "Einstein": [
+          "his life story",
+          "Theory of relativity explained in simple words",
+          "famous quotes"
+        ]
+      },
+      {
+        "Nikola Tesla": [
+          "his life story",
+          "inventions and contributions to science",
+          "famous quotes"
+        ]
+      },
+      {
+        "Newton": [
+          "his life story",
+          "laws of motion explained in simple words",
+        ]
+      }
+    ] 
+  }
+]
   },
   
   "📚 Class 2": {
@@ -440,7 +547,13 @@ Object.assign(window.curriculumData, {
       "Chapter 7(Current Affairs) : Simple news adapted for kids, weekly quiz.",
       "Chapter 8(World Around Us) : Map study – continents, countries, famous places, inventions.",
       "Chapter 9(Debate and Quiz) : Weekly quiz, awareness practice, current affairs adapted for kids.",
-      "Chapter 10(YouTube Videos) : Educational videos on science experiments, historical events, and famous personalities to enhance learning and curiosity."
+      "Chapter 10(YouTube Videos) : Educational videos on science experiments, historical events, and famous personalities to enhance learning and curiosity.",
+      "Chapter 11(Story form - Understanding Tragedies – National) : Bhopal Gas Tragedy (1984), Uphaar Cinema Fire (1997), Ganga Pollution Crisis, Vizag Gas Leak (2020), Chasnala Mining Disaster (1975), Korba Chimney Collapse (2009), Amritsar Train Accident (2018), Morbi Bridge Collapse (2022), Kedarnath Floods (2013), Odisha Cyclone (1999), Gujarat Earthquake (2001), Jharia Coal Fire, Kumbakonam School Fire (2004), Delhi Building Collapse (various years), Balasore Train Accident (2023), Kerala Boat Tragedy (2023).",
+      "Chapter 12(Story form - Global Disasters & Learnings) : Chernobyl Nuclear Disaster (1986, Ukraine), Fukushima Daiichi Nuclear Accident (2011, Japan), Deepwater Horizon Oil Spill (2010, USA), Exxon Valdez Oil Spill (1989, Alaska), Love Canal Chemical Contamination (USA), Minamata Disease (1956, Japan), Seveso Dioxin Leak (1976, Italy), London Smog Disaster (1952, UK), Bangladesh Garment Factory Collapse (Rana Plaza, 2013), Haiti Earthquake (2010), Indonesia Tsunami (2004), Australian Bushfires (2019), Turkey Earthquake (2023), Beirut Port Explosion (2020), Mexico City Earthquake (1985), Texas Chemical Plant Explosion (2013), Grenfell Tower Fire (2017, UK), Tianjin Port Explosion (2015, China), Amazon Forest Fire (2019, Brazil), Montreal Train Explosion (2013, Canada).",
+      "Chapter 13(Prevention and Response) : Importance of disaster management, safety drills and mock evacuations, identifying early warning signs, basic first aid, safe lab and factory practices, environmental laws and pollution control boards, role of NDMA and SDRF, awareness of fire extinguishers and alarms, personal responsibility in emergencies, reporting unsafe conditions, community-based disaster planning, learning from global mistakes to prevent future tragedies.",
+      "Chapter 14(Airplanes crash Documentaries- National Geography) : Introduction to famous aeroplane crashes like- Air India Flight 182, American Airlines Flight 191, Japan Airlines Flight 123, Turkish Airlines Flight 981, Pan Am Flight 103, TWA Flight 800, Air France Flight 447, Malaysia Airlines Flight MH370, Concorde Crash (Air France Flight 4590), United Airlines Flight 232, British Airways Flight 5390, Qantas Flight 32, Alaska Airlines Flight 261, Singapore Airlines Flight 006, Delta Air Lines Flight 191, Ethiopian Airlines Flight 302, Lion Air Flight 610, Southwest Airlines Flight 1380, Aeroflot Flight 593, AirAsia Flight QZ8501."
+      
+    
     ],
 
     // Research Projects
@@ -456,8 +569,48 @@ Object.assign(window.curriculumData, {
       "Chapter 9(Robotics for Kids) : What is a robot? LEGO and Scratch projects.",
       "Chapter 10(Machine Learning Demos) : Watch and discuss simple NPTEL videos on pattern recognition and visual learning.",
       "Chapter 11(Education Applications and Softwares) : introduction to Brilliant, Khan Academy.",
+    ],
+"🌋 Disaster Studies": [
+  "Chapter 1 (Natural Disasters) : Earthquake, Flood, Volcano",
+  {
+    "Chapter 2 (Man-Made Disasters)": [
+      {
+        "Airplane Disasters": [
+          "Air India 855 (1978)",
+          "Kanishka Bombing (1985)",
+          "Ethiopian Airlines Flight 302 (2019)"
+        ]
+      },
+      {
+        "Ship Disasters": [
+          "Titanic (1912)",
+          "MV Doña Paz (1987)",
+          "Costa Concordia (2012)"
+        ]
+      },
+      {
+        "Space Disasters": [
+          "Challenger Shuttle (1986)",
+          "Columbia Shuttle (2003)"
+        ]
+      }
     ]
   }
+]
+
+
+
+
+
+
+
+
+
+
+  },
+
+ 
+
  
   
 
