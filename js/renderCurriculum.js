@@ -510,6 +510,74 @@ if (!isFiltering || classHasMatch) {
   searchBox.addEventListener("keydown", (e) => {
     if (e.key === "Enter") handleSearch();
   });
+  // 🧭 Match navigation system
+let currentMatchIndex = 0;
+let matches = [];
+
+function collectMatches() {
+  matches = Array.from(document.querySelectorAll("mark"));
+  currentMatchIndex = 0;
+  // Update the count box with number of matches found
+  document.getElementById("matchCountBox").textContent = `Count: ${matches.length}`;
+  if (matches.length > 0) {
+    matches.forEach(m => {
+      m.classList.remove("bg-yellow-400", "bg-yellow-200", "bg-green-400");
+      m.classList.add("bg-yellow-200"); // Light yellow for all matches
+    });
+    matches[0].scrollIntoView({ behavior: "smooth", block: "center" });
+    matches[0].classList.remove("bg-yellow-200");
+    matches[0].classList.add("bg-green-400"); // Green for current focus
+  }
+}
+
+function goToNextMatch() {
+  if (matches.length === 0) return;
+  matches[currentMatchIndex].classList.remove("bg-green-400");
+  matches[currentMatchIndex].classList.add("bg-yellow-200");
+
+  currentMatchIndex = (currentMatchIndex + 1) % matches.length;
+
+  matches[currentMatchIndex].scrollIntoView({ behavior: "smooth", block: "center" });
+
+  matches[currentMatchIndex].classList.remove("bg-yellow-200");
+  matches[currentMatchIndex].classList.add("bg-green-400");
+}
+
+function goToPrevMatch() {
+  if (matches.length === 0) return;
+  matches[currentMatchIndex].classList.remove("bg-green-400");
+  matches[currentMatchIndex].classList.add("bg-yellow-200");
+
+  currentMatchIndex = (currentMatchIndex - 1 + matches.length) % matches.length;
+
+  matches[currentMatchIndex].scrollIntoView({ behavior: "smooth", block: "center" });
+
+  matches[currentMatchIndex].classList.remove("bg-yellow-200");
+  matches[currentMatchIndex].classList.add("bg-green-400");
+}
+
+
+// ❌ Clear search button
+document.getElementById("clearSearch").addEventListener("click", () => {
+  searchBox.value = "";
+  renderCurriculum(); // reload everything
+  matches = [];
+
+  // Clear match count display when cleared
+  document.getElementById("matchCountBox").textContent = "";
+});
+
+
+// 🔽 & 🔼 navigation buttons
+document.getElementById("nextMatch").addEventListener("click", goToNextMatch);
+document.getElementById("prevMatch").addEventListener("click", goToPrevMatch);
+
+// 🧠 Recollect matches after each new search
+searchBox.addEventListener("input", () => {
+  setTimeout(collectMatches, 300);
+});
+
+
 // Expand/Collapse All and Toggle Classes Buttons
 const toggleAllBtn = document.getElementById("toggleAll");
 const toggleClassesBtn = document.getElementById("toggleClasses");

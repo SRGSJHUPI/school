@@ -181,7 +181,7 @@
 
   <!-- Academics Content -->
   <section class="py-1">
-    <div class="container mx-auto px-4 space-y-4">
+    <div class="container mx-auto md:px-4 space-y-4">
   
       
       <!-- Syllabus -->
@@ -189,8 +189,28 @@
     <div id="controls" class="bg-white sticky top-[3.3rem] z-1 p-2 shadow-md">
   <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1">
     <!-- Left: Search Box -->
-    <input type="text" id="searchBox" placeholder="Search subject or topic..."
-      class="border px-4 py-1.5 sm:py-2 rounded w-full sm:w-[68%] focus:outline-none focus:ring focus:border-blue-400" />
+    <!-- <input type="text" id="searchBox" placeholder="Search subject or topic..."
+      class="border px-4 py-1.5 sm:py-2 rounded w-full sm:w-[68%] focus:outline-none focus:ring focus:border-blue-400" /> -->
+      <div class="relative flex items-center w-full sm:w-[68%]">
+  <input type="text" id="searchBox" placeholder="Search subject or topic..."
+    class="border px-4 py-1.5 sm:py-2 rounded w-full focus:outline-none focus:ring focus:border-blue-400" />
+  
+  <!-- ❌ Clear Button -->
+  <button id="clearSearch" title="Clear search"
+    class="absolute right-20 text-gray-500 hover:text-red-600 font-bold text-lg">✖</button>
+
+  <!-- ⬆ Previous Match -->
+  <button id="prevMatch" title="Previous match"
+    class="absolute right-10 text-gray-600 hover:text-blue-700 text-lg">▲</button>
+
+  <!-- ⬇ Next Match -->
+  <button id="nextMatch" title="Next match"
+    class="absolute right-2 text-gray-600 hover:text-blue-700 text-lg">▼</button>
+    <span id="matchCountBox" class="absolute right-[120px] text-gray-700 font-semibold select-none"></span>
+
+
+</div>
+
     <!-- Button to expand/collapse only class names -->
 
 <!-- <button id="toggleClasses" style="min-width: 140px;" class="bg-green-500 text-white px-4 py-2 rounded  hover:bg-green-600">Show Courses</button> -->
@@ -203,7 +223,7 @@
   </div>
 </div>
 
-<section class="curriculum-goal" style="margin-bottom: 2rem;">
+<section class="curriculum-goal hidden md:block" style="margin-bottom: 2rem;">
   <h2 style="font-size: 1.8rem; text-align: center; font-weight: bold; color: #2c3e50;">📘 Curriculum Goal</h2>
     <div class="text-gray-700 text-lg mt-2 mx-7 text-justify">
      We believe that true education goes beyond memorization. Our curriculum is designed to develop thinking ability, discipline, creativity, and moral responsibility in every student.
