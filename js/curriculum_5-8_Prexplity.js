@@ -132,7 +132,8 @@ Object.assign(window.curriculumData, {
       "Chapter 10(Gaming & eSports Inspiration) : Stories/discussions on Bugha, Sumail, Ana, Lil Poison, HydraFlick; analysis of their habits and learning path.",
       "Chapter 11(Social Activists & Global Good) : Lessons from Malala, Greta, Licypriya, Zuriel, Bana Alabed; group discussion and project-based inspiration.",
       "Chapter 12(Your Learning Path) : Reflect on how achievers started, their challenges, routines, and mindset. Make a plan for your own goals.",
-      "Chapter 13(Comparing and Action Plan) : What can I do to be like them? Creating a monthly personal skill-building project, finding support, and identifying local issues for improvement."
+      "Chapter 13(Comparing and Action Plan) : What can I do to be like them? Creating a monthly personal skill-building project, finding support, and identifying local issues for improvement.",
+      "Chapter 14(Form Filling) : How to file an ITR, How to file RTI, Filling forms for scholarship, Passport, Aadhar card, PAN card, Voter ID etc."
     ],
     "🏃‍♂️ Games & Physical Education": [
       "Chapter 1(Hygiene and Personal Cleanliness) : Daily exercise, hand washing, teeth brushing routines.",
@@ -715,7 +716,7 @@ Object.assign(window.curriculumData, {
       "Chapter 10(intoxicants) : what are intoxicants, How it effects society, Get rid of addiction.",
       "Chapter 11(Environmental Responsibility) : Role in ecological action, project on conservation.",
       "Chapter 12(Child Labour & Exploitation) : Research, films, poster presentations.",
-      "Chapter 13(Group Projects) : Poster + presentation, school exhibition.",
+      "Chapter 13(Human Rights) : Understanding human rights, UDHR, case studies on violations and protections.",
       "Chapter 14(Critical Societal Questions and Simulations) : Debates on Indian ethics, parliamentary simulation on reservation/free education, Model UN (climate, human rights), moot court (cyberbullying, SC/ST Act), stakeholder role-play, and panel on voting age.",
       "Chapter 15(Parade) : Teaching about police, army ... duty and responsibility. Also there will be weekly parade and self safety in case fire, earthquake or any other emergency.",
       "Chapter 16(Value of Life) : what is the value of life?, Importance of life, people died in plane crash got 1 crore each whereas people died on mahakumbh got 25 lakh and so on does value of life depends on place where one dies? ,  Lakhan Pasi story(left from jail at 104 age).",
@@ -723,11 +724,12 @@ Object.assign(window.curriculumData, {
       "Chapter 18(Religions) : what is Religion?, History and origin, who make it? why make it? is it necessary to have Religion?, Is Religion a failed experiment? has Religion been converted to Business?, can religion help to make the world a better place? are we independent to choose any religion or we are bound to one we born in?",
       "Chapter 19(Documentry) : https://youtu.be/NTXO6uptlC8?si=HU4TuGJ8yZj_jKyd discussion on girls rights.",
       "Chapter 20(Casteism and Racism) : Understanding caste and race, casteism as termite, its impact on society, and discussions on equality and justice.",
-      "Chapter 21(Ethics in School) : Cheating, favoritism, reflecting on discipline vs education",
-      "Chapter 1(Famous Reincarnation Cases) : Shanti Devi, James Leininger, Cameron Macaulay, Kofel Case, Nirmal Singh, Martin (Sri Lanka), Sawney Bean Boy, Swarnlata, Thai Boy Case, Turkish Boy Case, Japanese Girl Case, Shiva-Sumitra Case (Etawah), The Pollock Twins (UK), The Case of the Pollock Twins (UK), The Case of the Pollock Twins (UK)"
-    
-
+      "Chapter 21(Casteism within caste) : Exploring the nuances of caste dynamics, intra-caste discrimination, and the quest for equality. Documentry: https://youtu.be/bunZDrDOMBg?si=Px_6hj5LaOHeNDqD",
+      "Chapter 22(Ethics in School) : Cheating, favoritism, reflecting on discipline vs education",
+      "Chapter 23(Famous Reincarnation Cases) : Shanti Devi, James Leininger, Cameron Macaulay, Kofel Case, Nirmal Singh, Martin (Sri Lanka), Sawney Bean Boy, Swarnlata, Thai Boy Case, Turkish Boy Case, Japanese Girl Case, Shiva-Sumitra Case (Etawah), The Pollock Twins (UK), The Case of the Pollock Twins (UK), The Case of the Pollock Twins (UK)",
+      "Chapter 24(Group Projects) : Poster + presentation, school exhibition.",
     ],
+
 
     // Languages
     "🗣️ Languages": [

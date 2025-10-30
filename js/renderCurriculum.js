@@ -288,14 +288,25 @@ function matchesContent(value, needle) {
       subjectContainer.className = "mt-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4";
 
       Object.entries(subjects).forEach(([subject, topics]) => {
+// 🔍 Match at all levels: subject, chapter name, section name, or content inside
 const match =
   subject.toLowerCase().includes(filterText) ||
   matchesContent(topics, filterText) ||
-  topics.some(t => typeof t === "object" && matchesContent(t, filterText));
+  topics.some(t => {
+    if (typeof t === "string") return t.toLowerCase().includes(filterText);
+    if (typeof t === "object") {
+      // check section names themselves
+      return Object.keys(t).some(sectionName =>
+        sectionName.toLowerCase().includes(filterText)
+      ) || matchesContent(t, filterText);
+    }
+    return false;
+  });
 
-        if (isFiltering && !match) return;
+if (isFiltering && !match) return;
 
-        classHasMatch = true;
+classHasMatch = true;
+
 
         const subjectWrapper = document.createElement("div");
 
@@ -312,90 +323,92 @@ topics.forEach(topic => {
   const li = document.createElement("li");
 
   // ✅ If topic is an object (means it has sub-sections)
-  if (typeof topic === "object" && !Array.isArray(topic)) {
+if (typeof topic === "object" && !Array.isArray(topic)) {
   Object.entries(topic).forEach(([sectionName, sectionContent]) => {
+    const safeFilter = filterText ? escapeForRegex(filterText) : "";
+    const regex = safeFilter ? new RegExp(`(${safeFilter})`, "gi") : null;
+
+    // 🌿 Create section button (and highlight its name if matched)
     const sectionBtn = document.createElement("button");
-    sectionBtn.textContent = sectionName;
-    sectionBtn.className = "w-full text-left bg-green-100 px-3 py-1 rounded mt-2 font-semibold text-green-800 hover:bg-green-200";
+    sectionBtn.className =
+      "w-full text-left bg-blue-500 px-3 py-1 rounded mt-2 font-semibold text-white hover:bg-pink-600 hover:text-white";
+    sectionBtn.innerHTML = regex
+      ? sectionName.replace(regex, "<mark>$1</mark>")
+      : sectionName;
 
     const sectionPanel = document.createElement("div");
-    sectionPanel.className = "section-panel hidden ml-4 mt-1 bg-green-50 p-2 rounded border border-green-200";
+    sectionPanel.className =
+      "section-panel hidden ml-4 mt-1 bg-green-50 p-2 rounded border border-green-200";
 
     const sectionUl = document.createElement("ul");
 
-    // 🟢 Handle arrays of objects (like [{ "Airplane": [...] }, {...}])
+    // Handle arrays or objects inside section
     if (Array.isArray(sectionContent)) {
       sectionContent.forEach(subSection => {
         if (typeof subSection === "object") {
           Object.entries(subSection).forEach(([subName, items]) => {
             const subBtn = document.createElement("button");
             subBtn.textContent = subName;
-            subBtn.className = "w-full text-left bg-green-50 px-3 py-1 rounded mt-2 font-medium text-green-700 hover:bg-green-100";
+            subBtn.className =
+              "w-full text-left bg-green-100 px-3 py-1 rounded mt-2 font-medium text-green-700 hover:bg-red-100";
 
             const subPanel = document.createElement("div");
-            subPanel.className = "hidden ml-4 mt-1 bg-green-100 p-2 rounded border border-green-200";
+            subPanel.className =
+              "hidden ml-4 mt-1 bg-white p-2 rounded border border-green-200";
 
             const subUl = document.createElement("ul");
             items.forEach(i => {
               const subLi = document.createElement("li");
-              const regex = new RegExp(`(${escapeForRegex(filterText)})`, "gi");
-               subLi.innerHTML = i.replace(regex, "<mark>$1</mark>");
-                        ;
+              const innerRegex = new RegExp(`(${escapeForRegex(filterText)})`, "gi");
+              subLi.innerHTML = i.replace(innerRegex, "<mark>$1</mark>");
               subUl.appendChild(subLi);
             });
 
             subPanel.appendChild(subUl);
-
-            subBtn.addEventListener("click", () => subPanel.classList.toggle("hidden"));
+            subBtn.addEventListener("click", () =>
+              subPanel.classList.toggle("hidden")
+            );
 
             sectionUl.appendChild(subBtn);
             sectionUl.appendChild(subPanel);
           });
         } else {
           const subLi = document.createElement("li");
-          subLi.textContent = subSection;
+          const innerRegex = new RegExp(`(${escapeForRegex(filterText)})`, "gi");
+          subLi.innerHTML =
+            typeof subSection === "string"
+              ? subSection.replace(innerRegex, "<mark>$1</mark>")
+              : subSection;
           sectionUl.appendChild(subLi);
         }
       });
-    } else {
-      // 🟢 If it's just a normal array of strings
-      sectionContent.forEach(item => {
-  const subLi = document.createElement("li");
-  if (typeof item === "string") {
-    const regex = new RegExp(`(${filterText})`, "gi");
-    subLi.innerHTML = item.replace(regex, "<mark>$1</mark>");
-  } else if (typeof item === "object") {
-    // In case of nested object structure (deeply nested sections)
-    Object.entries(item).forEach(([subName, subItems]) => {
-      const subHeader = document.createElement("strong");
-      subHeader.textContent = subName;
-      sectionUl.appendChild(subHeader);
-
-      const innerUl = document.createElement("ul");
-      subItems.forEach(si => {
-        const innerLi = document.createElement("li");
-        if (typeof si === "string") {
-          const regex = new RegExp(`(${filterText})`, "gi");
-          innerLi.innerHTML = si.replace(regex, "<mark>$1</mark>");
-        } else innerLi.textContent = si;
-        innerUl.appendChild(innerLi);
+    } else if (typeof sectionContent === "object") {
+      // nested structure
+      Object.entries(sectionContent).forEach(([subName, subItems]) => {
+        const subHeader = document.createElement("strong");
+        subHeader.textContent = subName;
+        sectionUl.appendChild(subHeader);
+        const innerUl = document.createElement("ul");
+        subItems.forEach(si => {
+          const innerLi = document.createElement("li");
+          const innerRegex = new RegExp(`(${escapeForRegex(filterText)})`, "gi");
+          innerLi.innerHTML = si.replace(innerRegex, "<mark>$1</mark>");
+          innerUl.appendChild(innerLi);
+        });
+        sectionUl.appendChild(innerUl);
       });
-      sectionUl.appendChild(innerUl);
-    });
-  }
-  sectionUl.appendChild(subLi);
-});
-
-
     }
 
     sectionPanel.appendChild(sectionUl);
-    sectionBtn.addEventListener("click", () => sectionPanel.classList.toggle("hidden"));
+    sectionBtn.addEventListener("click", () =>
+      sectionPanel.classList.toggle("hidden")
+    );
 
     li.appendChild(sectionBtn);
     li.appendChild(sectionPanel);
   });
 }
+
 
   
   else {
@@ -429,35 +442,81 @@ const highlightedBody = regex ? bodyRaw.replace(regex, "<mark>$1</mark>") : body
         });
 
                 // Auto-expand matching panel if filtering and match found
-        // ---------- REPLACE THIS BLOCK ----------
-if (isFiltering && match) {
-  panel.classList.remove("hidden");  // Show chapter
+      if (isFiltering && match) {
+  panel.classList.remove("hidden");
 
-  // Expand only matching sections
-  panel.querySelectorAll(".section-panel").forEach(sec => {
-    const text = sec.textContent.toLowerCase();
-    const hasMatch = text.includes(filterText);
+  const safeFilter = escapeForRegex(filterText);
+  const regex = new RegExp(`(${safeFilter})`, "gi");
 
-    if (hasMatch) {
-      sec.classList.remove("hidden");
-      // expand only matching parts inside
-      sec.querySelectorAll("ul, div").forEach(el => el.classList.remove("hidden"));
+  // 🟢 Highlight subject (course title)
+  if (subject.toLowerCase().includes(filterText)) {
+    subjectBtn.innerHTML = subject.replace(regex, "<mark>$1</mark>");
+  }
+
+  // 🟢 Highlight and filter section panels
+  // 🟢 Highlight and filter section panels
+panel.querySelectorAll(".section-panel").forEach(sec => {
+  const sectionBtn = sec.previousElementSibling;
+  const sectionTitle = sectionBtn ? sectionBtn.textContent : "";
+  const titleMatch = sectionTitle.toLowerCase().includes(filterText);
+
+  // ✅ Check visible text inside this section (no double mark reading)
+  const contentLis = Array.from(sec.querySelectorAll("li"));
+  const hasMatchInContent = contentLis.some(li =>
+    li.textContent.toLowerCase().includes(filterText)
+  );
+
+  // 🟢 If title OR any inner content matches → expand and highlight
+  if (titleMatch || hasMatchInContent) {
+    sec.classList.remove("hidden");
+
+    // highlight section title safely
+    const cleanTitle = sectionTitle.replace(/<\/?mark>/gi, ""); // remove any existing marks
+    sectionBtn.innerHTML = cleanTitle.replace(
+      new RegExp(`(${escapeForRegex(filterText)})`, "gi"),
+      "<mark>$1</mark>"
+    );
+
+    // highlight each matching list item
+    contentLis.forEach(li => {
+      const cleanText = li.textContent.replace(/<\/?mark>/gi, "");
+      if (cleanText.toLowerCase().includes(filterText)) {
+        li.innerHTML = cleanText.replace(
+          new RegExp(`(${escapeForRegex(filterText)})`, "gi"),
+          "<mark>$1</mark>"
+        );
+      }
+    });
+  } else {
+    // fully collapse non-matching sections
+    sec.classList.add("hidden");
+    sec.querySelectorAll("ul, div").forEach(el => el.classList.add("hidden"));
+  }
+});
+
+
+  // 🟢 Highlight chapter-level plain <li> entries
+  panel.querySelectorAll(":scope > ul > li").forEach(li => {
+    const cleanText = li.textContent;
+    if (cleanText.toLowerCase().includes(filterText)) {
+      li.classList.remove("hidden");
+      li.innerHTML = cleanText.replace(regex, "<mark>$1</mark>");
     } else {
-      // fully collapse non-matching sections
-      sec.classList.add("hidden");
-      sec.querySelectorAll("ul, div").forEach(el => el.classList.add("hidden"));
+      li.classList.add("hidden");
     }
   });
 
-  // ✅ also collapse non-matching chapter-level list items (if plain text topics exist)
-  panel.querySelectorAll("li").forEach(li => {
-    const liText = li.textContent.toLowerCase();
-    if (!liText.includes(filterText)) li.classList.add("hidden");
-    else li.classList.remove("hidden");
-  });
+  // 🟢 If subject itself matches, keep panel open (even without inner matches)
+  if (subject.toLowerCase().includes(filterText)) {
+    panel.classList.remove("hidden");
+  }
+
 } else {
   panel.classList.add("hidden");
 }
+
+
+
 
 
         subjectWrapper.appendChild(subjectBtn);
