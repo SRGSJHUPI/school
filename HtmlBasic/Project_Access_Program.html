@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project Access Program (PAP)</title>
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+   <!-- Tailwind CSS (compiled) -->
+<link rel="stylesheet" href="../css/output.css">
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- custom common CSS -->
+  <link rel="stylesheet" href="../css/common.css">
+  <!-- google analytics -->
+   <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S7DJMG3QRE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-S7DJMG3QRE');
+</script>
+<!-- logo at top in browser tab -->
+<link rel="icon" type="image/x-icon" href="../favicon.ico">
+<link rel="icon" type="image/png" href="../favicon.png">
+
+  </head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+  <a id="top"></a>
+
+
+  <!-- Navbar -->
+     <nav class="bg-white shadow-md px-4 py-1 sticky top-0 z-10">
+    <div class="container mx-auto flex justify-between items-center">
+      <a href="../index.html">
+      <div class="flex items-center space-x-3">
+        <!-- Logo with fallback using <picture> -->
+        <picture>
+          <source srcset="../images/school_logo_webp.webp" type="image/webp">
+          <img src="../images/school_logo.png" alt="Rising Nalanda Logo" class="h-10 w-10 scale-150 transform rounded-full ">
+        </picture>
+        <h1 class="text-2xl font-bold text-blue-700">Rising Nalanda</h1>
+      </div></a>
+
+      <!-- Hamburger Button (mobile only) -->
+    <button id="menu-toggle"
+      class="block md:hidden text-3xl px-2 py-1 rounded focus:outline-none"
+      aria-label="Open menu">
+      <i class="fas fa-bars"></i>
+    </button>
+
+      <ul id="navbar-menu" class="hidden md:flex gap-6 text-sm font-medium">
+
+       <li class="relative group py-2">
+          <a href="../index.html" class="hover:text-blue-600">Home</a>
+          <ul class="absolute left-0 hidden mt-2 bg-white shadow-md rounded-md py-2 w-48 group-hover:block z-20">
+            <li><a href="../index.html#vision_and_mission" class="block px-4 py-2 hover:bg-blue-100">Vision and Mission</a></li>
+            <li><a href="../index.html#difference" class="block px-4 py-2 hover:bg-blue-100">How we are different</a></li>
+            <li><a href="../index.html#special_quality" class="block px-4 py-2 hover:bg-blue-100">special qualities</a></li>           
+            <li><a href="../index.html#unique_features" class="block px-4 py-2 hover:bg-blue-100">Unique features</a></li>
+            <li><a href="../index.html#motivation" class="block px-4 py-2 hover:bg-blue-100">Founder's Motivation</a></li>
+          </ul>
+        </li>
+      
+        <li class="relative group py-2">
+          <a href="../academics.html" class="hover:text-blue-600">Academics</a>
+          <ul class="absolute left-0 hidden mt-2 bg-white shadow-md rounded-md py-2 w-48 group-hover:block z-20">
+            <li><a href="../academics.html#core-philosophy" class="block px-4 py-2 hover:bg-blue-100">Core Philosophy</a></li>
+            <li><a href="../academics.html#courses" class="block px-4 py-2 hover:bg-blue-100">Courses</a></li>
+            <li><a href="../academics.html#class-wise" class="block px-4 py-2 hover:bg-blue-100">Class-Wise Structure</a></li>
+            <li><a href="../academics.html#strategies" class="block px-4 py-2 hover:bg-blue-100">Exam Strategies</a></li>
+            <li><a href="../academics.html#ncyc" class="block px-4 py-2 hover:bg-blue-100">NCYC(Competition)</a></li>
+            <li><a href="../academics.html#timetable" class="block px-4 py-2 hover:bg-blue-100">Timetable</a></li>
+            <li><a href="../academic_content_js_way.html" class="block px-4 py-2 hover:bg-blue-100">Syllabus</a></li>
+            <li><a href="../academics.html#faculty-expertise" class="block px-4 py-2 hover:bg-blue-100">Faculty Expertise</a></li>
+            <li><a href="../students_groups.html" class="block px-4 py-2 hover:bg-blue-100">Student Groups</a></li>
+          </ul>
+        </li>
+
+
+        <li class="relative group py-2">
+          <a href="../admission.html" class="hover:text-blue-600">Admission</a>
+          <ul class="absolute left-0 hidden mt-2 bg-white shadow-md rounded-md py-2 w-48 group-hover:block z-20">
+            <li><a href="../admission.html#admission-structure" class="block px-4 py-2 hover:bg-blue-100">Admission Structure</a></li>
+            <li><a href="../admission.html#fee-and-scholarships" class="block px-4 py-2 hover:bg-blue-100">Fee and Scholarships</a></li>
+            <li><a href="../admission.html#parental-role" class="block px-4 py-2 hover:bg-blue-100">Parental Role and Guidelines</a></li>
+            <li><a href="../admission.html#complaint-and-review" class="block px-4 py-2 hover:bg-blue-100">Complaint & Review System</a></li>
+            <li><a href="../admission.html#apply-for-admission" class="block px-4 py-2 hover:bg-blue-100">Apply for Admission</a></li>
+          </ul>
+        </li>
+
+
+         <li class="relative group py-2">
+          <a href="../faculty.html" class="hover:text-blue-600">Faculty</a>
+          <ul class="absolute left-0 hidden mt-2 bg-white shadow-md rounded-md py-2 w-48 group-hover:block z-20">
+            <li><a href="../faculty.html#faculty-unique" class="block px-4 py-2 hover:bg-blue-100">Why Our Faculty is Unique</a></li>
+            <li><a href="../faculty.html#student-testimonials" class="block px-4 py-2 hover:bg-blue-100">Student Testimonials</a></li>
+            <li><a href="../faculty.html#join-faculty" class="block px-4 py-2 hover:bg-blue-100">Join Our Faculty</a></li>
+            <li><a href="../faculty.html#clubs-and-mentors" class="block px-4 py-2 hover:bg-blue-100">Our Clubs and Their mentors</a></li>
+          </ul>
+        </li>
+
+
+         <li class="relative group py-2">
+          <a href="../research.html" class="text-blue-600 font-semibold text-lg">Research</a>
+          <ul class="absolute left-0 hidden mt-2 bg-white shadow-md rounded-md py-2 w-48 group-hover:block z-20">
+            <li><a href="../research.html#what-research-project" class="block px-4 py-2 hover:bg-blue-100">What is research project</a></li>
+            <li><a href="../research.html#why-research-project" class="block px-4 py-2 hover:bg-blue-100">Why research project</a></li>
+            <li><a href="../research.html#project-structure" class="block px-4 py-2 hover:bg-blue-100">Project Structure</a></li>
+            <li><a href="../research.html#theme-of-innovation" class="block px-4 py-2 hover:bg-blue-100">Theme of Innovation</a></li>
+            <li><a href="../research.html#technology-used" class="block px-4 py-2 hover:bg-blue-100">Technology used</a></li>
+            <li><a href="../research.html#mentorship-evaluation" class="block px-4 py-2 hover:bg-blue-100">Mentorship</a></li>
+            <li><a href="../research.html#our-achievements" class="block px-4 py-2 hover:bg-blue-100">Achievements</a></li>
+          </ul>
+        </li>
+
+        <li class="relative group py-2">
+          <a href="../gallery.html" class="hover:text-blue-600">Gallery</a>
+          <ul class="absolute left-0 hidden mt-2 bg-white shadow-md rounded-md py-2 w-48 group-hover:block z-20">
+            <li><a href="../gallery.html#smart-class" class="block px-4 py-2 hover:bg-blue-100">Our Smart Classes</a></li>
+            <li><a href="../gallery.html#assembly" class="block px-4 py-2 hover:bg-blue-100">Assembly Photo</a></li>
+            <li><a href="../gallery.html#science-fair" class="block px-4 py-2 hover:bg-blue-100">Science Fair</a></li>
+            <li><a href="../gallery.html#sports-day" class="block px-4 py-2 hover:bg-blue-100">Sports Day</a></li>
+            <li><a href="../gallery.html#coding-robotics" class="block px-4 py-2 hover:bg-blue-100">Coding and Robotics</a></li>
+            <li><a href="../gallery.html#library" class="block px-4 py-2 hover:bg-blue-100">Library Photo</a></li>
+          </ul>
+        </li>
+
+        <li class="relative group py-2">
+          <a href="../contact.html" class="hover:text-blue-600">Contact Us</a>
+          <ul class="absolute left-0 hidden mt-2 bg-white shadow-md rounded-md py-2 w-48 group-hover:block z-20">
+            <li><a href="../contact.html#school-contact-info" class="block px-4 py-2 hover:bg-blue-100">Contact Info</a></li>
+            <li><a href="../contact.html#opening-hours" class="block px-4 py-2 hover:bg-blue-100">Opening Hours</a></li>
+            <li><a href="../contact.html#connect-with-us" class="block px-4 py-2 hover:bg-blue-100">Connect With Us</a></li>
+            <li><a href="../contact.html#find-us" class="block px-4 py-2 hover:bg-blue-100">Find on Map</a></li>
+            <li><a href="../contact.html#send-message" class="block px-4 py-2 hover:bg-blue-100">Ask Your Query</a></li>
+            <li><a href="../contact.html#faq" class="block px-4 py-2 hover:bg-blue-100">FAQs</a></li>
+          </ul>
+        </li>
+
+        <li class="py-3"> <a href="../index.html#fee-support" class="bg-green-600 text-white px-2 py-2 rounded hover:bg-green-700 transition">
+          Support Us
+        </a></li>
+      </ul>
+    </div>
+
+    <!-- Right Sidebar (mobile menu) -->
+<div id="mobile-menu"
+     class="fixed rounded top-0 right-[0] top-12 w-50 max-w-[35vw] bg-white shadow-lg z-50 transform translate-x-full transition-transform duration-300 md:hidden">
+  <ul class="flex flex-col pl-4 pr-0 mt-0 mb-0">
+    <li class="relative group py-0.5"><a href="../index.html" class="hover:text-blue-600">Home</a></li>      
+    <li class="relative group py-0.5"><a href="../academics.html" class="hover:text-blue-600">Academics</a></li>
+    <li class="relative group py-0.5"><a href="../admission.html" class="hover:text-blue-600">Admission</a></li>
+    <li class="relative group py-0.5"><a href="../faculty.html" class="hover:text-blue-600">Faculty</a></li>
+    <li class="relative group py-0.5"><a href="../research.html" class="hover:text-blue-600">Research</a></li>
+    <li class="relative group py-0.5"><a href="../gallery.html" class="hover:text-blue-600">Gallery</a></li>
+    <li class="relative group py-0.5"><a href="../contact.html" class="hover:text-blue-600">Contact Us</a></li>
+    <li class="py-3"> <a href="../index.html#fee-support" class="bg-green-600 text-white px-2 py-2 rounded hover:bg-green-700 transition">Support Us</a></li>
+  </ul>
+</div>
+<!-- Add an overlay for dimming background, optional -->
+<div id="sidebar-overlay" class="fixed inset-0 bg-black bg-opacity-40 z-40 hidden md:hidden"></div>
+
+  </nav>
+
+<section id="equipment-policy" class="p-6 bg-gradient-to-br from-blue-50 to-green-50 rounded-xl shadow-lg mx-auto my-8">
+
+  <!-- Header -->
+  <div class="mb-8 text-center">
+    <h2 class="text-2xl md:text-3xl font-extrabold mb-2 text-blue-800 flex items-center justify-center gap-2">
+      <span>🔬</span> Project Access Program (PAP)🔬 
+    </h2>
+    <p class="mb-1 text-base md:text-lg text-gray-700 italic">Developing <span class="font-semibold">rational, ethical, and scientifically-minded students</span></p>
+    <p class="text-sm text-gray-500">Rising Nalanda encourages exploration while ensuring safety and responsibility.</p>
+  </div>
+
+  <!-- Objective -->
+  <div class="mb-6 bg-white border-l-4 border-blue-300 p-4 rounded shadow-sm">
+    <h3 class="text-xl font-semibold text-blue-700 mb-2 flex items-center gap-2"><span>🎯</span> 1. Objective</h3>
+    <ul class="list-disc ml-6 text-gray-700 space-y-1">
+      <li>Nurture <span class="font-semibold text-green-700">scientific curiosity</span> and <span class="font-semibold text-green-700">responsible innovation</span>.</li>
+      <li>Provide safe, regulated access to batteries, soldering kits, sensors, motors.</li>
+      <li>Ensure all students pass safety standards before use.</li>
+      <li>Involve parents as responsible partners.</li>
+    </ul>
+  </div>
+
+  <!-- Policy Overview -->
+  <div class="mb-6 bg-blue-50 p-4 rounded shadow-sm border-b border-blue-100">
+    <h3 class="text-xl font-semibold text-blue-700 mb-2 flex items-center gap-2"><span>📋</span> 2. Policy Overview</h3>
+    <p class="mb-2 text-gray-700">Equipment is allotted <span class="text-green-700 font-semibold">only after safety training and a short test</span>. All usage is logged and supervised to prevent accidents or misuse.</p>
+    <h4 class="text-md font-semibold mt-2 text-blue-600">Scope:</h4>
+    <ul class="list-disc ml-6 text-gray-700">
+      <li>For all classes in Electronics, Robotics, and Applied Science Labs.</li>
+      <li>Includes school- and home-use; home use only with parent consent.</li>
+    </ul>
+  </div>
+
+  <!-- Pre-Use Training & Safety Test -->
+  <div class="mb-6 p-4 bg-white border-l-4 border-yellow-300 rounded shadow-sm">
+    <h3 class="text-xl font-semibold text-blue-700 mb-2 flex items-center gap-2"><span>🦺</span> 3. Pre-Use Training & Safety Test</h3>
+    <ul class="list-decimal ml-6 text-gray-700 space-y-1">
+      <li>Orientation on operation, hazards, safety measures.</li>
+      <li>Pass a short written/oral safety test.</li>
+      <li>Test includes voltage/current, batteries, shorts, heat tools, etc.</li>
+      <li>Only qualifiers are eligible for equipment.</li>
+    </ul>
+  </div>
+
+  <!-- Student Undertaking -->
+  <div class="mb-6 p-4 bg-green-50 border border-green-300 rounded shadow-lg">
+    <h3 class="text-xl font-semibold text-green-700 mb-1 flex items-center gap-2"><span>✍️</span> 4. Student Undertaking</h3>
+    <p class="mb-2">I, ________________________, student of Class ________, agree to:</p>
+    <ul class="list-disc ml-6 text-gray-700 mb-2">
+      <li>Use equipment only for school projects and under guidance.</li>
+      <li>Handle all devices carefully and responsibly.</li>
+      <li>No sharing, misuse, or alterations without permission.</li>
+      <li>Report any faults immediately to the teacher.</li>
+      <li>Return devices in good condition on time.</li>
+      <li>Accept responsibility for misuse/damage as per school policy.</li>
+    </ul>
+    <div class="text-right text-sm text-gray-600">Signature: ____________ Date: ____________</div>
+  </div>
+
+  <!-- Parent Consent -->
+  <div class="mb-6 p-4 bg-blue-50 border border-blue-200 rounded shadow-lg">
+    <h3 class="text-xl font-semibold text-blue-700 mb-1 flex items-center gap-2"><span>👨‍👧‍👦</span> 5. Parent/Guardian Consent</h3>
+    <p class="mb-2">I, __________________________, parent/guardian of the above student, agree that:</p>
+    <ul class="list-disc ml-6 text-gray-700 mb-2">
+      <li>School promotes <span class="font-semibold">scientific thinking and rational education</span>.</li>
+      <li>My child will learn about rational, ethical, and religious diversity objectively.</li>
+      <li>I allow supervised use of all devices/tools at school.</li>
+      <li>I acknowledge all safety efforts, but minor risks may remain.</li>
+      <li>I will supervise if device is brought home (Home Use Program).</li>
+      <li>I’ll inform school immediately if I see unsafe use at home.</li>
+    </ul>
+    <div class="text-right text-sm text-gray-600">Signature: __________ Date: __________</div>
+  </div>
+
+  <!-- Equipment Allotment Form -->
+  <div class="mb-6 p-4 bg-white border border-gray-300 rounded shadow-sm">
+    <h3 class="text-xl font-semibold text-blue-700 mb-2 flex items-center gap-2"><span>📑</span> 6. Equipment Allotment Form</h3>
+    <p class="font-semibold">Equipment Issue Record</p>
+    <table class="w-full border-collapse border border-gray-300 text-sm mt-2">
+      <thead class="bg-gray-100">
+        <tr>
+          <th class="border p-2">Date</th>
+          <th class="border p-2">Device/Tool Name</th>
+          <th class="border p-2">Quantity</th>
+          <th class="border p-2">Issued To (Student Name)</th>
+          <th class="border p-2">Purpose/Project</th>
+          <th class="border p-2">Teacher In-Charge</th>
+          <th class="border p-2">Return Date</th>
+          <th class="border p-2">Condition on Return</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="border p-2">________</td>
+          <td class="border p-2">________</td>
+          <td class="border p-2">________</td>
+          <td class="border p-2">________</td>
+          <td class="border p-2">________</td>
+          <td class="border p-2">________</td>
+          <td class="border p-2">________</td>
+          <td class="border p-2">________</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Faulty Device Report -->
+  <div class="mb-6 p-4 bg-yellow-50 border border-yellow-300 rounded shadow-sm">
+    <h3 class="text-xl font-semibold text-yellow-700 mb-2 flex items-center gap-2"><span>⚠️</span> 7. Faulty Device Report & Procedure</h3>
+    <ol class="list-decimal ml-6 text-gray-700 space-y-1">
+      <li>Stop using and report faults to the teacher immediately.</li>
+      <li>Teacher inspects and records in <span class="font-semibold">Device Incident Log</span>.</li>
+      <li>Wear-and-tear repaired/replaced by school; negligence leads to retraining/restriction.</li>
+      <li>Repeated negligence reviewed by the <span class="font-semibold">Science & Safety Committee</span>.</li>
+    </ol>
+  </div>
+
+  <!-- Record Keeping -->
+  <div class="mb-6 bg-white border-l-4 border-green-300 p-4 rounded">
+    <h3 class="text-xl font-semibold text-green-700 mb-2 flex items-center gap-2"><span>🗂️</span> 8. Record Keeping</h3>
+    <ul class="list-disc ml-6 text-gray-700">
+      <li>All devices tracked physically and digitally.</li>
+      <li>Safety tests and consent forms archived for 1 year.</li>
+      <li>Monthly review of incidents for safety improvement.</li>
+    </ul>
+  </div>
+
+  <!-- Review and Improvement -->
+  <div class="p-4 bg-blue-50 border-t-4 border-blue-300 rounded">
+    <h3 class="text-xl font-semibold text-blue-700 mb-2 flex items-center gap-2"><span>🔄</span> 9. Review & Improvement</h3>
+    <p class="text-gray-700">
+      This policy is periodically reviewed by the <span class="font-semibold">Rising Nalanda Science & Safety Committee</span> to ensure a safe and ethical hands-on learning environment.
+    </p>
+  </div>
+
+</section>
+
+<section id="reasoning" class="bg-white rounded-lg shadow-md p-6 mx-auto my-8">
+  <h2 class="text-2xl font-bold text-blue-800 mb-3">Reasoning (तर्कशक्ति)</h2>
+  <p class="text-gray-700 mb-4">
+    Reasoning builds a student's ability to think clearly, solve problems and make evidence-based decisions.
+    Below are the main types, sample topics for each type, and a quick class-wise suggestion so you can drop this
+    straight into your syllabus page.
+  </p>
+
+  <!-- Deductive -->
+  <div class="mb-4">
+    <h3 class="text-lg font-semibold text-blue-700">1. Deductive Reasoning (निगमनात्मक तर्क)</h3>
+    <p class="text-gray-700 mb-2">Move from general rules to specific conclusions — conclusions are certain if premises are true.</p>
+    <ul class="list-disc ml-6 text-gray-700">
+      <li>Syllogisms (statements → conclusions)</li>
+      <li>Logical deductions & implications</li>
+      <li>Statements & assumptions / Arguments</li>
+    </ul>
+  </div>
+
+  <!-- Inductive -->
+  <div class="mb-4">
+    <h3 class="text-lg font-semibold text-blue-700">2. Inductive Reasoning (आगमनात्मक तर्क)</h3>
+    <p class="text-gray-700 mb-2">Observe specific examples and infer general rules — useful for spotting patterns and hypotheses.</p>
+    <ul class="list-disc ml-6 text-gray-700">
+      <li>Number & letter series</li>
+      <li>Pattern recognition & analogies</li>
+      <li>Classification, coding–decoding, simple probability ideas</li>
+    </ul>
+  </div>
+
+  <!-- Analytical -->
+  <div class="mb-4">
+    <h3 class="text-lg font-semibold text-blue-700">3. Analytical Reasoning (विश्लेषणात्मक / पज़ल तर्क)</h3>
+    <p class="text-gray-700 mb-2">Complex problem solving using given constraints; trains logical arrangement & planning.</p>
+    <ul class="list-disc ml-6 text-gray-700">
+      <li>Seating arrangements (linear/circular)</li>
+      <li>Scheduling & matching puzzles</li>
+      <li>Data-sufficiency style questions</li>
+    </ul>
+  </div>
+
+  <!-- Verbal / Non-Verbal -->
+  <div class="mb-4">
+    <h3 class="text-lg font-semibold text-blue-700">4. Verbal & Non-Verbal Reasoning</h3>
+    <p class="text-gray-700 mb-2">Verbal focuses on words/sentences; non-verbal uses shapes, figures and spatial patterns.</p>
+    <ul class="list-disc ml-6 text-gray-700">
+      <li>Verbal: syllogism, blood relations, directions, analogies</li>
+      <li>Non-verbal: figure series, mirror/water images, paper folding, embedded figures</li>
+    </ul>
+  </div>
+
+  <!-- Critical -->
+  <div class="mb-4">
+    <h3 class="text-lg font-semibold text-blue-700">5. Critical Reasoning (आलोचनात्मक तर्क)</h3>
+    <p class="text-gray-700 mb-2">Evaluate arguments, identify assumptions, weigh cause & effect — valuable for higher classes.</p>
+    <ul class="list-disc ml-6 text-gray-700">
+      <li>Cause & effect, inference, strengthen/ weaken an argument</li>
+      <li>Course of action & logical consistency</li>
+    </ul>
+  </div>
+
+  <!-- Class-wise suggestion -->
+  <div class="mb-4">
+    <h3 class="text-lg font-semibold text-blue-700">Class-wise Suggestion (Where to Start)</h3>
+    <ul class="list-decimal ml-6 text-gray-700">
+      <li><strong>Class 3–4:</strong> Basic patterns, simple analogies, picture series, group games that teach reasoning.</li>
+      <li><strong>Class 5–6:</strong> Number/letter series, basic syllogism ideas, simple puzzles, directional & relational problems.</li>
+      <li><strong>Class 7–8:</strong> Syllogisms, blood relations, seating puzzles, classification, introductory data reasoning.</li>
+      <li><strong>Class 9–10:</strong> Advanced analytical puzzles, critical reasoning, multi-step deductions, timed practice.</li>
+      <li><strong>Class 11–12:</strong> Higher-order critical reasoning, data-sufficiency, olympiad/competitive level problems.</li>
+    </ul>
+  </div>
+
+  <!-- Assessment & Activities -->
+  <div class="mb-4">
+    <h3 class="text-lg font-semibold text-blue-700">Assessment & Classroom Activities</h3>
+    <ul class="list-disc ml-6 text-gray-700">
+      <li>Daily 10-minute reasoning warm-up (mix of verbal & visual).</li>
+      <li>Weekly puzzle challenge — rotate team leaders and publish winners.</li>
+      <li>Project: design a reasoning game (paper/digital) and present rules & strategy.</li>
+      <li>Assessments: short timed quizzes + one open puzzle per term for creativity scoring.</li>
+    </ul>
+  </div>
+
+  <!-- Benefits -->
+  <div>
+    <h3 class="text-lg font-semibold text-blue-700">Why Include Reasoning?</h3>
+    <p class="text-gray-700">
+      It improves problem-solving, exam performance (competitive exams), computational thinking and helps students
+      form evidence-driven opinions — all core to Rising Nalanda's vision of scientific thinking.
+    </p>
+  </div>
+</section>
+
+
+
+
+
+
+
+<div class="text-center my-6">
+  <a href="#top" class="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
+    ↑ Go to Top
+  </a>
+</div>
+
+
+
+ <!-- Footer -->
+  <!-- Tailwind CSS Footer with Social Media Icons -->
+ <footer class="bg-gray-800 text-white py-8">
+  <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-1 px-8">
+
+    <div>
+      <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+      <ul class="space-y-2">
+        <li><a href="../pdf/The_Rising_Nalanda_Policies.pdf" target="_blank" class="hover:text-blue-400">Privacy Policy</a></li>
+        <li><a href="../pdf/The_Rising_Nalanda_Policies.pdf" target="_blank" class="hover:text-blue-400">Terms of Service</a></li>
+        <li><a href="../pdf/The_Rising_Nalanda_Policies.pdf" target="_blank" class="hover:text-blue-400">Careers</a></li>
+      </ul>
+    </div>
+    
+    <!-- Contact -->
+    <div>
+      <h4 class="text-lg font-semibold mb-4">Contact</h4>
+      <p class="mb-2"><i class="fas fa-map-marker-alt mr-2"></i> Greater Noida, Uttar Pradesh</p>
+      <p class="mb-2"><i class="fas fa-phone mr-2"></i> +91 962744XXXX</p>
+      <p class="mb-2"><i class="fas fa-envelope mr-2"></i> risingnalanda.org@gmail.com</p>
+      <div class="mt-4">
+        <h5 class="font-semibold text-base mb-1">Opening Hours</h5>
+        <ul class="text-xs text-gray-400">
+          <li>Mon-Fri: 8:00 AM – 3:00 PM</li>
+          <li>Sat: 8:00 AM – 3:30 PM</li>
+          <li>Sun: Closed</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Social -->
+    <div>
+      <h4 class="text-lg font-semibold mb-4">Follow Us</h4>
+      <div class="flex gap-4 mb-3">
+        <a href="https://www.facebook.com/rohitgautam.gautam.568" target="_blank" class="text-2xl hover:text-blue-400"><i class="fab fa-facebook"></i></a>
+        <a href="https://x.com/Rational_Idea" target="_blank" class="text-2xl hover:text-blue-400"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/rohit_gautam_gi/" target="_blank" class="text-2xl hover:text-blue-400"><i class="fab fa-instagram"></i></a>
+      </div>
+      <form class="flex flex-col gap-2">
+        <label for="newsletter" class="text-xs text-gray-300">Newsletter Signup</label>
+        <div class="flex">
+          <input id="newsletter" type="email" placeholder="Your email" class="p-1 rounded-l bg-gray-700 text-white border-0 text-xs focus:outline-none" />
+          <button class="bg-blue-600 px-3 rounded-r text-xs hover:bg-blue-700">Subscribe</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Extra Info -->
+    <div>
+      <h4 class="text-lg font-semibold mb-4">Info</h4>
+      <ul class="text-xs text-gray-400 space-y-1">
+        <li>Site Map</li>
+        <li>Accessibility</li>
+        <li>Developed by the founder</li>
+        <li id="last-updated">Last updated: Loading...</li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="text-center mt-8 pt-4 border-t border-gray-700 text-xs text-gray-400">
+    &copy; <span id="current-year">2025</span> Rising Nalanda. All rights reserved.
+  </div>
+</footer>
+  <div id="popupModal" class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center z-50">
+  <div class="bg-white p-6 rounded shadow-xl max-w-sm w-full text-center">
+    <h2 class="text-lg font-semibold mb-2 text-red-600">Unable to Send</h2>
+    <p class="text-sm mb-4">Please send a mail at <a href="mailto:risingnalanda.org@gmail.com" class="text-blue-600 underline">risingnalanda.org@gmail.com</a></p>
+    <button id="closeModal" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-800">Close</button>
+  </div>
+</div>
+
+<!-- common js -->
+<script src="../js/common.js"></script>
+<!-- contact js-->
+<script src="../js/contact.js"></script>
+
+</body>
+</html>

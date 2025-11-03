@@ -332,7 +332,8 @@ Object.assign(window.curriculumData, {
       "Chapter 5(Exam and Platform Awareness) : Intro to Olympiad, NTSE, Spell Bee, and platforms like Khan Academy, Duolingo, Scratch.",
       "Chapter 6(Global Technology and Youth Rights) : Major technologies, innovation in India, basics of rights under UN, UNICEF.",
       "Chapter 7(Inspirational Achievers) : Technology innovators—Brittany Wenger, Krtin Nithiyanandam, Shubham Banerjee, Advait Thakur, Thomas Suarez; Gaming & eSports—TenZ, Ewok, ScoutOP, Clix, Ruri; Social activists—Kehkashan Basu, Mari Copeny, Gaurav Gaikwad, Ridhima Pandey, Jazz Jennings.",
-      "Chapter 8(Personal Learning Path) : Inspiration, challenges, habit building, comparing journeys, making your own action plan for social or tech impact."
+      "Chapter 8(Personal Learning Path) : Inspiration, challenges, habit building, comparing journeys, making your own action plan for social or tech impact.",
+      "Chapter 9(General Documents for forms) : Photo, signature, ID proof, address proof, income proof, birth certificate, educational certificates, caste certificate, disability certificate, domicile certificate."
     ],
 
     "🏃‍♂️ Games and P.E.": [

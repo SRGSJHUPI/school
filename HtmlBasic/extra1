@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project Access Program (PAP)</title>
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+   <!-- Tailwind CSS (compiled) -->
+<link rel="stylesheet" href="../css/output.css">
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- custom common CSS -->
+  <link rel="stylesheet" href="../css/common.css">
+  <!-- google analytics -->
+   <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S7DJMG3QRE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-S7DJMG3QRE');
+</script>
+<!-- logo at top in browser tab -->
+<link rel="icon" type="image/x-icon" href="../favicon.ico">
+<link rel="icon" type="image/png" href="../favicon.png">
+
+  </head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+  <a id="top"></a>
+
+
+  <!-- Navbar -->
+     <nav class="bg-white shadow-md px-4 py-1 sticky top-0 z-10">
+    <div class="container mx-auto flex justify-between items-center">
+      <a href="../index.html">
+      <div class="flex items-center space-x-3">
+        <!-- Logo with fallback using <picture> -->
+        <picture>
+          <source srcset="../images/school_logo_webp.webp" type="image/webp">
+          <img src="../images/school_logo.png" alt="Rising Nalanda Logo" class="h-10 w-10 scale-150 transform rounded-full ">
+        </picture>
+        <h1 class="text-2xl font-bold text-blue-700">Rising Nalanda</h1>
+      </div></a>
+
+      <!-- Hamburger Button (mobile only) -->
+    <button id="menu-toggle"
+      class="block md:hidden text-3xl px-2 py-1 rounded focus:outline-none"
+      aria-label="Open menu">
+      <i class="fas fa-bars"></i>
+    </button>
+
+      <ul id="navbar-menu" class="hidden md:flex gap-6 text-sm font-medium">
+
+       <li class="relative group py-2">
+          <a href="../index.html" class="hover:text-blue-600">Home</a>
+          <ul class="absolute left-0 hidden mt-2 bg-white shadow-md rounded-md py-2 w-48 group-hover:block z-20">
+            <li><a href="../index.html#vision_and_mission" class="block px-4 py-2 hover:bg-blue-100">Vision and Mission</a></li>
+            <li><a href="../index.html#difference" class="block px-4 py-2 hover:bg-blue-100">How we are different</a></li>
+            <li><a href="../index.html#special_quality" class="block px-4 py-2 hover:bg-blue-100">special qualities</a></li>           
+            <li><a href="../index.html#unique_features" class="block px-4 py-2 hover:bg-blue-100">Unique features</a></li>
+            <li><a href="../index.html#motivation" class="block px-4 py-2 hover:bg-blue-100">Founder's Motivation</a></li>
+          </ul>
+        </li>
+      
+        <li class="relative group py-2">
+          <a href="../academics.html" class="hover:text-blue-600">Academics</a>
+          <ul class="absolute left-0 hidden mt-2 bg-white shadow-md rounded-md py-2 w-48 group-hover:block z-20">
+            <li><a href="../academics.html#core-philosophy" class="block px-4 py-2 hover:bg-blue-100">Core Philosophy</a></li>
+            <li><a href="../academics.html#courses" class="block px-4 py-2 hover:bg-blue-100">Courses</a></li>
+            <li><a href="../academics.html#class-wise" class="block px-4 py-2 hover:bg-blue-100">Class-Wise Structure</a></li>
+            <li><a href="../academics.html#strategies" class="block px-4 py-2 hover:bg-blue-100">Exam Strategies</a></li>
+            <li><a href="../academics.html#ncyc" class="block px-4 py-2 hover:bg-blue-100">NCYC(Competition)</a></li>
+            <li><a href="../academics.html#timetable" class="block px-4 py-2 hover:bg-blue-100">Timetable</a></li>
+            <li><a href="../academic_content_js_way.html" class="block px-4 py-2 hover:bg-blue-100">Syllabus</a></li>
+            <li><a href="../academics.html#faculty-expertise" class="block px-4 py-2 hover:bg-blue-100">Faculty Expertise</a></li>
+            <li><a href="../students_groups.html" class="block px-4 py-2 hover:bg-blue-100">Student Groups</a></li>
+          </ul>
+        </li>
+
+
+        <li class="relative group py-2">
+          <a href="../admission.html" class="hover:text-blue-600">Admission</a>
+          <ul class="absolute left-0 hidden mt-2 bg-white shadow-md rounded-md py-2 w-48 group-hover:block z-20">
+            <li><a href="../admission.html#admission-structure" class="block px-4 py-2 hover:bg-blue-100">Admission Structure</a></li>
+            <li><a href="../admission.html#fee-and-scholarships" class="block px-4 py-2 hover:bg-blue-100">Fee and Scholarships</a></li>
+            <li><a href="../admission.html#parental-role" class="block px-4 py-2 hover:bg-blue-100">Parental Role and Guidelines</a></li>
+            <li><a href="../admission.html#complaint-and-review" class="block px-4 py-2 hover:bg-blue-100">Complaint & Review System</a></li>
+            <li><a href="../admission.html#apply-for-admission" class="block px-4 py-2 hover:bg-blue-100">Apply for Admission</a></li>
+          </ul>
+        </li>
+
+
+         <li class="relative group py-2">
+          <a href="../faculty.html" class="hover:text-blue-600">Faculty</a>
+          <ul class="absolute left-0 hidden mt-2 bg-white shadow-md rounded-md py-2 w-48 group-hover:block z-20">
+            <li><a href="../faculty.html#faculty-unique" class="block px-4 py-2 hover:bg-blue-100">Why Our Faculty is Unique</a></li>
+            <li><a href="../faculty.html#student-testimonials" class="block px-4 py-2 hover:bg-blue-100">Student Testimonials</a></li>
+            <li><a href="../faculty.html#join-faculty" class="block px-4 py-2 hover:bg-blue-100">Join Our Faculty</a></li>
+            <li><a href="../faculty.html#clubs-and-mentors" class="block px-4 py-2 hover:bg-blue-100">Our Clubs and Their mentors</a></li>
+          </ul>
+        </li>
+
+
+         <li class="relative group py-2">
+          <a href="../research.html" class="hover:text-blue-600">Research</a>
+          <ul class="absolute left-0 hidden mt-2 bg-white shadow-md rounded-md py-2 w-48 group-hover:block z-20">
+            <li><a href="../research.html#what-research-project" class="block px-4 py-2 hover:bg-blue-100">What is research project</a></li>
+            <li><a href="../research.html#why-research-project" class="block px-4 py-2 hover:bg-blue-100">Why research project</a></li>
+            <li><a href="../research.html#project-structure" class="block px-4 py-2 hover:bg-blue-100">Project Structure</a></li>
+            <li><a href="../research.html#theme-of-innovation" class="block px-4 py-2 hover:bg-blue-100">Theme of Innovation</a></li>
+            <li><a href="../research.html#technology-used" class="block px-4 py-2 hover:bg-blue-100">Technology used</a></li>
+            <li><a href="../research.html#mentorship-evaluation" class="block px-4 py-2 hover:bg-blue-100">Mentorship</a></li>
+            <li><a href="../research.html#our-achievements" class="block px-4 py-2 hover:bg-blue-100">Achievements</a></li>
+          </ul>
+        </li>
+
+        <li class="relative group py-2">
+          <a href="../gallery.html" class="hover:text-blue-600">Gallery</a>
+          <ul class="absolute left-0 hidden mt-2 bg-white shadow-md rounded-md py-2 w-48 group-hover:block z-20">
+            <li><a href="../gallery.html#smart-class" class="block px-4 py-2 hover:bg-blue-100">Our Smart Classes</a></li>
+            <li><a href="../gallery.html#assembly" class="block px-4 py-2 hover:bg-blue-100">Assembly Photo</a></li>
+            <li><a href="../gallery.html#science-fair" class="block px-4 py-2 hover:bg-blue-100">Science Fair</a></li>
+            <li><a href="../gallery.html#sports-day" class="block px-4 py-2 hover:bg-blue-100">Sports Day</a></li>
+            <li><a href="../gallery.html#coding-robotics" class="block px-4 py-2 hover:bg-blue-100">Coding and Robotics</a></li>
+            <li><a href="../gallery.html#library" class="block px-4 py-2 hover:bg-blue-100">Library Photo</a></li>
+          </ul>
+        </li>
+
+        <li class="relative group py-2">
+          <a href="../contact.html" class="text-blue-600 font-semibold text-lg">Contact Us</a>
+          <ul class="absolute left-0 hidden mt-2 bg-white shadow-md rounded-md py-2 w-48 group-hover:block z-20">
+            <li><a href="../contact.html#school-contact-info" class="block px-4 py-2 hover:bg-blue-100">Contact Info</a></li>
+            <li><a href="../contact.html#opening-hours" class="block px-4 py-2 hover:bg-blue-100">Opening Hours</a></li>
+            <li><a href="../contact.html#connect-with-us" class="block px-4 py-2 hover:bg-blue-100">Connect With Us</a></li>
+            <li><a href="../contact.html#find-us" class="block px-4 py-2 hover:bg-blue-100">Find on Map</a></li>
+            <li><a href="../contact.html#send-message" class="block px-4 py-2 hover:bg-blue-100">Ask Your Query</a></li>
+            <li><a href="../contact.html#faq" class="block px-4 py-2 hover:bg-blue-100">FAQs</a></li>
+          </ul>
+        </li>
+
+        <li class="py-3"> <a href="../index.html#fee-support" class="bg-green-600 text-white px-2 py-2 rounded hover:bg-green-700 transition">
+          Support Us
+        </a></li>
+      </ul>
+    </div>
+
+    <!-- Right Sidebar (mobile menu) -->
+<div id="mobile-menu"
+     class="fixed rounded top-0 right-[0] top-12 w-50 max-w-[35vw] bg-white shadow-lg z-50 transform translate-x-full transition-transform duration-300 md:hidden">
+  <ul class="flex flex-col pl-4 pr-0 mt-0 mb-0">
+    <li class="relative group py-0.5"><a href="../index.html" class="hover:text-blue-600">Home</a></li>      
+    <li class="relative group py-0.5"><a href="../academics.html" class="hover:text-blue-600">Academics</a></li>
+    <li class="relative group py-0.5"><a href="../admission.html" class="hover:text-blue-600">Admission</a></li>
+    <li class="relative group py-0.5"><a href="../faculty.html" class="hover:text-blue-600">Faculty</a></li>
+    <li class="relative group py-0.5"><a href="../research.html" class="hover:text-blue-600">Research</a></li>
+    <li class="relative group py-0.5"><a href="../gallery.html" class="hover:text-blue-600">Gallery</a></li>
+    <li class="relative group py-0.5"><a href="../contact.html" class="hover:text-blue-600">Contact Us</a></li>
+    <li class="py-3"> <a href="../index.html#fee-support" class="bg-green-600 text-white px-2 py-2 rounded hover:bg-green-700 transition">Support Us</a></li>
+  </ul>
+</div>
+<!-- Add an overlay for dimming background, optional -->
+<div id="sidebar-overlay" class="fixed inset-0 bg-black bg-opacity-40 z-40 hidden md:hidden"></div>
+
+  </nav>
+
+
+
+
+
+<div class="text-center my-6">
+  <a href="#top" class="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
+    ↑ Go to Top
+  </a>
+</div>
+
+
+
+ <!-- Footer -->
+  <!-- Tailwind CSS Footer with Social Media Icons -->
+ <footer class="bg-gray-800 text-white py-8">
+  <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-1 px-8">
+
+    <div>
+      <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+      <ul class="space-y-2">
+        <li><a href="../pdf/The_Rising_Nalanda_Policies.pdf" target="_blank" class="hover:text-blue-400">Privacy Policy</a></li>
+        <li><a href="../pdf/The_Rising_Nalanda_Policies.pdf" target="_blank" class="hover:text-blue-400">Terms of Service</a></li>
+        <li><a href="../pdf/The_Rising_Nalanda_Policies.pdf" target="_blank" class="hover:text-blue-400">Careers</a></li>
+      </ul>
+    </div>
+    
+    <!-- Contact -->
+    <div>
+      <h4 class="text-lg font-semibold mb-4">Contact</h4>
+      <p class="mb-2"><i class="fas fa-map-marker-alt mr-2"></i> Greater Noida, Uttar Pradesh</p>
+      <p class="mb-2"><i class="fas fa-phone mr-2"></i> +91 962744XXXX</p>
+      <p class="mb-2"><i class="fas fa-envelope mr-2"></i> risingnalanda.org@gmail.com</p>
+      <div class="mt-4">
+        <h5 class="font-semibold text-base mb-1">Opening Hours</h5>
+        <ul class="text-xs text-gray-400">
+          <li>Mon-Fri: 8:00 AM – 3:00 PM</li>
+          <li>Sat: 8:00 AM – 3:30 PM</li>
+          <li>Sun: Closed</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Social -->
+    <div>
+      <h4 class="text-lg font-semibold mb-4">Follow Us</h4>
+      <div class="flex gap-4 mb-3">
+        <a href="https://www.facebook.com/rohitgautam.gautam.568" target="_blank" class="text-2xl hover:text-blue-400"><i class="fab fa-facebook"></i></a>
+        <a href="https://x.com/Rational_Idea" target="_blank" class="text-2xl hover:text-blue-400"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/rohit_gautam_gi/" target="_blank" class="text-2xl hover:text-blue-400"><i class="fab fa-instagram"></i></a>
+      </div>
+      <form class="flex flex-col gap-2">
+        <label for="newsletter" class="text-xs text-gray-300">Newsletter Signup</label>
+        <div class="flex">
+          <input id="newsletter" type="email" placeholder="Your email" class="p-1 rounded-l bg-gray-700 text-white border-0 text-xs focus:outline-none" />
+          <button class="bg-blue-600 px-3 rounded-r text-xs hover:bg-blue-700">Subscribe</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Extra Info -->
+    <div>
+      <h4 class="text-lg font-semibold mb-4">Info</h4>
+      <ul class="text-xs text-gray-400 space-y-1">
+        <li>Site Map</li>
+        <li>Accessibility</li>
+        <li>Developed by the founder</li>
+        <li id="last-updated">Last updated: Loading...</li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="text-center mt-8 pt-4 border-t border-gray-700 text-xs text-gray-400">
+    &copy; <span id="current-year">2025</span> Rising Nalanda. All rights reserved.
+  </div>
+</footer>
+  <div id="popupModal" class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center z-50">
+  <div class="bg-white p-6 rounded shadow-xl max-w-sm w-full text-center">
+    <h2 class="text-lg font-semibold mb-2 text-red-600">Unable to Send</h2>
+    <p class="text-sm mb-4">Please send a mail at <a href="mailto:risingnalanda.org@gmail.com" class="text-blue-600 underline">risingnalanda.org@gmail.com</a></p>
+    <button id="closeModal" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-800">Close</button>
+  </div>
+</div>
+
+<!-- common js -->
+<script src="../js/common.js"></script>
+<!-- contact js-->
+<script src="../js/contact.js"></script>
+
+</body>
+</html>
