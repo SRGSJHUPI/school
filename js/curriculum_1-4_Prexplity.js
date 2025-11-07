@@ -54,29 +54,50 @@ Object.assign(window.curriculumData, {
     ],
     
   "Moral Values": [
-    {"Chapter 1 (What is Good Behavior?)": [
-        {"Stories & Discussions": ["Helpfulness", "Sharing", "Speaking politely"]}
-      ]},
-    {"Chapter 2 (Basic Manners)": [
-        {"Essential Manners": ["Saying sorry - sorry to friends, to parents, to siblings","Thank you", "Please"]},
-        {"Respect & Turn-taking": ["Waiting your turn", "Respecting everyone"]}
-      ]},
-    {"Chapter 3 (Clean Hands, Clean Heart)": [
-        {"Activities": ["Hand wash activity", "Keeping self and classroom clean", "Honesty exercises"]}
-      ]},
-    {"Chapter 4 (Ethics Through Storytelling)": [
-        {"Stories": ["Kindness to animals", "Listening to elders", "Helping at home"]}
-      ]},
-    {"Chapter 5 (Truthfulness and Respect)": [
-        {"Reflections & Journals": ["Daily reflection", "‘What makes you happy’ journal"]},
-        {"Respect Activities": ["Respecting everyone"]}
-      ]},
-    {"Chapter 6 (Year-End Review)": [
-        {"Reflection": ["Review what was learned", "Student self-expression"]}
-      ]},
-    {"Chapter 7 (Parade & Safety)": [
-        {"Teaching": ["About police, army—duty and responsibility", "Weekly parade", "Self safety: fire, earthquake, or emergency"]}
-      ]},
+    
+  {"Chapter 1 (What is Good Behavior?)": [
+      {"Stories & Discussions": ["Helpfulness", "Sharing", "Speaking politely", "Caring for friends and elders"]}
+  ]},
+
+  {"Chapter 2 (Basic Manners)": [
+      {"Essential Manners": ["Saying sorry - sorry to friends, parents, and siblings", "Thank you", "Please", "Apologizing gracefully", "Greeting teachers and elders"]},
+      {"Respect & Turn-taking": ["Waiting your turn", "Respecting everyone", "Listening while others speak"]}
+  ]},
+
+  {"Chapter 3 (Clean Hands, Clean Heart)": [
+      {"Activities": ["Hand wash activity", "Keeping self and classroom clean", "Honesty exercises", "Clean surroundings initiative"]}
+  ]},
+
+  {"Chapter 4 (Self Safety & Awareness)": [
+      {"Road Safety": ["Understanding traffic lights", "Crossing the road safely", "Walking on the footpath", "Wearing helmet and seatbelt"]},
+      {"Home Safety": ["Not touching wires or switches with wet hands", "Staying away from gas stove, matchsticks, or sharp tools", "Avoiding slippery floors", "Safe use of electrical and kitchen appliances"]},
+      {"Fire & Electrical Safety": ["What to do if there’s fire (drop, cover, roll)", "Never play with electrical sockets", "Calling emergency numbers (101, 108, 100)", "Staying calm during emergencies"]},
+      {"Playground & Water Safety": ["No running near pools or wells", "Safe playing – no pushing or fighting", "Wearing proper safety gear"]},
+      {"Personal Safety": ["Good touch, bad touch, confusing touch", "Saying NO firmly and informing elders", "Child helpline number (1098)"]},
+      {"Digital Safety": ["Never share passwords or photos online", "Avoid talking to strangers on the internet", "Reporting bullying or unsafe messages", "Respectful online behaviour"]},
+      {"Disaster Safety": ["Earthquake safety: drop, cover, hold", "Fire evacuation", "Flood awareness", "Understanding school safety drills"]},
+      {"Health & Hygiene": ["Washing hands before meals", "Brushing teeth twice a day", "Eating covered food", "Using first aid for minor injuries"]},
+      {"Emotional Safety": ["Expressing feelings freely", "Talking to trusted elders when upset", "Avoiding and reporting bullying", "Helping friends in distress"]},
+      {"Emergency Awareness": ["Knowing police (100), fire (101), ambulance (108)", "Memorizing home address and parent’s contact", "Whom to contact in emergencies"]}
+  ]},
+
+  {"Chapter 5 (Ethics Through Storytelling)": [
+      {"Stories": ["Kindness to animals", "Listening to elders", "Helping at home", "Honesty brings peace"]}
+  ]},
+
+  {"Chapter 6 (Truthfulness and Respect)": [
+      {"Reflections & Journals": ["Daily reflection", "‘What makes you happy’ journal", "Learning from mistakes"]},
+      {"Respect Activities": ["Respecting everyone", "Encouraging teamwork", "Speaking truthfully and kindly"]}
+  ]},
+
+  {"Chapter 7 (Year-End Review)": [
+      {"Reflection": ["Review what was learned", "Student self-expression", "Class presentation: My Growth This Year"]}
+  ]},
+
+  {"Chapter 8 (Parade & Safety)": [
+      {"Teaching": ["About police, army—duty and responsibility", "Weekly parade", "Self safety: fire, earthquake, or emergency", "Discipline through drills"]}
+  ]},
+  
   ],
 
     "🗣️ Languages": [
@@ -330,7 +351,9 @@ Object.assign(window.curriculumData, {
       "Chapter 1(Parts of Speech) : Nouns, pronouns, verbs, adjectives, adverbs, application through activities and worksheets.",
       "Chapter 2(Tenses and Sentence Structure) : Simple present, past, future; constructing all types of sentences.",
       "Chapter 3(Punctuation) : Capitals, full stops, question and exclamation marks, commas.",
-      "Chapter 4(Paragraph and Letter Writing) : Story writing, friendly and formal letter practice."
+      "Chapter 4(Paragraph and Letter Writing) : Story writing, friendly and formal letter practice.",
+      "Chapter 5(Word meaning and Usage) : Idioms, phrases, homophones, context-based vocabulary building.",
+      "Chapter 6(Word Meaning learning) : Learning word meanings through roots, prefixes, suffixes, and usage."
     ],
     "Logic Building": [
       "Chapter 1(Reasoning Puzzles) : Sequencing, classification, coding-decoding, patterns, and logical stories.",

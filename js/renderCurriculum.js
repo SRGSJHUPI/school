@@ -668,8 +668,7 @@ toggleAllBtn.addEventListener("click", () => {
     state.panels.forEach(p => p.classList.remove("hidden"));
     document.querySelectorAll(".section-panel").forEach(sec => sec.classList.remove("hidden"));
     document.querySelectorAll(".section-panel ul").forEach(ul => ul.classList.remove("hidden"));
-    document.querySelectorAll(".section-panel div.hidden").forEach(el => {
-    el.classList.remove("hidden");
+    document.querySelectorAll(".section-panel div.hidden").forEach(el => {el.classList.remove("hidden");
          });
 
 
@@ -763,6 +762,14 @@ toggleSectionsBtn.addEventListener("click", () => {
     state.subjectContainers.forEach(sc => sc.classList.remove("hidden"));
     document.querySelectorAll(".chapter-panel").forEach(p => p.classList.remove("hidden"));
     document.querySelectorAll(".section-panel").forEach(sec => sec.classList.remove("hidden"));
+
+   
+    state.panels.forEach(p => p.classList.remove("hidden"));   
+    // document.querySelectorAll(".section-panel ul").forEach(ul => ul.classList.remove("hidden"));
+
+
+
+
     toggleSectionsBtn.textContent = "Hide Sections";
     // keep other buttons synced
     toggleClassesBtn.textContent = "Hide Courses";

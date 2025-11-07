@@ -1,796 +1,2445 @@
 window.curriculumData = window.curriculumData || {};
 Object.assign(window.curriculumData, {
     "📚 Class 5": {
-      "📖 English 1 – Literature & Comprehension": [
-      "Chapter 1(Importance of Education) : Poems and stories highlighting why education matters; student presentations, teacher and student-created poems, ethics through narrative, focused on classroom speaking and understanding including class discussions, retelling, and original student/teacher poems.",
-      "Chapter 2(Stories of Courage and Role Models) : Folk tales, stories of Dr. Ambedkar, Panchatantra, Akbar-Birbal, and modern heroes featuring debate and storytelling.",
-      "Chapter 3(Reading Comprehension) : Skills in inference, sequencing, skimming, and scanning applied to short passages and literature.",
+  "📖 English 1 – Literature & Comprehension": [
+    {"Chapter 1 (Importance of Education)": [
+      {"Poems and Stories": ["Highlighting why education matters"]},
+      {"Presentations": ["Student presentations", "Teacher and student-created poems"]},
+      {"Ethics & Narrative": ["Ethics through narrative", "Classroom speaking and understanding activities"]},
+      {"Activities": ["Class discussions", "Retelling", "Original poems by students and teachers"]}
+    ]},
+    {"Chapter 2 (Stories of Courage and Role Models)": [
+      {"Folk Tales": ["Panchatantra", "Akbar-Birbal"]},
+      {"Historical Figures": ["Stories of Dr. Ambedkar", "Modern heroes"]},
+      {"Skill Building": ["Debate and storytelling activities"]}
+    ]},
+    {"Chapter 3 (Reading Comprehension)": [
+      {"Skills": ["Inference", "Sequencing", "Skimming", "Scanning"]},
+      {"Application": ["Applied to short passages and literature"]}
+    ]}
+  ],
+  "📖 English 2 – Communication & Listening": [
+    {"Chapter 1 (Speaking Skills)": [
+      {"Daily Practice": ["Role-plays", "Storytelling", "Class news hour", "Personal experiences"]},
+      {"Skill Building": ["Speaking drills", "Vocabulary games", "Logic-based English quizzes"]}
+    ]},
+    {"Chapter 2 (Listening Skills)": [
+      {"Listening Exercises": ["Stories", "Following instructions", "Peer-to-peer exercises", "Recall games"]}
+    ]},
+    {"Chapter 3 (Vocabulary and Word Games)": [
+      {"Word Games": ["Synonyms", "Antonyms", "Analogies"]},
+      {"Logic Puzzles": ["GRE/TOEFL foundations puzzles"]}
+    ]},
+    {"Chapter 4 (Read-Aloud and Practice Tests)": [
+      {"Reading Practice": ["Sample passages", "Comprehension and logical questions"]}
+    ]},
+    {"Chapter 5 (Speaking and Listening Practice)": [
+      {"Speaking Skills": ["Presenting views", "Logical reasoning discussions"]},
+      {"Pronunciation Practice": ["Fluency exercises"]}
+    ]},
+    {"Chapter 6 (Advanced Communication)": [
+      {"Public Speaking": ["Debates", "Group discussions"]},
+      {"Daily Practice": ["Conversations on current events and classroom topics"]}
+    ]}
+  ],
+  "📖 English Grammar": [
+    {"Chapter 1 (Parts of Speech)": [
+      {"Grammar Topics": ["Nouns", "Pronouns", "Verbs", "Adjectives", "Adverbs"]},
+      {"Practice": ["Activities", "Worksheets"]}
+    ]},
+    {"Chapter 2 (Tenses and Sentence Structure)": [
+      {"Tenses": ["Simple present", "Past", "Future"]},
+      {"Sentence Construction": ["All types of sentences"]}
+    ]},
+    {"Chapter 3 (Punctuation)": [
+      {"Marks": ["Capital letters", "Full stops", "Question marks", "Exclamation marks", "Commas"]}
+    ]},
+    {"Chapter 4 (Writing Skills)": [
+      {"Writing Forms": ["Paragraph writing", "Friendly and formal letters"]},
+      {"Grammar & Editing": ["Sentence structure", "Conjunctions", "Subject-verb agreement", "Creative writing", "Editing and peer review"]}
+    ]}
+  ],
+  "💻 Computer Science & Digital Literacy": [
+    {"Chapter 1 (Hardware and Software)": [
+      {"Hardware": ["Computer parts exploration", "Assembly/disassembly demos"]},
+      {"Software": ["Comparison studies"]}
+    ]},
+    {"Chapter 2 (C and C++ Basics)": [
+      {"Introduction": ["Syntax", "Variables", "Input/output"]},
+      {"Practice": ["40 starter questions", "Logic puzzles"]}
+    ]},
+    {"Chapter 3 (Introduction to Arduino)": [
+      {"Overview": ["Microcontrollers", "Sensors", "LEDs", "Buzzers"]},
+      {"Application": ["Connecting coding to real-world projects"]}
+    ]},
+    {"Chapter 4 (CCC Syllabus Fundamentals)": [
+      {"Word Processing": ["MS Word basics"]},
+      {"Spreadsheets": ["MS Excel basics"]},
+      {"Presentations": ["PowerPoint basics"]},
+      {"Internet": ["WWW overview", "E-mail practice"]},
+      {"Digital Tools": ["Financial apps", "E-governance", "Cyber security", "Responsible social networking"]}
+    ]},
+    {"Chapter 5 (HTML and Web Design)": [
+      {"Web Basics": ["Titles", "Headings", "Text", "Images", "Links"]},
+      {"Project": ["Building personal web pages"]}
+    ]},
+    {"Chapter 6 (UI/UX Basics and Version Control)": [
+      {"Wireframing": ["App and website layout basics"]},
+      {"Version Control": ["Git fundamentals"]}
+    ]},
+    {"Chapter 7 (Animation/Creativity – Scratch)": [
+      {"Projects": ["Interactive stories and animations"]},
+      {"Programming Logic": ["Block coding introduction"]}
+    ]},
+    {"Chapter 8 (Internet Safety and Browsers)": [
+      {"Safety": ["Safe browsing habits", "Secure site recognition", "URL understanding"]},
+      {"Browsers": ["Using popular browsers responsibly"]}
+    ]},
+    {"Chapter 9 (Search Engines and Online Research)": [
+      {"Research Skills": ["Finding credible sources", "Basics of internet research"]}
+    ]}
+  ],
+  "➗ Mathematics (5th, 6th, 7th - first half)": [
+    {"Chapter 1 (Decimals and Percentages)": [
+      {"Skills": ["Comparing and ordering", "Word problems", "Everyday relevance"]}
+    ]},
+    {"Chapter 2 (Time, Speed, Distance)": [
+      {"Calculations": ["Time intervals", "Travel problems"]},
+      {"Introduction": ["Speed and conversions"]}
+    ]},
+    {"Chapter 3 (Measurement Units)": [
+      {"Units": ["Metric vs imperial"]},
+      {"Calculations": ["Length", "Mass", "Temperature", "Capacity"]}
+    ]},
+    {"Chapter 4 (Data Analysis)": [
+      {"Statistics": ["Mean", "Median", "Simple averages"]},
+      {"Visuals": ["Charts", "Real-life datasets"]}
+    ]},
+    {"Chapter 5 (Introduction to Integers)": [
+      {"Concepts": ["Positive and negative numbers"]},
+      {"Practice": ["Basic addition, subtraction", "Number line activities"]}
+    ]},
+    {"Chapter 6 (Symmetry and Transformations)": [
+      {"Concepts": ["Reflection", "Rotation", "Translation"]},
+      {"Identification": ["Symmetry in figures"]}
+    ]},
+    {"Chapter 7 (Geometry – Volume and 3D)": [
+      {"Measurement": ["Volume", "Surface area"]},
+      {"Shapes": ["Cubes", "Cuboids"]},
+      {"Drawing": ["Faces", "Edges", "Vertices"]}
+    ]},
+    {"Chapter 8 (Prime Numbers and Patterns)": [
+      {"Identification": ["Prime numbers"]},
+      {"Patterns": ["Number sequences", "Mathematical patterns"]}
+    ]},
+    {"Chapter 9 (Mental Math and Tables)": [
+      {"Skills": ["Tables up to 30"]},
+      {"Practice": ["Logic drills", "Speed practice"]}
+    ]},
+    {"Chapter 10 (Operators and Expressions)": [
+      {"Types": ["Arithmetic", "Relational", "Logical", "Bitwise", "Assignment"]},
+      {"Use": ["Understanding and applications"]}
+    ]}
+  ],
+  "🔬 Physics": [
+    {"Chapter 1 (Forces in Action)": [
+      {"Concepts": ["Push/pull", "Friction", "Gravity"]},
+      {"Experiments": ["Playground", "Home"]}
+    ]},
+    {"Chapter 2 (Simple Machines)": [
+      {"Types": ["Lever", "Pulley", "Wheel and axle"]},
+      {"Analysis": ["Real-life tools"]}
+    ]},
+    {"Chapter 3 (Electromagnetic Spectrum)": [
+      {"Waves": ["Types and uses"]},
+      {"Examples": ["Sound", "Light", "Electromagnetic waves"]}
+    ]},
+    {"Chapter 4 (Electricity and Circuits)": [
+      {"Circuits": ["Simple circuits with batteries, bulbs, switches"]},
+      {"Concepts": ["Conductors and insulators"]}
+    ]},
+    {"Chapter 5 (Magnetism)": [
+      {"Magnet Concepts": ["Magnets", "Poles", "Magnetic fields"]},
+      {"Earth's Magnetism": ["Earth as a magnet"]}
+    ]},
+    {"Chapter 6 (Heat)": [
+      {"Sources and Transfer": ["Sources", "Conduction", "Convection", "Radiation"]},
+      {"Experiments": ["Everyday materials"]}
+    ]},
+    {"Chapter 7 (Light)": [
+      {"Phenomena": ["Reflection", "Refraction", "Shadows", "Colors"]},
+      {"Activities": ["Lenses and prisms"]}
+    ]},
+    {"Chapter 8 (Energy and Its Forms)": [
+      {"Basics": ["Heat", "Light", "Sound"]},
+      {"Examples": ["Daily life"]}
+    ]}
+  ],
+  "⚗️ Chemistry": [
+    {"Chapter 1 (Matter and Its Changes)": [
+      {"States": ["Solid", "Liquid", "Gas"]},
+      {"Changes": ["Reversible and irreversible changes", "Melting", "Boiling", "Mixing"]}
+    ]},
+    {"Chapter 2 (Physical and Chemical Properties)": [
+      {"Experiments": ["Density", "Solubility", "Conductivity"]},
+      {"Concepts": ["Physical change vs chemical change", "Physical change vs reversible change"]}
+    ]},
+    {"Chapter 3 (Common Chemicals in Daily Life)": [
+      {"Types": ["Acids", "Bases", "Salts"]},
+      {"Experiments": ["Hands-on with safe substances"]}
+    ]},
+    {"Chapter 4 (Environmental Chemistry)": [
+      {"Topics": ["Pollution causes", "Prevention", "Recycling"]},
+      {"Impacts": ["Effect of chemicals on environment"]}
+    ]}
+  ],
+  "🧬 Biology": [
+    {"Chapter 1 (Human Anatomy)": [
+      {"Organs": ["Brain", "Heart", "Lungs", "Digestive system (intro diagrams)"]},
+      {"Health": ["Connection to healthy habits"]}
+    ]},
+    {"Chapter 2 (Our Health)": [
+      {"Concepts": ["What is health?", "Why health matters?"]},
+      {"Comparison": ["Indian health vs developed countries"]}
+    ]},
+    {"Chapter 3 (Innovations in Medicine)": [
+      {"Topics": ["Vaccines", "X-rays", "Stethoscopes", "Modern medical innovations"]}
+    ]},
+    {"Chapter 4 (Environmental Science)": [
+      {"Topics": ["Ecological balance", "Pollution", "Sustainability"]},
+      {"Project": ["Simple school gardening project"]}
+    ]}
+  ],
+  "📜 Social Studies": [
+    {"Chapter 1 (Understanding Humanity)": [
+      {"Concept": ["What is humanity?"]},
+      {"Activities": ["Case studies", "Stories on kindness and global perspective"]}
+    ]},
+    {"Chapter 2 (Caste and Fairness – Simple Intro)": [
+      {"Stories and Discussion": ["Understanding untouchability", "Equality"]}
+    ]},
+    {"Chapter 3 (Honoring Labour and Duties)": [
+      {"Topics": ["Importance of all work", "Safai karamchari", "Community helpers"]}
+    ]},
+    {"Chapter 4 (Rules and Sharing)": [
+      {"Concepts": ["Why rules matter", "Fairness in classroom sharing"]}
+    ]},
+    {"Chapter 5 (Kind Words and Actions)": [
+      {"Topics": ["Effect of kindness on the world", "Why privacy is important"]}
+    ]},
+    {"Chapter 6 (Gender Fairness and Respect)": [
+      {"Equality": ["In class", "Playground", "At home"]},
+      {"Topics": ["Addressing stereotypes"]}
+    ]},
+    {"Chapter 7 (Environmental Responsibility)": [
+      {"Role": ["Keeping school and planet clean"]},
+      {"Actions": ["Simple environmental steps"]}
+    ]},
+    {"Chapter 8 (Telling the Truth and Courage)": [
+      {"Truthfulness": ["Speaking honestly in tough times"]},
+      {"Activities": ["Drama", "Reflection"]}
+    ]},
+    {"Chapter 9 (Citizenship and Listening)": [
+      {"Skills": ["Listening to others", "Sharing responsibly", "Social duties"]}
+    ]},
+    {"Chapter 10 (Projects & Drama)": [
+      {"Projects": ["Poster project ‘What I Believe In’", "Poem/story about education"]},
+      {"Activities": ["Role-plays", "Teacher-led discussions", "Year-end assembly presentation"]}
+    ]}
+  ],
+  "📝 Hindi": [
+    {"Chapter 1 ([translate:शिक्षा का महत्व])": [
+      {"Poetry and Stories": ["कविता", "कहानी", "प्रस्तुति – शिक्षा विषय पर"]},
+      {"Creations": ["बच्चों द्वारा और शिक्षकों द्वारा बनाई गई रचनाएँ"]}
+    ]},
+    {"Chapter 2 ([translate:व्याकरण])": [
+      {"Grammar": ["वचन", "काल", "विशेषण", "संज्ञा व क्रिया का अभ्यास"]},
+      {"Practice": ["वाक्य निर्माण"]}
+    ]},
+    {"Chapter 3 ([translate:रचनात्मक लेखन])": [
+      {"Writing": ["अनौपचारिक/औपचारिक पत्र", "अनुच्छेद", "संवाद", "चित्र वर्णन"]}
+    ]},
+    {"Chapter 4 ([translate:नैतिक और लोककथाएँ])": [
+      {"Stories": ["पंचतंत्र", "अकबर-बीरबल", "नीति कथाएँ"]},
+      {"Activities": ["श्रवण एवं अभिनय"]}
+    ]},
+    {"Chapter 5 ([translate:सामाजिक मुद्दे])": [
+      {"Topics": ["बाल श्रम", "महिला अधिकार", "पर्यावरण संरक्षण"]},
+      {"Community Service": ["सामुदायिक सेवा"]}
+    ]},
+    {"Chapter 6 ([translate:पुस्तकें])": [
+      {"Reading": ["Mother India (Hindi) by Katherine Mayo"]}
+    ]},
+    {"Chapter 7 ([translate:सामाजिक परिवर्तन])": [
+      {"Topics": ["सामुदायिक सेवा", "बाल अधिकार", "महिला सशक्तिकरण", "पर्यावरण संरक्षण"]}
+    ]}
+  ],
+  "🌱 Moral Values": [
+    {"Chapter 1 (What is Humanity?)": [
+      {"Exploration": ["Meaning of humanity through stories, activities, and school service"]}
+    ]},
+    {"Chapter 2 (Religions)": [
+      {"Introduction": ["Religions overview"]},
+      {"Discussion": ["Why religion is important", "How to practice effectively"]}
+    ]},
+    {"Chapter 3 (Atheism)": [
+      {"Concepts": ["Introduction to atheism"]},
+      {"Discussion": ["Who are atheists", "Religious vs atheist person"]},
+      {"Quotes": ["Babasaheb on religion"]}
+    ]},
+    {"Chapter 4 (Understanding Caste and Fairness)": [
+      {"Stories": ["Age-appropriate stories"]},
+      {"Classroom Discussions": ["Caste, race, equality, personal stories"]}
+    ]},
+    {"Chapter 5 (Honoring All Work)": [
+      {"Projects": ["Different jobs", "Cleaning duties"]},
+      {"Interviews": ["With staff"]}
+    ]},
+    {"Chapter 6 (Our Society)": [
+      {"Discussion": ["Why society matters", "Opposing unfairness"]}
+    ]},
+    {"Chapter 7 (Rules, Sharing, and Kindness)": [
+      {"Activities": ["Role-play", "Sharing in class", "Daily kindness prompts"]}
+    ]},
+    {"Chapter 8 (Gender and Privacy)": [
+      {"Activities": ["Privacy and gender fairness"]},
+      {"Learning": ["Respect for all"]}
+    ]},
+    {"Chapter 9 (Poster Project)": [
+      {"Projects": ["'What I Believe In' posters and writings"]},
+      {"Presentation": ["Year-end"]}
+    ]},
+    {"Chapter 10 (Reflection and Ethics)": [
+      {"Discussions": ["Truth in tough times", "Respecting everyone", "Listening to perspectives"]}
+    ]},
+    {"Chapter 11 (Environmental Duties)": [
+      {"Projects": ["Individual and team projects to improve classroom/school environment"]}
+    ]},
+    {"Chapter 12 (Parade)": [
+      {"Teaching": ["Police, army, duty and responsibility"]},
+      {"Events": ["Weekly parade", "Self-safety for emergencies"]}
+    ]}
+  ],
+  "🗣️ Languages": [
+    {"Chapter 1 (Why Language? History & Types)": [
+      {"Concepts": ["Origins of language", "Family tree of world languages"]},
+      {"Types": ["Spoken", "Written", "Sign language"]}
+    ]},
+    {"Chapter 2 (Languages Apps and Websites)": [
+      {"Tools": ["Duolingo", "Rosetta Stone", "Memrise", "Beelinguapp", "Busuu", "50Languages"]},
+      {"Learning Methods": ["Language exchange programs"]}
+    ]},
+    {"Chapter 3 (Numbers 21–100)": [
+      {"Counting": ["Using numbers in real contexts: age, money, dates"]}
+    ]},
+    {"Chapter 4 (Months & Seasons)": [
+      {"Vocabulary": ["Names of months and seasons", "Weather vocabulary"]}
+    ]},
+    {"Chapter 5 (Food & Drinks)": [
+      {"Vocabulary": ["20 basic food items"]},
+      {"Practice": ["Roleplay - ordering in a restaurant"]}
+    ]},
+    {"Chapter 6 (Animals & Nature)": [
+      {"Vocabulary": ["Common animals", "Natural elements like river, mountain"]}
+    ]},
+    {"Chapter 7 (Classroom Sentences)": [
+      {"Expressions": ["May I go out?", "Please repeat", "I don’t understand."]}
+    ]},
+    {"Chapter 8 (Polite Expressions)": [
+      {"Expressions": ["Excuse me", "I’m sorry", "Thank you very much", "No problem"]}
+    ]},
+    {"Chapter 9 (Body Parts)": [
+      {"Vocabulary": ["Drawing and Simon Says game"]}
+    ]},
+    {"Chapter 10 (Short Cultural Stories)": [
+      {"Stories": ["One folktale per language (simplified for kids)"]}
+    ]},
+    {"Chapter 11 (Festival Vocabulary)": [
+      {"Vocabulary": ["New Year (Japan, China, Spain)", "[translate:Eid (Urdu)]"]}
+    ]},
+    {"Chapter 12 (Mini Dialogue II)": [
+      {"Dialogue": ["Asking age", "Nationality", "Feelings"]}
+    ]},
+    {"Chapter 13 (Multilingual Skills)": [
+      {"Projects": ["Word-lists of meanings in at least five languages"]},
+      {"Languages": ["Spanish", "French", "German", "Chinese", "Japanese", "English", "Hindi"]}
+    ]}
+  ],
+  "👥 GGC (General Guidance Class)": [
+    {"Chapter 1 (Why We Study)": [
+      {"Concepts": ["Education develops brain, discipline, and power to change society"]}
+    ]},
+    {"Chapter 2 (Self-Study and Initiative)": [
+      {"Skills": ["Studying beyond syllabus", "Asking questions", "Researching", "Curiosity practice"]}
+    ]},
+    {"Chapter 3 (Time Management)": [
+      {"Skills": ["Prioritizing homework, hobbies, rest", "Balanced routine"]}
+    ]},
+    {"Chapter 4 (Dealing with Failure)": [
+      {"Skills": ["Accepting mistakes", "Trying again with confidence"]}
+    ]},
+    {"Chapter 5 (Respecting Education)": [
+      {"Values": ["Appreciating books, school, teachers as empowerment sources"]}
+    ]},
+    {"Chapter 6 (Self-Reflection)": [
+      {"Activities": ["Writing or talking about ‘What did I learn today?’"]}
+    ]},
+    {"Chapter 7 (Global Education Systems)": [
+      {"Overview": ["School systems in UK, US, Japan, Finland", "India’s global standing"]}
+    ]},
+    {"Chapter 8 (Inspirational Achievers)": [
+      {"Stories": ["Young innovators", "Gamers", "Activists making a difference worldwide"]}
+    ]},
+    {"Chapter 9 (Inspirational Young Achievers)": [
+      {"Profiles": ["Gitanjali Rao", "Tanmay Bakshi", "Samaira Mehta", "Harshwardhansinh Zala", "Anne Makosinski"]},
+      {"Lessons": ["Innovation", "Problem-solving", "Persistence"]}
+    ]},
+    {"Chapter 10 (Gaming & eSports Inspiration)": [
+      {"Stories": ["Bugha", "Sumail", "Ana", "Lil Poison", "HydraFlick"]},
+      {"Analysis": ["Habits and learning paths"]}
+    ]},
+    {"Chapter 11 (Social Activists & Global Good)": [
+      {"Lessons": ["Malala", "Greta", "Licypriya", "Zuriel", "Bana Alabed"]},
+      {"Activities": ["Group discussions", "Project inspirations"]}
+    ]},
+    {"Chapter 12 (Your Learning Path)": [
+      {"Reflection": ["How achievers started", "Challenges", "Routines", "Mindset"]},
+      {"Planning": ["Make a plan for your own goals"]}
+    ]},
+    {"Chapter 13 (Comparing and Action Plan)": [
+      {"Planning": ["Monthly personal skill-building projects"]},
+      {"Support": ["Finding support", "Identifying local issues"]}
+    ]}
+  ],
+  "🏃‍♂️ Games & Physical Education": [
+    {"Chapter 1 (Hygiene and Personal Cleanliness)": [
+      {"Routines": ["Daily exercise", "Hand washing", "Teeth brushing"]}
+    ]},
+    {"Chapter 2 (Physical Fitness)": [
+      {"Activities": ["Warm-up/cool-down", "Daily sports", "Safe stretching"]}
+    ]},
+    {"Chapter 3 (Nutrition and Body Science)": [
+      {"Knowledge": ["Healthy diet", "Importance of hydration", "Basic anatomy"]}
+    ]},
+    {"Chapter 4 (Safety at School and Home)": [
+      {"Awareness": ["Classroom safety", "Playground safety", "Reporting risks"]}
+    ]},
+    {"Chapter 5 (Emotional Literacy)": [
+      {"Skills": ["Understanding feelings", "Naming emotions", "Empathy through group activities"]}
+    ]}
+  ],
+  "🎨 Arts & Music": [
+    {"Chapter 1 (Art Appreciation)": [
+      {"Introduction": ["Famous artists and their works"]}
+    ]},
+    {"Chapter 2 (Music Fundamentals)": [
+      {"Basics": ["Music theory", "Rhythm exercises", "Singing"]}
+    ]},
+    {"Chapter 3 (Hands-on Art)": [
+      {"Projects": ["Art using paint, clay, digital tools"]}
+    ]}
+  ],
+  "🧠 General Knowledge (G.K)": [
+    {"Chapter 1 (Famous Personalities)": [
+      {"Stories": ["Notable figures from India and the world"]}
+    ]},
+    {"Chapter 2 (National and World Symbols)": [
+      {"Symbols": ["Flags", "Currencies", "Monuments", "Capitals"]}
+    ]},
+    {"Chapter 3 (Geography and Culture)": [
+      {"Topics": ["Continents", "Countries", "Indian festivals", "Cultural heritage"]}
+    ]},
+    {"Chapter 4 (Science & Inventions)": [
+      {"Stories": ["Key inventors", "Discovery stories", "Weekly news updates"]}
+    ]},
+    {"Chapter 5 (Monuments and Current Affairs)": [
+      {"Landmarks": ["Worldwide landmarks", "Simple current events summary"]}
+    ]}
+  ],
+  "🔬 Research Projects (R.P)": [
+    {"Chapter 1 (Scientific Curiosity)": [
+      {"Concepts": ["Scientific thinking", "Asking logical questions before experiments"]}
+    ]},
+    {"Chapter 2 (Safety in Labs)": [
+      {"Electrical Safety": ["Current, voltage, precautions when handling cells, bulbs, motors"]},
+      {"Mechanical Safety": ["Safe use of gears, pulleys, sharp tools, moving parts in projects"]},
+      {"Chemical Safety": ["Understanding labels", "Handling cleaning liquids and glue", "Wearing protective gear"]}
+    ]},
+    {"Chapter 3 (Teamwork in Research)": [
+      {"Collaboration": ["Working respectfully with peers", "Sharing ideas", "Fair division of work"]}
+    ]},
+    {"Chapter 4 (Artificial Intelligence)": [
+      {"Introduction": ["What is AI?", "Applications in daily life"]}
+    ]},
+    {"Chapter 5 (Sensors Around Us)": [
+      {"Research": ["Experiments and videos on sensors in airplanes, boats, robots"]}
+    ]},
+    {"Chapter 6 (Robotics – Introduction)": [
+      {"Projects": ["Basic robotics using kits or classroom builds"]},
+      {"Connections": ["Link to earlier C/C++ and Arduino lessons", "Real-world examples"]}
+    ]},
+    {"Chapter 7 (Project Work)": [
+      {"Build Models": ["Windmill", "Electric boat", "Simple robot"]},
+      {"Supervision": ["Teacher oversight and safety"]}
+    ]},
+    {"Chapter 8 (Software Tools)": [
+      {"Tools": ["TinkerCAD", "Arduino IDE", "VS Code", "Brainly"]}
+    ]},
+    {"Chapter 9 (Videography & Presentation Skills)": [
+      {"Introduction": ["Why record learning?", "Basic framing, angle, light concepts"]}
+    ]},
+    {"Chapter 10 (Speaking on Camera)": [
+      {"Skills": ["Confidence", "Smiling", "Eye contact when explaining projects"]}
+    ]},
+    {"Chapter 11 (Simple Shooting Practice)": [
+      {"Practice": ["Record 1-minute explanatory videos"]}
+    ]},
+    {"Chapter 12 (Teamwork and Roles in Videography)": [
+      {"Roles": ["Camera person", "Speaker", "Helper"]}
+    ]},
+    {"Chapter 13 (Sharing and Reflection)": [
+      {"Activities": ["Watch classmates’ videos", "Give positive feedback", "Learn from each other"]}
+    ]},
+    {"Chapter 14 (Basic Tools)": [
+      {"Tools": ["Soldering iron", "Multimeter", "Wire stripper", "Pliers", "Screwdrivers", "Safety gear"]}
+    ]}
+  ]
+},
 
-    ],
-    "📖 English 2 – Communication & Listening": [
-      "Chapter 1(Speaking Skills) : Daily practice via role-plays, storytelling, class news hour, and personal experiences. Regular listening comprehension, vocabulary games and analogies, reading short passages, structured speaking drills, logic-based English quizzes",
-      "Chapter 2(Listening Skills) : Listening to stories, following instructions, peer-to-peer exercises, and recall games.",
-      "Chapter 3(Vocabulary and Word Games) : Synonyms, antonyms, analogies, logic puzzles from GRE/TOEFL foundations.",
-      "Chapter 4(Read-Aloud and Practice Tests) : Reading sample passages and answering comprehension/logical questions.",
-      "Chapter 5(Speaking and Listening Practice) : Presenting views, logical reasoning discussions, pronunciation and fluency exercises.",
-      "Chapter 3(Advanced Communication) : Public speaking, debate, group discussion on current events and classroom topics, daily conversation practice.",
-
-    ],
-    "📖 English Grammar": [
-      "Chapter 1(Parts of Speech) : Nouns, pronouns, verbs, adjectives, adverbs, application through activities and worksheets.",
-      "Chapter 2(Tenses and Sentence Structure) : Simple present, past, future; constructing all types of sentences.",
-      "Chapter 3(Punctuation) : Capitals, full stops, question and exclamation marks, commas.",
-      "Chapter 4(Paragraph and Letter Writing) : Story writing, friendly and formal letter practice.",
-      "Chapter 4(Sentences) : Sentence structure (all tenses), punctuation, conjunctions, subject-verb agreement, creative writing (stories, essays, letters), editing and peer review activities."
-    ],
-    "💻 Computer Science & Digital Literacy": [
-      "Chapter 1(Hardware and Software) : Deep dive into computer parts, hardware-vs-software exploration, assembly/disassembly demos, comparison studies.",
-      "Chapter 2(C and C++ Basics) : Introduction to syntax, variables, input/output, solving 40 starter questions through year (teacher-led explanations), logic puzzles.",
-      "Chapter 3(Introduction to Arduino) : Overview of microcontrollers, sensors, LEDs, buzzer – connecting coding to real-world applications.",
-      "Chapter 4(CCC Syllabus Fundamentals) : Intro to computers and operating systems, word processing (MS Word), spreadsheet basics (MS Excel), PowerPoint presentations, intro to internet/WWW, E-mail practice, digital financial tools/apps, E-governance, cyber security, and responsible social networking.",
-      "Chapter 5(HTML and Web Design) : Title, headings, text, images, links (building personal web pages).",
-      "Chapter 6(UI/UX Basics and Version Control) : Wireframing, simple app and website layouts, basics of Git for saving and organizing projects.",
-      "Chapter 7(Animation/Creativity – Scratch) : Build interactive stories and animations, introduction to programming logic with blocks.",
-      "Chapter 8(Internet Safety and Browsers) : Safe browsing habits, recognizing secure websites, understanding URLs, using popular browsers responsibly.",
-      "Chapter 9(Search Engines and Online Research) : Finding and evaluating credible sources, basics of internet research for schoolwork."
-    ],
-    "➗ Mathematics (5th, 6th, 7th - first half)": [
-      "Chapter 1(Decimals and Percentages) : Comparing, ordering, word problems, everyday relevance.",
-      "Chapter 2(Time, Speed, Distance) : Calculating time intervals, travel problems, introduction to speed and basic conversions.",
-      "Chapter 3(Measurement Units) : Metric vs imperial units, calculations involving length, mass, temperature and capacity.",
-      "Chapter 4(Data Analysis) : Mean, median (simple averages and ordering), using charts and real-life datasets.",
-      "Chapter 5(Introduction to Integers) : Positive/negative numbers, basic addition and subtraction, number line activities.",
-      "Chapter 6(Symmetry and Transformations) : Reflection, rotation, translation, identifying symmetry in figures.",
-      "Chapter 7(Geometry – Volume and 3D) : Volume, surface area of cubes/cuboids, drawing and counting faces/edges/vertices.",
-      "Chapter 8(Prime Numbers and Patterns) : Identifying primes, building number sequences and mathematical patterns.",
-      "Chapter 9(Mental Math and Tables) : Tables up to 30, advanced logic-based drills, speed practice.",
-      "Chapter 10(Operators and Expressions) : Understanding mathematical operators, Types of operators- Arithmetic Operators, Relational Operators, Logical Operators, Bitwise Operators, Assignment Operators and their uses"
-    ],
-    "🔬 Physics": [
-      "Chapter 1(Forces in Action) : Push/pull, friction, gravity, illustrated by playground and home experiments.",
-      "Chapter 2(Simple Machines) : Lever, pulley, wheel and axle – analysis of real-life tools.",
-      "Chapter 3(electromagnetic spectrum) : Waves, types of waves, uses of waves, sound wave, light wave, electromagnetic wave.",
-      "Chapter 4(Electricity and Circuits) : Simple circuits with batteries, bulbs, switches; understanding conductors and insulators.",
-      "Chpater 5(Magnetism) : Magnets, poles, magnetic fields, Earth as a magnet.",
-      "Chapter 6(Heat) : Sources of heat, conduction, convection, radiation – experiments with everyday materials.",
-      "Chapter 7(Light) : Reflection, refraction, shadows, colors – practical activities with lenses and prisms.",
-      "Chapter 8(Energy and Its Forms) : Heat, light, sound basics; examples from daily life."
-    ],
-    "⚗️ Chemistry": [
-      "Chapter 1(Matter and Its Changes) : States of matter, reversible and irreversible changes (melting, boiling, mixing).",
-      "Chapter 2(Physical and Chemical Properties) : Identifying properties through experiments (density, solubility, conductivity), Physical Change VS Chemical Change, Physical change VS reversible change, etc.",
-      "Chapter 2(Common Chemicals in Daily Life) : Acids, bases, salts – hands-on experiments with safe substances.",
-      "Chapter 3(Environmental Chemistry) : Pollution causes and prevention, recycling, effects of chemicals on environment."
-    ],
-    "🧬 Biology": [
-      "Chapter 1(Human Anatomy) : Brain, heart, lungs, digestive system (intro diagrams); connection to healthy habits.",
-      "Chapter 2(Our Health) : What is Health?, Why Health matters?, Indians Health V/S developed countries Health",
-      "Chapter 3(Innovations in Medicine) : Story-based learning about vaccines, X-rays, stethoscopes, and modern medical innovations.",
-      "Chapter 4(Environmental Science) : Ecological balance, pollution, sustainability, and simple school gardening project."
-    ],
-    "📜 Social Studies (Political Science, Economics, History, Law, Geography)": [
-      "Chapter 1(Understanding Humanity) : What is humanity? Case studies, stories on kindness and global perspective.",
-      "Chapter 2(Caste and Fairness – Simple Intro) : Stories and classroom discussion; understanding untouchability, equality.",
-      "Chapter 3(Honoring Labour and Duties) : Importance of all work, focus on safai karamchari, community helpers.",
-      "Chapter 4(Rules and Sharing) : Why school and societal rules matter, fairness in classroom sharing.",
-      "Chapter 5(Kind Words and Actions) : The effect of kindness on the world, why privacy is important.",
-      "Chapter 6(Gender Fairness and Respect) : Equality in class, playground, and at home; addressing stereotypes.",
-      "Chapter 7(Environmental Responsibility) : Role in keeping school/planet clean, simple action steps.",
-      "Chapter 8(Telling the Truth and Courage) : Speaking honestly especially in tough times; drama and reflection.",
-      "Chapter 9(Citizenship and Listening) : Listening to others, sharing responsibly, social duties.",
-      "Chapter 10(Projects & Drama) : Poster project ‘What I Believe In’, poem/story about education, role-plays, teacher-led discussions, and year-end assembly presentation."
-    ],
-    "📝 Hindi": [
-      "Chapter 1(शिक्षा का महत्व) : कविता, कहानी, प्रस्तुति – शिक्षा विषय पर (हिंदी में), बच्चों द्वारा और शिक्षकों द्वारा बनाई गई रचनाएँ।",
-      "Chapter 2(व्याकरण) : वचन, काल, विशेषण, संज्ञा व क्रिया का अभ्यास, वाक्य निर्माण।",
-      "Chapter 3(रचनात्मक लेखन) : अनौपचारिक/औपचारिक पत्र, अनुच्छेद, संवाद, चित्र वर्णन।",
-      "Chapter 4(नैतिक और लोककथाएँ) : पंचतंत्र, अकबर-बीरबल, नीति कथाएँ, श्रवण एवं अभिनय।",
-      "Chapter 5(सामाजिक मुद्दे) : बाल श्रम, महिला अधिकार, पर्यावरण संरक्षण, सामुदायिक सेवा।",
-      "Chapter 6(पुस्तकें) : Mother India (Hindi) A book by Katherine Mayo",
-      "Chapter 7(सामाजिक परिवर्तन) : सामुदायिक सेवा, बाल अधिकार, महिला सशक्तिकरण, पर्यावरण संरक्षण।"
-    ],
-    "🌱 Moral Values": [
-      "Chapter 1(What is Humanity?) : Exploring the meaning of humanity through stories, activities, and school service.",
-      "Chapter 2(Religions) : Introduction to Religions, why Religion , how to .",
-      "Chapter 3(Atheism) : Introduction to Atheism, who are Atheist, Religious V/S Atheist person, quotes of Babasaheb on Religion.",
-      "Chapter 4(Understanding Caste and Fairness) : Stories (age-appropriate), classroom discussions on caste, race, equality, personal stories.",
-      "Chapter 5(Honoring All Work) : Projects about different jobs, cleaning duties, interviews with staff.",
-      "Chapter 6(Our Society) : Why society matters, should we directly oppose society if they are practicing unfairness? .",
-      "Chapter 7(Rules, Sharing, and Kindness) : Role-play, sharing in class, daily kindness prompts.",
-      "Chapter 8(Gender and Privacy) : Privacy and gender fairness activities, learning respect for all.",
-      "Chapter 9(Poster Project) : 'What I Believe In' – personal posters/writings, year-end presentation.",
-      "Chapter 10(Reflection and Ethics) : Truth in tough times, respect for everyone, listening to perspectives.",
-      "Chapter 11(Environmental Duties) : Individual and team projects for improving classroom/school environment.",
-      "Chapter 12(Parade) : Teaching about police, army ... duty and responsibility. Also there will be weekly parade and self safety in case of fire, earthquake or any other emergency."
-    ],
-    "🗣️ Languages": [
-      "Chapter 1 (Why Language? History & Types) : Origins of language, family tree of world languages, spoken, written, sign language.",    
-      "Chapter 2 (Languages Apps and Websites) : Duolingo, Rosetta Stone, Memrise, Beelinguapp, Busuu, 50Languages, language exchange programs.",
-      "Chapter 3 (Numbers 21–100): Using numbers in real contexts (age, money, dates).",
-      "Chapter 4 (Months & Seasons): Names of months and seasons with weather vocabulary.",
-      "Chapter 5 (Food & Drinks): 20 basic food items with roleplay (ordering in a restaurant).",
-      "Chapter 6 (Animals & Nature): Common animals and natural elements like river, mountain.",
-      "Chapter 7 (Classroom Sentences): 'May I go out?', 'Please repeat', 'I don’t understand.'",
-      "Chapter 8 (Polite Expressions): Excuse me, I’m sorry, thank you very much, no problem.",
-      "Chapter 9 (Body Parts): Vocabulary through drawing and Simon Says game.",
-      "Chapter 10 (Short Cultural Stories): One folktale per language (simplified for kids).",
-      "Chapter 11 (Festival Vocabulary): New Year (Japan, China, Spain) and Eid (Urdu).",
-      "Chapter 12 (Mini Dialogue II): Asking age, nationality, and how someone is feeling.",
-      "Chapter 13 (Multilingual Skills) : Students make word-lists of meanings in at least five languages (Spanish, French, German, Chinese, Japanese, English, Hindi) – thematic vocabulary.",
-    ],
-
-    "👥 GGC (General Guidance Class)": [
-      "Chapter 1(Why We Study) : Understanding that education develops our brain, discipline, and power to change society.",
-      "Chapter 2(Self-Study and Initiative) : How to study beyond the syllabus — asking questions, researching, and practicing curiosity.",
-      "Chapter 3(Time Management) : Learning to prioritize homework, hobbies, and rest using a balanced routine.",
-      "Chapter 4(Dealing with Failure) : Accepting mistakes as a part of learning; trying again with confidence.",
-      "Chapter 5(Respecting Education) : Appreciating books, school, and teachers as sources of empowerment.",
-      "Chapter 6(Self-Reflection) : Writing or talking about ‘What did I learn today?’ — becoming thoughtful and responsible.",
-      "Chapter 7(Global Education Systems) : Overview of school systems in UK, US, Japan, Finland; where India stands globally.",
-      "Chapter 8(Inspirational Achievers) : Stories of young innovators, gamers, and activists making a difference worldwide.",
-      "Chapter 9(Inspirational Young Achievers) : Stories of Gitanjali Rao, Tanmay Bakshi, Samaira Mehta, Harshwardhansinh Zala, Anne Makosinski with lessons on innovation, problem-solving, and persistence.",
-      "Chapter 10(Gaming & eSports Inspiration) : Stories/discussions on Bugha, Sumail, Ana, Lil Poison, HydraFlick; analysis of their habits and learning path.",
-      "Chapter 11(Social Activists & Global Good) : Lessons from Malala, Greta, Licypriya, Zuriel, Bana Alabed; group discussion and project-based inspiration.",
-      "Chapter 12(Your Learning Path) : Reflect on how achievers started, their challenges, routines, and mindset. Make a plan for your own goals.",
-      "Chapter 13(Comparing and Action Plan) : What can I do to be like them? Creating a monthly personal skill-building project, finding support, and identifying local issues for improvement.",
-      "Chapter 14(Form Filling) : How to file an ITR, How to file RTI, Filling forms for scholarship, Passport, Aadhar card, PAN card, Voter ID etc."
-    ],
-    "🏃‍♂️ Games & Physical Education": [
-      "Chapter 1(Hygiene and Personal Cleanliness) : Daily exercise, hand washing, teeth brushing routines.",
-      "Chapter 2(Physical Fitness) : Warm-up/cool-down, daily sports, safe stretching.",
-      "Chapter 3(Nutrition and Body Science) : Healthy diet, the importance of hydration, basic anatomy connections.",
-      "Chapter 4(Safety at School and Home) : Classroom and playground safety, understanding and reporting risks.",
-      "Chapter 5(Emotional Literacy) : Understanding basic feelings, naming emotions, building empathy through group activities."
-    ],
-
-    "🎨 Arts & Music": [
-      "Chapter 1(Art Appreciation) : Introduction to famous artists and their works.",
-      "Chapter 2(Music Fundamentals) : Basic music theory, rhythm exercises, and singing.",
-      "Chapter 3(Hands-on Art) : Creating art using various materials (paint, clay, digital tools)."
-    ],
-
-    "🧠 General Knowledge (G.K)": [
-      "Chapter 1(Famous Personalities) : Stories and achievements from India and the world.",
-      "Chapter 2(National and World Symbols) : Flags, currencies, monuments, capitals.",
-      "Chapter 3(Geography and Culture) : Continents, countries, Indian festivals, cultural heritage exploration.",
-      "Chapter 4(Science & Inventions) : Key inventors, discovery stories, weekly news updates.",
-      "Chapter 5(Monuments and Current Affairs) : Landmarks worldwide and simple digest of current events."
-    ],
-    "🔬 Research Projects (R.P)": [
-      "Chapter 1(Scientific Curiosity) : Understanding how scientists think; asking logical questions before doing any experiment.",
-      "Chapter 2(Safety in Labs) : Electrical Safety-> Learning about current, voltage, and precautions while handling cells, bulbs, and motors.Mechanical Safety-> Safe use of gears, pulleys, sharp tools, and moving parts while making machines or toys.Chemical Safety-> Understanding labels, handling cleaning liquids or glue safely, wearing protective gear if needed.",
-      "Chapter 3(Teamwork in Research) : Working with peers respectfully, sharing ideas, and dividing work fairly.",
-      "Chapter 4(AI) : What is AI?, Applications of AI in daily life.",
-      "Chapter 5(Sensors Around Us) : Demonstrations and research on sensors in airplanes, boats, robots using experiments and videos.",
-      "Chapter 6(Robotics – Introduction) : Basic robotics projects (kits or classroom build), connection to earlier C/C++ and Arduino modules, explain real-world examples.",
-      "Chapter 7(Project Work) : Building a model (windmill, electric boat, or simple robot) with teacher supervision following all safety steps.",
-      "Chapter 8(softwares) : TinkerCAD, Arduino IDE, VS Code, brainly.",     
-      "Chapter 9(Videography & Presentation Skills) : Introduction to Videography, What is videography? Why we record our learning? Basic concepts of framing, angle, and light.",
-      "Chapter 10(Speaking on Camera) : How to talk confidently, smile, and maintain eye contact while explaining a project.",
-      "Chapter 11(Simple Shooting Practice) : Record a short 1-minute video explaining what you learned this week.",
-      "Chapter 12(Teamwork and Roles) : Camera person, speaker, helper — learning teamwork while shooting.",
-      "Chapter 13(Sharing and Reflection) : Watching classmates’ videos, giving positive feedback, and learning from each other.",
-      "Chapter 17(Basic Tools) : Soldering iron, multimeter, wire stripper, pliers, screwdrivers, safety gear, gloves.",
-
-
-    ]
-  },
 
 
   "📚 Class 6": {
-    "💻 Computer Science": [
-      "Chapter 1(Deep Dive: Hardware and Software) : Functions and comparisons, assembling/disassembling parts, practical identification activities.",
-      "Chapter 2(Fundamentals of C and C++) : Syntax, variables, loops, input/output—solving about 40 logic questions yearly, teacher-guided code walkthroughs (writing not mandatory for all students).",
-      "Chapter 3(Introduction to HTML) : Elements, attributes, headings, paragraphs, adding images and links, building first web pages.",
-      "Chapter 4(UI/UX and App/Web Design) : Basic interface prototyping, using wireframes, simple user journey mapping, app layout introductions.",
-      "Chapter 5(Version Control with Git) : Concepts of repository, commit, push, and pull, history tracking, why version control matters.",
-      "Chapter 6(Programming with Scratch or Blockly) : Creating animations, interactive stories, games; event-driven programming concepts.",
-      "Chapter 7(Flowcharts and Logic Building) : Designing logic with diagrams, step-by-step algorithm creation, real-life problem-solving practice.",
-      "Chapter 8(Spreadsheets) : Formulas, sorting, making and interpreting basic graphs, data analysis for projects.",
-      "Chapter 9(Digital Citizenship) : Cyberbullying awareness, online safety, ethical tech use, digital footprint discussions."
-    ],
+  "💻 Computer Science": [
+    {"Chapter 1 (Deep Dive: Hardware and Software)": [
+      {"Functions & Comparisons": ["Understanding hardware and software functions", "Feature comparisons"]},
+      {"Hands-on": ["Assembling/disassembling parts", "Practical identification activities"]}
+    ]},
+    {"Chapter 2 (Fundamentals of C and C++)": [
+      {"Syntax & Variables": ["Basic syntax", "Variable declaration and use"]},
+      {"Loops": ["For loop", "While loop", "Do-while loop"]},
+      {"Input/Output": ["Console input/output operations"]},
+      {"Practice": ["40 logic questions solved yearly", "Teacher-guided walkthroughs"]},
+      {"Note": ["Programming writing optional for all students"]}
+    ]},
+    {"Chapter 3 (Introduction to HTML)": [
+      {"Elements & Attributes": ["Basic HTML elements", "Attributes usage"]},
+      {"Structure": ["Headings", "Paragraphs"]},
+      {"Media & Links": ["Adding images and links"]},
+      {"Project": ["Building first web pages"]}
+    ]},
+    {"Chapter 4 (UI/UX and App/Web Design)": [
+      {"Prototyping": ["Basic interface prototyping", "Using wireframes"]},
+      {"User Flow": ["Simple user journey mapping"]},
+      {"Layouts": ["App and web layout introductions"]}
+    ]},
+    {"Chapter 5 (Version Control with Git)": [
+      {"Concepts": ["Repository", "Commit", "Push", "Pull"]},
+      {"History Tracking": ["Why version control matters"]}
+    ]},
+    {"Chapter 6 (Programming with Scratch or Blockly)": [
+      {"Projects": ["Creating animations", "Interactive stories", "Games"]},
+      {"Concepts": ["Event-driven programming"]}
+    ]},
+    {"Chapter 7 (Flowcharts and Logic Building)": [
+      {"Diagramming": ["Designing logic with diagrams"]},
+      {"Algorithm Development": ["Step-by-step creation"]},
+      {"Practice": ["Real-life problem-solving applications"]}
+    ]},
+    {"Chapter 8 (Spreadsheets)": [
+      {"Formulas": ["Basic formula use"]},
+      {"Data Manipulation": ["Sorting", "Graph making"]},
+      {"Data Analysis": ["Project-based analysis"]}
+    ]},
+    {"Chapter 9 (Digital Citizenship)": [
+      {"Awareness": ["Cyberbullying awareness"]},
+      {"Safety": ["Online safety practices"]},
+      {"Ethics": ["Ethical tech use", "Digital footprint discussions"]}
+    ]}
+  ],
+  "➗ Mathematics": [
+    {"Chapter 1 (Number Systems)": [
+      {"Types": ["Natural", "Whole", "Integers", "Rational numbers"]},
+      {"Conversions": ["Between number types"]}
+    ]},
+    {"Chapter 2 (Fractions & Decimals)": [
+      {"Operations": ["Addition", "Subtraction", "Multiplication", "Division"]},
+      {"Applications": ["Real-life problems"]}
+    ]},
+    {"Chapter 3 (Basic Algebra)": [
+      {"Expressions": ["Algebraic expressions"]},
+      {"Equations & Identities": ["Simple formulas", "Manipulation techniques"]}
+    ]},
+    {"Chapter 4 (Operators and Expressions)": [
+      {"Operator Types": ["Arithmetic", "Relational", "Logical", "Bitwise", "Assignment", "Unary", "Conditional (Ternary)", "Shift", "Special", "Miscellaneous"]},
+      {"Uses": ["Comprehensive operator understanding"]}
+    ]},
+    {"Chapter 5 (Geometry)": [
+      {"Shapes": ["Lines", "Angles", "Polygons"]},
+      {"3D Objects": ["Cube", "Cuboid", "Sphere", "Cylinder"]}
+    ]},
+    {"Chapter 6 (Mensuration)": [
+      {"Area & Volume": ["Triangles", "Rectangles", "3D objects"]},
+      {"Surface Area & Perimeter": ["Calculation methods"]}
+    ]},
+    {"Chapter 7 (Statistics & Data)": [
+      {"Graphs": ["Bar graphs"]},
+      {"Measures": ["Mean", "Mode"]},
+      {"Probability": ["Introduction through experiments & examples"]}
+    ]},
+    {"Chapter 8 (Ratio & Proportion)": [
+      {"Concepts": ["Direct and inverse variations"]},
+      {"Applications": ["Daily life word problems"]}
+    ]},
+    {"Chapter 9 (Speed-Time-Distance)": [
+      {"Calculations": ["Basic distance, speed, time"]},
+      {"Real-World": ["Transportation scenarios", "Time events"]}
+    ]},
+    {"Chapter 10 (Vector & Introductory 3D Geometry)": [
+      {"Concepts": ["Direction and magnitude"]},
+      {"Operations": ["Basic vector addition"]},
+      {"Spatial Visualization": ["Coordinate space"]}
+    ]}
+  ],
+  "🔬 Physics": [
+    {"Chapter 1 (Units and Dimensions)": [
+      {"Basics": ["Measurement units", "Dimensions of length, mass, time"]}
+    ]},
+    {"Chapter 2 (Motion and Measurement)": [
+      {"Types": ["Linear", "Circular", "Oscillatory"]},
+      {"Activities": ["Distance measurements", "Experiments", "Real-life examples"]}
+    ]},
+    {"Chapter 3 (Light and Shadows)": [
+      {"Light Propagation": ["How light travels"]},
+      {"Shadows": ["Formation", "Transparent vs opaque materials"]}
+    ]},
+    {"Chapter 4 (The Human Eye and the Colourful World)": [
+      {"Eye Structure": ["Parts of the eye"]},
+      {"Color Vision": ["Seeing colors", "Rainbows", "Prisms"]}
+    ]},
+    {"Chapter 5 (Electricity Basics)": [
+      {"Concepts": ["Voltage", "Potential difference", "Current", "Resistor", "Inductor", "Capacitor"]},
+      {"Circuits": ["How bulbs, switches, batteries work", "Constructing simple circuits"]}
+    ]},
+    {"Chapter 6 (Force and Pressure)": [
+      {"Force Types": ["Gravitational", "Frictional"]},
+      {"Pressure": ["Concepts and demonstrations"]}
+    ]},
+    {"Chapter 7 (Sound)": [
+      {"Wave Nature": ["Sound waves", "Pitch", "Loudness"]},
+      {"Experiments": ["Vibrations", "Resonance"]}
+    ]},
+    {"Chapter 8 (Heat and Temperature)": [
+      {"Measurements": ["Temperature"]},
+      {"Heat Transfer": ["Conduction", "Convection", "Radiation"]},
+      {"Examples": ["Everyday life illustrations"]}
+    ]},
+    {"Chapter 9 (Magnetism)": [
+      {"Fields & Poles": ["Magnetic fields", "Magnet poles"]},
+      {"Earth Magnetism": ["Earth as a magnet"]},
+      {"Practical Activities": ["Experiments with magnets"]}
+    ]},
+    {"Chapter 10 (Energy Forms and Transformations)": [
+      {"Types": ["Kinetic", "Potential", "Thermal"]},
+      {"Machines & Conservation": ["Simple machines", "Energy conservation concepts"]}
+    ]},
+    {"Chapter 11 (Energy Laws in Physics)": [
+      {"Laws": ["Conservation of Energy", "Conservation of Mass", "First and Second Laws of Thermodynamics"]}
+    ]}
+  ],
+  "⚗️ Chemistry": [
+    {"Chapter 1 (Physical and Chemical Changes)": [
+      {"Experiments": ["Differentiating types of changes"]}
+    ]},
+    {"Chapter 2 (Elements, Compounds, and Mixtures)": [
+      {"Separation Methods": ["Various techniques"]},
+      {"Examples": ["Everyday substances"]}
+    ]},
+    {"Chapter 3 (Acids, Bases, and Salts)": [
+      {"Identification": ["Using indicators"]},
+      {"Experiments": ["Home chemistry"]}
+    ]},
+    {"Chapter 4 (Air and Water)": [
+      {"Composition": ["Components of air and water"]},
+      {"Purification": ["Methods"]},
+      {"Environmental Significance": ["Importance of clean air and water"]}
+    ]},
+    {"Chapter 5 (Atoms and Molecules)": [
+      {"Introduction": ["Atomic models", "Analogies for structure"]}
+    ]},
+    {"Chapter 6 (Rusting and Corrosion)": [
+      {"Causes": ["Reasons for rust and corrosion"]},
+      {"Prevention": ["Methods"]},
+      {"Pollution Effects": ["Impact on environment"]}
+    ]},
+    {"Chapter 7 (Combustion and Fuels)": [
+      {"Types": ["Various combustion types"]},
+      {"Uses and Safety": ["Practical applications", "Safety precautions"]}
+    ]}
+  ],
+  "🧬 Biology": [
+    {"Chapter 1 (Human Anatomy)": [
+      {"Overview": ["Body organs and systems"]},
+      {"Healthy Habits": ["Basic health maintenance"]}
+    ]},
+    {"Chapter 2 (Case Studies: Medical Innovations)": [
+      {"Stories": ["Vaccines", "X-ray", "MRI", "Others"]}
+    ]},
+    {"Chapter 3 (Environmental Science)": [
+      {"Interdependence": ["Human and environment relationship"]},
+      {"Conservation Projects": ["Student-driven initiatives"]}
+    ]},
+    {"Chapter 4 (Cell Structure and Function)": [
+      {"Microscopic World": ["Organelles", "Functions", "Diagrams"]}
+    ]},
+    {"Chapter 5 (Body Systems)": [
+      {"Systems Overview": ["Digestive", "Respiratory", "Circulatory", "Nervous"]},
+      {"Health Questions": ["Real-life health answers"]}
+    ]},
+    {"Chapter 6 (Plants)": [
+      {"Anatomy and Reproduction": ["Plant structure", "Reproductive processes"]},
+      {"Ecological Role": ["Importance in ecosystem"]}
+    ]},
+    {"Chapter 7 (Microorganisms)": [
+      {"Types and Roles": ["Beneficial", "Harmful microbes"]},
+      {"Experiments": ["Cultures", "Kitchen science"]}
+    ]},
+    {"Chapter 8 (Health and Hygiene)": [
+      {"Disease Prevention": ["Habits"]},
+      {"Basic First Aid": ["Introduction"]}
+    ]},
+    {"Chapter 9 (Food Chain, Web, Ecosystems)": [
+      {"Concepts": ["Interconnected life", "Energy flow"]}
+    ]},
+    {"Chapter 10 (Conservation)": [
+      {"Actions": ["Saving plants and animals", "Environment club involvement"]}
+    ]}
+  ],
+  "📖 English": [
+    {"Chapter 1 (GRE and TOEFL – Foundation)": [
+      {"Skills": ["Listening and reading comprehension", "Logic-based vocabulary", "Speaking and grammar exercises", "Reasoning-based English practice tests"]}
+    ]},
+    {"Chapter 2 (Active Passive, Tenses, Modals)": [
+      {"Grammar": ["Sentence structure for all tenses", "Punctuation", "Conjunctions", "Subject-verb agreement"]},
+      {"Writing": ["Creative writing: stories, essays, letters"]},
+      {"Review": ["Editing and peer review activities"]}
+    ]},
+    {"Chapter 3 (Direct and Indirect Speech)": [
+      {"Rules and Practice": ["Converting sentences and dialogues"]}
+    ]},
+    {"Chapter 4 (Storytelling and Role-Play)": [
+      {"Speaking Practice": ["Daily stories", "Debates", "Presentations", "Peer feedback"]}
+    ]}
+  ],
+  "🏛️ Political Science": [
+    {"Chapter 1 (What is Government?)": [
+      {"Governance": ["Need", "Functions", "Roles"]}
+    ]},
+    {"Chapter 2 (Types of Government)": [
+      {"Systems": ["Democracy", "Monarchy", "Dictatorship"]},
+      {"Contexts": ["Global and Indian"]}
+    ]},
+    {"Chapter 3 (The Indian Constitution)": [
+      {"Components": ["Structure", "Highlights", "Importance", "Preamble"]}
+    ]},
+    {"Chapter 4 (Fundamental Rights and Duties)": [
+      {"Responsibilities": ["Citizen duties", "Case studies"]}
+    ]},
+    {"Chapter 5 (Parliament and Judiciary)": [
+      {"Law-Making": ["Process"]},
+      {"Judiciary": ["Role of courts"]}
+    ]},
+    {"Chapter 6 (Local Government)": [
+      {"Structure": ["Panchayati Raj", "Municipalities", "Federal system"]},
+      {"Activities": ["Real role-play"]}
+    ]}
+  ],
+  "💰 Economics": [
+    {"Chapter 1 (Needs and Wants)": [
+      {"Concepts": ["Survival vs convenience needs"], "Cases": ["Case studies"]}
+    ]},
+    {"Chapter 2 (Goods and Services)": [
+      {"Roles": ["Producers and consumers"], "Examples": ["Daily life"]}
+    ]},
+    {"Chapter 3 (Money and Barter)": [
+      {"History": ["Evolution of currency"], "Practice": ["Bartering examples"]}
+    ]},
+    {"Chapter 4 (Producers, Consumers, Trade)": [
+      {"Projects": ["Local market practical projects"]}
+    ]},
+    {"Chapter 5 (Banking and Digital Transactions)": [
+      {"Accounts": ["Types"]},
+      {"Tools": ["UPI"]},
+      {"Security": ["Basics"]},
+      {"E-Commerce": ["Introduction"]}
+    ]},
+    {"Chapter 6 (Value, Price, Trade)": [
+      {"Basic Economics": ["Real and perceived value", "Demand and supply"]}
+    ]},
+    {"Chapter 7 (Basic Entrepreneurship)": [
+      {"Simulations": ["Setting up shop/stall"]},
+      {"Planning": ["Introduction to business planning"]}
+    ]},
+    {"Chapter 8 (Responsible Consumption)": [
+      {"Choices": ["Environmental", "Ethical"]}
+    ]}
+  ],
+  "📚 History, Geography, Law – Integrated": [
+    {"Chapter 1 (Earth and Solar System)": [
+      {"Astronomy": ["Planets", "Satellites", "Motion", "Day-night variation"]}
+    ]},
+    {"Chapter 2 (Latitudes and Longitudes)": [
+      {"Geography": ["Time zones", "Logic puzzles with maps"]}
+    ]},
+    {"Chapter 3 (Landforms and Global Water Bodies)": [
+      {"Landforms": ["Mountains", "Plateaus", "Plains", "Deserts"]},
+      {"Water Bodies": ["Oceans", "Rivers", "Lakes"]}
+    ]},
+    {"Chapter 4 (Climate and Weather)": [
+      {"Zones": ["Climate zones"]},
+      {"Patterns": ["Weather", "Impact on life and economy"]}
+    ]},
+    {"Chapter 5 (Maps, Globes, GIS)": [
+      {"Skills": ["Reading maps", "Locating places"]},
+      {"Technology": ["Satellite mapping introduction"]}
+    ]},
+    {"Chapter 6 (Natural Disasters)": [
+      {"Events": ["Earthquake", "Volcano", "Flood"]},
+      {"Preparedness": ["Case studies"]}
+    ]},
+    {"Chapter 7 (Environmental Protection & Human Interaction)": [
+      {"Cause and Effect": ["Conservation"]},
+      {"Role": ["Student involvement"]}
+    ]},
+    {"Chapter 8 (What is Law? Origins and Importance)": [
+      {"Law Basics": ["Societal importance", "Frameworks"]}
+    ]},
+    {"Chapter 9 (Rules vs Laws)": [
+      {"Norms": ["Social", "Moral", "Legal"]},
+      {"Discussion": ["Activities"]}
+    ]},
+    {"Chapter 10 (Constitution, Child Rights & Protection)": [
+      {"Indian Constitution": ["Overview"]},
+      {"UNCRC": ["Child rights"]},
+      {"Stories": ["Rights in practice"]}
+    ]},
+    {"Chapter 11 (Online Safety Laws)": [
+      {"Cyberbullying": ["Legal and social aspects"]},
+      {"Data Protection": ["Basics"]},
+      {"Tech Use": ["Sensible practices"]}
+    ]},
+    {"Chapter 12 (Gender Equality and Anti-Discrimination)": [
+      {"Laws": ["Equality laws"]},
+      {"Discussions": ["Debates and real examples"]}
+    ]}
+  ],
+  "📜 Hindi": [
+    {"Chapter 1 ([translate:नैतिकता और सामाजिक विषय])": [
+      {"Topics": ["[translate:शिक्षा का महत्व]", "कविता", "कहानी", "संवाद", "बाल अधिकार", "लैंगिक सम्मान", "जाति पर चर्चा"]}
+    ]},
+    {"Chapter 2 ([translate:व्याकरण और रचनात्मक लेखन])": [
+      {"Grammar": ["काल", "विरोधाभाषी शब्द", "अपठित गद्यांश"]},
+      {"Writing": ["अनुवाद", "संवाद लेखन"]}
+    ]},
+    {"Chapter 3 ([translate:सामाजिक एवं ऐतिहासिक घटनाएँ])": [
+      {"Materials": ["कहानियाँ", "पत्र लेखन", "समाचार रचना"]}
+    ]}
+  ],
+  "🌱 Moral Values & Ethics": [
+    {"Chapter 1 (What is Right & Wrong?)": [
+      {"Stories": ["Real-life stories"], "Themes": ["Truthfulness", "Courage", "Why help matters"]}
+    ]},
+    {"Chapter 2 (Respect and Gender Equality)": [
+      {"Values": ["Respecting all", "Girls' rights"]},
+      {"Anti-Bullying": ["Speaking against harm"]}
+    ]},
+    {"Chapter 3 (Caste Discrimination)": [
+      {"Understanding": ["What is caste?", "Why is it wrong?"]},
+      {"Activities": ["Real stories", "Class discussions"]}
+    ]},
+    {"Chapter 4 (Ethics of Responsibility)": [
+      {"Duties": ["Home", "School", "Environment"]},
+      {"Empathy": ["Kindness towards animals"]}
+    ]},
+    {"Chapter 5 (Our Society)": [
+      {"Discussion": ["Importance of society", "Approach to unfairness"]}
+    ]},
+    {"Chapter 6 (Friendship & Inclusion)": [
+      {"Support": ["Peer support"]},
+      {"Behavior": ["Inclusive actions", "Recognition of all"]}
+    ]},
+    {"Chapter 7 (Propaganda and Critical Thinking)": [
+      {"Concepts": ["What is propaganda?"]},
+      {"Analysis": ["Examples from life, religion, science", "Songs analysis"]}
+    ]},
+    {"Chapter 8 (Ethical Issues Case Studies)": [
+      {"Topics": ["Caste atrocity", "Child labor", "Hate speech"]},
+      {"Examples": ["Khairlanji", "Vemula", "Gujarat 2002"]}
+    ]},
+    {"Chapter 9 (What Would You Do?)": [
+      {"Activities": ["Reflection", "Role play", "Designing an action idea"]}
+    ]},
+    {"Chapter 10 (Courtroom Drama)": [
+      {"Simulations": ["Litigation on caste/gender", "RTI & citizens’ rights", "Election & newsroom role play"]}
+    ]},
+    {"Chapter 11 (Debate and Research Projects)": [
+      {"Debates": ["Should religion influence law?", "Should inter-caste marriage be legal?"]},
+      {"Research": ["Casteism", "Interviews"]}
+    ]},
+    {"Chapter 12 (Veg V/S Non-Veg)": [
+      {"Discussions": ["Necessity of meat", "Love for nature", "Cultural comparisons"]}
+    ]},
+    {"Chapter 13 (Parade)": [
+      {"Teaching": ["Police", "Army", "Duty and responsibility"]},
+      {"Events": ["Weekly parade", "Self-safety: fire, earthquake, emergencies"]}
+    ]},
+    {"Chapter 14 (Indian Social Reformers)": [
+      {"Figures": ["Raja Ram Mohan Roy, Savitribai Phule, Mahatma Gandhi, Dr. B. R. Ambedkar, Jyotirao Phule, Periyar E. V. Ramasamy, Ishwar Chandra Vidyasagar, Pandita Ramabai, Swami Vivekananda, Baba Amte, Tarabai Shinde, Swami Dayanand Saraswati, Vinoba Bhave, Ishwarbhai Patel, Darshan Ratan Ravan, Kandukuri Veeresalingam, Gopal Krishna Gokhale, Sarojini Naidu, Rabindranath Tagore, Ram Manohar Lohia, Annie Besant, Narayana Guru"]}
+    ]},
+    {"Chapter 15 (International Social Reformers)": [
+      {"Figures": ["Nelson Mandela, Martin Luther King Jr., Rosa Parks, Susan B. Anthony, Florence Nightingale, Malala Yousafzai, William Wilberforce, Harriet Tubman, Mother Teresa, Desmond Tutu, Abraham Lincoln, Jane Addams, John Stuart Mill, Eleanor Roosevelt, Karl Marx, Helen Keller, Aung San Suu Kyi, Thomas Paine, Mahatma Phule, Bertrand Russell"]}
+    ]}
+  ],
+  "🗣️ Languages": [
+    {"Chapter 1 (Why Language? History & Types)": [
+      {"Origins": ["Origins of language", "Family tree of world languages"]},
+      {"Modes": ["Spoken", "Written", "Sign language"]}
+    ]},
+    {"Chapter 2 (Languages Apps and Websites)": [
+      {"Apps": ["Duolingo", "Rosetta Stone", "Memrise", "Beelinguapp", "Busuu", "50Languages"]},
+      {"Learning": ["Language exchange programs"]}
+    ]},
+    {"Chapter 3 (Basic Grammar Intro)": [
+      {"Word Order": ["Spanish SVO", "Japanese SOV", "Chinese SVO with tones", "Urdu right-to-left"]}
+    ]},
+    {"Chapter 4 (Self Introduction)": [
+      {"Phrases": ["My name is…", "I am … years old", "I am from…"]}
+    ]},
+    {"Chapter 5 (Daily Routine)": [
+      {"Vocabulary": ["Wake up", "Eat", "Go to school", "Play", "Sleep"]}
+    ]},
+    {"Chapter 6 (School Vocabulary)": [
+      {"Subjects and Items": ["Subjects", "Homework", "Exam", "Classroom items"]}
+    ]},
+    {"Chapter 7 (Asking Questions)": [
+      {"Question Words": ["What", "Where", "When", "Who in all 4 languages"]}
+    ]},
+    {"Chapter 8 (Family and Friends)": [
+      {"Topics": ["Talking about family members", "Best friend"]}
+    ]},
+    {"Chapter 9 (Shopping Dialogue)": [
+      {"Phrases": ["Asking price", "Saying expensive/cheap"]}
+    ]},
+    {"Chapter 10 (Culture Comparison)": [
+      {"Topics": ["School life in Spain, Japan, China, Pakistan"]}
+    ]},
+    {"Chapter 11 (Numbers 100–1000)": [
+      {"Practice": ["Using large numbers in practical exercises"]}
+    ]},
+    {"Chapter 12 (Mini Project)": [
+      {"Assignment": ["Write 5–6 sentences about yourself in all four languages"]}
+    ]},
+    {"Chapter 13 (Multilingual Skills)": [
+      {"Projects": ["Word-lists of meanings in at least five languages"]},
+      {"Languages": ["Spanish", "French", "German", "Chinese", "Japanese", "English", "Hindi"]}
+    ]}
+  ],
+  "👥 GGC (General Guidance Class)": [
+    {"Chapter 1 (Why Education Matters)": [
+      {"Concepts": ["Education builds knowledge, skills, discipline, and power to change society"]}
+    ]},
+    {"Chapter 2 (Types of Education)": [
+      {"Stages": ["Pre-Primary to Doctorate levels", "Descriptions and characteristics"]}
+    ]},
+    {"Chapter 3 (Introduction to Global Education)": [
+      {"Overview": ["School systems in UK, US, Japan, Finland", "India’s global ranking"]}
+    ]},
+    {"Chapter 4 (Study Mindset and Habits)": [
+      {"Profiles": ["Global achievers like Malala, Gitanjali Rao"]},
+      {"Tools": ["Student habit tracker"]}
+    ]},
+    {"Chapter 5 (Exam and Platform Awareness)": [
+      {"Competitions": ["Olympiad, NTSE, Spell Bee"]},
+      {"Platforms": ["Khan Academy, Duolingo, Scratch"]}
+    ]},
+    {"Chapter 6 (Global Technology and Youth Rights)": [
+      {"Topics": ["Technological innovations in India", "Basics of rights under UN, UNICEF"]}
+    ]},
+    {"Chapter 7 (Inspirational Achievers)": [
+      {"Profiles": ["Tech innovators", "Gaming and eSports stars", "Social activists"]}
+    ]},
+    {"Chapter 8 (Personal Learning Path)": [
+      {"Planning": ["Challenges, habit building, action plan for social or tech impact"]}
+    ]},
+    {"Chapter 9 (General Documents for Forms)": [
+      {"Documents": ["Photo, signature, ID proof, certificates"]}
+    ]}
+  ],
+  "🏃‍♂️ Games and P.E.": [
+    {"Chapter 1 (Physical Fitness & Components)": [
+      {"Components": ["Endurance", "Strength", "Flexibility"]},
+      {"Routines": ["Practical exercises"]}
+    ]},
+    {"Chapter 2 (Team Sports & Fair Play)": [
+      {"Sports": ["Football", "Cricket", "Volleyball"]},
+      {"Values": ["Rules, respect, sportsmanship"]}
+    ]},
+    {"Chapter 3 (Nutrition)": [
+      {"Nutrition": ["Macro and micronutrients", "Healthy food choices"]}
+    ]},
+    {"Chapter 4 (Puberty & Body Awareness)": [
+      {"Changes": ["Physical and emotional changes"]},
+      {"Hygiene": ["Personal hygiene and boundaries"]}
+    ]},
+    {"Chapter 5 (First Aid)": [
+      {"Safety": ["Minor wounds", "Burns", "Emergencies"]}
+    ]},
+    {"Chapter 6 (Mental Health)": [
+      {"Wellbeing": ["Stress reduction", "Bullying prevention", "Digital detox", "Yoga", "Mindfulness basics"]}
+    ]},
+    {"Chapter 7 (Relationship Education)": [
+      {"Topics": ["Gender respect", "Healthy relationships", "Assertive communication"]}
+    ]}
+  ],
+  "🎨 Arts, Music and Dance": [
+    {"Chapter 1 (Art Appreciation)": [
+      {"Introduction": ["Famous artists and their works"]}
+    ]},
+    {"Chapter 2 (Music)": [
+      {"Basics": ["Learn music theory", "Singing practice"]}
+    ]},
+    {"Chapter 3 (Dance)": [
+      {"Basics": ["Basic dance forms", "Rhythm", "Movement"]}
+    ]},
+    {"Chapter 4 (Dance Show)": [
+      {"Project": ["Creating a dance performance"]}
+    ]}
+  ],
+  "🧠 General Knowledge (G.K)": [
+    {"Chapter 1 (World Organizations)": [
+      {"Agencies": ["UN", "WHO", "UNESCO"]},
+      {"Roles": ["Missions and contributions"]}
+    ]},
+    {"Chapter 2 (Environmental Initiatives)": [
+      {"Events": ["Paris Agreement", "Climate summits"]},
+      {"Heroes": ["Conservation heroes"]}
+    ]},
+    {"Chapter 3 (Global Awards)": [
+      {"Awards": ["Nobel Prize", "Other significant honors"]}
+    ]},
+    {"Chapter 4 (Indian Constitution & National Days)": [
+      {"Topics": ["Key acts", "Republic and Independence Day facts"]}
+    ]},
+    {"Chapter 5 (World Revolutions)": [
+      {"Events": ["French", "American", "Digital revolutions"]}
+    ]},
+    {"Chapter 6 (Current Affairs)": [
+      {"Activities": ["Thematic debates", "Weekly quiz", "Newspaper analysis"]}
+    ]},
+    {"Chapter 7 (Science & Technology Discoveries)": [
+      {"Topics": ["AI", "Robotics", "Green energy", "Space missions like ISRO and NASA"]}
+    ]}
+  ],
+  "🔬 Research Projects (R.P)": [
+    {"Chapter 1 (Introduction to Experimental Design)": [
+      {"Concepts": ["Hypothesis formulation", "Materials selection", "Methodology", "Recording results"]}
+    ]},
+    {"Chapter 2 (Electrical Safety Advanced)": [
+      {"Topics": ["Short circuits", "Insulation", "Overloading", "Multimeter use"]}
+    ]},
+    {"Chapter 3 (Mechanical Safety Advanced)": [
+      {"Safety": ["Rotating machines", "Soldering tools", "Protective equipment"]}
+    ]},
+    {"Chapter 4 (Chemical Safety in Lab Work)": [
+      {"Protocols": ["Material Safety Data Sheets", "Labeling", "First aid for spills"]}
+    ]},
+    {"Chapter 5 (Environmental Safety)": [
+      {"Practices": ["Safe disposal", "Recycling"]}
+    ]},
+    {"Chapter 6 (Videography & Editing)": [
+      {"Storytelling": ["Visual storytelling", "Explaining projects visually"]}
+    ]},
+    {"Chapter 7 (Smartphone Filming Techniques)": [
+      {"Techniques": ["Lighting", "Clarity", "Stability"]}
+    ]},
+    {"Chapter 8 (Basic Editing)": [
+      {"Apps": ["CapCut", "Canva", "InShot"], "Skills": ["Trimming", "Captions", "Background music"]}
+    ]},
+    {"Chapter 9 (Presentation Voice and Confidence)": [
+      {"Skills": ["Clear speaking", "Pausing", "Expressive explanation"]}
+    ]},
+    {"Chapter 10 (Safety and Ethics)": [
+      {"Ethics": ["Consent", "Data privacy", "Respectful online behavior"]}
+    ]},
+    {"Chapter 11 (Project Showcase)": [
+      {"Activities": ["Recording and editing project videos for school YouTube channel"]}
+    ]},
+    {"Chapter 12 (Research Project Exhibition)": [
+      {"Events": ["Group project presentations with safety documentation"]}
+    ]},
+    {"Chapter 13 (Sensors in Technology)": [
+      {"Types and Applications": ["Airplanes", "Boats", "Drones", "Robots"], "Hands-on": ["Sensor demonstrations"]}
+    ]},
+    {"Chapter 14 (Robotics – Introduction)": [
+      {"Resources": ["NPTEL lectures", "Classroom kits"]},
+      {"Projects": ["Basic robot with sensors"]}
+    ]},
+    {"Chapter 15 (Machine Learning)": [
+      {"Concepts": ["Simplified lessons", "Age-appropriate examples", "NPTEL projects"]}
+    ]},
+    {"Chapter 16 (Softwares)": [
+      {"Tools": ["TinkerCAD", "Arduino IDE"]}
+    ]}
+  ]
+},
 
-    "➗ Mathematics": [
-      "Chapter 1(Number Systems) : Natural, whole, integers, rational numbers; converting between types.",
-      "Chapter 2(Fractions & Decimals) : Addition, subtraction, multiplication, division; real-life applications.",
-      "Chapter 3(Basic Algebra) : Expressions, equations, identities; introduction to simple formula manipulation.",
-      "Chapter 4(Operators and Expressions) : Understanding mathematical operators, Types of operators- Arithmetic Operators, Relational Operators, Logical Operators, Bitwise Operators, Assignment Operators, Unary Operators, Conditional (Ternary) Operator, Shift Operators, Special Operators, Miscellaneous Operators and their uses",
-      "Chapter 5(Geometry) : Lines, angles, polygons, introduction to 3D objects (cube, cuboid, sphere, cylinder).",
-      "Chapter 6(Mensuration) : Area and volume calculations; surface area, perimeter for triangles, rectangles, and 3D objects.",
-      "Chapter 7(Statistics & Data) : Bar graphs, mean, mode; introduction to probability with simple experiments and real-world examples.",
-      "Chapter 8(Ratio & Proportion) : Direct/inverse variations, word problems from daily scenarios.",
-      "Chapter 9(Speed-Time-Distance) : Basic distance/speed/time calculations, relating to transportation and events.",
-      "Chapter 10(Vector & Introductory 3D Geometry) : Concept of direction and magnitude, basic vector addition, visualizing coordinate space.",
-    ],
-
-    "🔬 Physics": [
-      "Chapter 1(Units and Dimensions) : Basic measurement units, dimensions of length, mass, time.",
-      "Chapter 2(Motion and Measurement) : Measuring distances, types of motion (linear, circular, oscillatory), experiments and real-life examples.",
-      "Chapter 3(Light and Shadows) : Propagation of light, formation of shadows, differences between transparent/opaque materials.",
-      "Chapter 4(The Human Eye and the Colourful World) : Structure of the eye, how we see colors, rainbows, and prisms.",
-      "Chapter 5(Electricity Basics) : what are Voltage, Potential difference, Current, Resister, Inductor, Capacitor. How bulbs, switches, and batteries work, constructing simple electrical circuits.",
-      "Chapter 6(Force and Pressure) : Types of forces (gravitational, frictional), pressure concepts with practical demonstrations.",
-      "Chapter 7(Sound) : Nature of sound waves, pitch, loudness, experiments with vibrations and resonance.",
-      "Chapter 8(Heat and Temperature) : Measuring temperature, heat transfer methods (conduction, convection, radiation), everyday examples.",
-      "Chapter 9(Magnetism) : Magnetic fields, poles, Earth’s magnetism, practical activities with magnets.",
-      "Chapter 10(Energy Forms and Transformations) : Kinetic, potential, thermal energy; simple machines and energy conservation.",
-      "Chapter 11(Energy Laws in Physcis) : Law of Conservation of Energy, Law of Conservation of Mass, First Law of Thermodynamics, Second Law of Thermodynamics.",
-
-    ],
-
-    "⚗️ Chemistry": [
-      "Chapter 1(Physical and Chemical Changes) : Experiments to differentiate between types of changes.",
-      "Chapter 2(Elements, Compounds, and Mixtures) : Separation methods and everyday examples.",
-      "Chapter 3(Acids, Bases, and Salts) : Identifying with indicators, home chemistry experiments.",
-      "Chapter 4(Air and Water) : Composition, purification methods, environmental significance.",
-      "Chapter 5(Atoms and Molecules) : Introduction with models and analogies.",
-      "Chapter 6(Rusting and Corrosion) : Prevention and reasons for rust, effects of pollution.",
-      "Chapter 7(Combustion and Fuels) : Types, uses, and safety."
-    ],
-
-    "🧬 Biology": [
-      "Chapter 1(Human Anatomy) : Overview of body organs and systems, healthy habits.",
-      "Chapter 2(Case Studies: Medical Innovations) : Landmark stories (vaccines, X-ray, MRI, etc.).",
-      "Chapter 3(Environmental Science) : Human-environment interdependence; projects on conservation.",
-      "Chapter 4(Cell Structure and Function) : Microscopic world—organelles, function, diagrams.",
-      "Chapter 5(Body Systems) : Digestive, respiratory, circulatory, nervous—answers to real-life health questions.",
-      "Chapter 6(Plants) : Anatomy, reproduction, their ecological role.",
-      "Chapter 7(Microorganisms) : Beneficial and harmful microbes; experiments with cultures and kitchen science.",
-      "Chapter 8(Health and Hygiene) : Habits for disease prevention, basic first aid.",
-      "Chapter 9(Food Chain, Web, Ecosystems) : Interconnected life, energy flow.",
-      "Chapter 10(Conservation) : Save plants and animals, student involvement with environment clubs."
-    ],
-
-    "📖 English": [
-      "Chapter 1(GRE and TOEFL – Foundation) : Listening and reading comprehension, logic-based vocabulary, speaking and grammar exercises, practice tests for reasoning-based English.",
-      "Chapter 2(Active passive, tenses, modals) : Sentence structure (all tenses), punctuation, conjunctions, subject-verb agreement, creative writing (stories, essays, letters), editing and peer review activities.",
-      "Chapter 3(Direct and Indirect Speech) : Rules and practice exercises, converting sentences, dialogues.",
-      "Chapter 4(Storytelling and Role-Play) : Daily speaking practice through stories, debates, and presentations; peer feedback."
-    ],
-
-    "🏛️ Political Science": [
-      "Chapter 1(What is Government?) : Need for governance, functions and roles.",
-      "Chapter 2(Types of Government) : Democracy, monarchy, dictatorship—global and Indian context.",
-      "Chapter 3(The Indian Constitution) : Structure, highlights, importance, preamble.",
-      "Chapter 4(Fundamental Rights and Duties) : Citizen responsibilities, case studies.",
-      "Chapter 5(Parliament and Judiciary) : Law-making process, judiciary role, courts.",
-      "Chapter 6(Local Government) : Panchayati Raj, Municipalities, federal structure, real role-play."
-    ],
-
-    "💰 Economics": [
-      "Chapter 1(Needs and Wants) : Distinguishing survival from convenience; case studies.",
-      "Chapter 2(Goods and Services) : Producers and consumers, examples from daily life.",
-      "Chapter 3(Money and Barter) : Evolution of currency; bartering in practice.",
-      "Chapter 4(Producers, Consumers, Trade) : Practical projects on local markets.",
-      "Chapter 5(Banking and Digital Transactions) : Account types, UPI, security, introduction to e-commerce.",
-      "Chapter 6(Value, Price, Trade) : Real and perceived value, demand and supply basics.",
-      "Chapter 7(Basic Entrepreneurship) : Setting up a shop/stall simulation, introduction to business planning.",
-      "Chapter 8(Responsible Consumption) : Environmental and ethical choices in spending."
-    ],
-
-    "📚 History, Geography, Law – Integrated": [
-      "Chapter 1(Earth and Solar System) : Planets, satellites, motion, day-night variation.",
-      "Chapter 2(Latitudes and Longitudes) : Calculating time zones, logic puzzles with world maps.",
-      "Chapter 3(Landforms and Global Water Bodies) : Mountains, plateaus, plains, deserts, oceans, rivers, lakes.",
-      "Chapter 4(Climate and Weather) : Zones, weather patterns, impact on life and economy.",
-      "Chapter 5(Maps, Globes, GIS) : Reading maps, locating places, intro to satellite mapping.",
-      "Chapter 6(Natural Disasters) : Earthquake, volcano, flood—case studies and preparedness.",
-      "Chapter 7(Environmental Protection & Human Interaction) : Cause and effect, conservation, students’ role.",
-      "Chapter 8(What is Law? Origins and Importance) : Why societies need laws, basic legal frameworks.",
-      "Chapter 9(Rules vs Laws) : Social/moral/legal norms, discussion activities.",
-      "Chapter 10(Constitution, Child Rights & Protection) : Indian Constitution, UNCRC, stories of child rights.",
-      "Chapter 11(Online Safety Laws) : Cyberbullying, data protection, sensible tech use.",
-      "Chapter 12(Gender Equality and Anti-Discrimination) : Laws for all, equality debates, real global/local examples."
-    ],
-
-    "📜 Hindi": [
-      "Chapter 1(नैतिकता और सामाजिक विषय) : शिक्षा का महत्व, कविता, कहानी, संवाद, बाल अधिकार, लैंगिक सम्मान, जाति पर चर्चा।",
-      "Chapter 2(व्याकरण और रचनात्मक लेखन) : काल, विरोधाभाषी शब्द, अपठित गद्यांश, अनुवाद, संवाद लेखन।",
-      "Chapter 3(सामाजिक एवं ऐतिहासिक घटनाएँ) : कहानियाँ, पत्र लेखन, समाचार रचना।"
-    ],
-
-    "🌱 Moral Values & Ethics": [
-      "Chapter 1(What is Right & Wrong?) : Real-life stories; truthfulness, courage, why help matters.",
-      "Chapter 2(Respect and Gender Equality) : Respecting all, girls’ rights, speaking against harm, anti-bullying.",
-      "Chapter 3(Caste Discrimination) : What is caste? Why is it wrong? Real stories, classroom discussion.",
-      "Chapter 4(Ethics of Responsibility) : Home, school, environmental duties, empathy and kindness for animals.",
-      "Chapter 5(Our Society) : Why society matters, should we directly oppose society if they are practicing unfairness? .",
-      "Chapter 6(Friendship & Inclusion) : Peer support, inclusive behavior, recognition of all.",
-      "Chapter 7(Propaganda and Critical Thinking) : What is propaganda? Examples from life, religion, science. Analyzing propaganda songs like.",
-      "Chapter 8(Ethical Issues Case Studies) : Topic-based study—caste atrocity, child labor, hate speech (e.g. Khairlanji, Vemula, Gujarat 2002).",
-      "Chapter 9(What Would You Do?) : Reflection, role-play, designing an action idea.",
-      "Chapter 10(Courtroom Drama) : Simulating litigation on caste/gender, RTI and citizens’ rights, role-play election and newsroom reporting.",
-      "Chapter 11(Debate and Research Projects) : Should religion influence law? Should inter-caste marriage be legal? Research casteism in your area, interviews with marginalized communities.",
-      "Chapter 12(Veg V/S Non-Veg) : Is eating meat necessary?, Need of meat for human body, can people eating meat love nature?, other countries vs India",
-      "Chapter 13(Parade) : Teaching about police, army ... duty and responsibility. Also there will be weekly parade and self safety in case of fire, earthquake or any other emergency.",
-      "Chapter 14(Indian Social Reformers) : Raja Ram Mohan Roy, Savitribai Phule, Mahatma Gandhi, Dr. B. R. Ambedkar, Jyotirao Phule, Periyar E. V. Ramasamy, Ishwar Chandra Vidyasagar, Pandita Ramabai, Swami Vivekananda, Baba Amte, Tarabai Shinde, Swami Dayanand Saraswati, Vinoba Bhave, Ishwarbhai Patel, Darshan Ratan Ravan, Kandukuri Veeresalingam, Gopal Krishna Gokhale, Sarojini Naidu, Rabindranath Tagore, Ram Manohar Lohia, Annie Besant, Narayana Guru.",
-      "Chapter 15(International Social Reformers) : Nelson Mandela, Martin Luther King Jr., Rosa Parks, Susan B. Anthony, Florence Nightingale, Malala Yousafzai, William Wilberforce, Harriet Tubman, Mother Teresa, Desmond Tutu, Abraham Lincoln, Jane Addams, John Stuart Mill, Eleanor Roosevelt, Karl Marx, Helen Keller, Aung San Suu Kyi, Thomas Paine, Mahathma Phule, Bertrand Russell."
-
-    ],
-
-    "🗣️ Languages": [
-      "Chapter 1 (Why Language? History & Types) : Origins of language, family tree of world languages, spoken, written, sign language.",    
-      "Chapter 2 (Languages Apps and Websites) : Duolingo, Rosetta Stone, Memrise, Beelinguapp, Busuu, 50Languages, language exchange programs.",
-      "Chapter 3 (Basic Grammar Intro): Word order differences – Spanish SVO, Japanese SOV, Chinese SVO with tones, Urdu right-to-left.",
-      "Chapter 4 (Self Introduction): 'My name is… I am … years old. I am from…'",
-      "Chapter 5 (Daily Routine): Wake up, eat, go to school, play, sleep.",
-      "Chapter 6 (School Vocabulary): Subjects, homework, exam, classroom items.",
-      "Chapter 7 (Asking Questions): What, Where, When, Who in all 4 languages.",
-      "Chapter 8 (Family and Friends): Talking about family members and best friend.",
-      "Chapter 9 (Shopping Dialogue): Asking price, saying expensive/cheap.",
-      "Chapter 10 (Culture Comparison): School life in Spain, Japan, China, Pakistan.",
-      "Chapter 11 (Numbers 100–1000): Using large numbers in practical exercises.",
-      "Chapter 12 (Mini Project): Write 5–6 sentences about yourself in all four languages.",
-      "Chapter 13 (Multilingual Skills) : Students make word-lists of meanings in at least five languages (Spanish, French, German, Chinese, Japanese, English, Hindi) – thematic vocabulary.",
-    ],
-
-    "👥 GGC (General Guidance Class)": [
-      "Chapter 1(Why Education Matters) : Education builds knowledge, skills, discipline, and power to change society.",
-      "Chapter 2(Types of Education) : Pre-Primary / Kindergarten / Early Childhood-Nursery, LKG, UKG (or Pre-KG, KG-1, KG-2), Primary (Elementary)-1st to 5th, Upper Primary / Middle School-6th to 8th, Secondary (High School)-9th to 10th, Higher Secondary (Senior Secondary/Intermediate)-11th to 12th, Undergraduate (Bachelor's)-3 to 4 years, Postgraduate (Master's)-2 years, Doctorate (PhD)-Varies.",
-      "Chapter 3(Introduction to Global Education) : Structure of UK, US, Japan, Finland school systems; where India stands globally.",
-      "Chapter 4(Study Mindset and Habits) : Learning from global achievers—profiles: Malala, Gitanjali Rao, student habit tracker.",
-      "Chapter 5(Exam and Platform Awareness) : Intro to Olympiad, NTSE, Spell Bee, and platforms like Khan Academy, Duolingo, Scratch.",
-      "Chapter 6(Global Technology and Youth Rights) : Major technologies, innovation in India, basics of rights under UN, UNICEF.",
-      "Chapter 7(Inspirational Achievers) : Technology innovators—Brittany Wenger, Krtin Nithiyanandam, Shubham Banerjee, Advait Thakur, Thomas Suarez; Gaming & eSports—TenZ, Ewok, ScoutOP, Clix, Ruri; Social activists—Kehkashan Basu, Mari Copeny, Gaurav Gaikwad, Ridhima Pandey, Jazz Jennings.",
-      "Chapter 8(Personal Learning Path) : Inspiration, challenges, habit building, comparing journeys, making your own action plan for social or tech impact.",
-      "Chapter 9(General Documents for forms) : Photo, signature, ID proof, address proof, income proof, birth certificate, educational certificates, caste certificate, disability certificate, domicile certificate."
-    ],
-
-    "🏃‍♂️ Games and P.E.": [
-      "Chapter 1(Physical Fitness & Components) : Endurance, strength, flexibility; practical exercise routines.",
-      "Chapter 2(Team Sports & Fair Play) : Football, cricket, volleyball rules and strategies for respect.",
-      "Chapter 3(Nutrition) : Macro- and micronutrients; healthy food choices and their impact.",
-      "Chapter 4(Puberty & Body Awareness) : Physical and emotional changes, hygiene, boundaries.",
-      "Chapter 5(First Aid) : Addressing minor wounds, burns, and emergencies.",
-      "Chapter 6(Mental Health) : Stress reduction, bullying prevention, digital detox, yoga, basic mindfulness.",
-      "Chapter 7(Relationship Education) : Gender respect, building healthy relationships, assertive communication."
-    ],
-
-    "🎨 Arts, Music and Dance": [
-      "Chapter 1(Art Appreciation) : Introduction to famous artists and their works.",
-      "Chapter 2(Music) : learn some music and sing.",
-      "Chapter 3(Dance) : Introduction to basic dance forms, rhythm, and movement.",
-      "Chapter 4(Dance show) : Creating a dance performance incorporating learned elements."
-    ],
-
-    "🧠 General Knowledge (G.K)": [
-      "Chapter 1(World Organizations) : UN, WHO, UNESCO; missions and contributions.",
-      "Chapter 2(Environmental Initiatives) : Paris Agreement, climate summits, conservation heroes.",
-      "Chapter 3(Global Awards) : Nobel Prize, other significant honors.",
-      "Chapter 4(Indian Constitution & National Days) : Key acts, Republic/Independence Day facts.",
-      "Chapter 5(World Revolutions) : Key turning points—French, American, Digital.",
-      "Chapter 6(Current Affairs) : Thematic debates, weekly quiz, newspaper analysis.",
-      "Chapter 7(Science & Technology Discoveries) : AI, robotics, green energy, space missions (ISRO, NASA)."
-    ],
-
-    "🔬 Research Projects (R.P)": [
-      "Chapter 1(Introduction to Experimental Design) : Understanding hypothesis, materials, method, and result recording.",
-      "Chapter 2(Electrical Safety Advanced) : Learning about short circuits, insulation, overloading, and multimeter use.",
-      "Chapter 3(Mechanical Safety Advanced) : Safe handling of rotating machines, soldering tools, and protective equipment.",
-      "Chapter 4(Chemical Safety in Lab Work) : Reading Material Safety Data Sheets (MSDS), labeling bottles, and basic first-aid for spills.",
-      "Chapter 5(Environmental Safety) : Safe disposal of batteries, wires, and chemical waste; learning recycling practices.",
-      "Chapter 6(Videography & Editing) : Storytelling Through Video, How to explain your project or idea step by step using visual storytelling.",
-      "Chapter 7(Smartphone Filming Techniques) : How to use mobile cameras for quality video — lighting, clarity, stability.",
-      "Chapter 8(Basic Editing) : Introduction to apps like CapCut, Canva, or InShot for trimming, adding captions, and background music.",
-      "Chapter 9(Presentation Voice and Confidence) : Speaking clearly, using pauses, and explaining with emotion.",
-      "Chapter 10(Safety and Ethics) : Understanding consent, not sharing personal data, and respecting online behavior.",
-      "Chapter 11(Project Showcase) : Record and edit your own explanation video about a science or robotics project to be featured on school’s YouTube channel.",
-      "Chapter 12(Research Project Exhibition) : Presenting group projects like drone, solar car, or robotic arm with complete safety documentation.",
-      "Chapter 13(Sensors in Technology) : Types and applications in airplanes, boats, drones, robots; hands-on sensor demonstration.",
-      "Chapter 14(Robotics – Introduction) : NPTEL lectures, classroom kits; project build: basic robot with sensors.",
-      "Chapter 15(Machine Learning) : Simplified machine learning concept lessons, using NPTEL videos/projects for age-appropriate examples.",
-      "Chapter 16(softwares) : TinkerCAD, Arduino IDE.",
-    ]
-  },
  
   "📚 Class 7": {
-    "💻 Computer Science": [
-      "Chapter 1(Java and Python Basics) : Core syntax, data types, variables, loops, basic input/output in both languages, completion of 70 CP (competitive programming) questions through the year (2 per week).",
-      "Chapter 2(HTML, CSS, and JavaScript) : Building advanced web pages, styling with CSS, interactivity with JavaScript. Creating complete mini-projects. also explore React.js and Node.js basics.",
-      "Chapter 3(Scratch Projects) : Advanced games and simulation projects using Scratch; storyboarding and sprite logic.",
-      "Chapter 4(Number Systems) : Binary, decimal, and octal conversions; practical coding exercises and logic drills.",
-      "Chapter 5(Algorithmic Thinking) : Writing pseudocode, flowcharts, analyzing simple algorithms; practice on logic-building challenges.",
-      "Chapter 6(Webpage Creation Basics) : Step-by-step webpage planning—structure, navigation, content embedding.",
-      "Chapter 7(Internet & Online Safety) : Using search engines smartly, browser security, digital footprints, safe internet practices."
-    ],
-    "➗ Mathematics": [
-      "Chapter 1(Trigonometry) : Basics of trigonometric ratios, applications, and identities.",
-      "Chapter 2(Algebraic Identities and Equations) : Manipulation and use of algebraic identities; solving simple linear equations.",
-      "Chapter 3(3D, Vectors, Probability, and Statistics) : 3D geometry visualization, introduction to vectors, intermediate probability (with real-life experiment cases), central tendencies, bar, and pie charts.",
-      "Chapter 4(Congruence of Triangles) : Tests of congruence, problems, and geometric proofs.",
-      "Chapter 5(Lines, Angles, and Circles) : Properties, theorem work with area and circumference of circles (class 9th chapter included).",
-      "Chapter 6(Rational Numbers) : Properties, operations, ordering, and problems.",
-      "Chapter 7(Data Handling & Graphs) : Pie charts, probability introductions, graph plotting in the first quadrant.",
-      "Chapter 8(Percentages, Profit/Loss) : Real-life money problems, percentage calculations, gross/net profit problems.",
-      "Chapter 9(functions) : Concept of Variables, functions, domain, range, types of functions.",
-      "chapter 10(differention) : Introduction to differentiation, basic rules and applications.",
-      "chapter 11(integration) : Introduction to integration, basic rules and applications.",
-      "chapter 12(Area under the curve) : area under the curve basics.",
+  "💻 Computer Science": [
+    {"Chapter 1 (Java and Python Basics)": [
+      {"Core Syntax": ["Data types", "Variables", "Loops"]},
+      {"Input/Output": ["Basic I/O statements"]},
+      {"Practice": ["Completion of 70 competitive programming questions throughout the year"]}
+    ]},
+    {"Chapter 2 (HTML, CSS, and JavaScript)": [
+      {"Advanced Web Development": ["Building advanced web pages", "Styling with CSS"]},
+      {"Interactivity": ["JavaScript basics and interactivity"]},
+      {"Projects": ["Mini-projects", "Exploration of React.js and Node.js basics"]}
+    ]},
+    {"Chapter 3 (Scratch Projects)": [
+      {"Advanced Projects": ["Games", "Simulation"], "Concepts": ["Storyboarding", "Sprite logic"]}
+    ]},
+    {"Chapter 4 (Number Systems)": [
+      {"Conversions": ["Binary", "Decimal", "Octal"]},
+      {"Exercises": ["Practical coding exercises", "Logic drills"]}
+    ]},
+    {"Chapter 5 (Algorithmic Thinking)": [
+      {"Writing Techniques": ["Pseudocode", "Flowcharts"]},
+      {"Analysis": ["Simple algorithm analysis"]},
+      {"Practice": ["Logic-building challenges"]}
+    ]},
+    {"Chapter 6 (Webpage Creation Basics)": [
+      {"Planning": ["Step-by-step webpage planning", "Structure and navigation"]},
+      {"Content Embedding": ["Embedding multimedia content"]}
+    ]},
+    {"Chapter 7 (Internet & Online Safety)": [
+      {"Smart Usage": ["Using search engines effectively"]},
+      {"Browser Security": ["Browser security practices"]},
+      {"Digital Footprint": ["Understanding digital footprints"]},
+      {"Safety Practices": ["Safe internet usage"]}
+    ]}
+  ],
+  "➗ Mathematics": [
+    {"Chapter 1 (Trigonometry)": [
+      {"Basics": ["Trigonometric ratios"]},
+      {"Applications": ["Real world use cases"]},
+      {"Identities": ["Fundamental trigonometric identities"]}
+    ]},
+    {"Chapter 2 (Algebraic Identities and Equations)": [
+      {"Manipulation": ["Use of algebraic identities"]},
+      {"Equations": ["Solving simple linear equations"]}
+    ]},
+    {"Chapter 3 (3D, Vectors, Probability, and Statistics)": [
+      {"Geometry": ["3D visualization"]},
+      {"Vectors": ["Introduction"]},
+      {"Probability": ["Intermediate concepts with real experiments"]},
+      {"Statistics": ["Central tendencies", "Bar and pie charts"]}
+    ]},
+    {"Chapter 4 (Congruence of Triangles)": [
+      {"Tests": ["Congruence tests"]},
+      {"Problems": ["Geometric proofs"]}
+    ]},
+    {"Chapter 5 (Lines, Angles, and Circles)": [
+      {"Properties": ["Lines and angles properties"]},
+      {"Circle Theorems": ["Area and circumference of circles"]}
+    ]},
+    {"Chapter 6 (Rational Numbers)": [
+      {"Properties": ["Rational number operations"]},
+      {"Practice": ["Ordering and problem solving"]}
+    ]},
+    {"Chapter 7 (Data Handling & Graphs)": [
+      {"Graphs": ["Pie charts"]},
+      {"Probability": ["Basic introductions"]},
+      {"Plotting": ["Graphs in first quadrant"]}
+    ]},
+    {"Chapter 8 (Percentages, Profit/Loss)": [
+      {"Concepts": ["Real-life money problems"]},
+      {"Practice": ["Percentage calculations", "Profit and loss problems"]}
+    ]},
+    {"Chapter 9 (Functions)": [
+      {"Concepts": ["Variables", "Functions", "Domain", "Range"]},
+      {"Types": ["Different types of functions"]}
+    ]},
+    {"Chapter 10 (Differentiation)": [
+      {"Basics": ["Introduction", "Rules", "Applications"]}
+    ]},
+    {"Chapter 11 (Integration)": [
+      {"Basics": ["Introduction", "Rules", "Applications"]}
+    ]},
+    {"Chapter 12 (Area under the Curve)": [
+      {"Concepts": ["Basic area calculation"]}
+    ]}
+  ],
+  "🔬 Physics": [
+    {"Chapter 1 (Units and Dimensions)": [
+      {"Measurement": ["Unit conversions", "Dimensional analysis"]},
+      {"Errors": ["Types and handling errors"]}
+    ]},
+    {"Chapter 2 (Heat and Temperature)": [
+      {"Concepts": ["Heat and temperature"]},
+      {"Measurement": ["Scales and real-life applications"]}
+    ]},
+    {"Chapter 3 (Light)": [
+      {"Laws": ["Reflection and refraction"]},
+      {"Experiments": ["Role play", "Mirror experiments"]}
+    ]},
+    {"Chapter 4 (Electric Circuits)": [
+      {"Conductors and Insulators": ["Theory"]},
+      {"Circuit Diagrams": ["Bulbs and switches"]}
+    ]},
+    {"Chapter 5 (Force and Its Effects)": [
+      {"Laws": ["Newton's laws of motion"]},
+      {"Problem Solving": ["Exercises on force effects"]}
+    ]},
+    {"Chapter 6 (Basic terms)": [
+      {"Concepts": ["Work", "Power", "Energy types", "Conversions"]}
+    ]},
+    {"Chapter 7 (Wind, Storms, Cyclones)": [
+      {"Causes": ["Weather phenomena"]},
+      {"Impact and Safety": ["Natural disaster preparedness"]},
+      {"Data Analysis": ["Using weather data"]}
+    ]},
+    {"Chapter 8 (Linear Motion)": [
+      {"Motion Types": ["Rotational", "Linear"]},
+      {"Gears": ["Types and ratios"]}
+    ]},
+    {"Chapter 9 (Rotational Motion)": [
+      {"Kinematics": ["Angular velocity", "Angular acceleration"]},
+      {"Forces": ["Centripetal force and acceleration"]}
+    ]},
+    {"Chapter 10 (Angular motion terms)": [
+      {"Quantities": ["Torque", "Angular Momentum", "Moment of Inertia"]},
+      {"Applications": ["Real-world examples"]}
+    ]},
+    {"Chapter 11 (EMI)": [
+      {"Laws": ["Magnetic flux", "Faraday's law", "Lenz's law"]},
+      {"Applications": ["DC motor", "Generator"]}
+    ]},
+    {"Chapter 12 (AC and DC Currents)": [
+      {"Materials": ["Conductor", "Semiconductor", "Insulator"]},
+      {"Laws and Principles": ["Ohm’s law", "Resistance", "Effect of factors", "Cells in series and parallel"]}
+    ]}
+  ],
+  "⚗️ Chemistry": [
+    {"Chapter 1 (Separation Techniques)": [
+      {"Methods": ["Filtration", "Evaporation", "Distillation", "Chromatography"]},
+      {"Examples": ["Household applications"]}
+    ]},
+    {"Chapter 2 (Metals and Non-Metals)": [
+      {"Properties": ["Physical and chemical"]},
+      {"Reactivity Series": ["Corrosion and prevention"]}
+    ]},
+    {"Chapter 3 (Compounds and Chemical Reactions)": [
+      {"Reaction Types": ["Various types"]},
+      {"Balancing": ["Equations"]},
+      {"Real-Life": ["Examples"]}
+    ]},
+    {"Chapter 4 (Air and Atmosphere)": [
+      {"Composition": ["Layers of atmosphere"]},
+      {"Pollution": ["Causes, effects, and prevention"]}
+    ]},
+    {"Chapter 5 (Water: Properties and Uses)": [
+      {"Properties": ["Physical and chemical"]},
+      {"Purification": ["Methods"]},
+      {"Cycle": ["Water cycle"]}
+    ]},
+    {"Chapter 6 (Carbon and Its Compounds)": [
+      {"Allotropes": ["Different forms"]},
+      {"Hydrocarbons": ["Basic organic chemistry"]}
+    ]},
+    {"Chapter 7 (Molecular Structure and Bonding)": [
+      {"Bond Types": ["Ionic and covalent"]},
+      {"Geometry": ["Molecular shapes basics"]}
+    ]},
+    {"Chapter 8 (Acids, Bases, and Salts)": [
+      {"pH Scale": ["Basics"]},
+      {"Neutralization": ["Reactions"]},
+      {"Examples": ["Household"]}
+    ]},
+    {"Chapter 9 (Properties and Classification of Matter)": [
+      {"States": ["Solid", "Liquid", "Gas"]},
+      {"Colloids and Suspensions": ["Hands-on labs"]}
+    ]},
+    {"Chapter 10 (Atoms and the Periodic Table)": [
+      {"Atomic Concepts": ["Definition", "Atomic number", "Valency"]},
+      {"Periodic Table": ["Arrangement", "Real-world examples"]}
+    ]}
+  ],
+  "🧬 Biology": [
+    {"Chapter 1 (Cell Structure and Organelles)": [
+      {"Cells": ["Animal and plant cell structures"]},
+      {"Functions": ["Organelles"]},
+      {"Microscopy": ["Basics"]}
+    ]},
+    {"Chapter 2 (Tissues in Living Organisms)": [
+      {"Animal Tissues": ["Types and functions"]},
+      {"Plant Tissues": ["Structure and roles"]}
+    ]},
+    {"Chapter 3 (Diversity of Life)": [
+      {"Classification": ["Kingdom systems"]},
+      {"Observations": ["Differentiating organisms"]}
+    ]},
+    {"Chapter 4 (Health and Diseases)": [
+      {"Disease Types": ["Infectious and non-infectious"]},
+      {"Prevention": ["Measures", "Recent outbreaks"]}
+    ]},
+    {"Chapter 5 (Natural Resources)": [
+      {"Elements": ["Water", "Air", "Soil"]},
+      {"Conservation": ["Importance and usage"]}
+    ]},
+    {"Chapter 6 (Food Resources and Improvement)": [
+      {"Food Chains and Webs": ["Structure+"]},
+      {"Advancements": ["Productivity and sustainability"]}
+    ]},
+    {"Chapter 7 (Our Health)": [
+      {"Concepts": ["What is health?", "Why it matters?"]},
+      {"Comparisons": ["Health in India vs developed countries"]},
+      {"Diet": ["What is a healthy diet?"]}
+    ]}
+  ],
+  "📖 English": [
+    {"Chapter 1 (Interactive Reading)": [
+      {"Materials": ["Global, CBSE, ICSE literature"]},
+      {"Skills": ["Comprehension", "Debating", "Response writing"]}
+    ]},
+    {"Chapter 2 (GRE/TOEFL Foundations)": [
+      {"Skills": ["Advanced reading comprehension", "Vocabulary enhancement"]},
+      {"Exercises": ["Analogies", "Logical reasoning passages"]}
+    ]},
+    {"Chapter 3 (Creative and Functional Writing)": [
+      {"Writing Styles": ["Essays", "Formal and informal letters"]},
+      {"Career Skills": ["CV drafting", "Story writing"]}
+    ]},
+    {"Chapter 4 (Public Speaking Practice)": [
+      {"Activities": ["Debates", "Mock interviews", "Extempore topics related to world issues"]}
+    ]}
+  ],
+  "🏛️ Political Science": [
+    {"Chapter 1 (Democracy in the Contemporary World)": [
+      {"Concepts": ["Democracy basics", "Examples", "Contemporary challenges"]}
+    ]},
+    {"Chapter 2 (Constitutional Design)": [
+      {"India's Constitution": ["Historical context", "Features"]}
+    ]},
+    {"Chapter 3 (Electoral Politics in India)": [
+      {"Processes": ["Elections", "Campaigns", "Importance of voting"]}
+    ]},
+    {"Chapter 4 (Institutions)": [
+      {"Structures": ["Parliament", "Prime Minister", "President"]},
+      {"Functions": ["Checks and balances"]}
+    ]},
+    {"Chapter 5 (Democratic Rights)": [
+      {"Rights": ["Freedoms", "Duties"]},
+      {"Case Studies": ["Youth in democracy"]},
+      {"Comparative Analysis": ["Global context"]}
+    ]}
+  ],
+  "💰 Economics": [
+    {"Chapter 1 (Village Palampur Story)": [
+      {"Case Study": ["Farming cycles", "Local economy"]}
+    ]},
+    {"Chapter 2 (Human Capital and Resources)": [
+      {"Topics": ["Education", "Migration", "Resource allocation and access"]}
+    ]},
+    {"Chapter 3 (Poverty and Inequality)": [
+      {"Causes and Solutions": ["Various factors", "Measurement"]}
+    ]},
+    {"Chapter 4 (Food Security and Agriculture)": [
+      {"Types and Systems": ["Food security"], "Challenges": ["Ongoing issues"]}
+    ]},
+    {"Chapter 5 (Development Indicators)": [
+      {"Concepts": ["GDP", "HDI", "GNI"]},
+      {"Applications": ["Data interpretation", "Graphs"]}
+    ]},
+    {"Chapter 6 (Labour and Employment)": [
+      {"Forms": ["Various work types"], "Rights": ["Worker rights"], "Sectors": ["Formal and informal"]}
+    ]},
+    {"Chapter 7 (Business Basics)": [
+      {"Terms": ["Profit", "Cost", "Market", "Supply", "Demand"]},
+      {"Activities": ["Real-world applications"]}
+    ]}
+  ],
+  "📚 History and Geography": [
+    {"Chapter 1 (Physical Features of India & World)": [
+      {"Geographic Features": ["Continents", "Major mountains", "Deserts", "Oceans"]}
+    ]},
+    {"Chapter 2 (Drainage and River Basins)": [
+      {"Water Systems": ["Major rivers", "Water cycles"]},
+      {"Case Studies": ["Rivers in India, Asia, Africa"]}
+    ]},
+    {"Chapter 3 (Climate, Vegetation & Zones)": [
+      {"Climates": ["Monsoon"]},
+      {"Vegetation": ["Natural flora"]},
+      {"Community Adaptations": ["Human ecological roles"]}
+    ]},
+    {"Chapter 4 (Population and Density Patterns)": [
+      {"Urban vs Rural": ["Population distribution"]},
+      {"Migration": ["Drivers and impacts"]}
+    ]},
+    {"Chapter 5 (Sustainable Use of Natural Resources)": [
+      {"Resources": ["Renewable", "Non-renewable"]},
+      {"Conservation": ["Forest and soil management case studies"]}
+    ]},
+    {"Chapter 6 (Topographic Maps & Data)": [
+      {"Skills": ["Reading topo sheets", "Demographic maps"]},
+      {"Interpretation": ["Physical and social data"]}
+    ]}
+  ],
+  "⚖️ Law": [
+    {"Chapter 1 (Judicial System Structure)": [
+      {"Hierarchy": ["Local courts to Supreme Court"]}
+    ]},
+    {"Chapter 2 (Citizens' Legal Rights)": [
+      {"Rights": ["RTI", "RTE", "Youth and child rights"]}
+    ]},
+    {"Chapter 3 (FIR, Police & Arrest Process)": [
+      {"Law Protection": ["Citizen protection"], "Role Play": ["Simplified scenarios"]}
+    ]},
+    {"Chapter 4 (Juvenile Justice)": [
+      {"System": ["Juvenile courts", "Laws"], "Scenarios": ["Real-world cases"]}
+    ]},
+    {"Chapter 5 (Landmark Legal Cases)": [
+      {"Cases": ["Nirbhaya", "Vishakha guidelines"]},
+      {"Youth Role": ["Legal reform participation"]}
+    ]}
+  ],
+  "📝 Hindi": [
+    {"Chapter 1 ([translate:अग्रिम साहित्य एवं भाषा])": [
+      {"Literature": ["नवीन कविता", "निबंध", "संवाद"]},
+      {"Applied Hindi": ["काव्य-पाठ", "रूपक", "वाद-विवाद"]}
+    ]},
+    {"Chapter 2 ([translate:व्याकरण])": [
+      {"Grammar Topics": ["काल", "समास", "पर्यायवाची", "मुहावरे", "वाक्य संरचना"]},
+      {"Practice": ["सृजनात्मक अभ्यास"]}
+    ]}
+  ],
+  "🌱 Moral Values": [
+    {"Chapter 1 (Understanding Fairness)": [
+      {"Equality": ["True meaning", "Real-world applications"]},
+      {"Activities": ["Class debates"]}
+    ]},
+    {"Chapter 2 (Rules, Equity and Equality)": [
+      {"Concepts": ["What is a rule?", "Why societies have rules"]},
+      {"Comparisons": ["Equity vs Equality"]},
+      {"Practical Scenarios": ["Application"]}
+    ]},
+    {"Chapter 3 (Treating Everyone Equally)": [
+      {"Role-Play": ["Analyzing biases", "Building inclusivity"]}
+    ]},
+    {"Chapter 4 (Discrimination)": [
+      {"Stories": ["Resistance narratives"]},
+      {"Challenges": ["Legal and ethical"]},
+      {"Journaling": ["Student journals"]}
+    ]},
+    {"Chapter 5 (Environmental Duty)": [
+      {"Responsibility": ["Water and waste management"]},
+      {"Projects": ["Conservation efforts"]}
+    ]},
+    {"Chapter 6 (Gender Equality and Respect)": [
+      {"Advocacy": ["Games and stories"]},
+      {"Discussion": ["Group activities"]}
+    ]},
+    {"Chapter 7 (Honesty vs Cheating)": [
+      {"Ethical Stories": ["Ethical dilemmas", "Role plays"]}
+    ]},
+    {"Chapter 8 (Respect & Apology)": [
+      {"Strategies": ["Apologizing and forgiving"]},
+      {"Activities": ["Classroom exercises"]}
+    ]},
+    {"Chapter 9 (Children’s Rights)": [
+      {"Case Reading": ["Awareness"]}
+    ]},
+    {"Chapter 10 (Standing Up for Others)": [
+      {"Concepts": ["Bystander effect"]},
+      {"Support": ["Helping friends"]}
+    ]},
+    {"Chapter 11 (Self-Reflection)": [
+      {"Topics": ["Understanding shyness", "'Who Am I Becoming?' discussions and journaling"]}
+    ]},
+    {"Chapter 12 (Parade)": [
+      {"Teaching": ["Police, army duties"]},
+      {"Events": ["Weekly parade", "Emergency self-safety"]}
+    ]},
+    {"Chapter 13 (Mental Strength)": [
+      {"Topics": ["Suicide awareness", "Understanding mental health", "Seeking help"]}
+    ]},
+    {"Chapter 14 (Philosophies)": [
+      {"Buddhist Philosophy": ["<a href='pdf/Buddhist_Philosophy.pdf' target='_blank' class='text-blue-700 underline hover:text-blue-400'>Buddhist philosophy</a>, Mindfulness and pursuit of inner peace"]}
+    ]},
+    {"Chapter 15 (Existence)": [
+      {"Concepts": ["Consciousness, identity, human experience", "Connections to eating habits and societal violence"]}
+    ]},
+    {"Chapter 16 (NGO)": [
+      {"Role": ["NGOs in society", "Impact and student involvement", "CSR"]}
+    ]}
+  ],
+  "🗣️ Languages": [
+    {"Chapter 1 (Why Language? History & Types)": [
+      {"Origins": ["Origins of language", "Family tree of world languages"]},
+      {"Modes": ["Spoken", "Written", "Sign language"]}
+    ]},
+    {"Chapter 2 (Languages Apps and Websites)": [
+      {"Apps": ["Duolingo", "Rosetta Stone", "Memrise", "Beelinguapp", "Busuu", "50Languages"]},
+      {"Learning": ["Language exchange programs"]}
+    ]},
+    {"Chapter 3 (Basic Grammar Intro)": [
+      {"Word Order": ["Spanish SVO", "Japanese SOV", "Chinese SVO with tones", "Urdu right-to-left"]}
+    ]},
+    {"Chapter 4 (Self Introduction)": [
+      {"Phrases": ["My name is…", "I am … years old", "I am from…"]}
+    ]},
+    {"Chapter 5 (Daily Routine)": [
+      {"Vocabulary": ["Wake up", "Eat", "Go to school", "Play", "Sleep"]}
+    ]},
+    {"Chapter 6 (School Vocabulary)": [
+      {"Subjects and Items": ["Subjects", "Homework", "Exam", "Classroom items"]}
+    ]},
+    {"Chapter 7 (Asking Questions)": [
+      {"Question Words": ["What", "Where", "When", "Who in all 4 languages"]}
+    ]},
+    {"Chapter 8 (Family and Friends)": [
+      {"Topics": ["Talking about family members", "Best friend"]}
+    ]},
+    {"Chapter 9 (Shopping Dialogue)": [
+      {"Phrases": ["Asking price", "Saying expensive/cheap"]}
+    ]},
+    {"Chapter 10 (Culture Comparison)": [
+      {"Topics": ["School life in Spain, Japan, China, Pakistan"]}
+    ]},
+    {"Chapter 11 (Numbers 100–1000)": [
+      {"Practice": ["Using large numbers in practical exercises"]}
+    ]},
+    {"Chapter 12 (Mini Project)": [
+      {"Assignment": ["Write 5–6 sentences about yourself in all four languages"]}
+    ]},
+    {"Chapter 13 (Multilingual Skills)": [
+      {"Projects": ["Word-lists of meanings in at least five languages"]},
+      {"Languages": ["Spanish", "French", "German", "Chinese", "Japanese", "English", "Hindi"]}
+    ]}
+  ],
+  "👥 GGC (General Guidance Class)": [
+    {"Chapter 1 (Major Global Exams & Scholarships)": [
+      {"Exams": ["NTSE", "KVPY", "IOQM", "INChO", "IJSO", "STEP", "TOEFL Junior", "SAT/PSAT"]}
+    ]},
+    {"Chapter 2 (Major Scholarships)": [
+      {"Scholarships": ["FFE", "Reliance", "HDFC", "NSP", "Overseas scholarships"]}
+    ]},
+    {"Chapter 3 (CV Building & Professional Profiles)": [
+      {"Skills": ["Early-stage CV/portfolio making", "GitHub basics", "LinkedIn basics"]}
+    ]},
+    {"Chapter 4 (Project and Internship Guidance)": [
+      {"Ideas": ["Social service projects (school and community)"]},
+      {"Tracking": ["Progress monitoring"]}
+    ]},
+    {"Chapter 5 (Career Planning)": [
+      {"Alignment": ["Strengths, interests, values with careers"]}
+    ]},
+    {"Chapter 6 (Language in Careers)": [
+      {"Importance": ["Language skills for global opportunities"]},
+      {"Examples": ["Testimonials", "Case studies"]}
+    ]},
+    {"Chapter 7 (Inspirational Young Achievers)": [
+      {"Profiles": ["Faye Zhang", "Anvita Gupta", "Jordan Casey", "Arjun Ajay", "Zora Ball"]}
+    ]},
+    {"Chapter 8 (Gaming & eSports)": [
+      {"Success Stories": ["Mortal", "Mavi", "Rakin", "Mongraal", "Bizzle"]},
+      {"Analysis": ["Traits and habits for success"]}
+    ]},
+    {"Chapter 9 (Social Contribution & Activism)": [
+      {"Case Studies": ["Vihaan & Nav Agarwal", "Jaylen Arnold", "Payal Jangid", "Naomi Wadler", "Ananya Grover"]}
+    ]},
+    {"Chapter 10 (Action-Oriented Reflection)": [
+      {"Personal Journey": ["Mapping progress", "Project and skill building", "Mentor search"]}
+    ]}
+  ],
+  "🏃‍♂️ Games & Physical Education": [
+    {"Chapter 1 (Muscular and Skeletal Systems)": [
+      {"Content": ["Anatomy", "Function", "Injury prevention"]}
+    ]},
+    {"Chapter 2 (Nutrition and Disease)": [
+      {"Topics": ["Food", "Lifestyle diseases like obesity, diabetes"]}
+    ]},
+    {"Chapter 3 (Reproductive Health)": [
+      {"Focus": ["Menstrual health", "Myths", "Age-appropriate care"]}
+    ]},
+    {"Chapter 4 (Substance Abuse Awareness)": [
+      {"Topics": ["Effects of alcohol, tobacco, drugs"]},
+      {"Methods": ["Role play", "Group projects"]}
+    ]},
+    {"Chapter 5 (Physical Training Routines)": [
+      {"Topics": ["Warm-up", "Fitness principles", "Flexibility", "Strength endurance"]}
+    ]},
+    {"Chapter 6 (Fitness Testing & Assessment)": [
+      {"Methods": ["Conducting fitness tests", "Understanding results"]}
+    ]},
+    {"Chapter 7 (Internet and Screen Wellness)": [
+      {"Tech Use": ["Safe internet practices", "Digital detox", "Screen time balance"]}
+    ]}
+  ],
+  "🎨 Arts, Music and Dance": [
+    {"Chapter 1 (Art Appreciation)": [
+      {"Activities": ["Make drawings of birds, animals, etc."]}
+    ]},
+    {"Chapter 2 (Painting Techniques)": [
+      {"Techniques": ["Watercolor", "Acrylic basics", "Color theory"]}
+    ]},
+    {"Chapter 3 (History of Art)": [
+      {"Study": ["Famous artists and their styles"]}
+    ]},
+    {"Chapter 4 (Craft Projects)": [
+      {"Materials": ["Paper mache", "Clay modeling", "Recycled art"]}
+    ]},
+    {"Chapter 5 (Music)": [
+      {"Basics": ["Learn music and sing"]}
+    ]},
+    {"Chapter 6 (History of Music)": [
+      {"Genres": ["Different music genres", "Famous musicians"]}
+    ]},
+    {"Chapter 7 (Dance)": [
+      {"Introduction": ["Basic dance forms", "Rhythm", "Movement"]}
+    ]},
+    {"Chapter 8 (Dance Show)": [
+      {"Project": ["Creating a dance performance with learned elements"]}
+    ]}
+  ],
+  "🧠 General Knowledge (G.K)": [
+    {"Chapter 1 (Indian Governance)": [
+      {"Topics": ["President", "Prime Minister", "Parliament roles and powers"]}
+    ]},
+    {"Chapter 2 (Global Leaders and Conflicts)": [
+      {"Studies": ["Major world leaders", "Contemporary conflicts and peacekeeping"]}
+    ]},
+    {"Chapter 3 (Economic Indicators)": [
+      {"Concepts": ["GDP", "Inflation", "HDI", "India vs world"]}
+    ]},
+    {"Chapter 4 (Geopolitical Geography)": [
+      {"Topics": ["Borders", "Alliances", "Regions of conflict", "Major world events"]}
+    ]},
+    {"Chapter 5 (Sports and World Events)": [
+      {"Events": ["Olympics", "FIFA", "ICC history and records"]}
+    ]},
+    {"Chapter 6 (Debates and Quizzes)": [
+      {"Activities": ["Weekly quiz bowl", "Current affairs debates"]}
+    ]}
+  ],
+  "🔬 Research Projects (R.P)": [
+    {"Chapter 1 (Robotics Introduction & NPTEL Lectures)": [
+      {"Theory": ["Basics and hands-on activities with kits", "Autonomous task demonstrations"]}
+    ]},
+    {"Chapter 2 (Machine Principles)": [
+      {"Study": ["Working principles of airplanes, quadcopters, drones"]},
+      {"Activities": ["Comparative studies", "Projects", "Debates"]},
+      {"Support": ["Video lectures"]}
+    ]},
+    {"Chapter 3 (CAD Design)": [
+      {"Software": ["Canvas", "AutoCAD", "Fusion 360", "TensorFlow"]},
+      {"Concepts": ["Basic 3D modeling and design principles"]}
+    ]},
+    {"Chapter 4 (Machine Learning Basics)": [
+      {"Introduction": ["Machine learning concepts"]},
+      {"Applications": ["Real-world scenarios"]}
+    ]}
+  ]
+},
 
-    ],
-    "🔬 Physics": [
-      "Chapter 1(Units and Dimensions) : Unit conversions, dimensional analysis, Error.",
-      "Chapter 2(Heat and Temperature) : Concepts, measurement, real-life applications, and comparative scales.",
-      "Chapter 3(Light) : Reflection and Refraction, Laws of reflection, role play, and mirror experiments.",
-      "Chapter 4(Electric Circuits) : Conductors and insulators, circuit diagrams with bulbs and switches.",
-      "Chapter 5(Force and Its Effects) : Newton’s laws of motion, effects of force, problem-solving exercises.",
-      "Chapter 6(Basic terms) : Work, Power, Energy types, and conversions.",
-      "Chapter 7(Wind, Storms, Cyclones) : Causes, impact, natural disaster safety, data-based analysis.",
-      "Chapter 8(Linear Motion) : Rotation motion, Linear motion, their relations, Types of Gear and Gear Ratios",
-      "Chapter 9(Rotational Motion) : Angular velocity, angular acceleration, Centripetal force and acceleration.",
-      "Chapter 10(Angular motion terms) : Torque, Angular Momentum, Moment of Inertia, and their applications.",
-      "chapter 11(EMI) : Magnetic Flux, Faraday's Law, Lenz's Law, and applications, DC motor and Generator.",
-      "Chapter 12(AC and DC currents) : Conductor, semi-conductor, insulator, Ohm’s Law, Resistance, Factor effect it, Cells, EMF, and Internal Resistance, Cells in Series and Parallel,   ."
-    ],
-    "⚗️ Chemistry": [
-      "Chapter 1(Separation Techniques) : Filtration, evaporation, distillation, chromatography with household examples.",
-      "Chapter 2(Metals and Non-Metals) : Properties, reactivity series, corrosion, and prevention methods.",
-      "Chapter 3(Compounds and Chemical Reactions) : Types of reactions, balancing equations, real-life examples.",
-      "Chapter 4(Air and Atmosphere) : Composition, layers, pollution causes/effects, and prevention.",
-      "Chapter 5(Water: Properties and Uses) : Physical/chemical properties, purification methods, water cycle.",
-      "Chapter 6(Carbon and Its Compounds) : Allotropes, hydrocarbons, simple organic chemistry concepts.",
-      "Chapter 7(Molecular Structure and Bonding) : Ionic/covalent bonds, molecular geometry basics.",
-      "Chapter 8(Acids, Bases, and Salts) : pH scale, neutralization reactions, household examples.",
-      "Chapter 9(Properties and Classification of Matter) : Solid, liquid, gas, colloids, and suspensions; simple hands-on lab activities.",
-      "Chapter 10(Atoms and the Periodic Table) : Definition, atomic number, valency; elements' arrangement in the periodic table; focus on real-world examples."
+"📚 Class 8": {
+  "💻 Computer Science": [ 
+  {"Chapter 1 (Web Development)": [
+    {"HTML & CSS": ["HTML5 for static pages", "Internal/external CSS", "Selectors, layouts (Flexbox/Grid)", "Responsive design and media queries"]},
+    {"Backend Basics": ["Introduction to backend logic", "Minimal server-side concepts (Node.js/Python)"]},
+    {"Projects": ["Designing a full website using frontend and backend", "Best coding practices"]}
+  ]},
+  {"Chapter 2 (App Development Concepts)": [
+    {"UI/UX Basics": ["Understanding app and web layout design", "Simple user flow mapping"]},
+    {"Planning": ["Wireframing and layout planning", "Platform-based design notes"]}
+  ]},
+  {"Chapter 3 (C++ Programming and Problem Solving)": [
+    {"Foundations": ["Input/output", "Loops", "Conditionals", "Arrays"]},
+    {"Practice": ["~100 guided problems via Codeforces, AtCoder, GFG, Coding Ninjas"]}
+  ]},
+  {"Chapter 4 (Python Programming Basics)": [
+    {"Concepts": ["Variables", "Data types", "If-else statements", "Loops", "Input/output"]},
+    {"Applications": ["Mini projects", "Simple automation tasks"]}
+  ]},
+  {"Chapter 5 (SQL Introduction)": [
+    {"Basics": ["Database fundamentals", "Creating tables"]},
+    {"Queries": ["SELECT statements", "Data management and retrieval examples"]}
+  ]},
+  {"Chapter 6 (Cybersecurity Essentials)": [
+    {"Awareness": ["Phishing examples", "Password safety and 2FA", "Safe browsing habits"]},
+    {"Ethics": ["Digital safety and responsibility"]}
+  ]},
+  {"Chapter 7 (Web Development Roadmap: What's Next?)": [
+    {"Advanced Concepts": ["JavaScript frameworks (React, Angular, Vue)", "Backend (Node.js, Django, PHP)"]},
+    {"Integration": ["Database connections", "APIs and deployment (Netlify, GitHub Pages)"]},
+    {"Tools": ["Version control with Git", "Mini full-stack projects"]}
+  ]},
+  {"Chapter 8 (Online Platforms & Practice)": [
+    {"Learning": ["Codecademy", "FreeCodeCamp", "The Odin Project", "Sololearn", "W3Schools", "CodePen"]},
+    {"Practice": ["Coding competitions", "Online portfolio building"]}
+  ]}
+],
+
+"➗ Mathematics": [
+  {"Chapter 1 (Number System)": [
+    {"Concepts": ["Real and Complex numbers", "Polynomials", "Relations between number types"]},
+    {"Practice": ["CBSE 9+10 level examples"]}
+  ]},
+  {"Chapter 2 (Linear Equations)": [
+    {"Concepts": ["Equations in one to three variables"]},
+    {"Applications": ["Word problems and algebraic solutions"]}
+  ]},
+  {"Chapter 3 (Geometries)": [
+    {"Shapes": ["Triangles, quadrilaterals, polygons"]},
+    {"Properties": ["Theorems, visual proofs"]}
+  ]},
+  {"Chapter 4 (Coordinate Geometry)": [
+    {"Basics": ["1D, 2D, 3D coordinates", "Euclid’s postulates", "Heron’s Formula"]},
+    {"Applications": ["Parameters of circles, parallelograms, triangles"]}
+  ]},
+  {"Chapter 5 (Mensuration & Volumes)": [
+    {"Formulas": ["Perimeter, surface area, volume of cubes, cuboids, cylinders, cones, spheres"]}
+  ]},
+  {"Chapter 6 (Vectors and Matrix)": [
+    {"Concepts": ["Vector algebra", "Matrices and determinants"]},
+    {"Applications": ["Geometric and physics problems"]}
+  ]},
+  {"Chapter 7 (Geometry: Constructions & Congruence)": [
+    {"Construction Tools": ["Ruler, compass methods"]},
+    {"Tests": ["Triangle congruence applications"]}
+  ]},
+  {"Chapter 8 (Statistics)": [
+    {"Data Analysis": ["Mean, median, mode", "Representation and charts"]}
+  ]},
+  {"Chapter 9 (Trigonometry)": [
+    {"Functions": ["Trigonometric and inverse functions"]},
+    {"Applications": ["Real-life and geometry-based problems"]}
+  ]},
+  {"Chapter 10 (Taylor Series & Trigonometric Expansions)": [
+    {"Series": ["Taylor, Maclaurin expansions for sin, cos, e^x"]},
+    {"Applications": ["Approximation and problem-solving"]}
+  ]},
+  {"Chapter 11 (Exponents and Powers)": [
+    {"Concepts": ["Laws of exponents", "Scientific notation"]}
+  ]},
+  {"Chapter 12 (Factorisation, Square and Cube Roots)": [
+    {"Techniques": ["Factoring algebraic expressions", "Rationalizing denominators"]}
+  ]},
+  {"Chapter 13 (Probability Basics)": [
+    {"Concepts": ["Events, sample space, simple probability"]}
+  ]},
+  {"Chapter 14 (Progressions Series)": [
+    {"Sequences": ["A.P., G.P., H.P.", "Formulas and applications"]}
+  ]},
+  {"Chapter 15 (Calculus)": [
+    {"Concepts": ["Limits, derivatives, integration"]},
+    {"Applications": ["Area under curves", "Rate of change"]}
+  ]},
+  {"Chapter 16 (Miscellaneous Topics)": [
+    {"Topics": ["Sets, Relations and Functions", "Conic Sections", "Linear Inequalities"]}
+  ]},
+  {"Chapter 17 (Gauss, Stokes, and Green's Theorems [Intro])": [
+    {"Concepts": ["Visual introduction to field integration theorems"]},
+    {"Applications": ["Connection to higher mathematics and physics"]}
+  ]}
+],
+
+"🔬 Physics": [
+  {"Chapter 1 (Measurement and Experimentation)": [
+    {"Basics": ["Significant figures", "Error analysis", "Lab safety"]}
+  ]},
+  {"Chapter 2 (Units and Dimensions)": [
+    {"Concepts": ["Unit conversions", "Dimensional analysis"]}
+  ]},
+  {"Chapter 3 (Force and Pressure)": [
+    {"Concepts": ["Types of forces", "Measuring pressure"]},
+    {"Applications": ["Everyday examples"]}
+  ]},
+  {"Chapter 4 (Friction)": [
+    {"Concepts": ["Causes and effects of friction"]},
+    {"Applications": ["Reducing/increasing friction"]}
+  ]},
+  {"Chapter 5 (Motion)": [
+    {"Concepts": ["Speed, velocity, acceleration", "Equations of motion"]}
+  ]},
+  {"Chapter 6 (Gravitation)": [
+    {"Concepts": ["Universal law, free fall", "Orbital motion", "Mass vs weight"]}
+  ]},
+  {"Chapter 7 (Electricity and Magnetism)": [
+    {"Concepts": ["Charges, electric fields, Ohm’s law", "Magnetic properties"]}
+  ]},
+  {"Chapter 8 (Water and Fluids)": [
+    {"Principles": ["Buoyancy", "Archimedes’ principle"]}
+  ]},
+  {"Chapter 9 (Work, Energy and Power)": [
+    {"Concepts": ["Kinetic and potential energy", "Conservation of energy"]}
+  ]},
+  {"Chapter 10 (Machines and Simple Mechanisms)": [
+    {"Tools": ["Levers, pulleys, gears", "Mechanical advantage"]}
+  ]},
+  {"Chapter 11 (Solar System and Space)": [
+    {"Concepts": ["Planets, stars, galaxies", "Space exploration basics"]}
+  ]},
+  {"Chapter 12 (Sound)": [
+    {"Concepts": ["Pitch, frequency, amplitude"]},
+    {"Applications": ["Beats and sound wave behavior"]}
+  ]},
+  {"Chapter 13 (Chemical Effects of Current)": [
+    {"Concepts": ["Electrolysis", "Conductors and insulators"]}
+  ]},
+  {"Chapter 14 (Light and Optics)": [
+    {"Concepts": ["Reflection, refraction, lenses, mirrors"]},
+    {"Applications": ["Vision correction"]}
+  ]},
+  {"Chapter 15 (Magnetic Effects of Current)": [
+    {"Concepts": ["Electromagnetism", "Motors, generators, transformers"]}
+  ]},
+  {"Chapter 16 (Thermal Properties of Matter)": [
+    {"Concepts": ["Heat, conduction, convection, radiation", "Temperature conversions"]},
+    {"Applications": ["Boiling, melting, latent heat, pressure effects"]}
+  ]},
+  {"Chapter 17 (Mechanical Properties of Fluids)": [
+    {"Principles": ["Pascal’s Law", "Bernoulli’s Theorem", "Viscosity", "Surface tension"]}
+  ]},
+  {"Chapter 18 (Electric Charges and Fields)": [
+    {"Concepts": ["Coulomb’s Law", "Electric field and flux", "Gauss’s Law"]}
+  ]},
+  {"Chapter 19 (Electromagnetic Induction and Alternating Currents)": [
+    {"Concepts": ["Faraday’s and Lenz’s Laws", "Eddy currents", "AC generation", "Transformers"]}
+  ]},
+  {"Chapter 20 (Optical Instruments and Human Eye)": [
+    {"Devices": ["Microscope", "Telescope", "Human eye structure and corrections"]}
+  ]}
+],
+
+"⚗️ Chemistry": [
+  {"Chapter 1 (Structure of Atom: Dalton & Bohr)": [
+    {"Concepts": ["Atomic models", "Subatomic particles"]}
+  ]},
+  {"Chapter 2 (Isotopes & Isobars)": [
+    {"Differences": ["Definitions and examples", "Periodic table position"]}
+  ]},
+  {"Chapter 3 (Laws of Chemical Combination)": [
+    {"Laws": ["Conservation of mass", "Definite and multiple proportions"]}
+  ]},
+  {"Chapter 4 (Chemical Reactions & Equations)": [
+    {"Concepts": ["Reaction types", "Equation balancing", "Lab examples"]}
+  ]},
+  {"Chapter 5 (Mole Concept & Stoichiometry)": [
+    {"Concepts": ["Avogadro’s number", "Mole-mass-number relations", "Numerical calculations"]}
+  ]},
+  {"Chapter 6 (Periodic Table & Classification)": [
+    {"Concepts": ["Mendeleev’s law", "Modern periodic trends", "Groups and periods"]}
+  ]}
+],
+"🧬 Biology": [
+  {"Chapter 1 (Cell Detailed Study)": [
+      {"Concepts": ["Structure and organelles of the cell", "Functions of each organelle", "Comparison to factories/cities for analogy"]},
+      {"Activities": ["Microscope observation of plant and animal cells", "Model-making of cell structure"]}
+  ]},
+  {"Chapter 2 (Tissues in Plants & Animals)": [
+      {"Concepts": ["Types of tissues", "Structure and functions", "Importance in body and plant systems"]},
+      {"Applications": ["Role in organ formation", "Practical identification of tissues under microscope"]}
+  ]},
+  {"Chapter 3 (Diversity of Life)": [
+      {"Concepts": ["Kingdom classification", "Notable differences among species"]},
+      {"Activities": ["Local biodiversity survey", "Classification chart creation"]}
+  ]},
+  {"Chapter 4 (Health & Disease)": [
+      {"Concepts": ["Types of diseases: infectious and non-infectious", "Causes, symptoms, prevention, vaccination"]},
+      {"Projects": ["Awareness poster or skit on disease prevention"]}
+  ]},
+  {"Chapter 5 (Natural Resources)": [
+      {"Concepts": ["Air, water, soil as resources", "Sustainable usage and conservation"]},
+      {"Projects": ["Water testing", "Pollution monitoring project"]}
+  ]},
+  {"Chapter 6 (Food Resources Improvement)": [
+      {"Concepts": ["Agricultural biotechnology", "GM crops and food security issues"]},
+      {"Activities": ["Case study on crop yield improvement", "Discussion on ethical implications"]}
+  ]}
+],
+
+"📖 English": [
+  {"Chapter 1 (Reading & Critical Thinking)": [
+      {"Skills": ["Analyzing literature", "Argument evaluation", "Creative writing"]},
+      {"Activities": ["Debate", "Reading comprehension exercises", "Short essay writing"]}
+  ]},
+  {"Chapter 2 (Exam Preparation: GRE/TOEFL, SAT, IELTS)": [
+      {"Concepts": ["Advanced comprehension", "Essay writing", "MCQs and vocabulary drills"]},
+      {"Practice": ["Speaking and listening sessions", "Sample mock tests for international exams"]}
+  ]}
+],
+
+"🏛️ Political Science": [
+  {"Chapter 1 (Power-sharing in Federal Structures)": [
+      {"Concepts": ["Federal systems", "Power distribution", "Examples from Belgium and Sri Lanka"]},
+      {"Applications": ["Comparative analysis of political systems"]}
+  ]},
+  {"Chapter 2 (Democracy & Diversity)": [
+      {"Concepts": ["Caste, gender, and religion in democracy", "Representation challenges"]},
+      {"Activities": ["Class debates on inclusion and diversity"]}
+  ]},
+  {"Chapter 3 (Popular Struggles)": [
+      {"Concepts": ["Mass movements in Bolivia and India", "Role of civil society"]},
+      {"Projects": ["Case study presentations on social movements"]}
+  ]},
+  {"Chapter 4 (Political Parties)": [
+      {"Concepts": ["Types of parties: national, regional", "Functions and reforms"]},
+      {"Projects": ["Mapping political parties and their ideologies"]}
+  ]},
+  {"Chapter 5 (Democracy: Outcomes & Challenges)": [
+      {"Concepts": ["Accountability and transparency", "Public participation"]},
+      {"Activities": ["Mock parliament on citizen roles in democracy"]}
+  ]}
+],
+
+"💰 Economics": [
+  {"Chapter 1 (Development: Income & Sustainability)": [
+      {"Concepts": ["Economic growth vs environmental health", "Indicators of human development"]},
+      {"Projects": ["Compare HDI across countries", "Essay on sustainable economics"]}
+  ]},
+  {"Chapter 2 (Economic Sectors)": [
+      {"Concepts": ["Primary, secondary, and tertiary sectors", "Employment trends"]},
+      {"Applications": ["Case studies of sectoral shifts in India"]}
+  ]},
+  {"Chapter 3 (Banking & Credit)": [
+      {"Concepts": ["Banking system structure", "Loans and credit mechanisms", "Digital finance and UPI"]},
+      {"Projects": ["Simulated banking model", "Poster on financial literacy"]}
+  ]},
+  {"Chapter 4 (Globalisation & Trade Blocs)": [
+      {"Concepts": ["EU, ASEAN, BRICS", "Liberalisation and global integration"]},
+      {"Activities": ["Debate on globalisation’s impact on developing nations"]}
+  ]},
+  {"Chapter 5 (Consumer Awareness & Protection)": [
+      {"Concepts": ["Consumer rights and responsibilities", "Grievance redressal mechanisms"]},
+      {"Projects": ["Consumer awareness poster", "Mock complaint redressal"]}
+  ]},
+  {"Chapter 6 (Business Models & Innovation)": [
+      {"Concepts": ["Startups, franchises, and business planning", "Role of innovation in markets"]},
+      {"Activities": ["Design a mini business plan"]}
+  ]},
+  {"Chapter 7 (Digital Economy)": [
+      {"Concepts": ["E-commerce fundamentals", "Digital marketing", "India’s UPI success story"]},
+      {"Projects": ["Case study on digital entrepreneurship"]}
+  ]}
+],
+
+"📚 History & Geography": [
+  {"Chapter 1 (Resources and Development)": [
+      {"Concepts": ["Types of resources", "Conservation strategies", "Global/local examples"]},
+      {"Projects": ["Mapping local natural resources"]}
+  ]},
+  {"Chapter 2 (Agriculture and Industry)": [
+      {"Concepts": ["Indian and world farming systems", "Industrial distribution"]},
+      {"Activities": ["Industrial visit or virtual tour"]}
+  ]},
+  {"Chapter 3 (Urbanisation & Smart Cities)": [
+      {"Concepts": ["Urban growth", "Challenges and planning models"]},
+      {"Projects": ["Smart city design prototype"]}
+  ]},
+  {"Chapter 4 (Disaster Management)": [
+      {"Concepts": ["Floods, earthquakes, and other disasters", "Disaster response planning"]},
+      {"Activities": ["Mock drills", "Safety awareness programs"]}
+  ]},
+  {"Chapter 5 (Global Environmental Issues)": [
+      {"Concepts": ["Climate change, pollution, desertification, SDGs"]},
+      {"Projects": ["Youth activism initiatives", "Report on climate action"]}
+  ]}
+],
+
+"⚖️ Law": [
+  {"Chapter 1 (Constitution in Action)": [
+      {"Concepts": ["Fundamental Rights & Duties", "Practical case applications"]},
+      {"Activities": ["Mock trial on rights violations"]}
+  ]},
+  {"Chapter 2 (Legal Aid, Lok Adalats, PILs)": [
+      {"Concepts": ["Access to justice", "Public Interest Litigations"]},
+      {"Projects": ["Roleplay of Lok Adalat proceedings"]}
+  ]},
+  {"Chapter 3 (Key Acts: SC/ST, RTE, Domestic Violence)": [
+      {"Concepts": ["Major legal provisions and their impacts"]},
+      {"Activities": ["Research report on law effectiveness"]}
+  ]},
+  {"Chapter 4 (Case Studies: Law vs Society)": [
+      {"Concepts": ["Balancing environment and industrial rights", "Caste atrocity cases"]},
+      {"Projects": ["Debate on law and ethics"]}
+  ]},
+  {"Chapter 5 (IPC & CrPC Basics)": [
+      {"Concepts": ["Structure of Indian Penal Code", "Criminal Procedure Code overview"]},
+      {"Activities": ["Mock case filing exercise"]}
+  ]}
+],
+
+"📝 Hindi": [
+  {"Chapter 1 (शिक्षा और सामाजिक विषय)": [
+      {"विषय": ["कविता, कहानी, संवाद लेखन", "मानवता, लैंगिक न्याय, साम्प्रदायिकता"]},
+      {"गतिविधियाँ": ["वाचन और भूमिका-निर्वाह"]}
+  ]},
+  {"Chapter 2 (व्याकरण एवं अनुप्रयुक्त लेखन)": [
+      {"विषय": ["काल, समास, पत्र लेखन, अनुवाद"]},
+      {"गतिविधियाँ": ["लेखन अभ्यास और मूल्यांकन"]}
+  ]},
+  {"Chapter 3 (सामाजिक मुद्दे)": [
+      {"विषय": ["बाल श्रम, महिला अधिकार, पर्यावरण संरक्षण"]},
+      {"गतिविधियाँ": ["पोस्टर निर्माण, समूह चर्चा"]}
+  ]},
+  {"Chapter 4 (पुस्तकें)": [
+      {"सामग्री": ["Mother India (Katherine Mayo) का अध्ययन और विश्लेषण"]}
+  ]},
+  {"Chapter 5 (सामाजिक परिवर्तन)": [
+      {"विषय": ["सामुदायिक सेवा, बाल अधिकार, महिला सशक्तिकरण"]},
+      {"गतिविधियाँ": ["सामुदायिक परियोजना कार्य"]}
+  ]}
+],
+
+"🌱 Moral Values & Ethics": [
+  {"Chapter 1 (Dignity)": [
+      {"Concepts": ["Definition and importance", "Self-respect and mutual respect"]},
+      {"Activities": ["Real-world case discussions"]}
+  ]},
+  {"Chapter 2 (Role of Ambedkar)": [
+      {"Concepts": ["Ambedkar’s work for equality", "Women’s rights (Hindu Code Bill)"]},
+      {"Projects": ["Group presentation on Ambedkar"]}
+  ]},
+  {"Chapter 3 (Caste Atrocities in India)": [
+      {"Concepts": ["Caste discrimination laws", "Social impact"]},
+      {"Activities": ["Poster presentation and report writing"]}
+  ]},
+  {"Chapter 4 (Consent and Boundaries)": [
+      {"Concepts": ["Personal and social consent", "Boundaries and assertiveness"]},
+      {"Activities": ["Roleplay scenarios"]}
+  ]},
+  {"Chapter 5 (Digital Ethics)": [
+      {"Concepts": ["Handling trolls, fake news, hate speech"]},
+      {"Projects": ["Create a digital ethics guideline booklet"]}
+  ]},
+  {"Chapter 6 (God vs Nature)": [
+      {"Concepts": ["Belief systems vs environmental values"]},
+      {"Debate": ["Religion’s influence on science and nature"]}
+  ]},
+  {"Chapter 7 (Speaking Up)": [
+      {"Concepts": ["Courage and responsibility", "Whistleblowing and activism"]},
+      {"Activities": ["Student-led dramatization"]}
+  ]},
+  {"Chapter 8 (Gender & Queer Rights)": [
+      {"Concepts": ["Equality and inclusion", "LGBTQ+ rights awareness"]},
+      {"Projects": ["Classroom policy drafting exercise"]}
+  ]},
+  {"Chapter 9 (Mental Health & Friendship)": [
+      {"Concepts": ["Understanding support and stigma"]},
+      {"Activities": ["Group sharing and awareness campaigns"]}
+  ]},
+  {"Chapter 10 (Intoxicants)": [
+      {"Concepts": ["Types of intoxicants", "Effects on society", "De-addiction strategies"]}
+  ]},
+  {"Chapter 11 (Environmental Responsibility)": [
+      {"Concepts": ["Conservation and sustainability"]},
+      {"Projects": ["Plantation or clean-up drive"]}
+  ]},
+  {"Chapter 12 (Child Labour & Exploitation)": [
+      {"Concepts": ["Causes and laws", "Child rights awareness"]},
+      {"Projects": ["Poster presentation"]}
+  ]},
+  {"Chapter 13 (Human Rights)": [
+      {"Concepts": ["UDHR and global frameworks"]},
+      {"Activities": ["Case study analysis"]}
+  ]},
+  {"Chapter 14 (Critical Societal Questions and Simulations)": [
+      {"Activities": ["Parliamentary debate", "Model UN", "Moot court on SC/ST Act"]}
+  ]},
+  {"Chapter 15 (Parade)": [
+      {"Activities": ["Weekly parade", "Emergency response training"]}
+  ]},
+  {"Chapter 16 (Value of Life)": [
+      {"Concepts": ["Philosophical meaning of life", "Social inequality in life valuation"]}
+  ]},
+  {"Chapter 17 (Mental Strength)": [
+      {"Concepts": ["Mental health awareness", "Suicide prevention and resilience"]}
+  ]},
+  {"Chapter 18 (Religions)": [
+      {"Concepts": ["Origin, purpose, and evolution of religions"]},
+      {"Debate": ["Is religion necessary for moral life?"]}
+  ]},
+  {"Chapter 19 (Documentary Discussion)": [
+      {"Activity": ["Video discussion on girls’ rights", "https://youtu.be/NTXO6uptlC8"]}
+  ]},
+  {"Chapter 20 (Casteism and Racism)": [
+      {"Concepts": ["Impact on society", "Equality and justice debates"]}
+  ]},
+  {"Chapter 21 (Casteism within Caste)": [
+      {"Concepts": ["Intra-caste discrimination dynamics"]},
+      {"Documentary": ["https://youtu.be/bunZDrDOMBg"]}
+  ]},
+  {"Chapter 22 (Ethics in School)": [
+      {"Concepts": ["Cheating, favoritism, and discipline reflections"]}
+  ]},
+  {"Chapter 23 (Famous Reincarnation Cases)": [
+      {"Case Studies": ["Shanti Devi", "James Leininger", "Pollock Twins", "Swarnlata", "Others"]}
+  ]},
+  {"Chapter 24 (Group Projects)": [
+      {"Activities": ["Poster presentation", "School exhibition"]}
+  ]}
+],
+
+"🗣️ Languages": [
+  {"Chapter 1 (Why Language? History & Types)": [
+      {"Concepts": ["Origins of language", "Family trees", "Types of languages"]}
+  ]},
+  {"Chapter 2 (Language Apps and Websites)": [
+      {"Tools": ["Duolingo", "Rosetta Stone", "Memrise", "Busuu"]}
+  ]},
+  {"Chapter 3 (Extended Conversations)": [
+      {"Practice": ["1–2 minute real-life dialogues"]}
+  ]},
+  {"Chapter 4 (Travel Dialogues)": [
+      {"Practice": ["Asking directions", "Hotel booking", "Ticket purchase"]}
+  ]},
+  {"Chapter 5 (Health & Emergency)": [
+      {"Phrases": ["I feel sick", "Call a doctor", "Where is the hospital?"]}
+  ]},
+  {"Chapter 6 (Technology Vocabulary)": [
+      {"Words": ["Phone", "Computer", "Internet", "Email"]}
+  ]},
+  {"Chapter 7 (Proverbs & Idioms)": [
+      {"Content": ["3–5 proverbs per language with meanings"]}
+  ]},
+  {"Chapter 8 (Grammar Review)": [
+      {"Concepts": ["Past, present, future tenses"]}
+  ]},
+  {"Chapter 9 (Letter Writing)": [
+      {"Projects": ["Postcard/email in foreign language"]}
+  ]},
+  {"Chapter 10 (Career with Languages)": [
+      {"Concepts": ["Jobs in translation, tourism, diplomacy"]}
+  ]},
+  {"Chapter 11 (Cultural Projects)": [
+      {"Projects": ["Research a famous figure from each country"]}
+  ]},
+  {"Chapter 12 (Final Translation Project)": [
+      {"Activity": ["Translate 50 English sentences into multiple languages"]}
+  ]},
+  {"Chapter 13 (Multilingual Skills)": [
+      {"Projects": ["Word lists in 5–7 languages on common themes"]}
+  ]}
+],
+
+"👥 GGC (General Guidance Class)": [
+  {"Chapter 1 (College Admissions)": [
+      {"Concepts": ["India vs Abroad admission systems", "Application basics"]}
+  ]},
+  {"Chapter 2 (Major Global Exams)": [
+      {"Exams": ["JEE", "NEET", "SAT", "TOEFL", "IELTS", "A-Level"]}
+  ]},
+  {"Chapter 3 (Writing for Success)": [
+      {"Concepts": ["SOPs", "LORs", "Essay writing"]}
+  ]},
+  {"Chapter 4 (Research & Exchange)": [
+      {"Programs": ["INSPIRE", "IYSA", "Foreign exchange opportunities"]}
+  ]},
+  {"Chapter 5 (Youth Inspiration)": [
+      {"Profiles": ["Riya Karumanchi", "Mihir Garimella", "Vivienne Harr", "Kavya Kopparapu"]}
+  ]},
+  {"Chapter 6 (Competitions)": [
+      {"Examples": ["Swift Student Challenge", "Other global events"]}
+  ]},
+  {"Chapter 7 (Major Scholarships)": [
+      {"Programs": ["Chevening", "Commonwealth", "Fulbright", "Rhodes"]}
+  ]}
+],
+
+"🏃‍♂️ Games & Physical Education": [
+  {"Chapter 1 (Cardiovascular & Body Systems)": [
+      {"Concepts": ["Heart function", "Exercise and body health"]},
+      {"Projects": ["Fitness measurement logs"]}
+  ]},
+  {"Chapter 2 (Diet and Wellbeing)": [
+      {"Concepts": ["Balanced diet", "Meal planning for athletes"]}
+  ]},
+  {"Chapter 3 (Social-Emotional Health)": [
+      {"Concepts": ["Leadership and teamwork", "Empathy development"]}
+  ]},
+  {"Chapter 4 (Sex Education)": [
+      {"Concepts": ["Consent", "Safe practices", "STI awareness"]}
+  ]},
+  {"Chapter 5 (Protection Laws)": [
+      {"Concepts": ["Child safety", "POCSO Act", "Self-advocacy"]}
+  ]},
+  {"Chapter 6 (Sports Psychology)": [
+      {"Concepts": ["Motivation", "Resilience", "Focus building"]}
+  ]}
+],
+
+"🧠 General Knowledge (G.K)": [
+  {"Chapter 1 (Global Diplomacy)": [
+      {"Concepts": ["Paris Agreement", "NATO", "BRICS", "International alliances"]}
+  ]},
+  {"Chapter 2 (Current Affairs)": [
+      {"Activities": ["Weekly editorials", "News analysis", "Quizzes"]}
+  ]},
+  {"Chapter 3 (Judiciary Highlights)": [
+      {"Concepts": ["Judicial structures", "Important global judgments"]}
+  ]},
+  {"Chapter 4 (Science Frontiers)": [
+      {"Concepts": ["CRISPR", "Fusion energy", "AI ethics", "Nobel updates"]}
+  ]},
+  {"Chapter 5 (UN SDGs & Model UN)": [
+      {"Activities": ["Role-play climate negotiation", "SDG policy drafting"]}
+  ]},
+  {"Chapter 6 (INSPIRE MANAK Competition)": [
+      {"Concepts": ["Innovation projects", "Eligibility and submission"]}
+  ]}
+],
+
+"🔬 Research Projects (R.P)": [
+  {"Chapter 1 (Robotics)": [
+      {"Concepts": ["Basic robotics modules", "NPTEL-guided sessions"]}
+  ]},
+  {"Chapter 2 (Machine Principles)": [
+      {"Concepts": ["Airplane, quadcopter, and drone mechanisms"]},
+      {"Projects": ["Comparative study with video support"]}
+  ]},
+  {"Chapter 3 (CAD Design)": [
+      {"Concepts": ["AutoCAD, Fusion 360", "3D modeling basics"]}
+  ]},
+  {"Chapter 4 (Machine Learning)": [
+      {"Concepts": ["Intro to ML", "Simple algorithms and real-world uses"]}
+  ]}
+]
+
+
+}
+
   
-    ],
-      
-    "🧬 Biology": [
-      "Chapter 1(Cell Structure and Organelles) : Animal and plant cell structures, function of organelles, microscope basics.",
-      "Chapter 2(Tissues in Living Organisms) : Animal and plant tissues; structure, function, and types.",
-      "Chapter 3(Diversity of Life) : Kingdom classification, observable differences in organisms.",
-      "Chapter 4(Health and Diseases) : Infectious/non-infectious diseases, prevention, recent outbreaks and challenges.",
-      "Chapter 5(Natural Resources) : Study of water, air, soil—conservation, usage, and environmental importance.",
-      "Chapter 6(Food Resources and Improvement) : Sourcing, food chains, food web, advancements for productivity and sustainability.",
-      "Chapter 7(Our Health) : What is Health?, Why Health matters?, Indians Health V/S developed countries Health, What is healthy Diet?",
-    ],
-    "📖 English": [
-      "Chapter 1(Interactive Reading) : Literature studies with global/CBSE/ICSE texts, comprehension, debating, and response writing.",
-      "Chapter 2(GRE/TOEFL Foundations) : Advanced reading comprehension, vocabulary enhancement, analogies, logical reasoning passages.",
-      "Chapter 3(Creative and Functional Writing) : Essays, formal/informal letters, CV drafting basics, story writing.",
-      "Chapter 4(Public Speaking Practice) : Debates, mock interviews, extempore topics linked to world issues."
-    ],
-    "🏛️ Political Science": [
-      "Chapter 1(Democracy in the Contemporary World) : Concepts, examples, and challenges.",
-      "Chapter 2(Constitutional Design) : India's constitution-making, features, and historical context.",
-      "Chapter 3(Electoral Politics in India) : Elections, campaigns, importance of voting.",
-      "Chapter 4(Institutions) : Parliament, Prime Minister, President, and checks and balances.",
-      "Chapter 5(Democratic Rights) : Freedoms, duties, youth case studies, comparative world context."
-    ],
-    "💰 Economics": [
-      "Chapter 1(Village Palampur Story) : CBSE case study, farming cycles, local economy.",
-      "Chapter 2(Human Capital and Resources) : Education, migration, allocation, and access.",
-      "Chapter 3(Poverty and Inequality) : Causes, solutions, and measurement.",
-      "Chapter 4(Food Security and Agriculture) : Types, systems, and ongoing issues.",
-      "Chapter 5(Development Indicators) : Understanding GDP, HDI, GNI; data application and graphs.",
-      "Chapter 6(Labour and Employment) : Forms of work, worker rights, formal/informal sector differences.",
-      "Chapter 7(Business Basics) : Core terms—profit, cost, market, supply, demand, real-world application activities."
-    ],
-    "📚 History and Geography": [
-      "Chapter 1(Physical Features of India & World) : Study of continents, major mountains, deserts, and oceans.",
-      "Chapter 2(Drainage and River Basins) : Major river systems, water cycles, case studies on Indian/Asian/African rivers.",
-      "Chapter 3(Climate, Vegetation & Zones) : Monsoon, natural vegetation, adaptation of communities.",
-      "Chapter 4(Population and Density Patterns) : Urban/rural divides, migration, growth drivers and challenges.",
-      "Chapter 5(Sustainable Use of Natural Resources) : Renewable/non-renewable focus, case studies on forests, soil management.",
-      "Chapter 6(Topographic Maps & Data) : Reading topo-sheets, demographic maps, interpreting physical and social data."
-    ],
-    "⚖️ Law": [
-      "Chapter 1(Judicial System Structure) : Steps from local court to Supreme Court.",
-      "Chapter 2(Citizens' Legal Rights) : RTI, RTE, and other core youth/child rights.",
-      "Chapter 3(FIR, Police & Arrest Process) : How law protects citizens, simplified role play.",
-      "Chapter 4(Juvenile Justice) : Juvenile courts, laws, and real-world scenarios.",
-      "Chapter 5(Landmark Legal Cases) : Nirbhaya, Vishakha guidelines, role of youth in legal reform."
-    ],
-    "📝 Hindi": [
-      "Chapter 1(अग्रिम साहित्य एवं भाषा) : नवीन कविता, निबंध, संवाद व संवाद लेखन, अनुप्रयुक्त हिंदी; काव्य-पाठ, रूपक, तथा वाद-विवाद।",
-      "Chapter 2(व्याकरण) : काल, समास, पर्यायवाची, मुहावरे, वाक्य संरचना—सृजनात्मक अभ्यास।"
-    ],
-    "🌱 Moral Values": [
-      "Chapter 1(Understanding Fairness) : True meaning of equality, real-world applications and class debates.",
-      "Chapter 2(Rules, Equity and Equality) : What is a rule? Why do societies have them?, Equity vs Equality, Practical scenarios.",
-      "Chapter 3(Treating Everyone Equally) : Role-play; analyzing biases, building inclusivity.",
-      "Chapter 4(Discrimination) : Stories of resistance, legal and ethical challenges, student journal.",
-      "Chapter 5(Environmental Duty) : Why everyone talks about but none care? Why govt don't care? Water and waste responsibility, projects on conservation.",
-      "Chapter 6(Gender Equality and Respect) : Games and stories on advocacy, group discussion.",
-      "Chapter 7(Honesty vs Cheating) : Short stories, role play, ethical dilemmas.",
-      "Chapter 8(Respect & Apology) : Strategies to apologize, forgive, classroom activities.",
-      "Chapter 9(Children’s Rights) : Awareness of children’s rights through case readings.",
-      "Chapter 10(Standing Up for Others) : Bystander effect and supporting friends.",
-      "Chapter 11(Self-Reflection) : What is shyness?, is it good or bad?, 'Who Am I Becoming?'—discussion and journaling.",
-      "Chapter 12(Parade) : Teaching about police, army... duty and responsibility. Also there will be weekly parade and self safety in case fire, earthquake or any other emergency.",
-      "Chapter 13(Mental Strength) : Importance of life, Why do some people commit suicide?, Do we like for ourselves only?, understanding mental health and seeking help",
-      "Chapter 14(Philosophies) : <a href='pdf/Buddhist_Philosophy.pdf' target='_blank' class='text-blue-700 underline hover:text-blue-400'>Buddhist philosophy</a>, mindfulness, and the pursuit of inner peace.",
-      "Chapter 15(Existence) : What does it mean to exist? Exploring consciousness, identity, and the human experience, how it matters even for animals, connect it to eating non-veg, violence within countries/religions/communities/families.",
-      "Chapter 16(NGO) : Understanding the role of NGOs in society, their impact on communities, and how students can get involved, CSR."
-    ],
+  // "📚 Class 8": {
+  //   // Computer Science: Full-stack, App/Web & Foundational Coding
+  //   "💻 Computer Science": [
+  //     "Chapter 1(Web Development) : HTML & CSS styling,Internal/external CSS, selectors, layouts using Flexbox/Grid, media queries. HTML5 at the level of web development, building static pages, responsive design, best practices,backend(only what is necessary) and design a website using frontend and backend.",
+  //     "Chapter 2(App Development Concepts) : Introduction to app building logic, UI/UX basics for apps and web, planning an app layout.",
+  //     "Chapter 3(C++ Programming and Problem Solving) : Solving ~100 basic-medium problems (with guidance) via Codeforces, AtCoder, GeeksforGeeks, Coding Ninja—focus on input/output, loops, conditionals, arrays.",
+  //     "Chapter 4(Python Programming Basics) : Variables, data types, if-else, loops, input/output, simple applications.",
+  //     "Chapter 5(SQL Introduction) : Basics of databases, creating tables, SELECT statements, simple queries to manage and retrieve data.",
+  //     "Chapter 6(Cybersecurity Essentials) : Awareness of phishing, how to create and remember strong passwords, basics of two-factor authentication, safe browsing habits.",
+  //     // Recommended Next Steps for Web Development (after HTML, CSS, JS):
+  //     "Chapter 7(Web Development Roadmap: What's Next?) : Learn JavaScript frameworks (React, Angular, or Vue), understand backend development (Node.js, Python-Django/Flask, PHP), database connections, API integration, deployment tools (Netlify, GitHub Pages), version control (Git), and build small full-stack projects to consolidate skills[1][2][3][9].",
+  //     "Chapter 8(Online Platforms & Practice) : Codecademy, FreeCodeCamp, The Odin Project, LeetCode, Sololearn, W3Schools, CodePen for web and app practice and coding competitions[9][12]."
+  //   ],
+
+  //   // Mathematics: Advanced School to Pre-University
+  //   "➗ Mathematics": [
+  //     "Chapter 1(Number System) : Introduction to Number System(9+10 CBSE), Real Numbers, Complex Numbers Polynomials, ",
+  //     "Chapter 2(Linear Equations) : Linear Equations in n(1,2,3...) variables, word problems, algebraic solution strategies.",
+  //     "Chapter 3(Geometries) : Introduction to Triangles, quadrilaterals and other geometries. Their properties, theorems, and visual proofs.",
+  //     "Chapter 4(Coordinate Geometry) : Points, 1D, 2D, 3D, Euclid's postulates and axioms CBSE-9, Heron’s Formula, Parameter, of Circles, Parallelograms and Triangles",
+  //     "Chapter 5(Mensuration & Volumes) : Parameter, Surface area and volume for cubes, cuboids, cylinders, cones, spheres etc.",
+  //     "Chapter 6(Vectors and Matrix) :  vector algebra and matrix and its Determinants.",
+  //     "Chapter 7(Geometry: Constructions & Congruence) : Constructions using ruler/compass, congruence tests, problems involving triangles.",
+  //     "Chapter 8(Statistics) : introduction to statistics.",
+  //     "Chapter 9(Trigonometry) : Introduction to Trigonometry and Trigonometric Functions, Inverse Trigonometric Functions, and their Applications",
+  //     "Chapter 10(Taylor Series & Trigonometric Expansions) : Taylor and Maclaurin series, expansion of sin(Q), cos(Q), e^Q, with applications.",
+  //     "Chapter 11(Exponents and Powers) : Laws, simplification, scientific notation, calculations.",
+  //     "Chapter 12(Factorisation, Square and Cube Roots) : Factoring algebraic expressions, shortcut methods, rationalizing, roots.",
+  //     "Chapter 13(Probability Basics) : Event, sample space, simple classical probability.",
+  //     "Chapter 14(Progressions Series) : A.P, G.P, H.P., Sequences and Series",
+  //     "Chapter 15(Calculus) : Introduction to Limits, Dericatives and Integration. Also their Applications area under the curve (area under two functions), rate of change, etc.",
+  //     "Chapter 16(Misc) : Sets, Relations and Functions, Conic Sections, Linear Inequalities",
+  //     "Chapter 17(Gauss, Stokes, and Green's Theorems [Intro]) : Conceptual, visual introduction to field integration theorems, where/why they are used in higher mathematics and physics."
+  //     //"Chapter 17(Optional) : PMI, Complex Numbers and Quadratic Equations, PnC, Binomial Theorem, Mathematical Reasoning, Continuity and Differentiability, Differential Equations, Linear Programming "
+  //   ],
+
+
+  //   // Physics
+  //   "🔬 Physics": [
+  //     "Chapter 1(Measurement and Experimentation) : Significant figures, error analysis, lab safety, basic tools.",
+  //     "Chatper 2(Units and dimensions) : Unit conversions, dimensional analysis.",
+  //     "Chapter 3(Force and Pressure) : Types of forces, measuring pressure, applications.",
+  //     "Chapter 4(Friction) : Causes, effects, practical uses, reduction/increase strategies.",
+  //     "Chapter 5(Motion) : Speed, velocity, acceleration, equations of motion, graphs.",
+  //     "Chapter 6(Gravitation) : Universal law, free fall, mass vs weight, orbital motion.",
+  //     "Chapter 7(Electricity and Magnetism) : Electric charges, fields, Ohm’s law, circuits, magnets.",
+  //     "Chapter 8(Water and Fluids) : Properties of fluids, buoyancy, Archimedes’ principle.",
+  //     "Chapter 9(Work, Energy and Power) : Work done, kinetic/potential energy, conservation of energy, power.",
+  //     "Chapter 10(Machines and Simple Mechanisms) : Levers, pulleys, gears, mechanical advantage.",
+  //     "Chapter 11(Solar System and Space) : Planets, moons, stars, galaxies; space exploration basics.",
+  //     "Chapter 12(Sound) : Vibrations, pitch, amplitude, frequency and time period, sound wave behavior and beats.",
+  //     "Chapter 13(Chemical Effects of Current) : Conductors/insulators, simple circuits, real-life implications.",
+  //     "Chapter 14(Light and Optics) : Reflection, refraction, lenses, mirrors, vision defects and corrections.",
+  //     "Chapter 15(Magnetic Effects of Current) : Electromagnetism, applications in motors, generators, transformers.",
+  //     "Chapter 16(Thermal Properties of Matter) : temperature, temperature units conversion(Fahrenheit to Celsius etc), Heat, expansion, conduction, convection, radiation, thermometry, Principle of Thermometer, melting point, boiling point, vaporisation, sublimation, triple point, types of latent heat, effect of pressure.",
+  //     "Chapter 17Mechanical Properties of Fluids) : Pressure, Pascal's Law,  Archimedes Principle, Equation of Continuity, Bernoulli’s Theorem, Coefficient of Viscosity, Terminal Velocity, Surface Tension and Surface Energy. ",
+  //     "Chapter 18(Electric Charges and Fields) : Electrostatic charge, moving charges, Coulomb's Law, Electric Field, Electric Flux, Gauss's Law, Applications of Gauss's Law.",
+  //     "Chapter 19(Electromagnetic Induction and Alternating Currents) : Magnetic flux, Faraday's Law, Lenz's Law, Eddy currents, AC generation, RMS values, transformers.",
+  //     "Chapter 20(Optical Instruments and Human Eye) : Microscopes, telescopes, human eye structure, common vision defects and corrections.",
+  //     //"Chapter 15(Optional) : Thermodynamics, Waves and Oscillations, Modern Physics (Photoelectric effect, atomic models)"
+  //   ],
+
+  //   // Chemistry
+  //   "⚗️ Chemistry": [
+  //     "Chapter 1(Structure of Atom: Dalton & Bohr) : Atomic models, subatomic particles, visualization.",
+  //     "Chapter 2(Isotopes & Isobars) : Differences, examples, periodic table placement.",
+  //     "Chapter 3(Laws of Chemical Combination) : Law of conservation of mass, definite/multiple proportions.",
+  //     "Chapter 4(Chemical Reactions & Equations) : Types, balancing equations, practical lab examples.",
+  //     "Chapter 5(Mole Concept & Stoichiometry) : Avogadro number, mole-mass-number relationships, calculations.",
+  //     "Chapter 6(Periodic Table & Classification) : Mendeleev, modern periodic law, groups, periods, and trends."
+  //   ],
+
+  //   // Biology
+  //   "🧬 Biology": [
+  //     "Chapter 1(Cell Detailed Study) : Structure, organelles, functions, comparison to factories/cities for analogy.",
+  //     "Chapter 2(Tissues in Plants & Animals) : Types, structure, importance in body/plant function.",
+  //     "Chapter 3(Diversity of Life) : Kingdom classification, notable differences, local biodiversity.",
+  //     "Chapter 4(Health & Disease) : Infectious/non-infectious, vaccination, symptoms/prevention.",
+  //     "Chapter 5(Natural Resources) : Air, water, soil, sustainable usage, pollution.",
+  //     "Chapter 6(Food Resources Improvement) : Agriculture biotechnology, GM crops, food security issues."
+  //   ],
+
+  //   // English
+  //   "📖 English": [
+  //     "Chapter 1(Reading & Critical Thinking) : Literature, argument analysis, debate, creative writing.",
+  //     "Chapter 2(Exam Preparation: GRE/TOEFL, SAT, IELTS) : Advanced comprehension, essay, MCQs, vocab drills, speaking and listening practice, sample mock tests."
+  //   ],
+
+  //   // Social Sciences
+  //   "🏛️ Political Science": [
+  //     "Chapter 1(Power-sharing in Federal Structures) : Examples from Belgium, Sri Lanka.",
+  //     "Chapter 2(Democracy & Diversity) : Issues of caste, gender, religion in representation.",
+  //     "Chapter 3(Popular Struggles) : Bolivia, global and Indian mass movements.",
+  //     "Chapter 4(Political Parties) : Types, national vs regional, roles, recent reforms.",
+  //     "Chapter 5(Democracy: Outcomes & Challenges) : Accountability, transparency, public participation."
+  //   ],
+
+  //   "💰 Economics": [
+  //     "Chapter 1(Development: Income & Sustainability) : Economic growth vs environmental health.",
+  //     "Chapter 2(Economic Sectors) : Primary, secondary, tertiary—case studies.",
+  //     "Chapter 3(Banking & Credit) : Banking system, loans, digital finance (UPI, credit risk).",
+  //     "Chapter 4(Globalisation & Trade Blocs) : EU, ASEAN, BRICS, impacts of liberalisation.",
+  //     "Chapter 5(Consumer Awareness & Protection) : Rights, grievance redressal, project-based awareness.",
+  //     "Chapter 6(Business Models & Innovation) : Startups, franchises, basic planning.",
+  //     "Chapter 7(Digital Economy) : E-commerce, digital marketing, India's UPI story."
+  //   ],
+
+  //   "📚 History & Geography": [
+  //     "Chapter 1(Resources and Development) : Types, conservation strategies, global/local case studies.",
+  //     "Chapter 2(Agriculture and Industry) : Indian/world farming practices, minerals, power, industries.",
+  //     "Chapter 3(Urbanisation & Smart Cities) : Indian/global examples, urban planning, challenges.",
+  //     "Chapter 4(Disaster Management) : Floods, earthquakes, planning, disaster response drills.",
+  //     "Chapter 5(Global Environmental Issues) : Climate change, pollution, desertification, SDGs, youth activism."
+  //   ],
+
+  //   // Law/Civics
+  //   "⚖️ Law": [
+  //     "Chapter 1(Constitution in Action) : Fundamental Rights & Duties in practice, lived experiences.",
+  //     "Chapter 2(Legal Aid, Lok Adalats, PILs) : How citizens access justice, case project.",
+  //     "Chapter 3(Key Acts: SC/ST, RTE, Domestic Violence) : Provisions, lived stories, impact analysis.",
+  //     "Chapter 4(Case Studies: Law vs Society) : Caste atrocity laws, balancing environment and industry interests.",
+  //     "Chapter 5(IPC & CrPC Basics) : Structure, significance, few sections with examples."
+  //   ],
+
+  //   // Hindi
+  //   "📝 Hindi": [
+  //     "Chapter 1(शिक्षा और सामाजिक विषय) : कविता, कहानी, संवाद लेखन—मानवता, लैंगिक न्याय, साम्प्रदायिकता।",
+  //     "Chapter 2(व्याकरण एवं अनुप्रयुक्त लेखन) : काल, समास, पत्र/निबंध, अनुवाद, लेटर/अनुप्रयुक्त संवाद।",
+  //     "Chapter 3(सामाजिक मुद्दे) : बाल श्रम, महिला अधिकार, पर्यावरण संरक्षण, सामुदायिक सेवा।",
+  //     "Chapter 4(पुस्तकें) : Mother India (Hindi) A book by Katherine Mayo",
+  //     "Chapter 5(सामाजिक परिवर्तन) : सामुदायिक सेवा, बाल अधिकार, महिला सशक्तिकरण, पर्यावरण संरक्षण।"
+  //   ],
+
+  //   // Moral Values / Ethics
+  //   "🌱 Moral Values & Ethics": [
+  //     "Chapter 1(Dignity) : What is dignity? Real-world examples, self-respect vs disrespect.",
+  //     "Chapter 2(Role of Ambedkar) : Stories and class discussion on Ambedkar’s contributions to Indian society equality specially for Women(Hindu Code Bill).",
+  //     "Chapter 3(Caste Atrocities in India) : Research, group presentation, impact in society and laws.",
+  //     "Chapter 4(Consent and Boundaries) : Personal/social consent, boundaries, assertiveness, Endogamy vs Exogamy.",
+  //     "Chapter 5(Digital Ethics) : Handling trolls, fake news, hate speech, digital citizenship.",
+  //     "Chapter 6(God vs Nature) : Debating the influence of beliefs on science/environment.",
+  //     "Chapter 7(Speaking Up) : Whistleblowing, standing up to injustice, student-led dramatization.",
+  //     "Chapter 8(Gender & Queer Rights) : Equality, bullying, LGBTQ+ issues, classroom policy exercises.",
+  //     "Chapter 9(Mental Health & Friendship) : Support, stigma breaking, real-world stories.",
+  //     "Chapter 10(intoxicants) : what are intoxicants, How it effects society, Get rid of addiction.",
+  //     "Chapter 11(Environmental Responsibility) : Role in ecological action, project on conservation.",
+  //     "Chapter 12(Child Labour & Exploitation) : Research, films, poster presentations.",
+  //     "Chapter 13(Human Rights) : Understanding human rights, UDHR, case studies on violations and protections.",
+  //     "Chapter 14(Critical Societal Questions and Simulations) : Debates on Indian ethics, parliamentary simulation on reservation/free education, Model UN (climate, human rights), moot court (cyberbullying, SC/ST Act), stakeholder role-play, and panel on voting age.",
+  //     "Chapter 15(Parade) : Teaching about police, army ... duty and responsibility. Also there will be weekly parade and self safety in case fire, earthquake or any other emergency.",
+  //     "Chapter 16(Value of Life) : what is the value of life?, Importance of life, people died in plane crash got 1 crore each whereas people died on mahakumbh got 25 lakh and so on does value of life depends on place where one dies? ,  Lakhan Pasi story(left from jail at 104 age).",
+  //     "Chapter 17(Mental Strength) : Why do some people commit suicide(explain in very polite way)?, understanding mental health and seeking help, Importance of life",
+  //     "Chapter 18(Religions) : what is Religion?, History and origin, who make it? why make it? is it necessary to have Religion?, Is Religion a failed experiment? has Religion been converted to Business?, can religion help to make the world a better place? are we independent to choose any religion or we are bound to one we born in?",
+  //     "Chapter 19(Documentry) : https://youtu.be/NTXO6uptlC8?si=HU4TuGJ8yZj_jKyd discussion on girls rights.",
+  //     "Chapter 20(Casteism and Racism) : Understanding caste and race, casteism as termite, its impact on society, and discussions on equality and justice.",
+  //     "Chapter 21(Casteism within caste) : Exploring the nuances of caste dynamics, intra-caste discrimination, and the quest for equality. Documentry: https://youtu.be/bunZDrDOMBg?si=Px_6hj5LaOHeNDqD",
+  //     "Chapter 22(Ethics in School) : Cheating, favoritism, reflecting on discipline vs education",
+  //     "Chapter 23(Famous Reincarnation Cases) : Shanti Devi, James Leininger, Cameron Macaulay, Kofel Case, Nirmal Singh, Martin (Sri Lanka), Sawney Bean Boy, Swarnlata, Thai Boy Case, Turkish Boy Case, Japanese Girl Case, Shiva-Sumitra Case (Etawah), The Pollock Twins (UK), The Case of the Pollock Twins (UK), The Case of the Pollock Twins (UK)",
+  //     "Chapter 24(Group Projects) : Poster + presentation, school exhibition.",
+  //   ],
+
+
+  //   // Languages
+  //   "🗣️ Languages": [
+  //     "Chapter 1 (Why Language? History & Types) : Origins of language, family tree of world languages, spoken, written, sign language.",    
+  //     "Chapter 2 (Languages Apps and Websites) : Duolingo, Rosetta Stone, Memrise, Beelinguapp, Busuu, 50Languages, language exchange programs.",
+  //     "Chapter 3 (Extended Conversations): Holding 1–2 minute conversations about daily life.",
+  //     "Chapter 4 (Travel Dialogues): Asking for directions, booking a room, buying a ticket.",
+  //     "Chapter 5 (Health & Emergency): Saying 'I feel sick', 'Call a doctor', 'Where is the hospital?'.",
+  //     "Chapter 6 (Technology Vocabulary): Phone, computer, internet, app, email.",
+  //     "Chapter 7 (Proverbs & Idioms): 3–5 simple proverbs in each language with meanings.",
+  //     "Chapter 8 (Grammar Review): Tenses (past/present/future basics).",
+  //     "Chapter 9 (Letter Writing): Writing a short postcard/email in Spanish or Japanese.",
+  //     "Chapter 10 (Career with Languages): Exploring jobs in tourism, IT, translation, diplomacy.",
+  //     "Chapter 11 (Cultural Projects): Students research one famous figure from each language country and present in English + basic target language.",
+  //     "Chapter 12 (Final Translation Project): 50 English sentences translated into all four languages, with oral presentations.",
+  //     "Chapter 13 (Multilingual Skills) : Students make word-lists of meanings in at least five languages (Spanish, French, German, Chinese, Japanese, English, Hindi) – thematic vocabulary.",
+  //   ],
+
+  //   // GGC: Global Guidance, Achievement & Career
+  //   "👥 GGC (General Guidance Class)": [
+  //     "Chapter 1(College Admissions) : Overview: India (IITs, AIIMS, NLUs, others) vs Abroad (Ivy League, UK, Europe, Japan); admissions basics.",
+  //     "Chapter 2(Major Global Exams) : JEE, NEET, CLAT, SAT, ACT, IELTS, TOEFL, Cambridge A-Level, application timelines.",
+  //     "Chapter 3(Writing for Success) : SOPs, Letters of Recommendation, essays, statement of purpose and accomplishment.",
+  //     "Chapter 4(Research & Exchange) : Applying for Vidyarthi Vigyan Manthan, IYSA, INSPIRE, other research, foreign exchange/fellowship programs.",
+  //     // Young Achievers & Innovation
+  //     "Chapter 5(Youth Inspiration) : Stories of tech/gaming/social youth innovators: Riya Karumanchi, Lim Ding Wen, Mihir Garimella, Snax, Martoz, Vivienne Harr, Kavya Kopparapu; life, learning sources, habits, challenges, societal impact, personalized action plan projects.",
+  //     "Chapter 6(Competitions) : Introduction to global competition like \"swift student challenge\".",
+  //     "Chapter 7(Major Scholarships) : chevening, commonwealth, fulbright, rhodes and other scholarships.",
+
+  //   ],
+
+  //   // Games and Physical Education
+  //   "🏃‍♂️ Games & Physical Education": [
+  //     "Chapter 1(Cardiovascular & Body Systems) : Heart health, exercise effects; fitness projects with self-measurements.",
+  //     "Chapter 2(Diet and Wellbeing) : Meal planning for teen athletes, balanced nutrition, societal influences.",
+  //     "Chapter 3(Social-Emotional Health) : Leadership, empathy, team play, peer support.",
+  //     "Chapter 4(Sex Education) : Consent, safe practices, STI/AIDS awareness.",
+  //     "Chapter 5(Protection Laws) : Child safety/abuse prevention (POCSO), self-advocacy tools.",
+  //     "Chapter 6(Sports Psychology) : Motivation, resilience, focus, leadership through sports."
+  //   ],
+
+  //   // General Knowledge
+  //   "🧠 General Knowledge (G.K)": [
+  //     "Chapter 1(Global Diplomacy) : Paris Agreement, NATO, BRICS, international alliances.",
+  //     "Chapter 2(Current Affairs) : Weekly editorials, news analysis, quizzes.",
+  //     "Chapter 3(Judiciary Highlights) : Comparative studies, structure, high-profile judgements (India & world).",
+  //     "Chapter 4(Science Frontiers) : CRISPR, fusion, AI/ethics breakthroughs, Nobel laureates.",
+  //     "Chapter 5(UN SDGs & Model UN) : Role-play climate negotiations, parliaments, SDGs.",
+  //     "Chapter 5(INSPIRE MANAK Competition) : Overview, objectives, eligibility, application process.",
+  //   ],
+
+  //   // Research Projects
+  //   "🔬 Research Projects (R.P)": [
+  //     "Chapter 1(Robotics) : NPTEL-led robotics modules, .",
+  //     "Chapter 2(Machine Principles) : Working principle of airplane, quadcopter, drone, etc., through comparative study, project/debate, and supported by video lectures.",
+  //     "Chapter 3(Cad Design) : Introduction to canvas, AutoCAD, Fusion 360, tensor flow etc., basic 3D modeling, and design principles.",
+  //     "Chapter 4(Machine Learning) : Introduction to machine learning concepts, simple algorithms, and applications in real-world scenarios."
     
-      "🗣️ Languages": [
-      "Chapter 1 (Why Language? History & Types) : Origins of language, family tree of world languages, spoken, written, sign language.",    
-      "Chapter 2 (Languages Apps and Websites) : Duolingo, Rosetta Stone, Memrise, Beelinguapp, Busuu, 50Languages, language exchange programs.",
-      "Chapter 1 (Hobbies & Sports): Talking about what you like/dislike doing.",
-      "Chapter 2 (Weather & Seasons): Describing today’s weather.",
-      "Chapter 3 (Food Conversation): Ordering food at restaurant – roleplay.",
-      "Chapter 4 (Travel Vocabulary): Train, bus, airport, ticket, hotel.",
-      "Chapter 5 (Describing People): Tall, short, kind, strong, beautiful.",
-      "Chapter 6 (Grammar Step II): Verb conjugations (Spanish), particles (Japanese), tones (Chinese), gender (Urdu).",
-      "Chapter 7 (Short Reading Texts): Simple stories, folk tales, or dialogues with translation.",
-      "Chapter 8 (Songs & Films): Learning language through simple movie clips or songs.",
-      "Chapter 9 (Skits & Roleplay): Acting out 2–3 minute skits in groups.",
-      "Chapter 10 (Translation Practice): Translate 20 simple English sentences into 4 languages.",
-      "Chapter 14 (Multilingual Skills) : Students make word-lists of meanings in at least five languages (Spanish, French, German, Chinese, Japanese, English, Hindi) – thematic vocabulary.",
-    ],
-    "👥 GGC (General Guidance Class)": [
-      "Chapter 1(Major Global Exams & Scholarships) : NTSE, KVPY, IOQM, INChO, IJSO, STEP, TOEFL Junior, SAT/PSAT explained.",
-      "Chapter 2(Major Scholarships) : Introduction to scholarship for graducation and post graduation also for foreign study will be explained like FFE,  Reliance, HDFC, NSP, overseas and others explained.",
-      "Chapter 3(CV Building & Professional Profiles) : Early-stage CV/portfolio making; GitHub, LinkedIn basics.",
-      "Chapter 4(Project and Internship Guidance) : Social service project ideas (school & community), tracking progress.",
-      "Chapter 5(Career Planning) : How to align strengths, interests, values with impactful careers.",
-      "Chapter 6(Language in Careers) : How language skills open global doors (testimonials, examples).",
-      "Chapter 7(Inspirational Young Achievers) : Study and comparison of achievers—Faye Zhang, Anvita Gupta, Jordan Casey, Arjun Ajay, Zora Ball.",
-      "Chapter 8(Gaming & eSports) : Analysis of success stories: Mortal, Mavi, Rakin, Mongraal, Bizzle; what it takes to succeed.",
-      "Chapter 9(Social Contribution & Activism) : Case studies, project inspiration—Vihaan & Nav Agarwal, Jaylen Arnold, Payal Jangid, Naomi Wadler, Ananya Grover.",
-      "Chapter 10(Action-Oriented Reflection) : Mapping a personal journey, action plan (project, skill, mentor search) based on global achievers."
-    ],
-    "🏃‍♂️ Games & Physical Education": [
-      "Chapter 1(Muscular and Skeletal Systems) : Anatomy, function, and injury prevention.",
-      "Chapter 2(Nutrition and Disease) : Study of food, lifestyle diseases such as obesity and diabetes.",
-      "Chapter 3(Reproductive Health) : Menstrual health, myths; body science with age-appropriate care.",
-      "Chapter 4(Substance Abuse Awareness) : Effects of alcohol, tobacco, drugs—role play and group projects.",
-      "Chapter 5(Physical Training Routines) : Warm-up, fitness principles, flexibility, strength endurance.",
-      "Chapter 6(Fitness Testing & Assessment) : Conducting and understanding fitness assessments.",
-      "Chapter 7(Internet and Screen Wellness) : Safe internet use, digital detox, balancing screen time."
-    ],
-
-    "🎨 Arts, Music and Dance": [
-      "Chapter 1(Art Appreciation) : Make drawings of different birds, animals, etc.",
-      "Chapter 2(Painting Techniques) : Watercolor, acrylic basics, color theory.",
-      "Chapter 3(history of Art) : Study of famous artists and their styles.",
-      "Chapter 4(Craft Projects) : Paper mache, clay modeling, recycled art.",
-      "Chapter 1(Art Appreciation) : Introduction to famous artists and their works.",
-      "Chapter 2(Music) : learn some music and sing.",
-      "Chapter 3(History of Music) : Study of different music genres and famous musicians.",
-      "Chapter 3(Dance) : Introduction to basic dance forms, rhythm, and movement.",
-      "Chapter 4(Dance show) : Creating a dance performance incorporating learned elements."
-    ],
-
-    "🧠 General Knowledge (G.K)": [
-      "Chapter 1(Indian Governance) : President, PM, Parliament—roles and powers.",
-      "Chapter 2(Global Leaders and Conflicts) : Reviews of major world leaders, contemporary conflicts/peacekeeping.",
-      "Chapter 3(Economic Indicators) : GDP, inflation, HDI, India vs world comparisons.",
-      "Chapter 4(Geopolitical Geography) : Borders, alliances, regions of conflict, major world events.",
-      "Chapter 5(Sports and World Events) : Olympics, FIFA, ICC history, records.",
-      "Chapter 6(Debates and Quizzes) : Weekly quiz bowl, current affairs debates."
-    ],
-    "🔬 Research Projects (R.P)": [
-      "Chapter 1(Robotics Introduction & NPTEL Lectures) : Theory and hands-on activities with robot kits, autonomous task demos.",
-      "Chapter 2(Machine Principles) : Working principle of airplane, quadcopter, drone, etc., through comparative study, project/debate, and supported by video lectures.",
-      "Chapter 3(Cad Design) : Introduction to canvas, AutoCAD, Fusion 360, tensor flow etc., basic 3D modeling, and design principles.",
-      "Chapter 4(Machine Learning Basics) : Introduction to machine learning concepts, simple algorithms, and applications in real-world scenarios."
-    ]
-  },
-  
-  "📚 Class 8": {
-    // Computer Science: Full-stack, App/Web & Foundational Coding
-    "💻 Computer Science": [
-      "Chapter 1(Web Development) : HTML & CSS styling,Internal/external CSS, selectors, layouts using Flexbox/Grid, media queries. HTML5 at the level of web development, building static pages, responsive design, best practices,backend(only what is necessary) and design a website using frontend and backend.",
-      "Chapter 2(App Development Concepts) : Introduction to app building logic, UI/UX basics for apps and web, planning an app layout.",
-      "Chapter 3(C++ Programming and Problem Solving) : Solving ~100 basic-medium problems (with guidance) via Codeforces, AtCoder, GeeksforGeeks, Coding Ninja—focus on input/output, loops, conditionals, arrays.",
-      "Chapter 4(Python Programming Basics) : Variables, data types, if-else, loops, input/output, simple applications.",
-      "Chapter 5(SQL Introduction) : Basics of databases, creating tables, SELECT statements, simple queries to manage and retrieve data.",
-      "Chapter 6(Cybersecurity Essentials) : Awareness of phishing, how to create and remember strong passwords, basics of two-factor authentication, safe browsing habits.",
-      // Recommended Next Steps for Web Development (after HTML, CSS, JS):
-      "Chapter 7(Web Development Roadmap: What's Next?) : Learn JavaScript frameworks (React, Angular, or Vue), understand backend development (Node.js, Python-Django/Flask, PHP), database connections, API integration, deployment tools (Netlify, GitHub Pages), version control (Git), and build small full-stack projects to consolidate skills[1][2][3][9].",
-      "Chapter 8(Online Platforms & Practice) : Codecademy, FreeCodeCamp, The Odin Project, LeetCode, Sololearn, W3Schools, CodePen for web and app practice and coding competitions[9][12]."
-    ],
-
-    // Mathematics: Advanced School to Pre-University
-    "➗ Mathematics": [
-      "Chapter 1(Number System) : Introduction to Number System(9+10 CBSE), Real Numbers, Complex Numbers Polynomials, ",
-      "Chapter 2(Linear Equations) : Linear Equations in n(1,2,3...) variables, word problems, algebraic solution strategies.",
-      "Chapter 3(Geometries) : Introduction to Triangles, quadrilaterals and other geometries. Their properties, theorems, and visual proofs.",
-      "Chapter 4(Coordinate Geometry) : Points, 1D, 2D, 3D, Euclid's postulates and axioms CBSE-9, Heron’s Formula, Parameter, of Circles, Parallelograms and Triangles",
-      "Chapter 5(Mensuration & Volumes) : Parameter, Surface area and volume for cubes, cuboids, cylinders, cones, spheres etc.",
-      "Chapter 6(Vectors and Matrix) :  vector algebra and matrix and its Determinants.",
-      "Chapter 7(Geometry: Constructions & Congruence) : Constructions using ruler/compass, congruence tests, problems involving triangles.",
-      "Chapter 8(Statistics) : introduction to statistics.",
-      "Chapter 9(Trigonometry) : Introduction to Trigonometry and Trigonometric Functions, Inverse Trigonometric Functions, and their Applications",
-      "Chapter 10(Taylor Series & Trigonometric Expansions) : Taylor and Maclaurin series, expansion of sin(Q), cos(Q), e^Q, with applications.",
-      "Chapter 11(Exponents and Powers) : Laws, simplification, scientific notation, calculations.",
-      "Chapter 12(Factorisation, Square and Cube Roots) : Factoring algebraic expressions, shortcut methods, rationalizing, roots.",
-      "Chapter 13(Probability Basics) : Event, sample space, simple classical probability.",
-      "Chapter 14(Progressions Series) : A.P, G.P, H.P., Sequences and Series",
-      "Chapter 15(Calculus) : Introduction to Limits, Dericatives and Integration. Also their Applications area under the curve (area under two functions), rate of change, etc.",
-      "Chapter 16(Misc) : Sets, Relations and Functions, Conic Sections, Linear Inequalities",
-      "Chapter 17(Gauss, Stokes, and Green's Theorems [Intro]) : Conceptual, visual introduction to field integration theorems, where/why they are used in higher mathematics and physics."
-      //"Chapter 17(Optional) : PMI, Complex Numbers and Quadratic Equations, PnC, Binomial Theorem, Mathematical Reasoning, Continuity and Differentiability, Differential Equations, Linear Programming "
-    ],
-
-
-    // Physics
-    "🔬 Physics": [
-      "Chapter 1(Measurement and Experimentation) : Significant figures, error analysis, lab safety, basic tools.",
-      "Chatper 2(Units and dimensions) : Unit conversions, dimensional analysis.",
-      "Chapter 3(Force and Pressure) : Types of forces, measuring pressure, applications.",
-      "Chapter 4(Friction) : Causes, effects, practical uses, reduction/increase strategies.",
-      "Chapter 5(Motion) : Speed, velocity, acceleration, equations of motion, graphs.",
-      "Chapter 6(Gravitation) : Universal law, free fall, mass vs weight, orbital motion.",
-      "Chapter 7(Electricity and Magnetism) : Electric charges, fields, Ohm’s law, circuits, magnets.",
-      "Chapter 8(Water and Fluids) : Properties of fluids, buoyancy, Archimedes’ principle.",
-      "Chapter 9(Work, Energy and Power) : Work done, kinetic/potential energy, conservation of energy, power.",
-      "Chapter 10(Machines and Simple Mechanisms) : Levers, pulleys, gears, mechanical advantage.",
-      "Chapter 11(Solar System and Space) : Planets, moons, stars, galaxies; space exploration basics.",
-      "Chapter 12(Sound) : Vibrations, pitch, amplitude, frequency and time period, sound wave behavior and beats.",
-      "Chapter 13(Chemical Effects of Current) : Conductors/insulators, simple circuits, real-life implications.",
-      "Chapter 14(Light and Optics) : Reflection, refraction, lenses, mirrors, vision defects and corrections.",
-      "Chapter 15(Magnetic Effects of Current) : Electromagnetism, applications in motors, generators, transformers.",
-      "Chapter 16(Thermal Properties of Matter) : temperature, temperature units conversion(Fahrenheit to Celsius etc), Heat, expansion, conduction, convection, radiation, thermometry, Principle of Thermometer, melting point, boiling point, vaporisation, sublimation, triple point, types of latent heat, effect of pressure.",
-      "Chapter 17Mechanical Properties of Fluids) : Pressure, Pascal's Law,  Archimedes Principle, Equation of Continuity, Bernoulli’s Theorem, Coefficient of Viscosity, Terminal Velocity, Surface Tension and Surface Energy. ",
-      "Chapter 18(Electric Charges and Fields) : Electrostatic charge, moving charges, Coulomb's Law, Electric Field, Electric Flux, Gauss's Law, Applications of Gauss's Law.",
-      "Chapter 19(Electromagnetic Induction and Alternating Currents) : Magnetic flux, Faraday's Law, Lenz's Law, Eddy currents, AC generation, RMS values, transformers.",
-      "Chapter 20(Optical Instruments and Human Eye) : Microscopes, telescopes, human eye structure, common vision defects and corrections.",
-      //"Chapter 15(Optional) : Thermodynamics, Waves and Oscillations, Modern Physics (Photoelectric effect, atomic models)"
-    ],
-
-    // Chemistry
-    "⚗️ Chemistry": [
-      "Chapter 1(Structure of Atom: Dalton & Bohr) : Atomic models, subatomic particles, visualization.",
-      "Chapter 2(Isotopes & Isobars) : Differences, examples, periodic table placement.",
-      "Chapter 3(Laws of Chemical Combination) : Law of conservation of mass, definite/multiple proportions.",
-      "Chapter 4(Chemical Reactions & Equations) : Types, balancing equations, practical lab examples.",
-      "Chapter 5(Mole Concept & Stoichiometry) : Avogadro number, mole-mass-number relationships, calculations.",
-      "Chapter 6(Periodic Table & Classification) : Mendeleev, modern periodic law, groups, periods, and trends."
-    ],
-
-    // Biology
-    "🧬 Biology": [
-      "Chapter 1(Cell Detailed Study) : Structure, organelles, functions, comparison to factories/cities for analogy.",
-      "Chapter 2(Tissues in Plants & Animals) : Types, structure, importance in body/plant function.",
-      "Chapter 3(Diversity of Life) : Kingdom classification, notable differences, local biodiversity.",
-      "Chapter 4(Health & Disease) : Infectious/non-infectious, vaccination, symptoms/prevention.",
-      "Chapter 5(Natural Resources) : Air, water, soil, sustainable usage, pollution.",
-      "Chapter 6(Food Resources Improvement) : Agriculture biotechnology, GM crops, food security issues."
-    ],
-
-    // English
-    "📖 English": [
-      "Chapter 1(Reading & Critical Thinking) : Literature, argument analysis, debate, creative writing.",
-      "Chapter 2(Exam Preparation: GRE/TOEFL, SAT, IELTS) : Advanced comprehension, essay, MCQs, vocab drills, speaking and listening practice, sample mock tests."
-    ],
-
-    // Social Sciences
-    "🏛️ Political Science": [
-      "Chapter 1(Power-sharing in Federal Structures) : Examples from Belgium, Sri Lanka.",
-      "Chapter 2(Democracy & Diversity) : Issues of caste, gender, religion in representation.",
-      "Chapter 3(Popular Struggles) : Bolivia, global and Indian mass movements.",
-      "Chapter 4(Political Parties) : Types, national vs regional, roles, recent reforms.",
-      "Chapter 5(Democracy: Outcomes & Challenges) : Accountability, transparency, public participation."
-    ],
-
-    "💰 Economics": [
-      "Chapter 1(Development: Income & Sustainability) : Economic growth vs environmental health.",
-      "Chapter 2(Economic Sectors) : Primary, secondary, tertiary—case studies.",
-      "Chapter 3(Banking & Credit) : Banking system, loans, digital finance (UPI, credit risk).",
-      "Chapter 4(Globalisation & Trade Blocs) : EU, ASEAN, BRICS, impacts of liberalisation.",
-      "Chapter 5(Consumer Awareness & Protection) : Rights, grievance redressal, project-based awareness.",
-      "Chapter 6(Business Models & Innovation) : Startups, franchises, basic planning.",
-      "Chapter 7(Digital Economy) : E-commerce, digital marketing, India's UPI story."
-    ],
-
-    "📚 History & Geography": [
-      "Chapter 1(Resources and Development) : Types, conservation strategies, global/local case studies.",
-      "Chapter 2(Agriculture and Industry) : Indian/world farming practices, minerals, power, industries.",
-      "Chapter 3(Urbanisation & Smart Cities) : Indian/global examples, urban planning, challenges.",
-      "Chapter 4(Disaster Management) : Floods, earthquakes, planning, disaster response drills.",
-      "Chapter 5(Global Environmental Issues) : Climate change, pollution, desertification, SDGs, youth activism."
-    ],
-
-    // Law/Civics
-    "⚖️ Law": [
-      "Chapter 1(Constitution in Action) : Fundamental Rights & Duties in practice, lived experiences.",
-      "Chapter 2(Legal Aid, Lok Adalats, PILs) : How citizens access justice, case project.",
-      "Chapter 3(Key Acts: SC/ST, RTE, Domestic Violence) : Provisions, lived stories, impact analysis.",
-      "Chapter 4(Case Studies: Law vs Society) : Caste atrocity laws, balancing environment and industry interests.",
-      "Chapter 5(IPC & CrPC Basics) : Structure, significance, few sections with examples."
-    ],
-
-    // Hindi
-    "📝 Hindi": [
-      "Chapter 1(शिक्षा और सामाजिक विषय) : कविता, कहानी, संवाद लेखन—मानवता, लैंगिक न्याय, साम्प्रदायिकता।",
-      "Chapter 2(व्याकरण एवं अनुप्रयुक्त लेखन) : काल, समास, पत्र/निबंध, अनुवाद, लेटर/अनुप्रयुक्त संवाद।",
-      "Chapter 3(सामाजिक मुद्दे) : बाल श्रम, महिला अधिकार, पर्यावरण संरक्षण, सामुदायिक सेवा।",
-      "Chapter 4(पुस्तकें) : Mother India (Hindi) A book by Katherine Mayo",
-      "Chapter 5(सामाजिक परिवर्तन) : सामुदायिक सेवा, बाल अधिकार, महिला सशक्तिकरण, पर्यावरण संरक्षण।"
-    ],
-
-    // Moral Values / Ethics
-    "🌱 Moral Values & Ethics": [
-      "Chapter 1(Dignity) : What is dignity? Real-world examples, self-respect vs disrespect.",
-      "Chapter 2(Role of Ambedkar) : Stories and class discussion on Ambedkar’s contributions to Indian society equality specially for Women(Hindu Code Bill).",
-      "Chapter 3(Caste Atrocities in India) : Research, group presentation, impact in society and laws.",
-      "Chapter 4(Consent and Boundaries) : Personal/social consent, boundaries, assertiveness, Endogamy vs Exogamy.",
-      "Chapter 5(Digital Ethics) : Handling trolls, fake news, hate speech, digital citizenship.",
-      "Chapter 6(God vs Nature) : Debating the influence of beliefs on science/environment.",
-      "Chapter 7(Speaking Up) : Whistleblowing, standing up to injustice, student-led dramatization.",
-      "Chapter 8(Gender & Queer Rights) : Equality, bullying, LGBTQ+ issues, classroom policy exercises.",
-      "Chapter 9(Mental Health & Friendship) : Support, stigma breaking, real-world stories.",
-      "Chapter 10(intoxicants) : what are intoxicants, How it effects society, Get rid of addiction.",
-      "Chapter 11(Environmental Responsibility) : Role in ecological action, project on conservation.",
-      "Chapter 12(Child Labour & Exploitation) : Research, films, poster presentations.",
-      "Chapter 13(Human Rights) : Understanding human rights, UDHR, case studies on violations and protections.",
-      "Chapter 14(Critical Societal Questions and Simulations) : Debates on Indian ethics, parliamentary simulation on reservation/free education, Model UN (climate, human rights), moot court (cyberbullying, SC/ST Act), stakeholder role-play, and panel on voting age.",
-      "Chapter 15(Parade) : Teaching about police, army ... duty and responsibility. Also there will be weekly parade and self safety in case fire, earthquake or any other emergency.",
-      "Chapter 16(Value of Life) : what is the value of life?, Importance of life, people died in plane crash got 1 crore each whereas people died on mahakumbh got 25 lakh and so on does value of life depends on place where one dies? ,  Lakhan Pasi story(left from jail at 104 age).",
-      "Chapter 17(Mental Strength) : Why do some people commit suicide(explain in very polite way)?, understanding mental health and seeking help, Importance of life",
-      "Chapter 18(Religions) : what is Religion?, History and origin, who make it? why make it? is it necessary to have Religion?, Is Religion a failed experiment? has Religion been converted to Business?, can religion help to make the world a better place? are we independent to choose any religion or we are bound to one we born in?",
-      "Chapter 19(Documentry) : https://youtu.be/NTXO6uptlC8?si=HU4TuGJ8yZj_jKyd discussion on girls rights.",
-      "Chapter 20(Casteism and Racism) : Understanding caste and race, casteism as termite, its impact on society, and discussions on equality and justice.",
-      "Chapter 21(Casteism within caste) : Exploring the nuances of caste dynamics, intra-caste discrimination, and the quest for equality. Documentry: https://youtu.be/bunZDrDOMBg?si=Px_6hj5LaOHeNDqD",
-      "Chapter 22(Ethics in School) : Cheating, favoritism, reflecting on discipline vs education",
-      "Chapter 23(Famous Reincarnation Cases) : Shanti Devi, James Leininger, Cameron Macaulay, Kofel Case, Nirmal Singh, Martin (Sri Lanka), Sawney Bean Boy, Swarnlata, Thai Boy Case, Turkish Boy Case, Japanese Girl Case, Shiva-Sumitra Case (Etawah), The Pollock Twins (UK), The Case of the Pollock Twins (UK), The Case of the Pollock Twins (UK)",
-      "Chapter 24(Group Projects) : Poster + presentation, school exhibition.",
-    ],
-
-
-    // Languages
-    "🗣️ Languages": [
-      "Chapter 1 (Why Language? History & Types) : Origins of language, family tree of world languages, spoken, written, sign language.",    
-      "Chapter 2 (Languages Apps and Websites) : Duolingo, Rosetta Stone, Memrise, Beelinguapp, Busuu, 50Languages, language exchange programs.",
-      "Chapter 3 (Extended Conversations): Holding 1–2 minute conversations about daily life.",
-      "Chapter 4 (Travel Dialogues): Asking for directions, booking a room, buying a ticket.",
-      "Chapter 5 (Health & Emergency): Saying 'I feel sick', 'Call a doctor', 'Where is the hospital?'.",
-      "Chapter 6 (Technology Vocabulary): Phone, computer, internet, app, email.",
-      "Chapter 7 (Proverbs & Idioms): 3–5 simple proverbs in each language with meanings.",
-      "Chapter 8 (Grammar Review): Tenses (past/present/future basics).",
-      "Chapter 9 (Letter Writing): Writing a short postcard/email in Spanish or Japanese.",
-      "Chapter 10 (Career with Languages): Exploring jobs in tourism, IT, translation, diplomacy.",
-      "Chapter 11 (Cultural Projects): Students research one famous figure from each language country and present in English + basic target language.",
-      "Chapter 12 (Final Translation Project): 50 English sentences translated into all four languages, with oral presentations.",
-      "Chapter 13 (Multilingual Skills) : Students make word-lists of meanings in at least five languages (Spanish, French, German, Chinese, Japanese, English, Hindi) – thematic vocabulary.",
-    ],
-
-    // GGC: Global Guidance, Achievement & Career
-    "👥 GGC (General Guidance Class)": [
-      "Chapter 1(College Admissions) : Overview: India (IITs, AIIMS, NLUs, others) vs Abroad (Ivy League, UK, Europe, Japan); admissions basics.",
-      "Chapter 2(Major Global Exams) : JEE, NEET, CLAT, SAT, ACT, IELTS, TOEFL, Cambridge A-Level, application timelines.",
-      "Chapter 3(Writing for Success) : SOPs, Letters of Recommendation, essays, statement of purpose and accomplishment.",
-      "Chapter 4(Research & Exchange) : Applying for Vidyarthi Vigyan Manthan, IYSA, INSPIRE, other research, foreign exchange/fellowship programs.",
-      // Young Achievers & Innovation
-      "Chapter 5(Youth Inspiration) : Stories of tech/gaming/social youth innovators: Riya Karumanchi, Lim Ding Wen, Mihir Garimella, Snax, Martoz, Vivienne Harr, Kavya Kopparapu; life, learning sources, habits, challenges, societal impact, personalized action plan projects.",
-      "Chapter 6(Competitions) : Introduction to global competition like \"swift student challenge\".",
-      "Chapter 7(Major Scholarships) : chevening, commonwealth, fulbright, rhodes and other scholarships.",
-
-    ],
-
-    // Games and Physical Education
-    "🏃‍♂️ Games & Physical Education": [
-      "Chapter 1(Cardiovascular & Body Systems) : Heart health, exercise effects; fitness projects with self-measurements.",
-      "Chapter 2(Diet and Wellbeing) : Meal planning for teen athletes, balanced nutrition, societal influences.",
-      "Chapter 3(Social-Emotional Health) : Leadership, empathy, team play, peer support.",
-      "Chapter 4(Sex Education) : Consent, safe practices, STI/AIDS awareness.",
-      "Chapter 5(Protection Laws) : Child safety/abuse prevention (POCSO), self-advocacy tools.",
-      "Chapter 6(Sports Psychology) : Motivation, resilience, focus, leadership through sports."
-    ],
-
-    // General Knowledge
-    "🧠 General Knowledge (G.K)": [
-      "Chapter 1(Global Diplomacy) : Paris Agreement, NATO, BRICS, international alliances.",
-      "Chapter 2(Current Affairs) : Weekly editorials, news analysis, quizzes.",
-      "Chapter 3(Judiciary Highlights) : Comparative studies, structure, high-profile judgements (India & world).",
-      "Chapter 4(Science Frontiers) : CRISPR, fusion, AI/ethics breakthroughs, Nobel laureates.",
-      "Chapter 5(UN SDGs & Model UN) : Role-play climate negotiations, parliaments, SDGs.",
-      "Chapter 5(INSPIRE MANAK Competition) : Overview, objectives, eligibility, application process.",
-    ],
-
-    // Research Projects
-    "🔬 Research Projects (R.P)": [
-      "Chapter 1(Robotics) : NPTEL-led robotics modules, .",
-      "Chapter 2(Machine Principles) : Working principle of airplane, quadcopter, drone, etc., through comparative study, project/debate, and supported by video lectures.",
-      "Chapter 3(Cad Design) : Introduction to canvas, AutoCAD, Fusion 360, tensor flow etc., basic 3D modeling, and design principles.",
-      "Chapter 4(Machine Learning) : Introduction to machine learning concepts, simple algorithms, and applications in real-world scenarios."
-    
-    ]
-  }
+  //   ]
+  // }
 
 
 });
