@@ -570,7 +570,7 @@ Object.assign(window.curriculumData, {
       {"Equations & Identities": ["Simple formulas", "Manipulation techniques"]}
     ]},
     {"Chapter 4 (Operators and Expressions)": [
-      {"Operator Types": ["Arithmetic", "Relational", "Logical", "Bitwise", "Assignment", "Unary", "Conditional (Ternary)", "Shift", "Special", "Miscellaneous"]},
+      {"Operator Types": ["Arithmetic, Relational, Logical, Bitwise, Assignment, Unary, Conditional (Ternary), Shift, Special, Miscellaneous"]},
       {"Uses": ["Comprehensive operator understanding"]}
     ]},
     {"Chapter 5 (Geometry)": [
@@ -617,11 +617,11 @@ Object.assign(window.curriculumData, {
       {"Color Vision": ["Seeing colors", "Rainbows", "Prisms"]}
     ]},
     {"Chapter 5 (Electricity Basics)": [
-      {"Concepts": ["Voltage", "Potential difference", "Current", "Resistor", "Inductor", "Capacitor"]},
+      {"Concepts": ["Voltage, Potential difference, Current, Resistor, Inductor, Capacitor"]},
       {"Circuits": ["How bulbs, switches, batteries work", "Constructing simple circuits"]}
     ]},
     {"Chapter 6 (Force and Pressure)": [
-      {"Force Types": ["Gravitational", "Frictional"]},
+      {"Force Types": ["Gravitational, Frictional"]},
       {"Pressure": ["Concepts and demonstrations"]}
     ]},
     {"Chapter 7 (Sound)": [
@@ -643,7 +643,7 @@ Object.assign(window.curriculumData, {
       {"Machines & Conservation": ["Simple machines", "Energy conservation concepts"]}
     ]},
     {"Chapter 11 (Energy Laws in Physics)": [
-      {"Laws": ["Conservation of Energy", "Conservation of Mass", "First and Second Laws of Thermodynamics"]}
+      {"Laws": ["Conservation of Energy, Conservation of Mass, First and Second Laws of Thermodynamics"]}
     ]}
   ],
   "⚗️ Chemistry": [
@@ -719,7 +719,7 @@ Object.assign(window.curriculumData, {
       {"Skills": ["Listening and reading comprehension", "Logic-based vocabulary", "Speaking and grammar exercises", "Reasoning-based English practice tests"]}
     ]},
     {"Chapter 2 (Active Passive, Tenses, Modals)": [
-      {"Grammar": ["Sentence structure for all tenses", "Punctuation", "Conjunctions", "Subject-verb agreement"]},
+      {"Grammar": ["Sentence structure for all tenses, Punctuation, Conjunctions, Subject-verb agreement"]},
       {"Writing": ["Creative writing: stories, essays, letters"]},
       {"Review": ["Editing and peer review activities"]}
     ]},
@@ -833,20 +833,21 @@ Object.assign(window.curriculumData, {
     ]}
   ],
   "📜 Hindi": [
-    {"Chapter 1 ([translate:नैतिकता और सामाजिक विषय])": [
-      {"Topics": ["[translate:शिक्षा का महत्व]", "कविता", "कहानी", "संवाद", "बाल अधिकार", "लैंगिक सम्मान", "जाति पर चर्चा"]}
+    {"Chapter 1 (नैतिकता और सामाजिक विषय)": [
+      {"Topics": ["शिक्षा का महत्व, कविता, कहानी, संवाद, बाल अधिकार, लैंगिक सम्मान, जाति पर चर्चा"]}
     ]},
-    {"Chapter 2 ([translate:व्याकरण और रचनात्मक लेखन])": [
+    {"Chapter 2 (व्याकरण और रचनात्मक लेखन)": [
       {"Grammar": ["काल", "विरोधाभाषी शब्द", "अपठित गद्यांश"]},
       {"Writing": ["अनुवाद", "संवाद लेखन"]}
     ]},
-    {"Chapter 3 ([translate:सामाजिक एवं ऐतिहासिक घटनाएँ])": [
+    {"Chapter 3 (सामाजिक एवं ऐतिहासिक घटनाएँ)": [
       {"Materials": ["कहानियाँ", "पत्र लेखन", "समाचार रचना"]}
     ]}
   ],
   "🌱 Moral Values & Ethics": [
     {"Chapter 1 (What is Right & Wrong?)": [
-      {"Stories": ["Real-life stories"], "Themes": ["Truthfulness", "Courage", "Why help matters"]}
+      {"Stories": ["Real-life stories"]},
+      {"Themes": ["Truthfulness", "Courage", "Why help matters"]}
     ]},
     {"Chapter 2 (Respect and Gender Equality)": [
       {"Values": ["Respecting all", "Girls' rights"]},
@@ -905,11 +906,11 @@ Object.assign(window.curriculumData, {
       {"Modes": ["Spoken", "Written", "Sign language"]}
     ]},
     {"Chapter 2 (Languages Apps and Websites)": [
-      {"Apps": ["Duolingo", "Rosetta Stone", "Memrise", "Beelinguapp", "Busuu", "50Languages"]},
+      {"Apps": ["Duolingo, Rosetta Stone, Memrise, Beelinguapp, Busuu, 50Languages"]},
       {"Learning": ["Language exchange programs"]}
     ]},
     {"Chapter 3 (Basic Grammar Intro)": [
-      {"Word Order": ["Spanish SVO", "Japanese SOV", "Chinese SVO with tones", "Urdu right-to-left"]}
+      {"Word Order": ["Spanish SVO, Japanese SOV, Chinese SVO with tones, Urdu right-to-left"]}
     ]},
     {"Chapter 4 (Self Introduction)": [
       {"Phrases": ["My name is…", "I am … years old", "I am from…"]}
@@ -921,7 +922,7 @@ Object.assign(window.curriculumData, {
       {"Subjects and Items": ["Subjects", "Homework", "Exam", "Classroom items"]}
     ]},
     {"Chapter 7 (Asking Questions)": [
-      {"Question Words": ["What", "Where", "When", "Who in all 4 languages"]}
+      {"Question Words": ["What, Where, When, Who in all 4 languages"]}
     ]},
     {"Chapter 8 (Family and Friends)": [
       {"Topics": ["Talking about family members", "Best friend"]}
@@ -940,7 +941,7 @@ Object.assign(window.curriculumData, {
     ]},
     {"Chapter 13 (Multilingual Skills)": [
       {"Projects": ["Word-lists of meanings in at least five languages"]},
-      {"Languages": ["Spanish", "French", "German", "Chinese", "Japanese", "English", "Hindi"]}
+      {"Languages": ["Spanish, French, German, Chinese, Japanese, English, Hindi"]}
     ]}
   ],
   "👥 GGC (General Guidance Class)": [
@@ -994,7 +995,7 @@ Object.assign(window.curriculumData, {
       {"Safety": ["Minor wounds", "Burns", "Emergencies"]}
     ]},
     {"Chapter 6 (Mental Health)": [
-      {"Wellbeing": ["Stress reduction", "Bullying prevention", "Digital detox", "Yoga", "Mindfulness basics"]}
+      {"Wellbeing": ["Stress reduction, Bullying prevention, Digital detox, Yoga, Mindfulness basics"]}
     ]},
     {"Chapter 7 (Relationship Education)": [
       {"Topics": ["Gender respect", "Healthy relationships", "Assertive communication"]}
@@ -1062,7 +1063,8 @@ Object.assign(window.curriculumData, {
       {"Techniques": ["Lighting", "Clarity", "Stability"]}
     ]},
     {"Chapter 8 (Basic Editing)": [
-      {"Apps": ["CapCut", "Canva", "InShot"], "Skills": ["Trimming", "Captions", "Background music"]}
+      {"Apps": ["CapCut", "Canva", "InShot"]},
+      {"Skills": ["Trimming", "Captions", "Background music"]}
     ]},
     {"Chapter 9 (Presentation Voice and Confidence)": [
       {"Skills": ["Clear speaking", "Pausing", "Expressive explanation"]}
@@ -1077,7 +1079,8 @@ Object.assign(window.curriculumData, {
       {"Events": ["Group project presentations with safety documentation"]}
     ]},
     {"Chapter 13 (Sensors in Technology)": [
-      {"Types and Applications": ["Airplanes", "Boats", "Drones", "Robots"], "Hands-on": ["Sensor demonstrations"]}
+      {"Types and Applications": ["Airplanes", "Boats", "Drones", "Robots"]},
+      {"Hands-on": ["Sensor demonstrations"]}
     ]},
     {"Chapter 14 (Robotics – Introduction)": [
       {"Resources": ["NPTEL lectures", "Classroom kits"]},
@@ -1209,8 +1212,8 @@ Object.assign(window.curriculumData, {
       {"Data Analysis": ["Using weather data"]}
     ]},
     {"Chapter 8 (Linear Motion)": [
-      {"Motion Types": ["Rotational", "Linear"]},
-      {"Gears": ["Types and ratios"]}
+      {"Motion Types": ["Linear, Rotational"]},
+      
     ]},
     {"Chapter 9 (Rotational Motion)": [
       {"Kinematics": ["Angular velocity", "Angular acceleration"]},
@@ -1218,7 +1221,9 @@ Object.assign(window.curriculumData, {
     ]},
     {"Chapter 10 (Angular motion terms)": [
       {"Quantities": ["Torque", "Angular Momentum", "Moment of Inertia"]},
-      {"Applications": ["Real-world examples"]}
+      {"Applications": ["Real-world examples"]},
+      {"Relative World": ["Relativity basics, relative velocity, frames of reference, Galilean transformation, inertial and non-inertial frames, time dilation, length contraction, twin paradox, other paradoxes"]},
+      {"Gears": ["Types of gears, what is purpose of each type and their application, Gear ratios"]}
     ]},
     {"Chapter 11 (EMI)": [
       {"Laws": ["Magnetic flux", "Faraday's law", "Lenz's law"]},
@@ -1226,7 +1231,7 @@ Object.assign(window.curriculumData, {
     ]},
     {"Chapter 12 (AC and DC Currents)": [
       {"Materials": ["Conductor", "Semiconductor", "Insulator"]},
-      {"Laws and Principles": ["Ohm’s law", "Resistance", "Effect of factors", "Cells in series and parallel"]}
+      {"Laws and Principles": ["Ohm’s law, Resistance, Effect of factors", "Cells in series and parallel"]}
     ]}
   ],
   "⚗️ Chemistry": [
@@ -1433,7 +1438,7 @@ Object.assign(window.curriculumData, {
       {"Practical Scenarios": ["Application"]}
     ]},
     {"Chapter 3 (Treating Everyone Equally)": [
-      {"Role-Play": ["Analyzing biases", "Building inclusivity"]}
+      {"Education Importance": ["Analyzing biases, is education necessary to get respect?"]}
     ]},
     {"Chapter 4 (Discrimination)": [
       {"Stories": ["Resistance narratives"]},
@@ -1555,7 +1560,7 @@ Object.assign(window.curriculumData, {
       {"Analysis": ["Traits and habits for success"]}
     ]},
     {"Chapter 9 (Social Contribution & Activism)": [
-      {"Case Studies": ["Vihaan & Nav Agarwal", "Jaylen Arnold", "Payal Jangid", "Naomi Wadler", "Ananya Grover"]}
+      {"Case Studies": ["Vihaan & Nav Agarwal, Jaylen Arnold, Payal Jangid, Naomi Wadler, Ananya Grover"]}
     ]},
     {"Chapter 10 (Action-Oriented Reflection)": [
       {"Personal Journey": ["Mapping progress", "Project and skill building", "Mentor search"]}
@@ -1654,7 +1659,7 @@ Object.assign(window.curriculumData, {
 "📚 Class 8": {
   "💻 Computer Science": [ 
   {"Chapter 1 (Web Development)": [
-    {"HTML & CSS": ["HTML5 for static pages", "Internal/external CSS", "Selectors, layouts (Flexbox/Grid)", "Responsive design and media queries"]},
+    {"HTML & CSS": ["HTML5 for static pages, Internal/external CSS, Selectors, layouts (Flexbox/Grid), Responsive design and media queries"]},
     {"Backend Basics": ["Introduction to backend logic", "Minimal server-side concepts (Node.js/Python)"]},
     {"Projects": ["Designing a full website using frontend and backend", "Best coding practices"]}
   ]},
@@ -1684,14 +1689,14 @@ Object.assign(window.curriculumData, {
     {"Tools": ["Version control with Git", "Mini full-stack projects"]}
   ]},
   {"Chapter 8 (Online Platforms & Practice)": [
-    {"Learning": ["Codecademy", "FreeCodeCamp", "The Odin Project", "Sololearn", "W3Schools", "CodePen"]},
+    {"Learning": ["Codecademy, FreeCodeCamp, The Odin Project, Sololearn, W3Schools, CodePen"]},
     {"Practice": ["Coding competitions", "Online portfolio building"]}
   ]}
 ],
 
 "➗ Mathematics": [
   {"Chapter 1 (Number System)": [
-    {"Concepts": ["Real and Complex numbers", "Polynomials", "Relations between number types"]},
+    {"Concepts": ["Real and Complex numbers, Polynomials, Relations between number types"]},
     {"Practice": ["CBSE 9+10 level examples"]}
   ]},
   {"Chapter 2 (Linear Equations)": [
@@ -1703,7 +1708,7 @@ Object.assign(window.curriculumData, {
     {"Properties": ["Theorems, visual proofs"]}
   ]},
   {"Chapter 4 (Coordinate Geometry)": [
-    {"Basics": ["1D, 2D, 3D coordinates", "Euclid’s postulates", "Heron’s Formula"]},
+    {"Basics": ["1D, 2D, 3D coordinates, Euclid’s postulates, Heron’s Formula"]},
     {"Applications": ["Parameters of circles, parallelograms, triangles"]}
   ]},
   {"Chapter 5 (Mensuration & Volumes)": [
@@ -2143,16 +2148,16 @@ Object.assign(window.curriculumData, {
       {"Concepts": ["SOPs", "LORs", "Essay writing"]}
   ]},
   {"Chapter 4 (Research & Exchange)": [
-      {"Programs": ["INSPIRE", "IYSA", "Foreign exchange opportunities"]}
+      {"Programs": ["INSPIRE, IYSA, Foreign exchange opportunities"]}
   ]},
   {"Chapter 5 (Youth Inspiration)": [
-      {"Profiles": ["Riya Karumanchi", "Mihir Garimella", "Vivienne Harr", "Kavya Kopparapu"]}
+      {"Profiles": ["Riya Karumanchi, Mihir Garimella, Vivienne Harr, Kavya Kopparapu"]}
   ]},
   {"Chapter 6 (Competitions)": [
       {"Examples": ["Swift Student Challenge", "Other global events"]}
   ]},
   {"Chapter 7 (Major Scholarships)": [
-      {"Programs": ["Chevening", "Commonwealth", "Fulbright", "Rhodes"]}
+      {"Programs": ["Chevening, Commonwealth, Fulbright, Rhodes"]}
   ]}
 ],
 
