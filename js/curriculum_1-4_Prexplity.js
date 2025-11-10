@@ -232,33 +232,34 @@ Object.assign(window.curriculumData, {
 
   "📚 Class 3": {
     "📖 English – Priority Course": [
-    {"Chapter 1(Importance of Education)": [
-        {"Content": ["Stories and poems on the necessity of learning"]},
-        {"Activities": ["Classroom activity where children explain and retell"]},
-        {"Focus": ["Fostering values and ethics", "Teacher- and student-made poems"]}
+    {"Chapter 1(Word Meanings)": [
+        {"Stories": ["Stories and poems that help to learn word meanings"]},
+        {"Activities": ["Matching games", "Flashcards"]},
+        {"Teachers engagement": ["Teacher- and student-made poems"]},
+        {"Quizzes": ["Daily quizzes to reinforce vocabulary"]}
       ]},
-    {"Chapter 2(Books)": [
-        {"Topics": ["What are Books", "Who write books", "Value of books and their care"]},
+    {"Chapter 2(Understanding Pictures)": [
+        {"Picture Reading": ["Describing scenes", "Identifying objects and actions in pictures"]},
         {"Activities": ["Discussions and sorting activities"]}
       ]},
     {"Chapter 3(Logic Building with Language)": [
         {"Activities": ["Logic puzzles", "Sequencing stories", "Riddles"]},
         {"Focus": ["Cause/effect games", "Logic-based reading comprehension"]}
       ]},
-    {"Chapter 4(GRE & TOEFL Foundation)": [
-        {"Skills": ["Reading comprehension passages", "Vocabulary games", "Beginning verbal reasoning", "Listening exercises"]},
-        {"Activities": ["Analogy puzzles"]}
+    {"Chapter 4(Nature around us)": [
+        {"Identification": ["Colors, shapes, animals, plants vocabulary"]},
+        {"Solar System": ["Info about all planets, revolution and rotation of earth, solar and lunar eclipse, phases of moon, gravity, day and night, seasons, etc."]}
       ]},
     {"Chapter 5(Grammar and Writing Skills)": [
-        {"Grammar": ["Tenses", "Punctuation", "Sentence building"]},
-        {"Writing": ["Constructing paragraphs", "Simple creative writing exercises"]}
+        {"Grammar": ["Tenses, Punctuation, Sentence building"]},
+        {"Writing": ["Constructing paragraphs, Simple creative writing exercises"]}
       ]},
     {"Chapter 6(Public Speaking and Listening)": [
-        {"Activities": ["Debates", "Storytelling", "Recitations"]},
-        {"Skills": ["Listening comprehension", "Group conversation practice"]}
+        {"Activities": ["Debates, Storytelling, Recitations"]},
+        {"Skills": ["Listening comprehension, Group conversation practice"]}
       ]},
     {"Chapter 7(Vocabulary Expansion)": [
-        {"Topics": ["Idioms", "Similes", "Homophones"]},
+        {"Topics": ["Idioms, Similes, Homophones"]},
         {"Activities": ["Make-your-own dictionary exercises"]}
       ]}
   ],
@@ -273,11 +274,11 @@ Object.assign(window.curriculumData, {
         {"Applications": ["Using Notepad/Word/Paint for basic formatting and written exercises"]}
       ] },
     {"Chapter 3(Input and Output Devices)": [
-        {"Devices": ["Keyboard", "Mouse", "Monitor", "Printer", "Scanner"]},
-        {"Focus": ["Functions", "Real-world usage"]}
+        {"Devices": ["Keyboard, Mouse, Monitor, Printer, Scanner"]},
+        {"Focus": ["Functions, Real-world usage"]}
       ] },
     {"Chapter 4(Logic and Patterns)": [
-        {"Topics": ["Introduction to patterns", "Sequences"]},
+        {"Topics": ["Introduction to patterns, Sequences"]},
         {"Activities": ["Filling missing blocks (unplugged logic games)"]}
       ]},
     {"Chapter 5(Computer Etiquette and Cyber Safety)": [
@@ -291,7 +292,7 @@ Object.assign(window.curriculumData, {
   "➗ Mathematics": [
     {
       "Chapter 1(Four-Digit Numbers)": [
-        {"Concepts": ["Reading", "Writing", "Arranging", "Comparing numbers up to 9,999"]}
+        {"Concepts": ["Reading, Writing, Arranging, Comparing numbers up to 9,999"]}
       ]
     },
     {
@@ -490,8 +491,9 @@ Object.assign(window.curriculumData, {
   ],
   "👥 GGC (General Guidance Class)": [
     {
-      "Chapter 1(What is Study?)": [
-        {"Concept": ["Understanding that study is not just reading or writing but learning, observing, and exploring new things every day"]}
+      "Chapter 1(Importance of Education)": [
+        {"What is Study": ["Understanding that study is not just reading or writing but learning, observing, and exploring new things every day"]},
+        {"Story of encouraging figures": ["Dr. B.R. Ambedkar, Malala Yousafzai, Nelson Mandela"]}
       ]
     },
     {
@@ -534,11 +536,13 @@ Object.assign(window.curriculumData, {
         {"Comparison": ["Comparing school life, holidays, uniforms, food from around the world"]}
       ]
     },
-    {
-      "Chapter 9(Global Awareness and Map Games)": [
+    {"Chapter 9(Global Awareness and Map Games)": [
         {"Activities": ["Picture map activities to see where children live, work, and study across the globe"]}
-      ]
-    }
+      ]},
+    {"Chapter 2(Books)": [
+        {"Topics": ["What are Books", "Who write books", "Value of books and their care"]},
+        {"Activities": ["Discussions and sorting activities"]}
+      ]},
   ],
   "🏃‍♂️ Games and Physical Education": [
     {
@@ -796,9 +800,10 @@ Object.assign(window.curriculumData, {
       {"Activities": ["Practicing respect at home, school, and community"]}
   ]},
   {"Chapter 2 (Helping the Community)": [
-      {"Projects": ["Stories and service projects", "Volunteering basics"]}
+      {"Projects": ["Stories and service projects", "Volunteering basics"]},
+      {"Stories": ["Dr. Ambedkar, Mother Teresa, Nelson Mandela, etc."]}
   ]},
-  {"Chapter 3 (Understanding Untouchability and Discrimination)": [
+  {"Chapter 3 (Understanding Discrimination)": [
       {"Discussions": ["Equality for all", "Role-play against bullying", "Gender fairness"]}
   ]},
   {"Chapter 4 (Clean Thoughts & Responsibility)": [
@@ -808,10 +813,11 @@ Object.assign(window.curriculumData, {
       {"Projects": ["Apology wall", "Real-life kindness activities"]}
   ]},
   {"Chapter 6 (Role and Duty)": [
-      {"Projects": ["My role in society", "One good deed project"]}
+      {"Projects": ["My role in society", "One good deed project"]},
+      {"discussions": ["Is it always necessary to follow rules?, when and when not?"]},
   ]},
   {"Chapter 7 (Mock Panchayat & Court Drama)": [
-      {"Activities": ["Roleplay – water disputes, hospital/courtroom/police scenes"]}
+      {"Activities": ["Roleplay – water disputes, hospital/courtroom/police scenes"]},
   ]},
   {"Chapter 8 (Debate & Skits)": [
       {"Themes": ["Bullying, discrimination, plastic ban"]}
@@ -821,7 +827,12 @@ Object.assign(window.curriculumData, {
   ]},
   {"Chapter 10 (Parade)": [
       {"Activities": ["Weekly parade", "Safety drills for fire, earthquake, emergencies"]}
-  ]}
+  ]},
+  {"Chapter 11 (Understanding Society structure)": [
+      {"Behavior with Parents and Others": ["Respectful behavior towards parents, siblings, teachers, and peers"]},
+      {"Sex and Gender": ["Understanding biological sex and gender roles in society, LGBTQ+ awareness"]},
+      {"Civic Duties": ["Importance of voting, community service, and being a responsible citizen"]}
+  ]},
 ],
 
 

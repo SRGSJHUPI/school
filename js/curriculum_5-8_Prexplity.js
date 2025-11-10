@@ -289,7 +289,8 @@ Object.assign(window.curriculumData, {
     ]},
     {"Chapter 4 (Understanding Caste and Fairness)": [
       {"Stories": ["Age-appropriate stories"]},
-      {"Classroom Discussions": ["Caste, race, equality, personal stories"]}
+      {"Classroom Discussions": ["Caste, race, equality, personal stories"]},
+      {"Awareness": ["Good touch, bad touch, boundaries, consent, online safety, reporting mechanisms, seeking help-home/school/govt helpline numbers"]}
     ]},
     {"Chapter 5 (Honoring All Work)": [
       {"Projects": ["Different jobs", "Cleaning duties"]},
@@ -859,7 +860,8 @@ Object.assign(window.curriculumData, {
     ]},
     {"Chapter 4 (Ethics of Responsibility)": [
       {"Duties": ["Home", "School", "Environment"]},
-      {"Empathy": ["Kindness towards animals"]}
+      {"Empathy": ["Kindness towards animals"]},
+      {"Awareness": ["Good touch, bad touch, boundaries, consent, online safety, reporting mechanisms, seeking help-home/school/govt helpline numbers"]}
     ]},
     {"Chapter 5 (Our Society)": [
       {"Discussion": ["Importance of society", "Approach to unfairness"]}
@@ -1429,29 +1431,19 @@ Object.assign(window.curriculumData, {
   ],
   "🌱 Moral Values": [
     {"Chapter 1 (Understanding Fairness)": [
-      {"Equality": ["True meaning", "Real-world applications"]},
+      {"Equality": ["True meaning, Real-world applications"]},
       {"Activities": ["Class debates"]}
     ]},
-    {"Chapter 2 (Rules, Equity and Equality)": [
-      {"Concepts": ["What is a rule?", "Why societies have rules"]},
-      {"Comparisons": ["Equity vs Equality"]},
-      {"Practical Scenarios": ["Application"]}
-    ]},
-    {"Chapter 3 (Treating Everyone Equally)": [
-      {"Education Importance": ["Analyzing biases, is education necessary to get respect?"]}
-    ]},
-    {"Chapter 4 (Discrimination)": [
-      {"Stories": ["Resistance narratives"]},
-      {"Challenges": ["Legal and ethical"]},
-      {"Journaling": ["Student journals"]}
+    {"Chapter 2 (Understanding society)": [
+      {"Education Importance": ["Analyzing biases, is education necessary to get respect?"]},
+      {"Rules in society": ["What is a rule?", "Why societies have rules"]},
+      {"NGOs": ["NGOs in society", "Impact and student involvement", "CSR"]},
+      {"Society behaviours": ["Resistance narratives, Discrimination, Legal and ethical aspects, Gender Equality and Respect, LGBTQ+ respect, Equity vs Equality"]},
+
     ]},
     {"Chapter 5 (Environmental Duty)": [
       {"Responsibility": ["Water and waste management"]},
       {"Projects": ["Conservation efforts"]}
-    ]},
-    {"Chapter 6 (Gender Equality and Respect)": [
-      {"Advocacy": ["Games and stories"]},
-      {"Discussion": ["Group activities"]}
     ]},
     {"Chapter 7 (Honesty vs Cheating)": [
       {"Ethical Stories": ["Ethical dilemmas", "Role plays"]}
@@ -1461,31 +1453,26 @@ Object.assign(window.curriculumData, {
       {"Activities": ["Classroom exercises"]}
     ]},
     {"Chapter 9 (Children’s Rights)": [
-      {"Case Reading": ["Awareness"]}
+      {"Children talk": ["why children need rights?, what rights do they have?, how to exercise them?,"]},
+      {"Awareness": ["Good touch, bad touch, boundaries, consent, online safety, reporting mechanisms, seeking help-home/school/govt helpline numbers"]}
     ]},
     {"Chapter 10 (Standing Up for Others)": [
       {"Concepts": ["Bystander effect"]},
       {"Support": ["Helping friends"]}
     ]},
-    {"Chapter 11 (Self-Reflection)": [
-      {"Topics": ["Understanding shyness", "'Who Am I Becoming?' discussions and journaling"]}
+    {"Chapter 11 (Existence)": [
+      {"Self-Reflection": ["Understanding shyness", " Mindfulness practices"]},
+      {"Why we exist": ["Who Am I Becoming? discussions and journaling", "Consciousness, identity, human experience", "Exploring purpose and identity", "Connections to eating habits and societal violence"]},
+      {"Mental Strength": ["Suicide awareness", "Understanding mental health", "Seeking help"]}
     ]},
     {"Chapter 12 (Parade)": [
       {"Teaching": ["Police, army duties"]},
       {"Events": ["Weekly parade", "Emergency self-safety"]}
-    ]},
-    {"Chapter 13 (Mental Strength)": [
-      {"Topics": ["Suicide awareness", "Understanding mental health", "Seeking help"]}
-    ]},
+    ]},    
     {"Chapter 14 (Philosophies)": [
       {"Buddhist Philosophy": ["<a href='pdf/Buddhist_Philosophy.pdf' target='_blank' class='text-blue-700 underline hover:text-blue-400'>Buddhist philosophy</a>, Mindfulness and pursuit of inner peace"]}
     ]},
-    {"Chapter 15 (Existence)": [
-      {"Concepts": ["Consciousness, identity, human experience", "Connections to eating habits and societal violence"]}
-    ]},
-    {"Chapter 16 (NGO)": [
-      {"Role": ["NGOs in society", "Impact and student involvement", "CSR"]}
-    ]}
+    
   ],
   "🗣️ Languages": [
     {"Chapter 1 (Why Language? History & Types)": [
@@ -2007,6 +1994,11 @@ Object.assign(window.curriculumData, {
 ],
 
 "🌱 Moral Values & Ethics": [
+  {"General Tasks": [
+      {"Activities": ["Weekly parade", "Emergency response training"]},
+      {"Reference Books": ["Annihilation of Caste by B.R. Ambedkar, Women and Gender in Ancient India: A Study of Texts and Inscriptions by Shashi Sharma, High Caste Hindu Woman (1887) by Pandita Ramabai, dalito ki durdasha karan aur nivaran by Kanshi Ram, poor narion ki samasya aur samadhan by M. S. Gore"]}
+
+  ]},
   {"Chapter 1 (Dignity)": [
       {"Concepts": ["Definition and importance", "Self-respect and mutual respect"]},
       {"Activities": ["Real-world case discussions"]}
@@ -2017,80 +2009,44 @@ Object.assign(window.curriculumData, {
   ]},
   {"Chapter 3 (Caste Atrocities in India)": [
       {"Concepts": ["Caste discrimination laws", "Social impact"]},
-      {"Activities": ["Poster presentation and report writing"]}
+      {"Activities": ["Poster presentation and report writing"]},
   ]},
-  {"Chapter 4 (Consent and Boundaries)": [
-      {"Concepts": ["Personal and social consent", "Boundaries and assertiveness"]},
-      {"Activities": ["Roleplay scenarios"]}
+  {"Chapter 4 (Ethics in daily life)": [
+      {"Digital Ethics": ["Handling trolls, fake news, hate speech"]},
+      {"Fact Check": ["Necessity of verifying online information, digital responsibility"]},
+      {"Ethics in School": ["Cheating, favoritism, and discipline reflections"]}
   ]},
-  {"Chapter 5 (Digital Ethics)": [
-      {"Concepts": ["Handling trolls, fake news, hate speech"]},
-      {"Projects": ["Create a digital ethics guideline booklet"]}
-  ]},
-  {"Chapter 6 (God vs Nature)": [
+  {"Chapter 5 (God vs Nature)": [
       {"Concepts": ["Belief systems vs environmental values"]},
       {"Debate": ["Religion’s influence on science and nature"]}
   ]},
-  {"Chapter 7 (Speaking Up)": [
-      {"Concepts": ["Courage and responsibility", "Whistleblowing and activism"]},
+  {"Chapter 6 (Gender & Queer Rights)": [
+      {"Concepts": ["Equality and inclusion", "LGBTQ+ rights awareness", "Courage and responsibility", "Whistleblowing and activism"]},
+      {"Projects": ["Classroom policy drafting exercise"]},
       {"Activities": ["Student-led dramatization"]}
   ]},
-  {"Chapter 8 (Gender & Queer Rights)": [
-      {"Concepts": ["Equality and inclusion", "LGBTQ+ rights awareness"]},
-      {"Projects": ["Classroom policy drafting exercise"]}
+  {"Chapter 7 (Mental Health & Friendship)": [
+      {"Concepts": ["Mental health awareness","Understanding support and stigma", "Suicide prevention and resilience"]},
+      {"Activities": ["Group sharing and awareness campaigns"]},
+      {"Intoxicants": ["Types of intoxicants", "Effects on society", "De-addiction strategies"]},
+      {"Value of Life": ["Philosophical meaning of life", "Social inequality in life valuation"]}
   ]},
-  {"Chapter 9 (Mental Health & Friendship)": [
-      {"Concepts": ["Understanding support and stigma"]},
-      {"Activities": ["Group sharing and awareness campaigns"]}
-  ]},
-  {"Chapter 10 (Intoxicants)": [
-      {"Concepts": ["Types of intoxicants", "Effects on society", "De-addiction strategies"]}
-  ]},
-  {"Chapter 11 (Environmental Responsibility)": [
+  {"Chapter 8 (Environmental Responsibility)": [
       {"Concepts": ["Conservation and sustainability"]},
       {"Projects": ["Plantation or clean-up drive"]}
   ]},
-  {"Chapter 12 (Child Labour & Exploitation)": [
-      {"Concepts": ["Causes and laws", "Child rights awareness"]},
-      {"Projects": ["Poster presentation"]}
+  {"Chapter 9 (Human Rights)": [
+      {"Child Labour & Exploitation": ["Causes and laws", "Child rights awareness", "UDHR and global frameworks", "Case studies", "Documentary Discussion-https://youtu.be/NTXO6uptlC8"]},
+      {"Consent and Boundaries": ["Personal and social consent", "Boundaries and assertiveness"]},
+      {"Projects": ["Poster presentation"]},
+      {"Casteism and Racism": ["Casteism within Caste, SC/ST Act", "Racism- international perspective-black Vs white history", "Impact on society", "Intra-caste discrimination dynamics", "Documentries:https://youtu.be/bunZDrDOMBg","Equality and justice debates"]},
   ]},
-  {"Chapter 13 (Human Rights)": [
-      {"Concepts": ["UDHR and global frameworks"]},
-      {"Activities": ["Case study analysis"]}
-  ]},
-  {"Chapter 14 (Critical Societal Questions and Simulations)": [
-      {"Activities": ["Parliamentary debate", "Model UN", "Moot court on SC/ST Act"]}
-  ]},
-  {"Chapter 15 (Parade)": [
-      {"Activities": ["Weekly parade", "Emergency response training"]}
-  ]},
-  {"Chapter 16 (Value of Life)": [
-      {"Concepts": ["Philosophical meaning of life", "Social inequality in life valuation"]}
-  ]},
-  {"Chapter 17 (Mental Strength)": [
-      {"Concepts": ["Mental health awareness", "Suicide prevention and resilience"]}
-  ]},
-  {"Chapter 18 (Religions)": [
+  {"Chapter 10 (Religions)": [
       {"Concepts": ["Origin, purpose, and evolution of religions"]},
-      {"Debate": ["Is religion necessary for moral life?"]}
+      {"Debate": ["Is religion necessary for moral life?"]},
+      {"Famous Reincarnation Cases": ["Shanti Devi", "James Leininger", "Pollock Twins", "Swarnlata", "Others"]}
   ]},
-  {"Chapter 19 (Documentary Discussion)": [
-      {"Activity": ["Video discussion on girls’ rights", "https://youtu.be/NTXO6uptlC8"]}
-  ]},
-  {"Chapter 20 (Casteism and Racism)": [
-      {"Concepts": ["Impact on society", "Equality and justice debates"]}
-  ]},
-  {"Chapter 21 (Casteism within Caste)": [
-      {"Concepts": ["Intra-caste discrimination dynamics"]},
-      {"Documentary": ["https://youtu.be/bunZDrDOMBg"]}
-  ]},
-  {"Chapter 22 (Ethics in School)": [
-      {"Concepts": ["Cheating, favoritism, and discipline reflections"]}
-  ]},
-  {"Chapter 23 (Famous Reincarnation Cases)": [
-      {"Case Studies": ["Shanti Devi", "James Leininger", "Pollock Twins", "Swarnlata", "Others"]}
-  ]},
-  {"Chapter 24 (Group Projects)": [
+  {"Chapter 11 (Group Projects)": [
       {"Activities": ["Poster presentation", "School exhibition"]}
   ]}
 ],
