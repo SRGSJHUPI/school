@@ -4,9 +4,10 @@ Object.assign(window.curriculumData, {
   "📖 English 1 – Literature & Comprehension": [
     {"Chapter 1 (Importance of Education)": [
       {"Poems and Stories": ["Highlighting why education matters"]},
+      {"social reformers": ["Stories of Malala Yousafzai, Savitribai Phule"]},
       {"Presentations": ["Student presentations", "Teacher and student-created poems"]},
-      {"Ethics & Narrative": ["Ethics through narrative", "Classroom speaking and understanding activities"]},
-      {"Activities": ["Class discussions", "Retelling", "Original poems by students and teachers"]}
+      {"Ethics & Narrative": ["Ethics through narrative, Classroom speaking and understanding activities"]},
+      {"Activities": ["Class discussions, Retelling, Original poems by students and teachers"]}
     ]},
     {"Chapter 2 (Stories of Courage and Role Models)": [
       {"Folk Tales": ["Panchatantra", "Akbar-Birbal"]},
@@ -215,7 +216,7 @@ Object.assign(window.curriculumData, {
       {"Concept": ["What is humanity?"]},
       {"Activities": ["Case studies", "Stories on kindness and global perspective"]}
     ]},
-    {"Chapter 2 (Caste and Fairness – Simple Intro)": [
+    {"Chapter 2 (Fairness – Simple Intro)": [
       {"Stories and Discussion": ["Understanding untouchability", "Equality"]}
     ]},
     {"Chapter 3 (Honoring Labour and Duties)": [
@@ -287,12 +288,13 @@ Object.assign(window.curriculumData, {
       {"Discussion": ["Who are atheists", "Religious vs atheist person"]},
       {"Quotes": ["Babasaheb on religion"]}
     ]},
-    {"Chapter 4 (Understanding Caste and Fairness)": [
+    {"Chapter 4 (Understanding Fairness)": [
       {"Stories": ["Age-appropriate stories"]},
       {"Classroom Discussions": ["Caste, race, equality, personal stories"]},
       {"Awareness": ["Good touch, bad touch, boundaries, consent, online safety, reporting mechanisms, seeking help-home/school/govt helpline numbers"]}
     ]},
     {"Chapter 5 (Honoring All Work)": [
+      {"Playing": ["Importance of playing with studying"]},
       {"Projects": ["Different jobs", "Cleaning duties"]},
       {"Interviews": ["With staff"]}
     ]},
@@ -848,64 +850,43 @@ Object.assign(window.curriculumData, {
   "🌱 Moral Values & Ethics": [
     {"Chapter 1 (What is Right & Wrong?)": [
       {"Stories": ["Real-life stories"]},
-      {"Themes": ["Truthfulness", "Courage", "Why help matters"]}
+      {"Themes": ["Truthfulness", "Courage", "Why help matters"]},
+      {"What Would You Do?": ["Discussions"]}
     ]},
     {"Chapter 2 (Respect and Gender Equality)": [
-      {"Values": ["Respecting all", "Girls' rights"]},
-      {"Anti-Bullying": ["Speaking against harm"]}
+      {"Topics": ["Respecting all, Girls' rights, Child labor, Hate speech, Ex- Khairlanji, Vemula, Gujarat 2002"]},
+      {"Anti-Bullying": ["Speaking against harm"]},
+      {"Discrimination": ["What is caste?", "Why is it wrong?"]},
+      {"Simulations": ["Litigation on caste/gender", "RTI & citizens’ rights", "Election & newsroom role play"]}
     ]},
-    {"Chapter 3 (Caste Discrimination)": [
-      {"Understanding": ["What is caste?", "Why is it wrong?"]},
-      {"Activities": ["Real stories", "Class discussions"]}
-    ]},
-    {"Chapter 4 (Ethics of Responsibility)": [
-      {"Duties": ["Home", "School", "Environment"]},
+    {"Chapter 3 (Ethics of Responsibility)": [
+      {"Duties": ["Home, School, Environment"]},
       {"Empathy": ["Kindness towards animals"]},
+      {"Veg V/S Non-Veg": ["Necessity of meat, Love for nature, Cultural comparisons, can people eating meat be kind to animals?"]},
       {"Awareness": ["Good touch, bad touch, boundaries, consent, online safety, reporting mechanisms, seeking help-home/school/govt helpline numbers"]}
     ]},
-    {"Chapter 5 (Our Society)": [
-      {"Discussion": ["Importance of society", "Approach to unfairness"]}
+    {"Chapter 4 (Our Society)": [
+      {"Discussion": ["Importance of society, Approach to unfairness"]},
+      {"Friendship & Inclusion": ["Peer support"]},
+      {"Behavior": ["Inclusive actions, Recognition of all"]},
     ]},
-    {"Chapter 6 (Friendship & Inclusion)": [
-      {"Support": ["Peer support"]},
-      {"Behavior": ["Inclusive actions", "Recognition of all"]}
-    ]},
-    {"Chapter 7 (Propaganda and Critical Thinking)": [
+    {"Chapter 5 (Propaganda and Critical Thinking)": [
       {"Concepts": ["What is propaganda?"]},
       {"Analysis": ["Examples from life, religion, science", "Songs analysis"]}
     ]},
-    {"Chapter 8 (Ethical Issues Case Studies)": [
-      {"Topics": ["Caste atrocity", "Child labor", "Hate speech"]},
-      {"Examples": ["Khairlanji", "Vemula", "Gujarat 2002"]}
+    {"Chapter 6 (Parade)": [
+      {"Teaching": ["Police, Army, Duty and responsibility"]},
+      {"Events": ["Weekly parade, Self-safety: fire, earthquake, emergencies"]}
     ]},
-    {"Chapter 9 (What Would You Do?)": [
-      {"Activities": ["Reflection", "Role play", "Designing an action idea"]}
+    {"Chapter 7 (Social Reformers)": [
+      {"Indian Social Reformers": ["Raja Ram Mohan Roy, Savitribai Phule, Mahatma Gandhi, Dr. B. R. Ambedkar, Jyotirao Phule, Periyar E. V. Ramasamy, Ishwar Chandra Vidyasagar, Pandita Ramabai, Swami Vivekananda, Baba Amte, Tarabai Shinde, Swami Dayanand Saraswati, Vinoba Bhave, Ishwarbhai Patel, Darshan Ratan Ravan, Kandukuri Veeresalingam, Gopal Krishna Gokhale, Sarojini Naidu, Rabindranath Tagore, Ram Manohar Lohia, Annie Besant, Narayana Guru"]},
+      {"International Social Reformers": ["Nelson Mandela, Martin Luther King Jr., Rosa Parks, Susan B. Anthony, Florence Nightingale, Malala Yousafzai, William Wilberforce, Harriet Tubman, Mother Teresa, Desmond Tutu, Abraham Lincoln, Jane Addams, John Stuart Mill, Eleanor Roosevelt, Karl Marx, Helen Keller, Aung San Suu Kyi, Thomas Paine, Mahatma Phule, Bertrand Russell"]},
     ]},
-    {"Chapter 10 (Courtroom Drama)": [
-      {"Simulations": ["Litigation on caste/gender", "RTI & citizens’ rights", "Election & newsroom role play"]}
-    ]},
-    {"Chapter 11 (Debate and Research Projects)": [
-      {"Debates": ["Should religion influence law?", "Should inter-caste marriage be legal?"]},
-      {"Research": ["Casteism", "Interviews"]}
-    ]},
-    {"Chapter 12 (Veg V/S Non-Veg)": [
-      {"Discussions": ["Necessity of meat", "Love for nature", "Cultural comparisons"]}
-    ]},
-    {"Chapter 13 (Parade)": [
-      {"Teaching": ["Police", "Army", "Duty and responsibility"]},
-      {"Events": ["Weekly parade", "Self-safety: fire, earthquake, emergencies"]}
-    ]},
-    {"Chapter 14 (Indian Social Reformers)": [
-      {"Figures": ["Raja Ram Mohan Roy, Savitribai Phule, Mahatma Gandhi, Dr. B. R. Ambedkar, Jyotirao Phule, Periyar E. V. Ramasamy, Ishwar Chandra Vidyasagar, Pandita Ramabai, Swami Vivekananda, Baba Amte, Tarabai Shinde, Swami Dayanand Saraswati, Vinoba Bhave, Ishwarbhai Patel, Darshan Ratan Ravan, Kandukuri Veeresalingam, Gopal Krishna Gokhale, Sarojini Naidu, Rabindranath Tagore, Ram Manohar Lohia, Annie Besant, Narayana Guru"]}
-    ]},
-    {"Chapter 15 (International Social Reformers)": [
-      {"Figures": ["Nelson Mandela, Martin Luther King Jr., Rosa Parks, Susan B. Anthony, Florence Nightingale, Malala Yousafzai, William Wilberforce, Harriet Tubman, Mother Teresa, Desmond Tutu, Abraham Lincoln, Jane Addams, John Stuart Mill, Eleanor Roosevelt, Karl Marx, Helen Keller, Aung San Suu Kyi, Thomas Paine, Mahatma Phule, Bertrand Russell"]}
-    ]}
   ],
   "🗣️ Languages": [
     {"Chapter 1 (Why Language? History & Types)": [
       {"Origins": ["Origins of language", "Family tree of world languages"]},
-      {"Modes": ["Spoken", "Written", "Sign language"]}
+      {"Modes": ["Spoken, Written, Sign language"]}
     ]},
     {"Chapter 2 (Languages Apps and Websites)": [
       {"Apps": ["Duolingo, Rosetta Stone, Memrise, Beelinguapp, Busuu, 50Languages"]},
@@ -1430,9 +1411,14 @@ Object.assign(window.curriculumData, {
     ]}
   ],
   "🌱 Moral Values": [
+    {"General Tasks": [
+      {"discussion": ["discussion with teachers and students on moral values and ethics"]},
+      {"Reference books": ["Everybody Loves a Good Drought by P. Sainath"]}
+    ]},
     {"Chapter 1 (Understanding Fairness)": [
       {"Equality": ["True meaning, Real-world applications"]},
-      {"Activities": ["Class debates"]}
+      {"Activities": ["Class debates"]},
+      {"Playing": ["Importance of playing with studying"]},
     ]},
     {"Chapter 2 (Understanding society)": [
       {"Education Importance": ["Analyzing biases, is education necessary to get respect?"]},
@@ -1441,35 +1427,35 @@ Object.assign(window.curriculumData, {
       {"Society behaviours": ["Resistance narratives, Discrimination, Legal and ethical aspects, Gender Equality and Respect, LGBTQ+ respect, Equity vs Equality"]},
 
     ]},
-    {"Chapter 5 (Environmental Duty)": [
+    {"Chapter 3 (Environmental Duty)": [
       {"Responsibility": ["Water and waste management"]},
       {"Projects": ["Conservation efforts"]}
     ]},
-    {"Chapter 7 (Honesty vs Cheating)": [
+    {"Chapter 4 (Honesty vs Cheating)": [
       {"Ethical Stories": ["Ethical dilemmas", "Role plays"]}
     ]},
-    {"Chapter 8 (Respect & Apology)": [
+    {"Chapter 5 (Respect & Apology)": [
       {"Strategies": ["Apologizing and forgiving"]},
       {"Activities": ["Classroom exercises"]}
     ]},
-    {"Chapter 9 (Children’s Rights)": [
+    {"Chapter 6 (Children’s Rights)": [
       {"Children talk": ["why children need rights?, what rights do they have?, how to exercise them?,"]},
       {"Awareness": ["Good touch, bad touch, boundaries, consent, online safety, reporting mechanisms, seeking help-home/school/govt helpline numbers"]}
     ]},
-    {"Chapter 10 (Standing Up for Others)": [
+    {"Chapter 7 (Standing Up for Others)": [
       {"Concepts": ["Bystander effect"]},
       {"Support": ["Helping friends"]}
     ]},
-    {"Chapter 11 (Existence)": [
+    {"Chapter 8 (Existence)": [      
+      {"Why do we exist": ["Who Am I Becoming? discussions and journaling", "Consciousness, identity, human experience", "Exploring purpose and identity", "Connections to eating habits and societal violence"]},
+      {"Mental Strength": ["understanding mental health and  Importance of life, seeking help, Why do some people commit suicide(explain in very polite way)?"]},
       {"Self-Reflection": ["Understanding shyness", " Mindfulness practices"]},
-      {"Why we exist": ["Who Am I Becoming? discussions and journaling", "Consciousness, identity, human experience", "Exploring purpose and identity", "Connections to eating habits and societal violence"]},
-      {"Mental Strength": ["Suicide awareness", "Understanding mental health", "Seeking help"]}
     ]},
-    {"Chapter 12 (Parade)": [
+    {"Chapter 9 (Parade)": [
       {"Teaching": ["Police, army duties"]},
       {"Events": ["Weekly parade", "Emergency self-safety"]}
     ]},    
-    {"Chapter 14 (Philosophies)": [
+    {"Chapter 10 (Philosophies)": [
       {"Buddhist Philosophy": ["<a href='pdf/Buddhist_Philosophy.pdf' target='_blank' class='text-blue-700 underline hover:text-blue-400'>Buddhist philosophy</a>, Mindfulness and pursuit of inner peace"]}
     ]},
     
@@ -1519,11 +1505,14 @@ Object.assign(window.curriculumData, {
     ]}
   ],
   "👥 GGC (General Guidance Class)": [
+    {"General Tasks": [
+      {"discussions": ["visit to \"https://srgsjhupi.github.io/school/targ_inst_exams.html\" discussions with mentors on career planning, exam strategies, scholarships, internships, skill building, social contribution, gaming and eSports, inspirational achievers"]}
+    ]},
     {"Chapter 1 (Major Global Exams & Scholarships)": [
-      {"Exams": ["NTSE", "KVPY", "IOQM", "INChO", "IJSO", "STEP", "TOEFL Junior", "SAT/PSAT"]}
+      {"Exams": ["NTSE, KVPY, IOQM, NChO, IJSO, STEP, TOEFL Junior, SAT/PSAT"]}
     ]},
     {"Chapter 2 (Major Scholarships)": [
-      {"Scholarships": ["FFE", "Reliance", "HDFC", "NSP", "Overseas scholarships"]}
+      {"Scholarships": ["FFE, Reliance, HDFC, NSP, Overseas scholarships, etc."]}
     ]},
     {"Chapter 3 (CV Building & Professional Profiles)": [
       {"Skills": ["Early-stage CV/portfolio making", "GitHub basics", "LinkedIn basics"]}
@@ -1540,10 +1529,10 @@ Object.assign(window.curriculumData, {
       {"Examples": ["Testimonials", "Case studies"]}
     ]},
     {"Chapter 7 (Inspirational Young Achievers)": [
-      {"Profiles": ["Faye Zhang", "Anvita Gupta", "Jordan Casey", "Arjun Ajay", "Zora Ball"]}
+      {"Profiles": ["Faye Zhang, Anvita Gupta, Jordan Casey, Arjun Ajay, Zora Ball"]}
     ]},
     {"Chapter 8 (Gaming & eSports)": [
-      {"Success Stories": ["Mortal", "Mavi", "Rakin", "Mongraal", "Bizzle"]},
+      {"Success Stories": ["Mortal, Mavi, Rakin, Mongraal, Bizzle"]},
       {"Analysis": ["Traits and habits for success"]}
     ]},
     {"Chapter 9 (Social Contribution & Activism)": [
@@ -1555,26 +1544,26 @@ Object.assign(window.curriculumData, {
   ],
   "🏃‍♂️ Games & Physical Education": [
     {"Chapter 1 (Muscular and Skeletal Systems)": [
-      {"Content": ["Anatomy", "Function", "Injury prevention"]}
+      {"Content": ["Anatomy, Function, Injury prevention"]}
     ]},
     {"Chapter 2 (Nutrition and Disease)": [
-      {"Topics": ["Food", "Lifestyle diseases like obesity, diabetes"]}
+      {"Topics": ["Food, Lifestyle diseases like obesity, diabetes"]}
     ]},
     {"Chapter 3 (Reproductive Health)": [
-      {"Focus": ["Menstrual health", "Myths", "Age-appropriate care"]}
+      {"Focus": ["Menstrual health, Myths, Age-appropriate care"]}
     ]},
     {"Chapter 4 (Substance Abuse Awareness)": [
       {"Topics": ["Effects of alcohol, tobacco, drugs"]},
-      {"Methods": ["Role play", "Group projects"]}
+      {"Methods": ["Role play, Group projects"]}
     ]},
     {"Chapter 5 (Physical Training Routines)": [
-      {"Topics": ["Warm-up", "Fitness principles", "Flexibility", "Strength endurance"]}
+      {"Topics": ["Warm-up, Fitness principles, Flexibility, Strength endurance"]}
     ]},
     {"Chapter 6 (Fitness Testing & Assessment)": [
       {"Methods": ["Conducting fitness tests", "Understanding results"]}
     ]},
     {"Chapter 7 (Internet and Screen Wellness)": [
-      {"Tech Use": ["Safe internet practices", "Digital detox", "Screen time balance"]}
+      {"Tech Use": ["Safe internet practices, Digital detox, Screen time balance"]}
     ]}
   ],
   "🎨 Arts, Music and Dance": [
@@ -1582,13 +1571,13 @@ Object.assign(window.curriculumData, {
       {"Activities": ["Make drawings of birds, animals, etc."]}
     ]},
     {"Chapter 2 (Painting Techniques)": [
-      {"Techniques": ["Watercolor", "Acrylic basics", "Color theory"]}
+      {"Techniques": ["Watercolor, Acrylic basics, Color theory"]}
     ]},
     {"Chapter 3 (History of Art)": [
       {"Study": ["Famous artists and their styles"]}
     ]},
     {"Chapter 4 (Craft Projects)": [
-      {"Materials": ["Paper mache", "Clay modeling", "Recycled art"]}
+      {"Materials": ["Paper mache, Clay modeling, Recycled art"]}
     ]},
     {"Chapter 5 (Music)": [
       {"Basics": ["Learn music and sing"]}
@@ -1597,7 +1586,7 @@ Object.assign(window.curriculumData, {
       {"Genres": ["Different music genres", "Famous musicians"]}
     ]},
     {"Chapter 7 (Dance)": [
-      {"Introduction": ["Basic dance forms", "Rhythm", "Movement"]}
+      {"Introduction": ["Basic dance forms, Rhythm, Movement"]}
     ]},
     {"Chapter 8 (Dance Show)": [
       {"Project": ["Creating a dance performance with learned elements"]}
@@ -1605,22 +1594,22 @@ Object.assign(window.curriculumData, {
   ],
   "🧠 General Knowledge (G.K)": [
     {"Chapter 1 (Indian Governance)": [
-      {"Topics": ["President", "Prime Minister", "Parliament roles and powers"]}
+      {"Topics": ["President, Prime Minister, Parliament roles and powers"]}
     ]},
     {"Chapter 2 (Global Leaders and Conflicts)": [
       {"Studies": ["Major world leaders", "Contemporary conflicts and peacekeeping"]}
     ]},
     {"Chapter 3 (Economic Indicators)": [
-      {"Concepts": ["GDP", "Inflation", "HDI", "India vs world"]}
+      {"Concepts": ["GDP, Inflation, HDI, India vs world"]}
     ]},
     {"Chapter 4 (Geopolitical Geography)": [
-      {"Topics": ["Borders", "Alliances", "Regions of conflict", "Major world events"]}
+      {"Topics": ["Borders, Alliances, Regions of conflict, Major world events"]}
     ]},
     {"Chapter 5 (Sports and World Events)": [
-      {"Events": ["Olympics", "FIFA", "ICC history and records"]}
+      {"Events": ["Olympics, FIFA, ICC history and records"]}
     ]},
     {"Chapter 6 (Debates and Quizzes)": [
-      {"Activities": ["Weekly quiz bowl", "Current affairs debates"]}
+      {"Activities": ["Weekly quiz bowl, Current affairs debates"]}
     ]}
   ],
   "🔬 Research Projects (R.P)": [
@@ -1629,11 +1618,11 @@ Object.assign(window.curriculumData, {
     ]},
     {"Chapter 2 (Machine Principles)": [
       {"Study": ["Working principles of airplanes, quadcopters, drones"]},
-      {"Activities": ["Comparative studies", "Projects", "Debates"]},
+      {"Activities": ["Comparative studies, Projects, Debates"]},
       {"Support": ["Video lectures"]}
     ]},
     {"Chapter 3 (CAD Design)": [
-      {"Software": ["Canvas", "AutoCAD", "Fusion 360", "TensorFlow"]},
+      {"Software": ["Canvas, AutoCAD, Fusion 360, TensorFlow"]},
       {"Concepts": ["Basic 3D modeling and design principles"]}
     ]},
     {"Chapter 4 (Machine Learning Basics)": [
@@ -1710,7 +1699,8 @@ Object.assign(window.curriculumData, {
     {"Tests": ["Triangle congruence applications"]}
   ]},
   {"Chapter 8 (Statistics)": [
-    {"Data Analysis": ["Mean, median, mode", "Representation and charts"]}
+    {"Data Analysis": ["Mean, median, mode", "Representation and charts"]},
+    {"Types of Distribution": ["Uniform, normal, gaussian, binomial, poisson, exponential, bimodal, skewed, etc."]}
   ]},
   {"Chapter 9 (Trigonometry)": [
     {"Functions": ["Trigonometric and inverse functions"]},
@@ -2004,17 +1994,13 @@ Object.assign(window.curriculumData, {
       {"Activities": ["Real-world case discussions"]}
   ]},
   {"Chapter 2 (Role of Ambedkar)": [
-      {"Concepts": ["Ambedkar’s work for equality", "Women’s rights (Hindu Code Bill)"]},
+      {"Concepts": ["Ambedkar’s work for equality, Women’s rights (Hindu Code Bill)"]},
       {"Projects": ["Group presentation on Ambedkar"]}
-  ]},
-  {"Chapter 3 (Caste Atrocities in India)": [
-      {"Concepts": ["Caste discrimination laws", "Social impact"]},
-      {"Activities": ["Poster presentation and report writing"]},
   ]},
   {"Chapter 4 (Ethics in daily life)": [
       {"Digital Ethics": ["Handling trolls, fake news, hate speech"]},
       {"Fact Check": ["Necessity of verifying online information, digital responsibility"]},
-      {"Ethics in School": ["Cheating, favoritism, and discipline reflections"]}
+      {"Ethics in School": ["Cheating, favoritism, and discipline vs education, reflections, making fun of it vs making fun out of it, "]},
   ]},
   {"Chapter 5 (God vs Nature)": [
       {"Concepts": ["Belief systems vs environmental values"]},
@@ -2037,23 +2023,33 @@ Object.assign(window.curriculumData, {
   ]},
   {"Chapter 9 (Human Rights)": [
       {"Child Labour & Exploitation": ["Causes and laws", "Child rights awareness", "UDHR and global frameworks", "Case studies", "Documentary Discussion-https://youtu.be/NTXO6uptlC8"]},
-      {"Consent and Boundaries": ["Personal and social consent", "Boundaries and assertiveness"]},
-      {"Projects": ["Poster presentation"]},
-      {"Casteism and Racism": ["Casteism within Caste, SC/ST Act", "Racism- international perspective-black Vs white history", "Impact on society", "Intra-caste discrimination dynamics", "Documentries:https://youtu.be/bunZDrDOMBg","Equality and justice debates"]},
+      {"Consent and Boundaries": ["Personal and social consent, Boundaries and assertiveness, Endogamy vs Exogamy"]},
+      {"Indians Outside India": ["Why we try to go abroad?, movie screening- Dunki"]},
+      {"ways of discrimination": ["Caste/Religion/Gender based discrimination and how to keep ourself out of it, Social impact"]},
+      {"Casteism and Racism": ["Casteism within Caste, laws to protect against discrimination", "Racism- international perspective-black Vs white history", "Impact on society", "Intra-caste discrimination dynamics", "Documentries:https://youtu.be/bunZDrDOMBg","Equality and justice debates"]},
+      {"Discussion": ["people died in plane crash got 1 crore each whereas people died on mahakumbh got 25 lakh and so on, does value of life depends on place where one dies? , Lakhan Pasi story(left from jail at 104 age)"]},
   ]},
   {"Chapter 10 (Religions)": [
-      {"Concepts": ["Origin, purpose, and evolution of religions"]},
-      {"Debate": ["Is religion necessary for moral life?"]},
-      {"Famous Reincarnation Cases": ["Shanti Devi", "James Leininger", "Pollock Twins", "Swarnlata", "Others"]}
+      {"Introduction": ["what is Religion?, History and origin, purpose, evolution of religions and its importance in society, who make it? why make it? is it necessary to have Religion?, Is Religion a failed experiment? has Religion been converted to Business?, can religion help to make the world a better place? are we independent to choose any religion or we are bound to one we born in?, What is Secularism?"]},
+      {"Religious torture and violence": ["Historical and contemporary examples, why almost all religions firstly target womens?, Impact on societies"]},
+      {"blind faith vs questioning attitude": ["why illiterate people may hold blind faith, why illiterate people get possessed specially women, Examples and case studies"]},
+      {"Famous Reincarnation Cases": ["Shanti Devi, James Leininger, Pollock Twins, Swarnlata, Others"]},
+      {"Debate": ["Is religion necessary for moral life?"]}, 
+       //     "Chapter 18(Religions) : 
+
+
   ]},
-  {"Chapter 11 (Group Projects)": [
-      {"Activities": ["Poster presentation", "School exhibition"]}
-  ]}
+  {"Chapter 11 (Recognizing Manipulation and Influence)": [
+      {"Concepts": ["Understanding manipulation vs influence", "Common manipulation tactics", "Emotional awareness and defense strategies"]},
+      {"Activities": ["Role-play to identify manipulation", "Media ad analysis", "Group discussion on healthy assertiveness"]}
+  ]},
+  
+
 ],
 
 "🗣️ Languages": [
-  {"Chapter 1 (Why Language? History & Types)": [
-      {"Concepts": ["Origins of language", "Family trees", "Types of languages"]}
+  {"Chapter 1 (Why Language?)": [
+      {"Introduction": ["Origins of language", "Family trees", "History & Types of languages"]}
   ]},
   {"Chapter 2 (Language Apps and Websites)": [
       {"Tools": ["Duolingo", "Rosetta Stone", "Memrise", "Busuu"]}
@@ -2311,34 +2307,6 @@ Object.assign(window.curriculumData, {
   //     "Chapter 3(सामाजिक मुद्दे) : बाल श्रम, महिला अधिकार, पर्यावरण संरक्षण, सामुदायिक सेवा।",
   //     "Chapter 4(पुस्तकें) : Mother India (Hindi) A book by Katherine Mayo",
   //     "Chapter 5(सामाजिक परिवर्तन) : सामुदायिक सेवा, बाल अधिकार, महिला सशक्तिकरण, पर्यावरण संरक्षण।"
-  //   ],
-
-  //   // Moral Values / Ethics
-  //   "🌱 Moral Values & Ethics": [
-  //     "Chapter 1(Dignity) : What is dignity? Real-world examples, self-respect vs disrespect.",
-  //     "Chapter 2(Role of Ambedkar) : Stories and class discussion on Ambedkar’s contributions to Indian society equality specially for Women(Hindu Code Bill).",
-  //     "Chapter 3(Caste Atrocities in India) : Research, group presentation, impact in society and laws.",
-  //     "Chapter 4(Consent and Boundaries) : Personal/social consent, boundaries, assertiveness, Endogamy vs Exogamy.",
-  //     "Chapter 5(Digital Ethics) : Handling trolls, fake news, hate speech, digital citizenship.",
-  //     "Chapter 6(God vs Nature) : Debating the influence of beliefs on science/environment.",
-  //     "Chapter 7(Speaking Up) : Whistleblowing, standing up to injustice, student-led dramatization.",
-  //     "Chapter 8(Gender & Queer Rights) : Equality, bullying, LGBTQ+ issues, classroom policy exercises.",
-  //     "Chapter 9(Mental Health & Friendship) : Support, stigma breaking, real-world stories.",
-  //     "Chapter 10(intoxicants) : what are intoxicants, How it effects society, Get rid of addiction.",
-  //     "Chapter 11(Environmental Responsibility) : Role in ecological action, project on conservation.",
-  //     "Chapter 12(Child Labour & Exploitation) : Research, films, poster presentations.",
-  //     "Chapter 13(Human Rights) : Understanding human rights, UDHR, case studies on violations and protections.",
-  //     "Chapter 14(Critical Societal Questions and Simulations) : Debates on Indian ethics, parliamentary simulation on reservation/free education, Model UN (climate, human rights), moot court (cyberbullying, SC/ST Act), stakeholder role-play, and panel on voting age.",
-  //     "Chapter 15(Parade) : Teaching about police, army ... duty and responsibility. Also there will be weekly parade and self safety in case fire, earthquake or any other emergency.",
-  //     "Chapter 16(Value of Life) : what is the value of life?, Importance of life, people died in plane crash got 1 crore each whereas people died on mahakumbh got 25 lakh and so on does value of life depends on place where one dies? ,  Lakhan Pasi story(left from jail at 104 age).",
-  //     "Chapter 17(Mental Strength) : Why do some people commit suicide(explain in very polite way)?, understanding mental health and seeking help, Importance of life",
-  //     "Chapter 18(Religions) : what is Religion?, History and origin, who make it? why make it? is it necessary to have Religion?, Is Religion a failed experiment? has Religion been converted to Business?, can religion help to make the world a better place? are we independent to choose any religion or we are bound to one we born in?",
-  //     "Chapter 19(Documentry) : https://youtu.be/NTXO6uptlC8?si=HU4TuGJ8yZj_jKyd discussion on girls rights.",
-  //     "Chapter 20(Casteism and Racism) : Understanding caste and race, casteism as termite, its impact on society, and discussions on equality and justice.",
-  //     "Chapter 21(Casteism within caste) : Exploring the nuances of caste dynamics, intra-caste discrimination, and the quest for equality. Documentry: https://youtu.be/bunZDrDOMBg?si=Px_6hj5LaOHeNDqD",
-  //     "Chapter 22(Ethics in School) : Cheating, favoritism, reflecting on discipline vs education",
-  //     "Chapter 23(Famous Reincarnation Cases) : Shanti Devi, James Leininger, Cameron Macaulay, Kofel Case, Nirmal Singh, Martin (Sri Lanka), Sawney Bean Boy, Swarnlata, Thai Boy Case, Turkish Boy Case, Japanese Girl Case, Shiva-Sumitra Case (Etawah), The Pollock Twins (UK), The Case of the Pollock Twins (UK), The Case of the Pollock Twins (UK)",
-  //     "Chapter 24(Group Projects) : Poster + presentation, school exhibition.",
   //   ],
 
 

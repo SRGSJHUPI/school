@@ -629,10 +629,10 @@ Object.assign(window.curriculumData, {
       {"Topics": ["Synonyms, antonyms, analogies", "Logic puzzles based on GRE/TOEFL foundations"]}
   ]},
   {"Chapter 4 (Read-Aloud and Practice Tests)": [
-      {"Practice": ["Reading sample passages", "Comprehension and logic-based questions"]}
+      {"Practice": ["Reading sample passages, Comprehension and logic-based questions"]}
   ]},
   {"Chapter 5 (Speaking and Listening Practice)": [
-      {"Sessions": ["View presentations", "Group reasoning discussions", "Pronunciation and fluency practice"]}
+      {"Sessions": ["View presentations, Group reasoning discussions, Pronunciation and fluency practice"]}
   ]}
 ],
 

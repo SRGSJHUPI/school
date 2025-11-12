@@ -480,7 +480,11 @@ Object.assign(window.curriculumData, {
       "Chapter 1(Integrated Ethics Project) : Year-long research, debate and presentation on digital and AI ethics (deepfakes, algorithm bias), neuroethics, eco-justice, leadership with integrity, bioethics, and global conflict topics (Palestine, racism, BLM).",
       "Chapter 2(Monthly Seminars & Activities) : Guest lectures (lawyers, activists), group RTIs, public petitions, survey projects, and the writing of an 'Ethics Constitution.'",
       "Chapter 3(Ethics & Emotional Intelligence) : Mindfulness, emotional skills, forgiveness, responding to trauma, and reflections on conscience.",
-      "Chapter 4(Dark web) : Understanding the dark web, its implications, ethical considerations, and the impact of anonymity online, Playpen(Operation Pacifier), Daisy's Destruction."
+      "Chapter 4(Dark web) : Understanding the dark web, its implications, ethical considerations, and the impact of anonymity online, Playpen(Operation Pacifier), Daisy's Destruction.",
+      {"Chapter 6 (Debate and Research Projects)": [
+      {"Debates": ["Should religion influence law?", "Should inter-caste marriage be legal?"]},
+      {"Research": ["Casteism", "Interviews"]}
+    ]},
     ],
 
     "🗣️ Languages": [
