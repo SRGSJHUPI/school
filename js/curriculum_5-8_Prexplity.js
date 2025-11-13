@@ -100,7 +100,7 @@ Object.assign(window.curriculumData, {
       {"Research Skills": ["Finding credible sources, Basics of internet research"]}
     ]}
   ],
-  "➗ Mathematics (5th, 6th, 7th - first half)": [
+  "➗ Mathematics": [
     {"Chapter 1 (Decimals and Percentages)": [
       {"Skills": ["Comparing and ordering, Word problems, Everyday relevance"]}
     ]},
