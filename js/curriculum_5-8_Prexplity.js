@@ -696,6 +696,8 @@ Object.assign(window.curriculumData, {
     ]},
     {"Chapter 5 (Body Systems)": [
       {"Systems Overview": ["Digestive, Respiratory, Circulatory, Nervous"]},
+      {"Immune system": ["what it is and how it works, Diseases prevention, Vaccination importance"]},
+      {"Diseases": ["PRIMARY CLASSIFICATION INCLUDES: infectious diseases, deficiency diseases, hereditary diseases (including both genetic and non-genetic hereditary diseases), and physiological diseases.", "-->", "ON BASIS OF LETHALITY: Highly lethal- Rabies (untreated), Ebola (up to 90%), Naegleriasis (>95%), Aids, Cancer, Moderately lethal– Tuberculosis, Malaria, Dengue, Hepatitis B, Typhoid, Influenza, Low lethality – Chickenpox, Mumps, Measles, Common Cold, Low lethal- Common cold, most influenza strains, Chickenpox, Chronic non-fatal but disabling- Asthma, Diabetes, Arthritis"]},
       {"Health Questions": ["Real-life health answers"]}
     ]},
     {"Chapter 6 (Plants)": [
@@ -867,7 +869,7 @@ Object.assign(window.curriculumData, {
     ]},
     {"Chapter 4 (Our Society)": [
       {"Discussion": ["Importance of society, Approach to unfairness"]},
-      {"Friendship & Inclusion": ["Peer support"]},
+      {"Friendship & Inclusion": ["Peer support, limits of friendship-if you friend will do anythng that is not acceptaleble in society what will you do?"]},
       {"Behavior": ["Inclusive actions, Recognition of all"]},
     ]},
     {"Chapter 5 (Propaganda and Critical Thinking)": [
@@ -1332,30 +1334,138 @@ Object.assign(window.curriculumData, {
     ]}
   ],
   "💰 Economics": [
-    {"Chapter 1 (Village Palampur Story)": [
-      {"Case Study": ["Farming cycles, Local economy"]}
+  {"Chapter 1 (Development, Income & Sustainability)": [
+    {"Core Concepts": [
+      "Meaning of development",
+      "Income indicators: GDP, GNI, PCI",
+      "Human development indicators: HDI, education index, life expectancy",
+      "Economic growth vs environmental sustainability",
+      "Sustainable development goals (SDGs)"
     ]},
-    {"Chapter 2 (Human Capital and Resources)": [
-      {"Topics": ["Education, Migration, Resource allocation and access"]}
-    ]},
-    {"Chapter 3 (Poverty and Inequality)": [
-      {"Causes and Solutions": ["Various factors, Measurement"]}
-    ]},
-    {"Chapter 4 (Food Security and Agriculture)": [
-      {"Types and Systems": ["Food security"], "Challenges": ["Ongoing issues"]}
-    ]},
-    {"Chapter 5 (Development Indicators)": [
-      {"Concepts": ["GDP, HDI, GNI"]},
-      {"Applications": ["Data interpretation, Graphs"]}
-    ]},
-    {"Chapter 6 (Labour and Employment)": [
-      {"Forms": ["Various work types"], "Rights": ["Worker rights"], "Sectors": ["Formal and informal"]}
-    ]},
-    {"Chapter 7 (Business Basics)": [
-      {"Terms": ["Profit, Cost, Market, Supply, Demand"]},
-      {"Activities": ["Real-world applications"]}
+    {"Activities": [
+      "Compare HDI of India with 5 countries",
+      "Essay: Why GDP alone can’t measure development"
     ]}
-  ],
+  ]},
+  {"Chapter 2 (Sectors of the Economy & Employment)": [
+    {"Concepts": [
+      "Primary, secondary, tertiary sectors",
+      "Organized vs unorganized sectors",
+      "Employment trends and disguised unemployment",
+      "Role of government in employment generation",
+      "Sectoral shift in India since 1950"
+    ]},
+    {"Case Studies": [
+      "MGNREGA employment structure",
+      "How IT sector changed the Indian economy"
+    ]}
+  ]},
+  {"Chapter 3 (Poverty, Inequality & Human Capital)": [
+    {"Concepts": [
+      "Types of poverty: relative, absolute",
+      "Poverty line calculation",
+      "Inequality: social, economic, gender-based",
+      "Human capital: education, skills, health",
+      "Migration and resource allocation"
+    ]},
+    {"Activities": [
+      "Interpret NSO poverty graphs",
+      "Group discussion: Why inequality persists despite growth?"
+    ]}
+  ]},
+  {"Chapter 4 (Agriculture, Food Security & Rural Economy)": [
+    {"Concepts": [
+      "Story of Palampur: factors of production, farming cycle",
+      "Food security: meaning, PDS, buffer stock",
+      "Green Revolution: benefits and problems",
+      "Challenges in Indian agriculture: MSP, climate issues, land fragmentation",
+      "Role of technology in agriculture"
+    ]},
+    {"Projects": [
+      "Map India’s major crops",
+      "Survey: food security in your locality"
+    ]}
+  ]},
+  {"Chapter 5 (Banking, Credit & Digital Finance)": [
+    {"Concepts": [
+      "Structure of Indian banking system",
+      "Loan process: collateral, interest, EMI",
+      "Credit sources: formal and informal",
+      "Financial inclusion: Jan Dhan Yojana",
+      "Digital finance ecosystem: UPI, QR payments, NEFT, IMPS",
+      "Risks: fraud, cyber safety, credit traps"
+    ]},
+    {"Activities": [
+      "Create a mock bank branch model",
+      "Poster: Digital fraud awareness"
+    ]}
+  ]},
+  {"Chapter 6 (Globalisation, Trade Blocs & World Economy)": [
+    {"Concepts": [
+      "Meaning of globalisation",
+      "Liberalisation and privatisation in India",
+      "Trade blocs: EU, ASEAN, BRICS",
+      "Impact of globalisation on Indian farmers, workers, and consumers",
+      "Multinational companies (MNCs): structure and influence"
+    ]},
+    {"Activities": [
+      "Debate: Has globalisation helped India?",
+      "Case study: Apple supply chain"
+    ]}
+  ]},
+  {"Chapter 7 (Consumer Awareness & Protection Laws)": [
+    {"Concepts": [
+      "Consumer rights: Right to safety, information, choice, redressal",
+      "Consumer Protection Act 2019",
+      "Misleading advertisements",
+      "Grievance redressal: forums, commissions, online portals"
+    ]},
+    {"Activities": [
+      "Mock consumer court",
+      "Poster: Rights of an Indian consumer"
+    ]}
+  ]},
+  {"Chapter 8 (Business Basics, Markets & Innovation)": [
+    {"Concepts": [
+      "Profit, cost, revenue, market, supply, demand",
+      "Market structures: monopoly, duopoly, perfect competition (intro only)",
+      "Startups and entrepreneurship",
+      "Business models: franchise, aggregator, subscription models",
+      "Innovation and competition in markets"
+    ]},
+    {"Projects": [
+      "Design a mini business plan",
+      "Case study: Why startups fail?"
+    ]}
+  ]},
+  {"Chapter 9 (Digital Economy & E-Commerce Systems)": [
+    {"Concepts": [
+      "Basics of e-commerce",
+      "Digital marketing fundamentals",
+      "India’s digital transformation: UPI, ONDC",
+      "Role of AI, cloud computing, supply chain analytics",
+      "Online marketplaces vs traditional markets"
+    ]},
+    {"Activities": [
+      "Create a small e-commerce product page",
+      "Case study on digital entrepreneurship"
+    ]}
+  ]},
+  {"Chapter 10 (Economic Reasoning, Data & Decision-Making)": [
+    {"Concepts": [
+      "Reading graphs, charts, and economic data",
+      "Simple cost-benefit analysis",
+      "Opportunity cost",
+      "Real-life decisions using economic logic",
+      "Basic behavior economics (framing, choices, risk)"
+    ]},
+    {"Activities": [
+      "Interpretation of economic tables from newspapers",
+      "Role-play: Choose between two development projects using reasoning"
+    ]}
+  ]}
+],
+
   "📚 History and Geography": [
     {"Chapter 1 (Physical Features of India & World)": [
       {"Geographic Features": ["Continents, Major mountains, Deserts, Oceans"]}
@@ -1884,34 +1994,152 @@ Object.assign(window.curriculumData, {
   ]}
 ],
 
-"💰 Economics": [
-  {"Chapter 1 (Development: Income & Sustainability)": [
-      {"Concepts": ["Economic growth vs environmental health, Indicators of human development"]},
-      {"Projects": ["Compare HDI across countries, Essay on sustainable economics"]}
+"💰 Advanced Economics, Finance & Consulting": [
+
+  {"Chapter 1 (Foundations of Finance and Markets)": [
+    {"Concepts": [
+      "Definition and purpose of finance in economic systems",
+      "Understanding money, time value of money, and risk-return relationship",
+      "Introduction to financial institutions: Banks, NBFCs, and Mutual Funds",
+      "Primary vs secondary markets: IPOs, Stock exchanges, Bonds, and Derivatives",
+      "Role of SEBI, RBI, and global financial regulators",
+      "Concept of inflation, deflation, and purchasing power parity"
+    ]},
+    {"Activities": [
+      "Simulated stock market trading using virtual platforms",
+      "Tracking NIFTY50 and SENSEX for one month with reflective journal",
+      "Class debate- Should India adopt cryptocurrency regulation?"
+    ]}
   ]},
-  {"Chapter 2 (Economic Sectors)": [
-      {"Concepts": ["Primary, secondary, and tertiary sectors, Employment trends"]},
-      {"Applications": ["Case studies of sectoral shifts in India"]}
+
+  {"Chapter 2 (Corporate Finance and Valuation)": [
+    {"Concepts": [
+      "Capital budgeting: NPV, IRR, Payback period",
+      "Sources of financing: Equity, Debt, Venture capital, Angel investment",
+      "Corporate structure and governance",
+      "Valuation of companies: Understanding P/E ratio, EV/EBITDA, DCF model",
+      "Cost of capital and capital structure theory (Modigliani-Miller basics)",
+      "Introduction to financial statements: Balance sheet, P&L, Cash Flow"
+    ]},
+    {"Practice": [
+      "Mini project- Value a startup using simplified DCF and justify assumptions",
+      "Analyze a listed company’s balance sheet for debt/equity structure"
+    ]}
   ]},
-  {"Chapter 3 (Banking & Credit)": [
-      {"Concepts": ["Banking system structure, Loans and credit mechanisms, Digital finance and UPI"]},
-      {"Projects": ["Simulated banking model, Poster on financial literacy"]}
+
+  {"Chapter 3 (Financial Services, Investment Banking and Consulting Overview)": [
+    {"Concepts": [
+      "Structure of global financial services: Investment banks, Asset management firms, PE/VC firms",
+      "Investment banking functions: M&A, IPO advisory, restructuring, due diligence",
+      "Consulting vs auditing vs advisory: what each firm actually does",
+      "Case introduction- PwC, EY, Deloitte, KPMG, McKinsey, BCG, Accenture",
+      "Career roles: Analyst, Consultant, Associate, Partner",
+      "Difference between buy-side (investing) and sell-side (advisory)"
+    ]},
+    {"Activities": [
+      "Mock M&A deal- valuation and negotiation exercise",
+      "Interview roleplay- ‘Why consulting?’ and ‘Pitch a business solution’"
+    ]}
   ]},
-  {"Chapter 4 (Globalisation & Trade Blocs)": [
-      {"Concepts": ["EU, ASEAN, BRICS, Liberalisation and global integration"]},
-      {"Activities": ["Debate on globalisation’s impact on developing nations"]}
+
+  {"Chapter 4 (Business Strategy and Consulting Frameworks)": [
+    {"Frameworks": [
+      "SWOT, PESTEL, Porter’s Five Forces, BCG Matrix, Ansoff Matrix",
+      "McKinsey 7S and MECE Principle",
+      "Root cause analysis (Fishbone, 5 Whys)",
+      "Client problem-solving approach (define, diagnose, design, deliver)",
+      "Financial modeling and scenario analysis for business decision-making"
+    ]},
+    {"Case Studies": [
+      "Consulting case- Accenture digital transformation project for a bank",
+      "BCG-style profitability problem (restaurant chain, airline, etc.)",
+      "How consulting firms charge clients and structure deliverables"
+    ]}
   ]},
-  {"Chapter 5 (Consumer Awareness & Protection)": [
-      {"Concepts": ["Consumer rights and responsibilities, Grievance redressal mechanisms"]},
-      {"Projects": ["Consumer awareness poster, Mock complaint redressal"]}
+
+  {"Chapter 5 (Financial Modeling and Data Analysis)": [
+    {"Concepts": [
+      "Excel and Google Sheets for financial modeling",
+      "Forecasting revenues and expenses",
+      "Break-even analysis and sensitivity analysis",
+      "Data visualization: dashboards, charts, storytelling with data",
+      "Basics of Power BI, Tableau, and Google Data Studio",
+      "Quantitative reasoning in finance- correlation, regression, variance"
+    ]},
+    {"Projects": [
+      "Create a 3-statement linked model (Income, Balance Sheet, Cash Flow)",
+      "Build and present a financial dashboard using public company data"
+    ]}
   ]},
-  {"Chapter 6 (Business Models & Innovation)": [
-      {"Concepts": ["Startups, franchises, and business planning, Role of innovation in markets"]},
-      {"Activities": ["Design a mini business plan"]}
+
+  {"Chapter 6 (Economics for Decision-Making and Consulting)": [
+    {"Concepts": [
+      "Microeconomics in consulting: demand-supply estimation, pricing strategy",
+      "Macroeconomics indicators- GDP, inflation, unemployment, fiscal deficit",
+      "Policy analysis and its business impact (GST, repo rate, FDI rules)",
+      "Public-private partnerships and infrastructure consulting",
+      "Game theory basics for competitive strategy"
+    ]},
+    {"Activities": [
+      "Analyze how interest rate changes affect industry profitability",
+      "Group simulation- Government policy consulting exercise"
+    ]}
   ]},
-  {"Chapter 7 (Digital Economy)": [
-      {"Concepts": ["E-commerce fundamentals, Digital marketing, India’s UPI success story"]},
-      {"Projects": ["Case study on digital entrepreneurship"]}
+
+  {"Chapter 7 (Behavioral Finance and Market Psychology)": [
+    {"Concepts": [
+      "How emotions drive financial decisions (herd behavior, overconfidence, loss aversion)",
+      "Prospect theory and bounded rationality",
+      "Role of media, social proof, and investor sentiment",
+      "Understanding market bubbles and crashes",
+      "Applications in consulting: consumer insights and behavioral nudges"
+    ]},
+    {"Activities": [
+      "Analyze stock price bubbles like 2008 crisis or GameStop event",
+      "Design a behavioral nudge for saving or investing habits"
+    ]}
+  ]},
+
+  {"Chapter 8 (Ethics, Law, and Corporate Governance in Finance)": [
+    {"Concepts": [
+      "Insider trading and its penalties",
+      "Corporate fraud and audit ethics (Enron, Satyam case studies)",
+      "Understanding ESG (Environmental, Social, Governance) principles",
+      "Regulatory compliance in consulting firms",
+      "Whistleblower protection and ethical dilemmas"
+    ]},
+    {"Projects": [
+      "Debate- ‘Profit vs Ethics — what should guide finance?’",
+      "Write a report on India’s SEBI and global equivalents like SEC, FCA"
+    ]}
+  ]},
+
+  {"Chapter 9 (Global Financial Systems and Consulting Practices)": [
+    {"Concepts": [
+      "Structure of global capital markets: NYSE, LSE, NSE",
+      "Understanding currencies, forex, and exchange rate systems",
+      "IMF, World Bank, BIS, and G20 — how they influence global trade",
+      "Emerging markets vs developed economies",
+      "International consulting practices and case studies (McKinsey in Africa, Accenture in APAC)"
+    ]},
+    {"Activities": [
+      "Study report- Impact of the 2008 crisis and post-COVID global shifts",
+      "Consulting simulation- How to advise a company entering a new market"
+    ]}
+  ]},
+
+  {"Chapter 10 (Capstone Projects and Career Readiness)": [
+    {"Projects": [
+      "Mini consulting project with local business or NGO (real-world problem solving)",
+      "Financial research paper (analyzing company, sector, or economic policy)",
+      "Industry speaker session (guest from consulting/finance firm)",
+      "Group presentation: How technology (AI, FinTech, Blockchain) is reshaping finance and consulting"
+    ]},
+    {"Career Preparation": [
+      "Resume and LinkedIn for consulting/finance roles",
+      "Mock interview preparation: case solving, aptitude, and guesstimate questions",
+      "Soft skills: communication, storytelling, and structured problem solving"
+    ]}
   ]}
 ],
 
