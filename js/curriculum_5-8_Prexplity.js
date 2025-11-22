@@ -594,6 +594,7 @@ Object.assign(window.curriculumData, {
       {"Applications": ["Daily life word problems"]}
     ]},
     {"Chapter 9 (Speed-Time-Distance)": [
+      {"Terminologies": ["Distance, Time, Speed, steepness, slope, Rate of change,  gradient, "]},
       {"Calculations": ["Basic distance, speed, time"]},
       {"Real-World": ["Transportation scenarios, Time events"]}
     ]},
