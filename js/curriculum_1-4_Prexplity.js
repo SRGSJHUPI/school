@@ -1,59 +1,143 @@
 window.curriculumData = window.curriculumData || {};
 Object.assign(window.curriculumData, {
+
+
+
   "📚 Class 1": {
-    "📖 English – Priority Course": [
-      "Chapter 1 (Importance of Education) : Poems and stories on why study is necessary. Teacher-created and student-composed poems. Encourage each child to explain and retell, focusing on ethics and values.",
-      "Chapter 2 (Building Speaking Skills) : Daily story retelling, peer sharing, roleplay with classroom themes, focus on clarity and confidence.",
-      "Chapter 3 (Grammar Foundation) : introduction to capital letters, small letters, full stops, question marks, and forming small questions.",
-      "Chapter 4 (Building Vocabulary) : Picture-word association, sight words, fun with word games, rhymes, and everyday vocabulary practice.",
-      
-    ],
-    "💻 Computer Science": [
-      "Chapter 1 (Introduction to Computers) : What is a computer? Major parts – monitor, keyboard, mouse, CPU.",
-      "Chapter 2 (Hardware and Software) : What is hardware? What is software? Activities with visuals, sorting objects.",
-      "Chapter 3 (Using Mouse and Keyboard) : Mouse skills – click, drag, double-click; keyboard – typing own name, simple keys.",
-      "Chapter 4 (Basic Digital Literacy) : Identifying simple icons (save, print), switching computers on/off, safe handling, simple typing games."
-    ],
-    "➗ Mathematics": [
-      "Chapter 1 (Numbers and Counting) : Counting 1–100, skip counting (2, 5, 10), recognize and write numbers.",
-      "Chapter 2 (Shapes and Patterns) : Identifying 2D shapes, creating/repeating patterns with blocks or colors.",
-      "Chapter 3 (Place Value) : Understanding ones and tens using beads, rods, and abacus activities.",
-      "Chapter 4 (Addition & Subtraction) : Visual and hands-on addition and subtraction (2-digit only) using stories, objects, and number line.",
-      "Chapter 5 (Time and Calendar) : Telling time to the hour, half-hour; days of week; months in year (songs, calendar activity).",
-      "Chapter 6 (Money Matters) : Identifying coins and bills, simple buying/selling activities, pretend play shop.",
-      "Chapter 7 (Measurement) : Comparing length, weight, volume using non-standard and standard units, hands-on with classroom items.",
-      "Chapter 8 (Introduction to Data) : Using pictographs and simple charts to represent classroom data (favorite fruit poll, weather, etc.)"
-    ],
-    "🔬 Physics": [
-      "Chapter 1 (Introduction to Forces) : Push and pull activities, playing with toy cars, rolling and sliding games.",
-      "Chapter 2 (Light and Sound) : Making shadows, echoes, using mirrors, listening to and identifying different sounds.",
-      "Chapter 3 (Magnet Fun) : Testing magnets with various items, sorting what sticks and what doesn’t, simple magnetic games."
-    ],
-    "⚗️ Chemistry": [
-      "Chapter 1 (Matter Around Us) : Identifying solids, liquids, gases via classroom objects and water/ice/steam experiment.",
-      "Chapter 2 (Home Lab Fun) : Simple experiments – mixing baking soda/vinegar, food color in water, making bubbles.",
-      "Chapter 3 (Daily Life Chemistry) : Identifying safe household substances (salt, water, soap), observing changes (dissolving, mixing)."
-    ],
-    "🧬 Biology": [
-      "Chapter 1 (Human Anatomy) : Naming and understanding major parts and their functions (eyes, hands, mouth, feet); related songs, body mapping games.",
-      "Chapter 2 (Case Study: Innovations in Medicine) : Stories of doctors, vaccines, tools like thermometer, stethoscope – age-appropriate exposure.",
-      "Chapter 3 (Environmental Science) : Introduction to plants and animals, what they need to live, classroom gardening activity, save water/energy posters."
-    ],
-    "📜 Social Studies (History, Pol. Sci., Eco, Law, Geo merged)": [
-      "Chapter 1 (Family and Relationships) : Family types, roles, respecting differences, community helpers.",
-      "Chapter 2 (My Country and Symbols) : Flag, anthem, simple map exercises, knowing national leaders and monuments.",
-      "Chapter 3 (Rules and Rights) : Classroom and playground rules, what is right/wrong, why fairness matters.",
-      "Chapter 4 (Needs vs. Wants) : Sorting basic needs (food, water, home) vs wants (toys, treats), simple economic logic.",
-      "Chapter 5 (Law & Safety) : Identifying authority figures (teacher, police), good touch/bad touch, simple ideas of law and order."
-    ],
-    "📝 Hindi": [
-      "Chapter 1 (शिक्षा का महत्व) : कविता और कहानी – शिक्षा क्यों ज़रूरी है (हिंदी में), बच्चों द्वारा दोहराव, शिक्षकों की स्वनिर्मित कविताएँ।",
-      "Chapter 2 (शब्द भंडार) : चित्र देखकर शब्द सीखना, मौखिक और लिखित अभ्यास।",
-      "Chapter 3 (व्याकरण की शुरुआत) : स्वर, व्यंजन, मात्राएँ, सरल वाक्य बनाना (खेलों के माध्यम से)।",
-      "Chapter 4 (बोलना और सुनना) : रोज़मर्रा के जीवन की बातें, कहानी सुनाना और समझाना।"
-    ],
-    
-  "Moral Values": [
+
+"📖 English – Priority Course": [
+{"Chapter 1 (Importance of Education)": [
+  {"Why We Study": ["Simple stories about school importance, poems on learning, understanding effort and discipline, classroom discussion on why learning helps life"]},
+  {"Speaking & Understanding": ["Retelling stories, picture-based explanation, answering who-what-why questions, expressing feelings about school"]}
+]},
+{"Chapter 2 (Building Speaking Skills)": [
+  {"Daily Speaking": ["Story retelling with props, show-and-tell, partner sharing, speaking full sentences"]},
+  {"Confidence Building": ["Roleplay of shop, family, teacher-student dialogues, voice clarity drills, expressive actions"]}
+]},
+{"Chapter 3 (Grammar Basics)": [
+  {"Sentence Mechanics": ["Capital letters, full stops, question marks, forming simple questions and answers, correcting jumbled words"]},
+  {"Fun Grammar Games": ["Punctuation sorting, build-a-sentence cards, match word with picture, choose the correct sentence"]}
+]},
+{"Chapter 4 (Vocabulary Growth)": [
+  {"Everyday Words": ["Sight words, home and school objects, actions like run/jump/eat, naming body parts and animals"]},
+  {"Vocabulary Games": ["Picture-word match, rhyming words, find-the-word race, theme-based vocabulary like fruits/vehicles/colors"]}
+]}
+],
+
+
+"💻 Computer Science": [
+{"Chapter 1 (Introduction to Computers)": [
+  {"Device Awareness": ["What is a computer?, parts of computer, uses in home/school, difference between TV and computer"]},
+  {"Hands-on Identification": ["Touch and name components, match parts to pictures, classroom computer tour"]}
+]},
+{"Chapter 2 (Hardware and Software)": [
+  {"Understanding Types": ["Hardware examples like mouse/keyboard/screen, software examples like paint/game/music, simple classification"]},
+  {"Sorting & Activities": ["Group sorting game, identify hardware in classroom, draw your favorite device"]}
+]},
+{"Chapter 3 (Mouse and Keyboard Skills)": [
+  {"Basic Controls": ["Mouse click/drag/double-click, keyboard typing of name, using spacebar, arrow keys"]},
+  {"Practice Games": ["Paint drawing, typing balloons game, drag-and-drop puzzles"]}
+]},
+{"Chapter 4 (Digital Safety & Basics)": [
+  {"Safe Usage": ["Switching on/off properly, not pulling wires, handling devices gently, asking teacher before use"]},
+  {"Digital Icons": ["Recognize save/print/close icons, typing alphabets, simple navigation in educational apps"]}
+]}
+],
+
+
+"➗ Mathematics": [
+{"Chapter 1 (Numbers & Place Value)": [
+  {"Counting Skills": ["Counting 1–100, skip counting 2-5-10, before/after/between numbers, reading and writing digits"]},
+  {"Place Value": ["Understanding ones and tens, using abacus/beads, expanding numbers, comparing numbers"]}
+]},
+{"Chapter 2 (Shapes & Patterns)": [
+  {"Shape Learning": ["Square, circle, triangle, rectangle identification, real-life examples of shapes, tracing shapes"]},
+  {"Patterns": ["Color and object patterns, extend and create patterns, missing pattern discovery"]}
+]},
+{"Chapter 3 (Addition & Subtraction)": [
+  {"Basic Operations": ["2-digit addition and subtraction without carry, using number line, visual objects for solving"]},
+  {"Applied Learning": ["Story sums of daily life, picture-based sums, class-item counting activities"]}
+]},
+{"Chapter 4 (Time, Calendar & Money)": [
+  {"Time Concepts": ["Reading hour and half-hour, morning-afternoon-evening understanding, daily routine sequencing"]},
+  {"Money Skills": ["Identifying coins and notes, pretend shop activity, matching items to prices"]},
+  {"Calendar Skills": ["Days of week, months, marking birthdays and festivals on calendar"]}
+]},
+{"Chapter 5 (Measurement & Data)": [
+  {"Measurement Basics": ["Long-short, heavy-light, full-empty, non-standard measurements with blocks and pencils"]},
+  {"Data Handling": ["Simple pictographs, favorite food survey, classroom weather chart, tally marks introduction"]}
+]}
+],
+
+
+"🔬 Science (Physics • Chemistry • Biology merged for Class 1)": [
+{"Chapter 1 (Forces, Motion & Play Science)": [
+  {"Hands-On Exploration": ["Push and pull, sliding and rolling, fast vs slow, playing with toy cars and balls"]},
+  {"Observation Skills": ["Predicting what moves easily, comparing movement on different surfaces"]}
+]},
+{"Chapter 2 (Light, Sound & Heat Basics)": [
+  {"Light & Shadows": ["Shadow play, using flashlights, transparent vs opaque objects"]},
+  {"Sound Exploration": ["Different sounds, loud/soft, identifying sources, listening games"]},
+  {"Warmth and Heat": ["Hot-cold objects, safe handling, sun as heat source"]}
+]},
+{"Chapter 3 (Magnets & Materials)": [
+  {"Magnet Play": ["Magnetic vs non-magnetic materials, sorting items, magnetic treasure hunt"]},
+  {"Material Basics": ["Soft-hard, rough-smooth, sink-float introduction"]}
+]},
+{"Chapter 4 (Plants, Animals & Environment)": [
+  {"Living World": ["Needs of plants and animals, basic habitats, caring for plants"]},
+  {"Environment Care": ["Do not waste water, keep class clean, small gardening activity"]}
+]},
+{"Chapter 5 (Human Body & Health)": [
+  {"Body Knowledge": ["Major body parts and their uses, important senses, movement and actions"]},
+  {"Healthy Habits": ["Hand washing, brushing teeth, bathing, eating fresh food"]}
+]}
+],
+
+
+"📜 Social Studies (Integrated)": [
+{"Chapter 1 (My Family & Community)": [
+  {"Understanding Family": ["Types of families, roles of family members, respecting differences"]},
+  {"Community Helpers": ["Teacher, doctor, police, sweeper, shopkeeper and their importance"]}
+]},
+{"Chapter 2 (My Country & Symbols)": [
+  {"National Knowledge": ["Flag, emblem, anthem, simple map of India, identifying states vs country, important monuments"]}
+]},
+{"Chapter 3 (Rules, Rights & Responsibilities)": [
+  {"Social Rules": ["Classroom rules, playground rules, treating others fairly, waiting your turn, honesty"]},
+  {"Early Citizenship": ["Right to speak politely, right to safety, responsibilities towards friends and school"]}
+]},
+{"Chapter 4 (Needs, Wants & Simple Economics)": [
+  {"Economic Basics": ["Differences between needs and wants, simple choices, saving vs spending"]},
+  {"Activities": ["Shopping roleplay, sorting cards into needs/wants"]}
+]},
+{"Chapter 5 (Safety & Law Basics)": [
+  {"Personal Safety": ["Good touch, bad touch, saying NO, helpline 1098"]},
+  {"Authority Figures": ["Police, teacher, parent as helpers, following instructions safely"]}
+]}
+],
+
+
+"📝 Hindi": [
+{"Chapter 1 (शिक्षा का महत्व)": [
+  {"पाठ-विचार": ["कहानियाँ और कविताएँ, शिक्षा क्यों ज़रूरी, सरल नैतिक मूल्य"]},
+  {"अभ्यास": ["दोहराव, बोलने-सुनने की गतिविधियाँ"]}
+]},
+{"Chapter 2 (शब्द भंडार)": [
+  {"शब्द सीखना": ["चित्र शब्द, घर-स्कूल वस्तुएँ, रंग, फल-सब्जियाँ"]},
+  {"खेल": ["शब्द मिलान, तुकांत शब्द, शब्द खोज"]}
+]},
+{"Chapter 3 (व्याकरण की शुरुआत)": [
+  {"बुनियादी ज्ञान": ["स्वर, व्यंजन, मात्राएँ, सरल वाक्य बनाना"]},
+  {"गतिविधियाँ": ["अधूरा वाक्य पूरा करना, शब्दों को सही क्रम में रखना"]}
+]},
+{"Chapter 4 (बोलना और सुनना)": [
+  {"कौशल": ["कहानी सुनना, अपना अनुभव बताना, दैनिक जीवन संवाद"]}  
+]}
+],
+
+
+"🌱 Moral Values": [
     
   {"Chapter 1 (What is Good Behavior?)": [
       {"Stories & Discussions": ["Helpfulness", "Sharing", "Speaking politely", "Caring for friends and elders"]}
@@ -100,135 +184,376 @@ Object.assign(window.curriculumData, {
   
   ],
 
-    "🗣️ Languages": [
-      "Chapter 1 (Language Diversity) : Basic greetings and rhymes from other Indian and world languages, learning to say 'Hello' in 5+ languages.",
-      "Chapter 2 (Foundations) : Introduction to Hindi and English sentence structure; recognizing similarities and differences."
-    ],
-    "👥 GGC (General Guidance Class)": [
-      "Chapter 1 (Learning Together) : Group games, simple classroom projects, understanding teamwork through LEGO/art/story.",
-      "Chapter 2 (Self-Expression) : How to raise hand, ask questions, participate in class; show and tell activities."
-    ],
-    "🏃‍♂️ Games and Physical Education": [
-      "Chapter 1 (Physical Development) : Daily warm-up, running, jumping, stretching, yoga poses for balance.",
-      "Chapter 2 (Sportsmanship and Team Play) : Playing in groups, learning to wait, follow rules, encourage peers."
-    ],
-    "🧠 General Knowledge (G.K)": [
-      "Chapter 1 (My Country, My World) : National festivals, leaders, symbols, basic maps.",
-      "Chapter 2 (Wonders Around Us) : Famous places, natural and manmade wonders, common inventions and inventors."
-    ],
-    "🔬 Research Projects (R.P)": [
-      "Chapter 1 (Sensors in Daily Life) : Discover different types of sensors and their use in airplanes, boats, robots (show and tell with videos/toys).",
-      "Chapter 2 (Introduction to Robotics) : What is a robot? Play with simple robots, introduce basics with fun activities.",
-      "Chapter 3 (Machine Learning for Kids) : Watch and interact with very simple NPTEL lecture clips, age-appropriate demonstrations (image matching, sorting games)."
-    ],
-    "🌋 Scientists Stories": [
-  {"Chapter 1 (Indian Scientists)" : [
-    { "C.V. Raman": [ "his life story", "discovery of Raman Effect explained in simple words", "famous quotes" ] },
-    { "Homi Bhabha": [ "his life story", "contributions to Indian nuclear program", "famous quotes" ] },
-    { "A.P.J. Abdul Kalam": [ "his life story", "role in India's missile program", "famous quotes" ] }, 
-  ] },
-  {"Chapter 2 (foreign scientists)": [
-      {"Einstein": ["his life story","Theory of relativity explained in simple words","famous quotes"]},
-      {"Nikola Tesla": [ "his life story", "inventions and contributions to science", "famous quotes"]},
-      {"Newton": [ "his life story", "laws of motion explained in simple words","famous quotes"]},
-  ]},
 
+"🗣️ Languages": [
+{"Chapter 1 (Language Diversity)": [
+  {"Basics": ["Hello in 5+ languages, simple rhymes, cultural exposure"]}
 ]},
-  
+{"Chapter 2 (Language Foundations)": [
+  {"Skills": ["Basic English-Hindi sentence patterns, similarities and differences"]}
+]}
+],
+
+
+"👥 GGC (General Guidance Class)": [
+{"Chapter 1 (Learning Together)": [
+  {"Teamwork": ["Group games, build-together tasks, basic collaborative behavior"]}
+]},
+{"Chapter 2 (Self Expression)": [
+  {"Confidence": ["Raising hand, asking questions, show-and-tell presentations"]}
+]}
+],
+
+
+"🏃‍♂️ Games & Physical Education": [
+{"Chapter 1 (Physical Development)": [
+  {"Activities": ["Warm-up, jumping, running, balance exercises, yoga poses"]}
+]},
+{"Chapter 2 (Sportsmanship & Team Play)": [
+  {"Values": ["Following rules, encouraging teammates, sharing equipment"]}
+]}
+],
+
+
+"🧠 General Knowledge": [
+{"Chapter 1 (My Country, My World)": [
+  {"Topics": ["Festivals, national symbols, leaders, simple maps"]}
+]},
+{"Chapter 2 (Wonders Around Us)": [
+  {"Topics": ["Famous places, natural wonders, early inventions"]}
+]}
+],
+
+
+"🔬 Research Projects (R.P)": [
+{"Chapter 1 (Sensors in Daily Life)": [
+  {"Topics": ["Basic sensors in toys, taps, appliances, airplanes, robots (video demos)"]}
+]},
+{"Chapter 2 (Robotics Intro)": [
+  {"Activities": ["Play with simple robots, understand basics, identify robot parts visually"]}
+]},
+{"Chapter 3 (Machine Learning for Kids)": [
+  {"Activities": ["Age-appropriate ML demos: pattern sorting, image matching, simple games"]}
+]}
+],
+
+
+"🌋 Scientists Stories": [
+{"Chapter 1 (Indian Scientists)": [
+  {"C.V. Raman": ["Life story, Raman Effect in simple form, inspirational quotes"]},
+  {"Homi Bhabha": ["Life story, nuclear science basics, inspirational quotes"]},
+  {"A.P.J. Abdul Kalam": ["Life story, missile program basics, quotes"]}
+]},
+{"Chapter 2 (Foreign Scientists)": [
+  {"Einstein": ["Life story, relativity in kid-friendly form, quotes"]},
+  {"Nikola Tesla": ["Life story, inventions simplified, quotes"]},
+  {"Newton": ["Life story, motion laws simplified, quotes"]}
+]}
+]},
+
   "📚 Class 2": {
-    "📖 English – Focus Course": [
-      "Chapter 1 (Why We Study) : Poems and stories (English and Hindi), teacher- and student-made – classroom discussion on the necessity of education, ethics, and values[1].",
-      "Chapter 2 (Story telling) : Story of social reformers like Dr. B.R. Ambedkar, Nalson Mandela and try to make them understand why one should study",
-      "Chapter 3 (Logic Building with Language) : Puzzle stories, sequencing sentences, riddles, storytelling with a beginning-middle-end exercise.",
-      "Chapter 4 (Grammar Essentials) : Nouns, verbs, adjectives, sentence making, plurals and simple tenses.",
-      "Chapter 5 (Vocabulary Expansion) : Antonyms, synonyms, picture-word exercises, making a personal dictionary.",
-      "Chapter 6 (Speaking and Listening) : Role-play, show and tell, explain stories in their own words, basic conversations."
-    ],
-    "💻 Computer Science": [
-      "Chapter 1 (Introduction to Computers) : Recap parts – monitor, CPU, mouse, keyboard, printer.",
-      "Chapter 2 (Hardware and Software) : Real-life examples and identification exercises.",
-      "Chapter 3 (Using Mouse and Keyboard) : Typing (own name, simple sentences), mouse drag and drop, games to improve accuracy.",
-      "Chapter 4 (Digital Literacy and Icons) : Identifying important computer icons, switching on/off computers, basics of file saving.",
-      "Chapter 5 (Drawing Tools) : Exploring MS Paint or Tux Paint, drawing shapes, coloring, saving artwork.",
-      "Chapter 6 (Basic Programming Concepts) : Introduction to instructions: sequencing and logic via unplugged games."
-    ],
-    "➗ Mathematics": [
-      "Chapter 1 (Number Sense up to 1000) : Reading, writing, and comparing numbers, skip counting, number line.",
-      "Chapter 2 (Place Value & Face Value) : Hundreds, tens, ones – visual models and abacus.",
-      "Chapter 3 (Addition & Subtraction) : With carry and borrow – 3-digit sums, real-life story problems.",
-      "Chapter 4 (Multiplication) : Understanding groups, arrays, tables till 10, then extended till 15 for rote mastery.",
-      "Chapter 5 (Division) : Concept of equal grouping/sharing, dividing objects among friends.",
-      "Chapter 6 (Odd/Even and Comparison) : Identify odd/even; compare with <, >, = using real objects.",
-      "Chapter 7 (Measurement & Time) : Standard and non-standard units for length, weight, volume; reading clocks (hour and half-hour), days, weeks, months.",
-      "Chapter 8 (Data Interpretation) : Pictographs and simple bar graphs, tally charts, reading and making their own surveys[2]."
-    ],
-    "🔬 Physics": [
-      "Chapter 1 (Forces all Around) : Push, pull, rolling, sliding, toy experiments.",
-      "Chapter 2 (Simple Machines) : Use of levers, wheel and axle in day-to-day life.",
-      "Chapter 3 (Light and Sound Fun) : Basic experiments with mirrors, sounds of objects, vibrations.",
-      "Chapter 4 (physics is fun) : Do some experiments like making bubbles with soap, why things come back to earth and try explain its physics",
-      "Chapter 5 (Our Earth) : How day night happen, its roration"
-    ],
-    "⚗️ Chemistry": [
-      "Chapter 1 (Materials Around Us) : Identify and sort – wood, plastic, glass, metal.",
-      "Chapter 2 (Soluble and Insoluble) : Mixing sand-water, salt-water, observing changes.",
-      "Chapter 3 (Simple Reactions) : Lemon + baking soda, explain fizz and bubbles – safe demonstration."
-    ],
-    "🧬 Biology": [
-      "Chapter 1 (Human Body Essentials) : Organs, their function, basic care (teeth, skin, stomach, etc.).",
-      "Chapter 2 (Innovations in Medicine) : Child-friendly stories of medical inventors, vaccines, and simple tools.",
-      "Chapter 3 (Environmental Science for Kids) : 'My green world' – air, water, plants, animals, recycling basics."
-    ],
-    "📜 Social Studies (Political Science, Economics, History, Law, Geography)": [
-      "Chapter 1 (My Community) : Helpers (doctor, farmer, postman), introduction through storytelling and drama.",
-      "Chapter 2 (Rules for All) : What is a rule? Why do we follow? Difference between house and school rules.",
-      "Chapter 3 (Needs vs Wants) : Activity with toys/food; basic idea of saving and spending (piggy bank).",
-      "Chapter 4 (My Country and Festivals) : Famous leaders, major festivals, national symbols and simple map coloring.",
-      "Chapter 5 (Simple Law and Fairness) : What is fair/unfair? Pretend play on sharing and justice scenarios.",
-      "Chapter 6 (My Neighborhood Geography) : Where do I live? Simple map, making 'my street' collage."
-    ],
-    "📝 Hindi": [
-      "Chapter 1 (शिक्षा क्यों ज़रूरी है?) : कविता, कहानी, अपनी बात बताना, शिक्षकों द्वारा बनाई गई रचनाएँ (हिंदी संस्करण) – नैतिकता केंद्रित[1].",
-      "Chapter 2 (शब्द ज्ञान और व्याकरण) : पर्यायवाची, विलोम, संज्ञा, क्रिया, विशेषण, वचन.",
-      "Chapter 3 (बोलना और सुनना) : रोज़मर्रा की बातें, कहानी सुनाना, समूह कविताएँ.",
-      "Chapter 4 (रचनात्मक लेखन) : शब्द-चित्र, समूह में कहानी बनाना, संवाद लेखन."
-    ],
-    "🌱 Moral Values": [
-      "Chapter 1 (Honesty and Truthfulness) : 'Honesty is the best policy' – stories, discussion[1].",
-      "Chapter 2 (Respect) : For parents, teachers, and classmates. Dramatizations, real-life examples.",
-      "Chapter 3 (Cleanliness & Habits) : Clean classroom, clean desk, meaning of inner cleanliness.",
-      "Chapter 4 (Helping and Friendship) : 'What is friendship?', helping in need, acts of care.",
-      "Chapter 5 (Equal Treatment) : Celebrating differences, fairness, saying sorry, and learning from mistakes.",
-      "Chapter 6 (Reflection & Dramatization) : Stories (Unity is Strength, The Honest Woodcutter), role-play: Good vs bad habits, pretend classroom to reinforce helping and respect.",
-      "Chapter 6 (Behave with parents) : Behaviour with parents, with siblings, with others.",
-      "Chapter 7 (Parade) : Teaching about police, army ... duty and responsibility. Also there will be weekly parade and self safety in case of fire, earthquake or any other emergency."
-      
-    ],
-    "🗣️ Languages": [
-      "Chapter 1 (What is Language?) : Exploring the need for language, different ways people communicate.",
-      "Chapter 2 (History & Diversity) : Evolution, types of language (sign, spoken, written), simple timeline.",
-      "Chapter 3 (Simple World Language Greetings) : Learn to say hello/goodbye/thank you in major world and Indian languages."
-    ],
-    "👥 GGC (General Guidance Class)": [
-      "Chapter 1 (My Aspirations) : Who do I want to be? Dream job drawing and show-and-tell.",
-      "Chapter 2 (Role Models) : Stories about inspiring people (doctors, astronauts, teachers), classroom discussion and Q&A."
-    ],
-    "🏃‍♂️ Games & Physical Education": [
-      "Chapter 1 (Motor Skills) : Jumping, hopping, skipping; races and relays.",
-      "Chapter 2 (Team Play and Fairness) : New games (tag, ball games), teaching patience, group cheer.",
-      "Chapter 3 (Drawing) : Drawing and coloring exercises, drawing of freedom fighters, famous leaders and nature."
-    ],
-    "🧠 General Knowledge (G.K)": [
-      "Chapter 1 (Famous People) : Leaders, inventors, sportspersons – story sessions.",
-      "Chapter 2 (World Around Us) : Easy science facts, places, animals, 'Did you know?' questions."
-    ],
-    "🔬 Research Projects (R.P)": [
-      "Chapter 1 (Sensors in Action) : Different sensors used in airplanes, boats, robots (videos, simple kits).",
-      "Chapter 2 (Robotics Introduction) : Watch and handle toys/kits, draw a robot, match machines to tasks.",
-      "Chapter 3 (Machine Learning for Kids) : Sorting games, matching images, 'what is learning for a robot?' question, excerpts and demos from NPTEL for kids.",
-      "Chapter 4 (YouTube videos) : show youtube videos of airplane flying, drone flying, robot talking... to bring curiosity in them"
-    ]
-  },
+
+"📖 English – Focus Course": [
+  {"Chapter 1 (Why We Study)": [
+    {"Stories": ["Poems and short stories on value of education", "Teacher-made and student-made poems"]},
+    {"Discussions": ["Why study matters", "Simple ethics and responsibility talks"]}
+  ]},
+  {"Chapter 2 (Storytelling & Inspiration)": [
+    {"Reformers": ["Stories of Ambedkar, Nelson Mandela explained for kids"]},
+    {"Purpose": ["Connecting education to fairness, equality, and future dreams"]}
+  ]},
+  {"Chapter 3 (Logic & Language Skills)": [
+    {"Activities": ["Puzzle stories", "Sentence sequencing", "Picture-based riddles"]}
+  ]},
+  {"Chapter 4 (Grammar Essentials)": [
+    {"Basics": ["Nouns", "Verbs", "Adjectives", "Simple tenses", "Plurals"]},
+    {"Practice": ["Sentence formation", "Grammar games"]}
+  ]},
+  {"Chapter 5 (Vocabulary Growth)": [
+    {"Word Skills": ["Antonyms", "Synonyms", "Picture-word exercises"]},
+    {"Projects": ["Creating a personal mini-dictionary"]}
+  ]},
+  {"Chapter 6 (Speaking & Listening)": [
+    {"Practice": ["Role-play", "Show and tell", "Story explanation in own words"]},
+    {"Conversations": ["Basic greetings", "Peer dialogues"]}
+  ]}
+],
+
+
+"💻 Computer Science": [
+  {"Chapter 1 (Parts of Computer)": [
+    {"Identification": ["Monitor", "CPU", "Mouse", "Keyboard", "Printer"]},
+    {"Activities": ["Sorting real vs non-computer objects"]}
+  ]},
+  {"Chapter 2 (Hardware & Software)": [
+    {"Concepts": ["Hardware in daily life", "Software examples"]},
+    {"Games": ["Match-the-item activities"]}
+  ]},
+  {"Chapter 3 (Mouse & Keyboard Skills)": [
+    {"Mouse": ["Click", "Double-click", "Drag and drop"]},
+    {"Typing": ["Type name", "Small sentences", "Typing games"]}
+  ]},
+  {"Chapter 4 (Digital Literacy Basics)": [
+    {"Icons": ["Save", "Print", "Folder", "File"]},
+    {"Operations": ["Switching on/off", "Basic file saving"]}
+  ]},
+  {"Chapter 5 (Drawing on Computer)": [
+    {"Tools": ["MS Paint", "Tux Paint shapes and colors"]},
+    {"Projects": ["Drawing and saving artwork"]}
+  ]},
+  {"Chapter 6 (Programming Basics)": [
+    {"Logic": ["Sequencing", "Instructions as steps"]},
+    {"Activities": ["Unplugged coding games"]}
+  ]}
+],
+
+
+"➗ Mathematics": [
+  {"Chapter 1 (Number Sense up to 1000)": [
+    {"Skills": ["Reading", "Writing", "Comparing numbers", "Skip counting"]},
+    {"Tools": ["Number line exercises"]}
+  ]},
+  {"Chapter 2 (Place & Face Value)": [
+    {"Place Value": ["Hundreds", "Tens", "Ones"]},
+    {"Models": ["Abacus", "Bead representations"]}
+  ]},
+  {"Chapter 3 (Addition & Subtraction)": [
+    {"Operations": ["3-digit sums with carry/borrow"]},
+    {"Stories": ["Real-life problem sums"]}
+  ]},
+  {"Chapter 4 (Multiplication Basics)": [
+    {"Concepts": ["Groups", "Arrays", "Repeated addition"]},
+    {"Tables": ["Tables 2–15 practice"]}
+  ]},
+  {"Chapter 5 (Division Basics)": [
+    {"Ideas": ["Equal sharing", "Grouping concept"]},
+    {"Activities": ["Divide objects among friends"]}
+  ]},
+  {"Chapter 6 (Odd, Even & Comparison)": [
+    {"Skills": ["Identify odd/even", "Use <, >, = for comparison"]},
+    {"Activities": ["Sorting numbers with objects"]}
+  ]},
+  {"Chapter 7 (Measurement & Time)": [
+    {"Units": ["Length", "Weight", "Volume using simple tools"]},
+    {"Time": ["Hour/half-hour clocks", "Days, weeks, months"]}
+  ]},
+  {"Chapter 8 (Data Handling)": [
+    {"Graphs": ["Pictographs", "Simple bar graphs"]},
+    {"Surveys": ["Collecting and representing classroom data"]}
+  ]}
+],
+
+
+"🔬 Physics": [
+  {"Chapter 1 (Forces Around Us)": [
+    {"Experiments": ["Push and pull", "Rolling and sliding with toys"]},
+    {"Observations": ["How objects move differently"]}
+  ]},
+  {"Chapter 2 (Simple Machines)": [
+    {"Examples": ["Lever", "Wheel and axle"]},
+    {"Activities": ["Everyday usage spotting"]}
+  ]},
+  {"Chapter 3 (Light & Sound Fun)": [
+    {"Light": ["Mirror play", "Shadow formation"]},
+    {"Sound": ["Different sounds", "Vibration experiments"]}
+  ]},
+  {"Chapter 4 (Fun Physics Experiments)": [
+    {"Experiments": ["Soap bubbles", "Falling objects", "Basic gravity explanation"]}
+  ]},
+  {"Chapter 5 (Earth & Sky Basics)": [
+    {"Concepts": ["Day-night cycle", "Earth’s rotation"]},
+    {"Activities": ["Torch and globe demonstration"]}
+  ]}
+],
+
+
+"⚗️ Chemistry": [
+  {"Chapter 1 (Materials Around Us)": [
+    {"Sorting": ["Wood", "Plastic", "Metal", "Glass"]},
+    {"Activities": ["Identify objects at home and school"]}
+  ]},
+  {"Chapter 2 (Soluble & Insoluble Materials)": [
+    {"Experiments": ["Salt-water vs sand-water"]},
+    {"Skills": ["Observation and recording results"]}
+  ]},
+  {"Chapter 3 (Simple Reactions)": [
+    {"Experiments": ["Lemon + baking soda fizz", "Safe bubble experiments"]},
+    {"Explanation": ["Introduction to reaction concept"]}
+  ]}
+],
+
+
+"🧬 Biology": [
+  {"Chapter 1 (Human Body Essentials)": [
+    {"Organs": ["Eyes", "Skin", "Teeth", "Heart", "Stomach"]},
+    {"Care": ["Healthy habits for each organ"]}
+  ]},
+  {"Chapter 2 (Innovations in Medicine)": [
+    {"Stories": ["Doctors and inventors explained simply"]},
+    {"Tools": ["Thermometer", "Stethoscope", "Bandage basics"]}
+  ]},
+  {"Chapter 3 (Environmental Science Basics)": [
+    {"Concepts": ["Air", "Water", "Plants", "Animals"]},
+    {"Activities": ["Recycling basics", "Classroom gardening"]}
+  ]}
+],
+
+
+"📜 Social Studies (History, Pol. Sci., Eco, Law, Geo)": [
+  {"Chapter 1 (My Community & Helpers)": [
+    {"Helpers": ["Doctor", "Farmer", "Postman", "Teacher"]},
+    {"Activities": ["Role-play and storytelling"]}
+  ]},
+  {"Chapter 2 (Rules for Everyone)": [
+    {"Concepts": ["Why rules exist", "School vs home rules"]},
+    {"Games": ["Follow-the-rule activities"]}
+  ]},
+  {"Chapter 3 (Needs vs Wants)": [
+    {"Sorting": ["Food, water, home vs toys, chocolates"]},
+    {"Economics": ["Simple idea of saving and spending"]}
+  ]},
+  {"Chapter 4 (My Country & Festivals)": [
+    {"Symbols": ["Flag", "Anthem", "National leaders"]},
+    {"Activities": ["Festival drawings", "Simple map coloring"]}
+  ]},
+  {"Chapter 5 (Simple Law & Fairness)": [
+    {"Concepts": ["Fair vs unfair", "Sharing responsibly"]},
+    {"Role-play": ["Justice through pretend play"]}
+  ]},
+  {"Chapter 6 (My Neighborhood Geography)": [
+    {"Map Skills": ["Where I live", "My street map collage"]},
+    {"Observation": ["Community places nearby"]}
+  ]}
+],
+
+
+"📝 Hindi": [
+  {"Chapter 1 (शिक्षा क्यों ज़रूरी है?)": [
+    {"Stories": ["कविता, कहानी, स्वनिर्मित रचनाएँ"]},
+    {"Discussion": ["शिक्षा और नैतिकता पर बातचीत"]}
+  ]},
+  {"Chapter 2 (शब्द ज्ञान और व्याकरण)": [
+    {"Vocabulary": ["पर्यायवाची", "विलोम", "संज्ञा", "क्रिया", "विशेषण", "वचन"]},
+    {"Practice": ["सरल वाक्य निर्माण"]}
+  ]},
+  {"Chapter 3 (बोलना और सुनना)": [
+    {"Activities": ["कहानी सुनाना", "समूह कविता", "रोज़मर्रा वार्ता"]}
+  ]},
+  {"Chapter 4 (रचनात्मक लेखन)": [
+    {"Writing": ["शब्द-चित्र", "समूह कहानी", "संवाद लेखन"]}
+  ]}
+],
+
+
+"🌱 Moral Values": [
+  {"Chapter 1 (Honesty & Truthfulness)": [
+    {"Stories": ["Honest woodcutter", "Classroom honesty situations"]},
+    {"Reflection": ["Why honesty matters", "Real-life examples"]}
+  ]},
+  {"Chapter 2 (Respect & Behavior)": [
+    {"Values": ["Respect for parents, teachers, classmates"]},
+    {"Examples": ["Polite greetings", "Respect in group activities"]}
+  ]},
+  {"Chapter 3 (Cleanliness & Self-Care)": [
+    {"Habits": ["Clean desk", "Clean classroom", "Inner cleanliness"]},
+    {"Activities": ["Daily cleanliness routine"]}
+  ]},
+  {"Chapter 4 (Helping & Friendship)": [
+    {"Concepts": ["What is friendship?", "Helping those in need"]},
+    {"Stories": ["Short stories on kindness"]}
+  ]},
+  {"Chapter 5 (Fairness & Equality)": [
+    {"Ideas": ["Treating all equally", "Learning from mistakes"]},
+    {"Practice": ["Saying sorry", "Accepting differences"]}
+  ]},
+  {"Chapter 6 (Good Habits & Behavior at Home)": [
+    {"Values": ["Behavior with parents", "Behavior with siblings", "Manners at home"]},
+    {"Activities": ["Role-play on good habits"]}
+  ]},
+  {"Chapter 7 (Reflection & Dramatization)": [
+    {"Stories": ["Unity is Strength", "Honest Woodcutter recap"]},
+    {"Activities": ["Role-play", "Mock classroom scenarios"]}
+  ]},
+  {"Chapter 8 (Parade & Safety Awareness)": [
+    {"Training": ["Basics of police and army duties"]},
+    {"Safety": ["Weekly parade", "Fire and earthquake drill practice"]}
+  ]}
+],
+
+
+"🗣️ Languages": [
+  {"Chapter 1 (What is Language?)": [
+    {"Concepts": ["Need for language", "Ways people communicate"]},
+    {"Activities": ["Simple speaking games"]}
+  ]},
+  {"Chapter 2 (History & Diversity)": [
+    {"Topics": ["Evolution of languages", "Types of languages"]},
+    {"Timeline": ["Simple language evolution visuals"]}
+  ]},
+  {"Chapter 3 (Greetings Around the World)": [
+    {"Greetings": ["Hello, bye, thank you in major Indian and world languages"]}
+  ]}
+],
+
+
+"👥 GGC (General Guidance Class)": [
+  {"Chapter 1 (My Aspirations)": [
+    {"Activities": ["Dream job drawing", "Show and tell"]},
+    {"Reflection": ["Why I like this profession"]}
+  ]},
+  {"Chapter 2 (Role Models)": [
+    {"Stories": ["Doctors", "Astronauts", "Teachers"]},
+    {"Discussion": ["What can we learn from them?"]}
+  ]}
+],
+
+
+"🏃‍♂️ Games & Physical Education": [
+  {"Chapter 1 (Motor Skills Development)": [
+    {"Skills": ["Jumping", "Hopping", "Skipping"]},
+    {"Exercises": ["Warm-up routines"]}
+  ]},
+  {"Chapter 2 (Team Play & Fairness)": [
+    {"Concepts": ["Playing together", "Waiting for turn"]},
+    {"Games": ["Tag", "Ball games"]}
+  ]},
+  {"Chapter 3 (Drawing & Creativity)": [
+    {"Topics": ["Freedom fighters", "Nature drawings"]},
+    {"Practice": ["Coloring", "Simple sketches"]}
+  ]}
+],
+
+
+"🧠 General Knowledge (G.K)": [
+  {"Chapter 1 (Famous People)": [
+    {"Stories": ["Leaders", "Inventors", "Sportspersons"]}
+  ]},
+  {"Chapter 2 (World Around Us)": [
+    {"Facts": ["Animals", "Places", "Common inventions"]},
+    {"Activities": ["Did you know? quizzes"]}
+  ]}
+],
+
+
+"🔬 Research Projects (R.P)": [
+  {"Chapter 1 (Sensors in Action)": [
+    {"Examples": ["Sensors in airplanes", "Robots", "Boats"]},
+    {"Activities": ["Videos and live demonstrations"]}
+  ]},
+  {"Chapter 2 (Robotics Introduction)": [
+    {"Concepts": ["What is a robot?"]},
+    {"Activities": ["Toy robots", "Drawing robots"]}
+  ]},
+  {"Chapter 3 (Machine Learning for Kids)": [
+    {"Concepts": ["Pattern matching", "Sorting games"]},
+    {"Videos": ["NPTEL kid-friendly clips"]}
+  ]},
+  {"Chapter 4 (Visual Learning Through Videos)": [
+    {"Videos": ["Airplane flight", "Drone flying", "Robot talking"]},
+    {"Purpose": ["Building curiosity and imagination"]}
+  ]}
+]},
+
 
   "📚 Class 3": {
     "📖 English – Priority Course": [

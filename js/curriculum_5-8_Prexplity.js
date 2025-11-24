@@ -178,7 +178,7 @@ Object.assign(window.curriculumData, {
   ],
   "⚗️ Chemistry": [
     {"Chapter 1 (Matter and Its Changes)": [
-      {"States": ["Solid, Liquid, Gas"]},
+      {"States and conversion": ["Solid, Liquid, Gas, their conversions happen(distance between atoms change)- gas to liquid, liquid to solid, solid to gas"]},
       {"Changes": ["Reversible and irreversible changes, Melting, Boiling, Mixing"]}
     ]},
     {"Chapter 2 (Physical and Chemical Properties)": [
@@ -1704,24 +1704,36 @@ Object.assign(window.curriculumData, {
     ]}
   ],
   "🧠 General Knowledge (G.K)": [
-    {"Chapter 1 (Indian Governance)": [
+    {"Chpter 1 (Understanding Universe)": [
+      {"Solar System": ["Planets, Moons, Asteroids, Comets, Dwarf planets, Meteoroids, Kuiper Belt, Oort Cloud, Space phenomena (Eclipses, Meteor showers, Aurora borealis/australis), Space exploration history, Notable missions (Apollo, Voyager, Mars rovers), Future missions (Artemis, James Webb Space Telescope), Space agencies (NASA, ESA, ISRO, CNSA), Space technology (Satellites, Space telescopes, Rovers, Space stations), Space tourism (Commercial spaceflight, Key players, Challenges, Future prospects)"]},
+      {"Galaxies": ["Milky Way, Andromeda, Types of galaxies, Dark matter, Black holes in galaxies, Galaxy clusters, Cosmic distance ladder, Hubble's Law, Cosmic microwave background radiation, Large-scale structure of the universe, Famous galaxies (Sombrero Galaxy, Whirlpool Galaxy)"]},
+      {"Black Hole": ["What is Balck hole and White hole?, Event horizon, Singularity, Hawking radiation, Wormholes, Time dilation near black holes, Gravitational lensing, Information paradox, Stephen Hawking's contributions, Famous black holes (Sagittarius A*, Cygnus X-1)"]},
+      {"Space Missions": ["Notable missions (Apollo, Voyager, Mars rovers), Future missions (Artemis, James Webb Space Telescope), Space agencies (NASA, ESA, ISRO, CNSA), Space technology (Satellites, Space telescopes, Rovers, Space stations), Space tourism (Commercial spaceflight, Key players, Challenges, Future prospects)"]},
+    ]},
+    {"Chapter 2 (Famous Personalities)": [
+      {"Profiles": ["Scientists, Leaders, Artists, Athletes"]},
+    ]},
+    {"Chapter 3 (Indian Governance)": [
       {"Topics": ["President, Prime Minister, Parliament roles and powers"]}
     ]},
-    {"Chapter 2 (Global Leaders and Conflicts)": [
+    {"Chapter 4 (Global Leaders and Conflicts)": [
       {"Studies": ["Major world leaders, Contemporary conflicts and peacekeeping"]}
     ]},
-    {"Chapter 3 (Economic Indicators)": [
+    {"Chapter 5 (Economic Indicators)": [
       {"Concepts": ["GDP, Inflation, HDI, India vs world"]}
     ]},
-    {"Chapter 4 (Geopolitical Geography)": [
+    {"Chapter 6 (Geopolitical Geography)": [
       {"Topics": ["Borders, Alliances, Regions of conflict, Major world events"]}
     ]},
-    {"Chapter 5 (Sports and World Events)": [
+    {"Chapter 7 (Sports and World Events)": [
       {"Events": ["Olympics, FIFA, ICC history and records"]}
     ]},
-    {"Chapter 6 (Debates and Quizzes)": [
+    {"Chapter 8 (Debates and Quizzes)": [
       {"Activities": ["Weekly quiz bowl, Current affairs debates"]}
-    ]}
+    ]},
+    {"Chapter 9 (Science and Technology Advances)": [
+      {"Topics": ["Recent inventions, Space missions, Tech breakthroughs"]}
+    ]}  
   ],
   "🔬 Research Projects (R.P)": [
     {"Chapter 1 (Robotics Introduction & NPTEL Lectures)": [
