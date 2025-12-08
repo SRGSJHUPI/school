@@ -789,55 +789,91 @@ Object.assign(window.curriculumData, {
       {"Choices": ["Environmental, Ethical"]}
     ]}
   ],
-  "📚 History, Geography, Law – Integrated": [
-    {"Chapter 1 (Earth and Solar System)": [
-      {"Astronomy": ["Planets, Satellites, Motion, Day-night variation"]}
-    ]},
-    {"Chapter 2 (Latitudes and Longitudes)": [
-      {"Geography": ["Time zones, Logic puzzles with maps"]}
-    ]},
-    {"Chapter 3 (Landforms and Global Water Bodies)": [
-      {"Landforms": ["Mountains, Plateaus, Plains, Deserts"]},
-      {"Water Bodies": ["Oceans, Rivers, Lakes"]}
-    ]},
-    {"Chapter 4 (Climate and Weather)": [
-      {"Zones": ["Climate zones"]},
-      {"Patterns": ["Weather, Impact on life and economy"]}
-    ]},
-    {"Chapter 5 (Maps, Globes, GIS)": [
-      {"Skills": ["Reading maps, Locating places"]},
-      {"Technology": ["Satellite mapping introduction"]}
-    ]},
-    {"Chapter 6 (Natural Disasters)": [
-      {"Events": ["Earthquake, Volcano, Flood"]},
-      {"Preparedness": ["Case studies"]}
-    ]},
-    {"Chapter 7 (Environmental Protection & Human Interaction)": [
-      {"Cause and Effect": ["Conservation"]},
-      {"Role": ["Student involvement"]}
-    ]},
-    {"Chapter 8 (What is Law? Origins and Importance)": [
-      {"Law Basics": ["Societal importance, Frameworks"]}
-    ]},
-    {"Chapter 9 (Rules vs Laws)": [
-      {"Norms": ["Social, Moral, Legal"]},
-      {"Discussion": ["Activities"]}
-    ]},
-    {"Chapter 10 (Constitution, Child Rights & Protection)": [
-      {"Indian Constitution": ["Overview"]},
-      {"UNCRC": ["Child rights"]},
-      {"Stories": ["Rights in practice"]}
-    ]},
-    {"Chapter 11 (Online Safety Laws)": [
-      {"Cyberbullying": ["Legal and social aspects"]},
-      {"Data Protection": ["Basics"]},
-      {"Tech Use": ["Sensible practices"]}
-    ]},
-    {"Chapter 12 (Gender Equality and Anti-Discrimination)": [
-      {"Laws": ["Equality laws"]},
-      {"Discussions": ["Debates and real examples"]}
-    ]}
-  ],
+  "📜 History": [
+  {"Chapter 1 (Understanding Our Past: The Beginnings)": [
+    {"Historical Sources": ["What is history?", "Archaeological and literary sources", "Dating methods (A.D. and B.C.)"]},
+    {"Life of Early Humans": ["Hunter-gatherers to settled life", "The discovery of fire and tool-making", "Stone Age cultures (Paleolithic, Mesolithic, Neolithic)"]},
+    {"Historical Context": ["Position of Earth in the solar system: Early myths and scientific observation", "Earliest civilizations timeline"]}
+  ]},
+  {"Chapter 2 (Geographical Influence on Civilizations)": [
+    {"Historical Context": ["How landforms and water bodies shaped early settlements and civilizations", "Importance of river valleys for agriculture and transport"]},
+    {"Landforms in History": ["Role of Mountains (barriers, resources)", "Significance of Plains (agriculture, population density)"]},
+    {"Water Bodies in History": ["Impact of Oceans (trade routes, isolation)", "Role of Rivers (the 'cradle' of civilization)", "Indus Valley, Egyptian, Mesopotamian civilizations"]}
+  ]},
+  {"Chapter 3 (Evolution of Human-Environment Interaction)": [
+    {"Historical Perspective": ["How human interaction with environment has changed over time (e.g., Neolithic Revolution, Industrial Revolution)", "Early sustainable practices"]},
+    {"Conservation History": ["Historical impact of deforestation and pollution"], "Cause and Effect": ["Conservation efforts across different historical periods"]},
+    {"Role": ["Student involvement in preserving historical sites and knowledge", "Ancient Indian environmental practices (Vana Mahotsava, sacred groves)"]}
+  ]},
+  {"Chapter 4 (Ancient Civilizations and Kingdoms)": [
+    {"Early Kingdoms": ["Mahajanapadas", "Rise of Magadha", "Mauryan Empire basics"]},
+    {"Cultural Developments": ["Vedic period", "Jainism and Buddhism origins"]}
+  ]},
+  {"Chapter 5 (Medieval India: Regional Kingdoms)": [
+    {"Regional Powers": ["Cholas, Rajputs, Vijayanagara"]},
+    {"Cultural Exchange": ["Temple architecture", "Bhakti movement"]}
+  ]}
+],
+
+"🌍 Geography": [
+  {"Chapter 1 (Earth and Solar System)": [
+    {"Overview": ["Position of Earth in the solar system", "Earth as a unique planet", "The Moon and its phases [Image of Earth and Solar System]"]},
+    {"Astronomy": ["Planets", "Satellites", "Motion (Rotation and Revolution)", "Day-night variation and seasons"]}
+  ]},
+  {"Chapter 2 (Latitudes and Longitudes)": [
+    {"Concepts": ["Equator and Prime Meridian", "Tropics and Circles (Arctic, Antarctic)"], "Geography": ["Time zones (Standard Time, IST)", "Logic puzzles with maps and coordinates"]},
+    {"Global Grid": ["Using the grid system to locate places accurately [Image of Latitude and Longitude Grid]"]}
+  ]},
+  {"Chapter 3 (Landforms and Global Water Bodies)": [
+    {"Landforms": ["Mountains (Types, Importance)", "Plateaus (Characteristics, Uses)", "Plains (Formation, Population)", "Deserts (Hot and Cold)"]},
+    {"Water Bodies": ["Oceans (Circulation, Tides)", "Rivers (Drainage Patterns, Delta Formation)", "Lakes (Types, Significance)"]}
+  ]},
+  {"Chapter 4 (Climate and Weather)": [
+    {"Concepts": ["Difference between Weather and Climate", "Elements of weather (Temperature, Precipitation, Wind)"]},
+    {"Zones": ["Climate zones (Tropical, Temperate, Polar)", "Factors affecting climate (Latitude, Altitude)"]},
+    {"Patterns": ["Weather forecasting basics", "Impact on life and economy (Agriculture, Housing)", "Indian monsoon system"]}
+  ]},
+  {"Chapter 5 (Maps, Globes, GIS)": [
+    {"Tools": ["Difference between Map and Globe", "Components of a map (Scale, Symbols, Directions)"]},
+    {"Skills": ["Reading maps", "Locating places (Using coordinates)"]},
+    {"Technology": ["Geographic Information Systems (GIS) introduction", "Satellite mapping introduction", "Google Earth basics"]}
+  ]},
+  {"Chapter 6 (Natural Disasters)": [
+    {"Events": ["Earthquake (Causes, Effects)", "Volcano (Types, Distribution)", "Flood (Causes, Management)", "Cyclones and Tsunamis"]},
+    {"Preparedness": ["Disaster warning systems", "Case studies of major disasters and lessons learned", "Mock drills and safety routes"]}
+  ]},
+  {"Chapter 7 (Environmental Protection & Human Interaction)": [
+    {"Ecosystems": ["Components of environment (Biosphere, Lithosphere, Atmosphere, Hydrosphere)", "Human-Environment relationships"]},
+    {"Cause and Effect": ["Environmental degradation (Pollution types)", "Conservation (Forests, Water, Soil)"]},
+    {"Role": ["Sustainable living practices", "Student involvement (Eco-clubs, awareness campaigns)", "3R principle (Reduce, Reuse, Recycle)"]}
+  ]}
+],
+
+"⚖️ Law / Civics": [
+  {"Chapter 1 (What is Law? Origins and Importance)": [
+    {"Law Basics": ["Societal importance, Frameworks"]},
+    {"Origins": ["Simple stories of how rules evolved into laws"]}
+  ]},
+  {"Chapter 2 (Rules vs Laws)": [
+    {"Norms": ["Social, Moral, Legal"]},
+    {"Discussion": ["Activities"]}
+  ]},
+  {"Chapter 3 (Constitution, Child Rights & Protection)": [
+    {"Indian Constitution": ["Overview"]},
+    {"UNCRC": ["Child rights"]},
+    {"Stories": ["Rights in practice"]}
+  ]},
+  {"Chapter 4 (Online Safety Laws)": [
+    {"Cyberbullying": ["Legal and social aspects"]},
+    {"Data Protection": ["Basics"]},
+    {"Tech Use": ["Sensible practices"]}
+  ]},
+  {"Chapter 5 (Gender Equality and Anti-Discrimination)": [
+    {"Laws": ["Equality laws"]},
+    {"Discussions": ["Debates and real examples"]}
+  ]}
+],
+
   "📜 Hindi": [
     {"Chapter 1 (नैतिकता और सामाजिक विषय)": [
       {"Topics": ["शिक्षा का महत्व, कविता, कहानी, संवाद, बाल अधिकार, लैंगिक सम्मान, जाति पर चर्चा"]}
@@ -1465,32 +1501,78 @@ Object.assign(window.curriculumData, {
   ]}
 ],
 
-  "📚 History and Geography": [
-    {"Chapter 1 (Physical Features of India & World)": [
-      {"Geographic Features": ["Continents, Major mountains, Deserts, Oceans"]}
-    ]},
-    {"Chapter 2 (Drainage and River Basins)": [
-      {"Water Systems": ["Major rivers, Water cycles"]},
-      {"Case Studies": ["Rivers in India, Asia, Africa"]}
-    ]},
-    {"Chapter 3 (Climate, Vegetation & Zones)": [
-      {"Climates": ["Monsoon"]},
-      {"Vegetation": ["Natural flora"]},
-      {"Community Adaptations": ["Human ecological roles"]}
-    ]},
-    {"Chapter 4 (Population and Density Patterns)": [
-      {"Urban vs Rural": ["Population distribution"]},
-      {"Migration": ["Drivers and impacts"]}
-    ]},
-    {"Chapter 5 (Sustainable Use of Natural Resources)": [
-      {"Resources": ["Renewable, Non-renewable"]},
-      {"Conservation": ["Forest and soil management case studies"]}
-    ]},
-    {"Chapter 6 (Topographic Maps & Data)": [
-      {"Skills": ["Reading topo sheets, Demographic maps"]},
-      {"Interpretation": ["Physical and social data"]}
-    ]}
-  ],
+  "📜 History": [
+  {"Chapter 1 (Geography and the Course of History)": [
+    {"Geographic Features": ["The World's Continents and Oceans: Early understanding", "Major mountains and deserts: Barriers and defenses"]},
+    {"Historical Context": ["How physical features influenced early civilizations and trade routes (e.g., Silk Road)", "Impact of geography on empire formation"]},
+    {"Movement and Migration": ["Role of mountain passes in historical invasions and cultural exchange", "Coastal plains and the rise of maritime empires"]},
+    {"Case Studies": ["Himalayas as defense for India", "Mediterranean Sea and Greek city-states"]}
+  ]},
+  {"Chapter 2 (River Civilizations and Cultural Development)": [
+    {"Historical Role": ["Rivers as centers of ancient settlements and cultures (Mesopotamia, Indus Valley, Nile)", "Rivers and the development of early irrigation technologies"]},
+    {"Water Systems": ["Major historical rivers", "Understanding the hydrological cycle in ancient context"]},
+    {"Case Studies": ["The historical significance of rivers in India (Ganga, Indus), Asia (Yellow River), Africa (Nile)"]},
+    {"Cultural Impact": ["Writing systems, Urban planning, Religious practices around rivers"]}
+  ]},
+  {"Chapter 3 (Climate, Lifestyles, and Agriculture)": [
+    {"Climates and Adaptation": ["Historical shifts in Monsoon patterns and their impact on ancient kingdoms", "How climate and vegetation affected agriculture and lifestyles (e.g., nomadic vs settled life)"]},
+    {"Vegetation and Resources": ["Natural flora as a source of trade goods (spices, timber)", "Hunting, gathering, and early agricultural practices"]},
+    {"Agricultural Revolutions": ["Neolithic Revolution", "Iron Age farming improvements"]}
+  ]},
+  {"Chapter 4 (Historical Demography and Urban Centers)": [
+    {"Urban vs Rural": ["Population distribution in medieval cities and rural areas", "Development of historical urban centers (e.g., capital cities)"]},
+    {"Historical Trends": ["Population changes over time in different regions (e.g., impact of plagues, warfare)", "Population density patterns in historical trade hubs"]},
+    {"Migration": ["Drivers and impacts of historical mass migrations (e.g., invasions, religious movements)", "Aryan migration theories"]},
+    {"Famous Cities": ["Pataliputra, Taxila, Madurai"]}
+  ]},
+  {"Chapter 5 (Traditional Resource Management)": [
+    {"Resources in the Past": ["Historical reliance on Renewable and Non-renewable resources", "Resource consumption patterns across different eras"]},
+    {"Conservation": ["Past Practices: Traditional methods of resource use and conservation (e.g., sacred groves, tank irrigation)", "Forest and soil management case studies in pre-modern societies"]},
+    {"Royal Conservation": ["Ashoka's edicts on wildlife", "Chola water management systems"]}
+  ]},
+  {"Chapter 6 (Interpreting Historical Maps)": [
+    {"Historical Maps": ["Using old maps to understand past boundaries and settlements", "Evolution of cartography through history (e.g., Ptolemy to modern maps)"]},
+    {"Interpretation": ["Reading changes in physical and social data over time (e.g., growth of empires)", "Understanding perspective and bias in historical mapping"]},
+    {"Indian Cartography": ["Ancient Indian maps", "Colonial survey maps"]}
+  ]}
+],
+
+"🌍 Geography": [
+  {"Chapter 1 (Physical Features of India & World)": [
+    {"Geographic Features": ["Continents (Location and extent)", "Major mountains (Folding, Faulting, Volcanic)", "Deserts (Types and climate)", "Oceans (Seabeds and currents)"]},
+    {"Interior of the Earth": ["Layers of the Earth (Crust, Mantle, Core)", "Rocks and Minerals (Types and uses)"]},
+    {"Plate Tectonics": ["Plate boundaries", "Earthquakes and volcanoes formation"]}
+  ]},
+  {"Chapter 2 (Drainage and River Basins)": [
+    {"Water Systems": ["Major rivers (Origin, Course, Mouth)", "Water cycles (Processes and reservoirs)"]},
+    {"River Dynamics": ["Erosion and depositional landforms (Meanders, Oxbow lakes, Deltas)", "River profiles and rejuvenation"]},
+    {"Case Studies": ["Major river basins in India (Ganga, Godavari), Asia (Mekong), Africa (Congo)"]},
+    {"River Pollution": ["Causes and effects", "River cleaning projects"]}
+  ]},
+  {"Chapter 3 (Climate, Vegetation & Zones)": [
+    {"Climates": ["Factors affecting climate", "Atmospheric pressure and winds", "Monsoon climate (Mechanisms and regional variations)"]},
+    {"Vegetation": ["Natural flora (Forests, Grasslands)", "Types of vegetation zones (Tropical, Temperate, Taiga)"]},
+    {"Community Adaptations": ["Human ecological roles and adaptation to different climate zones", "Impact of deforestation and biodiversity loss"]},
+    {"Soil Types": ["Alluvial, Black, Red, Laterite soils"]}
+  ]},
+  {"Chapter 4 (Population and Density Patterns)": [
+    {"Population Distribution": ["Factors influencing population distribution (Physical and Economic)", "Population density and methods of calculation"]},
+    {"Urban vs Rural": ["Characteristics of urban and rural settlements", "Population distribution and growth patterns"]},
+    {"Migration": ["Types of migration (Internal, International)", "Drivers and impacts (Pull and push factors)"]},
+    {"Demographic Indicators": ["Birth rate, Death rate, Literacy"]}
+  ]},
+  {"Chapter 5 (Sustainable Use of Natural Resources)": [
+    {"Resources": ["Classification: Renewable, Non-renewable", "Potential and actual resources", "Human resources and their development"]},
+    {"Conservation": ["Need for sustainable development", "Forest and soil management case studies (Afforestation, Crop rotation)", "Water resource management (Irrigation, Dams)"]},
+    {"Energy Resources": ["Conventional (Coal, Petroleum)", "Non-conventional (Solar, Wind, Biomass)"]}
+  ]},
+  {"Chapter 6 (Topographic Maps & Data)": [
+    {"Skills": ["Reading topo sheets (Symbols, Contour lines, Scale)", "Interpreting demographic maps (Population, Literacy)"]},
+    {"Interpretation": ["Analyzing physical and social data on maps (Relief features, Land use)", "Using GIS for modern geographical analysis"]},
+    {"Map Projections": ["Mercator, Equal area projections"]}
+  ]}
+],
+
   "⚖️ Law": [
     {"Chapter 1 (Judicial System Structure)": [
       {"Hierarchy": ["Local courts to Supreme Court"]}
@@ -2154,26 +2236,79 @@ Object.assign(window.curriculumData, {
   ]}
 ],
 
-"📚 History & Geography": [
+"📜 History": [
+  {"Chapter 1 (How, When and Where)": [
+    {"Historical Concepts": ["Importance of dates in history", "Sources of information (Archives, Museums, Biographies)"]},
+    {"Periodization": ["The problem of periodizing Indian history", "Modern Period in India: Characteristics and Sources"]},
+    {"Historiography": ["Different ways of writing history", "Nationalist vs Colonial perspectives"]}
+  ]},
+  {"Chapter 2 (From Trade to Territory: Company Power)": [
+    {"The East India Company": ["Arrival of European trading companies", "The beginning of the Battle of Plassey and Buxar"]},
+    {"Expansion of Power": ["Subsidiary Alliance", "Doctrine of Lapse", "Setting up a New Administration (Warren Hastings, Lord Cornwallis)"]},
+    {"Economic Motives": ["Trade monopolies", "Drain of wealth theory"]}
+  ]},
+  {"Chapter 3 (Ruling the Countryside)": [
+    {"Land Revenue Systems": ["Permanent Settlement", "Ryotwari System", "Mahalwari System (Impact on peasants and agriculture)"]},
+    {"Commercialization": ["Cultivation for the market (Indigo, Opium)", "The Blue Rebellion and peasant revolts"]},
+    {"Social Impact": ["Zamindari system effects", "Peasant indebtedness"]}
+  ]},
+  {"Chapter 4 (Tribals, Dikus, and the Golden Age)": [
+    {"Tribal Societies": ["Different tribal groups and their way of life", "Impact of Forest Laws on tribals"]},
+    {"Revolts": ["The story of Birsa Munda", "Major tribal uprisings against British rule"]},
+    {"Cultural Resistance": ["Tribal myths and movements", "Shift from hunter-gatherer to settled life"]}
+  ]},
+  {"Chapter 5 (The Revolt of 1857 and After)": [
+    {"Causes": ["Political, economic, social, and military causes of the revolt"]},
+    {"The Uprising": ["Spread of the revolt and key leaders (Nana Saheb, Rani Lakshmibai)"]},
+    {"Consequences": ["The shift from Company rule to the Crown", "Changes in the military and administration"]},
+    {"Historiographical Debate": ["Sepoy Mutiny vs First War of Independence"]}
+  ]},
+  {"Chapter 6 (When People Rebel)": [
+    {"Patterns of Rebellion": ["Regional variations in 1857 revolt", "Civilian participation"]},
+    {"Suppression and Aftermath": ["British recapture strategies", "Queen's Proclamation 1858"]}
+  ]},
+  {"Chapter 7 (Weavers, Iron Smelters and Factory Owners)": [
+    {"Traditional Crafts": ["Indian textile traditions", "Decline under British rule"]},
+    {"New Industries": ["Rise of machine-made goods", "Impact on artisans"]}
+  ]}
+],
+
+"🌍 Geography": [
   {"Chapter 1 (Resources and Development)": [
-      {"Concepts": ["Types of resources, Conservation strategies, Global/local examples"]},
-      {"Projects": ["Mapping local natural resources"]}
+    {"Concepts of Resources": ["Classification (Natural, Human-made, Human)", "Sustainable development principles", "Stock and Distribution of Resources"]},
+    {"Conservation Strategies": ["Need for conservation", "Methods (Reduce, Reuse, Recycle)", "Global/local examples of resource management"]},
+    {"Practical Application": ["Mapping local natural resources", "Case studies on resource depletion"]},
+    {"Resource Mapping": ["GIS applications in resource inventory"]}
   ]},
-  {"Chapter 2 (Agriculture and Industry)": [
-      {"Concepts": ["Indian and world farming systems, Industrial distribution"]},
-      {"Activities": ["Industrial visit or virtual tour"]}
+  {"Chapter 2 (Land, Soil, Water, Natural Vegetation and Wildlife)": [
+    {"Land Use and Patterns": ["Factors affecting land use", "Common property resources", "Land degradation and management"]},
+    {"Water Resources": ["Distribution of water on Earth", "Water availability and problems", "Methods of water conservation (Rainwater harvesting, Drip Irrigation)"]},
+    {"Natural Ecosystems": ["Major biomes (Forests, Grasslands, Deserts)", "Wildlife conservation and sanctuaries", "Impact of human activities on vegetation and wildlife"]},
+    {"Soil Profiles": ["Soil types and formation processes"]}
   ]},
-  {"Chapter 3 (Urbanisation & Smart Cities)": [
-      {"Concepts": ["Urban growth, Challenges and planning models"]},
-      {"Projects": ["Smart city design prototype"]}
+  {"Chapter 3 (Agriculture and Industry)": [
+    {"Agricultural Systems": ["Types of farming (Subsistence, Commercial)", "Major crops (Rice, Wheat, Millets)", "Indian and world farming systems", "Technological and institutional reforms"]},
+    {"Industrial Distribution": ["Factors influencing location of industries", "Major industries (Iron and Steel, Textile, Information Technology)", "Industrial regions of the world"]},
+    {"Activities": ["Industrial visit or virtual tour (Analysis of inputs, processes, and outputs)"]},
+    {"Agro-Industrial Linkages": ["Food processing industries", "Agro-based industries distribution"]}
   ]},
-  {"Chapter 4 (Disaster Management)": [
-      {"Concepts": ["Floods, earthquakes, and other disasters, Disaster response planning"]},
-      {"Activities": ["Mock drills, Safety awareness programs"]}
+  {"Chapter 4 (Urbanisation & Smart Cities)": [
+    {"Urban Dynamics": ["Causes and effects of urban growth", "Slums and associated environmental challenges", "Global urbanization trends"]},
+    {"Planning Models": ["Challenges and planning models", "Concept of Smart Cities (Governance, Mobility, Environment)"]},
+    {"Projects": ["Smart city design prototype (Focus on sustainable infrastructure)", "Comparing Indian and global urban examples"]},
+    {"Urban Hierarchy": ["Metro cities, towns, villages classification"]}
   ]},
-  {"Chapter 5 (Global Environmental Issues)": [
-      {"Concepts": ["Climate change, pollution, desertification, SDGs"]},
-      {"Projects": ["Youth activism initiatives, Report on climate action"]}
+  {"Chapter 5 (Disaster Management)": [
+    {"Hazards and Disasters": ["Classification of natural and human-made disasters", "Case studies on floods, earthquakes, and other disasters (Causes and Impacts)"]},
+    {"Preparedness & Response": ["Disaster response planning (Pre-disaster, During, Post-disaster)", "Role of government agencies and local communities"]},
+    {"Activities": ["Mock drills (Earthquake, Fire)", "Safety awareness programs", "Developing a home emergency kit"]},
+    {"Risk Assessment": ["Vulnerability mapping", "Early warning systems"]}
+  ]},
+  {"Chapter 6 (Global Environmental Issues)": [
+    {"Major Concerns": ["Climate change", "Air and water pollution", "Desertification and deforestation"]},
+    {"Solutions & Frameworks": ["United Nations Sustainable Development Goals (SDGs)", "International agreements (e.g., Paris Agreement)"]},
+    {"Projects": ["Youth activism initiatives (Local clean-up/awareness drives)", "Report on local climate action"]},
+    {"Environmental Indicators": ["Carbon footprint calculation", "Biodiversity indices"]}
   ]}
 ],
 
