@@ -171,7 +171,7 @@ Object.assign(window.curriculumData, {
     "🔬 Physics": [
       "Chapter 1(Light) : Laws of reflection and refraction, image formation by lenses and mirrors.",
       "Chapter 2(Human Eye) : Structure, defects, correction.",
-      "Chapter 3(Electricity) : Ohm's law, resistors in series and parallel, electrical circuits.",
+      "Chapter 3(Electricity) : Ohm's law, resistors in series and parallel, electrical circuits, Thévenin's theorem.",
       "Chapter 4(Magnetic Effects) : Electromagnetism, electric motor principles.",
       "Chapter 5(Energy Sources) : Renewable and non-renewable energy basics.",
       "Chapter 6(Modern Physics) : Introduction to radioactivity."
@@ -428,7 +428,7 @@ Object.assign(window.curriculumData, {
     "🔬 Physics": [
       "Chapter 1(Competitive Exam Syllabus) : Core chapters for JEE, NEET, NDA, etc.—tailored practice and revision.",
       "Chapter 2(Electrostatics) : Charges, Gauss’s law, capacitors.",
-      "Chapter 3(Current Electricity) : Resistivity, cells, Kirchhoff’s rules.",
+      "Chapter 3(Current Electricity) : Resistivity, cells, Kirchhoff’s rules, thevenin’s and norton’s theorems.",
       "Chapter 4(Magnetism & Electromagnetic Induction) : Moving charge in a magnetic field, induction, Lenz’s law.",
       "Chapter 5(Alternating Current) : AC circuits, resonance, transformers.",
       "Chapter 6(Electromagnetic Waves) : Properties, spectrum, transmission.",

@@ -379,7 +379,7 @@ Object.assign(window.curriculumData, {
       {"Skills": ["Prioritizing homework, hobbies, rest, Balanced routine"]}
     ]},
     {"Chapter 4 (Dealing with Failure)": [
-      {"Skills": ["Accepting mistakes, Trying again with confidence"]}
+      {"Skills": ["Failure is a learning opportunity, Accepting mistakes, Trying again with confidence, Growth mindset, Resilience, Perseverance"]}
     ]},
     {"Chapter 5 (Respecting Education)": [
       {"Values": ["Appreciating books, school, teachers as empowerment sources"]}
@@ -857,7 +857,7 @@ Object.assign(window.curriculumData, {
       {"What Would You Do?": ["Discussions"]}
     ]},
     {"Chapter 2 (Respect and Gender Equality)": [
-      {"Topics": ["Respecting all, Girls' rights, Child labor, Hate speech, Ex- Khairlanji, Vemula, Gujarat 2002"]},
+      {"Topics": ["Respecting all, Girls' rights, students' right, Child labor, Hate speech, Ex- Khairlanji, Vemula, Gujarat 2002"]},
       {"Anti-Bullying": ["Speaking against harm"]},
       {"Discrimination": ["What is caste?, Why is it wrong?"]},
       {"Simulations": ["Litigation on caste/gender, RTI & citizens’ rights, Election & newsroom role play"]}
@@ -869,13 +869,15 @@ Object.assign(window.curriculumData, {
       {"Awareness": ["Good touch, bad touch, boundaries, consent, online safety, reporting mechanisms, seeking help-home/school/govt helpline numbers"]}
     ]},
     {"Chapter 4 (Our Society)": [
-      {"Discussion": ["Importance of society, Approach to unfairness"]},
+      {"Discussion": ["What is society?, Importance of society, What is our importance in this society?, Patriarchy Society"]},
       {"Friendship & Inclusion": ["Peer support, limits of friendship-if you friend will do anythng that is not acceptaleble in society what will you do?"]},
       {"Behavior": ["Inclusive actions, Recognition of all"]},
+      {"Handling failure": ["Failure is a learning opportunity, Accepting mistakes, Trying again with confidence, Growth mindset, Resilience, Perseverance"]}
+
     ]},
     {"Chapter 5 (Propaganda and Critical Thinking)": [
-      {"Concepts": ["What is propaganda?"]},
-      {"Analysis": ["Examples from life, religion, science, Songs analysis"]}
+      {"Concepts": ["What is propaganda?, Types of propaganda, Techniques used in propaganda, Is propaganda always bad?, How to identify propaganda?"]},
+      {"Analysis": ["Examples, religion, science, media"]}
     ]},
     {"Chapter 6 (Parade)": [
       {"Teaching": ["Police, Army, Duty and responsibility"]},
@@ -1027,55 +1029,42 @@ Object.assign(window.curriculumData, {
     ]}
   ],
   "🔬 Research Projects (R.P)": [
+    {"General": [
+      {"Research Project Exhibition": ["Making any project to show in school exhibition, "]}
+    ]},
     {"Chapter 1 (Introduction to Experimental Design)": [
-      {"Concepts": ["Hypothesis formulation, Materials selection, Methodology, Recording results"]}
+      {"Introduction": ["Basic controls like steering, throttle, brake, flap, roll, pitch, yaw, in machines and experiments, Hypothesis formulation, Variable identification, CoM balancing,"]}
     ]},
-    {"Chapter 2 (Electrical Safety Advanced)": [
-      {"Topics": ["Short circuits, Insulation, Overloading, Multimeter use"]}
+    {"Chapter 2 ( Safety In Labs)": [
+      {"Electrical safety": ["Short circuits, Insulation, Overloading, Multimeter use"]},
+      {"Mechanical Safety": ["Rotating machines, Soldering tools, Protective equipment"]},
+      {"Chemical Safety": ["Material Safety Data Sheets, Labeling, First aid for spills"]},
+      {"Environmental Safety": ["Safe disposal, Recycling"]}
     ]},
-    {"Chapter 3 (Mechanical Safety Advanced)": [
-      {"Safety": ["Rotating machines, Soldering tools, Protective equipment"]}
-    ]},
-    {"Chapter 4 (Chemical Safety in Lab Work)": [
-      {"Protocols": ["Material Safety Data Sheets, Labeling, First aid for spills"]}
-    ]},
-    {"Chapter 5 (Environmental Safety)": [
-      {"Practices": ["Safe disposal, Recycling"]}
-    ]},
-    {"Chapter 6 (Videography & Editing)": [
-      {"Storytelling": ["Visual storytelling, Explaining projects visually"]}
-    ]},
-    {"Chapter 7 (Smartphone Filming Techniques)": [
-      {"Techniques": ["Lighting, Clarity, Stability"]}
-    ]},
-    {"Chapter 8 (Basic Editing)": [
+    {"Chapter 3 (Videography & Editing)": [
+      {"Storytelling": ["Visual storytelling, Explaining projects visually"]},
+      {"Techniques": ["Lighting, Clarity, Stability"]},
       {"Apps": ["CapCut, Canva, InShot"]},
       {"Skills": ["Trimming, Captions, Background music"]}
     ]},
-    {"Chapter 9 (Presentation Voice and Confidence)": [
-      {"Skills": ["Clear speaking, Pausing, Expressive explanation"]}
+    {"Chapter 4 (Presentation Voice and Confidence)": [
+      {"Skills": ["Clear speaking, Pausing, Expressive explanation"]},
+      {"Digital Safety and Ethics": ["Consent, Data privacy, Respectful online behavior"]},
+      {"video making": ["Recording and editing project videos for school YouTube channel"]}
     ]},
-    {"Chapter 10 (Safety and Ethics)": [
-      {"Ethics": ["Consent, Data privacy, Respectful online behavior"]}
+    {"Chapter 5 (Pre Project considerations)": [
+      {"Design & Engineering Fundamentals": ["Material Selection & Cost Management: Cost of parts, replacement costs, sourcing alternatives (3D printing vs. ready-made). Mechanical Design: Weight distribution, structural strength, impact resistance, motor-propeller matching, stress points. Component Selection: Easy Replacement: Designing projects with modular components that can be easily unplugged/replaced when damaged (common in drone/RC crashes). Double Safety: Implementing physical guards (propeller cages) and software limits (fail-safe cutoff)."]},
+      {"Sensors in Technology": ["Types and Applications, Sensor demonstrations, Airplanes, Boats, Drones, Robots"]},
     ]},
-    {"Chapter 11 (Project Showcase)": [
-      {"Activities": ["Recording and editing project videos for school YouTube channel"]}
-    ]},
-    {"Chapter 12 (Research Project Exhibition)": [
-      {"Events": ["Group project presentations with safety documentation"]}
-    ]},
-    {"Chapter 13 (Sensors in Technology)": [
-      {"Types and Applications": ["Airplanes, Boats, Drones, Robots"]},
-      {"Hands-on": ["Sensor demonstrations"]}
-    ]},
-    {"Chapter 14 (Robotics – Introduction)": [
+      {"Chapter 6 (Project Execution & Iteration)": ["Methodology & Testing: Practical testing protocols, data recording, calibration, troubleshooting. Application Focus: Specific lessons on the components of flying/moving machines (ESC, Servos, Battery Chemistry, Gyros/Accelerometers)."]}, 
+    {"Chapter 7 (Robotics – Introduction)": [
       {"Resources": ["NPTEL lectures, Classroom kits"]},
       {"Projects": ["Basic robot with sensors"]}
     ]},
-    {"Chapter 15 (Machine Learning)": [
+    {"Chapter 8 (Machine Learning)": [
       {"Concepts": ["Simplified lessons, Age-appropriate examples, NPTEL projects"]}
     ]},
-    {"Chapter 16 (Softwares)": [
+    {"Chapter 9 (Softwares)": [
       {"Tools": ["TinkerCAD, Arduino IDE"]}
     ]}
   ]
@@ -1165,7 +1154,8 @@ Object.assign(window.curriculumData, {
       {"Basics": ["Introduction, Rules, Applications"]}
     ]},
     {"Chapter 12 (Area under the Curve)": [
-      {"Concepts": ["Basic area calculation"]}
+      {"Basic area calculation": ["area of triangles, rectangles, circles, trapeziums with integral formula applications"]},
+      {"Advanced usage": ["area under curves like y=x^2, y=sinx, y=cosx using integration, area under two functions- pappus' theorem of volume and surface area of revolution"]}
     ]}
   ],
   "🔬 Physics": [
@@ -1174,7 +1164,15 @@ Object.assign(window.curriculumData, {
       {"Errors": ["Types and handling errors"]}
     ]},
     {"Chapter 2 (Heat and Temperature)": [
-      {"Concepts": ["Heat and temperature"]},
+      {"Introduction": ["Heat and temperature"]},
+      {"Black Body Radiation": ["Black bodies absorb all radiation (absorptivity = 1) regardless of temperature; this is a defining property.",
+    "They emit radiation based on their own temperature via T^4 (Stefan–Boltzmann law), not the environment’s.",
+    "At room temperature (for example, 25°C or about 300 K), they emit mainly infrared radiation, not visible light, so they appear black.",
+    "When heated to high temperatures, they glow in visible colours (red, then white, then blue), showing emission increases with temperature.",
+    "Absorbed power depends on the environment’s temperature and incident radiation, while emitted power depends on the object’s temperature.",
+    "If T_object is much less than T_environment, the body absorbs more energy than it emits, so it gains energy and heats up.",
+    "Energy does not accumulate without limit; in thermal equilibrium, absorption and emission rates are equal.",
+    "The key distinction: perfect absorption (a material property) is temperature independent, but radiation exchange (energy flow) depends on both object and environment temperatures."]},
       {"Measurement": ["Scales and real-life applications"]}
     ]},
     {"Chapter 3 (Light)": [
@@ -1739,19 +1737,19 @@ Object.assign(window.curriculumData, {
     {"Chapter 1 (Robotics Introduction & NPTEL Lectures)": [
       {"Theory": ["Basics and hands-on activities with kits, Autonomous task demonstrations"]}
     ]},
-    {"Chapter 2 (Machine Principles)": [
-      {"Study": ["Working principles of airplanes, quadcopters, drones"]},
-      {"Activities": ["Comparative studies, Projects, Debates"]},
-      {"Support": ["Video lectures"]}
-    ]},
-    {"Chapter 3 (CAD Design)": [
+    {"Chapter 2 (CAD Design)": [
       {"Software": ["Canvas, AutoCAD, Fusion 360, TensorFlow"]},
       {"Concepts": ["Basic 3D modeling and design principles"]}
     ]},
-    {"Chapter 4 (Machine Learning Basics)": [
+    {"Chapter 3 (Machine Learning Basics)": [
       {"Introduction": ["Machine learning concepts"]},
       {"Applications": ["Real-world scenarios"]}
-    ]}
+    ]},
+    {"Chapter 4 (Machine Principles)": [
+      {"Study": ["Working principles of airplanes, quadcopters, drones"]},
+      {"Support": ["Video lectures demonstration in class, recommand videos for self-study"]},
+      {"Hands on projects": ["Making any simple machine- drone, rc car, robotic arm, etc."]},
+    ]},
   ]
 },
 
@@ -2391,16 +2389,16 @@ Object.assign(window.curriculumData, {
   {"Chapter 1 (Robotics)": [
       {"Concepts": ["Basic robotics modules, NPTEL-guided sessions"]}
   ]},
-  {"Chapter 2 (Machine Principles)": [
-      {"Concepts": ["Airplane, quadcopter, and drone mechanisms"]},
-      {"Projects": ["Comparative study with video support"]}
-  ]},
-  {"Chapter 3 (CAD Design)": [
+  {"Chapter 2 (CAD Design)": [
       {"Concepts": ["AutoCAD, Fusion 360, 3D modeling basics"]}
   ]},
-  {"Chapter 4 (Machine Learning)": [
+  {"Chapter 3 (Machine Learning)": [
       {"Concepts": ["Intro to ML, Simple algorithms and real-world uses"]}
-  ]}
+  ]},
+  {"Chapter 4 (Machine Principles)": [
+      {"Mechanisms of machines": ["Glider, Airplane, quadcopter, drone, rocket, space shuttle, fighter jet mechanisms"]},
+      {"Hands on Projects": ["Yearly any one project based on above concepts"]}
+  ]},
 ]
 
 

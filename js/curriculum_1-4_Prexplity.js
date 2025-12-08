@@ -95,27 +95,27 @@ Object.assign(window.curriculumData, {
 ],
 
 
-"📜 Social Studies (Integrated)": [
-{"Chapter 1 (My Family & Community)": [
-  {"Understanding Family": ["Types of families, roles of family members, respecting differences"]},
-  {"Community Helpers": ["Teacher, doctor, police, sweeper, shopkeeper and their importance"]}
-]},
-{"Chapter 2 (My Country & Symbols)": [
-  {"National Knowledge": ["Flag, emblem, anthem, simple map of India, identifying states vs country, important monuments"]}
-]},
-{"Chapter 3 (Rules, Rights & Responsibilities)": [
-  {"Social Rules": ["Classroom rules, playground rules, treating others fairly, waiting your turn, honesty"]},
-  {"Early Citizenship": ["Right to speak politely, right to safety, responsibilities towards friends and school"]}
-]},
-{"Chapter 4 (Needs, Wants & Simple Economics)": [
-  {"Economic Basics": ["Differences between needs and wants, simple choices, saving vs spending"]},
-  {"Activities": ["Shopping roleplay, sorting cards into needs/wants"]}
-]},
-{"Chapter 5 (Safety & Law Basics)": [
-  {"Personal Safety": ["Good touch, bad touch, saying NO, helpline 1098"]},
-  {"Authority Figures": ["Police, teacher, parent as helpers, following instructions safely"]}
-]}
-],
+// "📜 Social Studies (Integrated)": [
+// {"Chapter 1 (My Family & Community)": [
+//   {"Understanding Family": ["Types of families, roles of family members, respecting differences"]},
+//   {"Community Helpers": ["Teacher, doctor, police, sweeper, shopkeeper and their importance"]}
+// ]},
+// {"Chapter 2 (My Country & Symbols)": [
+//   {"National Knowledge": ["Flag, emblem, anthem, simple map of India, identifying states vs country, important monuments"]}
+// ]},
+// {"Chapter 3 (Rules, Rights & Responsibilities)": [
+//   {"Social Rules": ["Classroom rules, playground rules, treating others fairly, waiting your turn, honesty"]},
+//   {"Early Citizenship": ["Right to speak politely, right to safety, responsibilities towards friends and school"]}
+// ]},
+// {"Chapter 4 (Needs, Wants & Simple Economics)": [
+//   {"Economic Basics": ["Differences between needs and wants, simple choices, saving vs spending"]},
+//   {"Activities": ["Shopping roleplay, sorting cards into needs/wants"]}
+// ]},
+// {"Chapter 5 (Safety & Law Basics)": [
+//   {"Personal Safety": ["Good touch, bad touch, saying NO, helpline 1098"]},
+//   {"Authority Figures": ["Police, teacher, parent as helpers, following instructions safely"]}
+// ]}
+// ],
 
 
 "📝 Hindi": [
@@ -185,24 +185,24 @@ Object.assign(window.curriculumData, {
   ],
 
 
-"🗣️ Languages": [
-{"Chapter 1 (Language Diversity)": [
-  {"Basics": ["Hello in 5+ languages, simple rhymes, cultural exposure"]}
-]},
-{"Chapter 2 (Language Foundations)": [
-  {"Skills": ["Basic English-Hindi sentence patterns, similarities and differences"]}
-]}
-],
+// "🗣️ Languages": [
+// {"Chapter 1 (Language Diversity)": [
+//   {"Basics": ["Hello in 5+ languages, simple rhymes, cultural exposure"]}
+// ]},
+// {"Chapter 2 (Language Foundations)": [
+//   {"Skills": ["Basic English-Hindi sentence patterns, similarities and differences"]}
+// ]}
+// ],
 
 
-"👥 GGC (General Guidance Class)": [
-{"Chapter 1 (Learning Together)": [
-  {"Teamwork": ["Group games, build-together tasks, basic collaborative behavior"]}
-]},
-{"Chapter 2 (Self Expression)": [
-  {"Confidence": ["Raising hand, asking questions, show-and-tell presentations"]}
-]}
-],
+// "👥 GGC (General Guidance Class)": [
+// {"Chapter 1 (Learning Together)": [
+//   {"Teamwork": ["Group games, build-together tasks, basic collaborative behavior"]}
+// ]},
+// {"Chapter 2 (Self Expression)": [
+//   {"Confidence": ["Raising hand, asking questions, show-and-tell presentations"]}
+// ]}
+// ],
 
 
 "🏃‍♂️ Games & Physical Education": [
@@ -225,17 +225,17 @@ Object.assign(window.curriculumData, {
 ],
 
 
-"🔬 Research Projects (R.P)": [
-{"Chapter 1 (Sensors in Daily Life)": [
-  {"Topics": ["Basic sensors in toys, taps, appliances, airplanes, robots (video demos)"]}
-]},
-{"Chapter 2 (Robotics Intro)": [
-  {"Activities": ["Play with simple robots, understand basics, identify robot parts visually"]}
-]},
-{"Chapter 3 (Machine Learning for Kids)": [
-  {"Activities": ["Age-appropriate ML demos: pattern sorting, image matching, simple games"]}
-]}
-],
+// "🔬 Research Projects (R.P)": [
+// {"Chapter 1 (Show Robotics Movies)": [
+//   {"Topics": ["Show the Robot and what is inside it, Robot wars youtube videos"]}
+// ]},
+// {"Chapter 2 (Robotics Intro)": [
+//   {"Activities": ["Play with simple robots, understand basics, identify robot parts visually"]}
+// ]},
+// {"Chapter 3 (Machine Learning for Kids)": [
+//   {"Activities": ["Age-appropriate ML demos: pattern sorting, image matching, simple games"]}
+// ]}
+// ],
 
 
 "🌋 Scientists Stories": [
@@ -379,6 +379,11 @@ Object.assign(window.curriculumData, {
   {"Chapter 3 (Simple Reactions)": [
     {"Experiments": ["Lemon + baking soda fizz", "Safe bubble experiments"]},
     {"Explanation": ["Introduction to reaction concept"]}
+  ]},
+  {"Chapter 4 (Showing Chemical reactions)": [
+    {"Experiments": ["Vinegar and baking soda reaction", "Making a simple volcano model, titration with colour indicators, how transparent liquids change colour with pH paper, how opaque chemicals become transparent on adding other chemicals"]},
+    {"Explanation": ["Understanding that some substances change when mixed"]},
+    {"Safety": ["Always have adult supervision during experiments"]}
   ]}
 ],
 
@@ -502,7 +507,7 @@ Object.assign(window.curriculumData, {
     {"Reflection": ["Why I like this profession"]}
   ]},
   {"Chapter 2 (Role Models)": [
-    {"Stories": ["Doctors", "Astronauts", "Teachers"]},
+    {"Stories": ["Doctors", "Astronauts", "Teachers, Scientists, Artists, Engineers, Athletes, Firefighters, Police Officers, etc."]},
     {"Discussion": ["What can we learn from them?"]}
   ]}
 ],
@@ -536,19 +541,22 @@ Object.assign(window.curriculumData, {
 
 
 "🔬 Research Projects (R.P)": [
-  {"Chapter 1 (Sensors in Action)": [
+  {"Chapter 1 (Show Robotics Movies)": [
+  {"Topics": ["Show the Robot and what is inside it, Robot wars youtube videos"]}
+]},
+  {"Chapter 2 (Sensors in Action)": [
     {"Examples": ["Sensors in airplanes", "Robots", "Boats"]},
     {"Activities": ["Videos and live demonstrations"]}
   ]},
-  {"Chapter 2 (Robotics Introduction)": [
+  {"Chapter 3 (Robotics Introduction)": [
     {"Concepts": ["What is a robot?"]},
     {"Activities": ["Toy robots", "Drawing robots"]}
   ]},
-  {"Chapter 3 (Machine Learning for Kids)": [
+  {"Chapter 4 (Machine Learning for Kids)": [
     {"Concepts": ["Pattern matching", "Sorting games"]},
     {"Videos": ["NPTEL kid-friendly clips"]}
   ]},
-  {"Chapter 4 (Visual Learning Through Videos)": [
+  {"Chapter 5 (Visual Learning Through Videos)": [
     {"Videos": ["Airplane flight", "Drone flying", "Robot talking"]},
     {"Purpose": ["Building curiosity and imagination"]}
   ]}
