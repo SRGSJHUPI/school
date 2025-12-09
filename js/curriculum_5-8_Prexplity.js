@@ -606,8 +606,14 @@ Object.assign(window.curriculumData, {
   ],
   "🔬 Physics": [
     {"Chapter 1 (Units and Dimensions)": [
-      {"Basics": ["Measurement units, Dimensions of length, mass, time and other fundamental quantities like temperature, electric current, luminous intensity, amount of substance"]},
-      {"Formulas": ["What does a formula mean? - variables, how they depend on each other, How to derive?"]}
+      {"What is a Formula": ["What does a formula mean? - variables(dependent and independent), how they depend on each other, How to derive?"]},
+      {"Why measurement matters": ["cricket pitch length, milk volume, village water tank etc."]},
+      {"Fundamental quantities": ["Measurement units, Dimensions of length, mass, time and other fundamental quantities like temperature, electric current, luminous intensity, amount of substance"]},
+      {"Derived quantities": ["Speed, force, density."]},
+      {"Units (SI system)": ["Meter, kilogram, second, etc. Prefixes: milli, kilo, mega (just the useful ones)."]},
+      {"How to convert units": ["Simple examples: cm to m, g to kg, hours to seconds."]},
+      {"Dimensional formula idea": ["Only simple ones: velocity, acceleration, force (kids don’t need hardcore dimensional analysis)."]},
+      {"Hands-on activity": ["Measure height of students, speed of walking, mass of stones."]},
     ]},
     {"Chapter 2 (Motion and Measurement)": [
       {"Types": ["Linear, Circular, Oscillatory"]},
@@ -618,16 +624,24 @@ Object.assign(window.curriculumData, {
       {"Shadows": ["Formation, Transparent vs opaque materials"]}
     ]},
     {"Chapter 4 (The Human Eye and the Colourful World)": [
-      {"Eye Structure": ["Parts of the eye"]},
-      {"Color Vision": ["Seeing colors, Rainbows, Prisms"]}
+      {"Eye Structure": ["Cornea, iris, pupil, lens, retina, optic nerve", "How light enters and forms images", "Near and far point (basic idea)"]},
+      {"Vision Issues": ["Myopia and hypermetropia (simple meaning)", "Use of concave/convex lenses to correct them"]},
+      {"Color Vision": ["How the eye detects colors", "Dispersion of light through prism", "Formation of rainbow", "Atmospheric scattering: why sky is blue, red at sunset"]},
+      {"Activities": ["Make a pinhole camera", "Prism color experiment if available", "Shadow size and sharpness demo"]}
     ]},
     {"Chapter 5 (Electricity Basics)": [
       {"Concepts": ["Voltage, Potential difference, Current, Resistor, Inductor, Capacitor"]},
       {"Circuits": ["How bulbs, switches, batteries work, Constructing simple circuits"]}
     ]},
     {"Chapter 6 (Force and Pressure)": [
-      {"Force Types": ["Gravitational, Frictional"]},
-      {"Pressure": ["Concepts and demonstrations"]}
+      {"Introduction to Force": ["Meaning of force (push/pull)", "Effects: change shape, size, speed, direction"]},
+      {"Types of Forces": ["Gravitational", "Frictional", "Muscular", "Magnetic", "Contact vs Non-contact"]},
+      {"Balanced and Unbalanced Forces": ["When forces cancel out", "Tug-of-war, pushing a bike examples"]},
+      {"Pressure Basics": ["Pressure = Force/Area", "Knife sharpness, camel feet, schoolbag straps"]},
+      {"Atmospheric Pressure": ["What creates air pressure", "Straw experiment", "Basic altitude idea"]},
+      {"Pressure in Fluids": ["Liquids exert pressure in all directions", "Deep-sea pressure", "Dams thicker at bottom"]},
+      {"Friction": ["Static, sliding, rolling friction", "Useful vs harmful friction", "Reducing friction (lubrication, bearings)"]},
+      {"Hands-on Activity": ["Friction test on different surfaces", "Balloon-straw force demo", "Thumb pressure on clay vs plate"]}
     ]},
     {"Chapter 7 (Sound)": [
       {"Wave Nature": ["Sound waves, Pitch, Loudness"]},
@@ -645,11 +659,16 @@ Object.assign(window.curriculumData, {
     ]},
     {"Chapter 10 (Energy Forms and Transformations)": [
       {"Types": ["Kinetic, Potential, Thermal"]},
-      {"Machines & Conservation": ["Simple machines, Energy conservation concepts"]}
+      {"Energy Laws in Physics": ["Conservation of Energy, Conservation of Mass, First and Second Laws of Thermodynamics"]}
     ]},
-    {"Chapter 11 (Energy Laws in Physics)": [
-      {"Laws": ["Conservation of Energy, Conservation of Mass, First and Second Laws of Thermodynamics"]}
-    ]}
+    {"Chapter 11 (Newton's Laws of Motion)": [
+      {"Inertia": ["Meaning of inertia", "Coin-card-glass activity", "Types: inertia of rest, motion, direction"]},
+      {"First Law": ["Object stays at rest or in uniform motion unless force acts", "Examples: bus start/stop, bike skidding"]},
+      {"Second Law": ["F = m × a (simple use)", "Effect of mass and force on acceleration", "Throwing small vs big stone"]},
+      {"Third Law": ["Every action has equal and opposite reaction", "Balloon rocket demo", "Walking and recoil examples"]},
+      {"Momentum": ["Momentum = m × v", "Basic idea of conservation (simple cases)"]},
+      {"Activities": ["Balloon rocket", "Rolling ball push test", "Coin inertia trick for recording"]}
+    ]},
   ],
   "⚗️ Chemistry": [
     {"Chapter 1 (Physical and Chemical Changes)": [
