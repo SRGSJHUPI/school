@@ -606,7 +606,8 @@ Object.assign(window.curriculumData, {
   ],
   "🔬 Physics": [
     {"Chapter 1 (Units and Dimensions)": [
-      {"Basics": ["Measurement units, Dimensions of length, mass, time"]}
+      {"Basics": ["Measurement units, Dimensions of length, mass, time and other fundamental quantities like temperature, electric current, luminous intensity, amount of substance"]},
+      {"Formulas": ["What does a formula mean? - variables, how they depend on each other, How to derive?"]}
     ]},
     {"Chapter 2 (Motion and Measurement)": [
       {"Types": ["Linear, Circular, Oscillatory"]},
