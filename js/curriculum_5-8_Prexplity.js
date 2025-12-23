@@ -1,6 +1,6 @@
 window.curriculumData = window.curriculumData || {};
 Object.assign(window.curriculumData, {
-    "📚 Class 5": {
+"📚 Class 5": {
   "📖 English 1 – Literature & Comprehension": [
     {"Chapter 1 (Importance of Education)": [
       {"Poems and Stories": ["Highlighting why education matters"]},
@@ -125,6 +125,7 @@ Object.assign(window.curriculumData, {
       {"Identification": ["Symmetry in figures"]}
     ]},
     {"Chapter 7 (Geometry – Volume and 3D)": [
+      {"Introduction": ["What is point, line, plane, solid, surface, 3D objects, How Volume depends on Area and Height- Deep analysis by examples like what happen to volume of cylinder if cube is inserted in it- where cube volume gone- displaced, cylinder inside cylinder, etc."]},
       {"Measurement": ["Volume, Surface area"]},
       {"Shapes": ["Cubes, Cuboids"]},
       {"Drawing": ["Faces, Edges, Vertices"]}
@@ -143,6 +144,10 @@ Object.assign(window.curriculumData, {
     ]}
   ],
   "🔬 Physics": [
+    {"General":[
+      {"Unit and Dimensions": ["what is Unit, what are dimensions, the principle of homogeneity of dimensions - The magnitudes of physical quantities may be added together or subtracted from one another only if they have the same dimensions. "]},
+      {"discussion": ["Order of magnitude, Ratios and scaling, Why graphs need units on axes, Why adding quantities with different units makes no sense"]},
+    ]},
     {"Chapter 1 (Forces in Action)": [
       {"Concepts": ["Push/pull, Friction, Gravity"]},
       {"Experiments": ["Playground, Home"]}
@@ -511,7 +516,7 @@ Object.assign(window.curriculumData, {
 
 
 
-  "📚 Class 6": {
+"📚 Class 6": {
   "💻 Computer Science": [
     {"Chapter 1 (Deep Dive: Hardware and Software)": [
       {"Functions & Comparisons": ["Understanding hardware and software functions, Feature comparisons"]},
@@ -606,14 +611,13 @@ Object.assign(window.curriculumData, {
   ],
   "🔬 Physics": [
     {"Chapter 1 (Units and Dimensions)": [
-      {"What is a Formula": ["What does a formula mean? - variables(dependent and independent), how they depend on each other, How to derive?"]},
-      {"Why measurement matters": ["cricket pitch length, milk volume, village water tank etc."]},
-      {"Fundamental quantities": ["Measurement units, Dimensions of length, mass, time and other fundamental quantities like temperature, electric current, luminous intensity, amount of substance"]},
-      {"Derived quantities": ["Speed, force, density."]},
-      {"Units (SI system)": ["Meter, kilogram, second, etc. Prefixes: milli, kilo, mega (just the useful ones)."]},
-      {"How to convert units": ["Simple examples: cm to m, g to kg, hours to seconds."]},
-      {"Dimensional formula idea": ["Only simple ones: velocity, acceleration, force (kids don’t need hardcore dimensional analysis)."]},
-      {"Hands-on activity": ["Measure height of students, speed of walking, mass of stones."]},
+      {"Dimenstions, Units and Physical Quantities": ["Dimension: A dimension is a fundamental physical quantity that can be measured, such as length, mass, or time. It describes the nature of a physical quantity without numerical values. Dimensions are denoted symbolically, e.g., [L] for length, [M] for mass, [T] for time.","Unit: A unit is a standardized reference used to express the magnitude of a dimension. For example, meter (m) is a unit for the dimension of length, kilogram (kg) for mass, and second (s) for time. Different units (e.g., meters, feet) can represent the same dimension but are related by conversion factors.","Key Difference: Dimension defines what is being measured (e.g., length), while unit defines how much (e.g., 1 meter)","Quantity = number × unit, Why both number and unit are needed, Examples: 5 m, 10 s, 2 kg","What does a formula mean? - variables(dependent and independent), how they depend on each other, How to derive?"]},
+      {"Why measurement matters": ["cricket pitch length, milk volume, village water tank etc.","Mars Climate Orbiter Failure (1999)- NASA lost a $125M spacecraft- Cause: One team used metric units (newton-seconds), another imperial (pound-seconds)"]},
+      {"Fundamental and Derived quantities": ["Fundamental quantities- Length, mass, time, Temperature, electric current, Amount of substance, luminous intensity", "Derived Quantities-speed, velocity, Force, Density, etc."]},
+      {"Units (SI system)": ["Meter, kilogram, second, kelvin, ampere etc. Prefixes: kilo, hecta, deca, meter, deci, centi, milli, etc.", "How to convert units- Simple examples: cm to m, g to kg, hours to seconds, km/h to m/s"]},
+      {"Dimensional formula idea": ["Dimensional Consistency- Both sides of an equation must have same dimensions, same units can be added or substracted, Used to check correctness of formulas", "Dimensionless Quantities- Pure numbers without units, Angle in radians, Refractive index, Coefficient of friction, Ratios like v/v₀", "Angle and Radian- Angle as ratio of arc length to radius, Radian = arc/radius → dimensionless, Degree is a human-made unit, radian is natural", "Writing dimensions of quantities- Velocity [LT⁻¹], acceleration [LT⁻²], force [MLT⁻²]"]},
+      {"Functions and Dimensions": ["sin x, cos x, tan x require x to be dimensionless, exp(x), log(x) also need dimensionless input", "Why Degrees Still Work- sin(30°) is converted to sin(π/6), Functions actually operate on radians, Degrees are converted before calculation", "Series Definition of Functions- sin x, exp(x), etc. defined by series expansion and Series require x to be a pure number", "Correct vs Incorrect Usage- sin(π/2) ✔, sin(30°) ✔ after conversion, sin(5 m) ✘, e^(t/τ) ✔, e^(3 s) ✘", "Why Series are Needed- Geometric definition works only for triangles, Series define functions for all real numbers, Allows calculus, waves, oscillations"]},
+      {"Home Work": ["Measure height of students, speed of walking, mass of stones, Identify dimensionless terms in equations, Convert degrees to radians and evaluate sin values, Check dimensional correctness of formulas- Yug Sahastra Yojan claim is scientifically consistent or not - Answer: its not scientifically consistent"]},
     ]},
     {"Chapter 2 (Motion and Measurement)": [
       {"Types": ["Linear, Circular, Oscillatory"]},
@@ -634,6 +638,7 @@ Object.assign(window.curriculumData, {
       {"Circuits": ["How bulbs, switches, batteries work, Constructing simple circuits"]}
     ]},
     {"Chapter 6 (Force and Pressure)": [
+      {"Dot product and cross product": ["Introduction to vector multiplication (only conceptual, no calculations)", "Dot product: Rays falling on surface inclined at angle, what to do if we want max effect on the surface- either align surface perpendicular to rays or align rays perpendicular to surface. Cross product: torque- force applied at a distance from pivot point- what to do to get max torque- either apply force perpendicular to distance or have distance perpendicular to force."]},
       {"Introduction to Force": ["Meaning of force (push/pull)", "Effects: change shape, size, speed, direction"]},
       {"Types of Forces": ["Gravitational", "Frictional", "Muscular", "Magnetic", "Contact vs Non-contact"]},
       {"Balanced and Unbalanced Forces": ["When forces cancel out", "Tug-of-war, pushing a bike examples"]},
@@ -810,89 +815,89 @@ Object.assign(window.curriculumData, {
     ]}
   ],
   "📜 History": [
-  {"Chapter 1 (Understanding Our Past: The Beginnings)": [
-    {"Historical Sources": ["What is history?", "Archaeological and literary sources", "Dating methods (A.D. and B.C.)"]},
-    {"Life of Early Humans": ["Hunter-gatherers to settled life", "The discovery of fire and tool-making", "Stone Age cultures (Paleolithic, Mesolithic, Neolithic)"]},
-    {"Historical Context": ["Position of Earth in the solar system: Early myths and scientific observation", "Earliest civilizations timeline"]}
-  ]},
-  {"Chapter 2 (Geographical Influence on Civilizations)": [
-    {"Historical Context": ["How landforms and water bodies shaped early settlements and civilizations", "Importance of river valleys for agriculture and transport"]},
-    {"Landforms in History": ["Role of Mountains (barriers, resources)", "Significance of Plains (agriculture, population density)"]},
-    {"Water Bodies in History": ["Impact of Oceans (trade routes, isolation)", "Role of Rivers (the 'cradle' of civilization)", "Indus Valley, Egyptian, Mesopotamian civilizations"]}
-  ]},
-  {"Chapter 3 (Evolution of Human-Environment Interaction)": [
+    {"Chapter 1 (Understanding Our Past: The Beginnings)": [
+     {"Historical Sources": ["What is history?", "Archaeological and literary sources", "Dating methods (A.D. and B.C.)"]},
+     {"Life of Early Humans": ["Hunter-gatherers to settled life", "The discovery of fire and tool-making", "Stone Age cultures (Paleolithic, Mesolithic, Neolithic)"]},
+     {"Historical Context": ["Position of Earth in the solar system: Early myths and scientific observation", "Earliest civilizations timeline"]}
+    ]},
+    {"Chapter 2 (Geographical Influence on Civilizations)": [
+     {"Historical Context": ["How landforms and water bodies shaped early settlements and civilizations", "Importance of river valleys for agriculture and transport"]},
+     {"Landforms in History": ["Role of Mountains (barriers, resources)", "Significance of Plains (agriculture, population density)"]},
+     {"Water Bodies in History": ["Impact of Oceans (trade routes, isolation)", "Role of Rivers (the 'cradle' of civilization)", "Indus Valley, Egyptian, Mesopotamian civilizations"]}
+    ]},
+    {"Chapter 3 (Evolution of Human-Environment Interaction)": [
     {"Historical Perspective": ["How human interaction with environment has changed over time (e.g., Neolithic Revolution, Industrial Revolution)", "Early sustainable practices"]},
     {"Conservation History": ["Historical impact of deforestation and pollution"], "Cause and Effect": ["Conservation efforts across different historical periods"]},
     {"Role": ["Student involvement in preserving historical sites and knowledge", "Ancient Indian environmental practices (Vana Mahotsava, sacred groves)"]}
-  ]},
-  {"Chapter 4 (Ancient Civilizations and Kingdoms)": [
+    ]},
+    {"Chapter 4 (Ancient Civilizations and Kingdoms)": [
     {"Early Kingdoms": ["Mahajanapadas", "Rise of Magadha", "Mauryan Empire basics"]},
     {"Cultural Developments": ["Vedic period", "Jainism and Buddhism origins"]}
-  ]},
-  {"Chapter 5 (Medieval India: Regional Kingdoms)": [
+    ]},
+    {"Chapter 5 (Medieval India: Regional Kingdoms)": [
     {"Regional Powers": ["Cholas, Rajputs, Vijayanagara"]},
     {"Cultural Exchange": ["Temple architecture", "Bhakti movement"]}
-  ]}
-],
+    ]}
+  ],
 
-"🌍 Geography": [
-  {"Chapter 1 (Earth and Solar System)": [
-    {"Overview": ["Position of Earth in the solar system", "Earth as a unique planet", "The Moon and its phases [Image of Earth and Solar System]"]},
-    {"Astronomy": ["Planets", "Satellites", "Motion (Rotation and Revolution)", "Day-night variation and seasons"]}
-  ]},
-  {"Chapter 2 (Latitudes and Longitudes)": [
-    {"Concepts": ["Equator and Prime Meridian", "Tropics and Circles (Arctic, Antarctic)"], "Geography": ["Time zones (Standard Time, IST)", "Logic puzzles with maps and coordinates"]},
-    {"Global Grid": ["Using the grid system to locate places accurately [Image of Latitude and Longitude Grid]"]}
-  ]},
-  {"Chapter 3 (Landforms and Global Water Bodies)": [
-    {"Landforms": ["Mountains (Types, Importance)", "Plateaus (Characteristics, Uses)", "Plains (Formation, Population)", "Deserts (Hot and Cold)"]},
-    {"Water Bodies": ["Oceans (Circulation, Tides)", "Rivers (Drainage Patterns, Delta Formation)", "Lakes (Types, Significance)"]}
-  ]},
-  {"Chapter 4 (Climate and Weather)": [
-    {"Concepts": ["Difference between Weather and Climate", "Elements of weather (Temperature, Precipitation, Wind)"]},
-    {"Zones": ["Climate zones (Tropical, Temperate, Polar)", "Factors affecting climate (Latitude, Altitude)"]},
-    {"Patterns": ["Weather forecasting basics", "Impact on life and economy (Agriculture, Housing)", "Indian monsoon system"]}
-  ]},
-  {"Chapter 5 (Maps, Globes, GIS)": [
-    {"Tools": ["Difference between Map and Globe", "Components of a map (Scale, Symbols, Directions)"]},
-    {"Skills": ["Reading maps", "Locating places (Using coordinates)"]},
-    {"Technology": ["Geographic Information Systems (GIS) introduction", "Satellite mapping introduction", "Google Earth basics"]}
-  ]},
-  {"Chapter 6 (Natural Disasters)": [
-    {"Events": ["Earthquake (Causes, Effects)", "Volcano (Types, Distribution)", "Flood (Causes, Management)", "Cyclones and Tsunamis"]},
-    {"Preparedness": ["Disaster warning systems", "Case studies of major disasters and lessons learned", "Mock drills and safety routes"]}
-  ]},
-  {"Chapter 7 (Environmental Protection & Human Interaction)": [
-    {"Ecosystems": ["Components of environment (Biosphere, Lithosphere, Atmosphere, Hydrosphere)", "Human-Environment relationships"]},
-    {"Cause and Effect": ["Environmental degradation (Pollution types)", "Conservation (Forests, Water, Soil)"]},
-    {"Role": ["Sustainable living practices", "Student involvement (Eco-clubs, awareness campaigns)", "3R principle (Reduce, Reuse, Recycle)"]}
-  ]}
-],
+  "🌍 Geography": [
+    {"Chapter 1 (Earth and Solar System)": [
+      {"Overview": ["Position of Earth in the solar system", "Earth as a unique planet", "The Moon and its phases [Image of Earth and Solar System]"]},
+      {"Astronomy": ["Planets", "Satellites", "Motion (Rotation and Revolution)", "Day-night variation and seasons"]}
+    ]},
+    {"Chapter 2 (Latitudes and Longitudes)": [
+      {"Concepts": ["Equator and Prime Meridian", "Tropics and Circles (Arctic, Antarctic)"], "Geography": ["Time zones (Standard Time, IST)", "Logic puzzles with maps and coordinates"]},
+      {"Global Grid": ["Using the grid system to locate places accurately [Image of Latitude and Longitude Grid]"]}
+    ]},
+    {"Chapter 3 (Landforms and Global Water Bodies)": [
+      {"Landforms": ["Mountains (Types, Importance)", "Plateaus (Characteristics, Uses)", "Plains (Formation, Population)", "Deserts (Hot and Cold)"]},
+      {"Water Bodies": ["Oceans (Circulation, Tides)", "Rivers (Drainage Patterns, Delta Formation)", "Lakes (Types, Significance)"]}
+    ]},
+    {"Chapter 4 (Climate and Weather)": [
+      {"Concepts": ["Difference between Weather and Climate", "Elements of weather (Temperature, Precipitation, Wind)"]},
+      {"Zones": ["Climate zones (Tropical, Temperate, Polar)", "Factors affecting climate (Latitude, Altitude)"]},
+      {"Patterns": ["Weather forecasting basics", "Impact on life and economy (Agriculture, Housing)", "Indian monsoon system"]}
+    ]},
+    {"Chapter 5 (Maps, Globes, GIS)": [
+      {"Tools": ["Difference between Map and Globe", "Components of a map (Scale, Symbols, Directions)"]},
+      {"Skills": ["Reading maps", "Locating places (Using coordinates)"]},
+      {"Technology": ["Geographic Information Systems (GIS) introduction", "Satellite mapping introduction", "Google Earth basics"]}
+    ]},
+    {"Chapter 6 (Natural Disasters)": [
+      {"Events": ["Earthquake (Causes, Effects)", "Volcano (Types, Distribution)", "Flood (Causes, Management)", "Cyclones and Tsunamis"]},
+      {"Preparedness": ["Disaster warning systems", "Case studies of major disasters and lessons learned", "Mock drills and safety routes"]}
+    ]},
+    {"Chapter 7 (Environmental Protection & Human Interaction)": [
+      {"Ecosystems": ["Components of environment (Biosphere, Lithosphere, Atmosphere, Hydrosphere)", "Human-Environment relationships"]},
+      {"Cause and Effect": ["Environmental degradation (Pollution types)", "Conservation (Forests, Water, Soil)"]},
+      {"Role": ["Sustainable living practices", "Student involvement (Eco-clubs, awareness campaigns)", "3R principle (Reduce, Reuse, Recycle)"]}
+    ]}
+  ],
 
-"⚖️ Law / Civics": [
-  {"Chapter 1 (What is Law? Origins and Importance)": [
+  "⚖️ Law / Civics": [
+    {"Chapter 1 (What is Law? Origins and Importance)": [
     {"Law Basics": ["Societal importance, Frameworks"]},
     {"Origins": ["Simple stories of how rules evolved into laws"]}
-  ]},
-  {"Chapter 2 (Rules vs Laws)": [
+    ]},
+    {"Chapter 2 (Rules vs Laws)": [
     {"Norms": ["Social, Moral, Legal"]},
     {"Discussion": ["Activities"]}
-  ]},
-  {"Chapter 3 (Constitution, Child Rights & Protection)": [
+    ]},
+    {"Chapter 3 (Constitution, Child Rights & Protection)": [
     {"Indian Constitution": ["Overview"]},
     {"UNCRC": ["Child rights"]},
     {"Stories": ["Rights in practice"]}
-  ]},
-  {"Chapter 4 (Online Safety Laws)": [
+    ]},
+    {"Chapter 4 (Online Safety Laws)": [
     {"Cyberbullying": ["Legal and social aspects"]},
     {"Data Protection": ["Basics"]},
     {"Tech Use": ["Sensible practices"]}
-  ]},
-  {"Chapter 5 (Gender Equality and Anti-Discrimination)": [
+    ]},
+    {"Chapter 5 (Gender Equality and Anti-Discrimination)": [
     {"Laws": ["Equality laws"]},
     {"Discussions": ["Debates and real examples"]}
-  ]}
-],
+    ]}
+  ],
 
   "📜 Hindi": [
     {"Chapter 1 (नैतिकता और सामाजिक विषय)": [
@@ -935,13 +940,28 @@ Object.assign(window.curriculumData, {
       {"Concepts": ["What is propaganda?, Types of propaganda, Techniques used in propaganda, Is propaganda always bad?, How to identify propaganda?"]},
       {"Analysis": ["Examples, religion, science, media"]}
     ]},
-    {"Chapter 6 (Parade)": [
-      {"Teaching": ["Police, Army, Duty and responsibility"]},
-      {"Events": ["Weekly parade, Self-safety: fire, earthquake, emergencies"]}
+    {"Chapter 6 (Scientific Temperament and Blind Faith)": [
+      {"Introduction" : ["Why this chapter- In our and nearby villages, we see it is very common that women get possessed, and they roam around seeking cures from tantriks, babas, and maulvis, etc.- it is mainly due to lack of awareness and lack of education", "What is Rationality- In philosophy, rationality is the quality of being guided by or based on reason, involving the use of logical thinking, evidence, and coherent principles to form beliefs and make decisions, allows questioning", "What is Scientific Temperament- Habit of questioning and reasoning, Accepting ideas based on evidence, not authority, Willingness to change belief with new evidence, Core values: curiosity, skepticism, empathy", "Blind Faith- belief without questioning, depends on fear and authority"]},
+      {"Brain as the Control Center": ["Brain controls thoughts, emotions, actions, Brain predicts reality before reacting, Body follows brain expectations, Perception is constructed not passive, nervous poop", "Brain–Body Communication Systems- Central Nervous System (brain, spinal cord), Autonomic Nervous System controls involuntary actions- Sympathetic system: fight or flight, Parasympathetic system: rest and repair", "Dissociation, Trance state, Psychogenic illness, Cognitive Biases to Know: Confirmation bias, Authority bias, Herd behavior, Suggestibility"]},
+      {"Belief Influencing Body Responses": ["Belief alters heart rate and blood pressure, Fear suppresses immunity and digestion, Hope reduces pain and stress, Mind and body are deeply connected", "Placebo and Nocebo Effects- Placebo: positive belief causes healing, Nocebo: negative belief causes harm, Real physical change without real treatment, Belief can heal or harm", "Stress, Fear, and Sudden Health Events- Extreme fear activates stress response","Sudden rise in BP and heart rate, May cause heart attack or brain hemorrhage, Belief of death itself can be fatal", "Sudden Death Due to Fear (Monitor Lizard Example)- Monitor lizard is not venomous But the myth is strong, When bitten, person believes “I will die”, Brain reaction: Extreme fear → sympathetic nervous system overload, Sudden rise in Heart rate, Blood pressure. Possible outcomes: Heart attack, Stroke, Brain hemorrhage, Shock", "Terminology:", " Psychogenic death- The condition was first studied by physiologist Walter Cannon in 1942, who observed that extreme fear could cause fatal physical deterioration", "Stress-induced cardiomyopathy- (also called takotsubo cardiomyopathy or broken heart syndrome). This occurs when intense emotional or physical stress causes rapid weakening of the heart muscle, particularly the left ventricle. High levels of stress hormones like adrenaline can constrict blood vessels, reduce blood flow to the heart, and cause the heart's pumping chamber to expand abnormally. Unlike psychogenic death, most cases of stress-induced cardiomyopathy are reversible with proper medical care, and the heart typically recovers within weeks to months.", "Acute stress response(ASR)- also called psychological shock or acute stress disorder (ASD), is a psychological response to a terrifying, traumatic, or surprising experience. It's a normal reaction to abnormal circumstances and typically resolves quickly once the stressor is removed."]},
+      {"Possession Explained Scientifically": ["Occurs under stress and fear, High suggestibility and low critical thinking, Dissociation and trance states, Behavior follows cultural expectations, Possession is mainly seen in women it may be due to historical torture or lack of education with respect to men due to patriarchy society, Possession Gives No New Knowledge- Only known languages are spoken, No new science or facts appear, Brain reuses stored memory, Experience is internally constructed", "Scientific Thinking as Protection- Awareness of mind-body link, Question extraordinary claims, Seek evidence, Understand cultural influences, Scientific temperament protects from exploitation", "how ghost transfer from on person to another- When a person is possessed, others around may feel anxious or fearful, increasing their suggestibility. If they are already stressed or vulnerable, they may be more likely to experience similar symptoms, leading to a chain reaction of possession-like experiences.", "How to protect ourself if we feel something like it- try to do something you are interested in, try to think something else, try to talk to someone you trust(Warning: Don't talk about possesstion at all), if possesion like symptoms persist- seek medical help"]},
+      {"Role of Culture and Social Conditioning": ["Gods and ghosts appear culturally familiar, Beliefs spread through stories, Herd behavior strengthens belief, Social validation replaces evidence"]},
+      {"Rituals, Healers, and Temporary Relief": ["Authority reduces anxiety, Ritual calms the brain, Parasympathetic system activates, Relief is real, explanation is false", "God or ghost travel at supersonic speed is it possible? like if one person is possessed here a bhagat/baba/molvi catch or call the ghost sitting hundreds of kilometer far from patient within seconds"]},
+      {"Exploitation Through Blind Faith": ["touching highway, drinking AC water as divine", "Fear increases vulnerability","Authority bias blocks questioning","Repeated rituals create dependency","Exploitation feeds on vulnerability", "Why do elites rarely suffer consequences of religious conflict?", "Who profits from blind faith?", "Why many poor people in India convert to christianity- they give financial support, education and medical facilities- what does it indicate?", "Poor people: Need food, safety, education, medical help Faith is often secondary to survival, Rich people: Use religion for: Social identity, Politics, Business networking, Middle class(except some intellectuals): Has fear of falling down, Has hope of moving up, Most vulnerable to promises of divine reward, punishment, status", "Religion is a kind of intoxicant for the middle class- It gives them a feeling of superiority. also Karl Marx's considered religion as opium for the people.", "“If a belief cannot survive a question, it does not deserve obedience”"]},
+      {"Religion as Idea vs Institution": ["Most religions started with ethical values, compassion, and social order, Institutions seek power and money, Original values get diluted, Questioning institutions is not anti-ethics", "Religion, Identity, and Violence- Belief turns into identity conflict, Us vs them thinking dominates, Violence driven by fear and power, Human dignity above identity"]},
+      {"Atheism, Belief, and Morality": ["Atheism removes divine authority but Morality still needs reasoning, Disbelief alone doesn’t ensure ethics, Thinking opposes blind faith", "Morality Without Religion- Ethical behavior can exist without religious belief, Empathy and reason guide morality, Secular ethics focus on human well-being, Fear of punishment is not true morality"]},
+      {"Ethical Conclusion": ["Belief must reduce suffering, If belief spreads hate- it fails, Scientific temperament strengthens humanity, Thinking is moral responsibility", "Today mostly blind faith is due to religion which lost their very initial Idea of peacefulness and turned into business nowadays", "Exploitation succeeds not because people are stupid, but because they are vulnerable", "If belief requires fear to survive, is it belief or control?"]},
+      {"Classroom Activities": ["Analyze belief-based incidents","Identify placebo/nocebo cases","Discuss relief vs truth","Encourage respectful questioning"]},
+      {"Homework: Questions to Think Deeply": ["Why does a possessed person speak only the language they already know?", "If the same deity appears in different regions, why does it always follow local language and culture?", "Does molvi/padri/bhagat has any type of contract with god or ghost?", "If a god knows all languages, why has no possessed person ever spoken a completely new language?", "Why do possession and supernatural experiences mostly occur to believers and not atheists?", "Why are fear-based beliefs stronger during illness, stress, or personal crisis?", "If belief can heal (placebo), can belief also harm or kill (nocebo)?", "Why do rituals give temporary relief even when the explanation is false?", "Why do supernatural events stop appearing under scientific observation or medical supervision?", "Why do ghosts and gods always wear familiar clothes and follow cultural rules?", "If a human threatens the Sun or Moon, we call it madness, but if a divine figure eat sun or broke moon into parts we call it divine power- Why?- Does Religion brain wash us to accept wrong as right?", "Should actions be judged by who performs them or by their consequences?", "Why do repeated stories feel true even without evidence?", "Who benefits when people believe without questioning?", "Is questioning belief disrespectful, or is it a form of responsibility?", "Can morality exist without fear of divine punishment?", "If belief increases violence or hatred, should it still be protected?", "What is more important: preserving belief or protecting human life?", "If fear can command the brain to harm the body, how can awareness protect us?", "What is the difference between emotional relief and factual truth?", "If an idea cannot survive a question, does it deserve obedience?", "Once Dr. B. R. Ambedkar said- Religion are for human, human are not for Religion- what does it mean"]},
+      {"Future Topics": ["Famous Reincarnation Cases"]},
     ]},
     {"Chapter 7 (Social Reformers)": [
       {"Indian Social Reformers": ["Raja Ram Mohan Roy, Savitribai Phule, Mahatma Gandhi, Dr. B. R. Ambedkar, Jyotirao Phule, Periyar E. V. Ramasamy, Ishwar Chandra Vidyasagar, Pandita Ramabai, Swami Vivekananda, Baba Amte, Tarabai Shinde, Swami Dayanand Saraswati, Vinoba Bhave, Ishwarbhai Patel, Darshan Ratan Ravan, Kandukuri Veeresalingam, Gopal Krishna Gokhale, Sarojini Naidu, Rabindranath Tagore, Ram Manohar Lohia, Annie Besant, Narayana Guru"]},
       {"International Social Reformers": ["Nelson Mandela, Martin Luther King Jr., Rosa Parks, Susan B. Anthony, Florence Nightingale, Malala Yousafzai, William Wilberforce, Harriet Tubman, Mother Teresa, Desmond Tutu, Abraham Lincoln, Jane Addams, John Stuart Mill, Eleanor Roosevelt, Karl Marx, Helen Keller, Aung San Suu Kyi, Thomas Paine, Mahatma Phule, Bertrand Russell"]},
+    ]},
+    {"Chapter 8 (Our Army)": [
+      {"Teaching": ["Police, Army, Duty and responsibility"]},
+      {"Events": ["Weekly parade, Self-safety: fire, earthquake, emergencies"]}
     ]},
   ],
   "🗣️ Languages": [
@@ -1112,7 +1132,9 @@ Object.assign(window.curriculumData, {
       {"Design & Engineering Fundamentals": ["Material Selection & Cost Management: Cost of parts, replacement costs, sourcing alternatives (3D printing vs. ready-made). Mechanical Design: Weight distribution, structural strength, impact resistance, motor-propeller matching, stress points. Component Selection: Easy Replacement: Designing projects with modular components that can be easily unplugged/replaced when damaged (common in drone/RC crashes). Double Safety: Implementing physical guards (propeller cages) and software limits (fail-safe cutoff)."]},
       {"Sensors in Technology": ["Types and Applications, Sensor demonstrations, Airplanes, Boats, Drones, Robots"]},
     ]},
-      {"Chapter 6 (Project Execution & Iteration)": ["Methodology & Testing: Practical testing protocols, data recording, calibration, troubleshooting. Application Focus: Specific lessons on the components of flying/moving machines (ESC, Servos, Battery Chemistry, Gyros/Accelerometers)."]}, 
+      {"Chapter 6 (Project Execution & Iteration)": [
+        {"Methodology & Testing": ["Practical testing protocols, data recording, calibration, troubleshooting. Application Focus: Specific lessons on the components of flying/moving machines (ESC, Servos, Battery Chemistry, Gyros/Accelerometers)."]}
+      ]}, 
     {"Chapter 7 (Robotics – Introduction)": [
       {"Resources": ["NPTEL lectures, Classroom kits"]},
       {"Projects": ["Basic robot with sensors"]}
@@ -1127,7 +1149,7 @@ Object.assign(window.curriculumData, {
 },
 
  
-  "📚 Class 7": {
+"📚 Class 7": {
   "💻 Computer Science": [
     {"Chapter 1 (Java and Python Basics)": [
       {"Core Syntax": ["Data types, Variables, Loops"]},
@@ -1240,6 +1262,7 @@ Object.assign(window.curriculumData, {
       {"Circuit Diagrams": ["Bulbs and switches"]}
     ]},
     {"Chapter 5 (Force and Its Effects)": [
+      {"Dot Product and Cross Product": ["Vector operations in physics"]},
       {"Laws": ["Newton's laws of motion"]},
       {"Problem Solving": ["Exercises on force effects"]}
     ]},
@@ -1389,7 +1412,7 @@ Object.assign(window.curriculumData, {
     ]}
   ],
   "💰 Economics": [
-  {"Chapter 1 (Development, Income & Sustainability)": [
+    {"Chapter 1 (Development, Income & Sustainability)": [
     {"Core Concepts": [
       "Meaning of development",
       "Income indicators: GDP, GNI, PCI",
@@ -1401,8 +1424,8 @@ Object.assign(window.curriculumData, {
       "Compare HDI of India with 5 countries",
       "Essay: Why GDP alone can’t measure development"
     ]}
-  ]},
-  {"Chapter 2 (Sectors of the Economy & Employment)": [
+    ]},
+    {"Chapter 2 (Sectors of the Economy & Employment)": [
     {"Concepts": [
       "Primary, secondary, tertiary sectors",
       "Organized vs unorganized sectors",
@@ -1414,8 +1437,8 @@ Object.assign(window.curriculumData, {
       "MGNREGA employment structure",
       "How IT sector changed the Indian economy"
     ]}
-  ]},
-  {"Chapter 3 (Poverty, Inequality & Human Capital)": [
+    ]},
+    {"Chapter 3 (Poverty, Inequality & Human Capital)": [
     {"Concepts": [
       "Types of poverty: relative, absolute",
       "Poverty line calculation",
@@ -1427,8 +1450,8 @@ Object.assign(window.curriculumData, {
       "Interpret NSO poverty graphs",
       "Group discussion: Why inequality persists despite growth?"
     ]}
-  ]},
-  {"Chapter 4 (Agriculture, Food Security & Rural Economy)": [
+    ]},
+    {"Chapter 4 (Agriculture, Food Security & Rural Economy)": [
     {"Concepts": [
       "Story of Palampur: factors of production, farming cycle",
       "Food security: meaning, PDS, buffer stock",
@@ -1440,8 +1463,8 @@ Object.assign(window.curriculumData, {
       "Map India’s major crops",
       "Survey: food security in your locality"
     ]}
-  ]},
-  {"Chapter 5 (Banking, Credit & Digital Finance)": [
+    ]},
+    {"Chapter 5 (Banking, Credit & Digital Finance)": [
     {"Concepts": [
       "Structure of Indian banking system",
       "Loan process: collateral, interest, EMI",
@@ -1454,8 +1477,8 @@ Object.assign(window.curriculumData, {
       "Create a mock bank branch model",
       "Poster: Digital fraud awareness"
     ]}
-  ]},
-  {"Chapter 6 (Globalisation, Trade Blocs & World Economy)": [
+    ]},
+    {"Chapter 6 (Globalisation, Trade Blocs & World Economy)": [
     {"Concepts": [
       "Meaning of globalisation",
       "Liberalisation and privatisation in India",
@@ -1467,8 +1490,8 @@ Object.assign(window.curriculumData, {
       "Debate: Has globalisation helped India?",
       "Case study: Apple supply chain"
     ]}
-  ]},
-  {"Chapter 7 (Consumer Awareness & Protection Laws)": [
+    ]},
+    {"Chapter 7 (Consumer Awareness & Protection Laws)": [
     {"Concepts": [
       "Consumer rights: Right to safety, information, choice, redressal",
       "Consumer Protection Act 2019",
@@ -1479,8 +1502,8 @@ Object.assign(window.curriculumData, {
       "Mock consumer court",
       "Poster: Rights of an Indian consumer"
     ]}
-  ]},
-  {"Chapter 8 (Business Basics, Markets & Innovation)": [
+    ]},
+    {"Chapter 8 (Business Basics, Markets & Innovation)": [
     {"Concepts": [
       "Profit, cost, revenue, market, supply, demand",
       "Market structures: monopoly, duopoly, perfect competition (intro only)",
@@ -1492,8 +1515,8 @@ Object.assign(window.curriculumData, {
       "Design a mini business plan",
       "Case study: Why startups fail?"
     ]}
-  ]},
-  {"Chapter 9 (Digital Economy & E-Commerce Systems)": [
+    ]},
+    {"Chapter 9 (Digital Economy & E-Commerce Systems)": [
     {"Concepts": [
       "Basics of e-commerce",
       "Digital marketing fundamentals",
@@ -1505,8 +1528,8 @@ Object.assign(window.curriculumData, {
       "Create a small e-commerce product page",
       "Case study on digital entrepreneurship"
     ]}
-  ]},
-  {"Chapter 10 (Economic Reasoning, Data & Decision-Making)": [
+    ]},
+    {"Chapter 10 (Economic Reasoning, Data & Decision-Making)": [
     {"Concepts": [
       "Reading graphs, charts, and economic data",
       "Simple cost-benefit analysis",
@@ -1518,80 +1541,80 @@ Object.assign(window.curriculumData, {
       "Interpretation of economic tables from newspapers",
       "Role-play: Choose between two development projects using reasoning"
     ]}
-  ]}
-],
+    ]}
+  ],
 
   "📜 History": [
-  {"Chapter 1 (Geography and the Course of History)": [
+    {"Chapter 1 (Geography and the Course of History)": [
     {"Geographic Features": ["The World's Continents and Oceans: Early understanding", "Major mountains and deserts: Barriers and defenses"]},
     {"Historical Context": ["How physical features influenced early civilizations and trade routes (e.g., Silk Road)", "Impact of geography on empire formation"]},
     {"Movement and Migration": ["Role of mountain passes in historical invasions and cultural exchange", "Coastal plains and the rise of maritime empires"]},
     {"Case Studies": ["Himalayas as defense for India", "Mediterranean Sea and Greek city-states"]}
-  ]},
-  {"Chapter 2 (River Civilizations and Cultural Development)": [
+    ]},
+    {"Chapter 2 (River Civilizations and Cultural Development)": [
     {"Historical Role": ["Rivers as centers of ancient settlements and cultures (Mesopotamia, Indus Valley, Nile)", "Rivers and the development of early irrigation technologies"]},
     {"Water Systems": ["Major historical rivers", "Understanding the hydrological cycle in ancient context"]},
     {"Case Studies": ["The historical significance of rivers in India (Ganga, Indus), Asia (Yellow River), Africa (Nile)"]},
     {"Cultural Impact": ["Writing systems, Urban planning, Religious practices around rivers"]}
-  ]},
-  {"Chapter 3 (Climate, Lifestyles, and Agriculture)": [
+    ]},
+    {"Chapter 3 (Climate, Lifestyles, and Agriculture)": [
     {"Climates and Adaptation": ["Historical shifts in Monsoon patterns and their impact on ancient kingdoms", "How climate and vegetation affected agriculture and lifestyles (e.g., nomadic vs settled life)"]},
     {"Vegetation and Resources": ["Natural flora as a source of trade goods (spices, timber)", "Hunting, gathering, and early agricultural practices"]},
     {"Agricultural Revolutions": ["Neolithic Revolution", "Iron Age farming improvements"]}
-  ]},
-  {"Chapter 4 (Historical Demography and Urban Centers)": [
+    ]},
+    {"Chapter 4 (Historical Demography and Urban Centers)": [
     {"Urban vs Rural": ["Population distribution in medieval cities and rural areas", "Development of historical urban centers (e.g., capital cities)"]},
     {"Historical Trends": ["Population changes over time in different regions (e.g., impact of plagues, warfare)", "Population density patterns in historical trade hubs"]},
     {"Migration": ["Drivers and impacts of historical mass migrations (e.g., invasions, religious movements)", "Aryan migration theories"]},
     {"Famous Cities": ["Pataliputra, Taxila, Madurai"]}
-  ]},
-  {"Chapter 5 (Traditional Resource Management)": [
+    ]},
+    {"Chapter 5 (Traditional Resource Management)": [
     {"Resources in the Past": ["Historical reliance on Renewable and Non-renewable resources", "Resource consumption patterns across different eras"]},
     {"Conservation": ["Past Practices: Traditional methods of resource use and conservation (e.g., sacred groves, tank irrigation)", "Forest and soil management case studies in pre-modern societies"]},
     {"Royal Conservation": ["Ashoka's edicts on wildlife", "Chola water management systems"]}
-  ]},
-  {"Chapter 6 (Interpreting Historical Maps)": [
+    ]},
+    {"Chapter 6 (Interpreting Historical Maps)": [
     {"Historical Maps": ["Using old maps to understand past boundaries and settlements", "Evolution of cartography through history (e.g., Ptolemy to modern maps)"]},
     {"Interpretation": ["Reading changes in physical and social data over time (e.g., growth of empires)", "Understanding perspective and bias in historical mapping"]},
     {"Indian Cartography": ["Ancient Indian maps", "Colonial survey maps"]}
-  ]}
-],
+    ]}
+  ],
 
-"🌍 Geography": [
-  {"Chapter 1 (Physical Features of India & World)": [
+  "🌍 Geography": [
+    {"Chapter 1 (Physical Features of India & World)": [
     {"Geographic Features": ["Continents (Location and extent)", "Major mountains (Folding, Faulting, Volcanic)", "Deserts (Types and climate)", "Oceans (Seabeds and currents)"]},
     {"Interior of the Earth": ["Layers of the Earth (Crust, Mantle, Core)", "Rocks and Minerals (Types and uses)"]},
     {"Plate Tectonics": ["Plate boundaries", "Earthquakes and volcanoes formation"]}
-  ]},
-  {"Chapter 2 (Drainage and River Basins)": [
+    ]},
+    {"Chapter 2 (Drainage and River Basins)": [
     {"Water Systems": ["Major rivers (Origin, Course, Mouth)", "Water cycles (Processes and reservoirs)"]},
     {"River Dynamics": ["Erosion and depositional landforms (Meanders, Oxbow lakes, Deltas)", "River profiles and rejuvenation"]},
     {"Case Studies": ["Major river basins in India (Ganga, Godavari), Asia (Mekong), Africa (Congo)"]},
     {"River Pollution": ["Causes and effects", "River cleaning projects"]}
-  ]},
-  {"Chapter 3 (Climate, Vegetation & Zones)": [
+    ]},
+    {"Chapter 3 (Climate, Vegetation & Zones)": [
     {"Climates": ["Factors affecting climate", "Atmospheric pressure and winds", "Monsoon climate (Mechanisms and regional variations)"]},
     {"Vegetation": ["Natural flora (Forests, Grasslands)", "Types of vegetation zones (Tropical, Temperate, Taiga)"]},
     {"Community Adaptations": ["Human ecological roles and adaptation to different climate zones", "Impact of deforestation and biodiversity loss"]},
     {"Soil Types": ["Alluvial, Black, Red, Laterite soils"]}
-  ]},
-  {"Chapter 4 (Population and Density Patterns)": [
+    ]},
+    {"Chapter 4 (Population and Density Patterns)": [
     {"Population Distribution": ["Factors influencing population distribution (Physical and Economic)", "Population density and methods of calculation"]},
     {"Urban vs Rural": ["Characteristics of urban and rural settlements", "Population distribution and growth patterns"]},
     {"Migration": ["Types of migration (Internal, International)", "Drivers and impacts (Pull and push factors)"]},
     {"Demographic Indicators": ["Birth rate, Death rate, Literacy"]}
-  ]},
-  {"Chapter 5 (Sustainable Use of Natural Resources)": [
+    ]},
+    {"Chapter 5 (Sustainable Use of Natural Resources)": [
     {"Resources": ["Classification: Renewable, Non-renewable", "Potential and actual resources", "Human resources and their development"]},
     {"Conservation": ["Need for sustainable development", "Forest and soil management case studies (Afforestation, Crop rotation)", "Water resource management (Irrigation, Dams)"]},
     {"Energy Resources": ["Conventional (Coal, Petroleum)", "Non-conventional (Solar, Wind, Biomass)"]}
-  ]},
-  {"Chapter 6 (Topographic Maps & Data)": [
+    ]},
+    {"Chapter 6 (Topographic Maps & Data)": [
     {"Skills": ["Reading topo sheets (Symbols, Contour lines, Scale)", "Interpreting demographic maps (Population, Literacy)"]},
     {"Interpretation": ["Analyzing physical and social data on maps (Relief features, Land use)", "Using GIS for modern geographical analysis"]},
     {"Map Projections": ["Mercator, Equal area projections"]}
-  ]}
-],
+    ]}
+  ],
 
   "⚖️ Law": [
     {"Chapter 1 (Judicial System Structure)": [
@@ -1662,13 +1685,26 @@ Object.assign(window.curriculumData, {
       {"Mental Strength": ["understanding mental health and  Importance of life, seeking help, Why do some people commit suicide(explain in very polite way)?"]},
       {"Self-Reflection": ["Understanding shyness,  Mindfulness practices"]},
     ]},
-    {"Chapter 9 (Parade)": [
-      {"Teaching": ["Police, army duties"]},
-      {"Events": ["Weekly parade, Emergency self-safety"]}
-    ]},    
+    {"Chapter 9 (Famous Reincarnation Cases: Scientific Examination)": [
+      {"What Are Reincarnation Claims": ["Claims that a person is reborn after death","Most cases reported in early childhood","Often include memories of a previous life","Disappear as the child grows older"]},
+      {"Geographical and Cultural Distribution": ["Cases concentrated in cultures believing in rebirth","Rare in cultures without reincarnation belief","Details match local customs and history","Belief environment shapes the claim"]},
+      {"Age Pattern in Reincarnation Cases": ["Mostly between ages 2 to 6","Peak imagination and suggestibility age","Claims fade with schooling and socialization","Brain development changes memory processing"]},
+      {"Cryptomnesia (Forgotten Memory Sources)": ["Information heard earlier but source forgotten","Brain mistakes memory as personal experience","Common in children exposed to stories","Explains specific but non-original details"]},
+      {"Role of Parents and Social Reinforcement": ["Adults ask leading questions","Attention and praise reinforce storytelling","Stories grow more detailed over time","Unintentional coaching shapes narratives"]},
+      {"Selective Reporting and Confirmation Bias": ["Thousands of false cases ignored","Few dramatic cases highlighted","Investigations often start after publicity","Researchers focus on confirming details"]},
+      {"Why No New Verifiable Knowledge Appears": ["No unknown languages spoken","No new scientific or historical facts","Details traceable to existing sources","Brain cannot generate unknown information"]},
+      {"Psychological Development in Children": ["Imagination and identity still forming","Difficulty separating fantasy and reality","High sensitivity to adult reactions","Memory reconstruction is common"]},
+      {"Scientific Evaluation Limitations": ["Cases rely on interviews, not experiments","Lack of controlled conditions","Information leakage not ruled out","Not reproducible under observation"]},
+      {"Scientific Conclusion": ["No reincarnation case proven under controlled study","Claims explained by psychology and culture","Unexplained does not mean supernatural","Cases teach more about the brain than rebirth"]}
+    ]},
     {"Chapter 10 (Philosophies)": [
       {"Buddhist Philosophy": ["<a href='pdf/Buddhist_Philosophy.pdf' target='_blank' class='text-blue-700 underline hover:text-blue-400'>Buddhist philosophy</a>, Mindfulness and pursuit of inner peace"]}
     ]},
+    {"Chapter 11 (Parade)": [
+      {"Teaching": ["Police, army duties"]},
+      {"Events": ["Weekly parade, Emergency self-safety"]}
+    ]},    
+    
     
   ],
   "🗣️ Languages": [
@@ -1857,707 +1893,707 @@ Object.assign(window.curriculumData, {
 
 "📚 Class 8": {
   "💻 Computer Science": [ 
-  {"Chapter 1 (Web Development)": [
-    {"HTML & CSS": ["HTML5 for static pages, Internal/external CSS, Selectors, layouts (Flexbox/Grid), Responsive design and media queries"]},
-    {"Backend Basics": ["Introduction to backend logic, Minimal server-side concepts (Node.js/Python)"]},
-    {"Projects": ["Designing a full website using frontend and backend, Best coding practices"]}
-  ]},
-  {"Chapter 2 (App Development Concepts)": [
-    {"UI/UX Basics": ["Understanding app and web layout design, Simple user flow mapping"]},
-    {"Planning": ["Wireframing and layout planning, Platform-based design notes"]}
-  ]},
-  {"Chapter 3 (C++ Programming and Problem Solving)": [
-    {"Foundations": ["Input/output, Loops, Conditionals, Arrays"]},
-    {"Practice": ["~100 guided problems via Codeforces, AtCoder, GFG, Coding Ninjas"]}
-  ]},
-  {"Chapter 4 (Python Programming Basics)": [
-    {"Concepts": ["Variables, Data types, If-else statements, Loops, Input/output"]},
-    {"Applications": ["Mini projects, Simple automation tasks"]}
-  ]},
-  {"Chapter 5 (SQL Introduction)": [
-    {"Basics": ["Database fundamentals, Creating tables"]},
-    {"Queries": ["SELECT statements, Data management and retrieval examples"]}
-  ]},
-  {"Chapter 6 (Cybersecurity Essentials)": [
-    {"Awareness": ["Phishing examples, Password safety and 2FA, Safe browsing habits"]},
-    {"Ethics": ["Digital safety and responsibility"]}
-  ]},
-  {"Chapter 7 (Web Development Roadmap: What's Next?)": [
-    {"Advanced Concepts": ["JavaScript frameworks (React, Angular, Vue), Backend (Node.js, Django, PHP)"]},
-    {"Integration": ["Database connections, APIs and deployment (Netlify, GitHub Pages)"]},
-    {"Tools": ["Version control with Git, Mini full-stack projects"]}
-  ]},
-  {"Chapter 8 (Online Platforms & Practice)": [
-    {"Learning": ["Codecademy, FreeCodeCamp, The Odin Project, Sololearn, W3Schools, CodePen"]},
-    {"Practice": ["Coding competitions, Online portfolio building"]}
-  ]}
-],
-
-"➗ Mathematics": [
-  {"Chapter 1 (Number System)": [
-    {"Concepts": ["Real and Complex numbers, Polynomials, Relations between number types"]},
-    {"Practice": ["CBSE 9+10 level examples"]}
-  ]},
-  {"Chapter 2 (Linear Equations)": [
-    {"Concepts": ["Equations in one to three variables"]},
-    {"Applications": ["Word problems and algebraic solutions"]}
-  ]},
-  {"Chapter 3 (Geometries)": [
-    {"Shapes": ["Triangles, quadrilaterals, polygons"]},
-    {"Properties": ["Theorems, visual proofs"]}
-  ]},
-  {"Chapter 4 (Coordinate Geometry)": [
-    {"Basics": ["1D, 2D, 3D coordinates, Euclid’s postulates, Heron’s Formula"]},
-    {"Applications": ["Parameters of circles, parallelograms, triangles"]}
-  ]},
-  {"Chapter 5 (Mensuration & Volumes)": [
-    {"Formulas": ["Perimeter, surface area, volume of cubes, cuboids, cylinders, cones, spheres"]}
-  ]},
-  {"Chapter 6 (Vectors and Matrix)": [
-    {"Concepts": ["Vector algebra, Matrices and determinants"]},
-    {"Applications": ["Geometric and physics problems"]}
-  ]},
-  {"Chapter 7 (Geometry: Constructions & Congruence)": [
-    {"Construction Tools": ["Ruler, compass methods"]},
-    {"Tests": ["Triangle congruence applications"]}
-  ]},
-  {"Chapter 8 (Statistics)": [
-    {"Data Analysis": ["Mean, median, mode, Representation and charts"]},
-    {"Types of Distribution": ["Uniform, normal, gaussian, binomial, poisson, exponential, bimodal, skewed, etc."]}
-  ]},
-  {"Chapter 9 (Trigonometry)": [
-    {"Functions": ["Trigonometric and inverse functions"]},
-    {"Applications": ["Real-life and geometry-based problems"]}
-  ]},
-  {"Chapter 10 (Taylor Series & Trigonometric Expansions)": [
-    {"Series": ["Taylor, Maclaurin expansions for sin, cos, e^x"]},
-    {"Applications": ["Approximation and problem-solving"]}
-  ]},
-  {"Chapter 11 (Exponents and Powers)": [
-    {"Concepts": ["Laws of exponents, Scientific notation"]}
-  ]},
-  {"Chapter 12 (Factorisation, Square and Cube Roots)": [
-    {"Techniques": ["Factoring algebraic expressions, Rationalizing denominators"]}
-  ]},
-  {"Chapter 13 (Probability Basics)": [
-    {"Concepts": ["Events, sample space, simple probability"]}
-  ]},
-  {"Chapter 14 (Progressions Series)": [
-    {"Sequences": ["A.P., G.P., H.P., Formulas and applications"]}
-  ]},
-  {"Chapter 15 (Calculus)": [
-    {"Concepts": ["Limits, derivatives, integration"]},
-    {"Applications": ["Area under curves, Rate of change"]}
-  ]},
-  {"Chapter 16 (Miscellaneous Topics)": [
-    {"Topics": ["Sets, Relations and Functions, Conic Sections, Linear Inequalities"]}
-  ]},
-  {"Chapter 17 (Gauss, Stokes, and Green's Theorems [Intro])": [
-    {"Concepts": ["Visual introduction to field integration theorems"]},
-    {"Applications": ["Connection to higher mathematics and physics"]}
-  ]}
-],
-
-"🔬 Physics": [
-  {"Chapter 1 (Measurement and Experimentation)": [
-    {"Basics": ["Significant figures, Error analysis, Lab safety"]}
-  ]},
-  {"Chapter 2 (Units and Dimensions)": [
-    {"Concepts": ["Unit conversions, Dimensional analysis"]}
-  ]},
-  {"Chapter 3 (Force and Pressure)": [
-    {"Concepts": ["Types of forces, Measuring pressure"]},
-    {"Applications": ["Everyday examples"]}
-  ]},
-  {"Chapter 4 (Friction)": [
-    {"Concepts": ["Causes and effects of friction"]},
-    {"Applications": ["Reducing/increasing friction"]}
-  ]},
-  {"Chapter 5 (Motion)": [
-    {"Concepts": ["Speed, velocity, acceleration, Equations of motion"]}
-  ]},
-  {"Chapter 6 (Gravitation)": [
-    {"Concepts": ["Universal law, free fall, Orbital motion, Mass vs weight"]}
-  ]},
-  {"Chapter 7 (Electricity and Magnetism)": [
-    {"Concepts": ["Charges, electric fields, Ohm’s law, Magnetic properties"]}
-  ]},
-  {"Chapter 8 (Water and Fluids)": [
-    {"Principles": ["Buoyancy, Archimedes’ principle"]}
-  ]},
-  {"Chapter 9 (Work, Energy and Power)": [
-    {"Concepts": ["Kinetic and potential energy, Conservation of energy"]}
-  ]},
-  {"Chapter 10 (Machines and Simple Mechanisms)": [
-    {"Tools": ["Levers, pulleys, gears, Mechanical advantage"]}
-  ]},
-  {"Chapter 11 (Solar System and Space)": [
-    {"Concepts": ["Planets, stars, galaxies, Space exploration basics"]}
-  ]},
-  {"Chapter 12 (Sound)": [
-    {"Concepts": ["Pitch, frequency, amplitude"]},
-    {"Applications": ["Beats and sound wave behavior"]}
-  ]},
-  {"Chapter 13 (Chemical Effects of Current)": [
-    {"Concepts": ["Electrolysis, Conductors and insulators"]}
-  ]},
-  {"Chapter 14 (Light and Optics)": [
-    {"Concepts": ["Reflection, refraction, lenses, mirrors"]},
-    {"Applications": ["Vision correction"]}
-  ]},
-  {"Chapter 15 (Magnetic Effects of Current)": [
-    {"Concepts": ["Electromagnetism, Motors, generators, transformers"]}
-  ]},
-  {"Chapter 16 (Thermal Properties of Matter)": [
-    {"Concepts": ["Heat, conduction, convection, radiation, Temperature conversions"]},
-    {"Applications": ["Boiling, melting, latent heat, pressure effects"]}
-  ]},
-  {"Chapter 17 (Mechanical Properties of Fluids)": [
-    {"Principles": ["Pascal’s Law, Bernoulli’s Theorem, Viscosity, Surface tension"]}
-  ]},
-  {"Chapter 18 (Electric Charges and Fields)": [
-    {"Concepts": ["Coulomb’s Law, Electric field and flux, Gauss’s Law"]}
-  ]},
-  {"Chapter 19 (Electromagnetic Induction and Alternating Currents)": [
-    {"Concepts": ["Faraday’s and Lenz’s Laws, Eddy currents, AC generation, Transformers"]}
-  ]},
-  {"Chapter 20 (Optical Instruments and Human Eye)": [
-    {"Devices": ["Microscope, Telescope, Human eye structure and corrections"]}
-  ]}
-],
-
-"⚗️ Chemistry": [
-  {"Chapter 1 (Structure of Atom: Dalton & Bohr)": [
-    {"Concepts": ["Atomic models, Subatomic particles"]}
-  ]},
-  {"Chapter 2 (Isotopes & Isobars)": [
-    {"Differences": ["Definitions and examples, Periodic table position"]}
-  ]},
-  {"Chapter 3 (Laws of Chemical Combination)": [
-    {"Laws": ["Conservation of mass, Definite and multiple proportions"]}
-  ]},
-  {"Chapter 4 (Chemical Reactions & Equations)": [
-    {"Concepts": ["Reaction types, Equation balancing, Lab examples"]}
-  ]},
-  {"Chapter 5 (Mole Concept & Stoichiometry)": [
-    {"Concepts": ["Avogadro’s number, Mole-mass-number relations, Numerical calculations"]}
-  ]},
-  {"Chapter 6 (Periodic Table & Classification)": [
-    {"Concepts": ["Mendeleev’s law, Modern periodic trends, Groups and periods"]}
-  ]}
-],
-"🧬 Biology": [
-  {"Chapter 1 (Cell Detailed Study)": [
-      {"Concepts": ["Structure and organelles of the cell, Functions of each organelle, Comparison to factories/cities for analogy"]},
-      {"Activities": ["Microscope observation of plant and animal cells, Model-making of cell structure"]}
-  ]},
-  {"Chapter 2 (Tissues in Plants & Animals)": [
-      {"Concepts": ["Types of tissues, Structure and functions, Importance in body and plant systems"]},
-      {"Applications": ["Role in organ formation, Practical identification of tissues under microscope"]}
-  ]},
-  {"Chapter 3 (Diversity of Life)": [
-      {"Concepts": ["Kingdom classification, Notable differences among species"]},
-      {"Activities": ["Local biodiversity survey, Classification chart creation"]}
-  ]},
-  {"Chapter 4 (Health & Disease)": [
-      {"Concepts": ["Types of diseases: infectious and non-infectious, Causes, symptoms, prevention, vaccination"]},
-      {"Projects": ["Awareness poster or skit on disease prevention"]}
-  ]},
-  {"Chapter 5 (Natural Resources)": [
-      {"Concepts": ["Air, water, soil as resources, Sustainable usage and conservation"]},
-      {"Projects": ["Water testing, Pollution monitoring project"]}
-  ]},
-  {"Chapter 6 (Food Resources Improvement)": [
-      {"Concepts": ["Agricultural biotechnology, GM crops and food security issues"]},
-      {"Activities": ["Case study on crop yield improvement, Discussion on ethical implications"]}
-  ]}
-],
-
-"📖 English": [
-  {"Chapter 1 (Reading & Critical Thinking)": [
-      {"Skills": ["Analyzing literature, Argument evaluation, Creative writing"]},
-      {"Activities": ["Debate, Reading comprehension exercises, Short essay writing"]}
-  ]},
-  {"Chapter 2 (Exam Preparation: GRE/TOEFL, SAT, IELTS)": [
-      {"Concepts": ["Advanced comprehension, Essay writing, MCQs and vocabulary drills"]},
-      {"Practice": ["Speaking and listening sessions, Sample mock tests for international exams"]}
-  ]}
-],
-
-"🏛️ Political Science": [
-  {"Chapter 1 (Power-sharing in Federal Structures)": [
-      {"Concepts": ["Federal systems, Power distribution, Examples from Belgium and Sri Lanka"]},
-      {"Applications": ["Comparative analysis of political systems"]}
-  ]},
-  {"Chapter 2 (Democracy & Diversity)": [
-      {"Concepts": ["Caste, gender, and religion in democracy, Representation challenges"]},
-      {"Activities": ["Class debates on inclusion and diversity"]}
-  ]},
-  {"Chapter 3 (Popular Struggles)": [
-      {"Concepts": ["Mass movements in Bolivia and India, Role of civil society"]},
-      {"Projects": ["Case study presentations on social movements"]}
-  ]},
-  {"Chapter 4 (Political Parties)": [
-      {"Concepts": ["Types of parties: national, regional, Functions and reforms"]},
-      {"Projects": ["Mapping political parties and their ideologies"]}
-  ]},
-  {"Chapter 5 (Democracy: Outcomes & Challenges)": [
-      {"Concepts": ["Accountability and transparency, Public participation"]},
-      {"Activities": ["Mock parliament on citizen roles in democracy"]}
-  ]}
-],
-
-"💰 Advanced Economics, Finance & Consulting": [
-
-  {"Chapter 1 (Foundations of Finance and Markets)": [
-    {"Concepts": [
-      "Definition and purpose of finance in economic systems",
-      "Understanding money, time value of money, and risk-return relationship",
-      "Introduction to financial institutions: Banks, NBFCs, and Mutual Funds",
-      "Primary vs secondary markets: IPOs, Stock exchanges, Bonds, and Derivatives",
-      "Role of SEBI, RBI, and global financial regulators",
-      "Concept of inflation, deflation, and purchasing power parity"
+    {"Chapter 1 (Web Development)": [
+      {"HTML & CSS": ["HTML5 for static pages, Internal/external CSS, Selectors, layouts (Flexbox/Grid), Responsive design and media queries"]},
+      {"Backend Basics": ["Introduction to backend logic, Minimal server-side concepts (Node.js/Python)"]},
+      {"Projects": ["Designing a full website using frontend and backend, Best coding practices"]}
     ]},
-    {"Activities": [
-      "Simulated stock market trading using virtual platforms",
-      "Tracking NIFTY50 and SENSEX for one month with reflective journal",
-      "Class debate- Should India adopt cryptocurrency regulation?"
-    ]}
-  ]},
-
-  {"Chapter 2 (Corporate Finance and Valuation)": [
-    {"Concepts": [
-      "Capital budgeting: NPV, IRR, Payback period",
-      "Sources of financing: Equity, Debt, Venture capital, Angel investment",
-      "Corporate structure and governance",
-      "Valuation of companies: Understanding P/E ratio, EV/EBITDA, DCF model",
-      "Cost of capital and capital structure theory (Modigliani-Miller basics)",
-      "Introduction to financial statements: Balance sheet, P&L, Cash Flow"
+    {"Chapter 2 (App Development Concepts)": [
+      {"UI/UX Basics": ["Understanding app and web layout design, Simple user flow mapping"]},
+      {"Planning": ["Wireframing and layout planning, Platform-based design notes"]}
     ]},
-    {"Practice": [
-      "Mini project- Value a startup using simplified DCF and justify assumptions",
-      "Analyze a listed company’s balance sheet for debt/equity structure"
-    ]}
-  ]},
-
-  {"Chapter 3 (Financial Services, Investment Banking and Consulting Overview)": [
-    {"Concepts": [
-      "Structure of global financial services: Investment banks, Asset management firms, PE/VC firms",
-      "Investment banking functions: M&A, IPO advisory, restructuring, due diligence",
-      "Consulting vs auditing vs advisory: what each firm actually does",
-      "Case introduction- PwC, EY, Deloitte, KPMG, McKinsey, BCG, Accenture",
-      "Career roles: Analyst, Consultant, Associate, Partner",
-      "Difference between buy-side (investing) and sell-side (advisory)"
+    {"Chapter 3 (C++ Programming and Problem Solving)": [
+      {"Foundations": ["Input/output, Loops, Conditionals, Arrays"]},
+      {"Practice": ["~100 guided problems via Codeforces, AtCoder, GFG, Coding Ninjas"]}
     ]},
-    {"Activities": [
-      "Mock M&A deal- valuation and negotiation exercise",
-      "Interview roleplay- ‘Why consulting?’ and ‘Pitch a business solution’"
-    ]}
-  ]},
-
-  {"Chapter 4 (Business Strategy and Consulting Frameworks)": [
-    {"Frameworks": [
-      "SWOT, PESTEL, Porter’s Five Forces, BCG Matrix, Ansoff Matrix",
-      "McKinsey 7S and MECE Principle",
-      "Root cause analysis (Fishbone, 5 Whys)",
-      "Client problem-solving approach (define, diagnose, design, deliver)",
-      "Financial modeling and scenario analysis for business decision-making"
+    {"Chapter 4 (Python Programming Basics)": [
+      {"Concepts": ["Variables, Data types, If-else statements, Loops, Input/output"]},
+      {"Applications": ["Mini projects, Simple automation tasks"]}
     ]},
-    {"Case Studies": [
-      "Consulting case- Accenture digital transformation project for a bank",
-      "BCG-style profitability problem (restaurant chain, airline, etc.)",
-      "How consulting firms charge clients and structure deliverables"
-    ]}
-  ]},
-
-  {"Chapter 5 (Financial Modeling and Data Analysis)": [
-    {"Concepts": [
-      "Excel and Google Sheets for financial modeling",
-      "Forecasting revenues and expenses",
-      "Break-even analysis and sensitivity analysis",
-      "Data visualization: dashboards, charts, storytelling with data",
-      "Basics of Power BI, Tableau, and Google Data Studio",
-      "Quantitative reasoning in finance- correlation, regression, variance"
+    {"Chapter 5 (SQL Introduction)": [
+      {"Basics": ["Database fundamentals, Creating tables"]},
+      {"Queries": ["SELECT statements, Data management and retrieval examples"]}
     ]},
-    {"Projects": [
-      "Create a 3-statement linked model (Income, Balance Sheet, Cash Flow)",
-      "Build and present a financial dashboard using public company data"
-    ]}
-  ]},
-
-  {"Chapter 6 (Economics for Decision-Making and Consulting)": [
-    {"Concepts": [
-      "Microeconomics in consulting: demand-supply estimation, pricing strategy",
-      "Macroeconomics indicators- GDP, inflation, unemployment, fiscal deficit",
-      "Policy analysis and its business impact (GST, repo rate, FDI rules)",
-      "Public-private partnerships and infrastructure consulting",
-      "Game theory basics for competitive strategy"
+    {"Chapter 6 (Cybersecurity Essentials)": [
+      {"Awareness": ["Phishing examples, Password safety and 2FA, Safe browsing habits"]},
+      {"Ethics": ["Digital safety and responsibility"]}
     ]},
-    {"Activities": [
-      "Analyze how interest rate changes affect industry profitability",
-      "Group simulation- Government policy consulting exercise"
-    ]}
-  ]},
-
-  {"Chapter 7 (Behavioral Finance and Market Psychology)": [
-    {"Concepts": [
-      "How emotions drive financial decisions (herd behavior, overconfidence, loss aversion)",
-      "Prospect theory and bounded rationality",
-      "Role of media, social proof, and investor sentiment",
-      "Understanding market bubbles and crashes",
-      "Applications in consulting: consumer insights and behavioral nudges"
+    {"Chapter 7 (Web Development Roadmap: What's Next?)": [
+      {"Advanced Concepts": ["JavaScript frameworks (React, Angular, Vue), Backend (Node.js, Django, PHP)"]},
+      {"Integration": ["Database connections, APIs and deployment (Netlify, GitHub Pages)"]},
+      {"Tools": ["Version control with Git, Mini full-stack projects"]}
     ]},
-    {"Activities": [
-      "Analyze stock price bubbles like 2008 crisis or GameStop event",
-      "Design a behavioral nudge for saving or investing habits"
+    {"Chapter 8 (Online Platforms & Practice)": [
+      {"Learning": ["Codecademy, FreeCodeCamp, The Odin Project, Sololearn, W3Schools, CodePen"]},
+      {"Practice": ["Coding competitions, Online portfolio building"]}
     ]}
-  ]},
+  ],
 
-  {"Chapter 8 (Ethics, Law, and Corporate Governance in Finance)": [
-    {"Concepts": [
-      "Insider trading and its penalties",
-      "Corporate fraud and audit ethics (Enron, Satyam case studies)",
-      "Understanding ESG (Environmental, Social, Governance) principles",
-      "Regulatory compliance in consulting firms",
-      "Whistleblower protection and ethical dilemmas"
+  "➗ Mathematics": [
+    {"Chapter 1 (Number System)": [
+      {"Concepts": ["Real and Complex numbers, Polynomials, Relations between number types"]},
+      {"Practice": ["CBSE 9+10 level examples"]}
     ]},
-    {"Projects": [
-      "Debate- ‘Profit vs Ethics — what should guide finance?’",
-      "Write a report on India’s SEBI and global equivalents like SEC, FCA"
-    ]}
-  ]},
-
-  {"Chapter 9 (Global Financial Systems and Consulting Practices)": [
-    {"Concepts": [
-      "Structure of global capital markets: NYSE, LSE, NSE",
-      "Understanding currencies, forex, and exchange rate systems",
-      "IMF, World Bank, BIS, and G20 — how they influence global trade",
-      "Emerging markets vs developed economies",
-      "International consulting practices and case studies (McKinsey in Africa, Accenture in APAC)"
+    {"Chapter 2 (Linear Equations)": [
+      {"Concepts": ["Equations in one to three variables"]},
+      {"Applications": ["Word problems and algebraic solutions"]}
     ]},
-    {"Activities": [
-      "Study report- Impact of the 2008 crisis and post-COVID global shifts",
-      "Consulting simulation- How to advise a company entering a new market"
-    ]}
-  ]},
-
-  {"Chapter 10 (Capstone Projects and Career Readiness)": [
-    {"Projects": [
-      "Mini consulting project with local business or NGO (real-world problem solving)",
-      "Financial research paper (analyzing company, sector, or economic policy)",
-      "Industry speaker session (guest from consulting/finance firm)",
-      "Group presentation: How technology (AI, FinTech, Blockchain) is reshaping finance and consulting"
+    {"Chapter 3 (Geometries)": [
+      {"Shapes": ["Triangles, quadrilaterals, polygons"]},
+      {"Properties": ["Theorems, visual proofs"]}
     ]},
-    {"Career Preparation": [
-      "Resume and LinkedIn for consulting/finance roles",
-      "Mock interview preparation: case solving, aptitude, and guesstimate questions",
-      "Soft skills: communication, storytelling, and structured problem solving"
+    {"Chapter 4 (Coordinate Geometry)": [
+      {"Basics": ["1D, 2D, 3D coordinates, Euclid’s postulates, Heron’s Formula"]},
+      {"Applications": ["Parameters of circles, parallelograms, triangles"]}
+    ]},
+    {"Chapter 5 (Mensuration & Volumes)": [
+      {"Formulas": ["Perimeter, surface area, volume of cubes, cuboids, cylinders, cones, spheres"]}
+    ]},
+    {"Chapter 6 (Vectors and Matrix)": [
+      {"Concepts": ["Vector algebra, Matrices and determinants"]},
+      {"Applications": ["Geometric and physics problems"]}
+    ]},
+    {"Chapter 7 (Geometry: Constructions & Congruence)": [
+      {"Construction Tools": ["Ruler, compass methods"]},
+      {"Tests": ["Triangle congruence applications"]}
+    ]},
+    {"Chapter 8 (Statistics)": [
+      {"Data Analysis": ["Mean, median, mode, Representation and charts"]},
+      {"Types of Distribution": ["Uniform, normal, gaussian, binomial, poisson, exponential, bimodal, skewed, etc."]}
+    ]},
+    {"Chapter 9 (Trigonometry)": [
+      {"Functions": ["Trigonometric and inverse functions"]},
+      {"Applications": ["Real-life and geometry-based problems"]}
+    ]},
+    {"Chapter 10 (Taylor Series & Trigonometric Expansions)": [
+      {"Series": ["Taylor, Maclaurin expansions for sin, cos, e^x"]},
+      {"Applications": ["Approximation and problem-solving"]}
+    ]},
+    {"Chapter 11 (Exponents and Powers)": [
+      {"Concepts": ["Laws of exponents, Scientific notation"]}
+    ]},
+    {"Chapter 12 (Factorisation, Square and Cube Roots)": [
+      {"Techniques": ["Factoring algebraic expressions, Rationalizing denominators"]}
+    ]},
+    {"Chapter 13 (Probability Basics)": [
+      {"Concepts": ["Events, sample space, simple probability"]}
+    ]},
+    {"Chapter 14 (Progressions Series)": [
+      {"Sequences": ["A.P., G.P., H.P., Formulas and applications"]}
+    ]},
+    {"Chapter 15 (Calculus)": [
+      {"Concepts": ["Limits, derivatives, integration"]},
+      {"Applications": ["Area under curves, Rate of change"]}
+    ]},
+    {"Chapter 16 (Miscellaneous Topics)": [
+      {"Topics": ["Sets, Relations and Functions, Conic Sections, Linear Inequalities"]}
+    ]},
+    {"Chapter 17 (Gauss, Stokes, and Green's Theorems [Intro])": [
+      {"Concepts": ["Visual introduction to field integration theorems"]},
+      {"Applications": ["Connection to higher mathematics and physics"]}
     ]}
-  ]}
-],
+  ],
 
-"📜 History": [
-  {"Chapter 1 (How, When and Where)": [
-    {"Historical Concepts": ["Importance of dates in history", "Sources of information (Archives, Museums, Biographies)"]},
-    {"Periodization": ["The problem of periodizing Indian history", "Modern Period in India: Characteristics and Sources"]},
-    {"Historiography": ["Different ways of writing history", "Nationalist vs Colonial perspectives"]}
-  ]},
-  {"Chapter 2 (From Trade to Territory: Company Power)": [
-    {"The East India Company": ["Arrival of European trading companies", "The beginning of the Battle of Plassey and Buxar"]},
-    {"Expansion of Power": ["Subsidiary Alliance", "Doctrine of Lapse", "Setting up a New Administration (Warren Hastings, Lord Cornwallis)"]},
-    {"Economic Motives": ["Trade monopolies", "Drain of wealth theory"]}
-  ]},
-  {"Chapter 3 (Ruling the Countryside)": [
-    {"Land Revenue Systems": ["Permanent Settlement", "Ryotwari System", "Mahalwari System (Impact on peasants and agriculture)"]},
-    {"Commercialization": ["Cultivation for the market (Indigo, Opium)", "The Blue Rebellion and peasant revolts"]},
-    {"Social Impact": ["Zamindari system effects", "Peasant indebtedness"]}
-  ]},
-  {"Chapter 4 (Tribals, Dikus, and the Golden Age)": [
-    {"Tribal Societies": ["Different tribal groups and their way of life", "Impact of Forest Laws on tribals"]},
-    {"Revolts": ["The story of Birsa Munda", "Major tribal uprisings against British rule"]},
-    {"Cultural Resistance": ["Tribal myths and movements", "Shift from hunter-gatherer to settled life"]}
-  ]},
-  {"Chapter 5 (The Revolt of 1857 and After)": [
-    {"Causes": ["Political, economic, social, and military causes of the revolt"]},
-    {"The Uprising": ["Spread of the revolt and key leaders (Nana Saheb, Rani Lakshmibai)"]},
-    {"Consequences": ["The shift from Company rule to the Crown", "Changes in the military and administration"]},
-    {"Historiographical Debate": ["Sepoy Mutiny vs First War of Independence"]}
-  ]},
-  {"Chapter 6 (When People Rebel)": [
-    {"Patterns of Rebellion": ["Regional variations in 1857 revolt", "Civilian participation"]},
-    {"Suppression and Aftermath": ["British recapture strategies", "Queen's Proclamation 1858"]}
-  ]},
-  {"Chapter 7 (Weavers, Iron Smelters and Factory Owners)": [
-    {"Traditional Crafts": ["Indian textile traditions", "Decline under British rule"]},
-    {"New Industries": ["Rise of machine-made goods", "Impact on artisans"]}
-  ]}
-],
+  "🔬 Physics": [
+    {"Chapter 1 (Measurement and Experimentation)": [
+      {"Basics": ["Significant figures, Error analysis, Lab safety"]}
+    ]},
+    {"Chapter 2 (Units and Dimensions)": [
+      {"Concepts": ["Unit conversions, Dimensional analysis"]}
+    ]},
+    {"Chapter 3 (Force and Pressure)": [
+      {"Concepts": ["Types of forces, Measuring pressure"]},
+      {"Applications": ["Everyday examples"]}
+    ]},
+    {"Chapter 4 (Friction)": [
+      {"Concepts": ["Causes and effects of friction"]},
+      {"Applications": ["Reducing/increasing friction"]}
+    ]},
+    {"Chapter 5 (Motion)": [
+      {"Concepts": ["Speed, velocity, acceleration, Equations of motion"]}
+    ]},
+    {"Chapter 6 (Gravitation)": [
+      {"Concepts": ["Universal law, free fall, Orbital motion, Mass vs weight"]}
+    ]},
+    {"Chapter 7 (Electricity and Magnetism)": [
+      {"Concepts": ["Charges, electric fields, Ohm’s law, Magnetic properties"]}
+    ]},
+    {"Chapter 8 (Water and Fluids)": [
+      {"Principles": ["Buoyancy, Archimedes’ principle"]}
+    ]},
+    {"Chapter 9 (Work, Energy and Power)": [
+      {"Concepts": ["Kinetic and potential energy, Conservation of energy"]}
+    ]},
+    {"Chapter 10 (Machines and Simple Mechanisms)": [
+      {"Tools": ["Levers, pulleys, gears, Mechanical advantage"]}
+    ]},
+    {"Chapter 11 (Solar System and Space)": [
+      {"Concepts": ["Planets, stars, galaxies, Space exploration basics"]}
+    ]},
+    {"Chapter 12 (Sound)": [
+      {"Concepts": ["Pitch, frequency, amplitude"]},
+      {"Applications": ["Beats and sound wave behavior"]}
+    ]},
+    {"Chapter 13 (Chemical Effects of Current)": [
+      {"Concepts": ["Electrolysis, Conductors and insulators"]}
+    ]},
+    {"Chapter 14 (Light and Optics)": [
+      {"Concepts": ["Reflection, refraction, lenses, mirrors"]},
+      {"Applications": ["Vision correction"]}
+    ]},
+    {"Chapter 15 (Magnetic Effects of Current)": [
+      {"Concepts": ["Electromagnetism, Motors, generators, transformers"]}
+    ]},
+    {"Chapter 16 (Thermal Properties of Matter)": [
+      {"Concepts": ["Heat, conduction, convection, radiation, Temperature conversions"]},
+      {"Applications": ["Boiling, melting, latent heat, pressure effects"]}
+    ]},
+    {"Chapter 17 (Mechanical Properties of Fluids)": [
+      {"Principles": ["Pascal’s Law, Bernoulli’s Theorem, Viscosity, Surface tension"]}
+    ]},
+    {"Chapter 18 (Electric Charges and Fields)": [
+      {"Concepts": ["Coulomb’s Law, Electric field and flux, Gauss’s Law"]}
+    ]},
+    {"Chapter 19 (Electromagnetic Induction and Alternating Currents)": [
+      {"Concepts": ["Faraday’s and Lenz’s Laws, Eddy currents, AC generation, Transformers"]}
+    ]},
+    {"Chapter 20 (Optical Instruments and Human Eye)": [
+      {"Devices": ["Microscope, Telescope, Human eye structure and corrections"]}
+    ]}
+  ],
 
-"🌍 Geography": [
-  {"Chapter 1 (Resources and Development)": [
-    {"Concepts of Resources": ["Classification (Natural, Human-made, Human)", "Sustainable development principles", "Stock and Distribution of Resources"]},
-    {"Conservation Strategies": ["Need for conservation", "Methods (Reduce, Reuse, Recycle)", "Global/local examples of resource management"]},
-    {"Practical Application": ["Mapping local natural resources", "Case studies on resource depletion"]},
-    {"Resource Mapping": ["GIS applications in resource inventory"]}
-  ]},
-  {"Chapter 2 (Land, Soil, Water, Natural Vegetation and Wildlife)": [
-    {"Land Use and Patterns": ["Factors affecting land use", "Common property resources", "Land degradation and management"]},
-    {"Water Resources": ["Distribution of water on Earth", "Water availability and problems", "Methods of water conservation (Rainwater harvesting, Drip Irrigation)"]},
-    {"Natural Ecosystems": ["Major biomes (Forests, Grasslands, Deserts)", "Wildlife conservation and sanctuaries", "Impact of human activities on vegetation and wildlife"]},
-    {"Soil Profiles": ["Soil types and formation processes"]}
-  ]},
-  {"Chapter 3 (Agriculture and Industry)": [
-    {"Agricultural Systems": ["Types of farming (Subsistence, Commercial)", "Major crops (Rice, Wheat, Millets)", "Indian and world farming systems", "Technological and institutional reforms"]},
-    {"Industrial Distribution": ["Factors influencing location of industries", "Major industries (Iron and Steel, Textile, Information Technology)", "Industrial regions of the world"]},
-    {"Activities": ["Industrial visit or virtual tour (Analysis of inputs, processes, and outputs)"]},
-    {"Agro-Industrial Linkages": ["Food processing industries", "Agro-based industries distribution"]}
-  ]},
-  {"Chapter 4 (Urbanisation & Smart Cities)": [
-    {"Urban Dynamics": ["Causes and effects of urban growth", "Slums and associated environmental challenges", "Global urbanization trends"]},
-    {"Planning Models": ["Challenges and planning models", "Concept of Smart Cities (Governance, Mobility, Environment)"]},
-    {"Projects": ["Smart city design prototype (Focus on sustainable infrastructure)", "Comparing Indian and global urban examples"]},
-    {"Urban Hierarchy": ["Metro cities, towns, villages classification"]}
-  ]},
-  {"Chapter 5 (Disaster Management)": [
-    {"Hazards and Disasters": ["Classification of natural and human-made disasters", "Case studies on floods, earthquakes, and other disasters (Causes and Impacts)"]},
-    {"Preparedness & Response": ["Disaster response planning (Pre-disaster, During, Post-disaster)", "Role of government agencies and local communities"]},
-    {"Activities": ["Mock drills (Earthquake, Fire)", "Safety awareness programs", "Developing a home emergency kit"]},
-    {"Risk Assessment": ["Vulnerability mapping", "Early warning systems"]}
-  ]},
-  {"Chapter 6 (Global Environmental Issues)": [
-    {"Major Concerns": ["Climate change", "Air and water pollution", "Desertification and deforestation"]},
-    {"Solutions & Frameworks": ["United Nations Sustainable Development Goals (SDGs)", "International agreements (e.g., Paris Agreement)"]},
-    {"Projects": ["Youth activism initiatives (Local clean-up/awareness drives)", "Report on local climate action"]},
-    {"Environmental Indicators": ["Carbon footprint calculation", "Biodiversity indices"]}
-  ]}
-],
+  "⚗️ Chemistry": [
+    {"Chapter 1 (Structure of Atom: Dalton & Bohr)": [
+      {"Concepts": ["Atomic models, Subatomic particles"]}
+    ]},
+    {"Chapter 2 (Isotopes & Isobars)": [
+      {"Differences": ["Definitions and examples, Periodic table position"]}
+    ]},
+    {"Chapter 3 (Laws of Chemical Combination)": [
+      {"Laws": ["Conservation of mass, Definite and multiple proportions"]}
+    ]},
+    {"Chapter 4 (Chemical Reactions & Equations)": [
+      {"Concepts": ["Reaction types, Equation balancing, Lab examples"]}
+    ]},
+    {"Chapter 5 (Mole Concept & Stoichiometry)": [
+      {"Concepts": ["Avogadro’s number, Mole-mass-number relations, Numerical calculations"]}
+    ]},
+    {"Chapter 6 (Periodic Table & Classification)": [
+      {"Concepts": ["Mendeleev’s law, Modern periodic trends, Groups and periods"]}
+    ]}
+  ],
+  "🧬 Biology": [
+    {"Chapter 1 (Cell Detailed Study)": [
+        {"Concepts": ["Structure and organelles of the cell, Functions of each organelle, Comparison to factories/cities for analogy"]},
+        {"Activities": ["Microscope observation of plant and animal cells, Model-making of cell structure"]}
+    ]},
+    {"Chapter 2 (Tissues in Plants & Animals)": [
+        {"Concepts": ["Types of tissues, Structure and functions, Importance in body and plant systems"]},
+        {"Applications": ["Role in organ formation, Practical identification of tissues under microscope"]}
+    ]},
+    {"Chapter 3 (Diversity of Life)": [
+        {"Concepts": ["Kingdom classification, Notable differences among species"]},
+        {"Activities": ["Local biodiversity survey, Classification chart creation"]}
+    ]},
+    {"Chapter 4 (Health & Disease)": [
+        {"Concepts": ["Types of diseases: infectious and non-infectious, Causes, symptoms, prevention, vaccination"]},
+        {"Projects": ["Awareness poster or skit on disease prevention"]}
+    ]},
+    {"Chapter 5 (Natural Resources)": [
+        {"Concepts": ["Air, water, soil as resources, Sustainable usage and conservation"]},
+        {"Projects": ["Water testing, Pollution monitoring project"]}
+    ]},
+    {"Chapter 6 (Food Resources Improvement)": [
+        {"Concepts": ["Agricultural biotechnology, GM crops and food security issues"]},
+        {"Activities": ["Case study on crop yield improvement, Discussion on ethical implications"]}
+    ]}
+  ],
 
-"⚖️ Law": [
-  {"Chapter 1 (Constitution in Action)": [
-      {"Concepts": ["Fundamental Rights & Duties, Practical case applications"]},
-      {"Activities": ["Mock trial on rights violations"]}
-  ]},
-  {"Chapter 2 (Legal Aid, Lok Adalats, PILs)": [
-      {"Concepts": ["Access to justice, Public Interest Litigations"]},
-      {"Projects": ["Roleplay of Lok Adalat proceedings"]}
-  ]},
-  {"Chapter 3 (Key Acts: SC/ST, RTE, Domestic Violence)": [
-      {"Concepts": ["Major legal provisions and their impacts"]},
-      {"Activities": ["Research report on law effectiveness"]}
-  ]},
-  {"Chapter 4 (Case Studies: Law vs Society)": [
-      {"Concepts": ["Balancing environment and industrial rights, Caste atrocity cases"]},
-      {"Projects": ["Debate on law and ethics"]}
-  ]},
-  {"Chapter 5 (IPC & CrPC Basics)": [
-      {"Concepts": ["Structure of Indian Penal Code, Criminal Procedure Code overview"]},
-      {"Activities": ["Mock case filing exercise"]}
-  ]}
-],
+  "📖 English": [
+    {"Chapter 1 (Reading & Critical Thinking)": [
+        {"Skills": ["Analyzing literature, Argument evaluation, Creative writing"]},
+        {"Activities": ["Debate, Reading comprehension exercises, Short essay writing"]}
+    ]},
+    {"Chapter 2 (Exam Preparation: GRE/TOEFL, SAT, IELTS)": [
+        {"Concepts": ["Advanced comprehension, Essay writing, MCQs and vocabulary drills"]},
+        {"Practice": ["Speaking and listening sessions, Sample mock tests for international exams"]}
+    ]}
+  ],
 
-"📝 Hindi": [
-  {"Chapter 1 (शिक्षा और सामाजिक विषय)": [
-      {"विषय": ["कविता, कहानी, संवाद लेखन, मानवता, लैंगिक न्याय, साम्प्रदायिकता"]},
-      {"गतिविधियाँ": ["वाचन और भूमिका-निर्वाह"]}
-  ]},
-  {"Chapter 2 (व्याकरण एवं अनुप्रयुक्त लेखन)": [
-      {"विषय": ["काल, समास, पत्र लेखन, अनुवाद"]},
-      {"गतिविधियाँ": ["लेखन अभ्यास और मूल्यांकन"]}
-  ]},
-  {"Chapter 3 (सामाजिक मुद्दे)": [
-      {"विषय": ["बाल श्रम, महिला अधिकार, पर्यावरण संरक्षण"]},
-      {"गतिविधियाँ": ["पोस्टर निर्माण, समूह चर्चा"]}
-  ]},
-  {"Chapter 4 (पुस्तकें)": [
-      {"सामग्री": ["Mother India (Katherine Mayo) का अध्ययन और विश्लेषण"]}
-  ]},
-  {"Chapter 5 (सामाजिक परिवर्तन)": [
-      {"विषय": ["सामुदायिक सेवा, बाल अधिकार, महिला सशक्तिकरण"]},
-      {"गतिविधियाँ": ["सामुदायिक परियोजना कार्य"]}
-  ]}
-],
+  "🏛️ Political Science": [
+    {"Chapter 1 (Power-sharing in Federal Structures)": [
+        {"Concepts": ["Federal systems, Power distribution, Examples from Belgium and Sri Lanka"]},
+        {"Applications": ["Comparative analysis of political systems"]}
+    ]},
+    {"Chapter 2 (Democracy & Diversity)": [
+        {"Concepts": ["Caste, gender, and religion in democracy, Representation challenges"]},
+        {"Activities": ["Class debates on inclusion and diversity"]}
+    ]},
+    {"Chapter 3 (Popular Struggles)": [
+        {"Concepts": ["Mass movements in Bolivia and India, Role of civil society"]},
+        {"Projects": ["Case study presentations on social movements"]}
+    ]},
+    {"Chapter 4 (Political Parties)": [
+        {"Concepts": ["Types of parties: national, regional, Functions and reforms"]},
+        {"Projects": ["Mapping political parties and their ideologies"]}
+    ]},
+    {"Chapter 5 (Democracy: Outcomes & Challenges)": [
+        {"Concepts": ["Accountability and transparency, Public participation"]},
+        {"Activities": ["Mock parliament on citizen roles in democracy"]}
+    ]}
+  ],
 
-"🌱 Moral Values & Ethics": [
-  {"General Tasks": [
-      {"Activities": ["Weekly parade, Emergency response training, students openion on Classroom policy"]},
-      {"Reference Books": ["Annihilation of Caste by B.R. Ambedkar, Women and Gender in Ancient India: A Study of Texts and Inscriptions by Shashi Sharma, High Caste Hindu Woman (1887) by Pandita Ramabai, dalito ki durdasha karan aur nivaran by Kanshi Ram, poor narion ki samasya aur samadhan by M. S. Gore"]}
-  ]},
-  {"Chapter 1 (Dignity)": [
-      {"Concepts": ["Definition and importance, Self-respect and mutual respect, why we need to respect others?, Respecting differences in opinions, beliefs, cultures, traditions, lifestyles, etc."]},
-      {"Activities": ["Real-world case discussions"]}
-  ]},
-  {"Chapter 2 (Ethics in daily life)": [
-      {"Digital Ethics": ["Handling trolls, fake news, hate speech"]},
-      {"Fact Check": ["Necessity of verifying online information, digital responsibility"]},
-      {"Ethics in School": ["Cheating, favoritism, and discipline vs education, reflections, making fun of it vs making fun out of it, "]},
-  ]},
-  {"Chapter 3 (God, Nature and science)": [
-      {"Concepts": ["Belief systems vs environmental values"]},
-      {"Discussion": ["Religion’s influence on science and nature, science vs pseudoscience, faith vs empirical evidence"]},
-  ]},
-  {"Chapter 4 (Mental Health & Friendship)": [
-      {"Concepts": ["Mental health awareness, Understanding support and stigma, Importance of life, Suicide prevention and resilience"]},
-      {"Activities": ["Group sharing and awareness campaigns"]},
-      {"Intoxicants": ["Types of intoxicants, Effects on society, De-addiction strategies"]},
-      {"Value of Life": ["Philosophical meaning of life, Social inequality in life valuation"]}
-  ]},
-  {"Chapter 5 (Environmental Responsibility)": [
-      {"Concepts": ["What is environment, environment vs nature, why conservation and sustainability"]},
-      {"Forms of pollutions": ["Air pollution, Water pollution, Soil pollution, Noise pollution, Plastic pollution"]},
-      {"Projects": ["Plantation or clean-up drive"]}
-  ]},
-  {"Chapter 6 (Human Rights)": [
-      {"Child Labour & Exploitation": ["Causes and laws, Child rights awareness, UDHR and global frameworks, Case studies, Documentary Discussion-https://youtu.be/NTXO6uptlC8"]},
-      {"Consent and Boundaries": ["Personal and social consent, Boundaries and assertiveness, Endogamy vs Exogamy"]},
-      {"Indians Outside India": ["Why we try to go abroad?, movie screening- Dunki"]},
-      {"ways of discrimination": ["Race/Caste/Religion/Gender based discrimination and how to keep ourself out of it, limits of humanity, Social impact"]},
-      {"Casteism and Racism": ["Casteism within Caste, laws to protect against discrimination, Racism- international perspective-black Vs white history, Impact on society, Intra-caste discrimination dynamics, Documentries:https://youtu.be/bunZDrDOMBg","Equality and justice debates"]},
-      {"Humiliation at peaks": ["Jews during holocaust, Hitler attrocities on jews, Rwanda, cultural revolution in china, Untouchability in India"]},
-      {"Gender & Queer Rights": ["Equality and inclusion, LGBTQ+ rights awareness, Courage and responsibility, Whistleblowing and activism"]},
-      {"Role of Ambedkar": ["Ambedkar’s work for equality, Women’s rights (Hindu Code Bill), Group presentation on Ambedkar"]},
-      {"Discussion": ["people died in plane crash got 1 crore each whereas people died on mahakumbh got 25 lakh and so on, does value of life depends on place where one dies? , Lakhan Pasi story(left from jail at 104 age)"]},
-  ]},
-  {"Chapter 7 (Religions)": [
-      {"Introduction": ["what is Religion?, History and origin, purpose, evolution of religions and its importance in society, who make it? why make it? is it necessary to have Religion?, Is Religion a failed experiment? has Religion been converted to Business?, can religion help to make the world a better place? are we independent to choose any religion or we are bound to one we born in?, What is Secularism?"]},
-      {"Religious torture and violence": ["Historical and contemporary examples, why almost all religions firstly target womens?, Impact on societies"]},
-      {"blind faith vs questioning attitude": ["why illiterate people may hold blind faith, why illiterate people get possessed specially women, Examples and case studies"]},
-      {"Famous Reincarnation Cases": ["Shanti Devi, James Leininger, Pollock Twins, Swarnlata, Others"]},
-      {"Debate": ["Is religion necessary for moral life?"]}, 
- ]},
-  {"Chapter 8 (Recognizing Manipulation and Influence)": [
-      {"Concepts": ["Understanding manipulation vs influence, Common manipulation tactics, Emotional awareness and defense strategies"]},
-      {"Activities": ["Role-play to identify manipulation", "Media ad analysis", "Group discussion on healthy assertiveness"]}
-  ]},
+  "💰 Advanced Economics, Finance & Consulting": [
 
-],
+    {"Chapter 1 (Foundations of Finance and Markets)": [
+      {"Concepts": [
+        "Definition and purpose of finance in economic systems",
+        "Understanding money, time value of money, and risk-return relationship",
+        "Introduction to financial institutions: Banks, NBFCs, and Mutual Funds",
+        "Primary vs secondary markets: IPOs, Stock exchanges, Bonds, and Derivatives",
+        "Role of SEBI, RBI, and global financial regulators",
+        "Concept of inflation, deflation, and purchasing power parity"
+      ]},
+      {"Activities": [
+        "Simulated stock market trading using virtual platforms",
+        "Tracking NIFTY50 and SENSEX for one month with reflective journal",
+        "Class debate- Should India adopt cryptocurrency regulation?"
+      ]}
+    ]},
 
-"🗣️ Languages": [
-  {"Chapter 1 (Why Language?)": [
-      {"Introduction": ["Origins of language, Family trees, History & Types of languages"]}
-  ]},
-  {"Chapter 2 (Language Apps and Websites)": [
-      {"Tools": ["Duolingo, Rosetta Stone, Memrise, Busuu"]}
-  ]},
-  {"Chapter 3 (Extended Conversations)": [
-      {"Practice": ["1–2 minute real-life dialogues"]}
-  ]},
-  {"Chapter 4 (Travel Dialogues)": [
-      {"Practice": ["Asking directions, Hotel booking, Ticket purchase"]}
-  ]},
-  {"Chapter 5 (Health & Emergency)": [
-      {"Phrases": ["I feel sick, Call a doctor, Where is the hospital?"]}
-  ]},
-  {"Chapter 6 (Technology Vocabulary)": [
-      {"Words": ["Phone, Computer, Internet, Email"]}
-  ]},
-  {"Chapter 7 (Proverbs & Idioms)": [
-      {"Content": ["3–5 proverbs per language with meanings"]}
-  ]},
-  {"Chapter 8 (Grammar Review)": [
-      {"Concepts": ["Past, present, future tenses"]}
-  ]},
-  {"Chapter 9 (Letter Writing)": [
-      {"Projects": ["Postcard/email in foreign language"]}
-  ]},
-  {"Chapter 10 (Career with Languages)": [
-      {"Concepts": ["Jobs in translation, tourism, diplomacy"]}
-  ]},
-  {"Chapter 11 (Cultural Projects)": [
-      {"Projects": ["Research a famous figure from each country"]}
-  ]},
-  {"Chapter 12 (Final Translation Project)": [
-      {"Activity": ["Translate 50 English sentences into multiple languages"]}
-  ]},
-  {"Chapter 13 (Multilingual Skills)": [
-      {"Projects": ["Word lists in 5–7 languages on common themes"]}
-  ]}
-],
+    {"Chapter 2 (Corporate Finance and Valuation)": [
+      {"Concepts": [
+        "Capital budgeting: NPV, IRR, Payback period",
+        "Sources of financing: Equity, Debt, Venture capital, Angel investment",
+        "Corporate structure and governance",
+        "Valuation of companies: Understanding P/E ratio, EV/EBITDA, DCF model",
+        "Cost of capital and capital structure theory (Modigliani-Miller basics)",
+        "Introduction to financial statements: Balance sheet, P&L, Cash Flow"
+      ]},
+      {"Practice": [
+        "Mini project- Value a startup using simplified DCF and justify assumptions",
+        "Analyze a listed company’s balance sheet for debt/equity structure"
+      ]}
+    ]},
 
-"👥 GGC (General Guidance Class)": [
-  {"Chapter 1 (College Admissions)": [
-      {"Concepts": ["India vs Abroad admission systems, Application basics"]}
-  ]},
-  {"Chapter 2 (Major Global Exams)": [
-      {"Exams": ["JEE, NEET, SAT, TOEFL, IELTS, A-Level"]}
-  ]},
-  {"Chapter 3 (Writing for Success)": [
-      {"Concepts": ["SOPs, LORs, Essay writing"]}
-  ]},
-  {"Chapter 4 (Research & Exchange)": [
-      {"Programs": ["INSPIRE, IYSA, Foreign exchange opportunities"]}
-  ]},
-  {"Chapter 5 (Youth Inspiration)": [
-      {"Profiles": ["Riya Karumanchi, Mihir Garimella, Vivienne Harr, Kavya Kopparapu"]}
-  ]},
-  {"Chapter 6 (Competitions)": [
-      {"Examples": ["Swift Student Challenge, Other global events"]}
-  ]},
-  {"Chapter 7 (Major Scholarships)": [
-      {"Programs": ["Chevening, Commonwealth, Fulbright, Rhodes"]}
-  ]}
-],
+    {"Chapter 3 (Financial Services, Investment Banking and Consulting Overview)": [
+      {"Concepts": [
+        "Structure of global financial services: Investment banks, Asset management firms, PE/VC firms",
+        "Investment banking functions: M&A, IPO advisory, restructuring, due diligence",
+        "Consulting vs auditing vs advisory: what each firm actually does",
+        "Case introduction- PwC, EY, Deloitte, KPMG, McKinsey, BCG, Accenture",
+        "Career roles: Analyst, Consultant, Associate, Partner",
+        "Difference between buy-side (investing) and sell-side (advisory)"
+      ]},
+      {"Activities": [
+        "Mock M&A deal- valuation and negotiation exercise",
+        "Interview roleplay- ‘Why consulting?’ and ‘Pitch a business solution’"
+      ]}
+    ]},
 
-"🏃‍♂️ Games & Physical Education": [
-  {"Chapter 1 (Cardiovascular & Body Systems)": [
-      {"Concepts": ["Heart function, Exercise and body health"]},
-      {"Projects": ["Fitness measurement logs"]}
-  ]},
-  {"Chapter 2 (Diet and Wellbeing)": [
-      {"Concepts": ["Balanced diet, Meal planning for athletes"]}
-  ]},
-  {"Chapter 3 (Social-Emotional Health)": [
-      {"Concepts": ["Leadership and teamwork, Empathy development"]}
-  ]},
-  {"Chapter 4 (Sex Education)": [
-      {"Concepts": ["Consent, Safe practices, STI awareness"]}
-  ]},
-  {"Chapter 5 (Protection Laws)": [
-      {"Concepts": ["Child safety, POCSO Act, Self-advocacy"]}
-  ]},
-  {"Chapter 6 (Sports Psychology)": [
-      {"Concepts": ["Motivation, Resilience, Focus building"]}
-  ]}
-],
+    {"Chapter 4 (Business Strategy and Consulting Frameworks)": [
+      {"Frameworks": [
+        "SWOT, PESTEL, Porter’s Five Forces, BCG Matrix, Ansoff Matrix",
+        "McKinsey 7S and MECE Principle",
+        "Root cause analysis (Fishbone, 5 Whys)",
+        "Client problem-solving approach (define, diagnose, design, deliver)",
+        "Financial modeling and scenario analysis for business decision-making"
+      ]},
+      {"Case Studies": [
+        "Consulting case- Accenture digital transformation project for a bank",
+        "BCG-style profitability problem (restaurant chain, airline, etc.)",
+        "How consulting firms charge clients and structure deliverables"
+      ]}
+    ]},
 
-"🧠 General Knowledge (G.K)": [
-  {"Chapter 1 (Global Diplomacy)": [
-      {"Concepts": ["Paris Agreement, NATO, BRICS, International alliances"]}
-  ]},
-  {"Chapter 2 (Current Affairs)": [
-      {"Activities": ["Weekly editorials, News analysis, Quizzes"]}
-  ]},
-  {"Chapter 3 (Judiciary Highlights)": [
-      {"Concepts": ["Judicial structures, Important global judgments"]}
-  ]},
-  {"Chapter 4 (Science Frontiers)": [
-      {"Concepts": ["CRISPR, Fusion energy, AI ethics, Nobel updates"]}
-  ]},
-  {"Chapter 5 (UN SDGs & Model UN)": [
-      {"Activities": ["Role-play climate negotiation, SDG policy drafting"]}
-  ]},
-  {"Chapter 6 (INSPIRE MANAK Competition)": [
-      {"Concepts": ["Innovation projects, Eligibility and submission"]}
-  ]}
-],
+    {"Chapter 5 (Financial Modeling and Data Analysis)": [
+      {"Concepts": [
+        "Excel and Google Sheets for financial modeling",
+        "Forecasting revenues and expenses",
+        "Break-even analysis and sensitivity analysis",
+        "Data visualization: dashboards, charts, storytelling with data",
+        "Basics of Power BI, Tableau, and Google Data Studio",
+        "Quantitative reasoning in finance- correlation, regression, variance"
+      ]},
+      {"Projects": [
+        "Create a 3-statement linked model (Income, Balance Sheet, Cash Flow)",
+        "Build and present a financial dashboard using public company data"
+      ]}
+    ]},
 
-"🔬 Research Projects (R.P)": [
-  {"Chapter 1 (Robotics)": [
-      {"Concepts": ["Basic robotics modules, NPTEL-guided sessions"]}
+    {"Chapter 6 (Economics for Decision-Making and Consulting)": [
+      {"Concepts": [
+        "Microeconomics in consulting: demand-supply estimation, pricing strategy",
+        "Macroeconomics indicators- GDP, inflation, unemployment, fiscal deficit",
+        "Policy analysis and its business impact (GST, repo rate, FDI rules)",
+        "Public-private partnerships and infrastructure consulting",
+        "Game theory basics for competitive strategy"
+      ]},
+      {"Activities": [
+        "Analyze how interest rate changes affect industry profitability",
+        "Group simulation- Government policy consulting exercise"
+      ]}
+    ]},
+
+    {"Chapter 7 (Behavioral Finance and Market Psychology)": [
+      {"Concepts": [
+        "How emotions drive financial decisions (herd behavior, overconfidence, loss aversion)",
+        "Prospect theory and bounded rationality",
+        "Role of media, social proof, and investor sentiment",
+        "Understanding market bubbles and crashes",
+        "Applications in consulting: consumer insights and behavioral nudges"
+      ]},
+      {"Activities": [
+        "Analyze stock price bubbles like 2008 crisis or GameStop event",
+        "Design a behavioral nudge for saving or investing habits"
+      ]}
+    ]},
+
+    {"Chapter 8 (Ethics, Law, and Corporate Governance in Finance)": [
+      {"Concepts": [
+        "Insider trading and its penalties",
+        "Corporate fraud and audit ethics (Enron, Satyam case studies)",
+        "Understanding ESG (Environmental, Social, Governance) principles",
+        "Regulatory compliance in consulting firms",
+        "Whistleblower protection and ethical dilemmas"
+      ]},
+      {"Projects": [
+        "Debate- ‘Profit vs Ethics — what should guide finance?’",
+        "Write a report on India’s SEBI and global equivalents like SEC, FCA"
+      ]}
+    ]},
+
+    {"Chapter 9 (Global Financial Systems and Consulting Practices)": [
+      {"Concepts": [
+        "Structure of global capital markets: NYSE, LSE, NSE",
+        "Understanding currencies, forex, and exchange rate systems",
+        "IMF, World Bank, BIS, and G20 — how they influence global trade",
+        "Emerging markets vs developed economies",
+        "International consulting practices and case studies (McKinsey in Africa, Accenture in APAC)"
+      ]},
+      {"Activities": [
+        "Study report- Impact of the 2008 crisis and post-COVID global shifts",
+        "Consulting simulation- How to advise a company entering a new market"
+      ]}
+    ]},
+
+    {"Chapter 10 (Capstone Projects and Career Readiness)": [
+      {"Projects": [
+        "Mini consulting project with local business or NGO (real-world problem solving)",
+        "Financial research paper (analyzing company, sector, or economic policy)",
+        "Industry speaker session (guest from consulting/finance firm)",
+        "Group presentation: How technology (AI, FinTech, Blockchain) is reshaping finance and consulting"
+      ]},
+      {"Career Preparation": [
+        "Resume and LinkedIn for consulting/finance roles",
+        "Mock interview preparation: case solving, aptitude, and guesstimate questions",
+        "Soft skills: communication, storytelling, and structured problem solving"
+      ]}
+    ]}
+  ],
+
+  "📜 History": [
+    {"Chapter 1 (How, When and Where)": [
+      {"Historical Concepts": ["Importance of dates in history", "Sources of information (Archives, Museums, Biographies)"]},
+      {"Periodization": ["The problem of periodizing Indian history", "Modern Period in India: Characteristics and Sources"]},
+      {"Historiography": ["Different ways of writing history", "Nationalist vs Colonial perspectives"]}
+    ]},
+    {"Chapter 2 (From Trade to Territory: Company Power)": [
+      {"The East India Company": ["Arrival of European trading companies", "The beginning of the Battle of Plassey and Buxar"]},
+      {"Expansion of Power": ["Subsidiary Alliance", "Doctrine of Lapse", "Setting up a New Administration (Warren Hastings, Lord Cornwallis)"]},
+      {"Economic Motives": ["Trade monopolies", "Drain of wealth theory"]}
+    ]},
+    {"Chapter 3 (Ruling the Countryside)": [
+      {"Land Revenue Systems": ["Permanent Settlement", "Ryotwari System", "Mahalwari System (Impact on peasants and agriculture)"]},
+      {"Commercialization": ["Cultivation for the market (Indigo, Opium)", "The Blue Rebellion and peasant revolts"]},
+      {"Social Impact": ["Zamindari system effects", "Peasant indebtedness"]}
+    ]},
+    {"Chapter 4 (Tribals, Dikus, and the Golden Age)": [
+      {"Tribal Societies": ["Different tribal groups and their way of life", "Impact of Forest Laws on tribals"]},
+      {"Revolts": ["The story of Birsa Munda", "Major tribal uprisings against British rule"]},
+      {"Cultural Resistance": ["Tribal myths and movements", "Shift from hunter-gatherer to settled life"]}
+    ]},
+    {"Chapter 5 (The Revolt of 1857 and After)": [
+      {"Causes": ["Political, economic, social, and military causes of the revolt"]},
+      {"The Uprising": ["Spread of the revolt and key leaders (Nana Saheb, Rani Lakshmibai)"]},
+      {"Consequences": ["The shift from Company rule to the Crown", "Changes in the military and administration"]},
+      {"Historiographical Debate": ["Sepoy Mutiny vs First War of Independence"]}
+    ]},
+    {"Chapter 6 (When People Rebel)": [
+      {"Patterns of Rebellion": ["Regional variations in 1857 revolt", "Civilian participation"]},
+      {"Suppression and Aftermath": ["British recapture strategies", "Queen's Proclamation 1858"]}
+    ]},
+    {"Chapter 7 (Weavers, Iron Smelters and Factory Owners)": [
+      {"Traditional Crafts": ["Indian textile traditions", "Decline under British rule"]},
+      {"New Industries": ["Rise of machine-made goods", "Impact on artisans"]}
+    ]}
+  ],
+
+  "🌍 Geography": [
+    {"Chapter 1 (Resources and Development)": [
+      {"Concepts of Resources": ["Classification (Natural, Human-made, Human)", "Sustainable development principles", "Stock and Distribution of Resources"]},
+      {"Conservation Strategies": ["Need for conservation", "Methods (Reduce, Reuse, Recycle)", "Global/local examples of resource management"]},
+      {"Practical Application": ["Mapping local natural resources", "Case studies on resource depletion"]},
+      {"Resource Mapping": ["GIS applications in resource inventory"]}
+    ]},
+    {"Chapter 2 (Land, Soil, Water, Natural Vegetation and Wildlife)": [
+      {"Land Use and Patterns": ["Factors affecting land use", "Common property resources", "Land degradation and management"]},
+      {"Water Resources": ["Distribution of water on Earth", "Water availability and problems", "Methods of water conservation (Rainwater harvesting, Drip Irrigation)"]},
+      {"Natural Ecosystems": ["Major biomes (Forests, Grasslands, Deserts)", "Wildlife conservation and sanctuaries", "Impact of human activities on vegetation and wildlife"]},
+      {"Soil Profiles": ["Soil types and formation processes"]}
+    ]},
+    {"Chapter 3 (Agriculture and Industry)": [
+      {"Agricultural Systems": ["Types of farming (Subsistence, Commercial)", "Major crops (Rice, Wheat, Millets)", "Indian and world farming systems", "Technological and institutional reforms"]},
+      {"Industrial Distribution": ["Factors influencing location of industries", "Major industries (Iron and Steel, Textile, Information Technology)", "Industrial regions of the world"]},
+      {"Activities": ["Industrial visit or virtual tour (Analysis of inputs, processes, and outputs)"]},
+      {"Agro-Industrial Linkages": ["Food processing industries", "Agro-based industries distribution"]}
+    ]},
+    {"Chapter 4 (Urbanisation & Smart Cities)": [
+      {"Urban Dynamics": ["Causes and effects of urban growth", "Slums and associated environmental challenges", "Global urbanization trends"]},
+      {"Planning Models": ["Challenges and planning models", "Concept of Smart Cities (Governance, Mobility, Environment)"]},
+      {"Projects": ["Smart city design prototype (Focus on sustainable infrastructure)", "Comparing Indian and global urban examples"]},
+      {"Urban Hierarchy": ["Metro cities, towns, villages classification"]}
+    ]},
+    {"Chapter 5 (Disaster Management)": [
+      {"Hazards and Disasters": ["Classification of natural and human-made disasters", "Case studies on floods, earthquakes, and other disasters (Causes and Impacts)"]},
+      {"Preparedness & Response": ["Disaster response planning (Pre-disaster, During, Post-disaster)", "Role of government agencies and local communities"]},
+      {"Activities": ["Mock drills (Earthquake, Fire)", "Safety awareness programs", "Developing a home emergency kit"]},
+      {"Risk Assessment": ["Vulnerability mapping", "Early warning systems"]}
+    ]},
+    {"Chapter 6 (Global Environmental Issues)": [
+      {"Major Concerns": ["Climate change", "Air and water pollution", "Desertification and deforestation"]},
+      {"Solutions & Frameworks": ["United Nations Sustainable Development Goals (SDGs)", "International agreements (e.g., Paris Agreement)"]},
+      {"Projects": ["Youth activism initiatives (Local clean-up/awareness drives)", "Report on local climate action"]},
+      {"Environmental Indicators": ["Carbon footprint calculation", "Biodiversity indices"]}
+    ]}
+  ],
+
+  "⚖️ Law": [
+    {"Chapter 1 (Constitution in Action)": [
+        {"Concepts": ["Fundamental Rights & Duties, Practical case applications"]},
+        {"Activities": ["Mock trial on rights violations"]}
+    ]},
+    {"Chapter 2 (Legal Aid, Lok Adalats, PILs)": [
+        {"Concepts": ["Access to justice, Public Interest Litigations"]},
+        {"Projects": ["Roleplay of Lok Adalat proceedings"]}
+    ]},
+    {"Chapter 3 (Key Acts: SC/ST, RTE, Domestic Violence)": [
+        {"Concepts": ["Major legal provisions and their impacts"]},
+        {"Activities": ["Research report on law effectiveness"]}
+    ]},
+    {"Chapter 4 (Case Studies: Law vs Society)": [
+        {"Concepts": ["Balancing environment and industrial rights, Caste atrocity cases"]},
+        {"Projects": ["Debate on law and ethics"]}
+    ]},
+    {"Chapter 5 (IPC & CrPC Basics)": [
+        {"Concepts": ["Structure of Indian Penal Code, Criminal Procedure Code overview"]},
+        {"Activities": ["Mock case filing exercise"]}
+    ]}
+  ],
+
+  "📝 Hindi": [
+    {"Chapter 1 (शिक्षा और सामाजिक विषय)": [
+        {"विषय": ["कविता, कहानी, संवाद लेखन, मानवता, लैंगिक न्याय, साम्प्रदायिकता"]},
+        {"गतिविधियाँ": ["वाचन और भूमिका-निर्वाह"]}
+    ]},
+    {"Chapter 2 (व्याकरण एवं अनुप्रयुक्त लेखन)": [
+        {"विषय": ["काल, समास, पत्र लेखन, अनुवाद"]},
+        {"गतिविधियाँ": ["लेखन अभ्यास और मूल्यांकन"]}
+    ]},
+    {"Chapter 3 (सामाजिक मुद्दे)": [
+        {"विषय": ["बाल श्रम, महिला अधिकार, पर्यावरण संरक्षण"]},
+        {"गतिविधियाँ": ["पोस्टर निर्माण, समूह चर्चा"]}
+    ]},
+    {"Chapter 4 (पुस्तकें)": [
+        {"सामग्री": ["Mother India (Katherine Mayo) का अध्ययन और विश्लेषण"]}
+    ]},
+    {"Chapter 5 (सामाजिक परिवर्तन)": [
+        {"विषय": ["सामुदायिक सेवा, बाल अधिकार, महिला सशक्तिकरण"]},
+        {"गतिविधियाँ": ["सामुदायिक परियोजना कार्य"]}
+    ]}
+  ],
+
+  "🌱 Moral Values & Ethics": [
+    {"General Tasks": [
+        {"Activities": ["Weekly parade, Emergency response training, students openion on Classroom policy"]},
+        {"Reference Books": ["Annihilation of Caste by B.R. Ambedkar, Women and Gender in Ancient India: A Study of Texts and Inscriptions by Shashi Sharma, High Caste Hindu Woman (1887) by Pandita Ramabai, dalito ki durdasha karan aur nivaran by Kanshi Ram, poor narion ki samasya aur samadhan by M. S. Gore"]}
+    ]},
+    {"Chapter 1 (Dignity)": [
+        {"Concepts": ["Definition and importance, Self-respect and mutual respect, why we need to respect others?, Respecting differences in opinions, beliefs, cultures, traditions, lifestyles, etc."]},
+        {"Activities": ["Real-world case discussions"]}
+    ]},
+    {"Chapter 2 (Ethics in daily life)": [
+        {"Digital Ethics": ["Handling trolls, fake news, hate speech"]},
+        {"Fact Check": ["Necessity of verifying online information, digital responsibility"]},
+        {"Ethics in School": ["Cheating, favoritism, and discipline vs education, reflections, making fun of it vs making fun out of it, "]},
+    ]},
+    {"Chapter 3 (God, Nature and science)": [
+        {"Concepts": ["Belief systems vs environmental values"]},
+        {"Discussion": ["Religion’s influence on science and nature, science vs pseudoscience, faith vs empirical evidence"]},
+    ]},
+    {"Chapter 4 (Mental Health & Friendship)": [
+        {"Concepts": ["Mental health awareness, Understanding support and stigma, Importance of life, Suicide prevention and resilience"]},
+        {"Activities": ["Group sharing and awareness campaigns"]},
+        {"Intoxicants": ["Types of intoxicants, Effects on society, De-addiction strategies"]},
+        {"Value of Life": ["Philosophical meaning of life, Social inequality in life valuation"]}
+    ]},
+    {"Chapter 5 (Environmental Responsibility)": [
+        {"Concepts": ["What is environment, environment vs nature, why conservation and sustainability"]},
+        {"Forms of pollutions": ["Air pollution, Water pollution, Soil pollution, Noise pollution, Plastic pollution"]},
+        {"Projects": ["Plantation or clean-up drive"]}
+    ]},
+    {"Chapter 6 (Human Rights)": [
+        {"Child Labour & Exploitation": ["Causes and laws, Child rights awareness, UDHR and global frameworks, Case studies, Documentary Discussion-https://youtu.be/NTXO6uptlC8"]},
+        {"Consent and Boundaries": ["Personal and social consent, Boundaries and assertiveness, Endogamy vs Exogamy"]},
+        {"Indians Outside India": ["Why we try to go abroad?, movie screening- Dunki"]},
+        {"ways of discrimination": ["Race/Caste/Religion/Gender based discrimination and how to keep ourself out of it, limits of humanity, Social impact"]},
+        {"Casteism and Racism": ["Casteism within Caste, laws to protect against discrimination, Racism- international perspective-black Vs white history, Impact on society, Intra-caste discrimination dynamics, Documentries:https://youtu.be/bunZDrDOMBg","Equality and justice debates"]},
+        {"Humiliation at peaks": ["Jews during holocaust, Hitler attrocities on jews, Rwanda, cultural revolution in china, Untouchability in India"]},
+        {"Gender & Queer Rights": ["Equality and inclusion, LGBTQ+ rights awareness, Courage and responsibility, Whistleblowing and activism"]},
+        {"Role of Ambedkar": ["Ambedkar’s work for equality, Women’s rights (Hindu Code Bill), Group presentation on Ambedkar"]},
+        {"Discussion": ["people died in plane crash got 1 crore each whereas people died on mahakumbh got 25 lakh and so on, does value of life depends on place where one dies? , Lakhan Pasi story(left from jail at 104 age)"]},
+    ]},
+    {"Chapter 7 (Religions)": [
+        {"Introduction": ["what is Religion?, History and origin, purpose, evolution of religions and its importance in society, who make it? why make it? is it necessary to have Religion?, Is Religion a failed experiment? has Religion been converted to Business?, can religion help to make the world a better place? are we independent to choose any religion or we are bound to one we born in?, What is Secularism?"]},
+        {"Religious torture and violence": ["Historical and contemporary examples, why almost all religions firstly target womens?, Impact on societies"]},
+        {"blind faith vs questioning attitude": ["why illiterate people may hold blind faith, why illiterate people get possessed specially women, Examples and case studies"]},
+        {"Famous Reincarnation Cases": ["Shanti Devi, James Leininger, Pollock Twins, Swarnlata, Others"]},
+        {"Debate": ["Is religion necessary for moral life?"]}, 
   ]},
-  {"Chapter 2 (CAD Design)": [
-      {"Concepts": ["AutoCAD, Fusion 360, 3D modeling basics"]}
-  ]},
-  {"Chapter 3 (Machine Learning)": [
-      {"Concepts": ["Intro to ML, Simple algorithms and real-world uses"]}
-  ]},
-  {"Chapter 4 (Machine Principles)": [
-      {"Mechanisms of machines": ["Glider, Airplane, quadcopter, drone, rocket, space shuttle, fighter jet mechanisms"]},
-      {"Hands on Projects": ["Yearly any one project based on above concepts"]}
-  ]},
-]
+    {"Chapter 8 (Recognizing Manipulation and Influence)": [
+        {"Concepts": ["Understanding manipulation vs influence, Common manipulation tactics, Emotional awareness and defense strategies"]},
+        {"Activities": ["Role-play to identify manipulation", "Media ad analysis", "Group discussion on healthy assertiveness"]}
+    ]},
+
+  ],
+
+  "🗣️ Languages": [
+    {"Chapter 1 (Why Language?)": [
+        {"Introduction": ["Origins of language, Family trees, History & Types of languages"]}
+    ]},
+    {"Chapter 2 (Language Apps and Websites)": [
+        {"Tools": ["Duolingo, Rosetta Stone, Memrise, Busuu"]}
+    ]},
+    {"Chapter 3 (Extended Conversations)": [
+        {"Practice": ["1–2 minute real-life dialogues"]}
+    ]},
+    {"Chapter 4 (Travel Dialogues)": [
+        {"Practice": ["Asking directions, Hotel booking, Ticket purchase"]}
+    ]},
+    {"Chapter 5 (Health & Emergency)": [
+        {"Phrases": ["I feel sick, Call a doctor, Where is the hospital?"]}
+    ]},
+    {"Chapter 6 (Technology Vocabulary)": [
+        {"Words": ["Phone, Computer, Internet, Email"]}
+    ]},
+    {"Chapter 7 (Proverbs & Idioms)": [
+        {"Content": ["3–5 proverbs per language with meanings"]}
+    ]},
+    {"Chapter 8 (Grammar Review)": [
+        {"Concepts": ["Past, present, future tenses"]}
+    ]},
+    {"Chapter 9 (Letter Writing)": [
+        {"Projects": ["Postcard/email in foreign language"]}
+    ]},
+    {"Chapter 10 (Career with Languages)": [
+        {"Concepts": ["Jobs in translation, tourism, diplomacy"]}
+    ]},
+    {"Chapter 11 (Cultural Projects)": [
+        {"Projects": ["Research a famous figure from each country"]}
+    ]},
+    {"Chapter 12 (Final Translation Project)": [
+        {"Activity": ["Translate 50 English sentences into multiple languages"]}
+    ]},
+    {"Chapter 13 (Multilingual Skills)": [
+        {"Projects": ["Word lists in 5–7 languages on common themes"]}
+    ]}
+  ],
+
+  "👥 GGC (General Guidance Class)": [
+    {"Chapter 1 (College Admissions)": [
+        {"Concepts": ["India vs Abroad admission systems, Application basics"]}
+    ]},
+    {"Chapter 2 (Major Global Exams)": [
+        {"Exams": ["JEE, NEET, SAT, TOEFL, IELTS, A-Level"]}
+    ]},
+    {"Chapter 3 (Writing for Success)": [
+        {"Concepts": ["SOPs, LORs, Essay writing"]}
+    ]},
+    {"Chapter 4 (Research & Exchange)": [
+        {"Programs": ["INSPIRE, IYSA, Foreign exchange opportunities"]}
+    ]},
+    {"Chapter 5 (Youth Inspiration)": [
+        {"Profiles": ["Riya Karumanchi, Mihir Garimella, Vivienne Harr, Kavya Kopparapu"]}
+    ]},
+    {"Chapter 6 (Competitions)": [
+        {"Examples": ["Swift Student Challenge, Other global events"]}
+    ]},
+    {"Chapter 7 (Major Scholarships)": [
+        {"Programs": ["Chevening, Commonwealth, Fulbright, Rhodes"]}
+    ]}
+  ],
+
+  "🏃‍♂️ Games & Physical Education": [
+    {"Chapter 1 (Cardiovascular & Body Systems)": [
+        {"Concepts": ["Heart function, Exercise and body health"]},
+        {"Projects": ["Fitness measurement logs"]}
+    ]},
+    {"Chapter 2 (Diet and Wellbeing)": [
+        {"Concepts": ["Balanced diet, Meal planning for athletes"]}
+    ]},
+    {"Chapter 3 (Social-Emotional Health)": [
+        {"Concepts": ["Leadership and teamwork, Empathy development"]}
+    ]},
+    {"Chapter 4 (Sex Education)": [
+        {"Concepts": ["Consent, Safe practices, STI awareness"]}
+    ]},
+    {"Chapter 5 (Protection Laws)": [
+        {"Concepts": ["Child safety, POCSO Act, Self-advocacy"]}
+    ]},
+    {"Chapter 6 (Sports Psychology)": [
+        {"Concepts": ["Motivation, Resilience, Focus building"]}
+    ]}
+  ],
+
+  "🧠 General Knowledge (G.K)": [
+    {"Chapter 1 (Global Diplomacy)": [
+        {"Concepts": ["Paris Agreement, NATO, BRICS, International alliances"]}
+    ]},
+    {"Chapter 2 (Current Affairs)": [
+        {"Activities": ["Weekly editorials, News analysis, Quizzes"]}
+    ]},
+    {"Chapter 3 (Judiciary Highlights)": [
+        {"Concepts": ["Judicial structures, Important global judgments"]}
+    ]},
+    {"Chapter 4 (Science Frontiers)": [
+        {"Concepts": ["CRISPR, Fusion energy, AI ethics, Nobel updates"]}
+    ]},
+    {"Chapter 5 (UN SDGs & Model UN)": [
+        {"Activities": ["Role-play climate negotiation, SDG policy drafting"]}
+    ]},
+    {"Chapter 6 (INSPIRE MANAK Competition)": [
+        {"Concepts": ["Innovation projects, Eligibility and submission"]}
+    ]}
+  ],
+
+  "🔬 Research Projects (R.P)": [
+    {"Chapter 1 (Robotics)": [
+        {"Concepts": ["Basic robotics modules, NPTEL-guided sessions"]}
+    ]},
+    {"Chapter 2 (CAD Design)": [
+        {"Concepts": ["AutoCAD, Fusion 360, 3D modeling basics"]}
+    ]},
+    {"Chapter 3 (Machine Learning)": [
+        {"Concepts": ["Intro to ML, Simple algorithms and real-world uses"]}
+    ]},
+    {"Chapter 4 (Machine Principles)": [
+        {"Mechanisms of machines": ["Glider, Airplane, quadcopter, drone, rocket, space shuttle, fighter jet mechanisms"]},
+        {"Hands on Projects": ["Yearly any one project based on above concepts"]}
+    ]},
+  ]
 
 
-}
+  }
 
   
   // "📚 Class 8": {
