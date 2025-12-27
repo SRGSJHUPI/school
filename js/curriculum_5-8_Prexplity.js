@@ -620,61 +620,287 @@ Object.assign(window.curriculumData, {
       {"Home Work": ["Measure height of students, speed of walking, mass of stones, Identify dimensionless terms in equations, Convert degrees to radians and evaluate sin values, Check dimensional correctness of formulas- Yug Sahastra Yojan claim is scientifically consistent or not - Answer: its not scientifically consistent"]},
     ]},
     {"Chapter 2 (Motion and Measurement)": [
-      {"Types": ["Linear, Circular, Oscillatory"]},
-      {"Activities": ["Distance measurements, Experiments, Real-life examples"]}
+      {"Types of Motion": [
+        "Linear (rectilinear) motion: object moves along a straight line, e.g., car on a straight road, lift moving up/down.",
+        "Circular motion: object moves along a circular path, e.g., fan blades, motion of Earth around the Sun (approximately circular).",
+        "Oscillatory (periodic) motion: back-and-forth motion about a fixed point, e.g., pendulum, vibrating ruler, swing.",
+        "Mixed/complex motion: many real motions are combinations, e.g., wheels of a moving car (rotation + translation)."
+      ]},
+      {"Distance, Displacement, Speed": [
+        "Distance: total path length travelled, scalar quantity (only magnitude).",
+        "Displacement: shortest straight-line distance from initial to final position, vector quantity (has direction).",
+        "Speed: distance travelled per unit time; average speed = total distance / total time; units: m/s, km/h.",
+        "Uniform vs non-uniform motion: uniform if equal distances covered in equal intervals of time; otherwise non-uniform.",
+        "Simple distance–time graph idea: straight line for uniform motion, curved line for non-uniform motion."
+      ]},
+      {"Measurement of Length and Time": [
+        "Length measuring tools: ruler, measuring tape, vernier caliper, screw gauge (concept only).",
+        "Time measuring tools: wall clock, stopwatch, digital timer, pendulum clock (historical context).",
+        "Least count of instruments: smallest quantity that can be measured, e.g., 1 mm on a ruler, 0.01 s on stopwatch."
+      ]},
+      {"Units and Conversions (Revision Link to Part 1)": [
+        "Standard units: meter (m) for length, second (s) for time, kilometer (km) for long distances, centimeter (cm) for small objects.",
+        "Conversions: km ↔ m, cm ↔ m, hours ↔ seconds, km/h ↔ m/s with many practice examples.",
+        "Importance of consistent units when doing calculations or drawing graphs."
+      ]},
+      {"Measurement Techniques and Errors (Introductory)": [
+        "Multiple measurements: repeat and average readings to reduce random errors.",
+        "Parallax error: error due to wrong eye position; avoid by reading scale directly from above/straight-on.",
+        "Recording data: use tables with columns for trial number, reading, average, unit; no mixing of units in the same table."
+      ]},
+      {"Activities and Experiments": [
+        "Measure classroom length/width using tape; compare different groups’ values and discuss differences.",
+        "Measure time taken to walk a fixed distance; compute speed; compare speeds of different students.",
+        "Use a simple pendulum to observe periodic motion qualitatively (time period measurment can link to higher classes)."
+      ]}
     ]},
     {"Chapter 3 (Light and Shadows)": [
-      {"Light Propagation": ["How light travels"]},
-      {"Shadows": ["Formation, Transparent vs opaque materials"]}
+      {"Nature and Propagation of Light": [
+        "Light travels in straight lines in a uniform medium (rectilinear propagation): demonstrated using pinhole or card-hole experiment.",
+        "Speed of light is extremely large (~3×10^8 m/s, concept only), which is why everyday light appears instantaneous.",
+        "Light enables vision by reflecting from objects into our eyes; opaque, transparent, and translucent objects interact with light differently."
+      ]},
+      {"Transparent, Translucent, and Opaque Materials": [
+        "Transparent: allow most light to pass through, objects seen clearly (glass, clean water).",
+        "Translucent: allow some light, objects appear blurred (butter paper, frosted glass).",
+        "Opaque: do not allow light to pass, form clear shadows (wood, metal)."
+      ]},
+      {"Shadows: Formation and Properties": [
+        "Shadow is formed when an opaque object blocks light; requires: source of light, opaque object, and screen.",
+        "Shadows are always formed on the side opposite to the light source; shape depends on object and angle of light.",
+        "Difference between shadow and image: shadow has only outline and is dark; image has colors and details (e.g., mirror image)."
+      ]},
+      {"Eclipses and Daily-life Shadow Effects": [
+        "Solar and lunar eclipses as large-scale natural shadows (qualitative idea: Sun–Moon–Earth alignment).",
+        "Shadow length changes during the day: shortest at noon, longer in morning and evening due to Sun’s angle.",
+        "Applications: sundials as ancient clocks based on shadow movement."
+      ]},
+      {"Simple Activities": [
+        "Create different shadows by changing distance between object and light source; observe size and sharpness.",
+        "Use a torch, cardboard with hole, and screen to demonstrate rectilinear propagation.",
+        "Compare shadows of transparent, translucent, and opaque materials."
+      ]}
     ]},
     {"Chapter 4 (The Human Eye and the Colourful World)": [
-      {"Eye Structure": ["Cornea, iris, pupil, lens, retina, optic nerve", "How light enters and forms images", "Near and far point (basic idea)"]},
-      {"Vision Issues": ["Myopia and hypermetropia (simple meaning)", "Use of concave/convex lenses to correct them"]},
-      {"Color Vision": ["How the eye detects colors", "Dispersion of light through prism", "Formation of rainbow", "Atmospheric scattering: why sky is blue, red at sunset"]},
-      {"Activities": ["Make a pinhole camera", "Prism color experiment if available", "Shadow size and sharpness demo"]}
+      {"Structure of the Human Eye": [
+        "Main parts: cornea, iris, pupil, lens, retina, optic nerve, aqueous and vitreous humor (basic description).",
+        "Path of light: light enters through cornea and pupil, passes through lens, and forms an inverted, real image on retina.",
+        "Brain interprets retinal image so that we see objects upright and in correct orientation."
+      ]},
+      {"Working of the Eye: Focusing and Accommodation": [
+        "The eye lens changes its shape (thickness) slightly to focus objects at different distances (accommodation).",
+        "Near point (least distance of distinct vision for a normal eye) ≈ 25 cm; far point is infinity (simple conceptual idea).",
+        "Pupil controls the amount of light entering the eye (small in bright light, large in dim light)."
+      ]},
+      {"Common Vision Defects (Basic Idea Only)": [
+        "Myopia (short-sightedness): person can see nearby objects clearly but not distant objects; corrected using concave lens.",
+        "Hypermetropia (long-sightedness): person can see distant objects clearly but not nearby objects; corrected using convex lens.",
+        "Importance of regular eye check-ups and proper lighting while reading."
+      ]},
+      {"Colour Vision and Dispersion": [
+        "Retina has photoreceptor cells sensitive to colors; combination of responses gives us color vision.",
+        "White light is made of many colors; passing white light through a prism splits it into a spectrum (VIBGYOR).",
+        "Dispersion: separation of light into its component colors due to different bending of different wavelengths."
+      ]},
+      {"Atmospheric Phenomena: Rainbow and Color of Sky": [
+        "Rainbow formation: sunlight dispersed by water droplets in the atmosphere acting like tiny prisms (qualitative).",
+        "Blue color of the sky: due to scattering of shorter wavelength (blue) light by air molecules more than red light.",
+        "Red sun at sunrise and sunset: sunlight travels a longer path, so blue is mostly scattered away and red/orange reaches the eyes."
+      ]},
+      {"Activities and Simple Models": [
+        "Make a pinhole camera to show image formation: inverted image on screen, dependence on hole size and distance.",
+        "Use a prism or CD surface to observe colors in white light if prism not available.",
+        "Simple afterimage or color-mixing activities to illustrate color vision."
+      ]}
     ]},
     {"Chapter 5 (Electricity Basics)": [
-      {"Concepts": ["Voltage, Potential difference, Current, Resistor, Inductor, Capacitor"]},
-      {"Circuits": ["How bulbs, switches, batteries work, Constructing simple circuits"]}
+      {"Electric Charge and Electric Current": [
+        "Electric charge: basic property of matter, two types – positive and negative (conceptual only).",
+        "Electric current: flow of electric charge per unit time, measured in ampere (A).",
+        "Conventional current direction: from positive terminal to negative terminal of a source in a circuit diagram."
+      ]},
+      {"Potential Difference (Voltage) and Resistance": [
+        "Potential difference (voltage) is the “electrical pressure” that drives current; unit: volt (V).",
+        "Resistance opposes the flow of current; unit: ohm (Ω); high resistance → less current for the same voltage.",
+        "Conceptual Ohm’s law idea: greater voltage or lower resistance → greater current; no formal formula derivation needed at this level."
+      ]},
+      {"Circuit Elements: Resistor, Inductor, Capacitor (Concept Only)": [
+        "Resistor: component that resists current and converts electrical energy into heat or light (e.g., bulb filament, heater coil).",
+        "Capacitor: device that stores electrical energy in an electric field temporarily (basic idea).",
+        "Inductor: coil of wire that stores energy in magnetic field when current flows (just as awareness)."
+      ]},
+      {"Electric Circuits and Symbols": [
+        "Basic circuit elements: cell/battery, switch, bulb, resistor, connecting wires.",
+        "Circuit diagrams use standard symbols to represent components, making circuits easy to read and share.",
+        "Series vs parallel connection: series—one path for current; parallel—multiple paths; simple consequences for bulbs glowing and failure."
+      ]},
+      {"Safety and Everyday Electrical Use": [
+        "Role of fuses and circuit breakers: protect against excessive current and short circuits.",
+        "Safe handling: dry hands, proper insulation, not overloading sockets, importance of earthing.",
+        "Everyday examples: bulbs, fans, chargers, electric toys; recognizing that all use electric current in controlled circuits."
+      ]},
+      {"Activities": [
+        "Construct a simple circuit with cell, switch, and bulb; observe when bulb glows or does not glow.",
+        "Investigate effect of adding another bulb in series and in parallel on brightness.",
+        "Draw neat circuit diagrams corresponding to actual connections."
+      ]}
     ]},
     {"Chapter 6 (Force and Pressure)": [
-      {"Dot product and cross product": ["Introduction to vector multiplication (only conceptual, no calculations)", "Dot product: Rays falling on surface inclined at angle, what to do if we want max effect on the surface- either align surface perpendicular to rays or align rays perpendicular to surface. Cross product: torque- force applied at a distance from pivot point- what to do to get max torque- either apply force perpendicular to distance or have distance perpendicular to force."]},
-      {"Introduction to Force": ["Meaning of force (push/pull)", "Effects: change shape, size, speed, direction"]},
-      {"Types of Forces": ["Gravitational", "Frictional", "Muscular", "Magnetic", "Contact vs Non-contact"]},
-      {"Balanced and Unbalanced Forces": ["When forces cancel out", "Tug-of-war, pushing a bike examples"]},
-      {"Pressure Basics": ["Pressure = Force/Area", "Knife sharpness, camel feet, schoolbag straps"]},
-      {"Atmospheric Pressure": ["What creates air pressure", "Straw experiment", "Basic altitude idea"]},
-      {"Pressure in Fluids": ["Liquids exert pressure in all directions", "Deep-sea pressure", "Dams thicker at bottom"]},
-      {"Friction": ["Static, sliding, rolling friction", "Useful vs harmful friction", "Reducing friction (lubrication, bearings)"]},
-      {"Hands-on Activity": ["Friction test on different surfaces", "Balloon-straw force demo", "Thumb pressure on clay vs plate"]}
+      {"Vector Multiplication (Dot and Cross Product – Concept Only)": [
+        "Dot product: relates to how much of one vector lies along another; in physics, used to find effective component of a force in a particular direction (e.g., sunlight on a tilted surface).",
+        "Rays falling on surface inclined at angle, what to do if we want max effect on the surface- either align surface perpendicular to rays or align rays perpendicular to surface.",
+        "Cross product: relates to turning effect or rotation produced by force; used in torque and angular momentum concepts.",
+        "To get maximum torque, apply force perpendicular to the line from pivot to point of application (maximum “lever arm”)."
+      ]},
+      {"Introduction to Force": [
+        "Force is a push or pull that can change the state of motion or shape of an object.",
+        "Effects of force: can start or stop motion, change speed, change direction, or deform objects.",
+        "Forces can act through contact (push, pull, friction) or at a distance (gravity, magnetism)."
+      ]},
+      {"Types of Forces": [
+        "Gravitational force: attraction between masses; responsible for weight and falling of objects.",
+        "Frictional force: opposes motion between surfaces in contact; can be useful (walking, braking) or harmful (wear and tear).",
+        "Muscular force: produced by muscles of humans and animals.",
+        "Magnetic force: attraction or repulsion between magnets or between magnet and magnetic material.",
+        "Contact vs non-contact forces: contact forces require touching (friction, tension, normal force), non-contact do not (gravitational, magnetic, electrostatic)."
+      ]},
+      {"Balanced and Unbalanced Forces": [
+        "Balanced forces: equal and opposite forces on an object; net force is zero, no change in motion (object at rest or in uniform motion).",
+        "Unbalanced forces: net force is not zero; can change speed or direction of motion.",
+        "Examples: tug-of-war with equal teams (balanced) vs one stronger team (unbalanced)."
+      ]},
+      {"Pressure Basics": [
+        "Pressure = Force / Area; greater force or smaller area → greater pressure.",
+        "Applications: knife edges are sharp (small area → greater pressure), camel’s broad feet exert less pressure on sand.",
+        "Wider schoolbag straps reduce pressure on shoulders; high-heeled shoes exert more pressure than flat shoes."
+      ]},
+      {"Atmospheric Pressure": [
+        "Air has weight; the atmosphere exerts pressure on all surfaces, called atmospheric pressure.",
+        "Examples: drinking through a straw (liquid rises because air pressure on outside is greater than inside straw), suction cups.",
+        "Basic idea of altitude: atmospheric pressure decreases with height; effect on boiling point and difficulty in breathing on high mountains."
+      ]},
+      {"Pressure in Fluids": [
+        "Liquids exert pressure in all directions; pressure increases with depth in a fluid (water tank holes experiment).",
+        "Deep-sea pressure is very high, so submarines and deep-sea divers require special design.",
+        "Dams are built thicker at the bottom because water pressure is greatest at greater depths."
+      ]},
+      {"Friction: Types and Control": [
+        "Static, sliding, and rolling friction: static friction prevents motion, sliding friction acts during sliding, rolling friction is usually smallest.",
+        "Useful friction: walking, writing, holding objects; harmful friction: wear of machine parts, energy loss as heat.",
+        "Reducing friction: lubrication (oil, grease), ball bearings, smooth surfaces, streamlining shapes."
+      ]},
+      {"Hands-on Activities": [
+        "Compare friction by dragging objects over different surfaces (rough vs smooth); record force needed (qualitatively).",
+        "Balloon–straw demo to show action–reaction and pressure in air.",
+        "Press thumb on clay vs plate to feel how area changes pressure; relate to pressure formula."
+      ]}
     ]},
     {"Chapter 7 (Sound)": [
-      {"Wave Nature": ["Sound waves, Pitch, Loudness"]},
-      {"Experiments": ["Vibrations, Resonance"]}
+      {"Wave Nature of Sound": [
+        "Sound is a form of energy that travels as longitudinal waves through a medium (air, water, solids).",
+        "It needs a medium; sound cannot travel in vacuum (space is silent).",
+        "Vibration (back-and-forth motion) of an object produces sound, e.g., stretched rubber band, tuning fork."
+      ]},
+      {"Characteristics: Pitch, Loudness and Quality": [
+        "Pitch depends on frequency: higher frequency → higher pitch (shrill sound); lower frequency → lower pitch (deep sound).",
+        "Loudness depends on amplitude of vibration: larger amplitude → louder sound.",
+        "Quality (timbre) helps distinguish sounds of different instruments even at same pitch and loudness."
+      ]},
+      {"Propagation and Speed of Sound": [
+        "Sound travels fastest in solids, slower in liquids, slowest in gases (qualitative).",
+        "Typical speed in air ~ 340 m/s at room temperature (no derivation).",
+        "Echo concept: sound reflecting from distant surfaces, heard after a delay."
+      ]},
+      {"Experiments and Activities": [
+        "Use rubber band, scale on desk, or drum skin to see vibration and feel sound production.",
+        "Resonance idea: matching frequency of forcing with natural frequency to increase amplitude (simple demo with swing or tuning forks).",
+        "Listening through solids (ear on table when tapping it) to feel different speeds."
+      ]}
     ]},
     {"Chapter 8 (Heat and Temperature)": [
-      {"Measurements": ["Temperature"]},
-      {"Heat Transfer": ["Conduction, Convection, Radiation"]},
-      {"Examples": ["Everyday life illustrations"]}
+      {"Concept of Temperature and Heat": [
+        "Temperature indicates how hot or cold a body is; measured with thermometer (°C, K).",
+        "Heat is energy transferred due to temperature difference; flows from hotter to colder body.",
+        "Objects at same temperature are in thermal equilibrium (no net heat flow)."
+      ]},
+      {"Measurement of Temperature": [
+        "Common thermometers: clinical, laboratory; basic structure and range.",
+        "Fixed points: ice point and steam point; Celsius scale intervals.",
+        "Simple conversion °C ↔ K (Kelvin) for higher levels (optional mention)."
+      ]},
+      {"Heat Transfer Modes": [
+        "Conduction: heat transfer in solids without movement of particles; metal spoon getting hot in a hot liquid.",
+        "Convection: heat transfer in liquids and gases through bulk movement; boiling water, sea breeze and land breeze.",
+        "Radiation: heat transfer without medium, via electromagnetic waves; warmth from Sun, feeling heat near a fire."
+      ]},
+      {"Everyday Life Examples": [
+        "Cooking, use of insulators (woolen clothes, thermos flask), design of houses in hot and cold regions.",
+        "Dark vs light colored clothes in summer and winter; sun-facing windows for warmth in cold areas."
+      ]}
     ]},
     {"Chapter 9 (Magnetism)": [
-      {"Fields & Poles": ["Magnetic fields, Magnet poles"]},
-      {"Earth Magnetism": ["Earth as a magnet"]},
-      {"Practical Activities": ["Experiments with magnets"]}
+      {"Magnetic Poles and Fields": [
+        "Magnets have two poles: north and south; like poles repel, unlike poles attract.",
+        "Magnetic field: region around a magnet where magnetic effects can be felt; represented by field lines from north to south outside magnet.",
+        "Field lines are closer where field is stronger (near poles)."
+      ]},
+      {"Earth as a Magnet": [
+        "Earth behaves like a giant magnet with magnetic north and south poles near geographic poles.",
+        "Compass needle aligns along Earth’s magnetic field, helping in navigation.",
+        "Simple idea of declination (difference between magnetic and geographic north) as awareness."
+      ]},
+      {"Magnetism in Everyday Life and Activities": [
+        "Uses of magnets: compasses, fridge magnets, speakers, motors, magnetic locks.",
+        "Simple experiments: making a temporary magnet by stroking, showing attraction to iron filings.",
+        "Finding directions using a bar magnet suspended freely; mapping field lines with iron filings."
+      ]}
     ]},
     {"Chapter 10 (Energy Forms and Transformations)": [
-      {"Types": ["Kinetic, Potential, Thermal"]},
-      {"Energy Laws in Physics": ["Conservation of Energy, Conservation of Mass, First and Second Laws of Thermodynamics"]}
+      {"Forms of Energy": [
+        "Kinetic energy: energy due to motion, e.g., moving car, flowing water.",
+        "Potential energy: energy due to position or configuration, e.g., raised stone, compressed spring.",
+        "Other forms: thermal (heat), chemical, electrical, light, sound, nuclear (conceptual awareness)."
+      ]},
+      {"Energy Transformations": [
+        "Examples: electric fan (electrical → kinetic), bulb (electrical → light + heat), car engine (chemical → kinetic + heat).",
+        "Food chain: chemical energy transfer from plants to animals and humans.",
+        "Simple energy flow diagrams for daily devices."
+      ]},
+      {"Energy Laws in Physics (Conceptual)": [
+        "Law of Conservation of Energy: energy cannot be created or destroyed; it only changes from one form to another.",
+        "Mass–energy connection and thermodynamics (First and Second Laws) mentioned as advanced ideas for future classes, not for calculation here.",
+        "Efficiency: not all input energy is usefully converted; some is lost as heat, sound, etc."
+      ]}
     ]},
     {"Chapter 11 (Newton's Laws of Motion)": [
-      {"Inertia": ["Meaning of inertia", "Coin-card-glass activity", "Types: inertia of rest, motion, direction"]},
-      {"First Law": ["Object stays at rest or in uniform motion unless force acts", "Examples: bus start/stop, bike skidding"]},
-      {"Second Law": ["F = m × a (simple use)", "Effect of mass and force on acceleration", "Throwing small vs big stone"]},
-      {"Third Law": ["Every action has equal and opposite reaction", "Balloon rocket demo", "Walking and recoil examples"]},
-      {"Momentum": ["Momentum = m × v", "Basic idea of conservation (simple cases)"]},
-      {"Activities": ["Balloon rocket", "Rolling ball push test", "Coin inertia trick for recording"]}
+      {"Inertia and First Law": [
+        "Inertia: tendency of an object to resist change in its state of rest or uniform motion. Types: inertia of rest, motion, direction",
+        "First Law (Law of Inertia): an object remains at rest or in uniform straight-line motion unless acted upon by an unbalanced external force.",
+        "Examples: coin–card–glass activity, body jerking backward/forward when bus starts/stops suddenly."
+      ]},
+      {"Second Law: Force, Mass and Acceleration": [
+        "Second Law: force is related to rate of change of momentum; in simple form, F = m × a.",
+        "Greater force → greater acceleration; greater mass → smaller acceleration for same force.",
+        "Examples: pushing a light vs heavy object, throwing small vs big stone."
+      ]},
+      {"Third Law: Action and Reaction": [
+        "Third Law: for every action, there is an equal and opposite reaction; forces act on different bodies.",
+        "Everyday examples: walking (foot pushes ground, ground pushes foot), recoil of gun, rocket propulsion.",
+        "Balloon rocket demo illustrating action–reaction of air and balloon."
+      ]},
+      {"Momentum and Its Conservation (Simple Cases)": [
+        "Momentum = mass × velocity; indicates quantity of motion of a body.",
+        "In the absence of external force, total momentum of an isolated system remains constant (law of conservation of momentum, qualitative).",
+        "Simple examples: two skaters pushing apart, collision of carts on a smooth surface."
+      ]},
+      {"Activities": [
+        "Balloon rocket along a string, observing action–reaction.",
+        "Rolling ball push test: compare effects of same push on light and heavy balls.",
+        "Coin inertia trick (coin on card above glass) and other inertia demonstrations."
+      ]}
     ]},
   ],
+
   "⚗️ Chemistry": [
     {"Chapter 1 (Physical and Chemical Changes)": [
       {"Experiments": ["Differentiating types of changes"]}
@@ -941,11 +1167,11 @@ Object.assign(window.curriculumData, {
       {"Analysis": ["Examples, religion, science, media"]}
     ]},
     {"Chapter 6 (Scientific Temperament and Blind Faith)": [
-      {"Introduction" : ["Why this chapter- In our and nearby villages, we see it is very common that women get possessed, and they roam around seeking cures from tantriks, babas, and maulvis, etc.- it is mainly due to lack of awareness and lack of education", "What is Rationality- In philosophy, rationality is the quality of being guided by or based on reason, involving the use of logical thinking, evidence, and coherent principles to form beliefs and make decisions, allows questioning", "What is Scientific Temperament- Habit of questioning and reasoning, Accepting ideas based on evidence, not authority, Willingness to change belief with new evidence, Core values: curiosity, skepticism, empathy", "Blind Faith- belief without questioning, depends on fear and authority"]},
-      {"Brain as the Control Center": ["Brain controls thoughts, emotions, actions, Brain predicts reality before reacting, Body follows brain expectations, Perception is constructed not passive, nervous poop", "Brain–Body Communication Systems- Central Nervous System (brain, spinal cord), Autonomic Nervous System controls involuntary actions- Sympathetic system: fight or flight, Parasympathetic system: rest and repair", "Dissociation, Trance state, Psychogenic illness, Cognitive Biases to Know: Confirmation bias, Authority bias, Herd behavior, Suggestibility"]},
+      {"Introduction" : ["Why this chapter- In our and nearby villages, we see it is very common that women get possessed, and they roam around seeking cures from tantriks, babas, and maulvis, etc.- it is mainly due to lack of awareness and lack of education", "What is Rationality- In philosophy, rationality is the quality of being guided by or based on reason, involving the use of logical thinking, evidence, and coherent principles to form beliefs and make decisions, allows questioning", "What is Scientific Temperament- Habit of questioning and reasoning, Accepting ideas based on evidence, not authority, Willingness to change belief with new evidence, Core values: curiosity, skepticism, empathy", "Blind Faith- belief without questioning, depends on fear and authority", "Perceptual Disturbance/Disorder: A broad term for any disruption in processing sensory information", "Types of Hallucinations- Auditory Hallucinations: Hearing sounds or voices that aren't present, Visual Hallucinations: Seeing images or objects that aren't real, Tactile Hallucinations: Feeling sensations on the skin that have no physical cause, Somatic Hallucinations: Experiencing false bodily sensations, such as internal organs being damaged, Olfactory Hallucinations: Smelling odors that aren't there, Gustatory Hallucinations: Tasting flavors without any actual source"],},
+      {"Brain as the Control Center": ["Brain controls thoughts, emotions, actions, Brain predicts reality before reacting, Body follows brain expectations, Perception is constructed not passive, nervous poop", "Brain–Body Communication Systems- Central Nervous System (brain, spinal cord), Autonomic Nervous System controls involuntary actions- Sympathetic system: fight or flight, Parasympathetic system: rest and repair", "Dissociation- A mental detachment from thoughts, identity, or surroundings. Example: Feeling like you're watching yourself in a movie after a car accident, Trance state- A type of dissociation with narrowed awareness and involuntary behaviors, often culturally influenced. Example: Entering a motionless, unresponsive state during a religious ritual, snapping out with no memory, Psychogenic illness, Illusion: A misinterpretation or distortion of a real external stimulus. Delusion: A fixed, false belief that persists despite contradictory evidence. Agnosia: The inability to recognize or interpret sensory information despite intact senses (e.g., visual agnosia). Pseudohallucination: A vivid sensory experience that the individual recognizes as not being real.", "Cognitive Biases to Know: Confirmation bias, Authority bias, Herd behavior, Suggestibility", "Placebo and Nocebo Effects- Placebo: positive belief causes healing, Nocebo: negative belief causes harm, Real physical change without real treatment, Belief can heal or harm"]},
       {"Belief Influencing Body Responses": ["Belief alters heart rate and blood pressure, Fear suppresses immunity and digestion, Hope reduces pain and stress, Mind and body are deeply connected", "Placebo and Nocebo Effects- Placebo: positive belief causes healing, Nocebo: negative belief causes harm, Real physical change without real treatment, Belief can heal or harm", "Stress, Fear, and Sudden Health Events- Extreme fear activates stress response","Sudden rise in BP and heart rate, May cause heart attack or brain hemorrhage, Belief of death itself can be fatal", "Sudden Death Due to Fear (Monitor Lizard Example)- Monitor lizard is not venomous But the myth is strong, When bitten, person believes “I will die”, Brain reaction: Extreme fear → sympathetic nervous system overload, Sudden rise in Heart rate, Blood pressure. Possible outcomes: Heart attack, Stroke, Brain hemorrhage, Shock", "Terminology:", " Psychogenic death- The condition was first studied by physiologist Walter Cannon in 1942, who observed that extreme fear could cause fatal physical deterioration", "Stress-induced cardiomyopathy- (also called takotsubo cardiomyopathy or broken heart syndrome). This occurs when intense emotional or physical stress causes rapid weakening of the heart muscle, particularly the left ventricle. High levels of stress hormones like adrenaline can constrict blood vessels, reduce blood flow to the heart, and cause the heart's pumping chamber to expand abnormally. Unlike psychogenic death, most cases of stress-induced cardiomyopathy are reversible with proper medical care, and the heart typically recovers within weeks to months.", "Acute stress response(ASR)- also called psychological shock or acute stress disorder (ASD), is a psychological response to a terrifying, traumatic, or surprising experience. It's a normal reaction to abnormal circumstances and typically resolves quickly once the stressor is removed."]},
-      {"Possession Explained Scientifically": ["Occurs under stress and fear, High suggestibility and low critical thinking, Dissociation and trance states, Behavior follows cultural expectations, Possession is mainly seen in women it may be due to historical torture or lack of education with respect to men due to patriarchy society, Possession Gives No New Knowledge- Only known languages are spoken, No new science or facts appear, Brain reuses stored memory, Experience is internally constructed", "Scientific Thinking as Protection- Awareness of mind-body link, Question extraordinary claims, Seek evidence, Understand cultural influences, Scientific temperament protects from exploitation", "how ghost transfer from on person to another- When a person is possessed, others around may feel anxious or fearful, increasing their suggestibility. If they are already stressed or vulnerable, they may be more likely to experience similar symptoms, leading to a chain reaction of possession-like experiences.", "How to protect ourself if we feel something like it- try to do something you are interested in, try to think something else, try to talk to someone you trust(Warning: Don't talk about possesstion at all), if possesion like symptoms persist- seek medical help"]},
-      {"Role of Culture and Social Conditioning": ["Gods and ghosts appear culturally familiar, Beliefs spread through stories, Herd behavior strengthens belief, Social validation replaces evidence"]},
+      {"Possession Explained Scientifically": ["Occurs under stress and fear, High suggestibility and low critical thinking, Dissociation and trance states, Behavior follows cultural expectations, Possession is mainly seen in women it may be due to historical torture or lack of education with respect to men due to patriarchy society, Possession Gives No New Knowledge- Only known languages are spoken, No new science or facts appear, Brain reuses stored memory, Experience is internally constructed", "Scientific Thinking as Protection- Awareness of mind-body link, Question extraordinary claims, Seek evidence, Understand cultural influences, Scientific temperament protects from exploitation", "how ghost transfer from on person to another- When a person is possessed, others around may feel anxious or fearful, increasing their suggestibility. If they are already stressed or vulnerable, they may be more likely to experience similar symptoms, leading to a chain reaction of possession-like experiences.", "How to protect ourself if we feel something like it- try to do something you are interested in, try to think something else, try to talk to someone you trust(Warning: Don't talk about possesstion at all), if possesion like symptoms persist- seek medical help", "possession-like experiences can occur due to a nocebo effect and that healing can result from a placebo effect"]},
+      {"Role of Culture and Social Conditioning": ["Gods and ghosts appear culturally familiar, Beliefs spread through stories, Herd behavior strengthens belief, Social validation replaces evidence", "Voodoo death- also known as psychogenic death or hex death, describes the phenomenon of sudden death in otherwise healthy individuals who believe they are cursed or doomed to die. This belief can lead to extreme stress and physiological changes in the body, such as increased heart rate and blood pressure, which can ultimately result in fatal outcomes like heart attack or stroke. The power of belief and suggestion plays a crucial role in this phenomenon, demonstrating how deeply the mind can influence physical health. Real life examples- The Maori Woman and the Taboo Fruit: A woman in New Zealand ate fruit from a forbidden place, violating a chief's edict. Upon learning of her transgression, she became convinced she was cursed and died within a day. The African Man and the Wild Hen: A young man accidentally ate a wild hen, which was a cultural taboo punishable by death. Overcome by panic and a sense of helplessness, he died within a day. The Case of Sam Shoeman: A patient in Tennessee was mistakenly told he had terminal cancer and only months to live. His sole goal was to survive until Christmas. He passed the holiday but died within 24 hours of New Year's Day. An autopsy revealed the diagnosis was wrong, and he did not have a fatal illness. His death was attributed to his belief in his impending doom (a nocebo effect). Korean War Prisoners (Give-up-itis): Young, healthy American prisoners of war in Chinese camps during the Korean War sometimes succumbed to a similar phenomenon. After intense psychological abuse and brainwashing, they would become uncommunicative, stop eating, and die within days. Fellow prisoners described this as give-up — it is. The Australian Pointing the Bone Ritual: A man named Rob, working at a mission, became gravely ill after a witch doctor, Nebo, pointed a bone at him, a ritual believed to cause death. When the missionary and a doctor confronted Nebo, who then claimed it was a mere joke and the bone was never pointed, Rob recovered almost instantly and returned to work that evening"]},
       {"Rituals, Healers, and Temporary Relief": ["Authority reduces anxiety, Ritual calms the brain, Parasympathetic system activates, Relief is real, explanation is false", "God or ghost travel at supersonic speed is it possible? like if one person is possessed here a bhagat/baba/molvi catch or call the ghost sitting hundreds of kilometer far from patient within seconds"]},
       {"Exploitation Through Blind Faith": ["touching highway, drinking AC water as divine", "Fear increases vulnerability","Authority bias blocks questioning","Repeated rituals create dependency","Exploitation feeds on vulnerability", "Why do elites rarely suffer consequences of religious conflict?", "Who profits from blind faith?", "Why many poor people in India convert to christianity- they give financial support, education and medical facilities- what does it indicate?", "Poor people: Need food, safety, education, medical help Faith is often secondary to survival, Rich people: Use religion for: Social identity, Politics, Business networking, Middle class(except some intellectuals): Has fear of falling down, Has hope of moving up, Most vulnerable to promises of divine reward, punishment, status", "Religion is a kind of intoxicant for the middle class- It gives them a feeling of superiority. also Karl Marx's considered religion as opium for the people.", "“If a belief cannot survive a question, it does not deserve obedience”"]},
       {"Religion as Idea vs Institution": ["Most religions started with ethical values, compassion, and social order, Institutions seek power and money, Original values get diluted, Questioning institutions is not anti-ethics", "Religion, Identity, and Violence- Belief turns into identity conflict, Us vs them thinking dominates, Violence driven by fear and power, Human dignity above identity"]},
@@ -953,7 +1179,7 @@ Object.assign(window.curriculumData, {
       {"Ethical Conclusion": ["Belief must reduce suffering, If belief spreads hate- it fails, Scientific temperament strengthens humanity, Thinking is moral responsibility", "Today mostly blind faith is due to religion which lost their very initial Idea of peacefulness and turned into business nowadays", "Exploitation succeeds not because people are stupid, but because they are vulnerable", "If belief requires fear to survive, is it belief or control?"]},
       {"Classroom Activities": ["Analyze belief-based incidents","Identify placebo/nocebo cases","Discuss relief vs truth","Encourage respectful questioning"]},
       {"Homework: Questions to Think Deeply": ["Why does a possessed person speak only the language they already know?", "If the same deity appears in different regions, why does it always follow local language and culture?", "Does molvi/padri/bhagat has any type of contract with god or ghost?", "If a god knows all languages, why has no possessed person ever spoken a completely new language?", "Why do possession and supernatural experiences mostly occur to believers and not atheists?", "Why are fear-based beliefs stronger during illness, stress, or personal crisis?", "If belief can heal (placebo), can belief also harm or kill (nocebo)?", "Why do rituals give temporary relief even when the explanation is false?", "Why do supernatural events stop appearing under scientific observation or medical supervision?", "Why do ghosts and gods always wear familiar clothes and follow cultural rules?", "If a human threatens the Sun or Moon, we call it madness, but if a divine figure eat sun or broke moon into parts we call it divine power- Why?- Does Religion brain wash us to accept wrong as right?", "Should actions be judged by who performs them or by their consequences?", "Why do repeated stories feel true even without evidence?", "Who benefits when people believe without questioning?", "Is questioning belief disrespectful, or is it a form of responsibility?", "Can morality exist without fear of divine punishment?", "If belief increases violence or hatred, should it still be protected?", "What is more important: preserving belief or protecting human life?", "If fear can command the brain to harm the body, how can awareness protect us?", "What is the difference between emotional relief and factual truth?", "If an idea cannot survive a question, does it deserve obedience?", "Once Dr. B. R. Ambedkar said- Religion are for human, human are not for Religion- what does it mean"]},
-      {"Future Topics": ["Famous Reincarnation Cases"]},
+      {"Future Topics": ["Why Reincarnation Cases exist?", "How to scientifically test supernatural claims?", "Psychology of mass hysteria and collective beliefs"]},
     ]},
     {"Chapter 7 (Social Reformers)": [
       {"Indian Social Reformers": ["Raja Ram Mohan Roy, Savitribai Phule, Mahatma Gandhi, Dr. B. R. Ambedkar, Jyotirao Phule, Periyar E. V. Ramasamy, Ishwar Chandra Vidyasagar, Pandita Ramabai, Swami Vivekananda, Baba Amte, Tarabai Shinde, Swami Dayanand Saraswati, Vinoba Bhave, Ishwarbhai Patel, Darshan Ratan Ravan, Kandukuri Veeresalingam, Gopal Krishna Gokhale, Sarojini Naidu, Rabindranath Tagore, Ram Manohar Lohia, Annie Besant, Narayana Guru"]},
@@ -1237,20 +1463,44 @@ Object.assign(window.curriculumData, {
     ]}
   ],
   "🔬 Physics": [
-    {"Chapter 1 (Units and Dimensions)": [
-      {"Measurement": ["Unit conversions, Dimensional analysis"]},
-      {"Errors": ["Types and handling errors"]}
+    {"Chapter 1 (Measurement and Errors)": [
+      {"What is Measurement": [
+        "Measurement is the process of comparing an unknown physical quantity with a known standard (unit) to assign a numerical value and unit, e.g., 2 m, 5 s, 3 kg.",
+        "Every measurement has three parts: the physical quantity (what is measured), the numerical value (how many), and the unit (standard of comparison).", "No measurement is perfectly exact; it always has some uncertainty due to limitations of instruments, observers, and environment.", "Measurement = comparison with a standard unit", "Why no measurement is perfectly exact", "Difference between true value and measured value"]},
+      {"Types of Physical Quantities and Instruments": [
+      "Scalar quantities have magnitude only (e.g., length, mass, time, temperature), while vector quantities have both magnitude and direction (e.g., displacement, velocity, force).",
+      "Common measuring instruments: meter scale, vernier caliper, screw gauge, stopwatch, thermometer, weighing balance, voltmeter, ammeter, each with its own least count and limitations.",
+      "Choice of instrument depends on required accuracy and range, e.g., meter scale for rough measurement, vernier/screw gauge for precise measurement of small lengths."
+      ]},
+      {"Accuracy, Precision and Least Count": [
+      "Accuracy describes how close a measured value is to the true or accepted value; precision describes how close repeated measurements are to each other (repeatability).", "Need for Accuracy and Precision: Accuracy: closeness to true value, Precision: repeatability of measurement, High precision does not always mean high accuracy, Target-shooting analogy",
+      "Example: Readings 4.9 cm, 5.0 cm, 5.1 cm are precise (clustered) but may or may not be accurate depending on the true value (say 5.0 cm).",
+      "Least count of an instrument is the smallest value that it can measure, e.g., a ruler with 1 mm division has least count 0.1 cm; smaller least count usually means higher precision."
+      ]},
+      {"Types of Errors": ["Systematic errors: zero error, calibration error, instrumental error", "Random errors: unpredictable variations", "Personal errors: reaction time, parallax"]},
+      {"Least Count of Instruments": ["Least count = smallest value an instrument can measure", "Least count of scale, vernier caliper, screw gauge", "Why smaller least count gives better precision"]},
+      {"Parallax Error": ["Error due to wrong eye position", "Common in scale readings", "How to avoid: eye perpendicular to scale"]},
+      {"Absolute, Relative and Percentage Error": ["Absolute error = |measured value − true value|", "Relative error = absolute error / true value", "Percentage error = relative error × 100", "Why relative error matters more than absolute error"]},
+      {"Error Propagation": ["Addition/Subtraction: absolute errors add", "Multiplication/Division: relative errors add", "Power law: error multiplies by power", "Example: error in area, volume"]},
+      {"Significant Figures": ["Meaning of significant figures", "Rules for counting significant figures", "Why all digits are not meaningful", "Rounding off based on significant figures"]},
+      {"Reporting a Measurement": ["Correct way: value ± error", "Units must be written", "Do not over-report digits", "Scientific notation for large/small values"]},
+      {"Common Misconceptions": ["More digits ≠ more accuracy", "Exact numbers vs measured numbers", "Zero error does not mean zero mistake"]},
+      {"Applications and Reality Check": ["Errors in experiments", "Errors in engineering and construction", "Why safety margins exist", "Connection with real-life failures"]},
+      {"Home Work": ["Measure the length of a table or notebook multiple times using a ruler; find mean value, absolute error, relative error and percentage error; comment on accuracy and precision.",
+      "Identify at least three sources of systematic error and three sources of random error in everyday measurements like weighing vegetables, checking temperature, or using a clock.",
+      "Take data from a simple physics experiment (e.g., measuring time period of a pendulum) and practice propagation of errors for T, T^2 and g (if introduced at this level).",
+      "Rewrite at least five measured results from your previous experiments using proper significant figures and ± error notation.", "Measure length using two instruments and compare errors", "Find least count of a ruler and scale", "Calculate percentage error in time measurement", "Identify type of error in daily activities"]}
     ]},
     {"Chapter 2 (Heat and Temperature)": [
       {"Introduction": ["Heat and temperature"]},
       {"Black Body Radiation": ["Black bodies absorb all radiation (absorptivity = 1) regardless of temperature; this is a defining property.",
-    "They emit radiation based on their own temperature via T^4 (Stefan–Boltzmann law), not the environment’s.",
-    "At room temperature (for example, 25°C or about 300 K), they emit mainly infrared radiation, not visible light, so they appear black.",
-    "When heated to high temperatures, they glow in visible colours (red, then white, then blue), showing emission increases with temperature.",
-    "Absorbed power depends on the environment’s temperature and incident radiation, while emitted power depends on the object’s temperature.",
-    "If T_object is much less than T_environment, the body absorbs more energy than it emits, so it gains energy and heats up.",
-    "Energy does not accumulate without limit; in thermal equilibrium, absorption and emission rates are equal.",
-    "The key distinction: perfect absorption (a material property) is temperature independent, but radiation exchange (energy flow) depends on both object and environment temperatures."]},
+        "They emit radiation based on their own temperature via T^4 (Stefan–Boltzmann law), not the environment’s.",
+        "At room temperature (for example, 25°C or about 300 K), they emit mainly infrared radiation, not visible light, so they appear black.",
+        "When heated to high temperatures, they glow in visible colours (red, then white, then blue), showing emission increases with temperature.",
+        "Absorbed power depends on the environment’s temperature and incident radiation, while emitted power depends on the object’s temperature.",
+        "If T_object is much less than T_environment, the body absorbs more energy than it emits, so it gains energy and heats up.",
+        "Energy does not accumulate without limit; in thermal equilibrium, absorption and emission rates are equal.",
+        "The key distinction: perfect absorption (a material property) is temperature independent, but radiation exchange (energy flow) depends on both object and environment temperatures."]},
       {"Measurement": ["Scales and real-life applications"]}
     ]},
     {"Chapter 3 (Light)": [
