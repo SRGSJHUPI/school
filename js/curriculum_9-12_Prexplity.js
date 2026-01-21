@@ -1056,6 +1056,9 @@ Object.assign(window.curriculumData, {
   ],
 
   "🌱 Moral Values & Ethics": [
+    {"General": [
+      {"books": ["talking with psychopaths and savages beyond evil, the art of persuation, the laws of human nature"]},
+    ]},
     {"Chapter 1 (Integrated Ethics Project)": [
       {"Topics": ["AI ethics", "Neuroethics", "Eco-justice", "Bioethics", "Global conflicts (Palestine, racism, BLM)"]},
       {"Activities": ["Debate, research paper, presentation"]}
