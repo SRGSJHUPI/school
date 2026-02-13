@@ -747,30 +747,40 @@ Object.assign(window.curriculumData, {
         "Draw neat circuit diagrams corresponding to actual connections."
       ]}
     ]},
-    {"Chapter 6 (Force and Pressure)": [
-      {"Vector Multiplication (Dot and Cross Product – Concept Only)": [
-        "Dot product: relates to how much of one vector lies along another; in physics, used to find effective component of a force in a particular direction (e.g., sunlight on a tilted surface).",
-        "Rays falling on surface inclined at angle, what to do if we want max effect on the surface- either align surface perpendicular to rays or align rays perpendicular to surface.",
-        "Cross product: relates to turning effect or rotation produced by force; used in torque and angular momentum concepts.",
-        "To get maximum torque, apply force perpendicular to the line from pivot to point of application (maximum “lever arm”)."
-      ]},
+    {"Chapter 6 (Force)": [
       {"Introduction to Force": [
-        "Force is a push or pull that can change the state of motion or shape of an object.",
+        "Force is a push or pull that can change the state of motion or shape of an object. it is a vector quantity: has magnitude and direction",
+        "Fundamental Forces in Nature - Gravitational force: attraction between masses, Electromagnetic force: electric and magnetic interactions, Strong nuclear force: binds nucleus together, Weak nuclear force: responsible for radioactive decay, Only gravity and electromagnetic force appear in daily life",
+        "Forces can act through contact or touching called contact force (push, pull, friction, tension, normal force) or at a distance called non-contact force (gravity, magnetic, electrostatic), Field concept: forces act through fields",
         "Effects of force: can start or stop motion, change speed, change direction, or deform objects.",
-        "Forces can act through contact (push, pull, friction) or at a distance (gravity, magnetism)."
+        "Balanced and Unbalanced Forces- Balanced forces: equal and opposite forces on an object; net force is zero, no change in motion (object at rest or in uniform motion), Unbalanced forces: net force is not zero; can change speed or direction of motion",
+        "Net Force and Superposition - Net force is vector sum of all forces acting on an object, Forces add according to direction, Multiple forces can act simultaneously",
+        "Connection with Pressure - Pressure = Force / Area, Same force on smaller area gives higher pressure, Applications: knife, needle, camel feet"
       ]},
       {"Types of Forces": [
         "Gravitational force: attraction between masses; responsible for weight and falling of objects.",
         "Frictional force: opposes motion between surfaces in contact; can be useful (walking, braking) or harmful (wear and tear).",
-        "Muscular force: produced by muscles of humans and animals.",
+        "Muscular force: produced by muscles of humans and animals. Applied Force or External force, ",
         "Magnetic force: attraction or repulsion between magnets or between magnet and magnetic material.",
-        "Contact vs non-contact forces: contact forces require touching (friction, tension, normal force), non-contact do not (gravitational, magnetic, electrostatic)."
+        "Other forces: Normal force- acted normally, Tension force, Spring force, Drag force, etc."
       ]},
-      {"Balanced and Unbalanced Forces": [
-        "Balanced forces: equal and opposite forces on an object; net force is zero, no change in motion (object at rest or in uniform motion).",
-        "Unbalanced forces: net force is not zero; can change speed or direction of motion.",
-        "Examples: tug-of-war with equal teams (balanced) vs one stronger team (unbalanced)."
+      {"Gravitation Force": [
+        "Acts between all masses, Acts along line joining centers of masses, Weight = gravitational force by Earth, Mass vs weight distinction, Gravity always attractive",
+        "Examples: Planets revolving."
       ]},
+      {"Friction Force": [
+        "Friction opposes relative motion between surfaces in contact, Direction of friction opposite to motion or attempted motion, Depends on nature of surfaces and normal force",
+        "Types- Static, sliding, and rolling friction: static friction prevents motion, sliding friction acts during sliding, rolling friction is usually smallest. Fluid friction (drag): force by air or water",
+        "Useful friction: walking, writing, holding objects; harmful friction: wear of machine parts, energy loss as heat.",
+        "Reducing friction: lubrication (oil, grease), ball bearings, smooth surfaces, streamlining shapes."
+      ]},
+      {"Hands-on Activities": [
+        "Compare friction by dragging objects over different surfaces (rough vs smooth); record force needed (qualitatively).",
+        "Balloon–straw demo to show action–reaction and pressure in air.",
+        "Press thumb on clay vs plate to feel how area changes pressure; relate to pressure formula."
+      ]}
+    ]},
+    {"Chapter 7 (Pressure)": [
       {"Pressure Basics": [
         "Pressure = Force / Area; greater force or smaller area → greater pressure.",
         "Applications: knife edges are sharp (small area → greater pressure), camel’s broad feet exert less pressure on sand.",
@@ -786,18 +796,8 @@ Object.assign(window.curriculumData, {
         "Deep-sea pressure is very high, so submarines and deep-sea divers require special design.",
         "Dams are built thicker at the bottom because water pressure is greatest at greater depths."
       ]},
-      {"Friction: Types and Control": [
-        "Static, sliding, and rolling friction: static friction prevents motion, sliding friction acts during sliding, rolling friction is usually smallest.",
-        "Useful friction: walking, writing, holding objects; harmful friction: wear of machine parts, energy loss as heat.",
-        "Reducing friction: lubrication (oil, grease), ball bearings, smooth surfaces, streamlining shapes."
-      ]},
-      {"Hands-on Activities": [
-        "Compare friction by dragging objects over different surfaces (rough vs smooth); record force needed (qualitatively).",
-        "Balloon–straw demo to show action–reaction and pressure in air.",
-        "Press thumb on clay vs plate to feel how area changes pressure; relate to pressure formula."
-      ]}
     ]},
-    {"Chapter 7 (Sound)": [
+    {"Chapter 8 (Sound)": [
       {"Wave Nature of Sound": [
         "Sound is a form of energy that travels as longitudinal waves through a medium (air, water, solids).",
         "It needs a medium; sound cannot travel in vacuum (space is silent).",
@@ -819,7 +819,7 @@ Object.assign(window.curriculumData, {
         "Listening through solids (ear on table when tapping it) to feel different speeds."
       ]}
     ]},
-    {"Chapter 8 (Heat and Temperature)": [
+    {"Chapter 9 (Heat and Temperature)": [
       {"Concept of Temperature and Heat": [
         "Temperature indicates how hot or cold a body is; measured with thermometer (°C, K).",
         "Heat is energy transferred due to temperature difference; flows from hotter to colder body.",
@@ -840,7 +840,7 @@ Object.assign(window.curriculumData, {
         "Dark vs light colored clothes in summer and winter; sun-facing windows for warmth in cold areas."
       ]}
     ]},
-    {"Chapter 9 (Magnetism)": [
+    {"Chapter 10 (Magnetism)": [
       {"Magnetic Poles and Fields": [
         "Magnets have two poles: north and south; like poles repel, unlike poles attract.",
         "Magnetic field: region around a magnet where magnetic effects can be felt; represented by field lines from north to south outside magnet.",
@@ -857,7 +857,7 @@ Object.assign(window.curriculumData, {
         "Finding directions using a bar magnet suspended freely; mapping field lines with iron filings."
       ]}
     ]},
-    {"Chapter 10 (Energy Forms and Transformations)": [
+    {"Chapter 11 (Energy Forms and Transformations)": [
       {"Forms of Energy": [
         "Kinetic energy: energy due to motion, e.g., moving car, flowing water.",
         "Potential energy: energy due to position or configuration, e.g., raised stone, compressed spring.",
@@ -874,7 +874,7 @@ Object.assign(window.curriculumData, {
         "Efficiency: not all input energy is usefully converted; some is lost as heat, sound, etc."
       ]}
     ]},
-    {"Chapter 11 (Newton's Laws of Motion)": [
+    {"Chapter 12 (Newton's Laws of Motion)": [
       {"Inertia and First Law": [
         "Inertia: tendency of an object to resist change in its state of rest or uniform motion. Types: inertia of rest, motion, direction",
         "First Law (Law of Inertia): an object remains at rest or in uniform straight-line motion unless acted upon by an unbalanced external force.",
@@ -1169,9 +1169,9 @@ Object.assign(window.curriculumData, {
       {"Analysis": ["Examples, religion, science, media"]}
     ]},
     {"Chapter 6 (Scientific Temperament and Blind Faith)": [
-      {"Introduction" : ["DISCLAIMER - This discussion is intended for educational purposes only. It aims to encourage critical thinking about beliefs and practices, not to challenge or disrespect any religion. We study religion academically, not to promote or oppose any faith, but to understand the difference between faith and blind faith in a rational, inclusive manner. This session complies with Articles 19 (freedom of speech), 25 (freedom of religion), and 28 (prohibition of religious instruction in state-funded institutions) of the Indian Constitution",
-      "In many rural and semi-rural regions, including our own and nearby villages, it is commonly observed that individuals, especially women, experience episodes described as spirit possession or supernatural influence. These individuals often seek relief through faith healers, tantriks, babas, maulvis, and similar intermediaries rather than through medical or psychological support. Such experiences are not a reflection of personal weakness or moral failure. They arise primarily from a combination of limited awareness, lack of access to scientific education, social pressure, emotional stress, and deeply rooted cultural beliefs. In environments where medical and psychological explanations are unfamiliar or inaccessible, supernatural interpretations become the most available framework for understanding distress. Education, however, must extend beyond memorizing textbooks or reproducing answers in examinations. True education develops the ability to understand human behavior, social conditioning, fear, belief systems, and the functioning of the human brain. Without this understanding, individuals remain vulnerable to exploitation, even if they are formally literate. This chapter is included to cultivate scientific temperament and critical thinking, enabling students to distinguish between emotional experience and factual explanation. By understanding how belief, stress, and social influence interact with the brain and body, students can develop empathy for affected individuals while resisting blind faith and harmful practices. The purpose of this chapter is not to attack any belief system, but to protect human dignity, promote awareness, and encourage reasoned thinking. An informed mind is the strongest safeguard against fear-based exploitation and social harm.", "What is Rationality- In philosophy, rationality is the quality of being guided by or based on reason, involving the use of logical thinking, evidence, and coherent principles to form beliefs and make decisions, allows questioning",
-      "What is Scientific Temperament- Habit of questioning and reasoning, Accepting ideas based on evidence, not authority, Willingness to change belief with new evidence, Core values: curiosity, skepticism, empathy", "Blind Faith- belief without questioning, depends on fear and authority", "Perceptual Disturbance/Disorder: A broad term for any disruption in processing sensory information", "Types of Hallucinations- Auditory Hallucinations: Hearing sounds or voices that aren't present, Visual Hallucinations: Seeing images or objects that aren't real, Tactile Hallucinations: Feeling sensations on the skin that have no physical cause, Somatic Hallucinations: Experiencing false bodily sensations, such as internal organs being damaged, Olfactory Hallucinations: Smelling odors that aren't there, Gustatory Hallucinations: Tasting flavors without any actual source"]},
+      {"Introduction" : ["DISCLAIMER :- This discussion is intended for educational purposes only. It aims to encourage critical thinking about beliefs and practices, not to challenge or disrespect any religion. We study religion academically, not to promote or oppose any faith, but to understand the difference between faith and blind faith in a rational, inclusive manner. This session complies with Articles 19 (freedom of speech), 25 (freedom of religion), and 28 (prohibition of religious instruction in state-funded institutions) of the Indian Constitution",
+      "WHY THIS CHAPTER :- In many rural and semi-rural regions, including our own and nearby villages, it is commonly observed that individuals, especially women, experience episodes described as spirit possession or supernatural influence. These individuals often seek relief through faith healers, tantriks, babas, maulvis, and similar intermediaries rather than through medical or psychological support. Such experiences are not a reflection of personal weakness or moral failure. They arise primarily from a combination of limited awareness, lack of access to scientific education, social pressure, emotional stress, and deeply rooted cultural beliefs. In environments where medical and psychological explanations are unfamiliar or inaccessible, supernatural interpretations become the most available framework for understanding distress. Education, however, must extend beyond memorizing textbooks or reproducing answers in examinations. True education develops the ability to understand human behavior, social conditioning, fear, belief systems, and the functioning of the human brain. Without this understanding, individuals remain vulnerable to exploitation, even if they are formally literate. This chapter is included to cultivate scientific temperament and critical thinking, enabling students to distinguish between emotional experience and factual explanation. By understanding how belief, stress, and social influence interact with the brain and body, students can develop empathy for affected individuals while resisting blind faith and harmful practices. The purpose of this chapter is not to attack any belief system, but to protect human dignity, promote awareness, and encourage reasoned thinking. An informed mind is the strongest safeguard against fear-based exploitation and social harm.", "WHAT IS RATIONALITY- In philosophy, rationality is the quality of being guided by or based on reason, involving the use of logical thinking, evidence, and coherent principles to form beliefs and make decisions, allows questioning",
+      "WHAT IS SCIENTIFIC TEMPERAMENT :- Habit of questioning and reasoning, Accepting ideas based on evidence, not authority, Willingness to change belief with new evidence, Core values: curiosity, skepticism, empathy", "Blind Faith- belief without questioning, depends on fear and authority", "Perceptual Disturbance/Disorder: A broad term for any disruption in processing sensory information", "Types of Hallucinations- Auditory Hallucinations: Hearing sounds or voices that aren't present, Visual Hallucinations: Seeing images or objects that aren't real, Tactile Hallucinations: Feeling sensations on the skin that have no physical cause, Somatic Hallucinations: Experiencing false bodily sensations, such as internal organs being damaged, Olfactory Hallucinations: Smelling odors that aren't there, Gustatory Hallucinations: Tasting flavors without any actual source"]},
       {"Brain as the Control Center": ["Brain controls thoughts, emotions, actions, Brain predicts reality before reacting, Body follows brain expectations, Perception is constructed not passive, nervous poop", "Brain–Body Communication Systems- Central Nervous System (brain, spinal cord), Autonomic Nervous System controls involuntary actions- Sympathetic system: fight or flight, Parasympathetic system: rest and repair", "Dissociation- A mental detachment from thoughts, identity, or surroundings. Example: Feeling like you're watching yourself in a movie after a car accident, Trance state- A type of dissociation with narrowed awareness and involuntary behaviors, often culturally influenced. Example: Entering a motionless, unresponsive state during a religious ritual, snapping out with no memory, Psychogenic illness, Illusion: A misinterpretation or distortion of a real external stimulus. Delusion: A fixed, false belief that persists despite contradictory evidence. Agnosia: The inability to recognize or interpret sensory information despite intact senses (e.g., visual agnosia). Pseudohallucination: A vivid sensory experience that the individual recognizes as not being real.", "Cognitive Biases to Know: Confirmation bias, Authority bias, Herd behavior, Suggestibility", "Placebo and Nocebo Effects- Placebo: positive belief causes healing, Nocebo: negative belief causes harm, Real physical change without real treatment, Belief can heal or harm"]},
       {"Belief Influencing Body Responses": ["Belief alters heart rate and blood pressure, Fear suppresses immunity and digestion, Hope reduces pain and stress, Mind and body are deeply connected", "Placebo and Nocebo Effects- Placebo: positive belief causes healing, Nocebo: negative belief causes harm, Real physical change without real treatment, Belief can heal or harm", "Stress, Fear, and Sudden Health Events- Extreme fear activates stress response","Sudden rise in BP and heart rate, May cause heart attack or brain hemorrhage, Belief of death itself can be fatal", "Sudden Death Due to Fear (Monitor Lizard Example)- Monitor lizard is not venomous But the myth is strong, When bitten, person believes “I will die”, Brain reaction: Extreme fear → sympathetic nervous system overload, Sudden rise in Heart rate, Blood pressure. Possible outcomes: Heart attack, Stroke, Brain hemorrhage, Shock", "Terminology:", " Psychogenic death- The condition was first studied by physiologist Walter Cannon in 1942, who observed that extreme fear could cause fatal physical deterioration", "Stress-induced cardiomyopathy- (also called takotsubo cardiomyopathy or broken heart syndrome). This occurs when intense emotional or physical stress causes rapid weakening of the heart muscle, particularly the left ventricle. High levels of stress hormones like adrenaline can constrict blood vessels, reduce blood flow to the heart, and cause the heart's pumping chamber to expand abnormally. Unlike psychogenic death, most cases of stress-induced cardiomyopathy are reversible with proper medical care, and the heart typically recovers within weeks to months.", "Acute stress response(ASR)- also called psychological shock or acute stress disorder (ASD), is a psychological response to a terrifying, traumatic, or surprising experience. It's a normal reaction to abnormal circumstances and typically resolves quickly once the stressor is removed."]},
       {"Possession Explained Scientifically": ["Occurs under stress and fear, High suggestibility and low critical thinking, Dissociation and trance states, Behavior follows cultural expectations, Possession is mainly seen in women it may be due to historical torture or lack of education with respect to men due to patriarchy society, Possession Gives No New Knowledge- Only known languages are spoken, No new science or facts appear, Brain reuses stored memory, Experience is internally constructed", "Scientific Thinking as Protection- Awareness of mind-body link, Question extraordinary claims, Seek evidence, Understand cultural influences, Scientific temperament protects from exploitation", "how ghost transfer from on person to another- When a person is possessed, others around may feel anxious or fearful, increasing their suggestibility. If they are already stressed or vulnerable, they may be more likely to experience similar symptoms, leading to a chain reaction of possession-like experiences.", "How to protect ourself if we feel something like it- try to do something you are interested in, try to think something else, try to talk to someone you trust(Warning: Don't talk about possesstion at all), if possesion like symptoms persist- seek medical help", "possession-like experiences can occur due to a nocebo effect and that healing can result from a placebo effect"]},
@@ -1180,9 +1180,10 @@ Object.assign(window.curriculumData, {
       {"Exploitation Through Blind Faith": ["touching highway, drinking AC water as divine", "Fear increases vulnerability","Authority bias blocks questioning","Repeated rituals create dependency","Exploitation feeds on vulnerability", "Why do elites rarely suffer consequences of religious conflict?", "Who profits from blind faith?", "Why many poor people in India convert to christianity- they give financial support, education and medical facilities- what does it indicate?", "Poor people: Need food, safety, education, medical help Faith is often secondary to survival, Rich people: Use religion for: Social identity, Politics, Business networking, Middle class(except some intellectuals): Has fear of falling down, Has hope of moving up, Most vulnerable to promises of divine reward, punishment, status", "Religion is a kind of intoxicant for the middle class- It gives them a feeling of superiority. also Karl Marx's considered religion as opium for the people.", "“If a belief cannot survive a question, it does not deserve obedience”"]},
       {"Religion as Idea vs Institution": ["Most religions started with ethical values, compassion, and social order, Institutions seek power and money, Original values get diluted, Questioning institutions is not anti-ethics", "Religion, Identity, and Violence- Belief turns into identity conflict, Us vs them thinking dominates, Violence driven by fear and power, Human dignity above identity"]},
       {"Atheism, Belief, and Morality": ["Atheism removes divine authority but Morality still needs reasoning, Disbelief alone doesn’t ensure ethics, Thinking opposes blind faith", "Morality Without Religion- Ethical behavior can exist without religious belief, Empathy and reason guide morality, Secular ethics focus on human well-being, Fear of punishment is not true morality"]},
+      {"What to do?": ["BEFORE POSSESSTION :- Reduce chronic stress, slow breathing or meditation, Encourage open discussion of fear, anxiety, and emotional distress, Seek medical consultation when physical symptoms persist, Understand that fear and anxiety are biological responses, not signs of weakness, Sit or lie down in a safe place, Focus on slow, deep breathing to calm the nervous system, Avoid crowds that may increase panic, Do not jump to supernatural explanations, Seek help from a trusted family member or healthcare professional", "DURING POSSESSTION WHAT OTHER SHOULD DO :- extreme activation of the stress response and Fear of injury temporarily disappears, Do not engage in physical struggle unless unavoidable and Do not try to overpower the person alone, Remove sharp or dangerous objects (knives, sticks, fire, tools) from the area, Do not shout, threaten, restrain violently, or attack, Speak calmly and reassuringly, Avoid chanting, provoking, or reinforcing supernatural ideas, Reduce noise and crowding, Allow space while ensuring supervision, No Physical punishment or beating, don't Forcing rituals or exorcisms", "AFTER POSSESSTION :- Do not shame or mock them, Do not repeatedly retell the incident as a supernatural event, Encourage rest and hydration, Seek medical or psychological evaluation if episodes recur, Maintain a supportive, non-judgmental environment, Counseling helps reduce fear, stress, and belief reinforcement, Encourage scientific explanations over fear-based ones, Replace superstition with knowledge, not ridicule"]},
       {"Ethical Conclusion": ["Belief must reduce suffering, If belief spreads hate- it fails, Scientific temperament strengthens humanity, Thinking is moral responsibility", "Today mostly blind faith is due to religion which lost their very initial Idea of peacefulness and turned into business nowadays", "Exploitation succeeds not because people are stupid, but because they are vulnerable", "If belief requires fear to survive, is it belief or control?"]},
-      {"Classroom Activities": ["Analyze belief-based incidents","Identify placebo/nocebo cases","Discuss relief vs truth","Encourage respectful questioning"]},
-      {"Homework: Questions to Think Deeply": ["Why does a possessed person speak only the language they already know?", "If the same deity appears in different regions, why does it always follow local language and culture?", "Does molvi/padri/bhagat has any type of contract with god or ghost?", "If a god knows all languages, why has no possessed person ever spoken a completely new language?", "Why do possession and supernatural experiences mostly occur to believers and not atheists?", "Why are fear-based beliefs stronger during illness, stress, or personal crisis?", "If belief can heal (placebo), can belief also harm or kill (nocebo)?", "Why do rituals give temporary relief even when the explanation is false?", "Why do supernatural events stop appearing under scientific observation or medical supervision?", "Why do ghosts and gods always wear familiar clothes and follow cultural rules?", "If a human threatens the Sun or Moon, we call it madness, but if a divine figure eat sun or broke moon into parts we call it divine power- Why?- Does Religion brain wash us to accept wrong as right?", "Should actions be judged by who performs them or by their consequences?", "Why do repeated stories feel true even without evidence?", "Who benefits when people believe without questioning?", "Is questioning belief disrespectful, or is it a form of responsibility?", "Can morality exist without fear of divine punishment?", "If belief increases violence or hatred, should it still be protected?", "What is more important: preserving belief or protecting human life?", "If fear can command the brain to harm the body, how can awareness protect us?", "What is the difference between emotional relief and factual truth?", "If an idea cannot survive a question, does it deserve obedience?", "Once Dr. B. R. Ambedkar said- Religion are for human, human are not for Religion- what does it mean"]},
+      {"Diseases Once Considered Ghosts": ["EPILEPSY (MIRGI) :- ghost possession, anti-epileptic medicines", "TETANUS :- curse or bad omen, tetanus injection and muscle relaxants", "TUBERCULOSIS (TB) :- past life sin, anti-TB medicines (DOTS)", "SMALLPOX :- anger of goddess, vaccination and medical care", "HYSTERIA (CONVERSION DISORDER) :- ghost inside body, psychological therapy and counseling", "SLEEP PARALYSIS :- witch or ghost attack at night, sleep regulation and stress management", "FEBRILE SEIZURE (INFANT) :- evil spirit in child, fever control and medical observation", "INFANT COLIC / EXCESSIVE CRYING :- black magic or nazar, feeding correction and pediatric care"]},
+      {"Homework: Questions to Think Deeply": ["Mental slavery VS Physical slavery","Why does a possessed person speak only the language they already know?", "If the same deity appears in different regions, why does it always follow local language and culture?", "Does molvi/padri/bhagat has any type of contract with god or ghost?", "If a god knows all languages, why has no possessed person ever spoken a completely new language?", "Why do possession and supernatural experiences mostly occur to believers and not atheists?", "Why are fear-based beliefs stronger during illness, stress, or personal crisis?", "If belief can heal (placebo), can belief also harm or kill (nocebo)?", "Why do rituals give temporary relief even when the explanation is false?", "Why do supernatural events stop appearing under scientific observation or medical supervision?", "Why do ghosts and gods always wear familiar clothes and follow cultural rules?", "If a human threatens the Sun or Moon, we call it madness, but if a divine figure eat sun or broke moon into parts we call it divine power- Why?- Does Religion brain wash us to accept wrong as right?", "Should actions be judged by who performs them or by their consequences?", "Why do repeated stories feel true even without evidence?", "Who benefits when people believe without questioning?", "Is questioning belief disrespectful, or is it a form of responsibility?", "Can morality exist without fear of divine punishment?", "If belief increases violence or hatred, should it still be protected?", "What is more important: preserving belief or protecting human life?", "If fear can command the brain to harm the body, how can awareness protect us?", "What is the difference between emotional relief and factual truth?", "If an idea cannot survive a question, does it deserve obedience?", "Once Dr. B. R. Ambedkar said- Religion are for human, human are not for Religion- what does it mean", "Analyze belief-based incidents","Identify placebo/nocebo cases","Discuss relief vs truth","Encourage respectful questioning"]},
       {"Future Topics": ["Why Reincarnation Cases exist?", "How to scientifically test supernatural claims?", "Psychology of mass hysteria and collective beliefs"]},
     ]},
     {"Chapter 7 (Social Reformers)": [
@@ -1374,11 +1375,37 @@ Object.assign(window.curriculumData, {
     ]},
     {"Chapter 9 (Softwares)": [
       {"Tools": ["TinkerCAD, Arduino IDE"]}
+    ]},
+    {"Chapter 10 (Technology and Innovation)": [
+      {"What is Technology": ["Technology = application of scientific knowledge to solve problems", "Difference between science (discover) and technology (apply)", "Stone tools to smartphones as continuous evolution"]},
+      {"Evolution of Technology": ["Agricultural revolution", "Industrial revolution (steam, electricity)", "Digital revolution (computers, internet)", "AI and automation era"]},
+      {"Technology and National Power": ["Technology decides military strength, economy, health, education", "Countries with advanced technology control supply chains", "Technology creates jobs and also replaces jobs"]},
+      {"Global Technology Leaders": ["USA: AI, semiconductors, space, defense tech", "China: manufacturing, AI, 5G, batteries", "Europe: green energy, precision engineering", "Japan & South Korea: robotics, electronics", "Israel: defense, cybersecurity"]},
+      {"Key Emerging Technologies Today": ["Artificial Intelligence and Machine Learning", "Semiconductors and chip manufacturing", "Renewable energy and battery storage", "Biotechnology and genomics", "Space technology", "Quantum computing"]},
+      {"Technology Competition Between Countries": ["Race for AI dominance", "Chip war and semiconductor supply chains", "Energy independence through renewables", "Space as strategic domain", "Cybersecurity and data control"]},
+      {"India’s Current Position": ["Strong in IT services and software", "Growing startup ecosystem", "Large skilled youth population", "Dependence on imported high-end hardware", "Gap in core research and manufacturing"]},
+      {"India’s Major Technology Programs": ["Digital India: digital infrastructure and services", "Make in India: manufacturing push", "Semiconductor mission", "Space missions through ISRO", "Renewable energy targets", "Startup India ecosystem"]},
+      {"India’s Investment and Budget Direction": ["Increasing focus on R&D and innovation", "Defense and space technology funding", "Electronics and semiconductor incentives", "Green energy and EV support", "Education and skill development programs"]},
+      {"Challenges India Faces": ["Low R&D spending compared to advanced nations", "Brain drain", "Dependence on foreign technology", "Slow translation of research to products", "Education focused on exams over innovation"]},
+      {"How India Can Compete": ["Increase research funding", "Encourage deep-tech startups", "Industry–academia collaboration", "Focus on quality education and critical thinking", "Long-term policy stability"]},
+      {"Role of Students and Youth": ["Skills over marks", "Understanding fundamentals", "Learning coding, electronics, data", "Research mindset", "Entrepreneurship and innovation"]},
+      {"Ethics and Responsibility in Technology": ["Technology should improve human life", "Risks of AI misuse", "Data privacy concerns", "Environmental impact of technology"]},
+      {"Future Outlook": ["Countries investing in technology today lead tomorrow", "Technology gap becomes power gap", "India’s future depends on how its youth prepares now"]},
+      {"Discussion and Reflection": ["Which technology excites you most and why?", "What problems in your village or city can technology solve?", "Should India copy or innovate?", "https://youtu.be/rTpRVxKvnrU?si=j883AhGMCFE5YOV-"]}
+    ]},
+    {"Chapter 11 (How Do Aeroplanes Fly?)": [
+      {"What is an Aeroplane": ["Aeroplane is a heavier-than-air flying machine, Uses engines, wings, and control surfaces, Flies by generating lift to overcome weight", "Real-World Applications Passenger transport, Cargo logistics, Disaster relief, Military and space research support"]},
+      {"Parts of an Aeroplane": ["Fuselage: main body carrying passengers and cargo, Wings: generate lift, Engines: provide thrust, Landing gear: takeoff and landing support, Integrated Drive Generator(IDG)-power source for electric devices, APU (Auxiliary Power Unit), RAT", "Wing Shape (Airfoil) - Curved upper surface and flatter lower surface, Angle of attack: angle between wing and airflow, Deflection of air downward creates upward reaction", "WING COMPONENTS - Flaps: increase lift during takeoff and landing, Slats: delay stall at low speeds, Ailerons: control roll (left–right tilt), Winglets","TAIL COMPONENTS - Horizontal stabilizer: controls pitch (up–down), Elevator: raises or lowers nose, Vertical stabilizer: directional stability, Rudder: controls yaw (left–right turning)"]},
+      {"Basic Idea of Lift": ["Forces- Gravity, lift, drag, thrust","Lift generated due to interaction of wings with air, Depends on airspeed, wing shape, angle of attack, air density, Lift increases with speed", "Bernoulli Principle (Limited Role) - Higher air speed → lower pressure, Air moves faster over curved upper surface, Pressure difference contributes to lift, Not the only explanation", "Newton’s Third Law and Lift - Wing pushes air downward, Air pushes wing upward (action–reaction), Downwash behind wings proves this", "Why Runway Takeoff is Needed - Lift depends on speed, Aircraft accelerates on runway to reach takeoff speed, Once lift > weight, plane leaves ground"]},
+      {"Cockpit and Control Systems": ["Pilot controls: yoke, pedals, throttle,Tiller- handle for rotating nose wheel, Fly-by-wire systems in modern aircraft, Autopilot and navigation systems, "]},
+      {"Types of Engines": ["Jet engines: thrust by expelling high-speed exhaust, Turbofan engines: efficient for commercial aircraft, Propeller engines: common in small aircraft"]},
+      {"Phenomenon": ["TURBULENCE - Irregular air motion, Caused by weather, mountains, jet streams, Uncomfortable but rarely dangerous", "STALL - Occurs when angle of attack too high, Sudden changes in airflow (e.g., microbursts), accelerated stall, Flying too slowly because Airflow separates from wing, Lift suddenly decreases, Not related to engine failure.", "CONTRAILS - White trails behind aircraft, Formed when hot exhaust meets cold upper atmosphere, Made of ice crystals, not smoke, Can persist or disappear depending on humidity", "Supersonic Flight - Flying faster than speed of sound, Shock waves formed, Sonic boom produced, Used in military aircraft"]},
+      {"Modern Innovations": ["Composite materials, Winglets to reduce drag, Electric and hydrogen aircraft research, AI-assisted flight systems"]},
+      {"Discussion and Curiosity": ["WHY PLANE FLY AT HIGH ALTITUDE - stratosphere(10-40km), Lower air resistance, Better fuel efficiency, Less weather disturbance, Jet engines work efficiently, where is fuel stored in plane", "Why birds flap but planes don’t, Why helicopters fly differently, Can humans design flapping aircraft?, why fighter jets have delta wings not swept wings, why one feel dizziness while sitting in plane, holding, go around, what is checklist, Fuel Management Computer(FMC) and autopiolet", "Why it is safest transport modes?- Most Accidents Are Survivable", "Turbulence Is Uncomfortable but Rarely Dangerous", "Hydraulic failures, can fly with one engine, Lightning strikes, Mercury, Gallium, etc are not allowed in plane,", "TYPES OF LIGHT :- AIRCRAFT VISIBILITY LIGHTS- Navigation Lights(Red left wingtip), Strobe Lights, Beacon light(anti collision light). PILOT VISIBIILTY LIGHTS- Taxi Lights, Landing Lights, Wing Inspection Lights, Runway Turn-Off Lights", "How to become pilot?", "Why Planes Don’t Fall When Engines Fail - Gliding ability due to wing lift, Aircraft designed with glide ratio, Pilots trained for engine-out landings","can plane be hijacked?", "Gyroscopic precession"]}
     ]}
   ]
 },
 
- 
 "📚 Class 7": {
   "💻 Computer Science": [
     {"Chapter 1 (Java and Python Basics)": [
@@ -1516,7 +1543,12 @@ Object.assign(window.curriculumData, {
       {"Circuit Diagrams": ["Bulbs and switches"]}
     ]},
     {"Chapter 5 (Force and Its Effects)": [
-      {"Dot Product and Cross Product": ["Vector operations in physics"]},
+      {"Vector Multiplication (Dot and Cross Product – Concept Only)": [
+        "Dot product: relates to how much of one vector lies along another; in physics, used to find effective component of a force in a particular direction (e.g., sunlight on a tilted surface).",
+        "Rays falling on surface inclined at angle, what to do if we want max effect on the surface- either align surface perpendicular to rays or align rays perpendicular to surface.",
+        "Cross product: relates to turning effect or rotation produced by force; used in torque and angular momentum concepts.",
+        "To get maximum torque, apply force perpendicular to the line from pivot to point of application (maximum “lever arm”).", "Vector operations in physics"
+      ]},
       {"Laws": ["Newton's laws of motion"]},
       {"Problem Solving": ["Exercises on force effects"]}
     ]},
@@ -1900,10 +1932,6 @@ Object.assign(window.curriculumData, {
     ]}
   ],
   "🌱 Moral Values": [
-    {"General Tasks": [
-      {"discussion": ["discussion with teachers and students on moral values and ethics"]},
-      {"Reference books": ["Everybody Loves a Good Drought by P. Sainath"]}
-    ]},
     {"Chapter 1 (Understanding Fairness)": [
       {"Equality": ["True meaning, Real-world applications"]},
       {"Activities": ["Class debates"]},
@@ -1958,7 +1986,13 @@ Object.assign(window.curriculumData, {
     {"Chapter 11 (Parade)": [
       {"Teaching": ["Police, army duties"]},
       {"Events": ["Weekly parade, Emergency self-safety"]}
-    ]},    
+    ]},
+    {"Refrences": [
+      {"discussion": ["discussion with teachers and students on moral values and ethics"]},
+      {"Reference books": ["Everybody Loves a Good Drought by P. Sainath"]},
+      {"Videos": ["https://youtu.be/NKcGClxlw-4?si=JknNbyfJfCVvZBbN"]}
+   
+    ]}    
     
     
   ],
@@ -2008,7 +2042,7 @@ Object.assign(window.curriculumData, {
   ],
   "👥 GGC (General Guidance Class)": [
     {"General Tasks": [
-      {"discussions": ["visit to \"https://srgsjhupi.github.io/school/targ_inst_exams.html\" discussions with mentors on career planning, exam strategies, scholarships, internships, skill building, social contribution, gaming and eSports, inspirational achievers"]}
+      {"discussions": ["visit to \"https://srgsjhupi.github.io/school/targ_inst_exams.html\" discussions with mentors on career planning, exam strategies, scholarships(Buddy for Study), internships, skill building, social contribution, gaming and eSports, inspirational achievers"]}
     ]},
     {"Chapter 1 (Major Global Exams & Scholarships)": [
       {"Exams": ["NTSE, KVPY, IOQM, NChO, IJSO, STEP, TOEFL Junior, SAT/PSAT"]}
