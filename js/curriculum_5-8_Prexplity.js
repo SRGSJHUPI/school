@@ -3,515 +3,1134 @@ Object.assign(window.curriculumData, {
 "📚 Class 5": {
   "📖 English 1 – Literature & Comprehension": [
     {"Chapter 1 (Importance of Education)": [
-      {"Poems and Stories": ["Highlighting why education matters"]},
-      {"social reformers": ["Stories of Malala Yousafzai, Savitribai Phule"]},
-      {"Presentations": ["Student presentations, Teacher and student-created poems"]},
-      {"Ethics & Narrative": ["Ethics through narrative, Classroom speaking and understanding activities"]},
-      {"Activities": ["Class discussions, Retelling, Original poems by students and teachers"]}
+      {"Poems and Stories": ["EDUCATION POEMS :- 'Where the Mind is Without Fear' theme explanation, short class poems about school and learning, poems showing importance of curiosity and knowledge", "STORY THEMES :- child gaining confidence through school, village child becoming teacher, stories where books change someone's life", "READING PRACTICE :- students read poem aloud, teacher explains vocabulary, students retell story in their own words"]},
+      {"social reformers": ["MALALA YOUSAFZAI :- story of fighting for girls’ education, courage in difficult conditions", "SAVITRIBAI PHULE :- opening schools for girls, facing opposition but continuing education mission", "DISCUSSION :- why education was denied to some people historically, how education changes society"]},
+      {"Presentations": ["STUDENT PRESENTATIONS :- students present short talk on why education matters", "POEM CREATION :- teacher and students write small poems about learning", "CLASS PRESENTATION :- students explain favorite story or poem"]},
+      {"Ethics & Narrative": ["ETHICS THROUGH STORIES :- honesty, persistence, kindness learned from characters", "DISCUSSION QUESTIONS :- why character chose education, what difficulties they faced", "NARRATIVE UNDERSTANDING :- identifying beginning, conflict, and resolution in story"]},
+      {"Activities": ["RETELLING :- students narrate story in their own words", "CLASS DISCUSSION :- what lesson the story teaches", "CREATIVE TASK :- students write a small poem or paragraph about school"]}
     ]},
     {"Chapter 2 (Stories of Courage and Role Models)": [
-      {"Folk Tales": ["Panchatantra, Akbar-Birbal"]},
-      {"Historical Figures": ["Stories of Dr. Ambedkar, Modern heroes"]},
-      {"Skill Building": ["Debate and storytelling activities"]}
+      {"Folk Tales": ["PANCHATANTRA :- stories like 'The Monkey and the Crocodile', 'The Lion and the Mouse', lessons about wisdom and friendship", "AKBAR-BIRBAL :- clever problem solving stories, humor and intelligence", "LESSON ANALYSIS :- identifying moral from each story"]},
+      {"Historical Figures": ["DR AMBEDKAR :- education overcoming discrimination, studying in difficult circumstances", "MODERN HEROES :- scientists, athletes, innovators who worked hard", "DISCUSSION :- qualities like persistence, discipline"]},
+      {"Skill Building": ["STORYTELLING PRACTICE :- students narrate stories", "DEBATE :- what qualities make a hero", "MEMORY EXERCISE :- recalling story details"]},
+      {"Character Analysis": ["HERO TRAITS :- bravery, intelligence, kindness", "CHARACTER MOTIVES :- why character acted certain way", "COMPARISON :- comparing two heroes"]},
+      {"Creative Activities": ["WRITE HERO STORY :- students invent hero story", "ROLE PLAY :- acting scenes from story", "GROUP DISCUSSION :- what we learn from heroes"]}
     ]},
-    {"Chapter 3 (Reading Comprehension)": [
-      {"Skills": ["Inference, Sequencing, Skimming, Scanning"]},
-      {"Application": ["Applied to short passages and literature"]}
+    {"Chapter 3 (Nature and Imagination)": [
+      {"Poetry": ["NATURE POEMS :- describing rivers, forests, mountains", "IMAGERY PRACTICE :- identifying descriptive words in poems", "READING ALOUD :- improving expression and pronunciation"]},
+      {"Stories": ["IMAGINATIVE STORIES :- magical forests, talking animals, dream adventures", "DISCUSSION :- difference between real and imaginary elements"]},
+      {"Discussion": ["DESCRIBE NATURE :- students describe sunrise, rain, forest scenes", "VOCABULARY :- words like peaceful, bright, whispering wind"]},
+      {"Activities": ["DRAWING :- illustrate poem scenes", "WRITING :- students write 5–6 sentence nature paragraph"]}
+    ]},
+    {"Chapter 4 (Friendship and Cooperation)": [
+      {"Stories": ["FRIENDSHIP STORIES :- helping friends in need, teamwork success stories", "LESSONS :- trust, loyalty, cooperation"]},
+      {"Discussion": ["WHAT MAKES GOOD FRIEND :- honesty, support, kindness", "CLASSROOM EXAMPLES :- sharing books, helping classmates"]},
+      {"Activities": ["ROLE PLAY :- helping a friend scenario", "WRITING :- describe your best friend"]},
+      {"Reflection": ["LESSON DISCUSSION :- why teamwork matters", "GROUP TALK :- situations where friends help each other"]}
+    ]},
+    {"Chapter 5 (Reading Comprehension)": [
+      {"Skills": ["INFERENCE :- understanding hidden meaning from text", "SEQUENCING :- arranging story events correctly", "SKIMMING :- quick reading to get main idea", "SCANNING :- finding specific information quickly"]},
+      {"Application": ["PASSAGE PRACTICE :- short stories and informational texts", "QUESTION TYPES :- multiple choice, short answer, inference questions"]},
+      {"Understanding Text": ["MAIN IDEA :- identifying central theme", "SUPPORTING DETAILS :- finding facts supporting main idea"]},
+      {"Practice": ["WORKSHEETS :- comprehension questions", "GROUP DISCUSSION :- analyzing passages"]}
+    ]},
+    {"Chapter 6 (Biographies and Real Stories)": [
+      {"Profiles": ["SCIENTISTS :- short stories of inventors and explorers", "SOCIAL LEADERS :- people improving society"]},
+      {"Discussion": ["CHALLENGES FACED :- poverty, discrimination, lack of resources", "SUCCESS FACTORS :- discipline, education, perseverance"]},
+      {"Activities": ["BIOGRAPHY PRESENTATION :- students explain a person's life story", "TIMELINE CREATION :- important events of a person"]}
+    ]},
+    {"Chapter 7 (Drama and Dialogue)": [
+      {"Reading Plays": ["SHORT CLASS PLAYS :- simple dialogues with clear characters", "UNDERSTANDING STAGE DIRECTIONS :- actions written in brackets"]},
+      {"Role Play": ["ACTING PRACTICE :- expression, gestures, voice clarity", "GROUP PERFORMANCE :- small drama scenes"]},
+      {"Dialogue Writing": ["WRITE CONVERSATION :- two friends discussing school topic", "QUESTION–ANSWER FORMAT :- simple conversational writing"]}
+    ]},
+    {"Chapter 8 (Literature Projects)": [
+      {"Revision": ["REVIEW STORIES :- discussing favorite story", "VOCABULARY REVIEW :- key words from texts"]},
+      {"Projects": ["ILLUSTRATED STORYBOOK :- students draw and narrate story", "POSTER PROJECT :- message from literature"]},
+      {"Presentation": ["STUDENT PRESENTATION :- explain story meaning"]},
+      {"Reflection": ["DISCUSSION :- how literature teaches life lessons"]}
     ]}
   ],
   "📖 English 2 – Communication & Listening": [
     {"Chapter 1 (Speaking Skills)": [
-      {"Daily Practice": ["Role-plays, Storytelling, Class news hour, Personal experiences"]},
-      {"Skill Building": ["Speaking drills, Vocabulary games, Logic-based English quizzes"]}
+      {"Daily Practice": ["ROLE PLAY :- conversation in shop, school office, asking directions", "STORYTELLING :- narrate personal experience or short story", "CLASS NEWS HOUR :- students share daily news", "PERSONAL EXPERIENCE :- talk about memorable event"]},
+      {"Skill Building": ["SPEAKING DRILLS :- describe object in 30 seconds", "VOCABULARY GAMES :- word association games", "LOGIC QUIZZES :- quick reasoning questions"]},
+      {"Confidence": ["EYE CONTACT :- maintaining attention while speaking", "CLEAR VOICE :- speaking loudly and clearly", "BODY LANGUAGE :- standing confidently"]}
     ]},
     {"Chapter 2 (Listening Skills)": [
-      {"Listening Exercises": ["Stories, Following instructions, Peer-to-peer exercises, Recall games"]}
+      {"Listening Exercises": ["STORY LISTENING :- teacher reads story, students answer questions", "FOLLOW INSTRUCTIONS :- multi-step instructions like drawing activity", "RECALL GAME :- remember details from spoken passage"]},
+      {"Understanding Speech": ["KEY POINT IDENTIFICATION :- main message in speech", "DETAIL LISTENING :- finding specific facts"]},
+      {"Audio Practice": ["LISTENING TO SHORT TALKS :- educational audio clips", "SUMMARY TASK :- students summarize what they heard"]}
     ]},
     {"Chapter 3 (Vocabulary and Word Games)": [
-      {"Word Games": ["Synonyms, Antonyms, Analogies"]},
-      {"Logic Puzzles": ["GRE/TOEFL foundations puzzles"]}
+      {"Word Games": ["SYNONYMS :- happy (joyful, cheerful), big (large, huge), smart (clever, intelligent)", "ANTONYMS :- hot (cold), tall (short), brave (cowardly)", "ANALOGIES :- bird:fly :: fish:swim, pen:write :: knife:cut"]},
+      {"Logic Puzzles": ["WORD PUZZLES :- rearranging letters to form words", "CATEGORY GAME :- list animals, fruits, professions", "RIDDLE PRACTICE :- solving simple word riddles"]},
+      {"Word Building": ["PREFIX PRACTICE :- un-, re-, pre-", "SUFFIX PRACTICE :- -er, -ful, -less", "WORD FAMILIES :- act (action, actor), help (helpful, helpless)"]}
     ]},
     {"Chapter 4 (Read-Aloud and Practice Tests)": [
-      {"Reading Practice": ["Sample passages, Comprehension and logical questions"]}
+      {"Reading Practice": ["SAMPLE PASSAGES :- short paragraphs on nature, science, daily life", "COMPREHENSION QUESTIONS :- factual and inference"]},
+      {"Fluency": ["PACE PRACTICE :- reading smoothly", "PRONUNCIATION :- correct sound of words"]},
+      {"Teacher Reading": ["MODEL READING :- teacher demonstrates proper tone"]},
+      {"Assessment": ["QUIZZES :- short reading tests"]}
     ]},
     {"Chapter 5 (Speaking and Listening Practice)": [
-      {"Speaking Skills": ["Presenting views, Logical reasoning discussions"]},
-      {"Pronunciation Practice": ["Fluency exercises"]}
+      {"Speaking Skills": ["PRESENTING VIEWS :- giving opinion on simple topics", "LOGICAL DISCUSSION :- explaining reasoning"]},
+      {"Pronunciation Practice": ["FLUENCY DRILLS :- repeating difficult words", "TONGUE TWISTERS :- improving pronunciation"]},
+      {"Discussion": ["GROUP TALK :- classroom topics", "QUESTION–ANSWER PRACTICE"]}
     ]},
     {"Chapter 6 (Advanced Communication)": [
-      {"Public Speaking": ["Debates, Group discussions"]},
-      {"Daily Practice": ["Conversations on current events and classroom topics"]}
+      {"Public Speaking": ["DEBATES :- simple classroom debates", "GROUP DISCUSSION :- sharing viewpoints"]},
+      {"Daily Practice": ["CURRENT EVENTS :- talking about simple news topics", "TOPIC SPEECH :- 1 minute talk on chosen topic"]},
+      {"Argument Skills": ["REASONS :- giving reasons for opinion", "RESPECTFUL DISAGREEMENT :- polite discussion"]}
+    ]},
+    {"Chapter 7 (Practical Communication)": [
+      {"Real-Life Situations": ["ASKING HELP :- polite requests", "GIVING DIRECTIONS :- describing route", "INTRODUCTIONS :- introducing oneself"]},
+      {"Role Plays": ["SHOP CONVERSATION :- buying items", "TELEPHONE TALK :- polite communication"]},
+      {"Listening Practice": ["FOLLOW DIRECTIONS :- classroom tasks"]}
+    ]},
+    {"Chapter 8 (Communication Projects)": [
+      {"Presentations": ["SHORT TALK :- explain favorite book or hobby"]},
+      {"Group Projects": ["CLASS NEWS REPORT :- students act as reporters"]},
+      {"Evaluation": ["PEER FEEDBACK :- classmates suggest improvements"]},
+      {"Reflection": ["SELF REVIEW :- what improved in speaking"]}
     ]}
   ],
   "📖 English Grammar": [
     {"Chapter 1 (Parts of Speech)": [
-      {"Grammar Topics": ["Nouns, Pronouns, Verbs, Adjectives, Adverbs"]},
-      {"Practice": ["Activities, Worksheets"]}
+      {"Grammar Topics": ["NOUNS :- person place thing idea examples (teacher, city, book)", "PRONOUNS :- he she they it examples", "VERBS :- run eat think examples", "ADJECTIVES :- describing words like big happy red", "ADVERBS :- describing action quickly slowly"]},
+      {"Practice": ["IDENTIFY PARTS :- underline noun verb adjective in sentence", "SENTENCE CREATION :- make sentence using given word"]},
+      {"Examples": ["NOUN SENTENCE :- The dog runs fast", "ADJECTIVE SENTENCE :- The bright sun shines"]},
+      {"Interactive Practice": ["GRAMMAR GAME :- classify words into categories"]}
     ]},
     {"Chapter 2 (Tenses and Sentence Structure)": [
-      {"Tenses": ["Simple present, Past, Future"]},
-      {"Sentence Construction": ["All types of sentences"]}
+      {"Tenses": ["PRESENT :- I play football", "PAST :- I played football", "FUTURE :- I will play football"]},
+      {"Sentence Construction": ["STATEMENTS :- The boy reads a book", "QUESTIONS :- Where are you going?", "COMMANDS :- Close the door"]},
+      {"Sentence Types": ["DECLARATIVE, INTERROGATIVE, IMPERATIVE, EXCLAMATORY"]},
+      {"Practice": ["CHANGE TENSE :- convert sentence into past and future"]}
     ]},
     {"Chapter 3 (Punctuation)": [
-      {"Marks": ["Capital letters, Full stops, Question marks, Exclamation marks, Commas"]}
+      {"Marks": ["CAPITAL LETTERS :- start of sentence and proper nouns", "FULL STOP :- ending statements", "QUESTION MARK :- ending questions", "EXCLAMATION MARK :- strong feeling", "COMMA :- separating items"]},
+      {"Usage Practice": ["FIX SENTENCE :- correct punctuation errors"]},
+      {"Reading Awareness": ["PAUSE UNDERSTANDING :- commas and full stops"]}
     ]},
     {"Chapter 4 (Writing Skills)": [
-      {"Writing Forms": ["Paragraph writing, Friendly and formal letters"]},
-      {"Grammar & Editing": ["Sentence structure, Conjunctions, Subject-verb agreement, Creative writing, Editing and peer review"]}
+      {"Writing Forms": ["PARAGRAPH WRITING :- describing event or object", "LETTER WRITING :- friendly and formal letters"]},
+      {"Grammar & Editing": ["CONJUNCTIONS :- and but because", "SUBJECT VERB AGREEMENT :- singular plural rules"]},
+      {"Creative Writing": ["STORY WRITING :- beginning middle end structure"]},
+      {"Editing": ["PEER REVIEW :- students correct each other’s work"]}
+    ]},
+    {"Chapter 5 (Articles and Prepositions)": [
+      {"Articles": ["A :- before consonant sound", "AN :- before vowel sound", "THE :- specific object"]},
+      {"Prepositions": ["IN ON AT UNDER BETWEEN examples"]},
+      {"Practice": ["FILL BLANK :- correct article or preposition"]}
+    ]},
+    {"Chapter 6 (Conjunctions and Connectors)": [
+      {"Concept": ["JOIN SENTENCES :- using and but because"]},
+      {"Types": ["COORDINATING CONJUNCTIONS :- and but or", "CAUSE CONNECTORS :- because since"]},
+      {"Practice": ["COMBINE SENTENCES :- using conjunctions"]}
+    ]},
+    {"Chapter 7 (Editing and Proofreading)": [
+      {"Error Correction": ["IDENTIFY ERROR :- grammar mistake in sentence"]},
+      {"Peer Review": ["STUDENT EDITING :- exchange notebooks and correct writing"]},
+      {"Practice": ["EDIT PARAGRAPH :- fix grammar punctuation"]}
+    ]},
+    {"Chapter 8 (Grammar Review and Projects)": [
+      {"Revision": ["REVIEW RULES :- parts of speech, tenses, punctuation"]},
+      {"Practice": ["QUIZZES :- grammar tests"]},
+      {"Projects": ["GRAMMAR POSTER :- explain rule visually"]},
+      {"Presentation": ["STUDENT EXPLANATION :- teach grammar rule to class"]}
     ]}
   ],
   "💻 Computer Science & Digital Literacy": [
-    {"Chapter 1 (Hardware and Software)": [
-      {"Hardware": ["Computer parts exploration, Assembly/disassembly demos"]},
-      {"Software": ["Comparison studies"]}
+    {"Chapter 1 (Introduction to Computers)": [
+      {"Computer Fundamentals": ["Definition of computer","History and evolution of computing","Input–Process–Output cycle","Types of computers","Computers in daily life"]},
+      {"Computer Components": ["CPU and processor role","Memory types (RAM, ROM)","Storage devices (HDD, SSD, USB)","Motherboard overview","Peripheral devices"]},
+      {"Input and Output Devices": ["Keyboard and mouse functions","Scanners and microphones","Printers and monitors","Touchscreen devices","Specialized input devices"]},
+      {"Computer Applications": ["Education and research","Healthcare systems","Banking and finance","Government and administration","Entertainment and communication"]},
+      {"Basic Computer Skills": ["Starting and shutting down systems","Using keyboard shortcuts","Managing files and folders","Understanding file types","Basic troubleshooting"]}
     ]},
-    {"Chapter 2 (C and C++ Basics)": [
-      {"Introduction": ["Syntax, Variables, Input/output"]},
-      {"Practice": ["40 starter questions, Logic puzzles"]}
+
+    {"Chapter 2 (Hardware and Software)": [
+      {"Hardware Basics": ["Definition of hardware","Internal components","External peripherals","Ports and connectors","Power supply and cooling"]},
+      {"Computer Assembly": ["Identifying motherboard parts","Installing RAM and storage","Connecting cables safely","Boot process overview","Hardware safety practices"]},
+      {"Software Basics": ["Definition of software","System vs application software","Operating systems overview","Software installation","Software updates"]},
+      {"Operating Systems": ["Windows basics","File management","Control panel settings","User accounts","Basic system maintenance"]},
+      {"Software Applications": ["Word processors","Spreadsheets","Presentation software","Web browsers","Educational software"]}
     ]},
-    {"Chapter 3 (Introduction to Arduino)": [
-      {"Overview": ["Microcontrollers, Sensors, LEDs, Buzzers"]},
-      {"Application": ["Connecting coding to real-world projects"]}
+
+    {"Chapter 3 (Digital Skills and Productivity)": [
+      {"File Management": ["Creating and organizing folders","File extensions","Backup strategies","Cloud storage basics"]},
+      {"Keyboard and Typing": ["Touch typing basics","Speed improvement techniques","Keyboard shortcuts"]},
+      {"Digital Communication": ["Email creation","Sending attachments","Online etiquette","Professional communication"]},
+      {"Online Collaboration": ["Shared documents","Cloud collaboration","Team communication tools"]},
+      {"Productivity Skills": ["Planning tasks digitally","Using calendars","Managing digital notes"]}
     ]},
-    {"Chapter 4 (CCC Syllabus Fundamentals)": [
-      {"Word Processing": ["MS Word basics"]},
-      {"Spreadsheets": ["MS Excel basics"]},
-      {"Presentations": ["PowerPoint basics"]},
-      {"Internet": ["WWW overview, E-mail practice"]},
-      {"Digital Tools": ["Financial apps, E-governance, Cyber security, Responsible social networking"]}
+
+    {"Chapter 4 (Programming Logic)": [
+      {"Introduction to Programming": ["What is programming","Importance of coding","Programming languages overview"]},
+      {"Algorithms": ["Step-by-step problem solving","Flowcharts","Decision making logic"]},
+      {"Basic Programming Concepts": ["Variables and data types","Input and output","Operators and expressions"]},
+      {"Control Structures": ["Conditions (if, else)","Loops","Nested logic"]},
+      {"Problem Solving": ["Logic puzzles","Pattern problems","Algorithm practice"]}
     ]},
-    {"Chapter 5 (HTML and Web Design)": [
-      {"Web Basics": ["Titles, Headings, Text, Images, Links"]},
-      {"Project": ["Building personal web pages"]}
+
+    {"Chapter 5 (C and C++ Programming)": [
+      {"Language Basics": ["History of C/C++","Program structure","Syntax rules"]},
+      {"Variables and Data Types": ["Integer, float, char","Constants","Input/output functions"]},
+      {"Control Statements": ["If–else statements","Switch cases","Looping constructs"]},
+      {"Functions": ["Creating functions","Parameters and return values","Modular programming"]},
+      {"Practice Programs": ["Mathematical programs","Pattern printing","Logic challenges","Mini programming projects"]}
     ]},
-    {"Chapter 6 (UI/UX Basics and Version Control)": [
-      {"Wireframing": ["App and website layout basics"]},
-      {"Version Control": ["Git fundamentals"]}
+
+    {"Chapter 6 (Introduction to Arduino and Electronics)": [
+      {"Microcontrollers": ["What is a microcontroller","Difference from microprocessors","Embedded systems"]},
+      {"Arduino Platform": ["Arduino boards","IDE setup","Pins and connections"]},
+      {"Electronic Components": ["LEDs and resistors","Buzzers and buttons","Sensors"]},
+      {"Programming Arduino": ["Basic program structure","Digital input/output","Reading sensor values"]},
+      {"Projects": ["Blinking LED","Button controlled devices","Simple alarm system","Sensor-based automation"]}
     ]},
-    {"Chapter 7 (Animation/Creativity – Scratch)": [
-      {"Projects": ["Interactive stories and animations"]},
-      {"Programming Logic": ["Block coding introduction"]}
+
+    {"Chapter 7 (Scratch Programming and Animation)": [
+      {"Scratch Interface": ["Sprites and stage","Blocks and commands","Creating first program"]},
+      {"Programming Logic": ["Events","Loops","Conditions","Variables"]},
+      {"Animations": ["Character movement","Scenes","Sound effects"]},
+      {"Game Development": ["Simple games","Score tracking","User input controls"]},
+      {"Creative Projects": ["Interactive stories","Educational animations","Mini games"]}
     ]},
-    {"Chapter 8 (Internet Safety and Browsers)": [
-      {"Safety": ["Safe browsing habits, Secure site recognition, URL understanding"]},
-      {"Browsers": ["Using popular browsers responsibly"]}
+
+    {"Chapter 8 (HTML and Web Design)": [
+      {"Web Fundamentals": ["How the internet works","Web servers and browsers","Role of HTML"]},
+      {"HTML Basics": ["Page structure","Headings and paragraphs","Lists and tables"]},
+      {"Links and Media": ["Images","Videos","Hyperlinks","Navigation"]},
+      {"CSS Basics": ["Styling text","Colors and fonts","Layouts"]},
+      {"Website Project": ["Building personal webpage","Creating multiple pages","Publishing website"]}
     ]},
-    {"Chapter 9 (Search Engines and Online Research)": [
-      {"Research Skills": ["Finding credible sources, Basics of internet research"]}
-    ]}
+
+    {"Chapter 9 (UI/UX Basics and Version Control)": [
+      {"User Interface Concepts": ["Designing simple interfaces","Usability principles","Good vs bad design"]},
+      {"Wireframing": ["Planning app layouts","Sketching web pages","Navigation structures"]},
+      {"Design Thinking": ["Understanding user needs","Prototype development","Testing designs"]},
+      {"Version Control Basics": ["Why version control matters","Tracking changes","Collaboration"]},
+      {"Git Fundamentals": ["Repositories","Commits","Version history"]}
+    ]},
+
+    {"Chapter 10 (Internet Safety and Cyber Awareness)": [
+      {"Safe Browsing": ["Recognizing secure websites","Understanding URLs","Safe downloads"]},
+      {"Online Privacy": ["Strong passwords","Two-factor authentication","Personal data protection"]},
+      {"Cyber Threats": ["Phishing attacks","Malware","Online scams"]},
+      {"Responsible Internet Use": ["Respectful communication","Avoiding misinformation","Digital etiquette"]},
+      {"Cyber Security Awareness": ["Reporting suspicious activity","Protecting devices","Basic security practices"]}
+    ]},
+
+    {"Chapter 11 (Search Engines and Online Research)": [
+      {"Search Engine Basics": ["How search engines work","Popular search engines","Search results pages"]},
+      {"Effective Searching": ["Using keywords","Search filters","Advanced search operators"]},
+      {"Evaluating Sources": ["Credible websites","Checking author reliability","Fact verification"]},
+      {"Research Skills": ["Collecting information","Organizing notes","Comparing sources"]},
+      {"Academic Integrity": ["Avoiding plagiarism","Citing references","Ethical research"]}
+    ]},
+
+    {"Chapter 12 (Digital Tools and Practical Applications)": [
+      {"Office Applications": ["Word processing","Spreadsheets","Presentations"]},
+      {"Digital Services": ["Online banking awareness","Government digital services","Digital payments"]},
+      {"Collaboration Tools": ["Online meeting platforms","Shared documents","Team projects"]},
+      {"Data and Visualization": ["Basic charts","Data presentation","Information dashboards"]},
+      {"Productivity Tools": ["Task management apps","Note-taking tools","Planning software"]}
+    ]},
+
+    {"Chapter 13 (Capstone Projects and Innovation)": [
+      {"Project Planning": ["Identifying problems","Planning solutions","Project documentation"]},
+      {"Hardware Projects": ["Arduino automation","Sensor-based devices","Simple robotics"]},
+      {"Software Projects": ["Programming mini applications","Webpage development","Interactive games"]},
+      {"Presentation Skills": ["Project reports","Slides and demonstrations","Video explanations"]},
+      {"Innovation and Creativity": ["Encouraging new ideas","Team collaboration","Future learning paths"]}
+    ]},
   ],
   "➗ Mathematics": [
     {"Chapter 1 (Decimals and Percentages)": [
-      {"Skills": ["Comparing and ordering, Word problems, Everyday relevance"]}
+      {"Place Value and Decimals": ["Understanding decimal place values","Tenths, hundredths, thousandths","Converting fractions to decimals","Comparing and ordering decimals","Rounding decimals"]},
+      {"Operations with Decimals": ["Addition and subtraction of decimals","Multiplication of decimals","Division of decimals","Estimating decimal results","Common mistakes and checking answers"]},
+      {"Percentages": ["Meaning of percent","Converting percent to fraction and decimal","Percentage of a quantity","Increase and decrease in percentage"]},
+      {"Real Life Applications": ["Discount calculations","Tax and price calculations","Profit and loss basics","Population percentages"]},
+      {"Problem Solving": ["Word problems using decimals","Multi-step percentage problems","Everyday financial examples","Mental estimation techniques"]}
     ]},
+
     {"Chapter 2 (Time, Speed, Distance)": [
-      {"Calculations": ["Time intervals, Travel problems"]},
-      {"Introduction": ["Speed and conversions"]}
+      {"Understanding Time": ["Units of time","Converting seconds, minutes, hours","Reading clocks","Time intervals","Calendar calculations"]},
+      {"Speed Concepts": ["Definition of speed","Speed formula","Average speed","Units of speed","Comparing speeds"]},
+      {"Distance and Travel": ["Distance calculation","Travel time estimation","Understanding routes and maps","Real-life travel examples"]},
+      {"Conversions": ["km/h to m/s","minutes to hours","distance conversions","time conversions"]},
+      {"Applications": ["Travel planning problems","Race problems","Vehicle speed comparison","Practical daily examples"]}
     ]},
+
     {"Chapter 3 (Measurement Units)": [
-      {"Units": ["Metric vs imperial"]},
-      {"Calculations": ["Length, Mass, Temperature, Capacity"]}
+      {"Measurement Fundamentals": ["Why measurement is important","Standard vs non-standard units","Accuracy and estimation"]},
+      {"Length and Distance": ["Millimeter to kilometer conversions","Measuring objects","Perimeter calculations","Real-life distance problems"]},
+      {"Mass and Weight": ["Gram and kilogram conversions","Measuring weight","Applications in daily life"]},
+      {"Capacity and Volume": ["Liters and milliliters","Liquid measurement","Practical measurement examples"]},
+      {"Temperature": ["Celsius scale","Measuring temperature","Daily temperature readings"]},
+      {"Metric and Imperial Systems": ["Metric system overview","Imperial units introduction","Comparisons between systems"]}
     ]},
+
     {"Chapter 4 (Data Analysis)": [
-      {"Statistics": ["Mean, Median, Simple averages"]},
-      {"Visuals": ["Charts, Real-life datasets"]}
+      {"Collecting Data": ["Types of data","Collecting real-life data","Survey techniques","Recording observations"]},
+      {"Organizing Data": ["Tables and frequency lists","Grouping data","Sorting and categorizing data"]},
+      {"Statistical Measures": ["Mean calculation","Median understanding","Mode concept","Simple averages"]},
+      {"Visual Representation": ["Bar charts","Line graphs","Pie charts","Reading graphs"]},
+      {"Interpretation": ["Understanding trends","Drawing conclusions from data","Comparing datasets","Real-world examples"]}
     ]},
+
     {"Chapter 5 (Introduction to Integers)": [
-      {"Concepts": ["Positive and negative numbers"]},
-      {"Practice": ["Basic addition, subtraction, Number line activities"]}
+      {"Number Line": ["Understanding number line","Positive and negative numbers","Zero concept","Comparing integers"]},
+      {"Integer Operations": ["Addition rules","Subtraction rules","Multiplication basics","Division basics"]},
+      {"Applications": ["Temperature changes","Elevation and depth","Financial gain and loss"]},
+      {"Patterns with Integers": ["Even and odd patterns","Integer sequences","Absolute value"]},
+      {"Practice Activities": ["Number line exercises","Mental calculations","Word problems"]}
     ]},
+
     {"Chapter 6 (Symmetry and Transformations)": [
-      {"Concepts": ["Reflection, Rotation, Translation"]},
-      {"Identification": ["Symmetry in figures"]}
+      {"Symmetry Basics": ["Definition of symmetry","Line symmetry","Examples in nature","Examples in art and architecture"]},
+      {"Reflection": ["Mirror reflection concept","Drawing reflections","Reflection across axes"]},
+      {"Rotation": ["Understanding rotation","Clockwise and anticlockwise","Rotation symmetry"]},
+      {"Translation": ["Sliding movement of shapes","Coordinate translation basics"]},
+      {"Identifying Symmetry": ["Symmetry in polygons","Symmetry in alphabets","Real-life examples"]}
     ]},
+
     {"Chapter 7 (Geometry – Volume and 3D)": [
-      {"Introduction": ["What is point, line, plane, solid, surface, 3D objects, How Volume depends on Area and Height- Deep analysis by examples like what happen to volume of cylinder if cube is inserted in it- where cube volume gone- displaced, cylinder inside cylinder, etc."]},
-      {"Measurement": ["Volume, Surface area"]},
-      {"Shapes": ["Cubes, Cuboids"]},
-      {"Drawing": ["Faces, Edges, Vertices"]}
+      {"Basic Geometric Elements": ["Point, line, plane","Angles and intersections","Understanding surfaces"]},
+      {"3D Shapes": ["Cubes and cuboids","Cylinders and spheres","Prisms and pyramids"]},
+      {"Faces Edges Vertices": ["Counting faces","Edges and vertices","Visualizing shapes"]},
+      {"Volume Concepts": ["Volume definition","Volume of cube and cuboid","Relation between area and height"]},
+      {"Surface Area": ["Surface area understanding","Surface area of cubes and cuboids"]},
+      {"Conceptual Experiments": ["Displacement concept","Cube inside cylinder example","Cylinder inside cylinder","Real-life volume examples"]},
+      {"Drawing and Visualization": ["Isometric sketches","Net diagrams","3D visualization skills"]}
     ]},
+
     {"Chapter 8 (Prime Numbers and Patterns)": [
-      {"Identification": ["Prime numbers"]},
-      {"Patterns": ["Number sequences, Mathematical patterns"]}
+      {"Prime Numbers": ["Definition of prime numbers","Prime number identification","Prime factorization","Composite numbers"]},
+      {"Divisibility Rules": ["Rules for 2,3,5,9","Checking divisibility quickly","Application of divisibility rules"]},
+      {"Number Patterns": ["Arithmetic sequences","Multiplication patterns","Visual number patterns"]},
+      {"Mathematical Curiosity": ["Twin primes","Prime distribution","Historical discoveries"]},
+      {"Applications": ["Cryptography basics","Puzzle solving","Logical reasoning"]}
     ]},
+
     {"Chapter 9 (Mental Math and Tables)": [
-      {"Skills": ["Tables up to 30"]},
-      {"Practice": ["Logic drills, Speed practice"]}
+      {"Multiplication Tables": ["Tables up to 30","Patterns in tables","Fast memorization techniques"]},
+      {"Mental Arithmetic": ["Quick addition and subtraction","Fast multiplication tricks","Division shortcuts"]},
+      {"Estimation": ["Approximation methods","Checking answers quickly","Real-life estimation"]},
+      {"Logic Drills": ["Number puzzles","Arithmetic challenges","Brain exercises"]},
+      {"Speed Practice": ["Timed exercises","Mental competitions","Daily drills"]}
     ]},
+
     {"Chapter 10 (Operators and Expressions)": [
-      {"Types": ["Arithmetic, Relational, Logical, Bitwise, Assignment"]},
-      {"Use": ["Understanding and applications"]}
+      {"Arithmetic Operators": ["Addition subtraction multiplication division","Order of operations","Bracket rules"]},
+      {"Relational Operators": ["Greater than less than equal to","Comparing expressions"]},
+      {"Logical Thinking": ["True and false statements","Logical reasoning basics"]},
+      {"Algebraic Expressions": ["Variables introduction","Forming expressions","Simplifying expressions"]},
+      {"Applications": ["Real-life expressions","Problem solving","Basic equation ideas"]}
     ]}
   ],
   "🔬 Physics": [
-    {"General":[
-      {"Unit and Dimensions": ["what is Unit, what are dimensions, the principle of homogeneity of dimensions - The magnitudes of physical quantities may be added together or subtracted from one another only if they have the same dimensions. "]},
-      {"discussion": ["Order of magnitude, Ratios and scaling, Why graphs need units on axes, Why adding quantities with different units makes no sense"]},
+    {"General": [
+      {"Measurement Basics": ["What is a physical quantity","Why measurement is needed in science","Standard units and non-standard units","Examples: meter, kilogram, second","Importance of accuracy in measurement"]},
+      {"Units and Dimensions": ["Meaning of unit","Examples of units for length, mass, time","Basic idea of dimensions","Why quantities must have compatible units","Principle of homogeneity of dimensions explained simply"]},
+      {"Understanding Magnitudes": ["Order of magnitude concept","Comparing very large and very small quantities","Ratios and scaling in everyday objects","Why graphs must include units on axes","Meaning of proportional relationships"]},
+      {"Scientific Thinking": ["Observation and questioning","Making predictions","Testing ideas with experiments","Recording results clearly","Importance of logical reasoning"]},
+      {"Graphs and Data": ["Simple line graphs","Bar graphs","Why axes need labels and units","Interpreting data visually","Examples using daily observations"]}
     ]},
+
     {"Chapter 1 (Forces in Action)": [
-      {"Concepts": ["Push/pull, Friction, Gravity"]},
-      {"Experiments": ["Playground, Home"]}
+      {"Introduction to Force": ["Definition of force","Push and pull examples","Forces in daily life","Forces changing motion","Balanced and unbalanced forces"]},
+      {"Types of Forces": ["Contact forces","Non-contact forces","Muscular force","Gravitational force","Magnetic force"]},
+      {"Friction": ["What is friction","Benefits of friction","Problems caused by friction","Ways to reduce friction","Examples from sports and machines"]},
+      {"Gravity": ["Objects falling to Earth","Weight vs mass concept","Gravity in everyday life","Examples like dropping objects"]},
+      {"Experiments": ["Sliding objects on surfaces","Dropping objects to see gravity","Push and pull activities","Playground experiments"]}
     ]},
+
     {"Chapter 2 (Simple Machines)": [
-      {"Types": ["Lever, Pulley, Wheel and axle"]},
-      {"Analysis": ["Real-life tools"]}
+      {"What Are Machines": ["Definition of machines","Machines making work easier","Examples of simple machines","Effort and load"]},
+      {"Levers": ["Parts of a lever","Types of levers","Examples: seesaw, scissors","Using levers to lift objects"]},
+      {"Pulleys": ["Single pulley concept","How pulleys change direction of force","Examples in wells and cranes"]},
+      {"Wheel and Axle": ["How wheels reduce effort","Examples: bicycle, door knob","Importance in transportation"]},
+      {"Inclined Planes": ["Sloping surfaces","Ramps and slides","How ramps reduce effort"]},
+      {"Real-Life Tools": ["Machines used in construction","Machines used at home","Machines in playgrounds"]}
     ]},
-    {"Chapter 3 (Electromagnetic Spectrum)": [
-      {"Waves": ["Types and uses"]},
-      {"Examples": ["Sound, Light, Electromagnetic waves"]}
+
+    {"Chapter 3 (Waves and Sound)": [
+      {"Introduction to Waves": ["What is a wave","Examples in water and sound","How waves carry energy"]},
+      {"Sound Waves": ["How sound is produced","Vibrations creating sound","Travel of sound through air"]},
+      {"Properties of Sound": ["Loudness","Pitch","How sound changes with distance"]},
+      {"Sources of Sound": ["Musical instruments","Human voice","Natural sounds"]},
+      {"Applications": ["Communication","Music","Warning sounds"]}
     ]},
+
     {"Chapter 4 (Electricity and Circuits)": [
-      {"Circuits": ["Simple circuits with batteries, bulbs, switches"]},
-      {"Concepts": ["Conductors and insulators"]}
+      {"Electricity Basics": ["What is electricity","Sources of electricity","Importance of electricity in daily life"]},
+      {"Electric Circuits": ["Simple circuits","Battery, bulb and switch","Open and closed circuits"]},
+      {"Conductors and Insulators": ["Materials that conduct electricity","Materials that block electricity","Examples using everyday objects"]},
+      {"Safety with Electricity": ["Avoid touching open wires","Using switches safely","Basic electrical safety rules"]},
+      {"Simple Experiments": ["Lighting a bulb with battery","Testing materials for conductivity","Building simple circuits"]}
     ]},
+
     {"Chapter 5 (Magnetism)": [
-      {"Magnet Concepts": ["Magnets, Poles, Magnetic fields"]},
-      {"Earth's Magnetism": ["Earth as a magnet"]}
+      {"Magnets": ["What are magnets","Types of magnets","Magnetic materials"]},
+      {"Magnetic Poles": ["North and south poles","Like poles repel","Unlike poles attract"]},
+      {"Magnetic Field Concept": ["Area around a magnet","Iron filings experiment"]},
+      {"Earth as a Magnet": ["Compass direction","North and south directions","Navigation basics"]},
+      {"Applications": ["Magnets in daily life","Magnetic toys","Magnetic tools"]}
     ]},
+
     {"Chapter 6 (Heat)": [
-      {"Sources and Transfer": ["Sources, Conduction, Convection, Radiation"]},
-      {"Experiments": ["Everyday materials"]}
+      {"Sources of Heat": ["Sun as major heat source","Fire and electricity","Heat from friction"]},
+      {"Temperature": ["Hot and cold comparison","Measuring temperature","Thermometers"]},
+      {"Heat Transfer": ["Conduction","Convection","Radiation explained simply"]},
+      {"Effects of Heat": ["Expansion of materials","Melting and boiling","Cooking examples"]},
+      {"Experiments": ["Metal spoon heating","Hot air rising","Simple conduction activities"]}
     ]},
+
     {"Chapter 7 (Light)": [
-      {"Phenomena": ["Reflection, Refraction, Shadows, Colors"]},
-      {"Activities": ["Lenses and prisms"]}
+      {"Nature of Light": ["Sources of light","Natural vs artificial light","Speed of light idea"]},
+      {"Reflection": ["Mirror reflections","Images in mirrors","Real-life mirror uses"]},
+      {"Refraction": ["Light bending in water","Examples with glass and water"]},
+      {"Shadows": ["How shadows form","Size of shadows","Sunlight shadow activities"]},
+      {"Colors and Spectrum": ["White light","Rainbow formation","Prism experiments"]},
+      {"Lenses": ["Magnifying glass","Convex and concave lenses","Simple activities"]}
     ]},
+
     {"Chapter 8 (Energy and Its Forms)": [
-      {"Basics": ["Heat, Light, Sound"]},
-      {"Examples": ["Daily life"]}
-    ]}
+      {"What is Energy": ["Definition of energy","Energy enabling work","Energy in everyday activities"]},
+      {"Forms of Energy": ["Heat energy","Light energy","Sound energy","Mechanical energy"]},
+      {"Energy Transformations": ["Energy changing forms","Examples: electricity to light","Food to energy"]},
+      {"Sources of Energy": ["Sunlight","Fuels","Wind and water"]},
+      {"Energy Conservation": ["Saving electricity","Reducing waste","Importance of renewable energy"]}
+    ]},
   ],
   "⚗️ Chemistry": [
     {"Chapter 1 (Matter and Its Changes)": [
-      {"States and conversion": ["Solid, Liquid, Gas, their conversions happen(distance between atoms change)- gas to liquid, liquid to solid, solid to gas"]},
-      {"Changes": ["Reversible and irreversible changes, Melting, Boiling, Mixing"]}
+      {"What is Matter": ["Definition of matter","Anything that occupies space and has mass","Examples from daily life","Particles of matter","Idea that matter is made of tiny atoms or molecules"]},
+      {"States of Matter": ["Solid, liquid, gas","Properties of each state","Particle arrangement","Movement of particles","Examples in daily life"]},
+      {"Changes of State": ["Melting","Freezing","Evaporation","Condensation","Sublimation"]},
+      {"Reversible and Irreversible Changes": ["Meaning of reversible change","Meaning of irreversible change","Examples from cooking and daily life","Why some changes cannot be reversed"]},
+      {"Everyday Changes": ["Melting ice","Boiling water","Drying clothes","Cooking food","Burning materials"]},
+      {"Experiments": ["Observing melting of ice","Evaporation experiment","Condensation on cold glass","Mixing salt in water","Observing boiling water"]}
     ]},
     {"Chapter 2 (Physical and Chemical Properties)": [
-      {"Experiments": ["Density, Solubility, Conductivity"]},
-      {"Concepts": ["Physical change vs chemical change, Physical change vs reversible change"]}
+      {"Physical Properties": ["Color","Shape","Size","Density","Solubility","Texture"]},
+      {"Chemical Properties": ["Reactivity with other substances","Rusting","Burning","Formation of new substances"]},
+      {"Physical Changes": ["Change in shape or state","No new substance formed","Examples like cutting or melting"]},
+      {"Chemical Changes": ["New substances formed","Examples like rusting and burning","Irreversible reactions"]},
+      {"Density": ["Objects sinking or floating","Comparing materials","Examples with water and oil"]},
+      {"Solubility": ["Soluble substances","Insoluble substances","Effect of temperature and stirring"]},
+      {"Conductivity": ["Conductors","Insulators","Examples in metals and plastics"]},
+      {"Experiments": ["Floating objects","Testing solubility","Simple conductivity testing"]}
     ]},
     {"Chapter 3 (Common Chemicals in Daily Life)": [
-      {"Types": ["Acids, Bases, Salts"]},
-      {"Experiments": ["Hands-on with safe substances"]}
+      {"Introduction to Chemicals": ["Natural and synthetic chemicals","Chemicals around us","Importance in daily life"]},
+      {"Acids": ["Examples like lemon and vinegar","Sour taste","Uses in food"]},
+      {"Bases": ["Examples like soap and baking soda","Slippery nature","Uses in cleaning"]},
+      {"Salts": ["Common salt","Formation from acids and bases","Importance in food"]},
+      {"Indicators": ["Litmus","Turmeric indicator","Color change in acids and bases"]},
+      {"Household Chemicals": ["Cleaning agents","Medicines","Fertilizers"]},
+      {"Safety": ["Handling household chemicals","Avoid tasting unknown substances","Using protective measures"]},
+      {"Experiments": ["Testing lemon juice","Testing soap solution","Indicator experiments"]}
     ]},
     {"Chapter 4 (Environmental Chemistry)": [
-      {"Topics": ["Pollution causes, Prevention, Recycling"]},
-      {"Impacts": ["Effect of chemicals on environment"]}
-    ]}
+      {"Environment Basics": ["What is environment","Natural chemical cycles","Air water and soil components"]},
+      {"Pollution Types": ["Air pollution","Water pollution","Soil pollution","Noise pollution"]},
+      {"Causes of Pollution": ["Factories","Vehicles","Plastic waste","Chemical fertilizers"]},
+      {"Effects": ["Health problems","Damage to plants","Water contamination"]},
+      {"Waste Management": ["Reduce","Reuse","Recycle","Proper waste disposal"]},
+      {"Green Practices": ["Planting trees","Saving water","Reducing plastic"]},
+      {"Activities": ["Waste segregation","Local pollution study","Community awareness"]}
+    ]},
+    {"Chapter 5 (Air and Its Components)": [
+      {"What is Air": ["Air as mixture of gases","Importance of air","Uses of air"]},
+      {"Components of Air": ["Nitrogen","Oxygen","Carbon dioxide","Water vapor"]},
+      {"Properties of Air": ["Air occupies space","Air has weight","Air exerts pressure"]},
+      {"Importance of Oxygen": ["Breathing","Burning","Life processes"]},
+      {"Air Pollution": ["Sources","Effects","Prevention methods"]},
+      {"Experiments": ["Air pressure experiment","Candle burning in jar","Balloon inflation"]}
+    ]},
+    {"Chapter 6 (Water and Its Properties)": [
+      {"Importance of Water": ["Uses in daily life","Water in living organisms","Water cycle"]},
+      {"Properties": ["Colorless and odorless","Solvent properties","Surface tension concept"]},
+      {"States of Water": ["Ice","Liquid water","Water vapor"]},
+      {"Water Purification": ["Filtration","Boiling","Sedimentation","Chlorination"]},
+      {"Water Conservation": ["Saving water","Rainwater harvesting","Reducing wastage"]},
+      {"Experiments": ["Simple filtration","Evaporation experiment","Water cycle model"]}
+    ]},
+    {"Chapter 7 (Mixtures and Separation)": [
+      {"Mixtures": ["Definition of mixture","Homogeneous mixtures","Heterogeneous mixtures"]},
+      {"Examples": ["Salt water","Sand and water","Air as mixture"]},
+      {"Separation Methods": ["Filtration","Evaporation","Handpicking","Sieving"]},
+      {"Magnetic Separation": ["Using magnets to separate metals"]},
+      {"Real Life Uses": ["Purifying water","Separating grains","Industrial processes"]},
+      {"Experiments": ["Sand and water separation","Salt evaporation","Magnet experiment"]}
+    ]},
+    {"Chapter 8 (Materials and Their Uses)": [
+      {"Types of Materials": ["Metals","Non-metals","Natural materials","Synthetic materials"]},
+      {"Properties": ["Hardness","Strength","Flexibility","Conductivity"]},
+      {"Material Selection": ["Choosing materials for tools","Building materials","Clothing materials"]},
+      {"Recycling Materials": ["Recycling plastics","Recycling metals","Reusing materials"]},
+      {"Daily Applications": ["Materials used in houses","Materials used in transportation"]},
+      {"Activities": ["Classifying materials","Testing properties"]}
+    ]},
+    {"Chapter 9 (Food Chemistry and Nutrition)": [
+      {"Food Components": ["Carbohydrates","Proteins","Fats","Vitamins","Minerals"]},
+      {"Balanced Diet": ["Importance of balanced diet","Sources of nutrients"]},
+      {"Food Preservation": ["Drying","Refrigeration","Salt and sugar preservation"]},
+      {"Chemical Changes in Cooking": ["Heating effects","Fermentation","Food spoilage"]},
+      {"Experiments": ["Testing starch with iodine","Observing fermentation","Food preservation examples"]}
+    ]},
+    {"Chapter 10 (Chemistry Experiments and Projects)": [
+      {"Simple Experiments": ["Density experiments","Solubility tests","Acid-base indicators","Filtration experiments"]},
+      {"Observation Skills": ["Recording observations","Comparing results","Identifying patterns"]},
+      {"Mini Projects": ["Water purification model","Pollution awareness poster","Recycling project"]},
+      {"Scientific Method": ["Aim","Materials","Procedure","Observation","Conclusion"]},
+      {"Safety": ["Handling chemicals safely","Using protective equipment","Lab safety rules"]}
+    ]},
   ],
   "🧬 Biology": [
     {"Chapter 1 (Human Anatomy)": [
-      {"Organs": ["Brain, Heart, Lungs, Digestive system (intro diagrams)"]},
-      {"Health": ["Connection to healthy habits"]}
+      {"Body Organization": ["Cells as basic unit of life","Tissues and organs","Organ systems","Coordination among organs"]},
+      {"Brain and Nervous System": ["Brain structure basics","Nerves and signals","Reflex actions","Importance of brain protection"]},
+      {"Heart and Circulation": ["Heart pumping blood","Blood vessels","Importance of circulation","Pulse and heartbeat"]},
+      {"Respiratory System": ["Lungs and breathing","Oxygen entering blood","Carbon dioxide removal","Importance of clean air"]},
+      {"Digestive System": ["Food breakdown process","Mouth stomach intestines","Nutrient absorption","Energy from food"]},
+      {"Sense Organs": ["Eyes vision","Ears hearing","Nose smell","Tongue taste","Skin touch"]},
+      {"Health Connections": ["Exercise and organs","Healthy diet","Sleep importance","Avoiding harmful habits"]}
     ]},
     {"Chapter 2 (Our Health)": [
-      {"Concepts": ["What is health?, Why health matters?"]},
-      {"Comparison": ["Indian health vs developed countries"]}
+      {"Meaning of Health": ["Definition of health","Physical mental social well-being","Importance of healthy living"]},
+      {"Healthy Lifestyle": ["Balanced diet","Regular exercise","Adequate sleep","Personal hygiene"]},
+      {"Nutrition": ["Carbohydrates proteins fats","Vitamins and minerals","Balanced meals","Importance of water"]},
+      {"Common Diseases": ["Cold and flu","Infections","Prevention methods","Basic treatment awareness"]},
+      {"Public Health": ["Vaccination programs","Sanitation and clean water","Role of hospitals and doctors"]},
+      {"Health Comparisons": ["Health systems in different countries","Nutrition differences","Healthcare access"]},
+      {"Mental Health": ["Managing emotions","Importance of relaxation","Talking about problems"]}
     ]},
     {"Chapter 3 (Innovations in Medicine)": [
-      {"Topics": ["Vaccines, X-rays, Stethoscopes, Modern medical innovations"]}
+      {"History of Medicine": ["Traditional healing practices","Development of modern medicine","Important discoveries"]},
+      {"Vaccines": ["Purpose of vaccines","How vaccines protect body","Examples of vaccines","Importance of immunization"]},
+      {"Medical Tools": ["Stethoscope use","Thermometers","Blood pressure monitors","Diagnostic tools"]},
+      {"Medical Imaging": ["X-rays","Ultrasound basics","MRI and CT overview","Why imaging is useful"]},
+      {"Modern Treatments": ["Antibiotics","Surgery advancements","Medical robotics","Telemedicine"]},
+      {"Healthcare Technology": ["Hospital equipment","Monitoring devices","Health apps","Digital medical records"]},
+      {"Future Innovations": ["Artificial organs","Genetic medicine","Advanced diagnostics"]}
     ]},
     {"Chapter 4 (Environmental Science)": [
-      {"Topics": ["Ecological balance, Pollution, Sustainability"]},
-      {"Project": ["Simple school gardening project"]}
-    ]}
+      {"Earth’s Ecosystems": ["Forests","Grasslands","Oceans","Deserts","Importance of biodiversity"]},
+      {"Ecological Balance": ["Food chains","Food webs","Role of plants animals microorganisms"]},
+      {"Pollution": ["Air pollution","Water pollution","Soil pollution","Noise pollution"]},
+      {"Human Impact": ["Deforestation","Industrial waste","Climate change basics"]},
+      {"Sustainability": ["Renewable resources","Conservation practices","Reducing waste"]},
+      {"Environmental Protection": ["Planting trees","Saving water","Reducing plastic"]},
+      {"School Gardening Project": ["Growing vegetables","Soil preparation","Plant care","Observation of plant growth"]}
+    ]},
+    {"Chapter 5 (Plants and Their Life)": [
+      {"Plant Structure": ["Roots stems leaves flowers","Functions of plant parts"]},
+      {"Photosynthesis": ["Plants making food","Role of sunlight water carbon dioxide"]},
+      {"Plant Growth": ["Seed germination","Stages of growth","Importance of soil nutrients"]},
+      {"Types of Plants": ["Herbs shrubs trees","Climbers and creepers"]},
+      {"Plant Reproduction": ["Seeds","Pollination basics","Fruit formation"]},
+      {"Importance of Plants": ["Food source","Oxygen production","Medicinal plants"]}
+    ]},
+    {"Chapter 6 (Animals and Their Habitats)": [
+      {"Animal Classification": ["Domestic animals","Wild animals","Herbivores carnivores omnivores"]},
+      {"Habitats": ["Forest","Desert","Ocean","Polar regions"]},
+      {"Adaptations": ["Body features for survival","Examples of animal adaptations"]},
+      {"Animal Life Cycles": ["Growth stages","Metamorphosis examples"]},
+      {"Food Chains": ["Energy transfer","Predator prey relationships"]},
+      {"Animal Protection": ["Wildlife conservation","Endangered species"]}
+    ]},
+    {"Chapter 7 (Food and Nutrition)": [
+      {"Types of Nutrients": ["Carbohydrates proteins fats","Vitamins minerals","Dietary fiber"]},
+      {"Balanced Diet": ["Food groups","Healthy meal planning"]},
+      {"Digestion": ["How food becomes energy","Importance of enzymes"]},
+      {"Food Sources": ["Plants and animals as food","Natural and processed food"]},
+      {"Food Safety": ["Clean food handling","Avoiding contamination"]},
+      {"Malnutrition": ["Effects of poor diet","Importance of proper nutrition"]}
+    ]},
+    {"Chapter 8 (Microorganisms)": [
+      {"Introduction": ["What are microorganisms","Examples: bacteria fungi protozoa"]},
+      {"Useful Microbes": ["Fermentation","Making yogurt bread","Decomposition"]},
+      {"Harmful Microbes": ["Disease causing microbes","Food spoilage"]},
+      {"Prevention": ["Cleanliness","Boiling water","Vaccination"]},
+      {"Observation": ["Basic microscope idea","Microbes in environment"]}
+    ]},
+    {"Chapter 9 (Life Processes)": [
+      {"Breathing": ["Oxygen intake","Gas exchange","Importance of respiration"]},
+      {"Circulation": ["Blood transport","Heart function"]},
+      {"Excretion": ["Removing waste","Kidneys basics"]},
+      {"Movement": ["Muscles and bones","Body coordination"]},
+      {"Growth": ["Cell division","Body development"]}
+    ]},
+    {"Chapter 10 (Biology Experiments and Projects)": [
+      {"Observation Experiments": ["Observing plant growth","Comparing leaf shapes","Recording breathing rate"]},
+      {"Simple Experiments": ["Seed germination","Testing food nutrients","Observing microorganisms in water"]},
+      {"Environmental Activities": ["Planting trees","Waste segregation","Water conservation project"]},
+      {"Health Activities": ["Healthy meal chart","Exercise monitoring","Hygiene awareness"]},
+      {"Scientific Method": ["Aim","Materials","Procedure","Observation","Conclusion"]}
+    ]},
   ],
   "📜 Social Studies": [
     {"Chapter 1 (Understanding Humanity)": [
       {"Concept": ["What is humanity?"]},
-      {"Activities": ["Case studies, Stories on kindness and global perspective"]}
+      {"Activities": ["Case studies, Stories on kindness and global perspective"]},
+      {"Human Values": ["Compassion","Empathy","Helping others","Respect for all people","Understanding shared human needs"]},
+      {"Global Perspective": ["People in different countries live differently but share similar feelings","Learning about humanity beyond caste, religion, and nationality","Importance of peace and cooperation"]},
+      {"Community Service": ["Simple acts of service in school","Helping younger students","Participating in cleanliness and support activities"]}
     ]},
     {"Chapter 2 (Fairness – Simple Intro)": [
-      {"Stories and Discussion": ["Understanding untouchability, Equality"]}
+      {"Stories and Discussion": ["Understanding untouchability, Equality"]},
+      {"Meaning of Fairness": ["Treating everyone with respect","Avoiding discrimination","Giving equal chances to all"]},
+      {"Examples from Daily Life": ["Fair turns in games","Equal access to water, food, and seating","Respectful treatment in classroom"]},
+      {"Simple Rights": ["Every child deserves dignity","Importance of inclusion","Standing against unfair treatment"]},
+      {"Reflection Activities": ["Discussion on personal experiences","Story analysis","Role-play on fairness"]}
     ]},
     {"Chapter 3 (Honoring Labour and Duties)": [
-      {"Topics": ["Importance of all work, Safai karamchari, Community helpers"]}
+      {"Topics": ["Importance of all work, Safai karamchari, Community helpers"]},
+      {"Dignity of Labour": ["All honest work has value","No work is low or shameful","Society depends on many kinds of workers"]},
+      {"Community Helpers": ["Teachers","Farmers","Doctors","Drivers","Sanitation workers","Construction workers"]},
+      {"Respect in Practice": ["Speaking politely to workers","Thanking helpers","Keeping school clean as shared duty"]},
+      {"School Activities": ["Interviewing support staff","Learning about their work","Participating in cleaning and organization tasks"]}
     ]},
     {"Chapter 4 (Rules and Sharing)": [
-      {"Concepts": ["Why rules matter, Fairness in classroom sharing"]}
+      {"Concepts": ["Why rules matter, Fairness in classroom sharing"]},
+      {"Need for Rules": ["Rules create safety","Rules reduce conflict","Rules help groups function smoothly"]},
+      {"Sharing Habits": ["Sharing books and materials","Taking turns","Respecting common resources"]},
+      {"Classroom Responsibility": ["Listening to teacher instructions","Following classroom rules","Helping maintain order"]},
+      {"Group Activities": ["Sharing games","Role-plays about rule breaking and cooperation","Discussion on fair use of resources"]}
     ]},
     {"Chapter 5 (Kind Words and Actions)": [
-      {"Topics": ["Effect of kindness on the world, Why privacy is important"]}
+      {"Topics": ["Effect of kindness on the world, Why privacy is important"]},
+      {"Power of Kindness": ["Kind words improve relationships","Helping others builds trust","Small acts of kindness create positive environments"]},
+      {"Respectful Communication": ["Speaking politely","Avoiding hurtful language","Encouraging others"]},
+      {"Privacy": ["Why personal space matters","Respecting others’ belongings","Not sharing private information without permission"]},
+      {"Daily Practice": ["Kindness prompts","Thank-you habits","Helping classmates and family members"]}
     ]},
     {"Chapter 6 (Gender Fairness and Respect)": [
       {"Equality": ["In class, Playground, At home"]},
-      {"Topics": ["Addressing stereotypes"]}
+      {"Topics": ["Addressing stereotypes"]},
+      {"Understanding Gender Fairness": ["Boys and girls deserve equal respect","Equal chances in study and play","Sharing responsibilities at home and school"]},
+      {"Breaking Stereotypes": ["Jobs and interests are not limited by gender","Girls and boys can learn all skills","Respecting choices and abilities"]},
+      {"Respectful Behavior": ["Using respectful language","Avoiding teasing","Supporting fairness in teams and classrooms"]}
     ]},
     {"Chapter 7 (Environmental Responsibility)": [
       {"Role": ["Keeping school and planet clean"]},
-      {"Actions": ["Simple environmental steps"]}
+      {"Actions": ["Simple environmental steps"]},
+      {"Everyday Responsibility": ["Using dustbins","Saving water","Switching off lights and fans","Avoiding waste"]},
+      {"Protecting Nature": ["Planting trees","Reducing plastic use","Keeping surroundings clean"]},
+      {"School Projects": ["Clean classroom drive","Garden care","Waste segregation activities","Environmental awareness posters"]}
     ]},
     {"Chapter 8 (Telling the Truth and Courage)": [
       {"Truthfulness": ["Speaking honestly in tough times"]},
-      {"Activities": ["Drama, Reflection"]}
+      {"Activities": ["Drama, Reflection"]},
+      {"Why Truth Matters": ["Truth builds trust","Honesty strengthens character","Lies create confusion and harm"]},
+      {"Moral Courage": ["Admitting mistakes","Standing for what is right","Speaking up against bullying or unfairness"]},
+      {"Reflection": ["Situations where truth is difficult","Stories of courage","Writing about honest actions"]}
     ]},
     {"Chapter 9 (Citizenship and Listening)": [
-      {"Skills": ["Listening to others, Sharing responsibly, Social duties"]}
+      {"Skills": ["Listening to others, Sharing responsibly, Social duties"]},
+      {"Listening Skills": ["Paying attention when others speak","Respecting different opinions","Avoiding interruptions"]},
+      {"Responsible Sharing": ["Sharing ideas carefully","Helping group work succeed","Using common property respectfully"]},
+      {"Citizenship Basics": ["Helping in community","Respecting public spaces","Following social rules"]},
+      {"Social Duties": ["Helping others","Participating in school activities","Being responsible at home and in society"]}
     ]},
     {"Chapter 10 (Projects & Drama)": [
       {"Projects": ["Poster project ‘What I Believe In’, Poem/story about education"]},
-      {"Activities": ["Role-plays, Teacher-led discussions, Year-end assembly presentation"]}
+      {"Activities": ["Role-plays, Teacher-led discussions, Year-end assembly presentation"]},
+      {"Creative Expression": ["Drawing posters on fairness and kindness","Writing short poems and stories","Preparing skits on honesty and equality"]},
+      {"Group Work": ["Team planning for presentations","Sharing ideas fairly","Practicing collaboration"]},
+      {"Presentation Skills": ["Speaking clearly","Explaining project ideas","Listening to audience questions","Reflecting after presentation"]}
     ]}
   ],
   "📝 Hindi": [
     {"Chapter 1 ([translate:शिक्षा का महत्व])": [
-      {"Poetry and Stories": ["कविता, कहानी, प्रस्तुति – शिक्षा विषय पर"]},
-      {"Creations": ["बच्चों द्वारा और शिक्षकों द्वारा बनाई गई रचनाएँ"]}
+      {"Poetry and Stories": ["कविता :- शिक्षा पर प्रेरणादायक कविताएँ जैसे पढ़ाई का महत्व, ज्ञान का प्रकाश, मेहनत और सफलता; कहानी :- गरीब बच्चे की शिक्षा से जीवन बदलने की कहानी, गुरु–शिष्य परंपरा की कहानी; प्रस्तुति :- छात्र शिक्षा पर छोटी भाषण प्रस्तुति दें"]},
+      {"Creations": ["छात्र रचना :- शिक्षा पर कविता या छोटा अनुच्छेद लिखना; शिक्षक रचना :- प्रेरणादायक कविता/कहानी सुनाना; गतिविधि :- छात्र अपनी पढ़ाई की प्रेरणा साझा करें"]}
     ]},
     {"Chapter 2 ([translate:व्याकरण])": [
-      {"Grammar": ["वचन, काल, विशेषण, संज्ञा व क्रिया का अभ्यास"]},
-      {"Practice": ["वाक्य निर्माण"]}
+      {"Grammar": ["संज्ञा :- व्यक्ति स्थान वस्तु उदाहरण (लड़का, विद्यालय, पुस्तक); सर्वनाम :- मैं, तुम, वह; क्रिया :- खाना, पढ़ना, खेलना; विशेषण :- अच्छा, बड़ा, सुंदर; वचन :- एकवचन बहुवचन उदाहरण; काल :- वर्तमान, भूत, भविष्य"]},
+      {"Practice": ["वाक्य निर्माण :- दिए गए शब्दों से वाक्य बनाना; शब्द पहचान :- वाक्य में संज्ञा क्रिया विशेषण पहचानना; वचन परिवर्तन :- लड़का → लड़के; काल परिवर्तन :- मैं पढ़ता हूँ → मैंने पढ़ा → मैं पढ़ूँगा"]}
     ]},
     {"Chapter 3 ([translate:रचनात्मक लेखन])": [
-      {"Writing": ["अनौपचारिक/औपचारिक पत्र, अनुच्छेद, संवाद, चित्र वर्णन"]}
+      {"Writing": ["अनौपचारिक पत्र :- मित्र को पत्र, शिक्षक को धन्यवाद पत्र; औपचारिक पत्र :- प्रधानाचार्य को आवेदन; अनुच्छेद :- मेरा विद्यालय, मेरा परिवार, मेरा गाँव; संवाद लेखन :- दो मित्रों की बातचीत; चित्र वर्णन :- चित्र देखकर 5–6 वाक्य लिखना"]},
+      {"Activities": ["कहानी पूरी करो :- शिक्षक कहानी शुरू करें छात्र पूरा करें; कल्पना लेखन :- यदि मैं वैज्ञानिक होता; समूह लेखन :- मिलकर कहानी लिखना"]}
     ]},
     {"Chapter 4 ([translate:नैतिक और लोककथाएँ])": [
-      {"Stories": ["पंचतंत्र, अकबर-बीरबल, नीति कथाएँ"]},
-      {"Activities": ["श्रवण एवं अभिनय"]}
+      {"Stories": ["पंचतंत्र :- सिंह और चूहा, बंदर और मगरमच्छ; अकबर-बीरबल :- चतुराई की कहानियाँ; नीति कथाएँ :- ईमानदारी और बुद्धिमत्ता पर आधारित कथाएँ"]},
+      {"Activities": ["श्रवण :- शिक्षक कहानी सुनाएँ छात्र प्रश्नों के उत्तर दें; अभिनय :- कहानी का नाटक; चर्चा :- कहानी का नैतिक संदेश क्या है"]}
     ]},
     {"Chapter 5 ([translate:सामाजिक मुद्दे])": [
-      {"Topics": ["बाल श्रम, महिला अधिकार, पर्यावरण संरक्षण"]},
-      {"Community Service": ["सामुदायिक सेवा"]}
+      {"Topics": ["बाल श्रम :- बच्चों को शिक्षा से वंचित करना; महिला अधिकार :- शिक्षा और समान अवसर; पर्यावरण संरक्षण :- पेड़ लगाना, पानी बचाना"]},
+      {"Community Service": ["विद्यालय सफाई अभियान; पौधारोपण; वृद्ध लोगों की सहायता; समाज में स्वच्छता अभियान"]}
     ]},
     {"Chapter 6 ([translate:पुस्तकें])": [
-      {"Reading": ["Mother India (Hindi) by Katherine Mayo"]}
+      {"Reading": ["सरल हिंदी पुस्तकें :- पंचतंत्र कहानियाँ, बाल रामकथा, प्रेरणादायक जीवनियाँ; पाठन अभ्यास :- जोर से पढ़ना, कठिन शब्द समझना, कहानी का सार बताना"]},
+      {"Activities": ["पुस्तक चर्चा :- पढ़ी गई कहानी पर चर्चा; सार लेखन :- कहानी का सार लिखना"]}
     ]},
     {"Chapter 7 ([translate:सामाजिक परिवर्तन])": [
-      {"Topics": ["सामुदायिक सेवा, बाल अधिकार, महिला सशक्तिकरण, पर्यावरण संरक्षण"]}
+      {"Topics": ["सामुदायिक सेवा :- समाज के लिए कार्य; बाल अधिकार :- शिक्षा और सुरक्षा का अधिकार; महिला सशक्तिकरण :- शिक्षा और समान अवसर; पर्यावरण संरक्षण :- प्रकृति की रक्षा"]},
+      {"Discussion": ["छात्र चर्चा करें कि समाज में सकारात्मक बदलाव कैसे लाया जा सकता है; उदाहरण :- शिक्षा, स्वच्छता, सहयोग"]}
     ]}
   ],
   "🌱 Moral Values": [
     {"Chapter 1 (What is Humanity?)": [
-      {"Exploration": ["Meaning of humanity through stories, activities, and school service"]}
+      {"Exploration": ["Meaning of humanity through stories, activities, and school service","Helping others in daily life","Understanding compassion and kindness","Stories of people helping communities","Service activities within school"]},
+      {"Human Dignity": ["Respect for every human being","Importance of empathy","Recognizing suffering of others","Learning to help without expecting reward"]},
+      {"Human Values": ["Truthfulness","Kindness","Responsibility","Respect for differences","Helping weaker members of society"]},
+      {"Activities": ["Helping classmates","School service projects","Group discussions on kindness","Reflection exercises"]}
     ]},
     {"Chapter 2 (Religions)": [
-      {"Introduction": ["Religions overview"]},
-      {"Discussion": ["Why religion is important, How to practice effectively"]},
-      {"Religion on Peak": ["Narendra Dabholkar, Govind Pansare, M.M. Kalburgi, and Gauri Lankesh - Murder of rationalists, Giordano Bruno, Michael Servetus, Lucilio Vanini, Galileo Galilei(House arrest), Ibn al-Muqaffa',  "]},
-      {"Radical Rules": ["Sati pratha, kanya shishu vadh, devdashi, breast tax, FGM, etc."]}
+      {"Introduction": ["Religions overview","Basic teachings of major religions","Common moral teachings across religions","Role of religion in history"]},
+      {"Discussion": ["Why religion is important, How to practice effectively","Role of religion in community life","Positive values taught by religions","Importance of tolerance and peaceful coexistence"]},
+      {"Religion on Peak": ["Narendra Dabholkar, Govind Pansare, M.M. Kalburgi, and Gauri Lankesh - Murder of rationalists","Giordano Bruno","Michael Servetus","Lucilio Vanini","Galileo Galilei(House arrest)","Ibn al-Muqaffa'","Historical conflicts between ideas and authority"]},
+      {"Radical Rules": ["Sati pratha, kanya shishu vadh, devdashi, breast tax, FGM, etc.","Understanding harmful traditions","Importance of questioning injustice","Role of social reformers"]},
+      {"Religion and Reform": ["Social reform movements","People who challenged harmful customs","Balancing faith with reason","Respectful dialogue about beliefs"]}
     ]},
     {"Chapter 3 (Atheism)": [
-      {"Concepts": ["Introduction to atheism"]},
-      {"Discussion": ["Who are atheists, Religious vs atheist person"]},
-      {"Quotes": ["Babasaheb on religion"]}
+      {"Concepts": ["Introduction to atheism","Meaning of non-belief","Different philosophical perspectives about religion"]},
+      {"Discussion": ["Who are atheists, Religious vs atheist person","Understanding freedom of belief","Respecting different viewpoints","Peaceful coexistence of ideas"]},
+      {"Quotes": ["Babasaheb on religion","Importance of rational thinking","Value of questioning beliefs"]},
+      {"Ethics without Religion": ["Morality based on empathy and fairness","Human values beyond belief systems","Role of reasoning in ethics"]}
     ]},
     {"Chapter 4 (Understanding Fairness)": [
-      {"Stories": ["Age-appropriate stories"]},
-      {"Classroom Discussions": ["Caste, race, equality, personal stories"]},
-      {"Awareness": ["Good touch, bad touch, boundaries, consent, online safety, reporting mechanisms, seeking help-home/school/govt helpline numbers"]}
+      {"Stories": ["Age-appropriate stories","Examples of fairness and injustice","Stories showing courage against discrimination"]},
+      {"Classroom Discussions": ["Caste, race, equality, personal stories","Understanding discrimination","Respecting diversity","Importance of equality"]},
+      {"Awareness": ["Good touch, bad touch, boundaries, consent, online safety, reporting mechanisms, seeking help-home/school/govt helpline numbers"]},
+      {"Justice and Rights": ["Human rights basics","Children's rights","Standing against bullying","Respecting personal boundaries"]}
     ]},
     {"Chapter 5 (Honoring All Work)": [
-      {"Playing": ["Importance of playing with studying"]},
-      {"Projects": ["Different jobs, Cleaning duties"]},
-      {"Interviews": ["With staff"]}
+      {"Playing": ["Importance of playing with studying","Physical activity for healthy life","Balance between study and play"]},
+      {"Projects": ["Different jobs, Cleaning duties","Understanding dignity of labor","Helping maintain classroom cleanliness"]},
+      {"Interviews": ["With staff","Learning from school workers","Respecting all professions"]},
+      {"Understanding Work": ["Different roles in society","Value of effort and contribution","Respect for every type of work"]}
     ]},
     {"Chapter 6 (Our Society)": [
-      {"Discussion": ["Why society matters, Opposing unfairness"]}
+      {"Discussion": ["Why society matters, Opposing unfairness","Importance of cooperation","Community responsibilities"]},
+      {"Community Roles": ["Family roles","Role of teachers","Role of public servants"]},
+      {"Civic Responsibility": ["Helping community","Participating in local activities","Respecting public property"]},
+      {"Social Awareness": ["Understanding inequality","Helping disadvantaged groups"]}
     ]},
     {"Chapter 7 (Rules, Sharing, and Kindness)": [
-      {"Activities": ["Role-play, Sharing in class, Daily kindness prompts"]}
+      {"Activities": ["Role-play, Sharing in class, Daily kindness prompts"]},
+      {"Rules in Society": ["Why rules exist","School rules and safety","Respecting common spaces"]},
+      {"Sharing and Cooperation": ["Helping classmates","Sharing resources","Working in teams"]},
+      {"Kindness Practices": ["Helping someone daily","Positive communication","Building friendly relationships"]}
     ]},
     {"Chapter 8 (Gender and Privacy)": [
-      {"Activities": ["Privacy and gender fairness"]},
-      {"Learning": ["Respect for all"]}
+      {"Activities": ["Privacy and gender fairness","Understanding personal boundaries","Respecting others' privacy"]},
+      {"Learning": ["Respect for all","Gender equality","Challenging stereotypes"]},
+      {"Personal Safety": ["Understanding consent","Seeking help when needed","Safe online communication"]},
+      {"Respectful Behavior": ["Respecting personal space","Treating everyone fairly"]}
     ]},
     {"Chapter 9 (Poster Project)": [
       {"Projects": ["'What I Believe In' posters and writings"]},
-      {"Presentation": ["Year-end"]}
+      {"Creative Expression": ["Drawing personal values","Writing reflections","Designing posters about kindness"]},
+      {"Presentation": ["Year-end"]},
+      {"Discussion": ["Explaining personal beliefs","Listening to others' ideas","Respecting different perspectives"]}
     ]},
     {"Chapter 10 (Reflection and Ethics)": [
-      {"Discussions": ["Truth in tough times, Respecting everyone, Listening to perspectives"]}
+      {"Discussions": ["Truth in tough times, Respecting everyone, Listening to perspectives"]},
+      {"Ethical Dilemmas": ["Right vs wrong situations","Making fair decisions","Understanding consequences"]},
+      {"Honesty": ["Importance of telling truth","Building trust","Accepting responsibility"]},
+      {"Respect": ["Respect for elders and peers","Respecting different opinions"]}
     ]},
     {"Chapter 11 (Environmental Duties)": [
-      {"Projects": ["Individual and team projects to improve classroom/school environment"]}
+      {"Projects": ["Individual and team projects to improve classroom/school environment"]},
+      {"Environmental Responsibility": ["Reducing waste","Saving water","Planting trees"]},
+      {"Sustainable Habits": ["Avoiding plastic waste","Energy conservation","Keeping surroundings clean"]},
+      {"Community Environment": ["Participating in cleanliness drives","Protecting local environment"]}
     ]},
     {"Chapter 12 (Parade)": [
       {"Teaching": ["Police, army, duty and responsibility"]},
-      {"Events": ["Weekly parade, Self-safety for emergencies"]}
+      {"Events": ["Weekly parade, Self-safety for emergencies"]},
+      {"Discipline Training": ["Standing in formation","Following commands","Team coordination"]},
+      {"Emergency Awareness": ["Basic safety drills","Helping during emergencies","Understanding civic duty"]}
     ]}
   ],
   "🗣️ Languages": [
     {"Chapter 1 (Why Language? History & Types)": [
-      {"Concepts": ["Origins of language, Family tree of world languages"]},
-      {"Types": ["Spoken, Written, Sign language"]}
+      {"Concepts": ["ORIGINS OF LANGUAGE :- early human communication through sounds and gestures, development of spoken words, emergence of writing systems like Chinese characters and alphabet systems, family tree of world languages such as Indo-European, Sino-Tibetan, Romance, Germanic"]},
+      {"Types": ["SPOKEN LANGUAGE :- everyday conversation and pronunciation practice, WRITTEN LANGUAGE :- alphabets, characters, symbols used in reading and writing, SIGN LANGUAGE :- communication using gestures used by deaf communities"]},
+      {"Language Families": ["ROMANCE LANGUAGES :- Spanish, French, Italian with Latin roots, GERMANIC LANGUAGES :- English, German, Dutch, SINO-TIBETAN :- Chinese languages, JAPONIC :- Japanese language family"]},
+      {"Why Learn Languages": ["COMMUNICATION :- speaking with people from other countries, CULTURE :- understanding traditions and stories, BRAIN BENEFITS :- improved memory and thinking"]}
     ]},
     {"Chapter 2 (Languages Apps and Websites)": [
-      {"Tools": ["Duolingo, Rosetta Stone, Memrise, Beelinguapp, Busuu, 50Languages"]},
-      {"Learning Methods": ["Language exchange programs"]}
+      {"Tools": ["DUOLINGO :- vocabulary games and daily practice, ROSETTA STONE :- immersive learning method, MEMRISE :- spaced repetition vocabulary learning, BEELINGUAPP :- bilingual story reading, BUSUU :- structured language lessons, 50LANGUAGES :- phrase practice for travelers"]},
+      {"Learning Methods": ["LANGUAGE EXCHANGE :- speaking with native speakers online, PEN PAL PROGRAMS :- exchanging letters with students abroad, AUDIO PRACTICE :- listening to recordings and repeating phrases"]},
+      {"Practice Activities": ["DAILY APP PRACTICE :- 10–15 minutes vocabulary training, QUIZ ACTIVITIES :- students compete using vocabulary games, LISTENING EXERCISES :- listening to greetings in different languages"]}
     ]},
     {"Chapter 3 (Numbers 21–100)": [
-      {"Counting": ["Using numbers in real contexts: age, money, dates"]}
+      {"Counting": ["REAL USE :- saying age, counting money, dates and phone numbers", "SPANISH :- 21 veintiuno, 30 treinta, 50 cincuenta, 100 cien", "CHINESE :- 21 二十一 (èr shí yī), 50 五十 (wǔ shí)", "JAPANESE :- 21 二十一 (nijūichi), 50 五十 (gojū)"]},
+      {"Activities": ["NUMBER GAME :- students count objects in classroom", "SHOP ROLEPLAY :- using numbers while buying items"]}
     ]},
     {"Chapter 4 (Months & Seasons)": [
-      {"Vocabulary": ["Names of months and seasons, Weather vocabulary"]}
+      {"Vocabulary": ["MONTHS :- January–December equivalents in Spanish, Chinese, Japanese", "SEASONS :- spring, summer, autumn, winter translations"]},
+      {"Weather Words": ["SUNNY :- Spanish soleado, Chinese 晴天 (qíngtiān)", "RAINY :- Spanish lluvioso, Japanese 雨 (ame)", "COLD / HOT :- vocabulary comparison"]},
+      {"Practice": ["CALENDAR EXERCISE :- students say today’s date in another language", "WEATHER REPORT :- describing weather in simple sentences"]}
     ]},
     {"Chapter 5 (Food & Drinks)": [
-      {"Vocabulary": ["20 basic food items"]},
-      {"Practice": ["Roleplay - ordering in a restaurant"]}
+      {"Vocabulary": ["FOOD WORDS :- rice, bread, apple, banana, noodles, fish, meat, soup, tea, coffee with translations"]},
+      {"Cultural Foods": ["SPANISH :- paella, tortilla", "CHINESE :- dumplings, noodles", "JAPANESE :- sushi, ramen"]},
+      {"Practice": ["ROLEPLAY :- ordering food in restaurant", "DIALOGUE :- 'I would like rice please', 'How much is this?'"]},
+      {"Activities": ["FOOD MENU PROJECT :- students create multilingual menu"]}
     ]},
     {"Chapter 6 (Animals & Nature)": [
-      {"Vocabulary": ["Common animals, Natural elements like river, mountain"]}
+      {"Vocabulary": ["ANIMALS :- dog, cat, bird, tiger, elephant translations", "NATURE :- river, mountain, tree, sky, forest"]},
+      {"Comparisons": ["SPANISH :- perro (dog), gato (cat)", "CHINESE :- 狗 (gǒu), 猫 (māo)", "JAPANESE :- 犬 (inu), 猫 (neko)"]},
+      {"Activities": ["DRAWING GAME :- draw animal and say its name in another language", "NATURE WALK :- describing trees, rivers, sky vocabulary"]}
     ]},
     {"Chapter 7 (Classroom Sentences)": [
-      {"Expressions": ["May I go out?, Please repeat, I don’t understand."]}
+      {"Expressions": ["CLASSROOM PHRASES :- May I go out?, Please repeat, I don’t understand."]},
+      {"Additional Phrases": ["PLEASE HELP :- Spanish 'Ayúdame por favor'", "I DON’T KNOW :- Chinese 我不知道 (wǒ bù zhīdào)", "THANK YOU TEACHER :- Japanese 先生ありがとう (sensei arigatō)"]},
+      {"Practice": ["CLASS ROLEPLAY :- asking teacher questions in different languages"]}
     ]},
     {"Chapter 8 (Polite Expressions)": [
-      {"Expressions": ["Excuse me, I’m sorry, Thank you very much, No problem"]}
+      {"Expressions": ["Excuse me, I’m sorry, Thank you very much, No problem"]},
+      {"Translations": ["SPANISH :- gracias, lo siento", "CHINESE :- 谢谢 (xièxie), 对不起 (duìbuqǐ)", "JAPANESE :- ありがとう (arigatō), すみません (sumimasen)"]},
+      {"Usage Practice": ["POLITE CONVERSATION :- greeting someone politely", "ROLEPLAY :- thanking shopkeeper or teacher"]}
     ]},
     {"Chapter 9 (Body Parts)": [
-      {"Vocabulary": ["Drawing and Simon Says game"]}
+      {"Vocabulary": ["BODY PARTS :- head, hand, leg, eyes, nose, mouth translations in Spanish Chinese Japanese"]},
+      {"Games": ["SIMON SAYS :- touch your head / nose / hands", "DRAW BODY DIAGRAM :- labeling parts in multiple languages"]},
+      {"Practice": ["LISTEN AND POINT :- teacher says body part in target language"]}
     ]},
     {"Chapter 10 (Short Cultural Stories)": [
-      {"Stories": ["One folktale per language (simplified for kids)"]}
+      {"Stories": ["CHINESE FOLKTALE :- 'The Empty Pot' simplified story", "JAPANESE STORY :- 'Momotaro' hero story", "SPANISH STORY :- simple folk legend"]},
+      {"Discussion": ["CULTURE LESSON :- what values story teaches", "COMPARE STORIES :- similarities across cultures"]},
+      {"Activities": ["STORY RETELLING :- students narrate simplified story"]}
     ]},
     {"Chapter 11 (Festival Vocabulary)": [
-      {"Vocabulary": ["New Year (Japan, China, Spain), [translate:Eid (Urdu)]"]}
+      {"Vocabulary": ["CHINESE NEW YEAR :- lantern, dragon dance", "JAPANESE NEW YEAR :- shrine visit, family meals", "SPANISH FESTIVALS :- La Tomatina, Christmas celebrations"]},
+      {"Translations": ["EID :- translation exercise into multiple languages", "FESTIVAL WORDS :- celebration, gift, holiday"]},
+      {"Activities": ["FESTIVAL POSTER :- multilingual celebration poster"]}
     ]},
     {"Chapter 12 (Mini Dialogue II)": [
-      {"Dialogue": ["Asking age, Nationality, Feelings"]}
+      {"Dialogue": ["ASKING AGE :- 'How old are you?'", "NATIONALITY :- 'Where are you from?'", "FEELINGS :- 'I am happy / tired / excited'"]},
+      {"Example Dialogues": ["SPANISH :- ¿Cómo te llamas? Tengo diez años.", "CHINESE :- 你叫什么名字？ 我十岁。", "JAPANESE :- お名前は？ 十歳です。"]},
+      {"Practice": ["PAIR CONVERSATION :- students practice asking questions"]}
     ]},
     {"Chapter 13 (Multilingual Skills)": [
-      {"Projects": ["Word-lists of meanings in at least five languages"]},
-      {"Languages": ["Spanish, French, German, Chinese, Japanese, English, Hindi"]}
+      {"Projects": ["WORD LIST PROJECT :- basic vocabulary translated into at least five languages", "CULTURE PRESENTATION :- students present country culture"]},
+      {"Languages": ["Spanish, French, German, Chinese, Japanese, English, Hindi"]},
+      {"Skills": ["COMPARE WORDS :- similarities and differences", "LANGUAGE MAP :- placing languages on world map"]}
     ]}
   ],
   "👥 GGC (General Guidance Class)": [
-    {"Chapter 1 (Why We Study)": [
-      {"Concepts": ["Education develops brain, discipline, and power to change society"]}
+    {"Chapter 1 (Purpose of Education)": [
+      {"Concepts": ["Education develops brain, discipline, and power to change society","Education builds reasoning and critical thinking","Learning helps individuals become independent","Education enables social mobility and opportunity","Knowledge empowers communities"]},
+      {"Respecting Education": ["Appreciating books, school, teachers as empowerment sources","Value of libraries and learning spaces","Importance of respecting knowledge creators","Understanding education as a privilege in many parts of the world"]},
+      {"Meaning of Learning": ["Education beyond exams","Learning to understand rather than memorize","Curiosity as the foundation of learning","Lifelong learning habits"]},
+      {"Impact on Society": ["Educated societies improve health and economy","Education reducing poverty","Role of education in democracy and informed citizenship"]}
     ]},
     {"Chapter 2 (Self-Study and Initiative)": [
-      {"Skills": ["Studying beyond syllabus, Asking questions, Researching, Curiosity practice"]}
+      {"Skills": ["Studying beyond syllabus, Asking questions, Researching, Curiosity practice"]},
+      {"Independent Learning": ["Reading books outside school syllabus","Watching educational documentaries","Exploring online learning platforms","Learning through projects"]},
+      {"Questioning Mind": ["Asking why and how questions","Challenging assumptions respectfully","Investigating multiple viewpoints","Building logical arguments"]},
+      {"Research Skills": ["Finding reliable information","Comparing sources","Organizing knowledge","Learning from experiments"]},
+      {"Curiosity Exercises": ["Keeping curiosity notebook","Writing daily questions","Exploring everyday science phenomena"]}
     ]},
-    {"Chapter 3 (Time Management)": [
-      {"Skills": ["Prioritizing homework, hobbies, rest, Balanced routine"]}
+    {"Chapter 3 (Time Management and Discipline)": [
+      {"Skills": ["Prioritizing homework, hobbies, rest, Balanced routine"]},
+      {"Daily Routine": ["Planning study hours","Balancing study, play, and rest","Importance of sleep for brain function","Avoiding excessive screen time"]},
+      {"Focus Techniques": ["Short focused study sessions","Avoiding distractions","Setting clear goals before study","Taking productive breaks"]},
+      {"Planning Tools": ["Daily to-do lists","Weekly study schedules","Tracking homework and projects","Reviewing progress regularly"]},
+      {"Discipline Building": ["Following consistent routines","Completing tasks on time","Building personal responsibility"]}
     ]},
-    {"Chapter 4 (Dealing with Failure)": [
-      {"Skills": ["Failure is a learning opportunity, Accepting mistakes, Trying again with confidence, Growth mindset, Resilience, Perseverance"]}
+    {"Chapter 4 (Growth Mindset and Handling Failure)": [
+      {"Skills": ["Failure is a learning opportunity, Accepting mistakes, Trying again with confidence, Growth mindset, Resilience, Perseverance"]},
+      {"Examples of Failure": ["Scientists who failed before discovery","Entrepreneurs who faced setbacks","Athletes overcoming losses"]},
+      {"Learning from Mistakes": ["Analyzing what went wrong","Improving strategy","Learning persistence"]},
+      {"Confidence Building": ["Positive self-talk","Believing abilities can grow","Encouraging effort instead of perfection"]},
+      {"Resilience Training": ["Handling criticism","Maintaining motivation","Turning challenges into opportunities"]}
     ]},
-    {"Chapter 5 (Respecting Education)": [
-      {"Values": ["Appreciating books, school, teachers as empowerment sources"]}
+    {"Chapter 5 (Self-Reflection and Personal Growth)": [
+      {"Activities": ["Writing or talking about ‘What did I learn today?’"]},
+      {"Reflection Habits": ["Daily reflection journal","Discussing lessons learned","Evaluating personal progress"]},
+      {"Self Awareness": ["Understanding personal strengths","Recognizing weaknesses","Developing improvement plans"]},
+      {"Goal Tracking": ["Recording achievements","Setting personal learning goals","Monitoring progress over time"]},
+      {"Personal Development": ["Building discipline","Improving communication","Practicing gratitude"]}
     ]},
-    {"Chapter 6 (Self-Reflection)": [
-      {"Activities": ["Writing or talking about ‘What did I learn today?’"]}
+    {"Chapter 6 (Global Education Systems)": [
+      {"Overview": ["School systems in UK, US, Japan, Finland, India’s global standing"]},
+      {"Learning Methods": ["Project-based learning","Creative classrooms","Technology-assisted education","Collaborative learning"]},
+      {"Comparisons": ["Strengths of different systems","Student independence in Finland","Discipline culture in Japan"]},
+      {"Future Skills": ["Critical thinking","Innovation and creativity","Digital literacy","Problem-solving abilities"]},
+      {"Lessons for Students": ["Learning from global practices","Adapting good habits"]}
     ]},
-    {"Chapter 7 (Global Education Systems)": [
-      {"Overview": ["School systems in UK, US, Japan, Finland, India’s global standing"]}
-    ]},
-    {"Chapter 8 (Inspirational Achievers)": [
-      {"Stories": ["Young innovators, Gamers, Activists making a difference worldwide"]}
-    ]},
-    {"Chapter 9 (Inspirational Young Achievers)": [
+    {"Chapter 7 (Inspirational Achievers)": [
+      {"Stories": ["Young innovators, Gamers, Activists making a difference worldwide"]},
       {"Profiles": ["Gitanjali Rao, Tanmay Bakshi, Samaira Mehta, Harshwardhansinh Zala, Anne Makosinski"]},
-      {"Lessons": ["Innovation, Problem-solving, Persistence"]}
+      {"Lessons": ["Innovation, Problem-solving, Persistence"]},
+      {"Habit Analysis": ["Daily routines of achievers","Importance of practice","Value of curiosity"]},
+      {"Inspiration Exercises": ["Students research one achiever","Present story to class"]}
     ]},
-    {"Chapter 10 (Gaming & eSports Inspiration)": [
+    {"Chapter 8 (Gaming & eSports Inspiration)": [
       {"Stories": ["Bugha, Sumail, Ana, Lil Poison, HydraFlick"]},
-      {"Analysis": ["Habits and learning paths"]}
+      {"Analysis": ["Habits and learning paths"]},
+      {"Skills Developed": ["Strategy and decision making","Team coordination","Quick reaction time","Competitive discipline"]},
+      {"Balanced Gaming": ["Gaming as skill vs addiction","Maintaining study balance","Healthy screen habits"]},
+      {"Learning from Gaming": ["Strategic thinking","Problem-solving","Team communication"]}
     ]},
-    {"Chapter 11 (Social Activists & Global Good)": [
+    {"Chapter 9 (Social Activists & Global Good)": [
       {"Lessons": ["Malala, Greta, Licypriya, Zuriel, Bana Alabed"]},
-      {"Activities": ["Group discussions, Project inspirations"]}
+      {"Activities": ["Group discussions, Project inspirations"]},
+      {"Understanding Social Issues": ["Education rights","Climate change awareness","Human rights topics"]},
+      {"Youth Leadership": ["Young people influencing change","Importance of courage and voice"]},
+      {"Community Projects": ["Local awareness campaigns","Helping community issues"]}
     ]},
-    {"Chapter 12 (Your Learning Path)": [
+    {"Chapter 10 (Personal Goals and Action Plan)": [
       {"Reflection": ["How achievers started, Challenges, Routines, Mindset"]},
-      {"Planning": ["Make a plan for your own goals"]}
-    ]},
-    {"Chapter 13 (Comparing and Action Plan)": [
-      {"Planning": ["Monthly personal skill-building projects"]},
-      {"Support": ["Finding support, Identifying local issues"]}
+      {"Planning": ["Make a plan for your own goals"]},
+      {"Monthly Projects": ["Monthly personal skill-building projects"]},
+      {"Support": ["Finding support, Identifying local issues"]},
+      {"Goal Setting": ["Short-term academic goals","Long-term career ideas","Developing learning roadmaps"]},
+      {"Action Planning": ["Tracking progress","Adjusting goals","Celebrating achievements"]}
     ]}
   ],
   "🏃‍♂️ Games & Physical Education": [
     {"Chapter 1 (Hygiene and Personal Cleanliness)": [
-      {"Routines": ["Daily exercise, Hand washing, Teeth brushing"]}
+      {"Daily Hygiene Habits": ["Regular bathing","Hand washing before meals","Brushing teeth twice a day","Keeping nails trimmed","Wearing clean clothes"]},
+      {"Personal Care": ["Hair cleanliness","Skin care basics","Clean shoes and uniforms","Maintaining personal belongings"]},
+      {"Healthy Daily Routine": ["Waking up early","Morning exercise","Balanced daily schedule","Proper sleep habits"]},
+      {"Disease Prevention": ["Importance of cleanliness","Avoiding germs","Safe food habits","Clean drinking water"]},
+      {"School Hygiene": ["Keeping classroom clean","Using dustbins properly","Maintaining playground cleanliness"]},
+      {"Community Hygiene": ["Keeping surroundings clean","Avoiding littering","Participating in cleanliness drives"]}
     ]},
     {"Chapter 2 (Physical Fitness)": [
-      {"Activities": ["Warm-up/cool-down, Daily sports, Safe stretching"]}
+      {"Importance of Exercise": ["Benefits of physical activity","Building strength and stamina","Improving flexibility","Better mental health"]},
+      {"Warm-up Exercises": ["Stretching muscles","Light jogging","Joint movements","Preparing body for sports"]},
+      {"Basic Fitness Activities": ["Running and walking","Jumping exercises","Skipping rope","Balance exercises"]},
+      {"Sports and Games": ["Team sports like football and cricket","Individual sports like running","Importance of teamwork"]},
+      {"Cool-down Techniques": ["Slow stretching","Relaxing breathing","Gradual recovery after exercise"]},
+      {"Healthy Competition": ["Sportsmanship","Respecting teammates and opponents","Learning from wins and losses"]}
     ]},
     {"Chapter 3 (Nutrition and Body Science)": [
-      {"Knowledge": ["Healthy diet, Importance of hydration, Basic anatomy"]}
+      {"Balanced Diet": ["Carbohydrates proteins fats","Vitamins and minerals","Importance of fruits and vegetables"]},
+      {"Hydration": ["Importance of drinking water","Water during sports","Avoiding dehydration"]},
+      {"Energy and Food": ["Food as source of energy","Healthy snacks for active children"]},
+      {"Basic Anatomy": ["Major body organs","Muscles and bones","Role of heart and lungs during exercise"]},
+      {"Food Habits": ["Eating at regular times","Avoiding junk food","Importance of home-cooked meals"]},
+      {"Nutrition Awareness": ["Reading food labels","Healthy school lunch ideas"]}
     ]},
     {"Chapter 4 (Safety at School and Home)": [
-      {"Awareness": ["Classroom safety, Playground safety, Reporting risks"]}
+      {"Classroom Safety": ["Safe movement inside classroom","Handling classroom tools carefully"]},
+      {"Playground Safety": ["Following rules of games","Using equipment properly","Avoiding pushing and rough play"]},
+      {"Home Safety": ["Avoiding dangerous objects","Basic kitchen safety","Safe use of electricity"]},
+      {"First Aid Basics": ["Handling small cuts","Cleaning wounds","Seeking adult help"]},
+      {"Emergency Awareness": ["Recognizing dangerous situations","Contacting teachers or parents"]},
+      {"Reporting Risks": ["Informing adults about unsafe conditions","Helping maintain safe environment"]}
     ]},
     {"Chapter 5 (Emotional Literacy)": [
-      {"Skills": ["Understanding feelings, Naming emotions, Empathy through group activities"]}
+      {"Understanding Feelings": ["Recognizing happiness sadness anger fear","How emotions affect behavior"]},
+      {"Naming Emotions": ["Expressing feelings with words","Talking about emotions"]},
+      {"Empathy": ["Understanding others' feelings","Helping classmates","Kind behavior"]},
+      {"Team Activities": ["Group games promoting cooperation","Sharing and teamwork"]},
+      {"Managing Emotions": ["Calming techniques","Taking breaks when upset","Talking to trusted adults"]},
+      {"Building Confidence": ["Encouraging participation","Positive thinking","Celebrating achievements"]}
     ]}
   ],
   "🎨 Arts & Music": [
-    {"Chapter 1 (Art Appreciation)": [
-      {"Introduction": ["Famous artists and their works"]}
+  {"Chapter 1 (Art Appreciation)": [
+      {"Introduction to Art": ["What is art","Why humans create art","Art as expression of ideas and emotions","Art in daily life"]},
+      {"Famous Artists": ["Leonardo da Vinci","Vincent van Gogh","Pablo Picasso","Rabindranath Tagore","Indian traditional artists"]},
+      {"Types of Art": ["Painting","Sculpture","Architecture","Folk art","Modern art"]},
+      {"Indian Art Traditions": ["Madhubani painting","Warli art","Pattachitra","Rangoli traditions"]},
+      {"Understanding Artwork": ["Observing colors and shapes","Recognizing patterns","Interpreting meaning in artwork"]},
+      {"Art in Society": ["Art in festivals","Art in clothing and crafts","Art in public spaces"]}
     ]},
     {"Chapter 2 (Music Fundamentals)": [
-      {"Basics": ["Music theory, Rhythm exercises, Singing"]}
+      {"Introduction to Music": ["Meaning of music","Music as emotional expression","Music across cultures"]},
+      {"Rhythm and Beat": ["Understanding rhythm","Clapping exercises","Keeping tempo","Simple rhythm patterns"]},
+      {"Basic Music Theory": ["Notes and pitch","High and low sounds","Simple scales","Melody basics"]},
+      {"Singing Practice": ["Breathing exercises","Voice control","Group singing","Simple songs"]},
+      {"Musical Instruments": ["Percussion instruments","String instruments","Wind instruments","Indian classical instruments"]},
+      {"Listening Skills": ["Recognizing instruments","Identifying rhythm","Understanding mood in music"]}
     ]},
     {"Chapter 3 (Hands-on Art)": [
-      {"Projects": ["Art using paint, clay, digital tools"]}
+      {"Drawing Basics": ["Lines and shapes","Sketching objects","Shading techniques"]},
+      {"Painting Projects": ["Watercolor painting","Poster color projects","Nature painting"]},
+      {"Craft Activities": ["Paper crafts","Clay modeling","Recycled art projects"]},
+      {"Creative Expression": ["Designing greeting cards","Decorating notebooks","Festival decorations"]},
+      {"Digital Art": ["Basic drawing software","Simple digital posters","Creative digital designs"]},
+      {"Group Art Activities": ["Collaborative murals","Class art exhibitions"]}
+    ]},
+    {"Chapter 4 (Theater and Performance Arts)": [
+      {"Introduction to Theater": ["What is drama","Role of acting","Storytelling through performance"]},
+      {"Acting Skills": ["Facial expressions","Voice projection","Body language"]},
+      {"Improvisation": ["Short role plays","Creative storytelling","Group improvisation games"]},
+      {"Stage Awareness": ["Understanding stage space","Movement and positioning","Audience interaction"]},
+      {"Cultural Performances": ["Traditional plays","Folk performances","School drama presentations"]}
+    ]},
+    {"Chapter 5 (Creative Design and Visual Communication)": [
+      {"Elements of Design": ["Line","Shape","Color","Texture","Balance"]},
+      {"Color Theory": ["Primary colors","Secondary colors","Color mixing"]},
+      {"Poster and Graphic Design": ["Creating posters","Visual communication","Simple layout design"]},
+      {"Symbol and Pattern Design": ["Creating symbols","Repeating patterns","Decorative designs"]},
+      {"Creative Problem Solving": ["Designing solutions through art","Visual storytelling"]}
+    ]},
+    {"Chapter 6 (Dance and Movement)": [
+      {"Introduction to Dance": ["Dance as artistic expression","Cultural dances","Movement and rhythm"]},
+      {"Basic Dance Steps": ["Simple rhythm movements","Coordination exercises","Balance and posture"]},
+      {"Group Dance Activities": ["Team choreography","Folk dance practice","Celebration dances"]},
+      {"Expression through Movement": ["Expressing emotions through dance","Movement storytelling"]},
+      {"Dance and Fitness": ["Dance for exercise","Body flexibility","Coordination improvement"]}
+    ]},
+    {"Chapter 7 (Art Projects and Exhibitions)": [
+      {"Project Planning": ["Choosing themes","Planning art projects","Selecting materials"]},
+      {"Art Creation": ["Painting projects","Craft projects","Mixed media artwork"]},
+      {"Music Performance": ["Group singing practice","Instrument demonstrations","Simple compositions"]},
+      {"School Exhibitions": ["Displaying artwork","Organizing art shows","Performance presentations"]},
+      {"Reflection and Creativity": ["Discussing artistic ideas","Encouraging originality","Learning from others' work"]}
     ]}
   ],
   "🧠 General Knowledge (G.K)": [
     {"Chapter 1 (Famous Personalities)": [
-      {"Stories": ["Notable figures from India and the world"]}
+      {"Stories": ["Notable figures from India and the world"]},
+      {"Indian Leaders and Reformers": ["Mahatma Gandhi","B. R. Ambedkar","Swami Vivekananda","Sarojini Naidu","Dr. A.P.J. Abdul Kalam"]},
+      {"Scientists and Innovators": ["Albert Einstein","Marie Curie","Isaac Newton","C.V. Raman","Jagadish Chandra Bose"]},
+      {"Artists and Cultural Icons": ["Rabindranath Tagore","M.F. Husain","Lata Mangeshkar","Ravi Shankar","Satyajit Ray"]},
+      {"Sports Personalities": ["Sachin Tendulkar","P.V. Sindhu","Milkha Singh","Mary Kom","Lionel Messi"]},
+      {"Learning from Great Lives": ["Hard work and perseverance","Importance of education","Service to society","Innovation and creativity"]}
     ]},
     {"Chapter 2 (National and World Symbols)": [
-      {"Symbols": ["Flags, Currencies, Monuments, Capitals"]}
+      {"Symbols": ["Flags, Currencies, Monuments, Capitals"]},
+      {"National Symbols of India": ["National flag","National emblem","National anthem","National animal and bird","National flower and tree"]},
+      {"Flags Around the World": ["Understanding flag designs","Symbolism in flags","Examples of famous national flags"]},
+      {"Currencies of Countries": ["Indian Rupee","US Dollar","Euro","Japanese Yen","British Pound"]},
+      {"Capitals of Nations": ["Major world capitals","Capitals of neighboring countries","Importance of capital cities"]},
+      {"Famous Monuments": ["Taj Mahal","Statue of Liberty","Great Wall of China","Eiffel Tower","Colosseum"]},
+      {"Meaning Behind Symbols": ["Why countries use symbols","How symbols represent culture and history"]}
     ]},
     {"Chapter 3 (Geography and Culture)": [
-      {"Topics": ["Continents, Countries, Indian festivals, Cultural heritage"]}
+      {"Topics": ["Continents, Countries, Indian festivals, Cultural heritage"]},
+      {"Continents of the World": ["Asia","Africa","Europe","North America","South America","Australia","Antarctica"]},
+      {"Countries and Regions": ["Major countries of the world","Neighboring countries of India","Maps and basic geography"]},
+      {"Indian Festivals": ["Diwali","Holi","Eid","Christmas","Pongal","Baisakhi"]},
+      {"Cultural Heritage": ["Traditional clothing","Languages of India","Folk music and dance","Local traditions"]},
+      {"Natural Features": ["Mountains","Rivers","Deserts","Forests","Oceans"]},
+      {"Respecting Diversity": ["Understanding different cultures","Importance of tolerance","Learning from other traditions"]}
     ]},
     {"Chapter 4 (Science & Inventions)": [
-      {"Stories": ["Key inventors, Discovery stories, Weekly news updates"]}
+      {"Stories": ["Key inventors, Discovery stories, Weekly news updates"]},
+      {"Important Inventions": ["Telephone","Electric light bulb","Airplane","Computer","Internet"]},
+      {"Famous Inventors": ["Thomas Edison","Alexander Graham Bell","Nikola Tesla","Wright Brothers","Tim Berners-Lee"]},
+      {"Scientific Discoveries": ["Gravity discovery","Structure of DNA","Electricity understanding","Space exploration milestones"]},
+      {"Modern Technology": ["Robotics","Artificial intelligence","Smartphones","Space missions"]},
+      {"Science in Daily Life": ["Electricity use","Transportation technology","Medical technology"]},
+      {"Weekly Science Updates": ["Recent scientific discoveries","Important technological developments","Science news discussions"]}
     ]},
     {"Chapter 5 (Monuments and Current Affairs)": [
-      {"Landmarks": ["Worldwide landmarks, Simple current events summary"]}
+      {"Landmarks": ["Worldwide landmarks, Simple current events summary"]},
+      {"Indian Monuments": ["Taj Mahal","Red Fort","Qutub Minar","Gateway of India","Charminar"]},
+      {"World Landmarks": ["Great Wall of China","Eiffel Tower","Statue of Liberty","Sydney Opera House","Pyramids of Egypt"]},
+      {"Understanding History Through Monuments": ["Why monuments were built","Historical events related to monuments","Cultural importance"]},
+      {"Current Affairs Basics": ["Important national events","Important global events","Major achievements in science sports and culture"]},
+      {"Awareness Activities": ["Weekly news reading","Quiz discussions","Map-based activities"]},
+      {"Responsible Citizenship": ["Understanding national events","Respecting cultural heritage","Being informed citizens"]}
     ]}
   ],
   "🔬 Research Projects (R.P)": [
-    {"Chapter 1 (Scientific Curiosity)": [
-      {"Concepts": ["Scientific thinking, Asking logical questions before experiments"]}
+  {"Chapter 1 (Scientific Curiosity)": [
+      {"Concepts": ["Scientific thinking, Asking logical questions before experiments"]},
+      {"Observation Skills": ["Looking carefully at everyday phenomena","Recording observations","Recognizing patterns in nature"]},
+      {"Question Building": ["How to form good questions","Difference between guess and hypothesis","Why curiosity drives discovery"]},
+      {"Simple Experiments": ["Testing ideas using small experiments","Comparing results","Learning from unexpected outcomes"]},
+      {"Scientific Method": ["Observation","Hypothesis","Experiment","Conclusion","Sharing results"]}
     ]},
     {"Chapter 2 (Safety in Labs)": [
       {"Electrical Safety": ["Current, voltage, precautions when handling cells, bulbs, motors"]},
       {"Mechanical Safety": ["Safe use of gears, pulleys, sharp tools, moving parts in projects"]},
-      {"Chemical Safety": ["Understanding labels, Handling cleaning liquids and glue, Wearing protective gear"]}
+      {"Chemical Safety": ["Understanding labels, Handling cleaning liquids and glue, Wearing protective gear"]},
+      {"General Lab Rules": ["Keeping workspace organized","Avoiding running in the lab","Following teacher instructions"]},
+      {"Emergency Awareness": ["Recognizing hazards","Knowing where first-aid kits are","Reporting accidents immediately"]},
+      {"Protective Equipment": ["Gloves","Safety glasses","Aprons","Safe storage of tools"]}
     ]},
     {"Chapter 3 (Teamwork in Research)": [
-      {"Collaboration": ["Working respectfully with peers, Sharing ideas, Fair division of work"]}
+      {"Collaboration": ["Working respectfully with peers, Sharing ideas, Fair division of work"]},
+      {"Communication": ["Listening to teammates","Explaining ideas clearly","Discussing solutions"]},
+      {"Planning Together": ["Setting group goals","Dividing tasks","Tracking progress"]},
+      {"Conflict Resolution": ["Handling disagreements respectfully","Finding compromises","Keeping focus on project goals"]},
+      {"Leadership Skills": ["Encouraging others","Taking responsibility","Helping teammates learn"]}
     ]},
     {"Chapter 4 (Artificial Intelligence)": [
-      {"Introduction": ["What is AI?, Applications in daily life"]}
+      {"Introduction": ["What is AI?, Applications in daily life"]},
+      {"Examples of AI": ["Voice assistants","Recommendation systems","Smart cameras","Self-driving technology"]},
+      {"AI in Education": ["Learning tools","Language assistants","Homework helpers"]},
+      {"Ethics of AI": ["Responsible use of technology","Privacy concerns","Human decision making"]},
+      {"Simple Activities": ["Observing AI tools in apps","Discussing AI in everyday devices"]}
     ]},
     {"Chapter 5 (Sensors Around Us)": [
-      {"Research": ["Experiments and videos on sensors in airplanes, boats, robots"]}
+      {"Research": ["Experiments and videos on sensors in airplanes, boats, robots"]},
+      {"Types of Sensors": ["Temperature sensors","Light sensors","Motion sensors","Sound sensors"]},
+      {"Sensors in Daily Life": ["Mobile phones","Cars","Smart home devices","Weather stations"]},
+      {"Sensor Experiments": ["Light sensor demonstration","Temperature measurement","Motion detection activities"]},
+      {"Data Collection": ["Recording sensor readings","Comparing results","Understanding measurement accuracy"]}
     ]},
     {"Chapter 6 (Robotics – Introduction)": [
       {"Projects": ["Basic robotics using kits or classroom builds"]},
-      {"Connections": ["Link to earlier C/C++ and Arduino lessons, Real-world examples"]}
+      {"Connections": ["Link to earlier C/C++ and Arduino lessons, Real-world examples"]},
+      {"Robot Components": ["Motors","Sensors","Microcontrollers","Power supply"]},
+      {"Robot Movements": ["Wheels and tracks","Simple motion control","Obstacle detection"]},
+      {"Real World Robotics": ["Industrial robots","Medical robots","Exploration robots"]}
     ]},
     {"Chapter 7 (Project Work)": [
       {"Build Models": ["Windmill, Electric boat, Simple robot"]},
-      {"Supervision": ["Teacher oversight and safety"]}
+      {"Supervision": ["Teacher oversight and safety"]},
+      {"Planning Projects": ["Choosing project idea","Designing model","Preparing materials"]},
+      {"Testing Models": ["Checking functionality","Improving design","Troubleshooting problems"]},
+      {"Documentation": ["Recording steps","Writing observations","Preparing project notes"]}
     ]},
     {"Chapter 8 (Software Tools)": [
-      {"Tools": ["TinkerCAD, Arduino IDE, VS Code, Brainly"]}
+      {"Tools": ["TinkerCAD, Arduino IDE, VS Code, Brainly"]},
+      {"Design Tools": ["Basic circuit simulation","Visual programming tools","Project planning apps"]},
+      {"Coding Practice": ["Simple coding exercises","Running example programs","Debugging basics"]},
+      {"Learning Platforms": ["Educational websites","Coding practice platforms","Online tutorials"]},
+      {"Responsible Use": ["Using technology ethically","Avoiding plagiarism","Learning independently"]}
     ]},
     {"Chapter 9 (Videography & Presentation Skills)": [
-      {"Introduction": ["Why record learning?, Basic framing, angle, light concepts"]}
+      {"Introduction": ["Why record learning?, Basic framing, angle, light concepts"]},
+      {"Planning a Video": ["Preparing script","Choosing location","Checking lighting"]},
+      {"Camera Basics": ["Steady camera handling","Good framing","Avoiding noise"]},
+      {"Storytelling": ["Explaining project step-by-step","Using visuals","Clear demonstrations"]},
+      {"Editing Basics": ["Trimming clips","Adding captions","Simple background music"]}
     ]},
     {"Chapter 10 (Speaking on Camera)": [
-      {"Skills": ["Confidence, Smiling, Eye contact when explaining projects"]}
+      {"Skills": ["Confidence, Smiling, Eye contact when explaining projects"]},
+      {"Voice Control": ["Clear pronunciation","Proper speaking speed","Avoiding filler words"]},
+      {"Body Language": ["Standing posture","Hand gestures","Natural expression"]},
+      {"Explaining Ideas": ["Step-by-step explanation","Using simple language","Engaging audience"]},
+      {"Practice Exercises": ["Short presentations","Feedback sessions","Confidence building"]}
     ]},
     {"Chapter 11 (Simple Shooting Practice)": [
-      {"Practice": ["Record 1-minute explanatory videos"]}
+      {"Practice": ["Record 1-minute explanatory videos"]},
+      {"Basic Exercises": ["Introduce yourself on camera","Explain simple concept","Show small experiment"]},
+      {"Improving Video Quality": ["Better lighting","Clear audio","Stable camera"]},
+      {"Learning from Mistakes": ["Watching recordings","Identifying improvements","Repeating practice"]},
+      {"Creativity": ["Different angles","Visual examples","Short demonstrations"]}
     ]},
     {"Chapter 12 (Teamwork and Roles in Videography)": [
-      {"Roles": ["Camera person, Speaker, Helper"]}
+      {"Roles": ["Camera person, Speaker, Helper"]},
+      {"Production Roles": ["Script writer","Editor","Project demonstrator"]},
+      {"Coordination": ["Planning shots together","Helping each other","Organizing equipment"]},
+      {"Time Management": ["Scheduling recording sessions","Meeting deadlines"]},
+      {"Group Reflection": ["Discussing strengths","Improving teamwork"]}
     ]},
     {"Chapter 13 (Sharing and Reflection)": [
-      {"Activities": ["Watch classmates’ videos, Give positive feedback, Learn from each other"]}
+      {"Activities": ["Watch classmates’ videos, Give positive feedback, Learn from each other"]},
+      {"Peer Review": ["Discussing project ideas","Suggesting improvements","Encouraging creativity"]},
+      {"Presentation Sessions": ["Showing projects to class","Answering questions","Explaining learning process"]},
+      {"Learning from Others": ["Observing different approaches","Improving future projects"]},
+      {"Self Reflection": ["Thinking about what worked well","Identifying areas to improve"]}
     ]},
     {"Chapter 14 (Basic Tools)": [
-      {"Tools": ["Soldering iron, Multimeter, Wire stripper, Pliers, Screwdrivers, Safety gear"]}
+      {"Tools": ["Soldering iron, Multimeter, Wire stripper, Pliers, Screwdrivers, Safety gear"]},
+      {"Tool Safety": ["Handling tools carefully","Turning off soldering iron","Safe storage"]},
+      {"Measuring Tools": ["Using multimeter","Checking voltage and continuity","Basic troubleshooting"]},
+      {"Assembly Skills": ["Connecting wires","Tightening screws","Using pliers safely"]},
+      {"Maintenance": ["Cleaning tools","Checking damage","Proper storage"]}
     ]}
   ]
 },
@@ -1183,14 +1802,29 @@ Object.assign(window.curriculumData, {
       {"What to do?": ["BEFORE POSSESSTION :- Reduce chronic stress, slow breathing or meditation, Encourage open discussion of fear, anxiety, and emotional distress, Seek medical consultation when physical symptoms persist, Understand that fear and anxiety are biological responses, not signs of weakness, Sit or lie down in a safe place, Focus on slow, deep breathing to calm the nervous system, Avoid crowds that may increase panic, Do not jump to supernatural explanations, Seek help from a trusted family member or healthcare professional", "DURING POSSESSTION WHAT OTHER SHOULD DO :- extreme activation of the stress response and Fear of injury temporarily disappears, Do not engage in physical struggle unless unavoidable and Do not try to overpower the person alone, Remove sharp or dangerous objects (knives, sticks, fire, tools) from the area, Do not shout, threaten, restrain violently, or attack, Speak calmly and reassuringly, Avoid chanting, provoking, or reinforcing supernatural ideas, Reduce noise and crowding, Allow space while ensuring supervision, No Physical punishment or beating, don't Forcing rituals or exorcisms", "AFTER POSSESSTION :- Do not shame or mock them, Do not repeatedly retell the incident as a supernatural event, Encourage rest and hydration, Seek medical or psychological evaluation if episodes recur, Maintain a supportive, non-judgmental environment, Counseling helps reduce fear, stress, and belief reinforcement, Encourage scientific explanations over fear-based ones, Replace superstition with knowledge, not ridicule"]},
       {"Ethical Conclusion": ["Belief must reduce suffering, If belief spreads hate- it fails, Scientific temperament strengthens humanity, Thinking is moral responsibility", "Today mostly blind faith is due to religion which lost their very initial Idea of peacefulness and turned into business nowadays", "Exploitation succeeds not because people are stupid, but because they are vulnerable", "If belief requires fear to survive, is it belief or control?"]},
       {"Diseases Once Considered Ghosts": ["EPILEPSY (MIRGI) :- ghost possession, anti-epileptic medicines", "TETANUS :- curse or bad omen, tetanus injection and muscle relaxants", "TUBERCULOSIS (TB) :- past life sin, anti-TB medicines (DOTS)", "SMALLPOX :- anger of goddess, vaccination and medical care", "HYSTERIA (CONVERSION DISORDER) :- ghost inside body, psychological therapy and counseling", "SLEEP PARALYSIS :- witch or ghost attack at night, sleep regulation and stress management", "FEBRILE SEIZURE (INFANT) :- evil spirit in child, fever control and medical observation", "INFANT COLIC / EXCESSIVE CRYING :- black magic or nazar, feeding correction and pediatric care"]},
-      {"Homework: Questions to Think Deeply": ["Mental slavery VS Physical slavery","Why does a possessed person speak only the language they already know?", "If the same deity appears in different regions, why does it always follow local language and culture?", "Does molvi/padri/bhagat has any type of contract with god or ghost?", "If a god knows all languages, why has no possessed person ever spoken a completely new language?", "Why do possession and supernatural experiences mostly occur to believers and not atheists?", "Why are fear-based beliefs stronger during illness, stress, or personal crisis?", "If belief can heal (placebo), can belief also harm or kill (nocebo)?", "Why do rituals give temporary relief even when the explanation is false?", "Why do supernatural events stop appearing under scientific observation or medical supervision?", "Why do ghosts and gods always wear familiar clothes and follow cultural rules?", "If a human threatens the Sun or Moon, we call it madness, but if a divine figure eat sun or broke moon into parts we call it divine power- Why?- Does Religion brain wash us to accept wrong as right?", "Should actions be judged by who performs them or by their consequences?", "Why do repeated stories feel true even without evidence?", "Who benefits when people believe without questioning?", "Is questioning belief disrespectful, or is it a form of responsibility?", "Can morality exist without fear of divine punishment?", "If belief increases violence or hatred, should it still be protected?", "What is more important: preserving belief or protecting human life?", "If fear can command the brain to harm the body, how can awareness protect us?", "What is the difference between emotional relief and factual truth?", "If an idea cannot survive a question, does it deserve obedience?", "Once Dr. B. R. Ambedkar said- Religion are for human, human are not for Religion- what does it mean", "Analyze belief-based incidents","Identify placebo/nocebo cases","Discuss relief vs truth","Encourage respectful questioning"]},
+      {"Homework: Questions to Think Deeply": ["Mental slavery VS Physical slavery","Why does a possessed person speak only the language they already know?", "If the same deity appears in different regions, why does it always follow local language and culture?", "Does molvi/padri/bhagat has any type of contract with god or ghost?", "If a god knows all languages, why has no possessed person ever spoken a completely new language?", "Why do possession and supernatural experiences mostly occur to believers and not atheists?", "Why are fear-based beliefs stronger during illness, stress, or personal crisis?", "If belief can heal (placebo), can belief also harm or kill (nocebo)?", "Why do rituals give temporary relief even when the explanation is false?", "if ghost exist they why only human ghost not mosquito, dog, chicken, mutton etc. ghosts ", "Why do supernatural events stop appearing under scientific observation or medical supervision?", "Why do ghosts and gods always wear familiar clothes and follow cultural rules?", "If a human threatens the Sun or Moon, we call it madness, but if a divine figure eat sun or broke moon into parts we call it divine power- Why?- Does Religion brain wash us to accept wrong as right?", "Should actions be judged by who performs them or by their consequences?", "Why do repeated stories feel true even without evidence?", "Who benefits when people believe without questioning?", "Is questioning belief disrespectful, or is it a form of responsibility?", "Can morality exist without fear of divine punishment?", "If belief increases violence or hatred, should it still be protected?", "What is more important: preserving belief or protecting human life?", "If fear can command the brain to harm the body, how can awareness protect us?", "What is the difference between emotional relief and factual truth?", "If an idea cannot survive a question, does it deserve obedience?", "Once Dr. B. R. Ambedkar said- Religion are for human, human are not for Religion- what does it mean", "Analyze belief-based incidents","Identify placebo/nocebo cases","Discuss relief vs truth","Encourage respectful questioning", "why people with less belief patterns and cognitive focus rarely experience possesstion?- they don't care about Stress, Trauma, Cultural belief exposure, Suggestibility, Emotional vulnerability, Social reinforcement", "The philips experiment(canada), Ouija board", "rewards for proving ghosts or paranormal abilities-Tarksheel Society"]},
       {"Future Topics": ["Why Reincarnation Cases exist?", "How to scientifically test supernatural claims?", "Psychology of mass hysteria and collective beliefs"]},
     ]},
     {"Chapter 7 (Social Reformers)": [
       {"Indian Social Reformers": ["Raja Ram Mohan Roy, Savitribai Phule, Mahatma Gandhi, Dr. B. R. Ambedkar, Jyotirao Phule, Periyar E. V. Ramasamy, Ishwar Chandra Vidyasagar, Pandita Ramabai, Swami Vivekananda, Baba Amte, Tarabai Shinde, Swami Dayanand Saraswati, Vinoba Bhave, Ishwarbhai Patel, Darshan Ratan Ravan, Kandukuri Veeresalingam, Gopal Krishna Gokhale, Sarojini Naidu, Rabindranath Tagore, Ram Manohar Lohia, Annie Besant, Narayana Guru"]},
       {"International Social Reformers": ["Nelson Mandela, Martin Luther King Jr., Rosa Parks, Susan B. Anthony, Florence Nightingale, Malala Yousafzai, William Wilberforce, Harriet Tubman, Mother Teresa, Desmond Tutu, Abraham Lincoln, Jane Addams, John Stuart Mill, Eleanor Roosevelt, Karl Marx, Helen Keller, Aung San Suu Kyi, Thomas Paine, Mahatma Phule, Bertrand Russell"]},
+      {"Inspiring Quotes for Independent Thinking": ["NELSON MANDELA :- Education is the most powerful weapon which you can use to change the world.", "BENJAMIN FRANKLIN :- An investment in knowledge pays the best interest.", "SWAMI VIVEKANANDA :- Education is the manifestation of the perfection already in man., Truth can be stated in a thousand different ways yet each one can be true., Take up one idea make that one idea your life.", "ANTHONY J. D’ANGELO :- Develop a passion for learning if you do you will never cease to grow.", "ALBERT EINSTEIN :- The important thing is to never stop questioning., The true sign of intelligence is not knowledge but imagination., Education is not the learning of facts but the training of the mind to think., A person who never made a mistake never tried anything new., Try not to become a person of success but rather try to become a person of value.", "CARL SAGAN :- Science is a way of thinking much more than it is a body of knowledge., Somewhere something incredible is waiting to be known.", "LEONARDO DA VINCI :- Learning never exhausts the mind.", "B.B. KING :- The beautiful thing about learning is that no one can take it away from you.", "AVUL PAKIR JAINULABDEEN ABDUL KALAM :- Dream is not that which you see while sleeping it is something that does not let you sleep., If you want to shine like a sun first burn like a sun., Excellence is a continuous process and not an accident.", "BHIMRAO RAMJI AMBEDKAR :- Be educated be organized and be agitated for justice., Life should be great rather than long., Cultivation of mind should be the ultimate aim of human existence.", "SOCRATES :- The only true wisdom is in knowing you know nothing.", "JOHANN WOLFGANG VON GOETHE :- Knowing is not enough we must apply willing is not enough we must do.", "CONFUCIUS :- It does not matter how slowly you go as long as you do not stop., Our greatest glory is not in never falling but in rising every time we fall.", "ANNA ELEANOR ROOSEVELT :- The future belongs to those who believe in the beauty of their dreams.", "DEMOSTHENES :- Small opportunities are often the beginning of great achievements.",
+      "MARK TWAIN :- The secret of getting ahead is getting started.", "JAMES ROHN :- Discipline is the bridge between goals and accomplishment.", "ARISTOTLE :- We are what we repeatedly do excellence then is not an act but a habit., The roots of education are bitter but the fruit is sweet.", "PLUTARCH :- The mind is not a vessel to be filled but a fire to be kindled.", "HENRY DAVID THOREAU :- Success usually comes to those who are too busy to be looking for it.", "MALCOLM FORBES :- The purpose of education is to replace an empty mind with an open one.", "WILLIAM ARTHUR WARD :- Curiosity is the wick in the candle of learning.", "LOUIS PASTEUR :- Science knows no country because knowledge belongs to humanity.", "THOMAS ALVA EDISON :- I have not failed I have just found 10000 ways that will not work., Genius is one percent inspiration and ninety nine percent perspiration.", "SAMUEL JOHNSON :- Great works are performed not by strength but by perseverance.", "STEPHEN WILLIAM HAWKING :- The greatest enemy of knowledge is not ignorance it is the illusion of knowledge., Look up at the stars and not down at your feet.", "GILBERT KEITH CHESTERTON :- Education is simply the soul of a society as it passes from one generation to another.", "JOSEPH ADDISON :- Reading is to the mind what exercise is to the body.", "PETER FERDINAND DRUCKER :- The best way to predict the future is to create it.", "BRUCE LEE :- Knowledge will give you power but character respect.", "MOHANDAS KARAMCHAND GANDHI :- Live as if you were to die tomorrow learn as if you were to live forever., In a gentle way you can shake the world.", "GEORGE WASHINGTON CARVER :- Education is the key to unlock the golden door of freedom.", "HELEN HAYES :- The expert in anything was once a beginner.", "JAMES RUSSELL LOWELL :- not failure but low aim is a crime"]}
     ]},
-    {"Chapter 8 (Our Army)": [
+    {"Chapter 8 (Human Trafficking and Human Dignity)": [
+      {"What is Human Trafficking": ["Illegal trade of humans for exploitation","Includes forced labor, sexual exploitation, organ trade","Victims are often deceived or coerced","Violation of basic human rights"]},
+      {"Forms of Human Trafficking": ["Forced labor in factories, farms, homes","Sex trafficking and prostitution rings","Child trafficking for begging or work","Organ trafficking and illegal adoption"]},
+      {"Who Are the Most Vulnerable": ["Children and teenagers","Women facing poverty or discrimination","Migrants searching for work","People with limited education or social support"]},
+      {"Common Methods Used by Traffickers": ["False job offers","Promises of marriage or education","Kidnapping or abduction","Debt bondage and threats"]},
+      {"Warning Signs of Trafficking": ["Person not allowed to move freely","No access to personal documents","Signs of fear or physical abuse","Someone else controlling their communication"]},
+      {"Why Running Away in love Is Dangerous": ["instantly Loose respect in society, Children may face hunger, exploitation, forced into labor, fall into human trafficking networks, lead to family violence or unsafe living conditions","Many do not have education or job skills to survive independently","Legal issues POCSO"]},
+      {"Impact on Victims": ["Physical injury and poor health","Psychological trauma and fear","Loss of freedom and identity","Long-term social and emotional damage"]},
+      {"Role of Society and Community": ["Stay alert to suspicious recruitment","Protect children and vulnerable individuals","Report suspected trafficking","Support rehabilitation of survivors"]},
+      {"Legal Protection in India": ["Indian Penal Code sections against trafficking","Immoral Traffic Prevention Act","Protection of Children from Sexual Offences (POCSO) Act","Anti Human Trafficking Units in police"]},
+      {"Prevention Through Awareness": ["Verify job offers and recruiters","Avoid sharing personal documents carelessly","Educate children about personal safety","Promote education and economic opportunities"]},
+      {"Moral Responsibility": ["Every human life has dignity","Exploitation is never justified","Silence allows trafficking to continue","Awareness and compassion can save lives"]}
+    ]},
+    {"Chapter 9 (Our Army)": [
       {"Teaching": ["Police, Army, Duty and responsibility"]},
       {"Events": ["Weekly parade, Self-safety: fire, earthquake, emergencies"]}
     ]},
@@ -1339,20 +1973,40 @@ Object.assign(window.curriculumData, {
     {"General": [
       {"Research Project Exhibition": ["Making any project to show in school exhibition, "]}
     ]},
-    {"Chapter 1 (Introduction to Experimental Design)": [
-      {"Introduction": ["Basic controls like steering, throttle, brake, flap, roll, pitch, yaw, in machines and experiments, Hypothesis formulation, Variable identification, CoM balancing,"]}
+    {"Chapter 1 (Introduction to Research Projects)": [
+      {"What is Research": ["Systematic investigation to discover new knowledge","Involves asking questions and finding evidence-based answers","Can involve experiments, observation, or analysis","Goal is to solve problems or understand phenomena"]},
+      {"What is a Research Project": ["A structured study conducted to investigate a specific problem","Usually performed over a defined time period","Requires planning, experimentation, and reporting","Common in science, engineering, and social studies"]},
+      {"Importance of Research": ["Helps develop critical thinking","Encourages curiosity and innovation","Solves real-world problems","Advances science and technology"]},
+      {"Types of Research": ["Experimental research using laboratory experiments","Observational research using data collection","Theoretical research involving models or equations","Applied research focused on solving practical problems"]},
+      {"Steps in a Research Project": ["Identify a problem or research question","Review existing knowledge or literature","Design experiment or methodology","Collect and analyze data","Draw conclusions and communicate results"]},
+      {"Choosing a Good Research Problem": ["Problem should be clear and specific","It should be feasible with available resources","Must be relevant and meaningful","Should allow measurable outcomes"]},
+      {"Research Ethics": ["Maintain honesty in data collection","Avoid plagiarism and copying work","Give proper credit to sources","Ensure safety and respect in experiments"]},
+      {"Documentation and Record Keeping": ["Maintain a research notebook","Record observations and experimental results","Document failures and improvements","Keep track of references and data sources"]},
+      {"Teamwork in Research": ["Research often involves collaboration","Clear communication among team members","Sharing responsibilities and ideas","Respecting different viewpoints"]},
+      {"Final Research Output": ["Research report or paper","Prototype or experimental setup","Presentation of results","Discussion of future improvements"]}
     ]},
-    {"Chapter 2 ( Safety In Labs)": [
-      {"Electrical safety": ["Short circuits, Insulation, Overloading, Multimeter use"]},
-      {"Mechanical Safety": ["Rotating machines, Soldering tools, Protective equipment"]},
-      {"Chemical Safety": ["Material Safety Data Sheets, Labeling, First aid for spills"]},
-      {"Environmental Safety": ["Safe disposal, Recycling"]}
+    {"Chapter 2 (Safety In Labs)": [
+      {"General Lab Rules": ["Follow instructor instructions before starting experiments","Do not run, play, or create distractions in the lab","Keep workspace clean and organized","Know location of emergency exits and safety equipment","Report accidents immediately","Do not work alone in laboratory"]},
+      {"Electrical safety": ["Understand risks of electric shock and short circuits","Never touch exposed live wires","Use proper insulation and grounding","Avoid overloading power sockets","Switch off power before repairing circuits","Use multimeter correctly for measurements","Keep liquids away from electrical setups","Use fuses and circuit breakers","Check voltage ratings before powering devices"]},
+      {"Mechanical Safety": ["Keep hands away from rotating machines","Tie long hair and avoid loose clothing","Use machine guards and safety covers","Secure workpieces before cutting or drilling","Handle soldering irons carefully","Place hot tools in proper stands","Use safety goggles when cutting or drilling","Never operate machines without training","Maintain safe distance from moving parts"]},
+      {"Chemical Safety": ["Read Material Safety Data Sheets (MSDS) before use","Label chemical containers clearly","Avoid inhaling chemical vapors","Use gloves and lab coats when necessary","Never mix chemicals without knowledge","Store chemicals in proper containers","Wash hands after handling chemicals","Use ventilation or fume hood when required","Know first aid for chemical burns or spills"]},
+      {"Biological Safety": ["Handle biological samples carefully","Use gloves and protective clothing","Avoid direct contact with blood or biological fluids","Sterilize equipment after use","Dispose biological waste properly","Wash hands after biological experiments"]},
+      {"Fire Safety": ["Keep flammable materials away from heat sources","Know location of fire extinguishers","Never leave flames unattended","Turn off gas burners after use","Use proper extinguishers for electrical or chemical fires","Follow evacuation procedures during fire"]},
+      {"Personal Protective Equipment": ["Wear safety goggles when required","Use gloves for chemical or mechanical work","Wear lab coat or apron","Use masks when working with fumes or dust","Wear closed shoes inside laboratory"]},
+      {"Emergency Response": ["Know emergency contact numbers","Locate first aid kits in laboratory","Learn basic first aid procedures","Report injuries immediately","Follow evacuation instructions during emergencies"]},
+      {"Environmental Safety": ["Dispose laboratory waste in designated containers","Do not pour hazardous chemicals into sinks","Separate recyclable materials","Minimize waste during experiments","Reuse materials when possible","Follow hazardous waste disposal regulations","Clean workspace after experiments"]}
     ]},
     {"Chapter 3 (Videography & Editing)": [
-      {"Storytelling": ["Visual storytelling, Explaining projects visually"]},
-      {"Techniques": ["Lighting, Clarity, Stability"]},
-      {"Apps": ["CapCut, Canva, InShot"]},
-      {"Skills": ["Trimming, Captions, Background music"]}
+      {"Purpose of Project Videos": ["Document experiments and results","Explain projects visually for easy understanding","Share work with teachers, peers, or online platforms","Create clear demonstrations of research methods"]},
+      {"Storytelling": ["Introduce the problem or project goal","Explain method or experiment step by step","Show observations, results, and conclusions","Use diagrams, models, and demonstrations","Keep explanation simple and logical"]},
+      {"Planning Before Recording": ["Prepare a short script or outline","Decide key shots needed for explanation","Arrange materials and experiment setup","Check lighting and background before recording","Test camera and microphone"]},
+      {"Videography Techniques": ["Use good lighting to avoid dark footage","Keep camera stable using tripod or firm support","Maintain proper framing and focus","Record in horizontal format for presentations","Capture both wide view and close-up shots"]},
+      {"Audio Quality": ["Record clear voice explanations","Reduce background noise","Speak slowly and clearly","Use external microphone if available","Avoid windy or noisy environments"]},
+      {"Apps and Tools": ["CapCut for mobile editing","Canva for titles, graphics, and thumbnails","InShot for quick editing","Basic camera apps for recording","Simple tripod or stand for stability"]},
+      {"Editing Skills": ["Trim unnecessary footage","Arrange clips in logical order","Add captions or explanations","Insert background music carefully","Adjust brightness, contrast, and color"]},
+      {"Visual Elements": ["Add arrows, labels, or highlights","Use diagrams or slides for explanations","Show measurements and readings clearly","Zoom important parts of experiment"]},
+      {"Export and Sharing": ["Choose appropriate resolution (720p or 1080p)","Keep file size manageable","Check video before sharing","Upload to learning platforms or project repositories"]},
+      {"Ethics in Videography": ["Show accurate results without manipulation","Give credit for borrowed images or music","Respect privacy of people in video","Avoid misleading edits"]}
     ]},
     {"Chapter 4 (Presentation Voice and Confidence)": [
       {"Skills": ["Clear speaking, Pausing, Expressive explanation"]},
@@ -1366,9 +2020,19 @@ Object.assign(window.curriculumData, {
       {"Chapter 6 (Project Execution & Iteration)": [
         {"Methodology & Testing": ["Practical testing protocols, data recording, calibration, troubleshooting. Application Focus: Specific lessons on the components of flying/moving machines (ESC, Servos, Battery Chemistry, Gyros/Accelerometers)."]}
       ]}, 
-    {"Chapter 7 (Robotics – Introduction)": [
-      {"Resources": ["NPTEL lectures, Classroom kits"]},
-      {"Projects": ["Basic robot with sensors"]}
+    {"Chapter 7 (Introduction to Robots)": [
+      {"What is a Robot": ["Machine that senses, processes, and acts","Works automatically or by program","Used in industry, medicine, exploration"]},
+      {"Basic Robot Structure": ["Sensors (input)","Controller or microcontroller (brain)","Actuators/motors (movement)","Power supply and mechanical body"]},
+      {"Sensors (Robot’s Senses)": ["Detect environment information","Types: light, distance, temperature","Examples: IR sensor, ultrasonic sensor","Gyroscope and accelerometer for motion"]},
+      {"Actuators (Robot’s Muscles)": ["Convert electrical signal into motion","Move wheels, arms, tools","Types: electric, hydraulic, pneumatic"]},
+      {"Motors Used in Robots": ["DC motors for simple movement","Servo motors for precise angle control","Stepper motors for step movement","Brushless motors used in drones"]},
+      {"Microcontrollers (Robot Brain)": ["Processes sensor data","Controls actuators","Examples: Arduino, ESP32, Raspberry Pi"]},
+      {"Power Systems": ["Provide electrical energy","Batteries or adapters","Voltage regulators stabilize power"]},
+      {"Mechanical Structure": ["Chassis forms robot body","Frame holds electronics and motors","Materials: plastic, aluminum, steel"]},
+      {"Types of Robots": ["Industrial robots in factories","Mobile robots and drones","Humanoid robots","Medical robots"]},
+      {"Applications of Robotics": ["Manufacturing automation","Space exploration","Agriculture monitoring","Healthcare assistance"]},
+      {"Challenges in Robotics": ["Power and battery limits","Programming complexity","Safety around humans","Cost of advanced systems"]},
+      {"Hands-on Activity": ["Identify sensors and motors","Program simple robot movement","Build basic line-following robot"]}
     ]},
     {"Chapter 8 (Machine Learning)": [
       {"Concepts": ["Simplified lessons, Age-appropriate examples, NPTEL projects"]}
@@ -1402,7 +2066,8 @@ Object.assign(window.curriculumData, {
       {"Phenomenon": ["TURBULENCE - Irregular air motion, Caused by weather, mountains, jet streams, Uncomfortable but rarely dangerous", "STALL - Occurs when angle of attack too high, Sudden changes in airflow (e.g., microbursts), accelerated stall, Flying too slowly because Airflow separates from wing, Lift suddenly decreases, Not related to engine failure.", "CONTRAILS - White trails behind aircraft, Formed when hot exhaust meets cold upper atmosphere, Made of ice crystals, not smoke, Can persist or disappear depending on humidity", "Supersonic Flight - Flying faster than speed of sound, Shock waves formed, Sonic boom produced, Used in military aircraft"]},
       {"Modern Innovations": ["Composite materials, Winglets to reduce drag, Electric and hydrogen aircraft research, AI-assisted flight systems"]},
       {"Discussion and Curiosity": ["WHY PLANE FLY AT HIGH ALTITUDE - stratosphere(10-40km), Lower air resistance, Better fuel efficiency, Less weather disturbance, Jet engines work efficiently, where is fuel stored in plane", "Why birds flap but planes don’t, Why helicopters fly differently, Can humans design flapping aircraft?, why fighter jets have delta wings not swept wings, why one feel dizziness while sitting in plane, holding, go around, what is checklist, Fuel Management Computer(FMC) and autopiolet", "Why it is safest transport modes?- Most Accidents Are Survivable", "Turbulence Is Uncomfortable but Rarely Dangerous", "Hydraulic failures, can fly with one engine, Lightning strikes, Mercury, Gallium, etc are not allowed in plane,", "TYPES OF LIGHT :- AIRCRAFT VISIBILITY LIGHTS- Navigation Lights(Red left wingtip), Strobe Lights, Beacon light(anti collision light). PILOT VISIBIILTY LIGHTS- Taxi Lights, Landing Lights, Wing Inspection Lights, Runway Turn-Off Lights", "How to become pilot?", "Why Planes Don’t Fall When Engines Fail - Gliding ability due to wing lift, Aircraft designed with glide ratio, Pilots trained for engine-out landings","can plane be hijacked?", "Gyroscopic precession"]}
-    ]}
+    ]},
+    
   ]
 },
 
@@ -2177,6 +2842,27 @@ Object.assign(window.curriculumData, {
       {"Support": ["Video lectures demonstration in class, recommand videos for self-study"]},
       {"Hands on projects": ["Making any simple machine- drone, rc car, robotic arm, etc."]},
     ]},
+    {"Chapter 5 (Signal to Sound: Scientific Understanding of Audio Systems)":[
+      {"What is Sound and Electrical Signal":["Sound is vibration of air molecules","Microphone converts vibration into electrical signal","Electrical signal is varying voltage over time","Speaker converts electrical signal back into vibration","Signal represents frequency (pitch) and amplitude (loudness)"]},
+      {"Digital Audio in Mobile Devices":["Music stored as digital data (0 and 1)","DAC converts digital data into analog waveform","Analog output is low-level signal (~1V line level)","Mobile cannot supply sufficient current","Amplification required before driving speakers"]},
+      {"Bluetooth Signal Path":["Mobile encodes audio into radio frequency signal","Bluetooth module receives RF signal","Module decodes digital data","Internal DAC converts digital to analog","Output becomes low-level electrical audio signal"]},
+      {"Amplifier Basics":["Amplifier increases voltage and current","Power formula P = V^2 / R","Speakers require current to move cone","Amplifier strengthens signal not content","Heat generated due to inefficiency"]},
+      {"Full Range Signal":["Human hearing range 20Hz to 20kHz","Amplifier outputs full spectrum","Subwoofer handles low frequencies","Woofer handles low and mid","Tweeter handles high frequencies"]},
+      {"Need for Frequency Division":["Small drivers cannot handle bass","Large drivers reproduce treble poorly","Full range causes distortion","Frequency division improves efficiency","Tweeters need bass protection"]},
+      {"Passive Crossover (After Amplifier)":["Placed between amplifier and speakers","Uses capacitors and inductors","Capacitor blocks low frequency to tweeter","Inductor blocks high frequency to woofer","No external power supply","Some power lost in components"]},
+      {"Active Crossover (Before Amplifier)":["Placed before amplifier","Uses op-amp filter circuits","Splits signal at low voltage level","Each band uses separate amplifier","Higher efficiency and precision","Common in professional systems"]},
+      {"Mono Summing Network":["Combines left and right at low level","Uses resistors to prevent conflict","Creates mono signal for subwoofer","Done before amplifier stage","Amplifier outputs must never be combined directly"]},
+      {"Bridge Mode vs Stereo Mode":["Stereo has two independent channels","Bridge uses two channels for one speaker","Bridge doubles voltage swing","Theoretical power increases four times","Each internal channel sees half impedance","Bridge increases thermal stress"]},
+      {"Power and Loudness":["Most music energy is low frequency","Tweeters handle less power","Loudness depends on speaker sensitivity","More watts does not always mean louder","Efficiency determines heat generation"]},
+      {"2.1 System Structure":["Left and Right provide stereo imaging","Subwoofer handles low frequencies","Sub uses low-pass filter","Main speakers may use passive crossover","Separate amplification improves clarity"]},
+      {"Thermal Management and Efficiency":["Class AB efficiency around 60%","Class D efficiency around 90%","Low impedance increases current","Heat proportional to current squared","Heatsink and airflow essential"]},
+      {"System Design Principles":["Manage signal before amplification","Divide frequency intelligently","Never combine amplifier outputs","Match impedance carefully","Efficiency better than brute-force power"]},
+      {"How Commercial Systems Work":["Use multi-channel Class D ICs","Implement active crossover filtering","Optimize speaker sensitivity","Use switching power supplies","Balance cost loudness and heat"]},
+      {"Common Misconceptions":["More speakers mean more power","Bridge always better","Power lost when filtering","All frequencies carry equal energy","Higher wattage always louder"]},
+      {"Engineering Responsibility":["Design safely","Prevent equipment misuse","Understand physics before wiring","Efficiency reduces waste","Knowledge prevents damage"]},
+      {"Classroom Activities":["Draw signal path mobile to speaker","Create 2.1 block diagram","Compare passive vs active crossover","Calculate power at 4 ohm and 8 ohm","Discuss Class AB vs Class D efficiency"]}
+    ]}
+
   ]
 },
 
@@ -2659,225 +3345,237 @@ Object.assign(window.curriculumData, {
 
   "⚖️ Law": [
     {"Chapter 1 (Constitution in Action)": [
-        {"Concepts": ["Fundamental Rights & Duties, Practical case applications"]},
-        {"Activities": ["Mock trial on rights violations"]}
+      {"Concepts": ["Fundamental Rights & Duties, Practical case applications"]},
+      {"Activities": ["Mock trial on rights violations"]}
     ]},
     {"Chapter 2 (Legal Aid, Lok Adalats, PILs)": [
-        {"Concepts": ["Access to justice, Public Interest Litigations"]},
-        {"Projects": ["Roleplay of Lok Adalat proceedings"]}
+      {"Concepts": ["Access to justice, Public Interest Litigations"]},
+      {"Projects": ["Roleplay of Lok Adalat proceedings"]}
     ]},
     {"Chapter 3 (Key Acts: SC/ST, RTE, Domestic Violence)": [
-        {"Concepts": ["Major legal provisions and their impacts"]},
-        {"Activities": ["Research report on law effectiveness"]}
+      {"Concepts": ["Major legal provisions and their impacts"]},
+      {"Activities": ["Research report on law effectiveness"]}
     ]},
     {"Chapter 4 (Case Studies: Law vs Society)": [
-        {"Concepts": ["Balancing environment and industrial rights, Caste atrocity cases"]},
-        {"Projects": ["Debate on law and ethics"]}
+      {"Concepts": ["Balancing environment and industrial rights, Caste atrocity cases"]},
+      {"Projects": ["Debate on law and ethics"]}
     ]},
     {"Chapter 5 (IPC & CrPC Basics)": [
-        {"Concepts": ["Structure of Indian Penal Code, Criminal Procedure Code overview"]},
-        {"Activities": ["Mock case filing exercise"]}
+      {"Concepts": ["Structure of Indian Penal Code, Criminal Procedure Code overview"]},
+      {"Activities": ["Mock case filing exercise"]}
     ]}
   ],
 
   "📝 Hindi": [
     {"Chapter 1 (शिक्षा और सामाजिक विषय)": [
-        {"विषय": ["कविता, कहानी, संवाद लेखन, मानवता, लैंगिक न्याय, साम्प्रदायिकता"]},
-        {"गतिविधियाँ": ["वाचन और भूमिका-निर्वाह"]}
+      {"विषय": ["कविता, कहानी, संवाद लेखन, मानवता, लैंगिक न्याय, साम्प्रदायिकता"]},
+      {"गतिविधियाँ": ["वाचन और भूमिका-निर्वाह"]}
     ]},
     {"Chapter 2 (व्याकरण एवं अनुप्रयुक्त लेखन)": [
-        {"विषय": ["काल, समास, पत्र लेखन, अनुवाद"]},
-        {"गतिविधियाँ": ["लेखन अभ्यास और मूल्यांकन"]}
+      {"विषय": ["काल, समास, पत्र लेखन, अनुवाद"]},
+      {"गतिविधियाँ": ["लेखन अभ्यास और मूल्यांकन"]}
     ]},
     {"Chapter 3 (सामाजिक मुद्दे)": [
-        {"विषय": ["बाल श्रम, महिला अधिकार, पर्यावरण संरक्षण"]},
-        {"गतिविधियाँ": ["पोस्टर निर्माण, समूह चर्चा"]}
+      {"विषय": ["बाल श्रम, महिला अधिकार, पर्यावरण संरक्षण"]},
+      {"गतिविधियाँ": ["पोस्टर निर्माण, समूह चर्चा"]}
     ]},
     {"Chapter 4 (पुस्तकें)": [
-        {"सामग्री": ["Mother India (Katherine Mayo) का अध्ययन और विश्लेषण"]}
+      {"सामग्री": ["Mother India (Katherine Mayo) का अध्ययन और विश्लेषण"]}
     ]},
     {"Chapter 5 (सामाजिक परिवर्तन)": [
-        {"विषय": ["सामुदायिक सेवा, बाल अधिकार, महिला सशक्तिकरण"]},
-        {"गतिविधियाँ": ["सामुदायिक परियोजना कार्य"]}
+      {"विषय": ["सामुदायिक सेवा, बाल अधिकार, महिला सशक्तिकरण"]},
+      {"गतिविधियाँ": ["सामुदायिक परियोजना कार्य"]}
     ]}
   ],
 
   "🌱 Moral Values & Ethics": [
     {"General Tasks": [
-        {"Activities": ["Weekly parade, Emergency response training, students openion on Classroom policy"]},
-        {"Reference Books": ["Annihilation of Caste by B.R. Ambedkar, Women and Gender in Ancient India: A Study of Texts and Inscriptions by Shashi Sharma, High Caste Hindu Woman (1887) by Pandita Ramabai, dalito ki durdasha karan aur nivaran by Kanshi Ram, poor narion ki samasya aur samadhan by M. S. Gore, the courage to be dislike, Man's Search for Meaning, Thinking, Fast and Slow, Atomic Habits, Meditations, How to Win Friends and Influence People"]}
+      {"Activities": ["Weekly parade, Emergency response training, students openion on Classroom policy"]},
+      {"Reference Books": ["Annihilation of Caste by B.R. Ambedkar, Women and Gender in Ancient India: A Study of Texts and Inscriptions by Shashi Sharma, High Caste Hindu Woman (1887) by Pandita Ramabai, dalito ki durdasha karan aur nivaran by Kanshi Ram, poor narion ki samasya aur samadhan by M. S. Gore, the courage to be dislike, Man's Search for Meaning, Thinking, Fast and Slow, Atomic Habits, Meditations, How to Win Friends and Influence People"]}
     ]},
     {"Chapter 1 (Dignity)": [
-        {"Concepts": ["Definition and importance, Self-respect and mutual respect, why we need to respect others?, Respecting differences in opinions, beliefs, cultures, traditions, lifestyles, etc."]},
-        {"Activities": ["Real-world case discussions"]}
+      {"Concepts": ["Definition and importance, Self-respect and mutual respect, why we need to respect others?, Respecting differences in opinions, beliefs, cultures, traditions, lifestyles, etc."]},
+      {"Activities": ["Real-world case discussions"]}
     ]},
     {"Chapter 2 (Ethics in daily life)": [
-        {"Digital Ethics": ["Handling trolls, fake news, hate speech"]},
-        {"Fact Check": ["Necessity of verifying online information, digital responsibility"]},
-        {"Ethics in School": ["Cheating, favoritism, and discipline vs education, reflections, making fun of it vs making fun out of it, "]},
+      {"Digital Ethics": ["Handling trolls, fake news, hate speech"]},
+      {"Fact Check": ["Necessity of verifying online information, digital responsibility"]},
+      {"Ethics in School": ["Cheating, favoritism, and discipline vs education, reflections, making fun of it vs making fun out of it, "]},
     ]},
     {"Chapter 3 (God, Nature and science)": [
-        {"Concepts": ["Belief systems vs environmental values"]},
-        {"Discussion": ["Religion’s influence on science and nature, science vs pseudoscience, faith vs empirical evidence"]},
+      {"Concepts": ["Belief systems vs environmental values"]},
+      {"Discussion": ["Religion’s influence on science and nature, science vs pseudoscience, faith vs empirical evidence"]},
     ]},
     {"Chapter 4 (Mental Health & Friendship)": [
-        {"Concepts": ["Mental health awareness, Understanding support and stigma, Importance of life, Suicide prevention and resilience"]},
-        {"Activities": ["Group sharing and awareness campaigns"]},
-        {"Intoxicants": ["Types of intoxicants, Effects on society, De-addiction strategies"]},
-        {"Value of Life": ["Philosophical meaning of life, Social inequality in life valuation"]}
+      {"Concepts": ["Mental health awareness, Understanding support and stigma, Importance of life, Suicide prevention and resilience"]},
+      {"Activities": ["Group sharing and awareness campaigns"]},
+      {"Intoxicants": ["Types of intoxicants, Effects on society, De-addiction strategies"]},
+      {"Value of Life": ["Philosophical meaning of life, Social inequality in life valuation"]}
     ]},
     {"Chapter 5 (Environmental Responsibility)": [
-        {"Concepts": ["What is environment, environment vs nature, why conservation and sustainability"]},
-        {"Forms of pollutions": ["Air pollution, Water pollution, Soil pollution, Noise pollution, Plastic pollution"]},
-        {"Projects": ["Plantation or clean-up drive"]}
+      {"Concepts": ["What is environment, environment vs nature, why conservation and sustainability"]},
+      {"Forms of pollutions": ["Air pollution, Water pollution, Soil pollution, Noise pollution, Plastic pollution"]},
+      {"Projects": ["Plantation or clean-up drive"]}
     ]},
     {"Chapter 6 (Human Rights)": [
-        {"Child Labour & Exploitation": ["Causes and laws, Child rights awareness, UDHR and global frameworks, Case studies, Documentary Discussion-https://youtu.be/NTXO6uptlC8"]},
-        {"Consent and Boundaries": ["Personal and social consent, Boundaries and assertiveness, Endogamy vs Exogamy"]},
-        {"Indians Outside India": ["Why we try to go abroad?, movie screening- Dunki"]},
-        {"ways of discrimination": ["Race/Caste/Religion/Gender based discrimination and how to keep ourself out of it, limits of humanity, Social impact"]},
-        {"Casteism and Racism": ["Casteism within Caste, laws to protect against discrimination, Racism- international perspective-black Vs white history, Impact on society, Intra-caste discrimination dynamics, Documentries:https://youtu.be/bunZDrDOMBg","Equality and justice debates"]},
-        {"Humiliation at peaks": ["Jews during holocaust, Hitler attrocities on jews, Rwanda, cultural revolution in china, Untouchability in India"]},
-        {"Gender & Queer Rights": ["Equality and inclusion, LGBTQ+ rights awareness, Courage and responsibility, Whistleblowing and activism"]},
-        {"Role of Ambedkar": ["Ambedkar’s work for equality, Women’s rights (Hindu Code Bill), Group presentation on Ambedkar"]},
-        {"Discussion": ["people died in plane crash got 1 crore each whereas people died on mahakumbh got 25 lakh and so on, does value of life depends on place where one dies? , Lakhan Pasi story(left from jail at 104 age)"]},
+      {"Child Labour & Exploitation": ["Causes and laws, Child rights awareness, UDHR and global frameworks, Case studies, Documentary Discussion-https://youtu.be/NTXO6uptlC8"]},
+      {"Consent and Boundaries": ["Personal and social consent, Boundaries and assertiveness, Endogamy vs Exogamy"]},
+      {"Indians Outside India": ["Why we try to go abroad?, movie screening- Dunki"]},
+      {"ways of discrimination": ["Race/Caste/Religion/Gender based discrimination and how to keep ourself out of it, limits of humanity, Social impact"]},
+      {"Casteism and Racism": ["Casteism within Caste, laws to protect against discrimination, Racism- international perspective-black Vs white history, Impact on society, Intra-caste discrimination dynamics, Documentries:https://youtu.be/bunZDrDOMBg","Equality and justice debates"]},
+      {"Humiliation at peaks": ["Jews during holocaust, Hitler attrocities on jews, Rwanda, cultural revolution in china, Untouchability in India"]},
+      {"Gender & Queer Rights": ["Equality and inclusion, LGBTQ+ rights awareness, Courage and responsibility, Whistleblowing and activism"]},
+      {"Role of Ambedkar": ["Ambedkar’s work for equality, Women’s rights (Hindu Code Bill), Group presentation on Ambedkar"]},
+      {"Discussion": ["people died in plane crash got 1 crore each whereas people died on mahakumbh got 25 lakh and so on, does value of life depends on place where one dies? , Lakhan Pasi story(left from jail at 104 age)"]},
     ]},
     {"Chapter 7 (Religions)": [
-        {"Introduction": ["what is Religion?, History and origin, purpose, evolution of religions and its importance in society, who make it? why make it? is it necessary to have Religion?, Is Religion a failed experiment? has Religion been converted to Business?, can religion help to make the world a better place? are we independent to choose any religion or we are bound to one we born in?, What is Secularism?"]},
-        {"Religious torture and violence": ["Historical and contemporary examples, why almost all religions firstly target womens?, Impact on societies"]},
-        {"blind faith vs questioning attitude": ["why illiterate people may hold blind faith, why illiterate people get possessed specially women, Examples and case studies"]},
-        {"Famous Reincarnation Cases": ["Shanti Devi, James Leininger, Pollock Twins, Swarnlata, Others"]},
-        {"Debate": ["Is religion necessary for moral life?"]}, 
+      {"Introduction": ["what is Religion?, History and origin, purpose, evolution of religions and its importance in society, who make it? why make it? is it necessary to have Religion?, Is Religion a failed experiment? has Religion been converted to Business?, can religion help to make the world a better place? are we independent to choose any religion or we are bound to one we born in?, What is Secularism?"]},
+      {"Religious torture and violence": ["Historical and contemporary examples, why almost all religions firstly target womens?, Impact on societies"]},
+      {"blind faith vs questioning attitude": ["why illiterate people may hold blind faith, why illiterate people get possessed specially women, Examples and case studies"]},
+      {"Famous Reincarnation Cases": ["Shanti Devi, James Leininger, Pollock Twins, Swarnlata, Others"]},
+      {"Debate": ["Is religion necessary for moral life?"]}, 
   ]},
     {"Chapter 8 (Recognizing Manipulation and Influence)": [
-        {"Concepts": ["Understanding manipulation vs influence, Common manipulation tactics, Emotional awareness and defense strategies"]},
-        {"Activities": ["Role-play to identify manipulation", "Media ad analysis", "Group discussion on healthy assertiveness"]}
+      {"Concepts": ["Understanding manipulation vs influence, Common manipulation tactics, Emotional awareness and defense strategies"]},
+      {"Activities": ["Role-play to identify manipulation", "Media ad analysis", "Group discussion on healthy assertiveness"]}
     ]},
+    {"Chapter 9 (Staying Ahead Through Self-Learning)": [
+      {"Why Learning Matters": ["Education helps us understand the world","Knowledge gives confidence and independence","Learning builds problem-solving ability","Hard work in early years shapes future opportunities"]},
+      {"Understanding the Difference": ["Some schools focus only on exams","Real education also builds thinking and curiosity","Marks are important but understanding is more valuable","Students must continue learning even outside classroom"]},
+      {"Building Self-Learning Habits": ["Read beyond textbooks","Ask questions about how things work","Use libraries and educational videos","Practice solving new problems regularly"]},
+      {"Managing Time Wisely": ["Create a simple daily study schedule","Balance school work and self-learning","Avoid wasting excessive time on distractions","Review lessons regularly instead of last-minute study"]},
+      {"Curiosity and Critical Thinking": ["Observe the world carefully","Try to understand causes behind events","Do small experiments or projects","Discuss ideas with teachers and friends"]},
+      {"Using Technology for Learning": ["Watch educational science and history videos","Use learning apps or digital libraries","Search reliable sources for information","Avoid misinformation and unnecessary online content"]},
+      {"Developing Good Character": ["Stay disciplined and responsible","Respect teachers and classmates","Be honest in studies and projects","Help others learn and grow"]},
+      {"Handling Challenges": ["Do not fear difficult subjects","Ask for help when confused","Learn from mistakes instead of giving up","Persistence is more important than quick success"]},
+      {"Long-Term Vision": ["Think about goals beyond school","Develop skills useful for future careers","Continue reading and learning throughout life","Education is a lifelong journey"]},
+      {"Reflection Activity": ["Write one goal for the next five years","List three habits that improve learning","Identify one skill to practice every week","Discuss how curiosity helps us grow"]}
+    ]}
 
   ],
 
   "🗣️ Languages": [
     {"Chapter 1 (Why Language?)": [
-        {"Introduction": ["Origins of language, Family trees, History & Types of languages"]}
+      {"Introduction": ["Origins of language, Family trees, History & Types of languages"]}
     ]},
     {"Chapter 2 (Language Apps and Websites)": [
-        {"Tools": ["Duolingo, Rosetta Stone, Memrise, Busuu"]}
+      {"Tools": ["Duolingo, Rosetta Stone, Memrise, Busuu"]}
     ]},
     {"Chapter 3 (Extended Conversations)": [
-        {"Practice": ["1–2 minute real-life dialogues"]}
+      {"Practice": ["1–2 minute real-life dialogues"]}
     ]},
     {"Chapter 4 (Travel Dialogues)": [
-        {"Practice": ["Asking directions, Hotel booking, Ticket purchase"]}
+      {"Practice": ["Asking directions, Hotel booking, Ticket purchase"]}
     ]},
     {"Chapter 5 (Health & Emergency)": [
-        {"Phrases": ["I feel sick, Call a doctor, Where is the hospital?"]}
+      {"Phrases": ["I feel sick, Call a doctor, Where is the hospital?"]}
     ]},
     {"Chapter 6 (Technology Vocabulary)": [
-        {"Words": ["Phone, Computer, Internet, Email"]}
+      {"Words": ["Phone, Computer, Internet, Email"]}
     ]},
     {"Chapter 7 (Proverbs & Idioms)": [
-        {"Content": ["3–5 proverbs per language with meanings"]}
+      {"Content": ["3–5 proverbs per language with meanings"]}
     ]},
     {"Chapter 8 (Grammar Review)": [
-        {"Concepts": ["Past, present, future tenses"]}
+      {"Concepts": ["Past, present, future tenses"]}
     ]},
     {"Chapter 9 (Letter Writing)": [
-        {"Projects": ["Postcard/email in foreign language"]}
+      {"Projects": ["Postcard/email in foreign language"]}
     ]},
     {"Chapter 10 (Career with Languages)": [
-        {"Concepts": ["Jobs in translation, tourism, diplomacy"]}
+      {"Concepts": ["Jobs in translation, tourism, diplomacy"]}
     ]},
     {"Chapter 11 (Cultural Projects)": [
-        {"Projects": ["Research a famous figure from each country"]}
+      {"Projects": ["Research a famous figure from each country"]}
     ]},
     {"Chapter 12 (Final Translation Project)": [
-        {"Activity": ["Translate 50 English sentences into multiple languages"]}
+      {"Activity": ["Translate 50 English sentences into multiple languages"]}
     ]},
     {"Chapter 13 (Multilingual Skills)": [
-        {"Projects": ["Word lists in 5–7 languages on common themes"]}
+      {"Projects": ["Word lists in 5–7 languages on common themes"]}
     ]}
   ],
 
   "👥 GGC (General Guidance Class)": [
     {"Chapter 1 (College Admissions)": [
-        {"Concepts": ["India vs Abroad admission systems, Application basics"]}
+      {"Concepts": ["India vs Abroad admission systems, Application basics"]}
     ]},
     {"Chapter 2 (Major Global Exams)": [
-        {"Exams": ["JEE, NEET, SAT, TOEFL, IELTS, A-Level"]}
+      {"Exams": ["JEE, NEET, SAT, TOEFL, IELTS, A-Level"]}
     ]},
     {"Chapter 3 (Writing for Success)": [
-        {"Concepts": ["SOPs, LORs, Essay writing"]}
+      {"Concepts": ["SOPs, LORs, Essay writing"]}
     ]},
     {"Chapter 4 (Research & Exchange)": [
-        {"Programs": ["INSPIRE, IYSA, Foreign exchange opportunities"]}
+      {"Programs": ["INSPIRE, IYSA, Foreign exchange opportunities"]}
     ]},
     {"Chapter 5 (Youth Inspiration)": [
-        {"Profiles": ["Riya Karumanchi, Mihir Garimella, Vivienne Harr, Kavya Kopparapu"]}
+      {"Profiles": ["Riya Karumanchi, Mihir Garimella, Vivienne Harr, Kavya Kopparapu"]}
     ]},
     {"Chapter 6 (Competitions)": [
-        {"Examples": ["Swift Student Challenge, Other global events"]}
+      {"Examples": ["Swift Student Challenge, Other global events"]}
     ]},
     {"Chapter 7 (Major Scholarships)": [
-        {"Programs": ["Chevening, Commonwealth, Fulbright, Rhodes"]}
+      {"Programs": ["Chevening, Commonwealth, Fulbright, Rhodes"]}
     ]}
   ],
 
   "🏃‍♂️ Games & Physical Education": [
     {"Chapter 1 (Cardiovascular & Body Systems)": [
-        {"Concepts": ["Heart function, Exercise and body health"]},
-        {"Projects": ["Fitness measurement logs"]}
+      {"Concepts": ["Heart function, Exercise and body health"]},
+      {"Projects": ["Fitness measurement logs"]}
     ]},
     {"Chapter 2 (Diet and Wellbeing)": [
-        {"Concepts": ["Balanced diet, Meal planning for athletes"]}
+      {"Concepts": ["Balanced diet, Meal planning for athletes"]}
     ]},
     {"Chapter 3 (Social-Emotional Health)": [
-        {"Concepts": ["Leadership and teamwork, Empathy development"]}
+      {"Concepts": ["Leadership and teamwork, Empathy development"]}
     ]},
     {"Chapter 4 (Sex Education)": [
-        {"Concepts": ["Consent, Safe practices, STI awareness"]}
+      {"Concepts": ["Consent, Safe practices, STI awareness"]}
     ]},
     {"Chapter 5 (Protection Laws)": [
-        {"Concepts": ["Child safety, POCSO Act, Self-advocacy"]}
+      {"Concepts": ["Child safety, POCSO Act, Self-advocacy"]}
     ]},
     {"Chapter 6 (Sports Psychology)": [
-        {"Concepts": ["Motivation, Resilience, Focus building"]}
+      {"Concepts": ["Motivation, Resilience, Focus building"]}
     ]}
   ],
 
   "🧠 General Knowledge (G.K)": [
     {"Chapter 1 (Global Diplomacy)": [
-        {"Concepts": ["Paris Agreement, NATO, BRICS, International alliances"]}
+      {"Concepts": ["Paris Agreement, NATO, BRICS, International alliances"]}
     ]},
     {"Chapter 2 (Current Affairs)": [
-        {"Activities": ["Weekly editorials, News analysis, Quizzes"]}
+      {"Activities": ["Weekly editorials, News analysis, Quizzes"]}
     ]},
     {"Chapter 3 (Judiciary Highlights)": [
-        {"Concepts": ["Judicial structures, Important global judgments"]}
+      {"Concepts": ["Judicial structures, Important global judgments"]}
     ]},
     {"Chapter 4 (Science Frontiers)": [
-        {"Concepts": ["CRISPR, Fusion energy, AI ethics, Nobel updates"]}
+      {"Concepts": ["CRISPR, Fusion energy, AI ethics, Nobel updates"]}
     ]},
     {"Chapter 5 (UN SDGs & Model UN)": [
-        {"Activities": ["Role-play climate negotiation, SDG policy drafting"]}
+      {"Activities": ["Role-play climate negotiation, SDG policy drafting"]}
     ]},
     {"Chapter 6 (INSPIRE MANAK Competition)": [
-        {"Concepts": ["Innovation projects, Eligibility and submission"]}
+      {"Concepts": ["Innovation projects, Eligibility and submission"]}
     ]}
   ],
 
   "🔬 Research Projects (R.P)": [
     {"Chapter 1 (Robotics)": [
-        {"Concepts": ["Basic robotics modules, NPTEL-guided sessions"]}
+      {"Concepts": ["Basic robotics modules, NPTEL-guided sessions"]}
     ]},
     {"Chapter 2 (CAD Design)": [
-        {"Concepts": ["AutoCAD, Fusion 360, 3D modeling basics"]}
+      {"Concepts": ["AutoCAD, Fusion 360, 3D modeling basics"]}
     ]},
     {"Chapter 3 (Machine Learning)": [
-        {"Concepts": ["Intro to ML, Simple algorithms and real-world uses"]}
+      {"Concepts": ["Intro to ML, Simple algorithms and real-world uses"]}
     ]},
     {"Chapter 4 (Machine Principles)": [
-        {"Mechanisms of machines": ["Glider, Airplane, quadcopter, drone, rocket, space shuttle, fighter jet mechanisms"]},
-        {"Hands on Projects": ["Yearly any one project based on above concepts"]}
+      {"Mechanisms of machines": ["Glider, Airplane, quadcopter, drone, rocket, space shuttle, fighter jet mechanisms"]},
+      {"Hands on Projects": ["Yearly any one project based on above concepts"]}
     ]},
   ]
 
