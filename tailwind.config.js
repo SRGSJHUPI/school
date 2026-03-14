@@ -2,12 +2,11 @@
 module.exports = {
   content: [
     "./*.html",
-    "./js/**/*.js",
-    "./pages/**/*.html"  // if you have subpages
+    "./HtmlBasic/**/*.html",
+    "./js/**/*.js"
   ],
   theme: {
     extend: {},
   },
   plugins: [],
 }
-

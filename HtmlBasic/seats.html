@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Admission - Rising Nalanda</title>
+  <title>Project Access Program (PAP)</title>
   <!-- <script src="https://cdn.tailwindcss.com"></script> -->
    <!-- Tailwind CSS (compiled) -->
-<link rel="stylesheet" href="css/output.css">
+<link rel="stylesheet" href="../css/output.css">
 
   <!-- Font Awesome for icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <!-- custom common CSS -->
-  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="../css/common.css">
   <!-- google analytics -->
    <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-S7DJMG3QRE"></script>
@@ -22,24 +22,24 @@
 
   gtag('config', 'G-S7DJMG3QRE');
 </script>
-
 <!-- logo at top in browser tab -->
-<link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="icon" type="image/png" href="favicon.png">
+<link rel="icon" type="image/x-icon" href="../favicon.ico">
+<link rel="icon" type="image/png" href="../favicon.png">
 
   </head>
 <body class="bg-gray-50 text-gray-800 font-sans">
   <a id="top"></a>
 
+
   <!-- Navbar -->
-    <nav class="bg-white shadow-md px-4 py-1 sticky top-0 z-10">
+     <nav class="bg-white shadow-md px-4 py-1 sticky top-0 z-10">
     <div class="container mx-auto flex justify-between items-center">
-      <a href="index.html">
+      <a href="../index.html">
       <div class="flex items-center space-x-3">
         <!-- Logo with fallback using <picture> -->
         <picture>
-          <source srcset="images/school_logo_webp.webp" type="image/webp">
-          <img src="images/school_logo.png" alt="Rising Nalanda Logo" class="h-10 w-10 scale-150 transform rounded-full ">
+          <source srcset="../images/school_logo_webp.webp" type="image/webp">
+          <img src="../images/school_logo.png" alt="Rising Nalanda Logo" class="h-10 w-10 scale-150 transform rounded-full ">
         </picture>
         <h1 class="text-2xl font-bold text-blue-700">Rising Nalanda</h1>
       </div></a>
@@ -88,7 +88,7 @@
             <li><a href="admission.html#parental-role" class="block px-4 py-2 hover:bg-blue-100">Parental Role and Guidelines</a></li>
             <li><a href="admission.html#complaint-and-review" class="block px-4 py-2 hover:bg-blue-100">Complaint & Review System</a></li>
             <li><a href="admission.html#apply-for-admission" class="block px-4 py-2 hover:bg-blue-100">Apply for Admission</a></li>
-            <li><a href="HtmlBasic/seats.html" class="block px-4 py-2 hover:bg-blue-100">Apply for Admission</a></li>
+            <li><a href="../HtmlBasic/seats.html" class="block px-4 py-2 hover:bg-blue-100">Check Seats</a></li>
           </ul>
         </li>
 
@@ -166,193 +166,167 @@
 
   </nav>
 
-  <!-- Page Header -->
-  <section class="bg-blue-100 py-10">
-    <div class="container mx-auto text-center">
-      <h2 class="text-3xl font-bold text-blue-800">Admissions</h2>
-      <p class="text-gray-700 mt-2">Join a movement, not just a school. Education for all, justice for all.</p>
-      <p>A step towards Rationality.</p>
+<!-- Admission Banner Section - Paste right after navbar closing tag -->
+<section id="admission-banner" class="bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 py-20 px-6 md:px-12 overflow-hidden relative">
+  <!-- Animated Background Elements -->
+  <div class="absolute inset-0">
+    <div class="absolute top-10 left-10 w-20 h-20 bg-white/20 rounded-full animate-pulse"></div>
+    <div class="absolute bottom-20 right-10 w-32 h-32 bg-white/10 rounded-full animate-bounce delay-1000"></div>
+    <div class="absolute top-1/2 left-1/4 w-16 h-16 bg-yellow-300/30 rounded-full animate-spin"></div>
+  </div>
+
+  <div class="container mx-auto text-white relative z-5">
+    <!-- Main Headline -->
+    <div class="text-center mb-12 max-w-4xl mx-auto">
+      <div class="inline-flex items-center bg-white/20 backdrop-blur-sm px-6 py-3 rounded-full mb-6 border border-white/30">
+        <i class="fas fa-star text-yellow-300 text-2xl mr-3"></i>
+        <span class="text-lg font-semibold tracking-wide">LIMITED SEATS AVAILABLE - NEXT BATCH STARTS SOON!</span>
+      </div>
+      <h1 class="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white to-yellow-200 bg-clip-text text-transparent leading-tight">
+        Join Rising Nalanda
+        <span class="block text-4xl md:text-5xl text-yellow-300">Class of 2026</span>
+      </h1>
+      <p class="text-xl md:text-2xl mb-8 opacity-95 leading-relaxed max-w-3xl mx-auto">
+        Transform your child into a <strong class="text-yellow-300">rational thinker</strong> with our unique science-first curriculum
+      </p>
     </div>
-  </section>
 
-  <!-- Admission Content -->
-  <section class="py-12">
-    <div class="container mx-auto px-2 space-y-5">
-
-      <!-- Admission Structure -->
-      <div id="admission-structure" class="bg-white rounded-xl shadow-md border-l-8 border-blue-400 p-6 flex flex-col md:flex-row gap-6 items-start">
-        <div class="flex-shrink-0 w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center text-blue-500 text-3xl">
-          <i class="fas fa-user-plus"></i>
+    <!-- Live Seat Status - Links to your seats.html -->
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16 max-w-5xl mx-auto">
+      <a href="https://srgsjhupi.github.io/school/HtmlBasic/seats.html" 
+         class="group relative bg-white/10 backdrop-blur-xl p-8 rounded-2xl border border-white/20 hover:border-white/40 hover:scale-105 transition-all duration-500 shadow-2xl hover:shadow-3xl">
+        <div class="absolute -inset-1 bg-gradient-to-r from-yellow-400 to-orange-400 rounded-2xl blur opacity-75 group-hover:opacity-100 transition duration-1000"></div>
+        <div class="relative z-10 text-center">
+          <div class="w-20 h-20 bg-gradient-to-r from-green-400 to-emerald-500 rounded-2xl mx-auto mb-4 flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+            <i class="fas fa-chair text-2xl text-white"></i>
+          </div>
+          <h3 class="text-3xl font-bold text-yellow-300 mb-2">📊 LIVE SEATS</h3>
+          <p class="text-sm opacity-90 mb-4">Total seats = 40 | Filled = 35 | Available = 05</p>
+          <div class="flex items-center justify-center space-x-2">
+            <span class="px-3 py-1 bg-green-500/30 text-green-200 rounded-full text-sm font-medium">SCAN QR ⬇️</span>
+          </div>
         </div>
-        <div>
-          <h3 class="text-xl font-bold mb-2 text-blue-700">Admission Structure</h3>
-          <ul class="list-disc ml-6 text-gray-700 space-y-2">
-            <li>Admissions will start from 3rd class onwards. Admission will be given on the basis of Admission Test, financial condition of parents and other necessary parameters.</li>
-            <li>Discounts on books, uniforms, bags, and other essentials will be offered to financially weaker families.</li>
-            <li>Parents must agree to academic flexibility and terms.</li>
-           
-          </ul>
-        </div>
-      </div>
+      </a>
 
-      <!-- Fees and Scholarships -->
-      <div id="fee-and-scholarships" class="bg-white rounded-xl shadow-md border-l-8 border-green-400 p-6 flex flex-col md:flex-row gap-6 items-start">
-        <div class="flex-shrink-0 w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center text-green-600 text-3xl">
-          <i class="fas fa-rupee-sign"></i>
-        </div>
-
-        <div>
-          <h3 class="text-xl font-bold mb-2 text-green-700">📘 Fees and Scholarships</h3>
-  
-  <ul class="list-disc ml-6 text-gray-700 space-y-2">
-           
-    <!-- <h2 style="color:#2c3e50; text-align:center; margin-bottom:20px;">
-    📘 School Fee Rules & Exemptions
-</h2> -->
-
-<ul style="list-style-type:circle; font-family:Arial, sans-serif; line-height:1.6;">
-
-  <h3 class="text-xl text-blue-700 italic my-4 underline"><strong> Two Types of Fee Payment System</strong></h3>
-
-    <!-- Forward Fee Payment System -->
-    <h3 class="text-red-600"><strong>1.</strong> 📖 Forward Fee Payment System (FFPS)</h3>
-    <li><strong>Base Tuition Fee:</strong> ₹20,000 per month or 10% of income (whichever is higher). This is the <em>Base Fee</em>, subject to revision.</li>
-    <li>All exemptions or discounts are applied after calculating the Base Fee.</li>
-    <li>Financially stable parents are <strong>not eligible</strong> for exemptions (exceptions may apply in rare cases).</li>
-
-    <h4 style="color:#6a1b9a; margin-top:10px;">🎓 Fee Exemptions & Concessions (Financially Weaker students only)</h4>
-    <li>90% fee exemption for students from middle-class families with no stable income or assets. fee after discount is called <strong>Tentative Fee.</strong></li>
-
-    <h4 style="color:#6a1b9a; margin-top:10px;">👧 Girl Child Fee Rules</h4>
-    <li>Single Girl Child: Additional 10% waiver on Tentative Fee.</li>
-    <li>Two Girl Children: Additional 15% waiver each on Tentative Fee.</li>
-    <li>More than Two Girl Children: Additional 20% waiver each on Tentative Fee.</li>
-
-     <!-- Reverse Fee Payment System -->
-    <h3 style="color:#ff0202; margin-top:20px;"><strong>2.</strong> 🔄 Reverse Fee Payment System (RFPS)</h3>
-    <li>Financially stable parents are not eligible for RFPS.</li>
-    <li>Basic fee of ₹100–₹1000 will be charged.</li>
-    <li>If a student takes leave of one day without prior permission, a fine of ₹200 will be imposed.</li>
-    <li><em>Note:</em> This is designed to ensure attendance and encourage parents in rural areas to send children regularly.</li>
-
-    <!-- Scholarships & Other Waivers -->
-       <h3 class="text-xl text-blue-700 italic my-4 underline"><strong> 🏅 Scholarships & Waivers</strong></h3>
-    <!-- <h3 style="color:#7f0000; margin-top:20px;">🏅 Scholarships & Waivers</h3> -->
-
-    <h4 style="color:#00695c;">📜 AEC (Ambedkar Excellence Certificate) Based Fee Exemption</h4>
-    <li>If a new student takes admission using an AEC certificate from a passed-out student:<br>
-        ⭐ 5-star AEC → 10% tuition fee waiver on Tentative Fee<br>
-        ⭐ 4-star AEC → 8% tuition fee waiver on Tentative Fee<br>
-        ⭐ Lower ratings → proportionally lower waivers (subject to revision).
-    </li>
-    <li>Students with outstanding academic achievement will be honored with a <strong>gold statue of Dr. B.R. Ambedkar</strong>.</li>
-
-    <h4 style="color:#8e44ad; margin-top: 15px;">📌 Early Admission Fee Exemption</h4>
-    <li>Students admitted in earlier classes (e.g., Class 1, 2, 3) will receive an additional <strong>5% waiver</strong> on the Tentative Fee.</li>
-    <h3 style="color:#b35400; margin-top:15px;">🙌 Work-Based Fee Exemption</h3>
-    <li>Families unable to afford the fees may contribute through volunteer work (school maintenance, administrative assistance, etc.)</li>
-
-     <!-- Fee payment rules -->
-       <h3 class="text-xl text-blue-700 italic my-4 underline"><strong> Fee Payment Rules</strong></h3>
-
-    <h3 style="color:#0056b3; margin-top:15px;">💰 Flexible Payment Plans</h3>
-    <li>Quarterly or annual fee payment options are available with <strong>1% interest</strong>, applicable only for financially weaker families (exceptions excluded).</li>
-    <h3 style="color:#008000; margin-top:15px;">🏠 Property & Asset Clause</h3>
-    <li>Families with sufficient property and assets must pay the <strong>full fee</strong>, even without a stable income.</li>
-    <h3 style="color:#a80000; margin-top:15px;">⏰ Late Fee Penalty</h3>
-    <li>A penalty will be imposed for late payment of fees.</li>
-
-</ul>
-           
-              <a href="pdf/fee_details.pdf" download class="text-blue-600 underline">
-                To download Fee structure in Pdf, click here.
-              </a>
-            </li>   
-          </ul>         
-        </div>
-        
-      </div>
-
-      <!-- Complaint & Review System -->
-      <div id="complaint-and-review" class="bg-white rounded-xl shadow-md border-l-8 border-pink-400 p-6 flex flex-col md:flex-row gap-6 items-start">
-        <div class="flex-shrink-0 w-16 h-16 bg-pink-100 rounded-lg flex items-center justify-center text-pink-500 text-3xl">
-          <i class="fas fa-globe"></i>
-        </div>
-        <div>
-          <h3 class="text-xl font-bold mb-2 text-pink-700">We have FNI System</h3>
-          <p class="text-gray-700 mb-2">
-            The school operates a Financial Need Index (FNI) system to ensure equitable access to quality education for all students, regardless of their financial background.
-          </p>
-          <a href="extra.html#FNI" class="text-blue-600 underline">
-                To know more about FNI, click here.
-              </a>
+      <!-- Quick Stats Cards -->
+      <div class="bg-white/10 backdrop-blur-xl p-8 rounded-2xl border border-white/20 hover:scale-105 transition-all duration-500 shadow-2xl">
+        <div class="text-center">
+          <i class="fas fa-calendar-day text-4xl text-yellow-300 mb-4"></i>
+          <h3 class="text-3xl font-bold mb-2">Next Batch</h3>
+          <p class="text-xl font-semibold text-yellow-300 mb-2">July 2026</p>
+          <span class="text-sm opacity-90 block">Starts in few weeks</span>
         </div>
       </div>
 
-      <!-- Parental Role and Guidelines -->
-      <div id="parental-role" class="bg-white rounded-xl shadow-md border-l-8 border-yellow-400 p-6 flex flex-col md:flex-row gap-6 items-start">
-        <div class="flex-shrink-0 w-16 h-16 bg-yellow-100 rounded-lg flex items-center justify-center text-yellow-600 text-3xl">
-          <i class="fas fa-users"></i>
-        </div>
-        <div>
-          <h3 class="text-xl font-bold mb-2 text-yellow-700">Parental Role and Guidelines</h3>
-          <ul class="list-disc ml-6 text-gray-700 space-y-2">
-            <li>Parents must attend bi-monthly meetings and review student growth metrics.</li>
-            <li>Failure to attend 2 meetings may result in student deactivation for that cycle.</li>
-            <li>School emphasizes full cooperation from home to implement vision of education.</li>
-          </ul>
+      <div class="bg-white/10 backdrop-blur-xl p-8 rounded-2xl border border-white/20 hover:scale-105 transition-all duration-500 shadow-2xl">
+        <div class="text-center">
+          <i class="fas fa-rupee-sign text-4xl text-yellow-300 mb-4"></i>
+          <h3 class="text-3xl font-bold mb-2">Monthly Fee</h3>
+          <div class="text-2xl font-bold text-yellow-300 mb-2">₹2,000</div>
+          <span class="text-sm opacity-90 block">Scholarships Available</span>
         </div>
       </div>
 
-      <!-- Complaint & Review System -->
-      <div id="complaint-and-review" class="bg-white rounded-xl shadow-md border-l-8 border-pink-400 p-6 flex flex-col md:flex-row gap-6 items-start">
-        <div class="flex-shrink-0 w-16 h-16 bg-pink-100 rounded-lg flex items-center justify-center text-pink-500 text-3xl">
-          <i class="fas fa-comments"></i>
-        </div>
-        <div>
-          <h3 class="text-xl font-bold mb-2 text-pink-700">Complaint & Review System</h3>
-          <p class="text-gray-700 mb-2">
-            The school operates a transparent grievance redressal system. Feedback can be submitted online or in writing.
-          </p>
-          <ul class="list-disc ml-6 text-gray-700 space-y-2">
-            <li>Student ID is required for complaint submission.</li>
-            <li>Cases are reviewed weekly by a committee of staff and community members.</li>
-            <li>Students and parents may appeal decisions through open sessions.</li>
-          </ul>
+      <div class="bg-white/10 backdrop-blur-xl p-8 rounded-2xl border border-white/20 hover:scale-105 transition-all duration-500 shadow-2xl">
+        <div class="text-center">
+          <i class="fas fa-clock text-4xl text-yellow-300 mb-4"></i>
+          <h3 class="text-3xl font-bold mb-2">Class Timing</h3>
+          <p class="text-xl font-semibold text-yellow-300 mb-2">4 PM - 6 PM</p>
+          <span class="text-sm opacity-90 block">Mon-Sat</span>
         </div>
       </div>
-
-      <!-- Call to Action: Apply Now -->
-      <div id="apply-for-admission" class="bg-gradient-to-r from-blue-400 to-green-400 text-white rounded-xl shadow-md p-8 text-center">
-        <h3 class="text-2xl font-bold mb-4">Ready to Join?</h3>
-        <p class="mb-4 text-lg">Take the first step towards a brighter future. Apply now and become a part of Rising Nalanda family.</p>
-        <a href="https://docs.google.com/forms/d/1qZUrBWE_toKfcjo9SKl6OZ9emDfSTZ0DtHHUHinHCiY/edit" target="_blank" class="inline-block bg-white text-blue-700 font-bold px-8 py-3 rounded-lg shadow hover:bg-blue-50 transition">
-          Apply for Admission
-        </a>
-      </div>
-
     </div>
-  </section>
 
-  <div class="text-center my-6">
+    <!-- CTA Buttons & QR Code -->
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto mb-12">
+      <!-- Google Form Registration -->
+      <a href="https://docs.google.com/forms/d/14V-sLaneJWgFtcPTuVQzuU5WQWEEsHsN4RQncgbvGxk/edit" target="_blank" 
+         class="group bg-gradient-to-r from-emerald-500 to-teal-600 text-white py-6 px-8 rounded-2xl text-center hover:from-emerald-600 hover:to-teal-700 transform hover:scale-105 transition-all duration-500 shadow-2xl hover:shadow-3xl">
+        <i class="fas fa-edit text-3xl mb-3 opacity-90 group-hover:scale-110 transition-transform"></i>
+        <h4 class="text-xl font-bold mb-2">🎯 Register Now</h4>
+        <p class="opacity-95">Apply if seats available</p>
+      </a>
+
+      <!-- QR Code Section -->
+      <div class="bg-white/20 backdrop-blur-xl p-8 rounded-2xl border-2 border-dashed border-white/40 hover:border-white/60 transition-all duration-500 group">
+        <div class="text-center mb-4">
+          <i class="fas fa-qrcode text-3xl text-yellow-300 mb-2"></i>
+          <h4 class="text-xl font-bold mb-2">📱 Scan for Live Seats</h4>
+        </div>
+        <div class="w-32 h-32 bg-gradient-to-br from-black/80 to-gray-800 rounded-xl mx-auto p-1 border-4 border-white shadow-2xl group-hover:scale-105 transition-transform duration-300 flex items-center justify-center">
+          <!-- <i class="fas fa-qrcode text-4xl text-white"></i> -->
+          <!-- Replace with actual QR code image -->
+          <img src="../images/QR_Code_seats.png" alt="Scan for seats" class="w-full h-full">
+        </div>
+        <p class="text-xs mt-3 opacity-90 text-center">Instant seat availability</p>
+      </div>
+
+      <!-- WhatsApp/Contact Button -->
+      <a href="https://wa.me/91962744XXXX?text=Hi%2C%20I%20saw%20your%20admission%20banner%20and%20want%20to%20know%20more%20about%20seats" target="_blank"
+         class="group bg-gradient-to-r from-green-500 to-emerald-600 text-white py-6 px-8 rounded-2xl text-center hover:from-green-600 hover:to-emerald-700 transform hover:scale-105 transition-all duration-500 shadow-2xl hover:shadow-3xl">
+        <i class="fab fa-whatsapp text-3xl mb-3 opacity-90 group-hover:scale-110 transition-transform"></i>
+        <h4 class="text-xl font-bold mb-2">💬 Chat on WhatsApp</h4>
+        <p class="opacity-95 text-sm">Ask admission queries at : 7900495712</p>
+      </a>
+    </div>
+
+    <!-- Key Benefits Highlights -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto pt-12">
+      <div class="flex items-center space-x-3 p-4 bg-white/10 rounded-xl backdrop-blur-sm">
+        <i class="fas fa-brain text-2xl text-yellow-300"></i>
+        <span class="font-semibold text-sm">Expert Faculty</span>
+      </div>
+      <div class="flex items-center space-x-3 p-4 bg-white/10 rounded-xl backdrop-blur-sm">
+        <i class="fas fa-users text-2xl text-yellow-300"></i>
+        <span class="font-semibold text-sm">Physics & Maths (Alternate days)</span>
+      </div>
+      <div class="flex items-center space-x-3 p-4 bg-white/10 rounded-xl backdrop-blur-sm">
+        <i class="fas fa-trophy text-2xl text-yellow-300"></i>
+        <span class="font-semibold text-sm">Competition Ready</span>
+      </div>
+      <div class="flex items-center space-x-3 p-4 bg-white/10 rounded-xl backdrop-blur-sm">
+        <i class="fas fa-hand-holding-heart text-2xl text-yellow-300"></i>
+        <span class="font-semibold text-sm">Science-First Learning</span>
+      </div>
+    </div>
+
+    <!-- Final CTA -->
+    <div class="mt-16 text-center">
+      <p class="text-lg mb-6 opacity-90 max-w-2xl mx-auto">
+        Seats filling fast! Scan QR code above or <strong class="text-yellow-300">register now</strong> before they're gone.
+      </p>
+      <div class="inline-flex items-center bg-white/20 backdrop-blur-sm px-8 py-4 rounded-full border border-white/30 text-sm font-semibold tracking-wide animate-pulse">
+        <i class="fas fa-rocket mr-2"></i>
+        Next Batch Limited to 40 Students Only
+      </div>
+      <p class="text-lg mb-6 mt-6 opacity-90 max-w-2xl mx-auto">
+        Note : First check if seats are available, Kindly <strong class="text-red-500">Do Not register</strong> if seats are full.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+
+<div class="text-center my-6">
   <a href="#top" class="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
     ↑ Go to Top
   </a>
 </div>
 
 
-  <!-- Footer -->
-<!-- Footer -->
+
+ <!-- Footer -->
   <!-- Tailwind CSS Footer with Social Media Icons -->
-  <footer class="bg-gray-800 text-white py-8">
+ <footer class="bg-gray-800 text-white py-8">
   <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-1 px-8">
 
     <div>
       <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
       <ul class="space-y-2">
-        <li><a href="pdf/The_Rising_Nalanda_Policies.pdf" target="_blank" class="hover:text-blue-400">Privacy Policy</a></li>
-        <li><a href="pdf/The_Rising_Nalanda_Policies.pdf" target="_blank" class="hover:text-blue-400">Terms of Service</a></li>
-        <li><a href="pdf/The_Rising_Nalanda_Policies.pdf" target="_blank" class="hover:text-blue-400">Careers</a></li>
+        <li><a href="../pdf/The_Rising_Nalanda_Policies.pdf" target="_blank" class="hover:text-blue-400">Privacy Policy</a></li>
+        <li><a href="../pdf/The_Rising_Nalanda_Policies.pdf" target="_blank" class="hover:text-blue-400">Terms of Service</a></li>
+        <li><a href="../pdf/The_Rising_Nalanda_Policies.pdf" target="_blank" class="hover:text-blue-400">Careers</a></li>
       </ul>
     </div>
     
@@ -402,11 +376,21 @@
   </div>
   
   <div class="text-center mt-8 pt-4 border-t border-gray-700 text-xs text-gray-400">
-     &copy; <span id="current-year">2025</span> Rising Nalanda. All rights reserved.
+    &copy; <span id="current-year">2025</span> Rising Nalanda. All rights reserved.
   </div>
 </footer>
+  <div id="popupModal" class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center z-50">
+  <div class="bg-white p-6 rounded shadow-xl max-w-sm w-full text-center">
+    <h2 class="text-lg font-semibold mb-2 text-red-600">Unable to Send</h2>
+    <p class="text-sm mb-4">Please send a mail at <a href="mailto:risingnalanda.org@gmail.com" class="text-blue-600 underline">risingnalanda.org@gmail.com</a></p>
+    <button id="closeModal" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-800">Close</button>
+  </div>
+</div>
 
 <!-- common js -->
-<script src="js/common.js"></script>
+<script src="../js/common.js"></script>
+<!-- contact js-->
+<script src="../js/contact.js"></script>
+
 </body>
 </html>
