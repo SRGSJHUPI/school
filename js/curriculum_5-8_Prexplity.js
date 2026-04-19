@@ -1169,7 +1169,6 @@ Object.assign(window.curriculumData, {
   ]
 },
 
-
 "📚 Class 6": {
   "💻 Computer Science": [
     {"Chapter 1 (Deep Dive: Hardware and Software)": [
@@ -2045,9 +2044,8 @@ Object.assign(window.curriculumData, {
     {"Chapter 1 (What is Right & Wrong?)": [
       {"Stories": ["Real-life stories"]},
       {"Themes": ["Truthfulness, Courage, Why help matters"]},
-      {"What is Justice": ["DEFINITION OF JUSTICE :- Justice means fairness in actions decisions and treatment where every individual gets what they deserve based on equality rights and moral principles, it ensures no discrimination based on caste religion gender or economic status and aims to create a balanced society where rights and duties are respected", "TYPES OF JUSTICE :- SOCIAL JUSTICE :- equal treatment in society removing discrimination like caste system untouchability gender bias examples include equal access to education and public places; ECONOMIC JUSTICE :- fair distribution of wealth resources and opportunities ensuring no extreme poverty or exploitation examples include minimum wages equal pay for equal work; POLITICAL JUSTICE :- equal political rights like voting freedom of speech participation in governance without discrimination; LEGAL JUSTICE :- laws applied equally to all rich or poor ensuring fair trials and punishment based on law; DISTRIBUTIVE JUSTICE :- fair distribution of resources opportunities and benefits; CORRECTIVE JUSTICE :- correcting wrong actions through punishment or compensation", "PRINCIPLES OF JUSTICE :- EQUALITY :- everyone treated the same under law; FAIRNESS :- decisions made without bias; RIGHTS :- protection of fundamental rights like freedom and dignity; ACCOUNTABILITY :- wrong actions must have consequences; NEED BASED SUPPORT :- helping weaker sections to achieve balance", "JUSTICE VS LAW :- LAW :- rules made by government which may or may not always be just; JUSTICE :- moral correctness which may go beyond written law examples where law allowed discrimination but justice demanded change; discussion that not all legal actions are ethical", "REAL LIFE EXAMPLES :- SOCIAL :- discrimination in schools or villages; ECONOMIC :- child labour due to poverty; POLITICAL :- people denied voting rights; LEGAL :- rich escaping punishment vs poor punished quickly; students analyze if situation is just or unjust", "INJUSTICE AND ITS EFFECTS :- inequality leads to anger crime social unrest lack of trust in system mental stress and loss of opportunities for weaker sections", "ROLE OF INDIVIDUAL :- speaking against unfair practices helping others understanding rights following rules fairly treating everyone equally in daily life", "ROLE OF GOVERNMENT AND SOCIETY :- making fair laws ensuring implementation providing education healthcare jobs protecting rights creating awareness about equality",
-      "ACTIVITIES :- CASE STUDY :- teacher gives real situation students decide if it is just or not; ROLE PLAY :- court scene judge victim accused; DEBATE :- is equality always fair or should weaker get more support; GROUP DISCUSSION :- examples from village or daily life", "CRITICAL THINKING QUESTIONS :- is treating everyone same always justice or sometimes giving more support to weak is justice? why poor people suffer more injustice? can law be wrong? what should a person do when law and justice conflict? does justice change with time and society?"
-    ]},
+      {"What is Justice": ["DEFINITION OF JUSTICE :- Justice means fairness in actions decisions and treatment where every individual gets what they deserve based on equality rights and moral principles, it ensures no discrimination based on caste religion gender or economic status and aims to create a balanced society where rights and duties are respected", "TYPES OF JUSTICE :- SOCIAL JUSTICE :- equal treatment in society removing discrimination like caste system untouchability gender bias examples include equal access to education and public places; ECONOMIC JUSTICE :- fair distribution of wealth resources and opportunities ensuring no extreme poverty or exploitation examples include minimum wages equal pay for equal work; POLITICAL JUSTICE :- equal political rights like voting freedom of speech participation in governance without discrimination; LEGAL JUSTICE :- laws applied equally to all rich or poor ensuring fair trials and punishment based on law; DISTRIBUTIVE JUSTICE :- fair distribution of resources opportunities and benefits; CORRECTIVE JUSTICE :- correcting wrong actions through punishment or compensation", "PRINCIPLES OF JUSTICE :- EQUALITY :- everyone treated the same under law; FAIRNESS :- decisions made without bias; RIGHTS :- protection of fundamental rights like freedom and dignity; ACCOUNTABILITY :- wrong actions must have consequences; NEED BASED SUPPORT :- helping weaker sections to achieve balance", "JUSTICE VS LAW :- LAW :- rules made by government which may or may not always be just; JUSTICE :- moral correctness which may go beyond written law examples where law allowed discrimination but justice demanded change; discussion that not all legal actions are ethical", "REAL LIFE EXAMPLES :- SOCIAL :- discrimination in schools or villages; ECONOMIC :- child labour due to poverty; POLITICAL :- people denied voting rights; LEGAL :- rich escaping punishment vs poor punished quickly; students analyze if situation is just or unjust", "INJUSTICE AND ITS EFFECTS :- inequality leads to anger crime social unrest lack of trust in system mental stress and loss of opportunities for weaker sections", "ROLE OF INDIVIDUAL :- speaking against unfair practices helping others understanding rights following rules fairly treating everyone equally in daily life", "ROLE OF GOVERNMENT AND SOCIETY :- making fair laws ensuring implementation providing education healthcare jobs protecting rights creating awareness about equality"]},
+      {"CASE STUDY": ["ACTIVITIES :-  teacher gives real situation students decide if it is just or not; ROLE PLAY :- court scene judge victim accused; DEBATE :- is equality always fair or should weaker get more support; GROUP DISCUSSION :- examples from village or daily life", "CRITICAL THINKING QUESTIONS :- is treating everyone same always justice or sometimes giving more support to weak is justice? why poor people suffer more injustice? can law be wrong? what should a person do when law and justice conflict? does justice change with time and society?"]},
       {"What Would You Do?": ["Discussions"]}
     ]},
     {"Chapter 2 (Respect and Gender Equality)": [
@@ -2127,10 +2125,16 @@ Object.assign(window.curriculumData, {
       {"Prevention Through Awareness": ["Verify job offers and recruiters","Avoid sharing personal documents carelessly","Educate children about personal safety","Promote education and economic opportunities"]},
       {"Moral Responsibility": ["Every human life has dignity","Exploitation is never justified","Silence allows trafficking to continue","Awareness and compassion can save lives"]}
     ]},
-    {"Chapter 9 (Our Army)": [
-      {"Teaching": ["Police, Army, Duty and responsibility"]},
-      {"Events": ["Weekly parade, Self-safety: fire, earthquake, emergencies"]}
-    ]},
+    {"Chapter 9 (Service, Discipline & Civic Responsibility)": [
+      {"Role of Services": ["INSTITUTIONS :- Police, army, and emergency services exist to protect society, maintain order, and respond to crises. Their roles involve discipline, responsibility, and sacrifice for public safety."]},
+      {"Duties & Responsibility": ["VALUES :- Responsibility includes following rules, helping others, and contributing positively to society. Discipline helps individuals act correctly even in difficult situations."]},
+      {"Respect for Service": ["AWARENESS :- Understanding the challenges faced by armed forces and police builds respect without blind glorification."]},
+      {"Basic Safety Skills": ["PREPAREDNESS :- Awareness of emergency situations such as fire, earthquakes, and accidents. Knowing basic actions like evacuation, seeking help, and staying calm."]},
+      {"Self-Discipline": ["BEHAVIOR :- Time management, following rules, and maintaining focus in daily life."]},
+      {"Teamwork & Coordination": ["COLLABORATION :- Working together in groups improves efficiency and builds trust."]},
+      {"Activities": ["PRACTICE :- Simple drills, safety demonstrations, and group coordination exercises (not mindless marching, actual understanding)."]},
+      {"Core Idea": ["UNDERSTANDING :- Discipline and responsibility are everyday values, not just for soldiers."]}
+    ]}
   ],
   "🗣️ Languages": [
     {"Chapter 1 (Why Language? History, Types & Importance)": [
@@ -2924,41 +2928,119 @@ Object.assign(window.curriculumData, {
     ]}
   ],
   "📖 English": [
-    {"Chapter 1 (Interactive Reading)": [
-      {"Materials": ["Global, CBSE, ICSE literature"]},
-      {"Skills": ["Comprehension, Debating, Response writing"]},
-      {"Poet": ["Adam Gondvi, Dushyant Kumar, Nagarjun (Vaidyanath Mishra), Pash (Avtar Singh Sandhu), Sohanlal Dwivedi,  Vijay Narain Sharma, Rahat Indori"]}
+    {"Chapter 1 (Interactive Reading & Interpretation)": [
+      {"Reading Materials": ["TEXTS :- Includes global literature, CBSE/ICSE texts, editorials, and modern writings. Exposure to different styles improves adaptability and understanding."]},
+      {"Comprehension Skills": ["UNDERSTANDING :- Identifying main ideas, tone, arguments, and hidden meanings in passages."]},
+      {"Response Writing": ["EXPRESSION :- Writing clear answers, summaries, and personal interpretations based on reading."]},
+      {"Discussion & Debate": ["INTERACTION :- Expressing opinions on texts, agreeing or disagreeing with reasoning."]},
+      {"Poetry Exposure": ["POETS :- Works of Adam Gondvi, Dushyant Kumar, Nagarjun, Pash, Sohanlal Dwivedi, Vijay Narain Sharma, Rahat Indori used for themes like society, protest, and human experience (translated where needed)."]},
+      {"Core Idea": ["UNDERSTANDING :- Reading is about interpreting meaning, not just finishing text."]}
     ]},
-    {"Chapter 2 (GRE/TOEFL Foundations)": [
-      {"Skills": ["Advanced reading comprehension, Vocabulary enhancement"]},
-      {"Exercises": ["Analogies, Logical reasoning passages"]}
+    {"Chapter 2 (Language Skills: Grammar & Vocabulary)": [
+      {"Grammar in Use": ["STRUCTURE :- Tenses, voice, clauses, and sentence structure applied in real contexts rather than isolated rules."]},
+      {"Vocabulary Building": ["WORDS :- Learning words through usage, roots, and context instead of memorizing lists."]},
+      {"Error Correction": ["ANALYSIS :- Identifying and correcting mistakes in sentences and passages."]},
+      {"Sentence Clarity": ["PRECISION :- Writing clear and concise sentences without confusion."]},
+      {"Editing Practice": ["REFINEMENT :- Improving paragraphs by removing redundancy and improving flow."]},
+      {"Core Idea": ["UNDERSTANDING :- Strong language control improves all communication."]}
     ]},
-    {"Chapter 3 (Creative and Functional Writing)": [
-      {"Writing Styles": ["Essays, Formal and informal letters"]},
-      {"Career Skills": ["CV drafting, Story writing"]}
+    {"Chapter 3 (GRE/TOEFL/SAT Foundations)": [
+      {"Reading Skills": ["EXAMS :- Understanding long passages, inference-based questions, and critical reasoning."]},
+      {"Vocabulary Skills": ["ADVANCED :- Synonyms, antonyms, analogies, and contextual usage."]},
+      {"Logical Reasoning": ["THINKING :- Identifying arguments, assumptions, and conclusions in passages."]},
+      {"Practice Exercises": ["TRAINING :- Timed comprehension, MCQs, and structured problem solving."]},
+      {"Exam Strategy": ["APPROACH :- Managing time, eliminating wrong options, and focusing on accuracy."]},
+      {"Core Idea": ["UNDERSTANDING :- Exams test thinking ability, not memorization."]}
     ]},
-    {"Chapter 4 (Public Speaking Practice)": [
-      {"Activities": ["Debates, Mock interviews, Extempore topics related to world issues"]}
+    {"Chapter 4 (Creative & Functional Writing)": [
+      {"Essay Writing": ["STRUCTURE :- Introduction, body, and conclusion with logical flow and clarity."]},
+      {"Formal Writing": ["APPLICATION :- Letters, emails, reports, and applications used in real situations."]},
+      {"Creative Writing": ["EXPRESSION :- Stories, narratives, and descriptive writing focusing on originality."]},
+      {"CV & Professional Writing": ["CAREER :- Writing resumes and basic professional profiles."]},
+      {"Clarity & Style": ["QUALITY :- Writing should be simple, precise, and effective."]},
+      {"Core Idea": ["UNDERSTANDING :- Writing reflects thinking quality."]}
+    ]},
+    {"Chapter 5 (Public Speaking & Communication)": [
+      {"Speaking Skills": ["ORAL :- Clear pronunciation, fluency, and confidence while speaking."]},
+      {"Debates": ["ARGUMENT :- Presenting and defending ideas logically."]},
+      {"Extempore": ["THINKING :- Speaking on random topics with structure and clarity."]},
+      {"Mock Interviews": ["PRACTICE :- Answering questions clearly and professionally."]},
+      {"Body Language": ["PRESENCE :- Eye contact, posture, and tone affect communication."]},
+      {"Core Idea": ["UNDERSTANDING :- Communication is not just what you say, but how you say it."]}
+    ]},
+    {"Chapter 6 (Media Literacy & Real-World Communication)": [
+      {"Media Understanding": ["ANALYSIS :- News, advertisements, and social media use language to influence thinking."]},
+      {"Bias & Tone": ["CRITICAL THINKING :- Identifying bias, exaggeration, and hidden intent in content."]},
+      {"Digital Communication": ["MODERN USAGE :- Emails, messages, and professional communication formats."]},
+      {"Persuasion": ["INFLUENCE :- Language used to convince or shape opinions."]},
+      {"Ethics": ["RESPONSIBILITY :- Avoiding misinformation and respectful communication."]},
+      {"Core Idea": ["UNDERSTANDING :- Language shapes perception and decisions."]}
     ]}
   ],
   "🏛️ Political Science": [
     {"Chapter 1 (Democracy in the Contemporary World)": [
-      {"Concepts": ["Democracy basics, Examples, Contemporary challenges"]}
+      {"Meaning of Democracy": ["CONCEPT :- Democracy is a system where people choose their leaders and influence decisions. It includes elections, participation, and accountability."]},
+      {"Key Features": ["ELEMENTS :- Free and fair elections, rule of law, protection of rights, and active citizen participation."]},
+      {"Types of Democracy": ["FORMS :- Direct democracy (people decide directly) and representative democracy (elected leaders decide)."]},
+      {"Global Examples": ["COMPARISON :- Different countries follow democracy in different ways, showing variations in practice."]},
+      {"Challenges": ["ISSUES :- Inequality, corruption, low participation, and misuse of power affect democratic functioning."]},
+      {"Core Idea": ["UNDERSTANDING :- Democracy is not perfect but allows correction through participation."]}
     ]},
     {"Chapter 2 (Constitutional Design)": [
-      {"India's Constitution": ["Historical context, Features"]}
+      {"Need for Constitution": ["PURPOSE :- A constitution provides rules for governance, defines powers, and protects citizens."]},
+      {"Making of Indian Constitution": ["HISTORY :- Framed after independence with inputs from leaders and global ideas."]},
+      {"Key Features": ["STRUCTURE :- Federalism, secularism, democracy, and sovereignty define the Indian system."]},
+      {"Principles": ["VALUES :- Justice, liberty, equality, and fraternity guide governance."]},
+      {"Flexibility & Strength": ["BALANCE :- Constitution can be amended but retains core values."]},
+      {"Core Idea": ["UNDERSTANDING :- Constitution is the backbone of governance, not just a document."]}
     ]},
     {"Chapter 3 (Electoral Politics in India)": [
-      {"Processes": ["Elections, Campaigns, Importance of voting"]}
+      {"Election Process": ["STEPS :- Nomination, campaigning, voting, and counting form the election cycle."]},
+      {"Importance of Voting": ["ROLE :- Voting allows citizens to choose leaders and influence policies."]},
+      {"Political Campaigns": ["STRATEGY :- Parties use media, rallies, and messaging to influence voters."]},
+      {"Fair Elections": ["INTEGRITY :- Elections must be free from fraud, pressure, and manipulation."]},
+      {"Challenges": ["ISSUES :- Money power, misinformation, and low awareness affect elections."]},
+      {"Core Idea": ["UNDERSTANDING :- Elections reflect both choice and influence."]}
     ]},
-    {"Chapter 4 (Institutions)": [
-      {"Structures": ["Parliament, Prime Minister, President"]},
-      {"Functions": ["Checks and balances"]}
+    {"Chapter 4 (Institutions of Governance)": [
+      {"Parliament": ["LEGISLATURE :- Makes laws and represents people’s interests."]},
+      {"Executive": ["GOVERNMENT :- Prime Minister and Council of Ministers run the country and implement policies."]},
+      {"President": ["HEAD OF STATE :- Formal head with constitutional powers and responsibilities."]},
+      {"Checks & Balances": ["CONTROL :- Different institutions limit each other’s power to prevent misuse."]},
+      {"Decision Making": ["PROCESS :- Policies are debated, approved, and implemented through institutions."]},
+      {"Core Idea": ["UNDERSTANDING :- Power is divided to prevent concentration and misuse."]}
     ]},
-    {"Chapter 5 (Democratic Rights)": [
-      {"Rights": ["Freedoms, Duties"]},
-      {"Case Studies": ["Youth in democracy"]},
-      {"Comparative Analysis": ["Global context"]}
+    {"Chapter 5 (Democratic Rights & Participation)": [
+      {"Basic Rights": ["FREEDOMS :- Rights include freedom of speech, equality, and protection from exploitation."]},
+      {"Duties": ["RESPONSIBILITY :- Citizens must follow laws, respect others, and contribute to society."]},
+      {"Participation": ["INVOLVEMENT :- Citizens engage through voting, discussions, and public actions."]},
+      {"Youth Role": ["ENGAGEMENT :- Young people influence society through awareness and participation."]},
+      {"Global Perspective": ["COMPARISON :- Rights and participation differ across countries."]},
+      {"Core Idea": ["UNDERSTANDING :- Rights are meaningful only when actively used."]}
+    ]},
+    {"Chapter 6 (Public Opinion, Media & Democracy)": [
+      {"Public Opinion": ["INFLUENCE :- Collective views of citizens shape political decisions."]},
+      {"Role of Media": ["COMMUNICATION :- Media informs, influences, and sometimes manipulates public opinion."]},
+      {"Social Media": ["MODERN IMPACT :- Platforms amplify voices but also spread misinformation."]},
+      {"Bias & Propaganda": ["ANALYSIS :- Information can be presented selectively to influence thinking."]},
+      {"Critical Thinking": ["SKILL :- Evaluating information before accepting it."]},
+      {"Core Idea": ["UNDERSTANDING :- Information shapes democracy as much as votes do."]}
+    ]},
+    {"Chapter 7 (Local Government & Grassroots Democracy)": [
+      {"Local Governance": ["STRUCTURE :- Panchayats and municipalities manage local issues."]},
+      {"Decentralization": ["POWER SHARING :- Bringing decision-making closer to people improves efficiency."]},
+      {"Citizen Participation": ["INVOLVEMENT :- People directly engage in local decisions."]},
+      {"Examples": ["REAL CASES :- Local governance solving issues like water, sanitation, and roads."]},
+      {"Challenges": ["ISSUES :- Limited resources and awareness affect functioning."]},
+      {"Core Idea": ["UNDERSTANDING :- Democracy starts at the local level."]}
+    ]},
+    {"Chapter 8 (Democracy: Outcomes & Future Challenges)": [
+      {"Outcomes": ["RESULTS :- Democracy aims for development, equality, and accountability."]},
+      {"Limitations": ["REALITY :- Inequality, slow decision-making, and corruption reduce effectiveness."]},
+      {"Reforms": ["IMPROVEMENT :- Transparency, awareness, and institutional strengthening improve systems."]},
+      {"Future Issues": ["CHALLENGES :- Technology, global politics, and social divisions impact democracy."]},
+      {"Citizen Role": ["RESPONSIBILITY :- Active participation strengthens democratic systems."]},
+      {"Core Idea": ["UNDERSTANDING :- Democracy survives only when people actively engage."]}
     ]}
   ],
   "💰 Economics": [
@@ -3157,69 +3239,156 @@ Object.assign(window.curriculumData, {
   ],
 
   "⚖️ Law": [
-    {"Chapter 1 (Judicial System Structure)": [
-      {"Hierarchy": ["Local courts to Supreme Court"]}
+    {"Chapter 1 (Judicial System & Courts)": [
+      {"Court Structure": ["HIERARCHY :- India has a structured court system starting from local courts (District Courts) to High Courts and finally the Supreme Court. Each level handles different types of cases and appeals."]},
+      {"Types of Cases": ["CATEGORIES :- Civil cases involve disputes like property or contracts, while criminal cases involve offenses like theft or harm."]},
+      {"Role of Judiciary": ["FUNCTION :- Courts interpret laws, resolve disputes, and ensure justice is delivered fairly."]},
+      {"Access to Courts": ["PROCESS :- Citizens can approach courts when rights are violated or disputes arise."]},
+      {"Basic Understanding": ["AWARENESS :- Courts are not only for big cases but also for everyday disputes."]},
+      {"Core Idea": ["UNDERSTANDING :- Judiciary ensures fairness and justice in society."]}
     ]},
-    {"Chapter 2 (Citizens' Legal Rights)": [
-      {"Rights": ["RTI, RTE, Youth and child rights"]}
+    {"Chapter 2 (Citizens' Legal Rights & Awareness)": [
+      {"Right to Information": ["RTI :- Allows citizens to request information from government offices to ensure transparency and accountability."]},
+      {"Right to Education": ["RTE :- Guarantees free and compulsory education for children within a certain age group."]},
+      {"Child & Youth Rights": ["PROTECTION :- Includes right to safety, education, and protection from exploitation."]},
+      {"Basic Legal Awareness": ["KNOWLEDGE :- Understanding rights helps individuals avoid misuse and protect themselves."]},
+      {"Everyday Examples": ["APPLICATION :- Using RTI for information, understanding school rights, and basic protections."]},
+      {"Core Idea": ["UNDERSTANDING :- Knowing rights is the first step to using them."]}
     ]},
-    {"Chapter 3 (FIR, Police & Arrest Process)": [
-      {"Law Protection": ["Citizen protection"], "Role Play": ["Simplified scenarios"]}
+    {"Chapter 3 (Police, FIR & Basic Legal Process)": [
+      {"Role of Police": ["FUNCTION :- Police maintain law and order, prevent crime, and investigate cases."]},
+      {"FIR": ["FIRST STEP :- First Information Report is the initial complaint filed when a crime occurs. It starts the legal process."]},
+      {"Arrest Basics": ["PROCESS :- Arrest must follow legal procedures and cannot be done arbitrarily."]},
+      {"Citizen Protection": ["RIGHTS :- Individuals have rights during police interaction, including fair treatment."]},
+      {"Simple Scenarios": ["PRACTICE :- Role-play situations like reporting theft or seeking help."]},
+      {"Core Idea": ["UNDERSTANDING :- Legal process begins with proper reporting and procedure."]}
     ]},
-    {"Chapter 4 (Juvenile Justice)": [
-      {"System": ["Juvenile courts, Laws"], "Scenarios": ["Real-world cases"]}
+    {"Chapter 4 (Juvenile Justice System)": [
+      {"Juvenile Law": ["SYSTEM :- Special laws exist for minors focusing on correction rather than punishment."]},
+      {"Juvenile Courts": ["PROCESS :- Cases involving minors are handled separately with focus on rehabilitation."]},
+      {"Rights of Children": ["PROTECTION :- Ensures fair treatment and safeguards future development."]},
+      {"Real Situations": ["EXAMPLES :- Understanding how minor offenses are treated differently."]},
+      {"Rehabilitation": ["GOAL :- Focus is on improvement and reintegration into society."]},
+      {"Core Idea": ["UNDERSTANDING :- Children are treated differently under law for protection and growth."]}
     ]},
-    {"Chapter 5 (Landmark Legal Cases)": [
-      {"Cases": ["Nirbhaya, Vishakha guidelines"]},
-      {"Youth Role": ["Legal reform participation"]}
+    {"Chapter 5 (Landmark Cases & Legal Awareness)": [
+      {"Important Cases": ["EXAMPLES :- Cases like Nirbhaya and Vishakha guidelines shaped laws on safety and workplace rights."]},
+      {"Impact": ["CHANGE :- Landmark cases lead to new laws and reforms."]},
+      {"Public Awareness": ["ROLE :- Society plays a role in demanding justice and reform."]},
+      {"Learning from Cases": ["ANALYSIS :- Understanding what went wrong and how law responded."]},
+      {"Youth Role": ["PARTICIPATION :- Awareness, discussion, and responsible action contribute to change."]},
+      {"Core Idea": ["UNDERSTANDING :- Laws evolve based on real-world situations."]}
+    ]},
+    {"Chapter 6 (Everyday Law & Safety Awareness)": [
+      {"Daily Situations": ["REAL LIFE :- Issues like bullying, online safety, basic consumer problems, and school discipline involve legal awareness."]},
+      {"Basic Contracts": ["SIMPLE IDEA :- Agreements like buying goods or services involve basic legal understanding."]},
+      {"Cyber Awareness": ["ONLINE SAFETY :- Understanding risks like fraud, misuse of data, and cyberbullying."]},
+      {"Seeking Help": ["SUPPORT :- Knowing when and how to approach police, teachers, or helplines."]},
+      {"Prevention": ["AWARENESS :- Knowing rules helps avoid legal trouble."]},
+      {"Core Idea": ["UNDERSTANDING :- Law is part of everyday life, not just courts."]}
     ]}
   ],
   "📝 Hindi": [
     {"Chapter 1 (अग्रिम साहित्य एवं भाषा)": [
-      {"Literature": ["नवीन कविता, निबंध, संवाद"]},
-      {"Applied Hindi": ["काव्य-पाठ, रूपक, वाद-विवाद"]}
+      {"साहित्य अध्ययन": ["सामग्री :- आधुनिक कविता, निबंध, कहानी और संवाद के माध्यम से भाषा की समझ विकसित की जाती है। विभिन्न लेखकों की रचनाएँ समाज, प्रकृति और मानवीय भावनाओं को दर्शाती हैं।"]},
+      {"काव्य-पाठ": ["अभिव्यक्ति :- कविता का सही उच्चारण, लय, भाव और अर्थ समझकर प्रस्तुत करना सिखाया जाता है।"]},
+      {"रूपक व अलंकार": ["भाषा सौंदर्य :- रूपक, उपमा, मानवीकरण जैसे अलंकारों के माध्यम से भाषा को प्रभावशाली बनाना।"]},
+      {"वाद-विवाद": ["तर्क क्षमता :- सामाजिक विषयों पर अपने विचार स्पष्ट रूप से रखना और दूसरों के विचार समझना।"]},
+      {"सार लेखन": ["समझ :- किसी पाठ या लेख का मुख्य सार संक्षेप में लिखना।"]},
+      {"मुख्य विचार": ["समझ :- साहित्य भाषा और विचार दोनों को विकसित करता है।"]}
     ]},
-    {"Chapter 2 (व्याकरण)": [
-      {"Grammar Topics": ["काल, समास, पर्यायवाची, मुहावरे, वाक्य संरचना"]},
-      {"Practice": ["सृजनात्मक अभ्यास"]}
+    {"Chapter 2 (व्याकरण एवं भाषा नियंत्रण)": [
+      {"काल": ["संरचना :- वर्तमान, भूत और भविष्य काल का सही प्रयोग वाक्यों में।"]},
+      {"समास": ["शब्द निर्माण :- विभिन्न समासों के माध्यम से शब्दों का संक्षिप्त और प्रभावी रूप बनाना।"]},
+      {"पर्यायवाची व विलोम": ["शब्द ज्ञान :- शब्दों के अर्थ और उनके विकल्पों की समझ।"]},
+      {"मुहावरे व लोकोक्तियाँ": ["प्रयोग :- भाषा को रोचक और प्रभावी बनाने के लिए मुहावरों का प्रयोग।"]},
+      {"वाक्य संरचना": ["शुद्धता :- सही और स्पष्ट वाक्य बनाना तथा त्रुटियों को पहचानना।"]},
+      {"मुख्य विचार": ["समझ :- व्याकरण भाषा की नींव है, जिससे अभिव्यक्ति स्पष्ट होती है।"]}
+    ]},
+    {"Chapter 3 (रचनात्मक लेखन)": [
+      {"निबंध लेखन": ["संरचना :- भूमिका, मुख्य भाग और निष्कर्ष के साथ स्पष्ट विचार प्रस्तुत करना।"]},
+      {"पत्र लेखन": ["प्रयोग :- औपचारिक और अनौपचारिक पत्र लिखना।"]},
+      {"संवाद लेखन": ["रचना :- दो या अधिक व्यक्तियों के बीच वार्तालाप को सही ढंग से लिखना।"]},
+      {"कहानी लेखन": ["कल्पना :- घटनाओं, पात्रों और संदेश के साथ कहानी बनाना।"]},
+      {"रिपोर्ट लेखन": ["वास्तविकता :- किसी घटना या गतिविधि का स्पष्ट विवरण देना।"]},
+      {"मुख्य विचार": ["समझ :- लेखन विचारों को स्पष्ट रूप से व्यक्त करने का माध्यम है।"]}
+    ]},
+    {"Chapter 4 (पठन, श्रवण एवं बोलने कौशल)": [
+      {"पठन कौशल": ["समझ :- गद्य और पद्य को सही उच्चारण के साथ पढ़ना और उसका अर्थ समझना।"]},
+      {"श्रवण कौशल": ["ध्यान :- सुनकर जानकारी ग्रहण करना और उसका उत्तर देना।"]},
+      {"बोलने कौशल": ["अभिव्यक्ति :- स्पष्ट और आत्मविश्वास के साथ बोलना।"]},
+      {"प्रस्तुति": ["कौशल :- विषय पर बोलना, विचार रखना और श्रोताओं से जुड़ना।"]},
+      {"समूह चर्चा": ["सहभागिता :- समूह में विचार साझा करना और दूसरों को सुनना।"]},
+      {"मुख्य विचार": ["समझ :- भाषा केवल लिखने नहीं, बोलने और समझने का माध्यम भी है।"]}
+    ]},
+    {"Chapter 5 (मीडिया, भाषा और वास्तविक जीवन उपयोग)": [
+      {"मीडिया भाषा": ["प्रयोग :- समाचार, विज्ञापन और सोशल मीडिया में प्रयुक्त भाषा को समझना।"]},
+      {"भाषाई प्रभाव": ["विश्लेषण :- शब्दों के माध्यम से लोगों की सोच और राय कैसे प्रभावित होती है।"]},
+      {"डिजिटल लेखन": ["आधुनिक उपयोग :- ईमेल, संदेश और ऑनलाइन संचार के तरीके।"]},
+      {"भाषा और समाज": ["संबंध :- भाषा समाज, संस्कृति और व्यवहार को दर्शाती है।"]},
+      {"आलोचनात्मक सोच": ["विचार :- जानकारी को समझकर सही और गलत का विश्लेषण करना।"]},
+      {"मुख्य विचार": ["समझ :- भाषा केवल विषय नहीं, जीवन का हिस्सा है।"]}
     ]}
   ],
   "🌱 Moral Values": [
-    {"Chapter 1 (Understanding Fairness)": [
-      {"Equality": ["True meaning, Real-world applications"]},
-      {"Activities": ["Class debates"]},
-      {"Playing": ["Importance of playing with studying"]},
+    {"Chapter 1 (Fairness, Equality & Daily Behavior)": [
+      {"Fairness": ["MEANING :- Fairness means treating people justly, not always equally. Different people may need different support depending on their situation. Examples include sharing, taking turns, and helping others when needed."]},
+      {"Equality vs Equity": ["DIFFERENCE :- Equality means treating everyone the same, while equity means giving support based on needs. Real-life situations show why fairness sometimes requires different treatment."]},
+      {"Play & Balance": ["LIFESTYLE :- Playing is important for physical and mental development. Balance between study and play improves learning and happiness."]},
+      {"Everyday Behavior": ["ACTIONS :- Small actions like sharing, listening, and not excluding others reflect fairness."]},
+      {"Core Idea": ["UNDERSTANDING :- Fairness is practiced through daily actions, not just ideas."]}
     ]},
-    {"Chapter 2 (Understanding society)": [
-      {"Education Importance": ["Analyzing biases, is education necessary to get respect?"]},
-      {"Rules in society": ["What is a rule?, Why societies have rules"]},
-      {"NGOs": ["NGOs in society, Impact and student involvement, CSR"]},
-      {"Society behaviours": ["Resistance narratives, Discrimination, Legal and ethical aspects, Gender Equality and Respect, LGBTQ+ respect, Equity vs Equality"]},
-
+    {"Chapter 2 (Understanding Society & Behavior)": [
+      {"Why Society Exists": ["BASICS :- Society is a group of people living together with shared rules and responsibilities. Rules help maintain order and cooperation."]},
+      {"Importance of Education": ["VALUE :- Education builds knowledge, confidence, and opportunities. Respect should not depend only on education, but education helps individuals contribute better to society."]},
+      {"Social Behavior": ["INTERACTION :- Behaviors like kindness, cooperation, and respect improve social relationships, while discrimination and bias harm society."]},
+      {"Diversity & Respect": ["INCLUSION :- People differ in gender, background, beliefs, and identity. Respecting differences creates a better and safer environment for everyone."]},
+      {"NGOs & Help Systems": ["SUPPORT :- NGOs work for education, environment, and social welfare. People can contribute through awareness and participation."]},
+      {"Core Idea": ["UNDERSTANDING :- Society works when people cooperate and respect each other."]}
     ]},
-    {"Chapter 3 (Environmental Duty)": [
-      {"Responsibility": ["Water and waste management"]},
-      {"Projects": ["Conservation efforts"]}
+    {"Chapter 3 (Environmental Responsibility)": [
+      {"Environment Basics": ["CONCEPT :- Environment includes air, water, land, and living beings. It supports life and must be protected."]},
+      {"Responsibility": ["ACTIONS :- Saving water, reducing waste, and avoiding pollution are basic responsibilities."]},
+      {"Waste Management": ["PRACTICE :- Segregating waste, recycling, and reducing plastic use help environment."]},
+      {"Human Impact": ["REALITY :- Human activities can harm or protect nature depending on choices."]},
+      {"Core Idea": ["UNDERSTANDING :- Protecting environment is necessary for survival."]}
     ]},
-    {"Chapter 4 (Honesty vs Cheating)": [
-      {"Ethical Stories": ["Ethical dilemmas, Role plays"]}
+    {"Chapter 4 (Honesty, Integrity & Choices)": [
+      {"Honesty": ["MEANING :- Honesty means telling truth and acting with integrity even when it is difficult."]},
+      {"Cheating": ["ISSUE :- Cheating may give short-term gain but damages trust and learning."]},
+      {"Ethical Choices": ["DECISIONS :- Situations where right and wrong are not obvious require thinking about consequences and values."]},
+      {"Trust": ["RELATIONSHIP :- Honest behavior builds trust between people."]},
+      {"Core Idea": ["UNDERSTANDING :- Good choices matter more than easy choices."]}
     ]},
-    {"Chapter 5 (Respect & Apology)": [
-      {"Strategies": ["Apologizing and forgiving"]},
-      {"Activities": ["Classroom exercises"]}
+    {"Chapter 5 (Respect, Apology & Relationships)": [
+      {"Respect": ["BEHAVIOR :- Respect includes listening, valuing others’ feelings, and avoiding hurtful actions."]},
+      {"Apology": ["ACCOUNTABILITY :- Saying sorry means accepting mistakes and trying to improve behavior."]},
+      {"Forgiveness": ["HEALING :- Forgiving helps resolve conflicts and maintain relationships."]},
+      {"Communication": ["INTERACTION :- Clear and kind communication reduces misunderstandings."]},
+      {"Core Idea": ["UNDERSTANDING :- Healthy relationships depend on respect and responsibility."]}
     ]},
-    {"Chapter 6 (Children’s Rights)": [
-      {"Children talk": ["why children need rights?, what rights do they have?, how to exercise them?,"]},
-      {"Awareness": ["Good touch, bad touch, boundaries, consent, online safety, reporting mechanisms, seeking help-home/school/govt helpline numbers"]}
+    {"Chapter 6 (Children’s Rights & Safety)": [
+      {"Children’s Rights": ["RIGHTS :- Children have rights to education, safety, health, and protection from exploitation."]},
+      {"Personal Safety": ["AWARENESS :- Understanding good touch, bad touch, and personal boundaries is essential."]},
+      {"Consent Basics": ["BOUNDARIES :- Saying yes or no clearly and respecting others’ boundaries."]},
+      {"Online Safety": ["DIGITAL :- Avoid sharing personal information and be cautious online."]},
+      {"Seeking Help": ["SUPPORT :- Reporting to trusted adults, teachers, or helplines when facing problems."]},
+      {"Core Idea": ["UNDERSTANDING :- Safety and rights protect well-being."]}
     ]},
-    {"Chapter 7 (Standing Up for Others)": [
-      {"Concepts": ["Bystander effect"]},
-      {"Support": ["Helping friends"]}
+    {"Chapter 7 (Helping Others & Standing Up)": [
+      {"Helping Behavior": ["SUPPORT :- Helping others in need strengthens community and relationships."]},
+      {"Bystander Effect": ["AWARENESS :- People may not act in emergencies assuming others will help. Recognizing this helps encourage action."]},
+      {"Courage": ["ACTION :- Standing up for others requires confidence and responsibility."]},
+      {"Empathy": ["UNDERSTANDING :- Recognizing others’ feelings helps in providing support."]},
+      {"Core Idea": ["UNDERSTANDING :- Doing nothing is also a choice; helping matters."]}
     ]},
-    {"Chapter 8 (Existence)": [      
-      {"Why do we exist": ["Who Am I Becoming? discussions and journaling, Consciousness, identity, human experience, Exploring purpose and identity, Connections to eating habits and societal violence"]},
-      {"Mental Strength": ["understanding mental health and  Importance of life, seeking help, Why do some people commit suicide(explain in very polite way)?"]},
-      {"Self-Reflection": ["Understanding shyness,  Mindfulness practices"]},
+    {"Chapter 8 (Self, Emotions & Growth)": [
+      {"Self Awareness": ["IDENTITY :- Understanding feelings, strengths, and weaknesses helps personal growth."]},
+      {"Purpose & Identity": ["THINKING :- Questions like ‘Who am I?’ and ‘What do I want to become?’ encourage reflection without pressure."]},
+      {"Mental Health Basics": ["WELLBEING :- Feelings like sadness, stress, or confusion are normal and can be managed through support and communication."]},
+      {"Mindfulness": ["FOCUS :- Simple practices like breathing and reflection improve calmness and focus."]},
+      {"Seeking Help": ["SUPPORT :- Talking to trusted people is important when facing emotional challenges."]},
+      {"Core Idea": ["UNDERSTANDING :- Knowing oneself is key to growth and stability."]}
     ]},
     {"Chapter 9 (Famous Reincarnation Cases: Scientific Examination)": [
       {"What Are Reincarnation Claims": ["Claims that a person is reborn after death","Most cases reported in early childhood","Often include memories of a previous life","Disappear as the child grows older"]},
@@ -3244,141 +3413,298 @@ Object.assign(window.curriculumData, {
       {"discussion": ["discussion with teachers and students on moral values and ethics"]},
       {"Reference books": ["Everybody Loves a Good Drought by P. Sainath"]},
       {"Videos": ["https://youtu.be/NKcGClxlw-4?si=JknNbyfJfCVvZBbN"]}
-   
-    ]}    
-    
-    
+    ]}  
   ],
+
   "🗣️ Languages": [
-    {"Chapter 1 (Why Language? History & Types)": [
-      {"Origins": ["Origins of language, Family tree of world languages"]},
-      {"Modes": ["Spoken, Written, Sign language"]}
+    {"Chapter 1 (Sounds, Words & Fun with Language)": [
+      {"Basic Sounds": ["SOUNDS :- Different languages have different sounds. Examples include Spanish rolling 'r', Chinese tones, and Japanese syllables like ka, ki, ku. Focus is on listening and repeating simple sounds."]},
+      {"Common Words": ["WORDS :- Everyday words like hello, thank you, yes, no in multiple languages (Spanish: Hola, Chinese: 你好, Japanese: こんにちは)."]},
+      {"Modes of Language": ["FORMS :- Language can be spoken, written, or expressed through signs and gestures."]},
+      {"Practice": ["REPETITION :- Repeating words and sounds through games and activities."]},
+      {"Core Idea": ["UNDERSTANDING :- Language starts with sounds and simple words."]}
     ]},
-    {"Chapter 2 (Languages Apps and Websites)": [
-      {"Apps": ["Duolingo, Rosetta Stone, Memrise, Beelinguapp, Busuu, 50Languages"]},
-      {"Learning": ["Language exchange programs"]}
+    {"Chapter 2 (Basic Speaking: Greetings & Introduction)": [
+      {"Greetings": ["PHRASES :- Hello, Good morning, Goodbye in different languages with pronunciation."]},
+      {"Self Introduction": ["PHRASES :- My name is __, I am __ years old, I am from __ in Spanish, Chinese, and Japanese."]},
+      {"Polite Words": ["USAGE :- Please, Sorry, Thank you in different languages."]},
+      {"Simple Responses": ["BASICS :- Yes/No, I am fine, Thank you."]},
+      {"Practice": ["DIALOGUE :- Short 2–3 line conversations."]},
+      {"Core Idea": ["UNDERSTANDING :- Speaking begins with simple phrases."]}
     ]},
-    {"Chapter 3 (Basic Grammar Intro)": [
-      {"Word Order": ["Spanish SVO, Japanese SOV, Chinese SVO with tones, Urdu right-to-left"]}
+    {"Chapter 3 (Daily Life Vocabulary & Sentences)": [
+      {"Daily Words": ["VOCABULARY :- Eat, drink, play, study, sleep translated across languages."]},
+      {"Simple Sentences": ["STRUCTURE :- I eat food, I go to school, I play with friends."]},
+      {"Routine Expressions": ["USAGE :- Morning, afternoon, night activities."]},
+      {"Practice": ["APPLICATION :- Speaking small daily sentences."]},
+      {"Core Idea": ["UNDERSTANDING :- Language is used in everyday life."]}
     ]},
-    {"Chapter 4 (Self Introduction)": [
-      {"Phrases": ["My name is…, I am … years old, I am from…"]}
+    {"Chapter 4 (School & Numbers)": [
+      {"School Vocabulary": ["WORDS :- Teacher, book, pen, class, homework in different languages."]},
+      {"Numbers": ["COUNTING :- Numbers 1–100 (basic focus), not unnecessary 1000 torture."]},
+      {"Basic Instructions": ["CLASS USE :- Sit, stand, listen, write."]},
+      {"Simple Questions": ["USAGE :- What is this?, Where is my book?"]},
+      {"Practice": ["APPLICATION :- Classroom conversations."]},
+      {"Core Idea": ["UNDERSTANDING :- Language helps in school communication."]}
     ]},
-    {"Chapter 5 (Daily Routine)": [
-      {"Vocabulary": ["Wake up, Eat, Go to school, Play, Sleep"]}
+    {"Chapter 5 (Asking Questions & Conversations)": [
+      {"Question Words": ["WORDS :- What, Where, Who, When in multiple languages."]},
+      {"Basic Questions": ["USAGE :- What is your name?, Where do you live?"]},
+      {"Answering": ["RESPONSES :- Simple structured replies."]},
+      {"Short Conversations": ["DIALOGUE :- 3–4 line basic interactions."]},
+      {"Practice": ["APPLICATION :- Pair speaking activities."]},
+      {"Core Idea": ["UNDERSTANDING :- Communication needs both questions and answers."]}
     ]},
-    {"Chapter 6 (School Vocabulary)": [
-      {"Subjects and Items": ["Subjects, Homework, Exam, Classroom items"]}
+    {"Chapter 6 (Family, Friends & Daily Situations)": [
+      {"Family Words": ["VOCABULARY :- Mother, father, brother, friend in multiple languages."]},
+      {"Simple Sentences": ["USAGE :- This is my mother, He is my friend."]},
+      {"Shopping Basics": ["PHRASES :- How much?, Cheap, Expensive."]},
+      {"Daily Situations": ["REAL USE :- Buying, greeting, talking with friends."]},
+      {"Practice": ["APPLICATION :- Role-play small situations."]},
+      {"Core Idea": ["UNDERSTANDING :- Language connects people."]}
     ]},
-    {"Chapter 7 (Asking Questions)": [
-      {"Question Words": ["What, Where, When, Who in all 4 languages"]}
+    {"Chapter 7 (Culture & Fun Learning)": [
+      {"Cultural Awareness": ["CONTEXT :- Different countries have different greetings, food habits, and ways of speaking."]},
+      {"Songs & Rhymes": ["FUN :- Learning through songs improves memory and pronunciation."]},
+      {"Games": ["ACTIVITY :- Language games for vocabulary and speaking practice."]},
+      {"Simple Stories": ["LISTENING :- Short stories in different languages."]},
+      {"Core Idea": ["UNDERSTANDING :- Language learning can be enjoyable."]}
     ]},
-    {"Chapter 8 (Family and Friends)": [
-      {"Topics": ["Talking about family members, Best friend"]}
-    ]},
-    {"Chapter 9 (Shopping Dialogue)": [
-      {"Phrases": ["Asking price, Saying expensive/cheap"]}
-    ]},
-    {"Chapter 10 (Culture Comparison)": [
-      {"Topics": ["School life in Spain, Japan, China, Pakistan"]}
-    ]},
-    {"Chapter 11 (Numbers 100–1000)": [
-      {"Practice": ["Using large numbers in practical exercises"]}
-    ]},
-    {"Chapter 12 (Mini Project)": [
-      {"Assignment": ["Write 5–6 sentences about yourself in all four languages"]}
-    ]},
-    {"Chapter 13 (Multilingual Skills)": [
-      {"Projects": ["Word-lists of meanings in at least five languages"]},
-      {"Languages": ["Spanish, French, German, Chinese, Japanese, English, Hindi"]}
+    {"Chapter 8 (Practice & Mini Project)": [
+      {"Mini Conversation": ["TASK :- Speaking 4–5 lines in another language."]},
+      {"Basic Writing": ["TASK :- Writing simple words and sentences."]},
+      {"Multilingual Words": ["EXPOSURE :- Common words across 3–4 languages."]},
+      {"Presentation": ["OUTPUT :- Small introduction or dialogue in class."]},
+      {"Core Idea": ["UNDERSTANDING :- Practice builds confidence."]}
     ]}
   ],
   "👥 GGC (General Guidance Class)": [
     {"General Tasks": [
-      {"discussions": ["visit to \"https://srgsjhupi.github.io/school/targ_inst_exams.html\" discussions with mentors on career planning, exam strategies, scholarships(Buddy for Study), internships, skill building, social contribution, gaming and eSports, inspirational achievers"]}
+      {"Mentor Discussions & Exposure": ["GUIDANCE :- Students regularly visit the provided website and engage in structured discussions with mentors on career planning, exam strategies, scholarships like Buddy4Study, internships, and skill development. These sessions are not passive; students are expected to ask questions, reflect on their interests, and understand real-world pathways instead of blindly following common career routes."]},
+      {"Career Awareness": ["EXPLORATION :- Students explore multiple career options across science, commerce, arts, technology, gaming, and social impact. Instead of limiting themselves to traditional careers, they analyze what each field demands in terms of skills, effort, and long-term commitment, helping them make informed decisions early."]},
+      {"Skill Building": ["DEVELOPMENT :- Focus is placed on building real skills such as communication, logical thinking, digital literacy, and problem-solving. Students understand that marks alone are not enough, and consistent skill-building is essential for future opportunities."]},
+      {"Exam Strategy Understanding": ["PLANNING :- Students learn how competitive exams work, including preparation timelines, syllabus patterns, and common mistakes. This reduces fear and builds a structured approach instead of random preparation."]},
+      {"Scholarship Awareness": ["OPPORTUNITIES :- Students are introduced to various scholarships and financial aid systems, helping them understand that lack of money should not limit education if opportunities are properly explored."]},
+      {"Reflection": ["SELF ANALYSIS :- Students reflect on their strengths, weaknesses, and interests after discussions, building self-awareness and direction."]}
     ]},
     {"Chapter 1 (Major Global Exams & Scholarships)": [
-      {"Exams": ["NTSE, KVPY, IOQM, NChO, IJSO, STEP, TOEFL Junior, SAT/PSAT"]}
+      {"Exam Awareness": ["OVERVIEW :- Students are introduced to exams like NTSE, KVPY, IOQM, NChO, IJSO, STEP, TOEFL Junior, and SAT/PSAT. They understand purpose, difficulty level, and how these exams open opportunities for higher education and scholarships globally."]},
+      {"Exam Structure": ["PATTERN :- Students learn about exam formats, types of questions, and evaluation methods. This helps them understand what skills are actually tested rather than assuming exams are only about memorization."]},
+      {"Preparation Strategy": ["APPROACH :- Students are guided on how to start preparation early, manage time, and balance school studies with competitive exam preparation without burnout."]},
+      {"Skill Requirements": ["SKILLS :- Logical reasoning, conceptual clarity, and problem-solving are emphasized as key requirements instead of rote learning."]},
+      {"Global Opportunities": ["IMPACT :- Students understand how these exams connect to international education and research opportunities."]},
+      {"Critical Thinking": ["QUESTIONS :- Why some exams test thinking instead of memory?"]}
     ]},
     {"Chapter 2 (Major Scholarships)": [
-      {"Scholarships": ["FFE, Reliance, HDFC, NSP, Overseas scholarships, etc."]}
+      {"Scholarship Awareness": ["OVERVIEW :- Students explore scholarships like FFE, Reliance, HDFC, NSP, and overseas programs. They understand eligibility criteria, benefits, and application processes, reducing dependency on limited financial resources."]},
+      {"Application Process": ["STEPS :- Students learn how to apply, prepare documents, and avoid common mistakes during scholarship applications."]},
+      {"Merit vs Need": ["CRITERIA :- Difference between merit-based and need-based scholarships is explained to help students target suitable opportunities."]},
+      {"Planning": ["STRATEGY :- Students learn to track deadlines and prepare applications systematically instead of last-minute efforts."]},
+      {"Case Studies": ["REAL LIFE :- Examples of students who benefited from scholarships build motivation and awareness."]},
+      {"Critical Thinking": ["QUESTIONS :- Why many students miss scholarships despite eligibility?"]}
     ]},
     {"Chapter 3 (CV Building & Professional Profiles)": [
-      {"Skills": ["Early-stage CV/portfolio making, GitHub basics, LinkedIn basics"]}
+      {"CV Basics": ["FOUNDATION :- Students learn what a CV is and why it matters even at an early stage. They understand how to present skills, achievements, and projects clearly."]},
+      {"Portfolio Building": ["SHOWCASE :- Students create simple portfolios including projects, certificates, and skills to demonstrate capability beyond marks."]},
+      {"GitHub Basics": ["TECH PROFILE :- Students are introduced to GitHub as a platform to showcase coding or technical work, encouraging early digital presence."]},
+      {"LinkedIn Basics": ["NETWORKING :- Students learn how professional networking works and how to build a profile gradually."]},
+      {"Professional Behavior": ["ATTITUDE :- Importance of honesty, consistency, and clarity in presenting oneself is emphasized."]},
+      {"Critical Thinking": ["QUESTIONS :- Why skills matter more than marks in long term?"]}
     ]},
     {"Chapter 4 (Project and Internship Guidance)": [
-      {"Ideas": ["Social service projects (school and community)"]},
-      {"Tracking": ["Progress monitoring"]}
+      {"Project Ideas": ["INITIATION :- Students are guided to create meaningful projects related to social service, technology, or community problems. They understand that projects should solve real issues rather than just being theoretical work."]},
+      {"Execution": ["PROCESS :- Students learn planning, teamwork, and step-by-step execution of projects, ensuring they experience real problem-solving."]},
+      {"Internship Awareness": ["EXPOSURE :- Introduction to internships helps students understand workplace expectations and skill requirements early."]},
+      {"Progress Tracking": ["MONITORING :- Students regularly track progress, identify challenges, and improve their approach."]},
+      {"Impact Evaluation": ["RESULT :- Students evaluate how effective their projects are in real-world situations."]},
+      {"Critical Thinking": ["QUESTIONS :- What makes a project meaningful vs useless?"]}
     ]},
     {"Chapter 5 (Career Planning)": [
-      {"Alignment": ["Strengths, interests, values with careers"]}
+      {"Self Assessment": ["UNDERSTANDING :- Students analyze their strengths, interests, and values to identify suitable career paths instead of blindly following trends."]},
+      {"Career Mapping": ["PLANNING :- Students learn how to connect skills and education paths with career goals."]},
+      {"Decision Making": ["CHOICES :- Students understand trade-offs and risks involved in different career options."]},
+      {"Flexibility": ["ADAPTATION :- Career paths can change; students learn to adapt instead of sticking rigidly to one plan."]},
+      {"Long-Term Thinking": ["VISION :- Focus on sustainable and meaningful careers instead of short-term gains."]},
+      {"Critical Thinking": ["QUESTIONS :- Should career be passion or stability?"]}
     ]},
     {"Chapter 6 (Language in Careers)": [
-      {"Importance": ["Language skills for global opportunities"]},
-      {"Examples": ["Testimonials, Case studies"]}
+      {"Importance": ["LANGUAGE :- Communication skills are essential for global opportunities. Students understand how language affects career growth."]},
+      {"Global Advantage": ["EDGE :- Knowing multiple languages opens international education and job opportunities."]},
+      {"Case Studies": ["REAL LIFE :- Examples of professionals benefiting from language skills are analyzed."]},
+      {"Skill Building": ["PRACTICE :- Students practice speaking, listening, and understanding different languages."]},
+      {"Cultural Understanding": ["CONTEXT :- Language also helps in understanding different cultures."]},
+      {"Critical Thinking": ["QUESTIONS :- Can language limit career opportunities?"]}
     ]},
     {"Chapter 7 (Inspirational Young Achievers)": [
-      {"Profiles": ["Faye Zhang, Anvita Gupta, Jordan Casey, Arjun Ajay, Zora Ball"]}
+      {"Profiles": ["ACHIEVERS :- Students study individuals like Faye Zhang, Anvita Gupta, Jordan Casey, Arjun Ajay, and Zora Ball to understand how young individuals achieve success through innovation and persistence."]},
+      {"Common Traits": ["PATTERNS :- Students identify habits like curiosity, discipline, and continuous learning."]},
+      {"Learning Paths": ["JOURNEY :- Focus on how these achievers started and grew over time."]},
+      {"Failures": ["REALITY :- Understanding struggles behind success."]},
+      {"Application": ["ACTION :- Students apply lessons to their own journey."]},
+      {"Critical Thinking": ["QUESTIONS :- What separates achievers from others?"]}
     ]},
     {"Chapter 8 (Gaming & eSports)": [
-      {"Success Stories": ["Mortal, Mavi, Rakin, Mongraal, Bizzle"]},
-      {"Analysis": ["Traits and habits for success"]}
+      {"Industry Overview": ["ESPORTS :- Gaming is not just entertainment but a professional field with global opportunities."]},
+      {"Success Stories": ["PLAYERS :- Students study players like Mortal, Mavi, Rakin, Mongraal, and Bizzle."]},
+      {"Skills Required": ["SKILLS :- Reflexes, strategy, discipline, and teamwork are essential."]},
+      {"Risks": ["BALANCE :- Excess gaming without discipline can harm studies and health."]},
+      {"Career Path": ["OPTIONS :- Streaming, competitive gaming, game design careers explored."]},
+      {"Critical Thinking": ["QUESTIONS :- Can gaming be a stable career?"]}
     ]},
     {"Chapter 9 (Social Contribution & Activism)": [
-      {"Case Studies": ["Vihaan & Nav Agarwal, Jaylen Arnold, Payal Jangid, Naomi Wadler, Ananya Grover"]}
+      {"Case Studies": ["ACTIVISM :- Students study individuals like Vihaan & Nav Agarwal, Jaylen Arnold, Payal Jangid, Naomi Wadler, and Ananya Grover to understand impact of social action."]},
+      {"Social Issues": ["PROBLEMS :- Topics like education, child rights, and environment are explored."]},
+      {"Action Steps": ["INITIATIVE :- Students learn how to start small projects in their communities."]},
+      {"Responsibility": ["ROLE :- Understanding duty towards society."]},
+      {"Impact": ["CHANGE :- Students evaluate outcomes of social work."]},
+      {"Critical Thinking": ["QUESTIONS :- Can one person create real change?"]}
     ]},
     {"Chapter 10 (Action-Oriented Reflection)": [
-      {"Personal Journey": ["Mapping progress, Project and skill building, Mentor search"]}
+      {"Self Reflection": ["ANALYSIS :- Students track their progress, skills, and achievements over time."]},
+      {"Goal Setting": ["PLANNING :- Students set realistic short-term and long-term goals."]},
+      {"Mentor Guidance": ["SUPPORT :- Finding mentors to guide career and personal growth."]},
+      {"Skill Tracking": ["DEVELOPMENT :- Monitoring improvement in different skills."]},
+      {"Project Integration": ["APPLICATION :- Linking learning with real projects."]},
+      {"Critical Thinking": ["QUESTIONS :- Are you improving or just studying?"]}
     ]}
   ],
   "🏃‍♂️ Games & Physical Education": [
     {"Chapter 1 (Muscular and Skeletal Systems)": [
-      {"Content": ["Anatomy, Function, Injury prevention"]}
+      {"Anatomy Basics": ["STRUCTURE :- The human body is supported by the skeletal system made of bones and joints, while muscles enable movement by contracting and relaxing. Students learn major bones like skull, spine, ribs, and limbs, along with types of muscles such as voluntary and involuntary, building a clear understanding of how movement happens."]},
+      {"Functions of Systems": ["FUNCTION :- The skeletal system provides structure, protection, and support, while muscles generate movement and maintain posture. Students understand how these systems work together, for example how muscles pull bones to create motion, helping them connect biology with physical activity."]},
+      {"Joint Movement": ["MECHANISM :- Different joints like hinge, ball-and-socket, and pivot allow specific types of movement. Students observe how knees, shoulders, and neck function, improving awareness of body mechanics during sports and daily activities."]},
+      {"Injury Prevention": ["SAFETY :- Students learn causes of injuries such as overuse, poor posture, and lack of warm-up. Preventive measures like stretching, proper technique, and rest are emphasized to avoid long-term damage."]},
+      {"Posture and Alignment": ["BODY CONTROL :- Correct posture reduces strain on muscles and bones. Students understand importance of sitting, standing, and lifting correctly to prevent injury and improve performance."]},
+      {"Applications": ["REAL LIFE :- Knowledge helps in sports performance, injury prevention, and maintaining overall physical health."]},
+      {"Critical Thinking": ["QUESTIONS :- Why improper posture leads to long-term pain?"]}
     ]},
     {"Chapter 2 (Nutrition and Disease)": [
-      {"Topics": ["Food, Lifestyle diseases like obesity, diabetes"]}
+      {"Basic Nutrition": ["DIET :- Students learn about macronutrients like carbohydrates, proteins, fats, and micronutrients like vitamins and minerals. They understand how each nutrient supports growth, energy, and body repair, building awareness of balanced diet instead of random eating habits."]},
+      {"Energy and Metabolism": ["ENERGY FLOW :- Food provides energy required for physical activity and body functions. Students understand how energy intake and expenditure must be balanced to maintain health."]},
+      {"Lifestyle Diseases": ["HEALTH RISKS :- Diseases like obesity and diabetes arise due to poor diet and lack of exercise. Students analyze causes and long-term effects, building awareness of prevention."]},
+      {"Balanced Diet Planning": ["PLANNING :- Students learn how to create simple meal plans that include all essential nutrients."]},
+      {"Food Myths": ["MISCONCEPTIONS :- Common myths about diet are discussed and corrected using scientific reasoning."]},
+      {"Applications": ["REAL LIFE :- Helps students make better food choices daily."]},
+      {"Critical Thinking": ["QUESTIONS :- Can exercise alone compensate for poor diet?"]}
     ]},
     {"Chapter 3 (Reproductive Health)": [
-      {"Focus": ["Menstrual health, Myths, Age-appropriate care"]}
+      {"Basic Understanding": ["AWARENESS :- Students are introduced to reproductive health in an age-appropriate manner, focusing on physical changes during adolescence and importance of hygiene."]},
+      {"Menstrual Health": ["CARE :- Students learn about menstrual cycle, hygiene practices, and importance of proper care. Myths and misconceptions are addressed scientifically to remove stigma."]},
+      {"Emotional Changes": ["PSYCHOLOGY :- Adolescence involves emotional changes; students learn how to manage stress, mood swings, and social pressure."]},
+      {"Respect and Boundaries": ["SOCIAL BEHAVIOR :- Understanding personal boundaries and respecting others is emphasized."]},
+      {"Health Practices": ["CARE :- Hygiene, nutrition, and medical awareness are discussed for maintaining reproductive health."]},
+      {"Applications": ["REAL LIFE :- Promotes healthy habits and informed decisions."]},
+      {"Critical Thinking": ["QUESTIONS :- Why misinformation about health causes harm?"]}
     ]},
     {"Chapter 4 (Substance Abuse Awareness)": [
-      {"Topics": ["Effects of alcohol, tobacco, drugs"]},
-      {"Methods": ["Role play, Group projects"]}
+      {"Substances Overview": ["AWARENESS :- Students learn about alcohol, tobacco, and drugs, understanding what they are and how they affect the body and mind."]},
+      {"Health Effects": ["IMPACT :- These substances damage organs, reduce performance, and affect mental health. Students analyze both short-term and long-term effects."]},
+      {"Addiction Mechanism": ["DEPENDENCE :- Students understand how addiction develops and why it is difficult to overcome."]},
+      {"Social Impact": ["CONSEQUENCES :- Substance abuse affects families, society, and career opportunities."]},
+      {"Prevention Strategies": ["RESISTANCE :- Students learn how to refuse peer pressure and make informed decisions."]},
+      {"Activities": ["PRACTICE :- Role plays and group projects help reinforce learning through real-life scenarios."]},
+      {"Critical Thinking": ["QUESTIONS :- Why do people start harmful habits despite knowing risks?"]}
     ]},
     {"Chapter 5 (Physical Training Routines)": [
-      {"Topics": ["Warm-up, Fitness principles, Flexibility, Strength endurance"]}
+      {"Warm-up": ["PREPARATION :- Warm-up prepares body for exercise by increasing blood flow and reducing injury risk. Students practice basic warm-up routines."]},
+      {"Fitness Components": ["ELEMENTS :- Strength, endurance, flexibility, and speed are introduced as key components of fitness."]},
+      {"Training Principles": ["RULES :- Concepts like consistency, gradual progression, and rest are explained to avoid overtraining."]},
+      {"Flexibility": ["MOBILITY :- Stretching improves movement range and reduces injury risk."]},
+      {"Strength Training": ["POWER :- Basic exercises build muscle strength and endurance."]},
+      {"Routine Planning": ["STRUCTURE :- Students design simple fitness routines."]},
+      {"Critical Thinking": ["QUESTIONS :- Why overtraining reduces performance?"]}
     ]},
     {"Chapter 6 (Fitness Testing & Assessment)": [
-      {"Methods": ["Conducting fitness tests, Understanding results"]}
+      {"Purpose": ["EVALUATION :- Fitness tests help measure strength, endurance, and flexibility. Students understand why assessment is important."]},
+      {"Types of Tests": ["METHODS :- Activities like running, push-ups, and flexibility tests are used to evaluate fitness."]},
+      {"Data Recording": ["TRACKING :- Students learn to record and compare results over time."]},
+      {"Analysis": ["INTERPRETATION :- Understanding results helps identify strengths and weaknesses."]},
+      {"Improvement Plans": ["DEVELOPMENT :- Students create plans to improve fitness based on test results."]},
+      {"Applications": ["REAL LIFE :- Used in sports training and health monitoring."]},
+      {"Critical Thinking": ["QUESTIONS :- Why improvement matters more than comparison?"]}
     ]},
     {"Chapter 7 (Internet and Screen Wellness)": [
-      {"Tech Use": ["Safe internet practices, Digital detox, Screen time balance"]}
+      {"Screen Time Awareness": ["BALANCE :- Students understand how excessive screen time affects physical health, sleep, and mental well-being."]},
+      {"Digital Detox": ["CONTROL :- Taking breaks from screens improves focus and reduces stress."]},
+      {"Safe Internet Use": ["SAFETY :- Students learn safe browsing practices and avoiding harmful content."]},
+      {"Physical Impact": ["HEALTH :- Long screen time affects posture, eyes, and activity levels."]},
+      {"Mental Health": ["PSYCHOLOGY :- Overuse of digital devices can cause anxiety and distraction."]},
+      {"Balanced Routine": ["PLANNING :- Students create schedules balancing study, physical activity, and screen use."]},
+      {"Critical Thinking": ["QUESTIONS :- Can technology improve health if used correctly?"]}
     ]}
   ],
   "🎨 Arts, Music and Dance": [
-    {"Chapter 1 (Art Appreciation)": [
-      {"Activities": ["Make drawings of birds, animals, etc."]}
+    {"Chapter 1 (Visual Observation & Sketching)": [
+      {"Basic Drawing": ["FOUNDATION :- Drawing begins with observation of shapes, lines, proportions, and light. Objects like birds, animals, and everyday items are sketched using basic forms such as circles, cylinders, and cubes."]},
+      {"Shading & Depth": ["TECHNIQUE :- Light and shadow create depth and realism. Techniques include hatching, cross-hatching, and blending."]},
+      {"Perspective": ["SPACE :- Understanding near vs far objects, size variation, and simple one-point perspective improves realism."]},
+      {"Composition": ["ARRANGEMENT :- Placement of objects in a drawing affects balance and visual appeal."]},
+      {"Practice Work": ["OUTPUT :- Sketches of natural and daily-life objects focusing on proportion and detail."]},
+      {"Core Idea": ["UNDERSTANDING :- Good art starts with careful observation."]}
     ]},
-    {"Chapter 2 (Painting Techniques)": [
-      {"Techniques": ["Watercolor, Acrylic basics, Color theory"]}
+    {"Chapter 2 (Painting Techniques & Color Theory)": [
+      {"Color Theory": ["COLORS :- Primary, secondary, and complementary colors. Warm vs cool colors affect mood and perception."]},
+      {"Watercolor Techniques": ["METHOD :- Wash, layering, wet-on-wet, and blending techniques for soft transitions."]},
+      {"Acrylic Basics": ["MEDIUM :- Acrylic paints allow bold colors, layering, and texture creation."]},
+      {"Texture & Effects": ["STYLE :- Techniques to create surface texture and visual interest."]},
+      {"Composition in Painting": ["BALANCE :- Color placement and contrast influence overall impact."]},
+      {"Core Idea": ["UNDERSTANDING :- Color and technique define visual expression."]}
     ]},
-    {"Chapter 3 (History of Art)": [
-      {"Study": ["Famous artists and their styles"]}
+    {"Chapter 3 (Art History & Visual Culture)": [
+      {"Art Movements": ["HISTORY :- Major movements like Renaissance, Impressionism, and modern art show evolution of styles and ideas."]},
+      {"Famous Artists": ["EXAMPLES :- Artists like Leonardo da Vinci, Van Gogh, and Picasso contributed unique techniques and perspectives."]},
+      {"Indian Art Forms": ["HERITAGE :- Madhubani, Warli, and Mughal art represent regional traditions and cultural storytelling."]},
+      {"Art as Expression": ["MEANING :- Art reflects society, emotions, and historical context."]},
+      {"Interpretation": ["ANALYSIS :- Understanding meaning behind artworks rather than just appearance."]},
+      {"Core Idea": ["UNDERSTANDING :- Art is shaped by time, culture, and ideas."]}
     ]},
-    {"Chapter 4 (Craft Projects)": [
-      {"Materials": ["Paper mache, Clay modeling, Recycled art"]}
+    {"Chapter 4 (Craft, Design & Creative Projects)": [
+      {"Materials": ["TOOLS :- Paper, clay, recycled materials, and basic tools are used to create models and crafts."]},
+      {"Techniques": ["METHODS :- Paper mache, clay modeling, and simple construction techniques."]},
+      {"Design Thinking": ["PROCESS :- Idea → design → creation → improvement."]},
+      {"Functional Art": ["APPLICATION :- Objects can be both useful and artistic."]},
+      {"Creativity": ["INNOVATION :- Using available materials to create new forms and designs."]},
+      {"Core Idea": ["UNDERSTANDING :- Creativity combines imagination with execution."]}
     ]},
-    {"Chapter 5 (Music)": [
-      {"Basics": ["Learn music and sing"]}
+    {"Chapter 5 (Music Fundamentals & Singing)": [
+      {"Basics of Music": ["FOUNDATION :- Sound, pitch, rhythm, and melody form the base of music."]},
+      {"Voice Training": ["SINGING :- Breathing, tone control, and vocal exercises improve singing ability."]},
+      {"Rhythm & Beat": ["TIMING :- Understanding tempo and rhythm patterns."]},
+      {"Practice Songs": ["APPLICATION :- Learning simple songs to apply concepts."]},
+      {"Listening Skills": ["AWARENESS :- Identifying instruments, patterns, and structure in music."]},
+      {"Core Idea": ["UNDERSTANDING :- Music is structured sound, not random noise."]}
     ]},
-    {"Chapter 6 (History of Music)": [
-      {"Genres": ["Different music genres, Famous musicians"]}
+    {"Chapter 6 (Music History & Genres)": [
+      {"Genres": ["VARIETY :- Classical, folk, pop, jazz, and modern music styles."]},
+      {"Instruments": ["SOUND SOURCES :- String, wind, percussion instruments and their roles."]},
+      {"Famous Musicians": ["EXAMPLES :- Contributions of notable artists across genres."]},
+      {"Cultural Influence": ["CONTEXT :- Music reflects culture, tradition, and social changes."]},
+      {"Evolution": ["CHANGE :- Music styles evolve with time and technology."]},
+      {"Core Idea": ["UNDERSTANDING :- Music is shaped by culture and innovation."]}
     ]},
-    {"Chapter 7 (Dance)": [
-      {"Introduction": ["Basic dance forms, Rhythm, Movement"]}
+    {"Chapter 7 (Dance & Movement Basics)": [
+      {"Body Movement": ["FOUNDATION :- Basic movements, posture, and coordination."]},
+      {"Rhythm & Timing": ["SYNC :- Movement aligned with music beats and tempo."]},
+      {"Dance Forms": ["VARIETY :- Introduction to classical, folk, and modern dance styles."]},
+      {"Expression": ["PERFORMANCE :- Facial expressions and body language convey emotion."]},
+      {"Practice": ["APPLICATION :- Learning short routines and sequences."]},
+      {"Core Idea": ["UNDERSTANDING :- Dance is expression through movement."]}
     ]},
-    {"Chapter 8 (Dance Show)": [
-      {"Project": ["Creating a dance performance with learned elements"]}
+    {"Chapter 8 (Performance & Presentation)": [
+      {"Dance Performance": ["EXECUTION :- Combining movement, rhythm, and expression into a complete performance."]},
+      {"Music Performance": ["SINGING :- Presenting songs with confidence and clarity."]},
+      {"Stage Presence": ["CONFIDENCE :- Body language, posture, and audience engagement."]},
+      {"Coordination": ["TEAMWORK :- Group performances require synchronization and practice."]},
+      {"Evaluation": ["FEEDBACK :- Performance is improved through critique and practice."]},
+      {"Core Idea": ["UNDERSTANDING :- Art reaches meaning when shared with others."]}
+    ]},
+    {"Chapter 9 (Creativity, Expression & Portfolio)": [
+      {"Creative Thinking": ["IDEAS :- Generating original ideas and exploring different styles."]},
+      {"Personal Style": ["IDENTITY :- Developing unique way of expression."]},
+      {"Portfolio": ["COLLECTION :- Maintaining record of artworks, performances, and projects."]},
+      {"Reflection": ["ANALYSIS :- Understanding strengths and areas of improvement."]},
+      {"Integration": ["COMBINATION :- Combining art, music, and dance elements creatively."]},
+      {"Core Idea": ["UNDERSTANDING :- Creativity grows with practice and reflection."]}
     ]}
   ],
   "🧠 General Knowledge (G.K)": [
@@ -3389,48 +3715,175 @@ Object.assign(window.curriculumData, {
       {"Space Missions": ["Notable missions (Apollo, Voyager, Mars rovers), Future missions (Artemis, James Webb Space Telescope), Space agencies (NASA, ESA, ISRO, CNSA), Space technology (Satellites, Space telescopes, Rovers, Space stations), Space tourism (Commercial spaceflight, Key players, Challenges, Future prospects)"]},
     ]},
     {"Chapter 2 (Famous Personalities)": [
-      {"Profiles": ["Scientists, Leaders, Artists, Athletes"]},
+      {"Profiles Overview": ["PERSONALITIES :- Students study scientists, leaders, artists, and athletes from India and the world. Instead of memorizing names, they understand contributions, challenges, and impact of these individuals, helping them connect achievements with effort, creativity, and persistence."]},
+      {"Scientists": ["SCIENCE LEADERS :- Figures like Albert Einstein, C.V. Raman, Marie Curie, and A.P.J. Abdul Kalam are studied to understand curiosity-driven discovery and innovation. Students focus on how these individuals thought and solved problems rather than just their achievements."]},
+      {"Political Leaders": ["LEADERSHIP :- Leaders like Mahatma Gandhi, Nelson Mandela, and Abraham Lincoln are analyzed for their role in shaping societies. Students understand leadership qualities such as resilience, vision, and ethical decision-making."]},
+      {"Artists and Creators": ["CREATIVITY :- Artists, musicians, and writers are studied to understand cultural influence and creative expression. Students explore how art reflects society and influences thinking."]},
+      {"Athletes": ["SPORTS FIGURES :- Athletes like Sachin Tendulkar, Serena Williams, and Usain Bolt are studied to understand discipline, training, and mental strength required for excellence."]},
+      {"Common Traits": ["PATTERNS :- Students identify common qualities such as persistence, curiosity, and hard work across different personalities."]},
+      {"Applications": ["REAL LIFE :- Students reflect on how these traits can be applied in their own life."]},
+      {"Critical Thinking": ["QUESTIONS :- What matters more: talent or effort?"]}
     ]},
     {"Chapter 3 (Indian Governance)": [
-      {"Topics": ["President, Prime Minister, Parliament roles and powers"]}
+      {"Structure of Government": ["SYSTEM :- India follows a democratic system with separation of powers between executive, legislature, and judiciary. Students understand why power is divided to prevent misuse."]},
+      {"President": ["ROLE :- The President is the constitutional head of India, performing ceremonial duties and ensuring smooth functioning of government processes."]},
+      {"Prime Minister": ["EXECUTIVE :- The Prime Minister leads the government and takes major decisions related to policies and administration."]},
+      {"Parliament": ["LAW MAKING :- Parliament consists of Lok Sabha and Rajya Sabha and is responsible for making laws and representing citizens."]},
+      {"Judiciary": ["JUSTICE :- Courts interpret laws and ensure justice."]},
+      {"Checks and Balances": ["CONTROL :- Each branch limits the others to maintain balance."]},
+      {"Citizen Role": ["PARTICIPATION :- Voting and awareness are essential for democracy."]},
+      {"Critical Thinking": ["QUESTIONS :- Can democracy function without informed citizens?"]}
     ]},
     {"Chapter 4 (Global Leaders and Conflicts)": [
-      {"Studies": ["Major world leaders, Contemporary conflicts and peacekeeping"]}
+      {"Global Leaders": ["WORLD FIGURES :- Students study major global leaders and understand their policies, leadership styles, and global influence."]},
+      {"Causes of Conflicts": ["REASONS :- Conflicts arise due to political, economic, and cultural differences. Students explore root causes instead of just events."]},
+      {"Major Conflicts": ["CASE STUDIES :- Students study ongoing and past conflicts to understand global tensions and their effects."]},
+      {"Peacekeeping": ["SOLUTIONS :- Role of organizations like UN in maintaining peace is explained."]},
+      {"Impact": ["CONSEQUENCES :- Conflicts affect economies, societies, and human lives."]},
+      {"Global Cooperation": ["COLLABORATION :- Countries work together to solve global issues."]},
+      {"Applications": ["REAL WORLD :- Understanding global politics helps in awareness."]},
+      {"Critical Thinking": ["QUESTIONS :- Can conflicts ever be completely avoided?"]}
     ]},
     {"Chapter 5 (Economic Indicators)": [
-      {"Concepts": ["GDP, Inflation, HDI, India vs world"]}
+      {"GDP": ["OUTPUT :- GDP measures total production of a country. Students understand its importance and limitations."]},
+      {"Inflation": ["PRICE RISE :- Inflation indicates increase in prices and its effect on purchasing power."]},
+      {"HDI": ["DEVELOPMENT :- HDI measures human development including education and health."]},
+      {"Comparison": ["ANALYSIS :- Students compare India with other countries using indicators."]},
+      {"Limitations": ["CRITIQUE :- Economic indicators do not capture all aspects of well-being."]},
+      {"Applications": ["REAL LIFE :- Used in policy decisions and global comparisons."]},
+      {"Data Skills": ["INTERPRETATION :- Students learn to read economic data."]},
+      {"Critical Thinking": ["QUESTIONS :- Does higher GDP always mean better life?"]}
     ]},
     {"Chapter 6 (Geopolitical Geography)": [
-      {"Topics": ["Borders, Alliances, Regions of conflict, Major world events"]}
+      {"Borders and Regions": ["GEOGRAPHY :- Students learn about countries, borders, and regions of importance."]},
+      {"Alliances": ["GROUPS :- Alliances like NATO and BRICS are introduced conceptually."]},
+      {"Conflict Zones": ["HOTSPOTS :- Students study areas of tension and reasons behind them."]},
+      {"Resources": ["IMPORTANCE :- Natural resources influence geopolitics."]},
+      {"Global Events": ["HISTORY :- Major events shape world order."]},
+      {"Mapping Skills": ["SKILLS :- Students locate regions on maps."]},
+      {"Applications": ["REAL LIFE :- Understanding world helps in awareness."]},
+      {"Critical Thinking": ["QUESTIONS :- Why geography affects politics?"]}
     ]},
     {"Chapter 7 (Sports and World Events)": [
-      {"Events": ["Olympics, FIFA, ICC history and records"]}
+      {"Major Events": ["SPORTS :- Olympics, FIFA World Cup, ICC tournaments are studied for history and importance."]},
+      {"Rules and Formats": ["STRUCTURE :- Students understand how tournaments are organized."]},
+      {"Records": ["ACHIEVEMENTS :- Major records and milestones are analyzed."]},
+      {"Sportsmanship": ["VALUES :- Fair play and discipline are emphasized."]},
+      {"Global Impact": ["INFLUENCE :- Sports bring nations together and influence culture."]},
+      {"Athlete Stories": ["INSPIRATION :- Stories of athletes motivate students."]},
+      {"Applications": ["REAL LIFE :- Encourages participation in sports."]},
+      {"Critical Thinking": ["QUESTIONS :- Why sports matter beyond entertainment?"]}
     ]},
     {"Chapter 8 (Debates and Quizzes)": [
-      {"Activities": ["Weekly quiz bowl, Current affairs debates"]}
+      {"Quiz Structure": ["COMPETITION :- Weekly quizzes test knowledge and quick thinking."]},
+      {"Debates": ["DISCUSSION :- Students discuss current affairs and develop arguments."]},
+      {"Critical Thinking": ["ANALYSIS :- Students learn to evaluate information logically."]},
+      {"Teamwork": ["COLLABORATION :- Group activities improve communication skills."]},
+      {"Research": ["PREPARATION :- Students gather information before debates."]},
+      {"Confidence": ["SKILL :- Speaking skills improve through participation."]},
+      {"Applications": ["REAL LIFE :- Helps in decision-making and communication."]},
+      {"Critical Thinking": ["QUESTIONS :- Is knowing facts enough without understanding?"]}
     ]},
     {"Chapter 9 (Science and Technology Advances)": [
-      {"Topics": ["Recent inventions, Space missions, Tech breakthroughs"]}
-    ]}  
+      {"Recent Inventions": ["INNOVATION :- Students learn about new inventions and technologies shaping the world."]},
+      {"Space Missions": ["EXPLORATION :- Missions by ISRO, NASA, and others are studied."]},
+      {"AI and Robotics": ["TECH :- Introduction to modern technologies and their impact."]},
+      {"Applications": ["REAL LIFE :- Technology affects daily life and industries."]},
+      {"Ethics": ["CONCERNS :- Technology raises ethical questions."]},
+      {"Future Trends": ["PREDICTION :- Students explore possible future developments."]},
+      {"Impact": ["CHANGE :- Technology transforms society and economy."]},
+      {"Critical Thinking": ["QUESTIONS :- Can technology create more problems than it solves?"]}
+    ]},
+    {"Chapter 10 (Media, World Systems & Real-World Thinking)": [
+      {"Media & Information Literacy": ["MEDIA UNDERSTANDING :- Students learn how news, social media, and information platforms work. They understand that not all information is neutral, and media can be influenced by political, economic, or ideological interests. Students analyze headlines, sources, and intent behind information, helping them become informed consumers rather than passive receivers of content."]},
+      {"Fake News & Misinformation": ["FACT CHECKING :- Students learn to identify fake news using techniques like checking sources, cross-verifying information, and understanding emotional manipulation in headlines. They explore how misinformation spreads rapidly through social media and how it can influence public opinion, elections, and social harmony, building strong critical awareness."]},
+      {"Bias & Propaganda": ["INFLUENCE :- Students understand different types of bias such as selection bias, framing, and confirmation bias. Propaganda techniques like emotional appeal, repetition, and selective facts are analyzed. This helps students recognize how narratives are shaped and prevents blind acceptance of information."]},
+      {"World Timeline & Civilizations Overview": ["HISTORICAL FLOW :- Students study major world civilizations and key events in a timeline format to understand cause-and-effect relationships. Instead of memorizing dates, they focus on how events like industrial revolution, world wars, and technological revolutions shaped the modern world."]},
+      {"India in Global Context": ["COMPARISON :- Students compare India with other countries in terms of development, governance, economy, and culture. This builds perspective and helps them understand strengths and challenges of different systems rather than viewing countries in isolation."]},
+      {"Science in Daily Life": ["APPLICATION :- Students explore how scientific advancements impact daily decisions such as health choices, technology use, transportation, and environment. This connects abstract science concepts to real-life situations, improving practical understanding."]},
+      {"Technology & Society": ["IMPACT :- Students analyze how technologies like AI, internet, and automation are changing jobs, communication, and lifestyles. They also discuss ethical concerns such as privacy, data misuse, and dependency on technology."]},
+      {"Decision-Making in Real World": ["LOGICAL THINKING :- Students apply knowledge from economics, science, and social studies to make informed decisions. Concepts like cost-benefit analysis, risk assessment, and long-term thinking are introduced through real-life scenarios."]},
+      {"Global Issues & Responsibility": ["AWARENESS :- Students study global challenges such as climate change, inequality, and conflicts. They understand role of individuals and nations in solving these problems, building sense of responsibility and awareness."]},
+      {"Critical Thinking & Reflection": ["SELF ANALYSIS :- Students reflect on how they consume information, make decisions, and understand the world. They are encouraged to question assumptions, verify facts, and think independently instead of following crowd mentality."]}
+    ]}
   ],
   "🔬 Research Projects (R.P)": [
     {"Chapter 1 (Robotics Introduction & NPTEL Lectures)": [
-      {"Theory": ["Basics and hands-on activities with kits, Autonomous task demonstrations"]}
+      {"What is a Robot": ["ROBOTICS BASICS :- A robot is a system that can sense its environment, process information, and perform actions. Students understand components like sensors, controllers, and actuators. Instead of memorizing definitions, they explore how robots work in factories, homes, and space missions, building a strong conceptual foundation."]},
+      {"Core Components": ["SYSTEM DESIGN :- Robots consist of sensors (input), microcontrollers (processing), and actuators (output). Students learn how these components interact to complete tasks, such as a line-following robot using sensors to detect path and motors to adjust movement."]},
+      {"Autonomous vs Controlled": ["CONTROL SYSTEMS :- Students differentiate between manually controlled robots and autonomous robots that make decisions based on programmed logic. This introduces basic concepts of automation and intelligence."]},
+      {"NPTEL Exposure": ["ADVANCED LEARNING :- Selected NPTEL lectures are used to expose students to higher-level concepts in simplified form. Students learn how to extract useful ideas from advanced material without being overwhelmed."]},
+      {"Hands-on Kits": ["PRACTICAL :- Students work with basic robotics kits to build simple systems like line followers or obstacle-avoiding robots, reinforcing theoretical knowledge through practice."]},
+      {"Applications": ["REAL WORLD :- Robotics applications in healthcare, manufacturing, and exploration are discussed to show relevance."]},
+      {"Critical Thinking": ["QUESTIONS :- Can a robot think or only follow instructions?"]}
     ]},
     {"Chapter 2 (CAD Design)": [
-      {"Software": ["Canvas, AutoCAD, Fusion 360, TensorFlow"]},
-      {"Concepts": ["Basic 3D modeling and design principles"]}
+      {"Introduction to CAD": ["DESIGN BASICS :- Computer-Aided Design (CAD) allows students to create digital models of objects before building them physically. Students understand why design is important in engineering and how it reduces errors and cost."]},
+      {"Software Tools": ["PLATFORMS :- Tools like Canvas, AutoCAD, and Fusion 360 are introduced conceptually. Students explore basic interfaces and understand how different tools are used for different types of design work."]},
+      {"3D Modeling": ["CREATION :- Students learn to create simple 3D shapes and combine them into complex objects. This builds spatial visualization and design thinking skills."]},
+      {"Design Principles": ["ENGINEERING THINKING :- Concepts like symmetry, balance, strength, and usability are introduced. Students learn that good design is not just about appearance but also function and efficiency."]},
+      {"Prototyping": ["DEVELOPMENT :- Students understand how digital designs can be converted into real objects using methods like 3D printing or manual construction."]},
+      {"TensorFlow Mention": ["AWARENESS :- Students are introduced to TensorFlow conceptually as a tool used in machine learning, connecting design with intelligent systems."]},
+      {"Applications": ["REAL WORLD :- CAD is used in product design, architecture, and manufacturing."]},
+      {"Critical Thinking": ["QUESTIONS :- Why is planning before building important?"]}
     ]},
     {"Chapter 3 (Machine Learning Basics)": [
-      {"Introduction": ["Machine learning concepts"]},
-      {"Applications": ["Real-world scenarios"]}
+      {"Introduction to ML": ["CONCEPT :- Machine learning is the ability of systems to learn patterns from data and improve performance without explicit programming. Students understand this through simple examples like recommendation systems."]},
+      {"Types of Learning": ["CATEGORIES :- Supervised, unsupervised, and reinforcement learning are introduced conceptually with simple analogies."]},
+      {"Data Importance": ["FOUNDATION :- Students learn that data is the core of machine learning and quality of data affects output."]},
+      {"Real-World Applications": ["USES :- Applications like image recognition, speech recognition, and recommendation systems are explored."]},
+      {"Ethics": ["RESPONSIBILITY :- Students discuss issues like bias in data and misuse of AI systems."]},
+      {"Mini Activities": ["PRACTICAL :- Simple pattern recognition activities help students understand ML logic without coding complexity."]},
+      {"Future Scope": ["AWARENESS :- Students understand how ML is shaping future careers and industries."]},
+      {"Critical Thinking": ["QUESTIONS :- Can machines replace human thinking?"]}
     ]},
     {"Chapter 4 (Machine Principles)": [
-      {"Study": ["Working principles of airplanes, quadcopters, drones"]},
-      {"Support": ["Video lectures demonstration in class, recommand videos for self-study"]},
-      {"Hands on projects": ["Making any simple machine- drone, rc car, robotic arm, etc."]},
+      {"Flight Basics": ["AERODYNAMICS :- Students learn basic principles of flight such as lift, thrust, drag, and weight. These concepts are explained using simple examples like paper planes and real aircraft, helping students understand how flying machines stay in air."]},
+      {"Drones and Quadcopters": ["SYSTEM UNDERSTANDING :- Students study how drones work using motors, propellers, and controllers. Concepts like stability and control are introduced in a simplified manner."]},
+      {"Mechanical Systems": ["MACHINES :- Basic principles of machines such as motion transfer, gears, and force are explained."]},
+      {"Video Learning": ["SUPPORT :- Curated video lectures help visualize complex systems and reinforce concepts through demonstrations."]},
+      {"Hands-on Projects": ["PRACTICAL :- Students build simple machines like RC cars, drones, or robotic arms to apply their learning."]},
+      {"Testing and Iteration": ["IMPROVEMENT :- Students test their models, identify problems, and improve designs, learning real engineering process."]},
+      {"Safety": ["PRECAUTION :- Safe handling of tools and components is emphasized."]},
+      {"Applications": ["REAL WORLD :- Machines are used in transportation, industry, and daily life."]},
+      {"Critical Thinking": ["QUESTIONS :- Why do machines fail even if design looks correct?"]}
     ]},
-    {"Chapter 5 (Signal to Sound: Scientific Understanding of Audio Systems)":[
+    {"Chapter 5 (Research Methodology & Problem Solving)": [
+      {"Problem Identification": ["PROBLEM THINKING :- Students learn how to identify real-world problems instead of random project ideas. They observe surroundings, ask questions, and define clear problems. This shifts them from “make something” to “solve something meaningful,” which is the core of research thinking."]},
+      {"Hypothesis & Experimentation": ["SCIENTIFIC METHOD :- Students learn to form hypotheses, test ideas, and validate results through experiments. They understand that failure is part of learning and refine ideas through iteration."]},
+      {"Data Collection": ["EVIDENCE :- Students learn to collect, organize, and analyze data from experiments or observations, building logical reasoning instead of guesswork."]},
+      {"Analysis & Conclusion": ["REASONING :- Students interpret results and draw conclusions based on evidence, not assumptions."]},
+      {"Critical Thinking": ["QUESTIONS :- How do you know your solution actually works?"]}
+    ]},
+    {"Chapter 6 (Electronics & Microcontrollers Basics)": [
+      {"Basic Electronics": ["FOUNDATION :- Students learn voltage, current, resistance, and simple circuits. This connects directly with robotics and hardware projects."]},
+      {"Components": ["ELEMENTS :- Sensors, resistors, LEDs, motors, and batteries are introduced with practical use cases."]},
+      {"Microcontrollers": ["CONTROL :- Introduction to Arduino, ESP32, and how they control devices."]},
+      {"Circuit Building": ["PRACTICAL :- Students build simple circuits and test them."]},
+      {"Applications": ["REAL WORLD :- Used in automation, IoT, and robotics systems."]}
+    ]},
+    {"Chapter 7 (Programming for Projects)": [
+      {"Logic Building": ["FOUNDATION :- Students learn how to think in steps and convert ideas into algorithms."]},
+      {"Basic Coding": ["IMPLEMENTATION :- Simple coding in Python/C++ for controlling projects."]},
+      {"Debugging": ["ERROR HANDLING :- Students learn to find and fix errors logically."]},
+      {"Integration": ["SYSTEM :- Code + hardware integration for real projects."]},
+      {"Applications": ["REAL WORLD :- Used in automation, apps, and robotics."]}
+    ]},
+    {"Chapter 8 (Documentation, Presentation & Communication)": [
+      {"Documentation": ["RECORDING :- Students learn how to write project reports, maintain logs, and document process clearly."]},
+      {"Presentation Skills": ["COMMUNICATION :- Students present their work confidently with clarity and logic."]},
+      {"Visual Communication": ["EXPLANATION :- Use of diagrams, videos, and demos to explain ideas."]},
+      {"Feedback": ["IMPROVEMENT :- Students receive and apply feedback to improve projects."]},
+      {"Applications": ["REAL WORLD :- Essential for research, jobs, and competitions."]}
+    ]},
+    {"Chapter 9 (Ethics, Safety & Responsible Innovation)": [
+      {"Ethics in Technology": ["RESPONSIBILITY :- Students understand ethical use of technology and avoid misuse."]},
+      {"Safety": ["PRECAUTION :- Safe handling of tools, electronics, and machines."]},
+      {"Data Privacy": ["AWARENESS :- Importance of protecting user data in digital systems."]},
+      {"Social Impact": ["PURPOSE :- Technology should solve problems, not create harm."]},
+      {"Critical Thinking": ["QUESTIONS :- Just because we can build something, should we?"]}
+    ]},
+    {"Chapter 10 (Signal to Sound: Scientific Understanding of Audio Systems)":[
       {"What is Sound and Electrical Signal":["Sound is vibration of air molecules","Microphone converts vibration into electrical signal","Electrical signal is varying voltage over time","Speaker converts electrical signal back into vibration","Signal represents frequency (pitch) and amplitude (loudness)"]},
       {"Digital Audio in Mobile Devices":["Music stored as digital data (0 and 1)","DAC converts digital data into analog waveform","Analog output is low-level signal (~1V line level)","Mobile cannot supply sufficient current","Amplification required before driving speakers"]},
       {"Bluetooth Signal Path":["Mobile encodes audio into radio frequency signal","Bluetooth module receives RF signal","Module decodes digital data","Internal DAC converts digital to analog","Output becomes low-level electrical audio signal"]},
@@ -3540,364 +3993,712 @@ Object.assign(window.curriculumData, {
 
   "➗ Mathematics": [
     {"Chapter 1 (Number System)": [
-      {"Concepts": ["Real and Complex numbers, Polynomials, Relations between number types"]},
-      {"Practice": ["CBSE 9+10 level examples"]}
+      {"Number Types": ["CLASSIFICATION :- Students explore real numbers including rational and irrational numbers, and are introduced to complex numbers conceptually. They understand relationships between number systems, such as how integers are a subset of rational numbers, and how irrational numbers expand the number line beyond fractions."]},
+      {"Number Line Visualization": ["VISUALIZATION :- Students learn to represent different types of numbers on the number line, including square roots and decimals, building strong spatial intuition about magnitude and ordering of numbers."]},
+      {"Polynomials": ["ALGEBRAIC STRUCTURE :- Introduction to polynomials, terms, degree, and basic operations helps students understand algebraic expressions as generalized numbers rather than abstract symbols."]},
+      {"Operations": ["ARITHMETIC :- Students perform operations across number systems and understand rules governing addition, subtraction, multiplication, and division."]},
+      {"Properties": ["RULES :- Properties like commutative, associative, and distributive laws are explored to simplify calculations."]},
+      {"Applications": ["REAL LIFE :- Used in measurements, finance, and problem solving."]},
+      {"Practice": ["PROBLEMS :- CBSE 9+10 level examples strengthen conceptual clarity."]},
+      {"Critical Thinking": ["QUESTIONS :- Why irrational numbers cannot be expressed as fractions?"]}
     ]},
     {"Chapter 2 (Linear Equations)": [
-      {"Concepts": ["Equations in one to three variables"]},
-      {"Applications": ["Word problems and algebraic solutions"]}
+      {"Basic Concepts": ["EQUATIONS :- Students understand equations as balance relationships between expressions. They explore solving equations in one, two, and three variables conceptually."]},
+      {"Graphical Interpretation": ["VISUAL :- Linear equations are represented graphically to show solutions as intersections, helping students connect algebra with geometry."]},
+      {"Methods": ["TECHNIQUES :- Substitution and elimination methods are introduced for solving systems of equations."]},
+      {"Word Problems": ["APPLICATION :- Real-life problems involving age, distance, and money are converted into equations."]},
+      {"Consistency": ["SOLUTIONS :- Students understand cases of unique, infinite, or no solution."]},
+      {"Applications": ["REAL LIFE :- Used in planning and decision-making."]},
+      {"Practice": ["PROBLEMS :- Mixed problem-solving builds confidence."]},
+      {"Critical Thinking": ["QUESTIONS :- Can two equations have no solution?"]}
     ]},
     {"Chapter 3 (Geometries)": [
-      {"Shapes": ["Triangles, quadrilaterals, polygons"]},
-      {"Properties": ["Theorems, visual proofs"]}
+      {"Basic Shapes": ["FOUNDATION :- Students study triangles, quadrilaterals, and polygons, understanding their properties and classifications."]},
+      {"Angle Properties": ["RULES :- Concepts like interior angles, exterior angles, and angle sum properties are explored."]},
+      {"Theorems": ["LOGIC :- Basic geometric theorems are introduced with visual reasoning instead of rote memorization."]},
+      {"Proof Thinking": ["REASONING :- Students learn how to justify statements logically."]},
+      {"Symmetry": ["PATTERNS :- Understanding symmetry helps simplify geometric problems."]},
+      {"Visualization": ["SPATIAL :- Students draw and interpret shapes accurately."]},
+      {"Applications": ["REAL LIFE :- Used in design and construction."]},
+      {"Critical Thinking": ["QUESTIONS :- Why triangle is rigid structure?"]}
     ]},
     {"Chapter 4 (Coordinate Geometry)": [
-      {"Basics": ["1D, 2D, 3D coordinates, Euclid’s postulates, Heron’s Formula"]},
-      {"Applications": ["Parameters of circles, parallelograms, triangles"]}
+      {"Coordinate System": ["BASICS :- Students learn 1D, 2D, and introductory 3D coordinate systems, understanding how points are represented numerically."]},
+      {"Distance Formula": ["MEASUREMENT :- Distance between points is calculated using coordinate geometry concepts."]},
+      {"Shapes in Coordinates": ["APPLICATION :- Geometric shapes are analyzed using coordinates."]},
+      {"Euclid’s Postulates": ["FOUNDATION :- Basic axioms of geometry are introduced conceptually."]},
+      {"Heron’s Formula": ["AREA :- Area of triangle using side lengths is explored."]},
+      {"Circle Basics": ["GEOMETRY :- Parameters of circles and equations are introduced conceptually."]},
+      {"Visualization": ["SPATIAL :- Students connect algebra with geometry visually."]},
+      {"Critical Thinking": ["QUESTIONS :- Can geometry exist without coordinates?"]}
     ]},
     {"Chapter 5 (Mensuration & Volumes)": [
-      {"Formulas": ["Perimeter, surface area, volume of cubes, cuboids, cylinders, cones, spheres"]}
+      {"2D Measures": ["AREA :- Students calculate perimeter and area of basic shapes."]},
+      {"3D Shapes": ["VOLUME :- Introduction to cubes, cuboids, cylinders, cones, and spheres."]},
+      {"Surface Area": ["CALCULATION :- Students understand exposed area and its applications."]},
+      {"Formulas Understanding": ["LOGIC :- Instead of memorizing, students understand derivation ideas."]},
+      {"Units": ["MEASUREMENT :- Importance of consistent units is emphasized."]},
+      {"Applications": ["REAL LIFE :- Used in packaging, construction, and design."]},
+      {"Practice": ["PROBLEMS :- Real-life problems reinforce learning."]},
+      {"Critical Thinking": ["QUESTIONS :- Why volume grows faster than area?"]}
     ]},
     {"Chapter 6 (Vectors and Matrix)": [
-      {"Concepts": ["Vector algebra, Matrices and determinants"]},
-      {"Applications": ["Geometric and physics problems"]}
+      {"Vectors": ["CONCEPT :- Vectors represent magnitude and direction, unlike scalars. Students learn addition and graphical representation."]},
+      {"Applications": ["PHYSICS LINK :- Used in motion and forces."]},
+      {"Matrices": ["STRUCTURE :- Matrices represent data in rows and columns."]},
+      {"Operations": ["TECHNIQUES :- Addition and multiplication of matrices."]},
+      {"Determinants": ["INTRO :- Basic idea of determinants and their role."]},
+      {"Visualization": ["SPATIAL :- Vectors visualized in coordinate plane."]},
+      {"Applications": ["REAL LIFE :- Used in computer graphics and data systems."]},
+      {"Critical Thinking": ["QUESTIONS :- Why direction matters in real world?"]}
     ]},
     {"Chapter 7 (Geometry: Constructions & Congruence)": [
-      {"Construction Tools": ["Ruler, compass methods"]},
-      {"Tests": ["Triangle congruence applications"]}
+      {"Tools": ["INSTRUMENTS :- Ruler and compass used for precise constructions."]},
+      {"Constructions": ["PRACTICE :- Drawing angles, bisectors, and shapes accurately."]},
+      {"Congruence": ["RULES :- Triangle congruence criteria like SSS, SAS, ASA."]},
+      {"Applications": ["USE :- Used in engineering and design."]},
+      {"Proofs": ["LOGIC :- Understanding why constructions work."]},
+      {"Visualization": ["SPATIAL :- Enhancing drawing accuracy."]},
+      {"Practice": ["PROBLEMS :- Hands-on exercises."]},
+      {"Critical Thinking": ["QUESTIONS :- Why precise construction matters?"]}
     ]},
     {"Chapter 8 (Statistics)": [
-      {"Data Analysis": ["Mean, median, mode, Representation and charts"]},
-      {"Types of Distribution": ["Uniform, normal, gaussian, binomial, poisson, exponential, bimodal, skewed, etc."]}
+      {"Data Collection": ["FOUNDATION :- Students learn how to collect and organize data systematically."]},
+      {"Measures": ["CENTRAL TENDENCY :- Mean, median, and mode explained with examples."]},
+      {"Representation": ["VISUAL :- Charts and graphs used to present data."]},
+      {"Distributions": ["PATTERNS :- Concepts of normal, binomial, skewed distributions introduced conceptually."]},
+      {"Analysis": ["INTERPRETATION :- Students interpret trends from data."]},
+      {"Applications": ["REAL LIFE :- Used in surveys and decision-making."]},
+      {"Practice": ["PROBLEMS :- Data-based questions."]},
+      {"Critical Thinking": ["QUESTIONS :- Can data be misleading?"]}
     ]},
     {"Chapter 9 (Trigonometry)": [
-      {"Functions": ["Trigonometric and inverse functions"]},
-      {"Applications": ["Real-life and geometry-based problems"]}
+      {"Ratios": ["FOUNDATION :- Trigonometric ratios like sine, cosine, and tangent are introduced."]},
+      {"Unit Circle Intro": ["VISUAL :- Conceptual understanding using circle."]},
+      {"Identities": ["RELATIONS :- Basic identities explained logically."]},
+      {"Inverse Functions": ["EXTENSION :- Introduction to inverse trig functions."]},
+      {"Applications": ["USE :- Used in heights and distances."]},
+      {"Visualization": ["SPATIAL :- Understanding angles and triangles visually."]},
+      {"Practice": ["PROBLEMS :- Application-based problems."]},
+      {"Critical Thinking": ["QUESTIONS :- Why trig works for real world measurement?"]}
     ]},
     {"Chapter 10 (Taylor Series & Trigonometric Expansions)": [
-      {"Series": ["Taylor, Maclaurin expansions for sin, cos, e^x"]},
-      {"Applications": ["Approximation and problem-solving"]}
+      {"Concept": ["IDEA :- Functions can be approximated using series expansions."]},
+      {"Maclaurin Series": ["FORM :- Expansion around zero explained conceptually."]},
+      {"Examples": ["FUNCTIONS :- sin, cos, e^x expansions introduced."]},
+      {"Approximation": ["USE :- Used for estimation and simplification."]},
+      {"Visualization": ["GRAPH :- Connecting series with curves."]},
+      {"Applications": ["REAL LIFE :- Used in physics and engineering."]},
+      {"Awareness": ["LIMIT :- Not required for heavy calculations."]},
+      {"Critical Thinking": ["QUESTIONS :- Why approximation works?"]}
     ]},
     {"Chapter 11 (Exponents and Powers)": [
-      {"Concepts": ["Laws of exponents, Scientific notation"]}
+      {"Laws": ["RULES :- Laws of exponents explained with logic."]},
+      {"Scientific Notation": ["REPRESENTATION :- Large and small numbers simplified."]},
+      {"Applications": ["USE :- Used in science and data representation."]},
+      {"Practice": ["PROBLEMS :- Simplification exercises."]},
+      {"Critical Thinking": ["QUESTIONS :- Why powers simplify calculations?"]}
     ]},
     {"Chapter 12 (Factorisation, Square and Cube Roots)": [
-      {"Techniques": ["Factoring algebraic expressions, Rationalizing denominators"]}
+      {"Factorisation": ["TECHNIQUE :- Breaking expressions into simpler factors."]},
+      {"Roots": ["CONCEPT :- Square and cube roots explained visually."]},
+      {"Rationalization": ["SIMPLIFICATION :- Removing roots from denominator."]},
+      {"Applications": ["USE :- Used in algebra and geometry."]},
+      {"Practice": ["PROBLEMS :- Step-by-step exercises."]},
+      {"Critical Thinking": ["QUESTIONS :- Why factorization is useful?"]}
     ]},
     {"Chapter 13 (Probability Basics)": [
-      {"Concepts": ["Events, sample space, simple probability"]}
+      {"Concept": ["FOUNDATION :- Probability measures likelihood of events."]},
+      {"Sample Space": ["SET :- Possible outcomes defined."]},
+      {"Events": ["CLASSIFICATION :- Simple and compound events."]},
+      {"Calculation": ["METHOD :- Basic probability formulas."]},
+      {"Applications": ["REAL LIFE :- Used in games and decisions."]},
+      {"Practice": ["PROBLEMS :- Experiment-based learning."]},
+      {"Critical Thinking": ["QUESTIONS :- Can probability predict certainty?"]}
     ]},
     {"Chapter 14 (Progressions Series)": [
-      {"Sequences": ["A.P., G.P., H.P., Formulas and applications"]}
+      {"Sequences": ["PATTERNS :- Understanding number patterns."]},
+      {"AP GP HP": ["FORMULAS :- Arithmetic, geometric, harmonic progressions."]},
+      {"Applications": ["USE :- Used in finance and growth patterns."]},
+      {"Visualization": ["PATTERN :- Recognizing trends visually."]},
+      {"Practice": ["PROBLEMS :- Series-based questions."]},
+      {"Critical Thinking": ["QUESTIONS :- Why patterns matter in maths?"]}
     ]},
     {"Chapter 15 (Calculus)": [
-      {"Concepts": ["Limits, derivatives, integration"]},
-      {"Applications": ["Area under curves, Rate of change"]}
+      {"Limits": ["IDEA :- Understanding behavior near a point."]},
+      {"Derivatives": ["RATE :- Rate of change concept explained."]},
+      {"Integration": ["ACCUMULATION :- Area under curve idea introduced."]},
+      {"Applications": ["USE :- Motion and area problems."]},
+      {"Visualization": ["GRAPH :- Linking calculus with graphs."]},
+      {"Awareness": ["LEVEL :- Conceptual only, no heavy computation."]},
+      {"Critical Thinking": ["QUESTIONS :- Why calculus is powerful?"]}
     ]},
     {"Chapter 16 (Miscellaneous Topics)": [
-      {"Topics": ["Sets, Relations and Functions, Conic Sections, Linear Inequalities"]}
+      {"Sets": ["FOUNDATION :- Collection of elements."]},
+      {"Relations Functions": ["MAPPING :- Linking inputs and outputs."]},
+      {"Conic Sections": ["SHAPES :- Circles, parabolas introduced."]},
+      {"Inequalities": ["COMPARISON :- Solving inequalities."]},
+      {"Applications": ["USE :- Used across mathematics."]},
+      {"Practice": ["PROBLEMS :- Mixed exercises."]},
+      {"Critical Thinking": ["QUESTIONS :- Why relations matter?"]}
     ]},
     {"Chapter 17 (Gauss, Stokes, and Green's Theorems [Intro])": [
-      {"Concepts": ["Visual introduction to field integration theorems"]},
-      {"Applications": ["Connection to higher mathematics and physics"]}
+      {"Concept": ["IDEA :- Field integration concepts introduced visually."]},
+      {"Visualization": ["SPATIAL :- Flow and surface relationships."]},
+      {"Connection": ["PHYSICS :- Links to electromagnetism."]},
+      {"Awareness": ["LEVEL :- Exposure only, no derivations."]},
+      {"Applications": ["USE :- Advanced mathematics and physics."]},
+      {"Inspiration": ["GOAL :- Encourages curiosity about higher math."]},
+      {"Critical Thinking": ["QUESTIONS :- How space and fields are connected?"]}
     ]}
   ],
 
   "🔬 Physics": [
     {"Chapter 1 (Measurement and Experimentation)": [
-      {"Basics": ["Significant figures, Error analysis, Lab safety"]}
+      {"What is Measurement": ["MEASUREMENT :- Measurement is the process of comparing a physical quantity with a standard unit. Students learn that every measurement includes a value, unit, and uncertainty. They understand difference between true value and measured value and why no measurement is perfectly exact due to instrument limitations and environmental conditions."]},
+      {"Significant Figures": ["PRECISION :- Significant figures represent meaningful digits in a measurement. Students learn rules for counting, rounding, and reporting values correctly. They understand that writing more digits does not increase accuracy and that scientific reporting requires discipline in representing only reliable digits."]},
+      {"Error Analysis": ["UNCERTAINTY :- Students study types of errors such as systematic, random, and personal errors. They calculate absolute, relative, and percentage errors and understand how repeated measurements improve reliability. This builds scientific thinking instead of blind trust in single readings."]},
+      {"Instruments & Least Count": ["TOOLS :- Measuring devices like ruler, vernier caliper, screw gauge, and stopwatch are introduced. Students learn concept of least count and how instrument precision affects measurement accuracy, connecting theory with practical observation."]},
+      {"Parallax & Observation Errors": ["OBSERVATION :- Students understand how incorrect eye positioning causes parallax error and how to avoid it. This improves accuracy in reading scales and builds careful experimental habits."]},
+      {"Lab Safety": ["SAFETY :- Students learn safe handling of equipment, electricity, and heat sources. Emphasis is placed on responsibility, awareness, and avoiding careless mistakes during experiments."]},
+      {"Data Recording & Reporting": ["METHOD :- Students learn how to record observations systematically, use tables, and report results with units and uncertainty. This builds structured scientific communication."]},
+      {"Critical Thinking": ["QUESTIONS :- Why two students measuring same object get different values?"]}
     ]},
     {"Chapter 2 (Units and Dimensions)": [
-      {"Concepts": ["Unit conversions, Dimensional analysis"]}
+      {"SI Units": ["STANDARD :- Students learn SI system with base units like meter, kilogram, second, and derived units like velocity and force. They understand why standardization is necessary for global communication in science and engineering."]},
+      {"Unit Conversion": ["FLEXIBILITY :- Students practice converting units across systems such as cm to m or km/h to m/s. This builds numerical confidence and avoids calculation errors."]},
+      {"Dimensions": ["RELATION :- Physical quantities are expressed in terms of base quantities. Students understand dimensional representation of speed, force, and energy."]},
+      {"Dimensional Analysis": ["CHECK :- Used to verify correctness of equations. Students learn how dimensions help detect errors in formulas without solving them fully."]},
+      {"Derived Quantities": ["COMBINATION :- Concepts like pressure, density, and acceleration are expressed using base units, helping students connect different physical ideas."]},
+      {"Limitations": ["BOUNDARY :- Dimensional analysis cannot give numerical constants, helping students understand its limits."]},
+      {"Applications": ["REAL LIFE :- Used in physics equations and engineering checks."]},
+      {"Critical Thinking": ["QUESTIONS :- Can wrong formula still give correct units?"]}
     ]},
     {"Chapter 3 (Force and Pressure)": [
-      {"Concepts": ["Types of forces, Measuring pressure"]},
-      {"Applications": ["Everyday examples"]}
+      {"Types of Forces": ["FORCES :- Contact forces like friction and tension, and non-contact forces like gravity and magnetism are introduced. Students understand how forces act and influence motion or shape of objects."]},
+      {"Net Force & Effects": ["RESULTANT :- Students learn that multiple forces combine to give net effect. Balanced forces produce no change in motion, while unbalanced forces cause acceleration."]},
+      {"Pressure Concept": ["PRESSURE :- Pressure is force per unit area. Students explore how reducing area increases pressure, explaining sharp knives and high heels."]},
+      {"Fluid Pressure": ["LIQUIDS :- Liquids exert pressure in all directions and pressure increases with depth. Students visualize water tank experiments."]},
+      {"Atmospheric Pressure": ["AIR FORCE :- Air exerts pressure on all objects. Students understand examples like drinking with a straw and suction cups."]},
+      {"Applications": ["REAL LIFE :- Hydraulic systems, dams, and daily tools use pressure principles."]},
+      {"Visualization": ["INTUITION :- Students imagine force distribution in real situations."]},
+      {"Critical Thinking": ["QUESTIONS :- Why dams are thicker at bottom?"]}
     ]},
     {"Chapter 4 (Friction)": [
-      {"Concepts": ["Causes and effects of friction"]},
-      {"Applications": ["Reducing/increasing friction"]}
+      {"Nature of Friction": ["FRICTION :- Friction arises due to irregularities between surfaces. Students understand static, sliding, and rolling friction and how each behaves differently."]},
+      {"Factors Affecting Friction": ["DEPENDENCE :- Surface roughness and normal force affect friction. Students explore how weight and material change frictional force."]},
+      {"Advantages": ["USEFUL :- Friction helps walking, writing, and gripping objects. Without friction, movement control becomes impossible."]},
+      {"Disadvantages": ["LOSS :- Friction causes wear and energy loss as heat. Machines require lubrication to reduce this loss."]},
+      {"Reducing Friction": ["CONTROL :- Methods include lubrication, ball bearings, and polishing surfaces."]},
+      {"Increasing Friction": ["APPLICATION :- Used in brakes, tyres, and sports shoes for grip."]},
+      {"Applications": ["REAL LIFE :- Transportation and machinery depend on friction control."]},
+      {"Critical Thinking": ["QUESTIONS :- Why ice is slippery?"]}
     ]},
     {"Chapter 5 (Motion)": [
-      {"Concepts": ["Speed, velocity, acceleration, Equations of motion"]}
+      {"Basic Quantities": ["KINEMATICS :- Distance, displacement, speed, velocity, and acceleration are introduced with clear differences. Students understand vector vs scalar concepts intuitively."]},
+      {"Equations of Motion": ["RELATIONS :- Equations connecting velocity, acceleration, and time are introduced conceptually, focusing on meaning rather than derivation."]},
+      {"Graphs": ["VISUAL :- Distance-time and velocity-time graphs help students interpret motion visually instead of memorizing formulas."]},
+      {"Types of Motion": ["CLASSIFICATION :- Uniform, non-uniform, circular, and oscillatory motion are explored with examples."]},
+      {"Relative Motion": ["FRAME :- Motion depends on observer, such as inside moving train."]},
+      {"Applications": ["REAL LIFE :- Used in transport, sports, and machines."]},
+      {"Visualization": ["MENTAL MODEL :- Students imagine motion in different frames."]},
+      {"Critical Thinking": ["QUESTIONS :- Can object have zero velocity but non-zero acceleration?"]}
     ]},
     {"Chapter 6 (Gravitation)": [
-      {"Concepts": ["Universal law, free fall, Orbital motion, Mass vs weight"]}
+      {"Universal Law": ["GRAVITY :- Every object attracts every other object with force proportional to masses and inversely proportional to square of distance."]},
+      {"Free Fall": ["MOTION :- Objects fall with constant acceleration due to gravity ignoring air resistance."]},
+      {"Mass vs Weight": ["DIFFERENCE :- Mass is constant, weight depends on gravitational field."]},
+      {"Orbital Motion": ["SPACE :- Satellites remain in orbit due to balance of inertia and gravity."]},
+      {"Variation of g": ["CHANGE :- Gravity varies slightly with height and location."]},
+      {"Applications": ["REAL LIFE :- Used in space travel and understanding tides."]},
+      {"Visualization": ["INTUITION :- Students imagine curved motion under gravity."]},
+      {"Critical Thinking": ["QUESTIONS :- Why astronauts feel weightless?"]}
     ]},
     {"Chapter 7 (Electricity and Magnetism)": [
-      {"Concepts": ["Charges, electric fields, Ohm’s law, Magnetic properties"]}
+      {"Electric Charge": ["BASICS :- Positive and negative charges interact through attraction and repulsion. Students understand conservation of charge conceptually."]},
+      {"Electric Current": ["FLOW :- Current is flow of charges. Students relate it to movement of electrons in circuits."]},
+      {"Ohm’s Law": ["RELATION :- Voltage, current, and resistance relationship helps understand circuit behavior."]},
+      {"Magnetism": ["FIELDS :- Magnets create fields that exert forces on other magnets or currents."]},
+      {"Electromagnetism": ["LINK :- Electricity and magnetism are interconnected phenomena."]},
+      {"Applications": ["REAL LIFE :- Used in motors, generators, and daily devices."]},
+      {"Safety": ["PRECAUTION :- Safe handling of electricity is emphasized."]},
+      {"Critical Thinking": ["QUESTIONS :- Why electricity and magnetism are connected?"]}
     ]},
     {"Chapter 8 (Water and Fluids)": [
-      {"Principles": ["Buoyancy, Archimedes’ principle"]}
+      {"Fluid Nature": ["FLUIDS :- Liquids and gases can flow and take shape of their container. Students understand that fluids exert pressure in all directions and behave differently from solids due to lack of fixed structure, which is essential in understanding real-world phenomena like water flow and air movement."]},
+      {"Pressure in Fluids": ["DEPTH EFFECT :- Fluid pressure increases with depth because weight of fluid above increases. Students visualize this using water tank holes experiment and understand why deeper regions experience higher pressure."]},
+      {"Buoyancy": ["UPTHRUST :- Objects immersed in fluid experience upward force called buoyant force. Students understand how density difference determines whether object floats or sinks."]},
+      {"Archimedes’ Principle": ["LAW :- The buoyant force equals weight of displaced fluid. Students connect this principle with floating ships and submarines."]},
+      {"Density Concept": ["MASS PER VOLUME :- Density helps compare materials and predict behavior in fluids."]},
+      {"Applications": ["REAL LIFE :- Used in ship design, balloons, and fluid systems."]},
+      {"Visualization": ["INTUITION :- Students imagine forces acting inside fluids."]},
+      {"Critical Thinking": ["QUESTIONS :- Why heavy ships float but small stones sink?"]}
     ]},
     {"Chapter 9 (Work, Energy and Power)": [
-      {"Concepts": ["Kinetic and potential energy, Conservation of energy"]}
+      {"Work Concept": ["WORK :- Work is done when force causes displacement in direction of force. Students learn that applying force without movement results in zero work."]},
+      {"Energy Types": ["ENERGY :- Kinetic energy depends on motion, potential energy depends on position. Students connect these ideas with everyday examples like moving vehicles and lifted objects."]},
+      {"Power": ["RATE :- Power is rate of doing work, helping compare efficiency of machines."]},
+      {"Conservation of Energy": ["LAW :- Energy cannot be created or destroyed but only transformed. Students understand transformations like potential to kinetic energy."]},
+      {"Energy Loss": ["DISSIPATION :- Some energy is lost as heat or sound, reducing efficiency."]},
+      {"Applications": ["REAL LIFE :- Used in machines, engines, and daily activities."]},
+      {"Visualization": ["INTUITION :- Students imagine energy transformation processes."]},
+      {"Critical Thinking": ["QUESTIONS :- Where does energy go when it seems lost?"]}
     ]},
     {"Chapter 10 (Machines and Simple Mechanisms)": [
-      {"Tools": ["Levers, pulleys, gears, Mechanical advantage"]}
+      {"Simple Machines": ["TOOLS :- Levers, pulleys, inclined planes, and gears help perform tasks easily. Students understand how machines reduce effort or change direction of force."]},
+      {"Mechanical Advantage": ["EFFICIENCY :- Ratio of output force to input force shows effectiveness of machine."]},
+      {"Energy Transfer": ["FLOW :- Machines transfer energy rather than create it."]},
+      {"Types of Levers": ["CLASSIFICATION :- First, second, and third class levers explained with examples like seesaw and wheelbarrow."]},
+      {"Efficiency": ["LOSS :- Due to friction, efficiency is less than 100%."]},
+      {"Applications": ["REAL LIFE :- Used in construction, lifting, and tools."]},
+      {"Visualization": ["INTUITION :- Students imagine force transformation."]},
+      {"Critical Thinking": ["QUESTIONS :- Can a machine reduce total work?"]}
     ]},
     {"Chapter 11 (Solar System and Space)": [
-      {"Concepts": ["Planets, stars, galaxies, Space exploration basics"]}
+      {"Celestial Bodies": ["SPACE :- Planets, stars, galaxies, and satellites are introduced. Students understand classification and basic properties."]},
+      {"Solar System": ["STRUCTURE :- Sun-centered system with planets moving in orbits."]},
+      {"Stars and Galaxies": ["UNIVERSE :- Students learn difference between stars and galaxies."]},
+      {"Space Exploration": ["TECHNOLOGY :- Rockets and satellites explained conceptually."]},
+      {"Gravity in Space": ["FORCES :- Gravity governs motion of celestial bodies."]},
+      {"Applications": ["REAL LIFE :- GPS, weather forecasting depend on satellites."]},
+      {"Visualization": ["SPATIAL :- Students imagine large-scale structures."]},
+      {"Critical Thinking": ["QUESTIONS :- Why planets don’t fall into sun?"]}
     ]},
     {"Chapter 12 (Sound)": [
-      {"Concepts": ["Pitch, frequency, amplitude"]},
-      {"Applications": ["Beats and sound wave behavior"]}
+      {"Nature of Sound": ["WAVES :- Sound is produced by vibrations and travels as longitudinal waves through a medium. Students understand that sound cannot travel in vacuum."]},
+      {"Wave Properties": ["CHARACTERISTICS :- Frequency determines pitch, amplitude determines loudness, and waveform determines quality."]},
+      {"Speed of Sound": ["PROPAGATION :- Sound travels fastest in solids, slower in liquids, and slowest in gases."]},
+      {"Reflection of Sound": ["ECHO :- Sound reflects from surfaces creating echo."]},
+      {"Applications": ["REAL LIFE :- Used in communication, music, and sonar."]},
+      {"Human Hearing": ["BIOPHYSICS :- Ear converts sound waves into signals."]},
+      {"Visualization": ["INTUITION :- Students imagine wave motion."]},
+      {"Critical Thinking": ["QUESTIONS :- Why no sound in space?"]}
     ]},
     {"Chapter 13 (Chemical Effects of Current)": [
-      {"Concepts": ["Electrolysis, Conductors and insulators"]}
+      {"Electric Current in Liquids": ["FLOW :- Some liquids conduct electricity due to ions."]},
+      {"Electrolysis": ["CHEMICAL CHANGE :- Passing current causes chemical reactions in electrolyte."]},
+      {"Conductors & Insulators": ["MATERIALS :- Materials are classified based on ability to conduct electricity."]},
+      {"Electroplating": ["APPLICATION :- Coating metals using electricity improves durability and appearance."]},
+      {"Reactions": ["PROCESS :- Students understand deposition and decomposition reactions."]},
+      {"Applications": ["REAL LIFE :- Used in industry and manufacturing."]},
+      {"Visualization": ["INTUITION :- Students imagine ion movement."]},
+      {"Critical Thinking": ["QUESTIONS :- Why some liquids conduct electricity?"]}
     ]},
     {"Chapter 14 (Light and Optics)": [
-      {"Concepts": ["Reflection, refraction, lenses, mirrors"]},
-      {"Applications": ["Vision correction"]}
+      {"Nature of Light": ["LIGHT :- Light behaves as wave and travels in straight lines in uniform medium."]},
+      {"Reflection": ["RULES :- Angle of incidence equals angle of reflection."]},
+      {"Refraction": ["BENDING :- Light bends when passing between media of different densities."]},
+      {"Lenses & Mirrors": ["IMAGE FORMATION :- Convex and concave lenses form different images."]},
+      {"Dispersion": ["COLORS :- White light splits into spectrum."]},
+      {"Applications": ["REAL LIFE :- Vision, cameras, and instruments."]},
+      {"Visualization": ["INTUITION :- Ray diagrams help understanding."]},
+      {"Critical Thinking": ["QUESTIONS :- Why sky appears blue?"]}
     ]},
     {"Chapter 15 (Magnetic Effects of Current)": [
-      {"Concepts": ["Electromagnetism, Motors, generators, transformers"]}
+      {"Magnetic Field Due to Current": ["ELECTROMAGNETISM :- When electric current flows through a conductor, it produces a magnetic field around it. Students visualize this using right-hand thumb rule and simple wire experiments, helping them understand that electricity and magnetism are not separate phenomena but deeply connected."]},
+      {"Electromagnets": ["CONTROLLED MAGNETS :- Passing current through a coil creates a temporary magnet whose strength can be controlled. Students explore how number of turns, current, and core material affect strength, linking concept with real devices like cranes lifting scrap metal."]},
+      {"Electric Motor": ["ENERGY CONVERSION :- Motors convert electrical energy into mechanical energy using magnetic interaction. Students understand basic working principle without derivation, focusing on how current-carrying coil rotates in magnetic field."]},
+      {"Generator": ["REVERSE PROCESS :- Generators convert mechanical energy into electrical energy. Students see how motion can produce electricity, connecting with turbines and power plants."]},
+      {"Fleming Rules (Conceptual)": ["DIRECTION :- Left-hand and right-hand rules help determine direction of force and induced current. Students learn conceptually without memorization overload."]},
+      {"Applications": ["REAL LIFE :- Used in fans, mixers, electric vehicles, and industrial machines."]},
+      {"Safety": ["PRECAUTION :- Handling electrical devices safely is emphasized."]},
+      {"Critical Thinking": ["QUESTIONS :- Why motors heat up during long use?"]}
     ]},
     {"Chapter 16 (Thermal Properties of Matter)": [
-      {"Concepts": ["Heat, conduction, convection, radiation, Temperature conversions"]},
-      {"Applications": ["Boiling, melting, latent heat, pressure effects"]}
+      {"Heat vs Temperature": ["THERMAL BASICS :- Heat is energy transfer due to temperature difference, while temperature measures average kinetic energy of particles. Students clearly differentiate between these often-confused concepts."]},
+      {"Modes of Heat Transfer": ["TRANSFER :- Conduction occurs in solids, convection in fluids, and radiation without medium. Students relate these modes to everyday experiences like cooking and sunlight."]},
+      {"Thermal Expansion": ["EXPANSION :- Materials expand on heating and contract on cooling. Students explore practical examples like gaps in railway tracks."]},
+      {"Phase Change": ["STATE CHANGE :- Melting, boiling, and latent heat are introduced conceptually, showing energy used in changing state rather than temperature."]},
+      {"Temperature Scales": ["MEASUREMENT :- Celsius, Kelvin, and Fahrenheit conversions are explained logically."]},
+      {"Applications": ["REAL LIFE :- Used in climate, cooking, and engineering systems."]},
+      {"Visualization": ["PARTICLE VIEW :- Students imagine particle motion at different temperatures."]},
+      {"Critical Thinking": ["QUESTIONS :- Why metal feels colder than wood?"]}
     ]},
     {"Chapter 17 (Mechanical Properties of Fluids)": [
-      {"Principles": ["Pascal’s Law, Bernoulli’s Theorem, Viscosity, Surface tension"]}
+      {"Pressure Transmission": ["PASCAL LAW :- Pressure applied to fluid is transmitted equally in all directions. Students connect this with hydraulic lifts and brakes."]},
+      {"Bernoulli Principle": ["FLOW DYNAMICS :- Faster moving fluid has lower pressure. Students understand how this principle explains lift in airplane wings and atomizers."]},
+      {"Viscosity": ["FLOW RESISTANCE :- Viscosity measures resistance to flow. Students compare honey and water to understand concept."]},
+      {"Surface Tension": ["SURFACE EFFECT :- Molecules at surface behave differently, allowing insects to walk on water."]},
+      {"Streamline vs Turbulent Flow": ["FLOW TYPES :- Smooth flow versus chaotic flow explained conceptually."]},
+      {"Applications": ["REAL LIFE :- Used in aviation, pipelines, and medicine."]},
+      {"Visualization": ["INTUITION :- Students imagine fluid behavior in motion."]},
+      {"Critical Thinking": ["QUESTIONS :- Why airplanes need wing shape?"]}
     ]},
     {"Chapter 18 (Electric Charges and Fields)": [
-      {"Concepts": ["Coulomb’s Law, Electric field and flux, Gauss’s Law"]}
+      {"Coulomb’s Law": ["FORCE BETWEEN CHARGES :- Force between two charges depends on magnitude and distance. Students understand inverse square relationship conceptually."]},
+      {"Electric Field": ["REGION OF INFLUENCE :- Electric field represents force experienced by unit charge. Students visualize field lines and their patterns."]},
+      {"Field Lines": ["REPRESENTATION :- Direction and density of lines show strength and direction of field."]},
+      {"Electric Flux": ["FLOW IDEA :- Concept of field passing through surface introduced visually."]},
+      {"Gauss’s Law (Intro)": ["ADVANCED IDEA :- Relation between electric flux and enclosed charge explained conceptually without derivation."]},
+      {"Applications": ["REAL LIFE :- Used in capacitors and electronic devices."]},
+      {"Visualization": ["INTUITION :- Students imagine invisible fields acting in space."]},
+      {"Critical Thinking": ["QUESTIONS :- Can field exist without medium?"]}
     ]},
     {"Chapter 19 (Electromagnetic Induction and Alternating Currents)": [
-      {"Concepts": ["Faraday’s and Lenz’s Laws, Eddy currents, AC generation, Transformers"]}
+      {"Faraday’s Law": ["INDUCTION :- Changing magnetic field produces electric current. Students understand this through simple coil and magnet demonstrations."]},
+      {"Lenz’s Law": ["OPPOSITION :- Induced current opposes change causing it, maintaining energy conservation."]},
+      {"AC vs DC": ["CURRENT TYPES :- Alternating current changes direction periodically, while direct current flows in one direction."]},
+      {"AC Generation": ["PRODUCTION :- Rotating coil in magnetic field produces alternating current."]},
+      {"Transformers": ["VOLTAGE CHANGE :- Transformers increase or decrease voltage for efficient transmission."]},
+      {"Eddy Currents": ["LOSSES :- Circulating currents cause energy loss but also useful in braking systems."]},
+      {"Applications": ["REAL LIFE :- Used in power distribution systems."]},
+      {"Critical Thinking": ["QUESTIONS :- Why electricity transmitted at high voltage?"]}
     ]},
     {"Chapter 20 (Optical Instruments and Human Eye)": [
-      {"Devices": ["Microscope, Telescope, Human eye structure and corrections"]}
+      {"Human Eye Structure": ["BIOPHYSICS :- Eye consists of cornea, lens, retina, and optic nerve. Students understand how light is focused and converted into signals."]},
+      {"Vision Defects": ["CORRECTION :- Myopia, hypermetropia, and presbyopia are explained with correction methods using lenses."]},
+      {"Microscope": ["MAGNIFICATION :- Used to view small objects by enlarging images."]},
+      {"Telescope": ["DISTANT VIEW :- Used to observe far objects like stars and planets."]},
+      {"Power of Lens": ["MEASUREMENT :- Ability of lens to converge or diverge light."]},
+      {"Applications": ["REAL LIFE :- Used in medicine, astronomy, and daily vision correction."]},
+      {"Visualization": ["RAY DIAGRAMS :- Students understand image formation visually."]},
+      {"Critical Thinking": ["QUESTIONS :- Why eye cannot see clearly at all distances?"]}
     ]}
   ],
 
   "⚗️ Chemistry": [
-    {"Chapter 1 (Structure of Atom: Dalton & Bohr)": [
-      {"Concepts": ["Atomic models, Subatomic particles"]}
+    {"Chapter 1 (Matter and Its Nature)": [
+      {"What is Matter": ["FOUNDATION :- Matter is anything that has mass and occupies space. Students explore solids, liquids, and gases with real-life examples, understanding differences in shape, volume, and compressibility. This chapter builds the base required before jumping into atoms and molecules."]},
+      {"States of Matter": ["PARTICLE MODEL :- Students learn that matter is made of particles in constant motion. Differences between solids, liquids, and gases are explained using particle spacing and energy, helping visualize microscopic behavior."]},
+      {"Changes of State": ["TRANSITIONS :- Melting, freezing, boiling, and condensation are explained conceptually. Students understand role of temperature and energy in changing states."]},
+      {"Physical vs Chemical Changes": ["DIFFERENCE :- Physical changes do not form new substances, while chemical changes do. Students compare examples like melting ice vs burning paper."]},
+      {"Mixtures and Pure Substances": ["CLASSIFICATION :- Students learn difference between mixtures and pure substances, preparing for later chemical concepts."]},
+      {"Applications": ["REAL LIFE :- Used in cooking, environment, and materials science."]},
+      {"Visualization": ["INTUITION :- Students imagine particle behavior."]},
+      {"Critical Thinking": ["QUESTIONS :- Is air a pure substance or mixture?"]}
     ]},
-    {"Chapter 2 (Isotopes & Isobars)": [
-      {"Differences": ["Definitions and examples, Periodic table position"]}
+    {"Chapter 2 (Structure of Atom: Dalton & Bohr)": [
+      {"Dalton Model": ["EARLY THEORY :- Dalton proposed that matter is made of indivisible atoms. Students understand strengths and limitations of this model, building appreciation for how scientific ideas evolve."]},
+      {"Subatomic Particles": ["DISCOVERY :- Electrons, protons, and neutrons are introduced with their charges and positions. Students understand that atoms are not indivisible but have internal structure."]},
+      {"Bohr Model": ["ENERGY LEVELS :- Electrons revolve in fixed energy levels. Students visualize shells and understand stability of atoms conceptually."]},
+      {"Atomic Number & Mass": ["IDENTITY :- Atomic number defines element, while mass number represents total particles."]},
+      {"Limitations": ["ADVANCEMENT :- Bohr model works only for simple atoms, introducing idea that science improves over time."]},
+      {"Applications": ["REAL LIFE :- Used in chemistry and physics understanding."]},
+      {"Visualization": ["MODEL :- Students imagine atom structure visually."]},
+      {"Critical Thinking": ["QUESTIONS :- Why electrons don’t fall into nucleus?"]}
     ]},
-    {"Chapter 3 (Laws of Chemical Combination)": [
-      {"Laws": ["Conservation of mass, Definite and multiple proportions"]}
+    {"Chapter 3 (Isotopes & Isobars)": [
+      {"Isotopes": ["VARIATION :- Atoms of same element with different mass numbers. Students understand how same element can have different physical properties."]},
+      {"Isobars": ["DIFFERENT ELEMENTS :- Atoms with same mass number but different atomic numbers."]},
+      {"Examples": ["CASE STUDY :- Hydrogen isotopes and their uses are explored."]},
+      {"Properties": ["BEHAVIOR :- Chemical properties remain same for isotopes but physical properties differ."]},
+      {"Applications": ["REAL LIFE :- Used in medicine, dating fossils, and energy production."]},
+      {"Periodic Position": ["CLASSIFICATION :- Placement in periodic table explained conceptually."]},
+      {"Visualization": ["INTUITION :- Students compare atomic structures."]},
+      {"Critical Thinking": ["QUESTIONS :- Why isotopes behave chemically similar?"]}
     ]},
-    {"Chapter 4 (Chemical Reactions & Equations)": [
-      {"Concepts": ["Reaction types, Equation balancing, Lab examples"]}
+    {"Chapter 4 (Laws of Chemical Combination)": [
+      {"Conservation of Mass": ["LAW :- Mass is neither created nor destroyed in a chemical reaction. Students understand this through simple experiments and examples."]},
+      {"Definite Proportions": ["CONSISTENCY :- A compound always contains elements in fixed ratio by mass."]},
+      {"Multiple Proportions": ["VARIATION :- Elements can combine in different ratios forming different compounds."]},
+      {"Experimental Basis": ["EVIDENCE :- Laws are based on repeated experiments and observations."]},
+      {"Importance": ["FOUNDATION :- These laws form basis of modern chemistry."]},
+      {"Applications": ["REAL LIFE :- Used in chemical calculations and reactions."]},
+      {"Visualization": ["INTUITION :- Students imagine atoms combining."]},
+      {"Critical Thinking": ["QUESTIONS :- Why ratios remain constant in compounds?"]}
     ]},
-    {"Chapter 5 (Mole Concept & Stoichiometry)": [
-      {"Concepts": ["Avogadro’s number, Mole-mass-number relations, Numerical calculations"]}
+    {"Chapter 5 (Chemical Reactions & Equations)": [
+      {"Chemical Reactions": ["PROCESS :- Substances react to form new substances with different properties. Students identify signs like color change, gas evolution, and temperature change."]},
+      {"Types of Reactions": ["CLASSIFICATION :- Combination, decomposition, displacement, and double displacement reactions are introduced with examples."]},
+      {"Balancing Equations": ["CONSERVATION :- Students balance equations to satisfy conservation of mass."]},
+      {"Energy Changes": ["EXO/ENDO :- Some reactions release energy, others absorb energy."]},
+      {"Laboratory Examples": ["PRACTICAL :- Simple experiments demonstrate reactions."]},
+      {"Applications": ["REAL LIFE :- Used in industry and daily life."]},
+      {"Visualization": ["INTUITION :- Students imagine rearrangement of atoms."]},
+      {"Critical Thinking": ["QUESTIONS :- Why equations must be balanced?"]}
     ]},
-    {"Chapter 6 (Periodic Table & Classification)": [
-      {"Concepts": ["Mendeleev’s law, Modern periodic trends, Groups and periods"]}
+    {"Chapter 6 (Mole Concept & Stoichiometry)": [
+      {"Mole Concept": ["COUNTING UNIT :- Mole represents large number of particles. Students understand Avogadro’s number conceptually."]},
+      {"Molar Mass": ["MEASUREMENT :- Relation between mass and number of particles is explained."]},
+      {"Stoichiometry": ["CALCULATION :- Students calculate reactant and product quantities in reactions."]},
+      {"Conversions": ["RELATIONS :- Mass, moles, and particles conversion practiced."]},
+      {"Limiting Reagent": ["CONTROL :- Determines maximum product formation."]},
+      {"Applications": ["REAL LIFE :- Used in chemical industry and labs."]},
+      {"Visualization": ["INTUITION :- Students imagine particle counting."]},
+      {"Critical Thinking": ["QUESTIONS :- Why mole needed instead of counting atoms directly?"]}
+    ]},
+    {"Chapter 7 (Periodic Table & Classification)": [
+      {"Mendeleev Table": ["HISTORY :- Early classification based on atomic mass. Students understand importance and limitations."]},
+      {"Modern Periodic Table": ["STRUCTURE :- Based on atomic number, arranged in groups and periods."]},
+      {"Periodic Trends": ["PATTERNS :- Trends like atomic size, valency, and reactivity are explored conceptually."]},
+      {"Groups and Periods": ["CLASSIFICATION :- Elements grouped by similar properties."]},
+      {"Metals and Non-metals": ["PROPERTIES :- Differences in physical and chemical behavior."]},
+      {"Applications": ["REAL LIFE :- Helps predict properties of elements."]},
+      {"Visualization": ["INTUITION :- Students see patterns across table."]},
+      {"Critical Thinking": ["QUESTIONS :- Why elements show periodic behavior?"]}
+    ]},
+    {"Chapter 8 (Chemical Bonding Basics)": [
+      {"Why Bonding": ["NEED :- Atoms combine to achieve stability. Students understand concept of valency and electron sharing or transfer."]},
+      {"Ionic Bonding": ["TRANSFER :- Electrons are transferred between atoms forming ions."]},
+      {"Covalent Bonding": ["SHARING :- Atoms share electrons to form molecules."]},
+      {"Properties": ["DIFFERENCE :- Ionic vs covalent compounds behave differently."]},
+      {"Molecular Structure": ["SHAPES :- Basic idea of molecular shapes introduced."]},
+      {"Applications": ["REAL LIFE :- Explains properties of materials."]},
+      {"Visualization": ["INTUITION :- Students imagine electron movement."]},
+      {"Critical Thinking": ["QUESTIONS :- Why atoms prefer stable configuration?"]}
     ]}
   ],
   "🧬 Biology": [
-    {"Chapter 1 (Cell Detailed Study)": [
-        {"Concepts": ["Structure and organelles of the cell, Functions of each organelle, Comparison to factories/cities for analogy"]},
-        {"Activities": ["Microscope observation of plant and animal cells, Model-making of cell structure"]}
+    {"Chapter 1 (What is Life & Organization of Living Systems)": [
+      {"Characteristics of Life": ["LIFE BASICS :- Living organisms show characteristics like growth, reproduction, metabolism, response to stimuli, and adaptation. Students understand that life is not just movement but a complex set of processes happening continuously at cellular level."]},
+      {"Levels of Organization": ["HIERARCHY :- Cells form tissues, tissues form organs, organs form systems, and systems form organisms. Students understand biological organization as a structured hierarchy rather than isolated concepts."]},
+      {"Cell Theory": ["FOUNDATION :- All living organisms are made of cells, and cells are the basic unit of life. Students see how this idea connects all biology topics."]},
+      {"Unicellular vs Multicellular": ["COMPARISON :- Single-celled organisms perform all life functions, while multicellular organisms divide work across systems."]},
+      {"Homeostasis": ["BALANCE :- Living organisms maintain internal balance despite external changes."]},
+      {"Applications": ["REAL LIFE :- Understanding health, growth, and environment interactions."]},
+      {"Visualization": ["INTUITION :- Students imagine body as system of systems."]},
+      {"Critical Thinking": ["QUESTIONS :- Is virus living or non-living?"]}
     ]},
-    {"Chapter 2 (Tissues in Plants & Animals)": [
-        {"Concepts": ["Types of tissues, Structure and functions, Importance in body and plant systems"]},
-        {"Applications": ["Role in organ formation, Practical identification of tissues under microscope"]}
+    {"Chapter 2 (Cell Detailed Study)": [
+      {"Cell Structure": ["CELL BASICS :- Cells have membrane, cytoplasm, and nucleus. Students understand differences between plant and animal cells and how structure relates to function."]},
+      {"Organelles": ["FUNCTIONS :- Mitochondria, ribosomes, ER, Golgi apparatus, and others perform specific roles. Students learn each organelle’s function clearly instead of memorizing names."]},
+      {"Cell as Factory": ["ANALOGY :- Cell is compared to factory or city where organelles perform specialized tasks. This improves conceptual clarity."]},
+      {"Cell Membrane": ["TRANSPORT :- Selectively permeable membrane controls movement of substances in and out of cell."]},
+      {"Nucleus & DNA": ["CONTROL CENTER :- Nucleus contains genetic material controlling cell activities."]},
+      {"Activities": ["PRACTICAL :- Microscope observation and model-making reinforce learning."]},
+      {"Applications": ["REAL LIFE :- Understanding diseases and body functioning."]},
+      {"Critical Thinking": ["QUESTIONS :- What happens if one organelle fails?"]}
     ]},
-    {"Chapter 3 (Diversity of Life)": [
-        {"Concepts": ["Kingdom classification, Notable differences among species"]},
-        {"Activities": ["Local biodiversity survey, Classification chart creation"]}
+    {"Chapter 3 (Tissues in Plants & Animals)": [
+      {"Plant Tissues": ["STRUCTURE :- Meristematic and permanent tissues help plants grow and function efficiently."]},
+      {"Animal Tissues": ["TYPES :- Epithelial, connective, muscular, and nervous tissues perform specialized roles."]},
+      {"Structure & Function": ["RELATION :- Students understand how structure determines function in tissues."]},
+      {"Organ Formation": ["INTEGRATION :- Tissues combine to form organs and systems."]},
+      {"Microscopic Identification": ["PRACTICAL :- Students observe tissues under microscope."]},
+      {"Applications": ["REAL LIFE :- Used in medicine and agriculture."]},
+      {"Visualization": ["INTUITION :- Students imagine internal body structure."]},
+      {"Critical Thinking": ["QUESTIONS :- Why specialization is important?"]}
     ]},
-    {"Chapter 4 (Health & Disease)": [
-        {"Concepts": ["Types of diseases: infectious and non-infectious, Causes, symptoms, prevention, vaccination"]},
-        {"Projects": ["Awareness poster or skit on disease prevention"]}
+    {"Chapter 4 (Diversity of Life)": [
+      {"Classification": ["KINGDOMS :- Organisms are classified into kingdoms based on characteristics. Students understand purpose of classification."]},
+      {"Differences": ["VARIETY :- Students compare plants, animals, fungi, and microorganisms."]},
+      {"Evolution Idea": ["CHANGE :- Life has evolved over time leading to diversity."]},
+      {"Adaptation": ["SURVIVAL :- Organisms adapt to environment for survival."]},
+      {"Local Biodiversity": ["OBSERVATION :- Students study organisms around them."]},
+      {"Activities": ["PRACTICAL :- Classification charts and surveys."]},
+      {"Applications": ["REAL LIFE :- Conservation and ecosystem understanding."]},
+      {"Critical Thinking": ["QUESTIONS :- Why so many species exist?"]}
     ]},
-    {"Chapter 5 (Natural Resources)": [
-        {"Concepts": ["Air, water, soil as resources, Sustainable usage and conservation"]},
-        {"Projects": ["Water testing, Pollution monitoring project"]}
+    {"Chapter 5 (Health & Disease)": [
+      {"Health Concept": ["WELLBEING :- Health includes physical, mental, and social well-being, not just absence of disease."]},
+      {"Disease Types": ["CLASSIFICATION :- Infectious and non-infectious diseases explained with causes."]},
+      {"Pathogens": ["CAUSE :- Bacteria, viruses, fungi cause infections."]},
+      {"Prevention": ["PROTECTION :- Hygiene, vaccination, and lifestyle reduce disease risk."]},
+      {"Immunity": ["DEFENSE :- Body has natural defense system against pathogens."]},
+      {"Vaccination": ["PREVENTION :- Vaccines prepare immune system to fight diseases."]},
+      {"Projects": ["PRACTICAL :- Awareness campaigns and activities."]},
+      {"Critical Thinking": ["QUESTIONS :- Why vaccines work before disease?"]}
     ]},
-    {"Chapter 6 (Food Resources Improvement)": [
-        {"Concepts": ["Agricultural biotechnology, GM crops and food security issues"]},
-        {"Activities": ["Case study on crop yield improvement, Discussion on ethical implications"]}
+    {"Chapter 6 (Natural Resources)": [
+      {"Air": ["RESOURCE :- Composition and importance of air for life."]},
+      {"Water": ["ESSENTIAL :- Water cycle and its role in sustaining life."]},
+      {"Soil": ["FOUNDATION :- Soil supports plant growth and ecosystems."]},
+      {"Human Impact": ["DEGRADATION :- Pollution affects resources negatively."]},
+      {"Conservation": ["PROTECTION :- Sustainable use ensures future availability."]},
+      {"Projects": ["PRACTICAL :- Water testing and pollution monitoring."]},
+      {"Applications": ["REAL LIFE :- Environmental awareness."]},
+      {"Critical Thinking": ["QUESTIONS :- Can development exist without harming nature?"]}
+    ]},
+    {"Chapter 7 (Food Resources Improvement)": [
+      {"Agriculture Basics": ["FOOD PRODUCTION :- Methods of farming and crop production."]},
+      {"Biotechnology": ["ADVANCEMENT :- Use of science to improve crop yield."]},
+      {"GM Crops": ["MODIFICATION :- Genetically modified crops explained conceptually."]},
+      {"Food Security": ["SUPPLY :- Ensuring enough food for population."]},
+      {"Ethics": ["DEBATE :- Students discuss benefits and risks of GM crops."]},
+      {"Activities": ["PRACTICAL :- Case studies and discussions."]},
+      {"Applications": ["REAL LIFE :- Agriculture and sustainability."]},
+      {"Critical Thinking": ["QUESTIONS :- Should humans modify nature?"]}
+    ]},
+    {"Chapter 8 (Human Body Systems Intro)": [
+      {"Digestive System": ["PROCESS :- Breakdown and absorption of food."]},
+      {"Respiratory System": ["GAS EXCHANGE :- Oxygen intake and carbon dioxide removal."]},
+      {"Circulatory System": ["TRANSPORT :- Blood carries nutrients and oxygen."]},
+      {"Nervous System": ["CONTROL :- Brain and nerves control body activities."]},
+      {"Integration": ["SYSTEM WORK :- Systems work together for survival."]},
+      {"Applications": ["REAL LIFE :- Health and medicine understanding."]},
+      {"Visualization": ["INTUITION :- Students imagine body functioning internally."]},
+      {"Critical Thinking": ["QUESTIONS :- What happens if one system fails?"]}
     ]}
   ],
 
   "📖 English": [
     {"Chapter 1 (Reading & Critical Thinking)": [
-        {"Skills": ["Analyzing literature, Argument evaluation, Creative writing"]},
-        {"Activities": ["Debate, Reading comprehension exercises, Short essay writing"]}
+      {"Reading Comprehension": ["COMPREHENSION :- Understanding passages involves identifying main idea, supporting arguments, tone, and intent. Texts include literature, editorials, and analytical writing. Focus is on extracting meaning, not memorizing content."]},
+      {"Argument Analysis": ["LOGIC :- Arguments are evaluated based on evidence, reasoning, and assumptions. Logical fallacies such as bias, weak evidence, and emotional appeal are identified."]},
+      {"Inference & Interpretation": ["THINKING :- Reading between the lines to understand implied meaning, author’s perspective, and hidden assumptions."]},
+      {"Creative Writing": ["EXPRESSION :- Writing stories, essays, and reflections using structure, clarity, and originality. Focus on idea development rather than decoration."]},
+      {"Debate & Discussion": ["COMMUNICATION :- Presenting arguments clearly, responding to opposing views, and defending positions logically."]},
+      {"Core Idea": ["UNDERSTANDING :- Reading is not about words, it is about thinking."]}
     ]},
-    {"Chapter 2 (Exam Preparation: GRE/TOEFL, SAT, IELTS)": [
-        {"Concepts": ["Advanced comprehension, Essay writing, MCQs and vocabulary drills"]},
-        {"Practice": ["Speaking and listening sessions, Sample mock tests for international exams"]}
+    {"Chapter 2 (Grammar, Vocabulary & Language Control)": [
+      {"Advanced Grammar": ["STRUCTURE :- Tenses, clauses, voice, modals, and sentence structure used correctly in context. Focus is on clarity and correctness rather than rote rules."]},
+      {"Vocabulary Building": ["USAGE :- Words learned through context, roots, prefixes, and real usage instead of memorized lists."]},
+      {"Sentence Construction": ["PRECISION :- Forming clear, concise, and grammatically correct sentences."]},
+      {"Error Detection": ["ANALYSIS :- Identifying and correcting grammatical and structural errors."]},
+      {"Editing Skills": ["REFINEMENT :- Improving writing by removing redundancy and improving clarity."]},
+      {"Core Idea": ["UNDERSTANDING :- Language control determines quality of communication."]}
+    ]},
+    {"Chapter 3 (Writing Skills: Academic & Practical)": [
+      {"Essay Writing": ["STRUCTURE :- Introduction, body, and conclusion with logical flow and argument support."]},
+      {"Formal Writing": ["APPLICATION :- Emails, reports, applications, and official communication."]},
+      {"Analytical Writing": ["LOGIC :- Writing based on data, arguments, and reasoning rather than opinion."]},
+      {"Creative Writing": ["EXPRESSION :- Stories, narratives, and descriptive writing."]},
+      {"Clarity & Style": ["QUALITY :- Writing should be simple, precise, and impactful."]},
+      {"Core Idea": ["UNDERSTANDING :- Good writing is clear thinking expressed properly."]}
+    ]},
+    {"Chapter 4 (Speaking & Listening Skills)": [
+      {"Speaking Skills": ["ORAL COMMUNICATION :- Clear pronunciation, fluency, and confidence in expressing ideas."]},
+      {"Listening Skills": ["UNDERSTANDING :- Interpreting spoken English with different accents and speeds."]},
+      {"Presentations": ["STRUCTURE :- Organizing ideas and presenting them logically."]},
+      {"Group Discussion": ["INTERACTION :- Sharing ideas, listening to others, and building arguments collaboratively."]},
+      {"Pronunciation": ["ACCURACY :- Correct sound patterns and stress for clarity."]},
+      {"Core Idea": ["UNDERSTANDING :- Communication is two-way, not just speaking."]}
+    ]},
+    {"Chapter 5 (Exam Preparation: GRE/TOEFL, SAT, IELTS)": [
+      {"Reading Section": ["EXAMS :- Passage-based questions testing comprehension, inference, and vocabulary."]},
+      {"Writing Section": ["TASKS :- Essays requiring argument, clarity, and structure under time constraints."]},
+      {"Listening Section": ["SKILL :- Understanding conversations and lectures."]},
+      {"Speaking Section": ["RESPONSE :- Answering questions fluently and coherently."]},
+      {"Vocabulary & Practice": ["PREPARATION :- Regular drills, mock tests, and timed practice."]},
+      {"Core Idea": ["UNDERSTANDING :- Exams test skills, not just knowledge."]}
+    ]},
+    {"Chapter 6 (Media, Communication & Real-World English)": [
+      {"Media Language": ["APPLICATION :- Understanding language used in news, advertisements, and social media."]},
+      {"Critical Media Reading": ["ANALYSIS :- Identifying bias, tone, and hidden intent in media content."]},
+      {"Digital Communication": ["MODERN USAGE :- Writing emails, messages, and professional communication."]},
+      {"Persuasion": ["INFLUENCE :- Language used to convince or influence audiences."]},
+      {"Ethics in Communication": ["RESPONSIBILITY :- Avoiding misinformation, respectful language use."]},
+      {"Core Idea": ["UNDERSTANDING :- Language shapes perception and influence."]}
     ]}
   ],
 
   "🏛️ Political Science": [
     {"Chapter 1 (Power-sharing in Federal Structures)": [
-        {"Concepts": ["Federal systems, Power distribution, Examples from Belgium and Sri Lanka"]},
-        {"Applications": ["Comparative analysis of political systems"]}
+      {"Federalism": ["STRUCTURE :- Federalism is a system where power is divided between central and state governments. Each level has defined responsibilities to avoid concentration of power and ensure efficient governance."]},
+      {"Types of Power Sharing": ["DISTRIBUTION :- Power can be shared horizontally (between legislature, executive, judiciary) and vertically (between central, state, local governments). This prevents dominance of a single authority."]},
+      {"Case Studies": ["EXAMPLES :- Belgium adopted power-sharing to manage linguistic diversity, while Sri Lanka faced conflict due to lack of inclusion. These examples show how political design affects stability."]},
+      {"Decentralization": ["LOCAL GOVERNANCE :- Panchayati Raj and municipalities bring governance closer to people, improving participation and accountability."]},
+      {"Advantages": ["BENEFITS :- Reduces conflict, improves governance, and ensures representation of diverse groups."]},
+      {"Core Idea": ["UNDERSTANDING :- Sharing power strengthens democracy instead of weakening it."]}
     ]},
     {"Chapter 2 (Democracy & Diversity)": [
-        {"Concepts": ["Caste, gender, and religion in democracy, Representation challenges"]},
-        {"Activities": ["Class debates on inclusion and diversity"]}
+      {"Social Diversity": ["VARIETY :- Societies include differences in caste, religion, language, gender, and culture. These differences influence political participation and representation."]},
+      {"Representation": ["INCLUSION :- Democracies aim to represent all groups, but inequalities often limit participation of marginalized communities."]},
+      {"Gender & Politics": ["ROLE :- Women face barriers in political participation despite legal equality. Representation gaps highlight structural challenges."]},
+      {"Caste & Religion": ["REALITY :- Social identities influence voting patterns, political alliances, and policy decisions."]},
+      {"Challenges": ["ISSUES :- Balancing unity with diversity while avoiding discrimination and conflict."]},
+      {"Core Idea": ["UNDERSTANDING :- Democracy must actively manage diversity, not ignore it."]}
     ]},
-    {"Chapter 3 (Popular Struggles)": [
-        {"Concepts": ["Mass movements in Bolivia and India, Role of civil society"]},
-        {"Projects": ["Case study presentations on social movements"]}
+    {"Chapter 3 (Popular Struggles & Movements)": [
+      {"Mass Movements": ["COLLECTIVE ACTION :- People organize protests and movements to demand change in policies or governance."]},
+      {"Case Studies": ["EXAMPLES :- Bolivia’s water war showed resistance against privatization, while Indian movements highlight role of public pressure in policy change."]},
+      {"Role of Civil Society": ["PARTICIPATION :- NGOs, activists, and citizens influence decisions outside formal political structures."]},
+      {"Methods": ["STRATEGIES :- Protests, strikes, campaigns, and media engagement are tools used in struggles."]},
+      {"Impact": ["RESULT :- Movements can bring reforms, policy changes, or awareness."]},
+      {"Core Idea": ["UNDERSTANDING :- Democracy extends beyond elections into continuous public participation."]}
     ]},
-    {"Chapter 4 (Political Parties)": [
-        {"Concepts": ["Types of parties: national, regional, Functions and reforms"]},
-        {"Projects": ["Mapping political parties and their ideologies"]}
+    {"Chapter 4 (Political Parties & Party Systems)": [
+      {"Political Parties": ["DEFINITION :- Organized groups aiming to gain political power and influence policies."]},
+      {"Types": ["CLASSIFICATION :- National parties operate across country, while regional parties focus on specific states or issues."]},
+      {"Functions": ["ROLE :- Parties contest elections, form governments, and represent public interests."]},
+      {"Party Systems": ["STRUCTURE :- One-party, two-party, and multi-party systems influence stability and representation."]},
+      {"Challenges": ["ISSUES :- Corruption, lack of internal democracy, and influence of money and power."]},
+      {"Core Idea": ["UNDERSTANDING :- Political parties are essential but imperfect tools of democracy."]}
     ]},
     {"Chapter 5 (Democracy: Outcomes & Challenges)": [
-        {"Concepts": ["Accountability and transparency, Public participation"]},
-        {"Activities": ["Mock parliament on citizen roles in democracy"]}
+      {"Accountability": ["RESPONSIBILITY :- Governments are accountable to citizens through elections, media, and public opinion."]},
+      {"Transparency": ["OPENNESS :- Access to information ensures citizens can evaluate government actions."]},
+      {"Participation": ["INVOLVEMENT :- Citizens participate through voting, debates, and civic engagement."]},
+      {"Challenges": ["LIMITATIONS :- Inequality, corruption, and low awareness reduce effectiveness of democracy."]},
+      {"Reforms": ["IMPROVEMENT :- Electoral reforms, awareness, and institutional strengthening improve democratic functioning."]},
+      {"Core Idea": ["UNDERSTANDING :- Democracy is effective only when actively practiced."]}
+    ]},
+    {"Chapter 6 (Elections & Political Behavior)": [
+      {"Election Process": ["SYSTEM :- Elections involve nomination, campaigning, voting, and result declaration."]},
+      {"Voting Behavior": ["FACTORS :- Decisions influenced by identity, issues, leadership, and media."]},
+      {"Campaign Strategies": ["METHODS :- Use of media, slogans, and outreach to influence voters."]},
+      {"Money & Media": ["INFLUENCE :- Financial power and media narratives shape public opinion."]},
+      {"Fair Elections": ["INTEGRITY :- Free and fair elections are essential for legitimacy of democracy."]},
+      {"Core Idea": ["UNDERSTANDING :- Elections reflect both choice and influence."]}
+    ]},
+    {"Chapter 7 (Government & Policy Making)": [
+      {"Policy Formation": ["PROCESS :- Governments create policies based on needs, resources, and political priorities."]},
+      {"Decision Making": ["FACTORS :- Includes public opinion, expert advice, and political interests."]},
+      {"Implementation": ["EXECUTION :- Policies must be effectively implemented to achieve results."]},
+      {"Public Role": ["FEEDBACK :- Citizens influence policies through participation and pressure."]},
+      {"Challenges": ["ISSUES :- Delays, inefficiency, and conflicting interests affect outcomes."]},
+      {"Core Idea": ["UNDERSTANDING :- Governance is continuous decision-making, not just laws."]}
+    ]},
+    {"Chapter 8 (Global Politics & International Relations)": [
+      {"Global Power": ["INFLUENCE :- Countries interact through cooperation, competition, and conflict."]},
+      {"International Organizations": ["STRUCTURE :- Bodies like UN and global forums coordinate international actions."]},
+      {"Geopolitics": ["STRATEGY :- Decisions influenced by geography, resources, and strategic interests."]},
+      {"Global Issues": ["CHALLENGES :- Climate change, conflicts, trade disputes require global cooperation."]},
+      {"India’s Role": ["POSITION :- India’s foreign policy balances development, security, and global partnerships."]},
+      {"Core Idea": ["UNDERSTANDING :- Politics extends beyond borders into global systems."]}
     ]}
   ],
 
-  "💰 Advanced Economics, Finance & Consulting": [
-
-    {"Chapter 1 (Foundations of Finance and Markets)": [
-      {"Concepts": [
-        "Definition and purpose of finance in economic systems",
-        "Understanding money, time value of money, and risk-return relationship",
-        "Introduction to financial institutions: Banks, NBFCs, and Mutual Funds",
-        "Primary vs secondary markets: IPOs, Stock exchanges, Bonds, and Derivatives",
-        "Role of SEBI, RBI, and global financial regulators",
-        "Concept of inflation, deflation, and purchasing power parity"
-      ]},
-      {"Activities": [
-        "Simulated stock market trading using virtual platforms",
-        "Tracking NIFTY50 and SENSEX for one month with reflective journal",
-        "Class debate- Should India adopt cryptocurrency regulation?"
-      ]}
+  "💰 Economics": [
+    {"Chapter 1 (Basics of Economy & Development)": [
+      {"What is Economy": ["ECONOMY BASICS :- An economy is the system through which goods and services are produced, distributed, and consumed. It includes individuals, businesses, and government interacting together. Students understand that every daily activity like buying food, working, or paying taxes is part of the economic system. This builds awareness that economics is not abstract but directly connected to life decisions."]},
+      {"Development Meaning": ["DEVELOPMENT :- Development is not just increase in income but improvement in quality of life. It includes access to education, healthcare, clean environment, and opportunities. Students learn that two countries with same income can have different development levels depending on these factors, making the concept broader than just money."]},
+      {"Indicators of Development": ["MEASUREMENT :- Development is measured using indicators like GDP, literacy rate, life expectancy, and HDI. Students understand strengths and limitations of each indicator. For example, GDP measures production but ignores inequality and environmental damage, while HDI includes health and education."]},
+      {"Sustainability": ["LONG TERM THINKING :- Economic growth should not harm future generations. Students explore how overuse of natural resources leads to problems like pollution and climate change. Sustainable development ensures balance between economic progress and environmental protection."]},
+      {"Comparison of Countries": ["APPLICATION :- Students compare India with other countries using development indicators. This helps them understand global inequality and different development paths taken by nations."]},
+      {"Critical Thinking": ["QUESTIONS :- Can a country be rich but not developed? Why?"]}
     ]},
-
-    {"Chapter 2 (Corporate Finance and Valuation)": [
-      {"Concepts": [
-        "Capital budgeting: NPV, IRR, Payback period",
-        "Sources of financing: Equity, Debt, Venture capital, Angel investment",
-        "Corporate structure and governance",
-        "Valuation of companies: Understanding P/E ratio, EV/EBITDA, DCF model",
-        "Cost of capital and capital structure theory (Modigliani-Miller basics)",
-        "Introduction to financial statements: Balance sheet, P&L, Cash Flow"
-      ]},
-      {"Practice": [
-        "Mini project- Value a startup using simplified DCF and justify assumptions",
-        "Analyze a listed company’s balance sheet for debt/equity structure"
-      ]}
+    {"Chapter 2 (Money, Banking & Financial Systems)": [
+      {"Evolution of Money": ["HISTORY :- Early economies used barter system where goods were exchanged directly. This created problems like lack of double coincidence of wants. Money was introduced as a medium of exchange to solve these issues, evolving from coins to paper currency and now digital payments."]},
+      {"Functions of Money": ["ROLE :- Money acts as medium of exchange, store of value, unit of account, and standard of deferred payment. Students understand why money is essential for smooth functioning of modern economies."]},
+      {"Banking System": ["FUNCTIONING :- Banks accept deposits and provide loans. They act as intermediaries between savers and borrowers. Students understand concepts like interest, savings accounts, and credit creation in simple terms."]},
+      {"Digital Payments": ["MODERN SYSTEM :- UPI, mobile wallets, and online banking have transformed transactions. Students learn benefits like speed and convenience along with risks like fraud and cybersecurity threats."]},
+      {"Inflation": ["PRICE RISE :- Inflation refers to increase in prices over time, reducing purchasing power. Students understand how inflation affects savings, wages, and daily expenses."]},
+      {"Applications": ["REAL LIFE :- Students relate banking concepts with their daily financial activities."]},
+      {"Critical Thinking": ["QUESTIONS :- Is cashless economy always better?"]}
     ]},
-
-    {"Chapter 3 (Financial Services, Investment Banking and Consulting Overview)": [
-      {"Concepts": [
-        "Structure of global financial services: Investment banks, Asset management firms, PE/VC firms",
-        "Investment banking functions: M&A, IPO advisory, restructuring, due diligence",
-        "Consulting vs auditing vs advisory: what each firm actually does",
-        "Case introduction- PwC, EY, Deloitte, KPMG, McKinsey, BCG, Accenture",
-        "Career roles: Analyst, Consultant, Associate, Partner",
-        "Difference between buy-side (investing) and sell-side (advisory)"
-      ]},
-      {"Activities": [
-        "Mock M&A deal- valuation and negotiation exercise",
-        "Interview roleplay- ‘Why consulting?’ and ‘Pitch a business solution’"
-      ]}
+    {"Chapter 3 (Markets, Demand & Supply)": [
+      {"Demand": ["CONCEPT :- Demand refers to quantity of goods consumers are willing to buy at a given price. Students understand that demand depends on factors like income, preferences, and price of related goods."]},
+      {"Supply": ["CONCEPT :- Supply refers to quantity of goods producers are willing to sell. It depends on cost of production, technology, and market conditions."]},
+      {"Law of Demand & Supply": ["RELATIONSHIP :- As price increases, demand decreases and supply increases. Students learn how these opposite forces interact in markets."]},
+      {"Market Equilibrium": ["BALANCE :- Equilibrium price is where demand equals supply. Students understand how markets naturally move towards balance unless disturbed by external factors."]},
+      {"Market Types": ["STRUCTURE :- Students learn about local, national, and global markets and how goods move across regions."]},
+      {"Applications": ["REAL LIFE :- Price changes of petrol, vegetables, etc. explained using demand-supply."]},
+      {"Critical Thinking": ["QUESTIONS :- Why do prices suddenly increase sometimes?"]}
     ]},
-
-    {"Chapter 4 (Business Strategy and Consulting Frameworks)": [
-      {"Frameworks": [
-        "SWOT, PESTEL, Porter’s Five Forces, BCG Matrix, Ansoff Matrix",
-        "McKinsey 7S and MECE Principle",
-        "Root cause analysis (Fishbone, 5 Whys)",
-        "Client problem-solving approach (define, diagnose, design, deliver)",
-        "Financial modeling and scenario analysis for business decision-making"
-      ]},
-      {"Case Studies": [
-        "Consulting case- Accenture digital transformation project for a bank",
-        "BCG-style profitability problem (restaurant chain, airline, etc.)",
-        "How consulting firms charge clients and structure deliverables"
-      ]}
+    {"Chapter 4 (Sectors of Economy & Employment)": [
+      {"Types of Sectors": ["CLASSIFICATION :- Economy is divided into primary (agriculture), secondary (manufacturing), and tertiary (services) sectors. Students understand role of each sector in development."]},
+      {"Employment Types": ["STRUCTURE :- Organized sector provides job security while unorganized sector lacks stability. Students understand differences in wages, benefits, and working conditions."]},
+      {"Unemployment": ["ISSUES :- Types include disguised unemployment, seasonal unemployment, and educated unemployment. Students learn causes and impacts on society."]},
+      {"Role of Government": ["INTERVENTION :- Government creates jobs through policies, schemes, and public sector projects."]},
+      {"Changing Economy": ["SHIFT :- Economy shifts from agriculture to services as development increases."]},
+      {"Applications": ["REAL LIFE :- Understanding job trends in India."]},
+      {"Critical Thinking": ["QUESTIONS :- Why unemployment exists even after education?"]}
     ]},
-
-    {"Chapter 5 (Financial Modeling and Data Analysis)": [
-      {"Concepts": [
-        "Excel and Google Sheets for financial modeling",
-        "Forecasting revenues and expenses",
-        "Break-even analysis and sensitivity analysis",
-        "Data visualization: dashboards, charts, storytelling with data",
-        "Basics of Power BI, Tableau, and Google Data Studio",
-        "Quantitative reasoning in finance- correlation, regression, variance"
-      ]},
-      {"Projects": [
-        "Create a 3-statement linked model (Income, Balance Sheet, Cash Flow)",
-        "Build and present a financial dashboard using public company data"
-      ]}
+    {"Chapter 5 (Business, Entrepreneurship & Basic Finance)": [
+      {"Entrepreneurship": ["IDEA :- Entrepreneurs identify opportunities and create businesses. Students learn basic traits like risk-taking, innovation, and decision-making."]},
+      {"Cost and Revenue": ["BASICS :- Businesses incur costs and earn revenue. Profit is difference between the two. Students understand simple financial thinking."]},
+      {"Risk and Return": ["INTRO :- Basic idea from advanced syllabus introduced simply. Higher profit opportunities involve higher risk."]},
+      {"Business Models": ["STRUCTURE :- Different ways businesses operate like retail, service, or online platforms."]},
+      {"Small Business Examples": ["APPLICATION :- Local shops and startups studied as real examples."]},
+      {"Applications": ["REAL LIFE :- Students connect theory with nearby businesses."]},
+      {"Critical Thinking": ["QUESTIONS :- Why many businesses fail?"]}
     ]},
-
-    {"Chapter 6 (Economics for Decision-Making and Consulting)": [
-      {"Concepts": [
-        "Microeconomics in consulting: demand-supply estimation, pricing strategy",
-        "Macroeconomics indicators- GDP, inflation, unemployment, fiscal deficit",
-        "Policy analysis and its business impact (GST, repo rate, FDI rules)",
-        "Public-private partnerships and infrastructure consulting",
-        "Game theory basics for competitive strategy"
-      ]},
-      {"Activities": [
-        "Analyze how interest rate changes affect industry profitability",
-        "Group simulation- Government policy consulting exercise"
-      ]}
+    {"Chapter 6 (Government, Budget & Economic Policies)": [
+      {"Government Role": ["FUNCTION :- Government plays a central role in maintaining economic stability and social welfare. It collects taxes, provides public goods like roads, education, and healthcare, and regulates markets to prevent unfair practices. Without government intervention, essential services may not reach everyone, especially poorer sections. However, too much control can reduce efficiency and innovation, so a balance between free markets and regulation is necessary for sustainable development."]},
+      {"Budget": ["PLAN :- A government budget is an annual financial statement showing expected income and expenditure. Income mainly comes from taxes and borrowing, while expenditure includes defense, infrastructure, education, and welfare schemes. Students understand concepts like fiscal deficit (when spending exceeds income) and how budget decisions affect inflation, growth, and public services. Budget reflects government priorities and directly impacts citizens’ daily lives."]},
+      {"Economic Policies": ["TOOLS :- Governments use policies like taxation (GST), subsidies, and interest rate control to manage the economy. GST simplifies indirect taxes and affects prices of goods. Subsidies make essential goods affordable but increase government spending. Interest rates influence borrowing and investment. Students learn that policies are designed to solve problems like inflation and unemployment, but each policy has trade-offs and affects different groups differently."]},
+      {"Public Services": ["ROLE :- Public services such as healthcare, education, sanitation, transport, and infrastructure are essential for development. Private sector may not provide these services equally to all due to profit motives, so government ensures accessibility. Better public services improve human capital, productivity, and long-term economic growth, making them a key responsibility of the state."]},
+      {"Applications": ["REAL LIFE :- Students connect concepts with real-world examples like changes in petrol prices, tax rates, or government schemes. Understanding budget announcements and policy changes helps them interpret news and see how economic decisions affect their daily lives."]},
+      {"Critical Thinking": ["QUESTIONS :- Should government control everything or let markets operate freely? Students analyze both extremes and understand that a balanced approach is necessary to ensure both efficiency and fairness in the economy."]}
     ]},
-
-    {"Chapter 7 (Behavioral Finance and Market Psychology)": [
-      {"Concepts": [
-        "How emotions drive financial decisions (herd behavior, overconfidence, loss aversion)",
-        "Prospect theory and bounded rationality",
-        "Role of media, social proof, and investor sentiment",
-        "Understanding market bubbles and crashes",
-        "Applications in consulting: consumer insights and behavioral nudges"
-      ]},
-      {"Activities": [
-        "Analyze stock price bubbles like 2008 crisis or GameStop event",
-        "Design a behavioral nudge for saving or investing habits"
-      ]}
-    ]},
-
-    {"Chapter 8 (Ethics, Law, and Corporate Governance in Finance)": [
-      {"Concepts": [
-        "Insider trading and its penalties",
-        "Corporate fraud and audit ethics (Enron, Satyam case studies)",
-        "Understanding ESG (Environmental, Social, Governance) principles",
-        "Regulatory compliance in consulting firms",
-        "Whistleblower protection and ethical dilemmas"
-      ]},
-      {"Projects": [
-        "Debate- ‘Profit vs Ethics — what should guide finance?’",
-        "Write a report on India’s SEBI and global equivalents like SEC, FCA"
-      ]}
-    ]},
-
-    {"Chapter 9 (Global Financial Systems and Consulting Practices)": [
-      {"Concepts": [
-        "Structure of global capital markets: NYSE, LSE, NSE",
-        "Understanding currencies, forex, and exchange rate systems",
-        "IMF, World Bank, BIS, and G20 — how they influence global trade",
-        "Emerging markets vs developed economies",
-        "International consulting practices and case studies (McKinsey in Africa, Accenture in APAC)"
-      ]},
-      {"Activities": [
-        "Study report- Impact of the 2008 crisis and post-COVID global shifts",
-        "Consulting simulation- How to advise a company entering a new market"
-      ]}
-    ]},
-
-    {"Chapter 10 (Capstone Projects and Career Readiness)": [
-      {"Projects": [
-        "Mini consulting project with local business or NGO (real-world problem solving)",
-        "Financial research paper (analyzing company, sector, or economic policy)",
-        "Industry speaker session (guest from consulting/finance firm)",
-        "Group presentation: How technology (AI, FinTech, Blockchain) is reshaping finance and consulting"
-      ]},
-      {"Career Preparation": [
-        "Resume and LinkedIn for consulting/finance roles",
-        "Mock interview preparation: case solving, aptitude, and guesstimate questions",
-        "Soft skills: communication, storytelling, and structured problem solving"
-      ]}
+    {"Chapter 7 (Globalisation & Trade)": [
+      {"Globalisation": ["CONCEPT :- Globalisation refers to increasing interconnection of world economies through trade, technology, investment, and communication. It allows goods, services, and ideas to move across borders. Students understand that globalisation explains why products are designed in one country, manufactured in another, and sold globally. It increases efficiency but also creates dependence between nations."]},
+      {"Trade (Import & Export)": ["FLOW :- Trade involves buying (import) and selling (export) goods and services between countries. Nations specialize in producing goods efficiently and trade to benefit from comparative advantage. Students learn how trade improves availability of goods but can also create imbalance if imports exceed exports, affecting domestic industries."]},
+      {"Multinational Companies (MNCs)": ["ROLE :- MNCs are companies operating in multiple countries. They bring investment, technology, and employment opportunities, boosting economic growth. However, they can dominate local markets, influence policies, and shift profits internationally. Students evaluate both positive and negative impacts of MNCs."]},
+      {"Advantages & Disadvantages": ["ANALYSIS :- Globalisation increases product variety, improves technology, and creates jobs in some sectors. However, it can also increase inequality, harm local industries, and create economic dependence. Students learn to critically evaluate both benefits and drawbacks instead of assuming it is entirely good or bad."]},
+      {"Applications": ["REAL LIFE :- Students observe globalisation in everyday life through international brands, outsourcing of jobs, and impact of global events on local prices. This helps them connect theory with real-world economic changes."]},
+      {"Critical Thinking": ["QUESTIONS :- Is globalisation beneficial for all countries and people equally? Students explore how benefits are unevenly distributed and discuss ways to make globalisation more inclusive and fair."]}
     ]}
   ],
 
@@ -3979,46 +4780,119 @@ Object.assign(window.curriculumData, {
 
   "⚖️ Law": [
     {"Chapter 1 (Constitution in Action)": [
-      {"Concepts": ["Fundamental Rights & Duties, Practical case applications"]},
-      {"Activities": ["Mock trial on rights violations"]}
+      {"Fundamental Rights": ["RIGHTS :- Fundamental Rights ensure equality, freedom, protection from exploitation, religious freedom, cultural rights, and constitutional remedies. These rights are enforceable in courts and form the foundation of democracy."]},
+      {"Fundamental Duties": ["RESPONSIBILITY :- Duties include respecting the Constitution, promoting harmony, protecting environment, and safeguarding public property. Rights and duties together maintain balance in society."]},
+      {"Application of Rights": ["REAL CASES :- Rights are applied in situations like freedom of speech limits, right to education, and protection against discrimination."]},
+      {"Violation & Remedies": ["ACTION :- Citizens can approach courts when rights are violated."]},
+      {"Mock Trial": ["PROCESS :- Simulation of rights violation cases for understanding legal process."]},
+      {"Core Idea": ["UNDERSTANDING :- Constitution is not theory, it directly affects daily life."]}
     ]},
-    {"Chapter 2 (Legal Aid, Lok Adalats, PILs)": [
-      {"Concepts": ["Access to justice, Public Interest Litigations"]},
-      {"Projects": ["Roleplay of Lok Adalat proceedings"]}
+    {"Chapter 2 (Access to Justice: Legal Aid, Lok Adalat, PIL)": [
+      {"Legal Aid": ["ACCESS :- Free legal services are provided to economically weaker sections to ensure justice is accessible to all."]},
+      {"Lok Adalat": ["ALTERNATIVE SYSTEM :- Lok Adalats resolve disputes quickly through compromise without lengthy court procedures."]},
+      {"Public Interest Litigation": ["PIL :- PIL allows individuals to file cases for public welfare even if they are not directly affected."]},
+      {"Process": ["STEPS :- Filing petition, hearing, judgment, and implementation."]},
+      {"Applications": ["REAL CASES :- Environmental protection, rights of marginalized groups."]},
+      {"Core Idea": ["UNDERSTANDING :- Law is accessible, not limited to rich or powerful."]}
     ]},
-    {"Chapter 3 (Key Acts: SC/ST, RTE, Domestic Violence)": [
-      {"Concepts": ["Major legal provisions and their impacts"]},
-      {"Activities": ["Research report on law effectiveness"]}
+    {"Chapter 3 (Important Laws & Social Protection Acts)": [
+      {"SC/ST Act": ["PROTECTION :- Prevents atrocities and discrimination against marginalized communities with strict legal provisions."]},
+      {"Right to Education": ["EDUCATION LAW :- Guarantees free and compulsory education for children."]},
+      {"Domestic Violence Act": ["SAFETY :- Protects individuals from abuse within households."]},
+      {"Other Laws": ["AWARENESS :- Includes laws related to child labor, workplace harassment, and consumer protection."]},
+      {"Impact": ["EFFECTIVENESS :- Laws aim to protect rights but implementation challenges exist."]},
+      {"Core Idea": ["UNDERSTANDING :- Laws exist to reduce inequality and protect vulnerable groups."]}
     ]},
-    {"Chapter 4 (Case Studies: Law vs Society)": [
-      {"Concepts": ["Balancing environment and industrial rights, Caste atrocity cases"]},
-      {"Projects": ["Debate on law and ethics"]}
+    {"Chapter 4 (Law vs Society: Case Studies & Debates)": [
+      {"Conflict Situations": ["REALITY :- Law often balances competing interests like development vs environment or freedom vs security."]},
+      {"Case Analysis": ["EXAMPLES :- Industrial projects vs environmental protection, caste discrimination cases."]},
+      {"Ethical Questions": ["DILEMMAS :- Legal decisions may not always align with moral expectations."]},
+      {"Debates": ["DISCUSSION :- Students analyze different perspectives and arguments."]},
+      {"Impact": ["CONSEQUENCES :- Legal decisions influence society and future policies."]},
+      {"Core Idea": ["UNDERSTANDING :- Law is dynamic and shaped by society."]}
     ]},
     {"Chapter 5 (IPC & CrPC Basics)": [
-      {"Concepts": ["Structure of Indian Penal Code, Criminal Procedure Code overview"]},
-      {"Activities": ["Mock case filing exercise"]}
+      {"Indian Penal Code": ["IPC :- Defines crimes and punishments such as theft, assault, and fraud."]},
+      {"Criminal Procedure Code": ["CrPC :- Describes procedure for investigation, arrest, trial, and punishment."]},
+      {"FIR": ["FIRST STEP :- First Information Report is initial complaint filed to police."]},
+      {"Trial Process": ["STAGES :- Investigation → charge → trial → judgment."]},
+      {"Rights of Accused": ["PROTECTION :- Right to fair trial and legal representation."]},
+      {"Core Idea": ["UNDERSTANDING :- Legal process ensures justice and prevents misuse of power."]}
+    ]},
+    {"Chapter 6 (Cyber Law & Digital Rights)": [
+      {"Cyber Crimes": ["CRIMES :- Includes hacking, identity theft, cyberbullying, and online fraud."]},
+      {"IT Act": ["LAW :- Information Technology Act governs digital crimes and electronic transactions."]},
+      {"Digital Rights": ["PRIVACY :- Individuals have rights over personal data and online identity."]},
+      {"Safety Measures": ["PREVENTION :- Strong passwords, awareness, and verification reduce risks."]},
+      {"Applications": ["REAL LIFE :- Increasing relevance due to digital world."]},
+      {"Core Idea": ["UNDERSTANDING :- Online actions have legal consequences."]}
+    ]},
+    {"Chapter 7 (Contracts, Consumer Rights & Everyday Law)": [
+      {"Contracts": ["AGREEMENT :- Legal agreements between parties with obligations and conditions."]},
+      {"Consumer Rights": ["PROTECTION :- Right to safety, information, and redressal against unfair trade practices."]},
+      {"Everyday Law": ["DAILY LIFE :- Includes renting, buying goods, online transactions, and services."]},
+      {"Dispute Resolution": ["ACTION :- Complaints can be filed in consumer courts."]},
+      {"Fraud Awareness": ["RISKS :- Understanding scams and legal protection."]},
+      {"Core Idea": ["UNDERSTANDING :- Law affects daily transactions and decisions."]}
+    ]},
+    {"Chapter 8 (Legal Careers & System Understanding)": [
+      {"Legal Professions": ["CAREERS :- Lawyer, judge, legal advisor, corporate lawyer, public prosecutor."]},
+      {"Court Structure": ["SYSTEM :- Hierarchy from lower courts to Supreme Court."]},
+      {"Legal Education": ["PATHWAY :- Law entrance exams, law schools, specialization fields."]},
+      {"Role of Judiciary": ["FUNCTION :- Interpreting laws and ensuring justice."]},
+      {"Ethics": ["RESPONSIBILITY :- Legal profession requires integrity and fairness."]},
+      {"Core Idea": ["UNDERSTANDING :- Law is both a career and a system shaping society."]}
     ]}
   ],
 
   "📝 Hindi": [
-    {"Chapter 1 (शिक्षा और सामाजिक विषय)": [
-      {"विषय": ["कविता, कहानी, संवाद लेखन, मानवता, लैंगिक न्याय, साम्प्रदायिकता"]},
-      {"गतिविधियाँ": ["वाचन और भूमिका-निर्वाह"]}
+    {"Chapter 1 (साहित्य एवं सामाजिक चिंतन)": [
+      {"साहित्य अध्ययन": ["सामग्री :- कविता, कहानी और निबंध के माध्यम से समाज, मानवता, लैंगिक न्याय और साम्प्रदायिकता जैसे विषयों को समझना।"]},
+      {"व्याख्या": ["विश्लेषण :- रचनाओं का भाव, संदेश और लेखक के दृष्टिकोण को समझना।"]},
+      {"संवाद लेखन": ["अभिव्यक्ति :- सामाजिक मुद्दों पर संवाद तैयार करना और प्रस्तुत करना।"]},
+      {"वाचन": ["प्रस्तुति :- सही उच्चारण, लय और भाव के साथ पाठ प्रस्तुत करना।"]},
+      {"भूमिका-निर्वाह": ["गतिविधि :- सामाजिक स्थितियों को अभिनय के माध्यम से समझना।"]},
+      {"मुख्य विचार": ["समझ :- साहित्य समाज का प्रतिबिंब और परिवर्तन का माध्यम है।"]}
     ]},
-    {"Chapter 2 (व्याकरण एवं अनुप्रयुक्त लेखन)": [
-      {"विषय": ["काल, समास, पत्र लेखन, अनुवाद"]},
-      {"गतिविधियाँ": ["लेखन अभ्यास और मूल्यांकन"]}
+    {"Chapter 2 (व्याकरण एवं भाषा नियंत्रण)": [
+      {"काल": ["संरचना :- वर्तमान, भूत और भविष्य काल का सटीक प्रयोग।"]},
+      {"समास": ["शब्द निर्माण :- विभिन्न समासों का सही उपयोग और पहचान।"]},
+      {"वाक्य शुद्धि": ["त्रुटि सुधार :- गलत वाक्यों को पहचानकर सुधारना।"]},
+      {"शब्द भंडार": ["ज्ञान :- पर्यायवाची, विलोम और मुहावरों का प्रयोग।"]},
+      {"अनुवाद": ["प्रयोग :- सरल वाक्यों का हिंदी और अन्य भाषा में अनुवाद।"]},
+      {"मुख्य विचार": ["समझ :- सही व्याकरण से भाषा स्पष्ट और प्रभावी बनती है।"]}
     ]},
-    {"Chapter 3 (सामाजिक मुद्दे)": [
-      {"विषय": ["बाल श्रम, महिला अधिकार, पर्यावरण संरक्षण"]},
-      {"गतिविधियाँ": ["पोस्टर निर्माण, समूह चर्चा"]}
+    {"Chapter 3 (रचनात्मक एवं अनुप्रयुक्त लेखन)": [
+      {"निबंध लेखन": ["संरचना :- विचारों को स्पष्ट रूप से भूमिका, मुख्य भाग और निष्कर्ष में प्रस्तुत करना।"]},
+      {"पत्र लेखन": ["प्रयोग :- औपचारिक और अनौपचारिक पत्रों का सही प्रारूप।"]},
+      {"रिपोर्ट लेखन": ["वास्तविकता :- घटनाओं और गतिविधियों का सटीक विवरण।"]},
+      {"संवाद लेखन": ["रचना :- दैनिक जीवन और सामाजिक विषयों पर संवाद तैयार करना।"]},
+      {"लेखन सुधार": ["संपादन :- अपने लेखन को बेहतर बनाने के लिए संशोधन।"]},
+      {"मुख्य विचार": ["समझ :- लेखन विचारों को प्रभावी ढंग से व्यक्त करने का माध्यम है।"]}
     ]},
-    {"Chapter 4 (पुस्तकें)": [
-      {"सामग्री": ["Mother India (Katherine Mayo) का अध्ययन और विश्लेषण"]}
+    {"Chapter 4 (पठन, विश्लेषण एवं आलोचनात्मक सोच)": [
+      {"गद्य-पद्य पठन": ["समझ :- विभिन्न प्रकार के पाठों को पढ़कर उनका अर्थ और भाव समझना।"]},
+      {"आलोचनात्मक विश्लेषण": ["विचार :- पाठ में तर्क, पक्षपात और संदेश का विश्लेषण करना।"]},
+      {"सार लेखन": ["संक्षेप :- बड़े पाठ को छोटे और स्पष्ट रूप में लिखना।"]},
+      {"तुलनात्मक अध्ययन": ["तुलना :- विभिन्न लेखकों और विचारों की तुलना करना।"]},
+      {"संदर्भ ग्रंथ": ["अध्ययन :- :contentReference[oaicite:1]{index=1} जैसे ग्रंथों का विश्लेषण करते समय दृष्टिकोण और पक्षपात को समझना।"]},
+      {"मुख्य विचार": ["समझ :- पढ़ना केवल जानकारी लेना नहीं, सोच विकसित करना है।"]}
     ]},
-    {"Chapter 5 (सामाजिक परिवर्तन)": [
-      {"विषय": ["सामुदायिक सेवा, बाल अधिकार, महिला सशक्तिकरण"]},
-      {"गतिविधियाँ": ["सामुदायिक परियोजना कार्य"]}
+    {"Chapter 5 (समाज, परिवर्तन एवं जिम्मेदारी)": [
+      {"सामाजिक मुद्दे": ["विषय :- बाल श्रम, महिला अधिकार, पर्यावरण संरक्षण जैसे मुद्दों की समझ।"]},
+      {"सामाजिक परिवर्तन": ["क्रिया :- समाज में बदलाव लाने के प्रयास और उनकी भूमिका।"]},
+      {"सामुदायिक सेवा": ["भागीदारी :- समाज के लिए कार्य करना और योगदान देना।"]},
+      {"जागरूकता": ["ज्ञान :- अधिकारों और जिम्मेदारियों की समझ।"]},
+      {"परियोजना कार्य": ["प्रयोग :- किसी सामाजिक विषय पर प्रोजेक्ट और प्रस्तुति।"]},
+      {"मुख्य विचार": ["समझ :- भाषा और विचार समाज में बदलाव ला सकते हैं।"]}
+    ]},
+    {"Chapter 6 (मीडिया, भाषा और आधुनिक प्रयोग)": [
+      {"मीडिया भाषा": ["प्रयोग :- समाचार, विज्ञापन और सोशल मीडिया की भाषा को समझना।"]},
+      {"भाषाई प्रभाव": ["विश्लेषण :- शब्दों के माध्यम से लोगों की सोच कैसे प्रभावित होती है।"]},
+      {"डिजिटल लेखन": ["आधुनिक उपयोग :- ईमेल, ब्लॉग और ऑनलाइन लेखन शैली।"]},
+      {"पक्षपात": ["जागरूकता :- मीडिया में छिपे पक्षपात और अतिशयोक्ति को पहचानना।"]},
+      {"व्यावहारिक उपयोग": ["जीवन :- भाषा का उपयोग वास्तविक जीवन स्थितियों में करना।"]},
+      {"मुख्य विचार": ["समझ :- भाषा केवल विषय नहीं, प्रभाव का माध्यम है।"]}
     ]}
   ],
 
@@ -4027,31 +4901,79 @@ Object.assign(window.curriculumData, {
       {"Activities": ["Weekly parade, Emergency response training, students openion on Classroom policy"]},
       {"Reference Books": ["Annihilation of Caste by B.R. Ambedkar, Women and Gender in Ancient India: A Study of Texts and Inscriptions by Shashi Sharma, High Caste Hindu Woman (1887) by Pandita Ramabai, dalito ki durdasha karan aur nivaran by Kanshi Ram, poor narion ki samasya aur samadhan by M. S. Gore, the courage to be dislike, Man's Search for Meaning, Thinking, Fast and Slow, Atomic Habits, Meditations, How to Win Friends and Influence People"]}
     ]},
-    {"Chapter 1 (Dignity)": [
-      {"Concepts": ["Definition and importance, Self-respect and mutual respect, why we need to respect others?, Respecting differences in opinions, beliefs, cultures, traditions, lifestyles, etc."]},
-      {"Activities": ["Real-world case discussions"]}
+    {"Chapter 1 (Dignity, Respect & Identity)": [
+      {"Human Dignity": ["DIGNITY :- Every human has inherent worth regardless of status, background, or belief. Respect includes self-respect and treating others with fairness and empathy. Disrespect often arises from ignorance, prejudice, or power imbalance."]},
+      {"Diversity": ["DIFFERENCES :- People differ in culture, religion, opinion, gender, and lifestyle. Respecting differences does not require agreement but requires acceptance of others’ right to exist and think differently."]},
+      {"Social Behavior": ["INTERACTION :- Everyday behavior such as language, tone, and actions reflects respect or disrespect. Bullying, exclusion, and mockery reduce dignity and harm social environments."]},
+      {"Conflict & Respect": ["BALANCE :- Disagreement is natural, but respectful disagreement avoids personal attacks and focuses on ideas."]},
+      {"Case Studies": ["REAL CONTEXT :- Situations involving discrimination, bias, and respect are analyzed."]},
+      {"Core Idea": ["UNDERSTANDING :- Respect is not optional behavior but a basic requirement for society."]}
     ]},
-    {"Chapter 2 (Ethics in daily life)": [
-      {"Digital Ethics": ["Handling trolls, fake news, hate speech"]},
-      {"Fact Check": ["Necessity of verifying online information, digital responsibility"]},
-      {"Ethics in School": ["Cheating, favoritism, and discipline vs education, reflections, making fun of it vs making fun out of it, "]},
+    {"Chapter 2 (Ethics in Daily Life & Digital World)": [
+      {"Ethics Basics": ["RIGHT & WRONG :- Ethics involves making decisions based on fairness, honesty, and responsibility rather than convenience or pressure."]},
+      {"Digital Ethics": ["ONLINE BEHAVIOR :- Trolling, hate speech, misinformation, and privacy violations are common ethical issues in digital spaces. Responsible use of technology includes verification of information and respectful communication."]},
+      {"Academic Ethics": ["INTEGRITY :- Cheating, plagiarism, favoritism, and manipulation of results undermine fairness and learning."]},
+      {"Social Responsibility": ["ACCOUNTABILITY :- Actions affect others directly or indirectly. Ethical behavior considers consequences beyond personal benefit."]},
+      {"Fact vs Opinion": ["AWARENESS :- Distinguishing facts from opinions prevents manipulation and misinformation spread."]},
+      {"Core Idea": ["UNDERSTANDING :- Ethics is tested most in small daily decisions, not big speeches."]}
     ]},
-    {"Chapter 3 (God, Nature and science)": [
-      {"Concepts": ["Belief systems vs environmental values"]},
-      {"Discussion": ["Religion’s influence on science and nature, science vs pseudoscience, faith vs empirical evidence"]},
+    {"Chapter 3 (Belief, Science & Critical Thinking)": [
+      {"Belief Systems": ["FAITH :- Beliefs are shaped by culture, upbringing, and personal experience. They provide meaning but are not always based on evidence."]},
+      {"Science Approach": ["EVIDENCE :- Science relies on observation, experimentation, and proof. It evolves with new discoveries and rejects unsupported claims."]},
+      {"Pseudoscience": ["MISCONCEPTIONS :- Claims without scientific evidence often appear convincing but lack verification."]},
+      {"Conflict & Coexistence": ["BALANCE :- Faith and science may conflict or coexist depending on interpretation. Understanding both reduces blind acceptance and blind rejection."]},
+      {"Questioning Attitude": ["CRITICAL THINKING :- Asking questions, seeking evidence, and challenging assumptions are essential skills."]},
+      {"Core Idea": ["UNDERSTANDING :- Not everything believed is true, and not everything unknown is false."]}
     ]},
-    {"Chapter 4 (Mental Health & Friendship)": [
-      {"Concepts": ["Mental health awareness, Understanding support and stigma, Importance of life, Suicide prevention and resilience"]},
-      {"Activities": ["Group sharing and awareness campaigns"]},
-      {"Intoxicants": ["Types of intoxicants, Effects on society, De-addiction strategies"]},
-      {"Value of Life": ["Philosophical meaning of life, Social inequality in life valuation"]}
+    {"Chapter 4 (Mental Health, Life Value & Substance Awareness)": [
+      {"Mental Health": ["AWARENESS :- Mental health includes emotional stability, stress management, and coping ability. Issues like anxiety, depression, and loneliness are real and require understanding, not stigma."]},
+      {"Support Systems": ["CARE :- Friends, family, and professionals play a role in support. Ignoring mental health can lead to serious consequences."]},
+      {"Value of Life": ["PHILOSOPHY :- Life has value beyond economic or social status. Questions of inequality in how lives are valued highlight ethical concerns in society."]},
+      {"Substance Abuse": ["RISKS :- Alcohol, drugs, and other intoxicants affect physical health, mental clarity, and social behavior. Addiction reduces decision-making ability and harms individuals and society."]},
+      {"Resilience": ["STRENGTH :- Ability to recover from failure, stress, or trauma."]},
+      {"Core Idea": ["UNDERSTANDING :- Mental strength and awareness are essential for meaningful life."]}
     ]},
-    {"Chapter 5 (Environmental Responsibility)": [
-      {"Concepts": ["What is environment, environment vs nature, why conservation and sustainability"]},
-      {"Forms of pollutions": ["Air pollution, Water pollution, Soil pollution, Noise pollution, Plastic pollution"]},
-      {"Projects": ["Plantation or clean-up drive"]}
+    {"Chapter 5 (Environment, Society & Responsibility)": [
+      {"Environment vs Nature": ["CONCEPT :- Environment includes natural and human-made surroundings, while nature refers to natural systems."]},
+      {"Sustainability": ["BALANCE :- Resources must be used in a way that does not harm future generations."]},
+      {"Pollution Types": ["IMPACT :- Air, water, soil, noise, and plastic pollution affect health and ecosystems."]},
+      {"Human Impact": ["CAUSE :- Industrialization, consumption, and waste contribute to environmental damage."]},
+      {"Responsibility": ["ACTION :- Individual and collective efforts are required for conservation."]},
+      {"Core Idea": ["UNDERSTANDING :- Human survival depends on environmental balance."]}
     ]},
-    {"Chapter 6 (Human Rights)": [
+    {"Chapter 6 (Rights, Equality & Social Justice)": [
+      {"Human Rights": ["RIGHTS :- Basic rights include equality, freedom, dignity, and protection from exploitation. Frameworks like UDHR define these globally."]},
+      {"Discrimination": ["INEQUALITY :- Discrimination based on caste, race, gender, religion, or class creates social injustice and inequality."]},
+      {"Consent & Boundaries": ["PERSONAL RIGHTS :- Consent is clear agreement and is essential in all interactions. Boundaries protect personal space and dignity."]},
+      {"Historical Injustice": ["EXAMPLES :- Events like the Holocaust, caste discrimination, and racial segregation highlight consequences of inequality."]},
+      {"Legal Protection": ["LAWS :- Laws exist to protect against discrimination and exploitation."]},
+      {"Core Idea": ["UNDERSTANDING :- Equality is a principle, not always a reality, and requires active effort."]}
+    ]},
+    {"Chapter 7 (Religion, Society & Critical Debate)": [
+      {"Religion Basics": ["CONCEPT :- Religion is a system of beliefs, practices, and values developed over time to explain existence and guide behavior."]},
+      {"Role in Society": ["IMPACT :- Religion influences culture, traditions, laws, and social norms."]},
+      {"Issues": ["CONFLICT :- Religious divisions, misuse of belief, and violence have impacted societies historically and currently."]},
+      {"Blind Faith vs Logic": ["ANALYSIS :- Blind belief ignores questioning, while rational thinking seeks understanding."]},
+      {"Debates": ["QUESTIONS :- Is religion necessary? Can morality exist without religion?"]},
+      {"Core Idea": ["UNDERSTANDING :- Belief systems must be understood, not blindly followed or rejected."]}
+    ]},
+    {"Chapter 8 (Manipulation, Influence & Awareness)": [
+      {"Manipulation": ["CONTROL :- Manipulation involves influencing others unfairly using emotions, misinformation, or pressure."]},
+      {"Common Tactics": ["METHODS :- Guilt-tripping, fear, peer pressure, misinformation, and authority misuse."]},
+      {"Media Influence": ["IMPACT :- Advertising and social media shape opinions and behavior."]},
+      {"Defense": ["AWARENESS :- Recognizing manipulation helps maintain independent thinking."]},
+      {"Assertiveness": ["RESPONSE :- Saying no and expressing views clearly without aggression."]},
+      {"Core Idea": ["UNDERSTANDING :- Awareness protects from being controlled by others."]}
+    ]},
+    {"Chapter 9 (Decision Making & Personal Values)": [
+      {"Value System": ["FOUNDATION :- Personal values guide decisions and behavior."]},
+      {"Decision Making": ["PROCESS :- Choices involve weighing consequences, ethics, and long-term impact."]},
+      {"Peer Pressure": ["INFLUENCE :- Social pressure can affect decisions, especially among youth."]},
+      {"Responsibility": ["ACCOUNTABILITY :- Individuals are responsible for their actions and outcomes."]},
+      {"Long-Term Thinking": ["FOCUS :- Short-term gain vs long-term consequences."]},
+      {"Core Idea": ["UNDERSTANDING :- Strong values lead to better decisions."]}
+    ]},
+    {"Chapter 10 (Human Rights)": [
       {"Child Labour & Exploitation": ["Causes and laws, Child rights awareness, UDHR and global frameworks, Case studies, Documentary Discussion-https://youtu.be/NTXO6uptlC8"]},
       {"Consent and Boundaries": ["Personal and social consent, Boundaries and assertiveness, Endogamy vs Exogamy"]},
       {"Indians Outside India": ["Why we try to go abroad?, movie screening- Dunki"]},
@@ -4062,18 +4984,7 @@ Object.assign(window.curriculumData, {
       {"Role of Ambedkar": ["Ambedkar’s work for equality, Women’s rights (Hindu Code Bill), Group presentation on Ambedkar"]},
       {"Discussion": ["people died in plane crash got 1 crore each whereas people died on mahakumbh got 25 lakh and so on, does value of life depends on place where one dies? , Lakhan Pasi story(left from jail at 104 age)"]},
     ]},
-    {"Chapter 7 (Religions)": [
-      {"Introduction": ["what is Religion?, History and origin, purpose, evolution of religions and its importance in society, who make it? why make it? is it necessary to have Religion?, Is Religion a failed experiment? has Religion been converted to Business?, can religion help to make the world a better place? are we independent to choose any religion or we are bound to one we born in?, What is Secularism?"]},
-      {"Religious torture and violence": ["Historical and contemporary examples, why almost all religions firstly target womens?, Impact on societies"]},
-      {"blind faith vs questioning attitude": ["why illiterate people may hold blind faith, why illiterate people get possessed specially women, Examples and case studies"]},
-      {"Famous Reincarnation Cases": ["Shanti Devi, James Leininger, Pollock Twins, Swarnlata, Others"]},
-      {"Debate": ["Is religion necessary for moral life?"]}, 
-  ]},
-    {"Chapter 8 (Recognizing Manipulation and Influence)": [
-      {"Concepts": ["Understanding manipulation vs influence, Common manipulation tactics, Emotional awareness and defense strategies"]},
-      {"Activities": ["Role-play to identify manipulation", "Media ad analysis", "Group discussion on healthy assertiveness"]}
-    ]},
-    {"Chapter 9 (Staying Ahead Through Self-Learning)": [
+    {"Chapter 11 (Staying Ahead Through Self-Learning)": [
       {"Why Learning Matters": ["Education helps us understand the world","Knowledge gives confidence and independence","Learning builds problem-solving ability","Hard work in early years shapes future opportunities"]},
       {"Understanding the Difference": ["Some schools focus only on exams","Real education also builds thinking and curiosity","Marks are important but understanding is more valuable","Students must continue learning even outside classroom"]},
       {"Building Self-Learning Habits": ["Read beyond textbooks","Ask questions about how things work","Use libraries and educational videos","Practice solving new problems regularly"]},
@@ -4085,132 +4996,335 @@ Object.assign(window.curriculumData, {
       {"Long-Term Vision": ["Think about goals beyond school","Develop skills useful for future careers","Continue reading and learning throughout life","Education is a lifelong journey"]},
       {"Reflection Activity": ["Write one goal for the next five years","List three habits that improve learning","Identify one skill to practice every week","Discuss how curiosity helps us grow"]}
     ]}
-
   ],
 
   "🗣️ Languages": [
-    {"Chapter 1 (Why Language?)": [
-      {"Introduction": ["Origins of language, Family trees, History & Types of languages"]}
+    {"Chapter 1 (Introduction to World Languages & Sounds)": [
+      {"Language Basics": ["Language is a system of communication using sounds, symbols, or gestures. Major language groups include Indo-European (Spanish, English), Sino-Tibetan (Chinese), and Japonic (Japanese). Different languages use different scripts such as alphabets (English, Spanish), logographic characters (Chinese), and syllabaries (Japanese)."]},
+      {"Scripts and Writing Systems": ["Alphabet-based systems use letters to form words, while character-based systems represent meaning directly. Chinese uses characters (汉字), Japanese uses Hiragana, Katakana, and Kanji. Spanish uses Latin alphabet similar to English but with different pronunciation rules."]},
+      {"Pronunciation Systems": ["Spanish pronunciation is mostly phonetic (words sound as written). Chinese uses tones where pitch changes meaning (ma can mean mother, horse, etc.). Japanese uses simple syllable patterns (ka, ki, ku)."]}
     ]},
-    {"Chapter 2 (Language Apps and Websites)": [
-      {"Tools": ["Duolingo, Rosetta Stone, Memrise, Busuu"]}
+    {"Chapter 2 (Basic Communication Skills)": [
+      {"Greetings": ["English: Hello, How are you? Spanish: Hola, ¿Cómo estás? Chinese: 你好 (Nǐ hǎo) Japanese: こんにちは (Konnichiwa)."]},
+      {"Self Introduction": ["English: My name is __. Spanish: Me llamo __. Chinese: 我叫__ (Wǒ jiào __). Japanese: 私の名前は__です (Watashi no namae wa __ desu)."]},
+      {"Basic Questions": ["What is your name?, Where are you from?, How are you? translated into multiple languages with pronunciation focus."]}
     ]},
-    {"Chapter 3 (Extended Conversations)": [
-      {"Practice": ["1–2 minute real-life dialogues"]}
+    {"Chapter 3 (Daily Life Conversations)": [
+      {"Common Verbs": ["Eat, go, come, sleep, study translated across languages. Example: Spanish 'comer', Chinese 吃 (chī), Japanese 食べる (taberu)."]},
+      {"Simple Sentences": ["I eat food, I go to school, I study daily translated into Spanish, Chinese, and Japanese with structure awareness."]},
+      {"Basic Conversations": ["Short dialogues such as greeting a friend, asking about day, and responding in simple sentences across languages."]}
     ]},
-    {"Chapter 4 (Travel Dialogues)": [
-      {"Practice": ["Asking directions, Hotel booking, Ticket purchase"]}
+    {"Chapter 4 (Travel & Real-World Situations)": [
+      {"Directions": ["Where is the station?, Turn left/right, Go straight translated into Spanish, Chinese, Japanese."]},
+      {"Food Ordering": ["I want water, How much is this?, Vegetarian/Non-vegetarian phrases in multiple languages."]},
+      {"Numbers & Money": ["Numbers 1–100 in basic form and currency-related phrases like price, cost, and payment."]}
     ]},
-    {"Chapter 5 (Health & Emergency)": [
-      {"Phrases": ["I feel sick, Call a doctor, Where is the hospital?"]}
+    {"Chapter 5 (Health & Emergency Communication)": [
+      {"Emergency Words": ["Help!, Call a doctor!, Hospital, Pain translated across languages."]},
+      {"Basic Symptoms": ["I feel sick, I have fever, I need medicine translated into Spanish, Chinese, Japanese."]},
+      {"Important Questions": ["Where is the hospital?, Can you help me?, I need assistance translated across languages."]}
     ]},
-    {"Chapter 6 (Technology Vocabulary)": [
-      {"Words": ["Phone, Computer, Internet, Email"]}
+    {"Chapter 6 (Culture & Real-Life Context)": [
+      {"Cultural Greetings": ["Japan: bowing, Spain: informal greetings, China: formal addressing styles."]},
+      {"Common Expressions": ["Thank you, Sorry, Please translated into multiple languages."]},
+      {"Social Norms": ["Basic etiquette such as addressing elders, polite forms, and formal vs informal speech."]}
     ]},
-    {"Chapter 7 (Proverbs & Idioms)": [
-      {"Content": ["3–5 proverbs per language with meanings"]}
+    {"Chapter 7 (Media & Language Exposure)": [
+      {"Common Words": ["Phone, internet, school, friend translated across languages."]},
+      {"Listening Exposure": ["Short phrases and sentences spoken in different accents and speeds."]},
+      {"Repetition Practice": ["Common phrases repeated across languages for familiarity."]}
     ]},
-    {"Chapter 8 (Grammar Review)": [
-      {"Concepts": ["Past, present, future tenses"]}
-    ]},
-    {"Chapter 9 (Letter Writing)": [
-      {"Projects": ["Postcard/email in foreign language"]}
-    ]},
-    {"Chapter 10 (Career with Languages)": [
-      {"Concepts": ["Jobs in translation, tourism, diplomacy"]}
-    ]},
-    {"Chapter 11 (Cultural Projects)": [
-      {"Projects": ["Research a famous figure from each country"]}
-    ]},
-    {"Chapter 12 (Final Translation Project)": [
-      {"Activity": ["Translate 50 English sentences into multiple languages"]}
-    ]},
-    {"Chapter 13 (Multilingual Skills)": [
-      {"Projects": ["Word lists in 5–7 languages on common themes"]}
+    {"Chapter 8 (Multilingual Usage & Practice)": [
+      {"Basic Vocabulary Sets": ["Colors, numbers, family members translated into Spanish, Chinese, Japanese."]},
+      {"Sentence Formation": ["Combining words to form meaningful sentences across languages."]},
+      {"Mini Conversations": ["Short real-life dialogues combining greetings, questions, and responses."]}
     ]}
   ],
 
   "👥 GGC (General Guidance Class)": [
-    {"Chapter 1 (College Admissions)": [
-      {"Concepts": ["India vs Abroad admission systems, Application basics"]}
+    {"Chapter 1 (College Admissions Systems)": [
+      {"India Admission System": ["India admissions are primarily entrance-exam based. Major exams include JEE for engineering, NEET for medical, CUET for central universities, and state-level exams. Admission depends heavily on rank, cutoff, and reservation policies. Counselling processes allocate colleges based on preference and score."]},
+      {"Abroad Admission System": ["Foreign admissions (USA, UK, Canada, etc.) are profile-based. They consider grades, extracurricular activities, essays, recommendation letters, and standardized tests like SAT or IELTS. There is no single exam deciding admission, making the process more holistic but complex."]},
+      {"Application Components": ["Common components include academic transcripts, entrance scores, Statement of Purpose (SOP), Letters of Recommendation (LOR), resume, and extracurricular records. Each component contributes to overall evaluation."]},
+      {"Deadlines & Cycles": ["India admissions follow exam schedules, while abroad universities have Fall and Spring intakes with strict deadlines (often 6–12 months before intake)."]},
+      {"Comparison": ["India system is exam-focused and competitive, while abroad system values profile, skills, and personality along with academics."]},
+      {"Critical Understanding": ["Choosing between India and abroad depends on financial capacity, career goals, and adaptability."]}
     ]},
     {"Chapter 2 (Major Global Exams)": [
-      {"Exams": ["JEE, NEET, SAT, TOEFL, IELTS, A-Level"]}
+      {"Indian Exams": ["JEE (engineering), NEET (medical), CUET (universities) test subject knowledge and problem-solving ability. These exams are highly competitive and require structured preparation over years."]},
+      {"International Exams": ["SAT tests reasoning and basic math/verbal skills. TOEFL/IELTS test English proficiency for non-native speakers. A-Levels are subject-based qualifications used in UK admissions."]},
+      {"Exam Structure": ["Most exams include objective questions, time limits, and scoring systems with cutoffs. English exams include reading, writing, listening, and speaking sections."]},
+      {"Preparation Strategy": ["Consistent practice, mock tests, concept clarity, and time management are key. Each exam requires a different approach depending on its pattern."]},
+      {"Selection Strategy": ["Students choose exams based on career goals and target countries. Not all exams are required for all universities."]},
+      {"Reality Check": ["High scores help but do not guarantee success, especially in profile-based admissions."]}
     ]},
-    {"Chapter 3 (Writing for Success)": [
-      {"Concepts": ["SOPs, LORs, Essay writing"]}
+    {"Chapter 3 (Writing for Success: SOP, LOR, Essays)": [
+      {"Statement of Purpose (SOP)": ["SOP explains academic background, career goals, and reasons for choosing a course or university. It must be clear, structured, and honest, avoiding generic statements."]},
+      {"Letters of Recommendation (LOR)": ["LORs are written by teachers or mentors highlighting student’s abilities, achievements, and character. Strong LORs are specific and evidence-based."]},
+      {"Essay Writing": ["Essays test thinking ability, clarity, and personality. Topics often include challenges faced, goals, and personal experiences."]},
+      {"Common Mistakes": ["Using copied content, over-exaggeration, lack of structure, and poor grammar reduce impact."]},
+      {"Structure": ["Introduction (background), body (experiences and goals), conclusion (future vision)."]},
+      {"Purpose": ["These documents help universities understand the student beyond marks."]}
     ]},
-    {"Chapter 4 (Research & Exchange)": [
-      {"Programs": ["INSPIRE, IYSA, Foreign exchange opportunities"]}
+    {"Chapter 4 (Research Programs & Exchange Opportunities)": [
+      {"Indian Programs": ["INSPIRE, IYSA, and other national programs provide exposure to research and innovation. They help students explore academic interests early."]},
+      {"International Programs": ["Student exchange and summer schools allow exposure to global education systems."]},
+      {"Research Basics": ["Research involves identifying a problem, collecting data, analyzing results, and presenting findings."]},
+      {"Benefits": ["Participation improves profile, critical thinking, and understanding of real-world problems."]},
+      {"Application Process": ["Requires statement, recommendations, and sometimes project proposals."]},
+      {"Reality": ["Selection is competitive and requires genuine interest, not just certificates."]}
     ]},
-    {"Chapter 5 (Youth Inspiration)": [
-      {"Profiles": ["Riya Karumanchi, Mihir Garimella, Vivienne Harr, Kavya Kopparapu"]}
+    {"Chapter 5 (Youth Inspiration & Case Studies)": [
+      {"Profiles": ["Examples include Riya Karumanchi (AI for accessibility), Kavya Kopparapu (AI healthcare), Mihir Garimella (tech innovation)."]},
+      {"Key Traits": ["Curiosity, consistency, problem-solving mindset, and early initiative."]},
+      {"Learning": ["Success is not instant; it involves experimentation, failure, and persistence."]},
+      {"Application": ["Students analyze what actions led to success rather than just achievements."]},
+      {"Reality": ["These examples are inspiration, not benchmarks to compare unfairly."]},
+      {"Critical Thinking": ["Focus on process, not just results."]}
     ]},
-    {"Chapter 6 (Competitions)": [
-      {"Examples": ["Swift Student Challenge, Other global events"]}
+    {"Chapter 6 (Competitions & Skill Platforms)": [
+      {"Competitions": ["Examples include coding contests, innovation challenges, Olympiads, and design competitions like Swift Student Challenge."]},
+      {"Purpose": ["Competitions test skills, creativity, and problem-solving under pressure."]},
+      {"Platforms": ["Students can use platforms like Codeforces, Kaggle, or design platforms to practice skills."]},
+      {"Preparation": ["Requires consistent practice, understanding of concepts, and strategy."]},
+      {"Benefits": ["Improves profile, builds confidence, and provides recognition."]},
+      {"Reality": ["Winning is not necessary; learning and participation matter more."]}
     ]},
-    {"Chapter 7 (Major Scholarships)": [
-      {"Programs": ["Chevening, Commonwealth, Fulbright, Rhodes"]}
+    {"Chapter 7 (Scholarships & Financial Planning)": [
+      {"Major Scholarships": ["Chevening, Commonwealth, Fulbright, Rhodes are prestigious scholarships for higher studies abroad."]},
+      {"Eligibility": ["Based on academic performance, leadership, extracurriculars, and financial need."]},
+      {"Application Components": ["Essays, interviews, SOP, and recommendations are key parts."]},
+      {"Financial Planning": ["Students must consider tuition fees, living costs, and funding options."]},
+      {"Types": ["Merit-based, need-based, and country-specific scholarships."]},
+      {"Reality": ["Scholarships are highly competitive and require strong overall profile."]}
     ]}
   ],
 
   "🏃‍♂️ Games & Physical Education": [
     {"Chapter 1 (Cardiovascular & Body Systems)": [
-      {"Concepts": ["Heart function, Exercise and body health"]},
-      {"Projects": ["Fitness measurement logs"]}
+      {"Heart and Circulation": ["CARDIO SYSTEM :- The heart pumps blood throughout the body, supplying oxygen and nutrients to muscles and organs. Blood vessels (arteries, veins, capillaries) form a network that supports this flow. During exercise, heart rate increases to meet oxygen demand, improving cardiovascular efficiency over time."]},
+      {"Exercise and Body Response": ["PHYSIOLOGY :- Physical activity increases breathing rate, heart rate, and blood flow. Regular exercise strengthens the heart, improves lung capacity, and enhances stamina. Lack of activity leads to reduced fitness and higher risk of diseases like obesity and hypertension."]},
+      {"Fitness Components": ["ELEMENTS :- Endurance, strength, flexibility, and speed are key components of physical fitness. Each plays a role in overall performance and health. Balanced development is necessary rather than focusing on only one aspect."]},
+      {"Fitness Measurement": ["ASSESSMENT :- Fitness can be measured using tests like running endurance, push-ups for strength, and flexibility tests. Tracking results over time helps evaluate improvement and consistency."]},
+      {"Injury Prevention": ["SAFETY :- Proper warm-up, stretching, hydration, and correct technique reduce injury risk. Overtraining and ignoring pain can lead to long-term damage."]},
+      {"Application": ["REAL CONTEXT :- Understanding body systems helps improve performance and maintain long-term health."]}
     ]},
     {"Chapter 2 (Diet and Wellbeing)": [
-      {"Concepts": ["Balanced diet, Meal planning for athletes"]}
+      {"Balanced Diet": ["NUTRITION :- A balanced diet includes carbohydrates, proteins, fats, vitamins, and minerals in proper proportions. Carbohydrates provide energy, proteins support muscle repair, and fats provide long-term energy storage."]},
+      {"Athlete Nutrition": ["PERFORMANCE :- Athletes require higher energy intake and specific nutrient timing. Pre-workout meals provide energy, while post-workout meals help recovery and muscle growth."]},
+      {"Hydration": ["WATER BALANCE :- Water regulates body temperature and supports metabolic functions. Dehydration reduces performance and can cause fatigue or dizziness."]},
+      {"Lifestyle Diseases": ["RISKS :- Poor diet and inactivity lead to obesity, diabetes, and heart disease. Awareness helps prevention through better habits."]},
+      {"Meal Planning": ["STRUCTURE :- Planning meals ensures proper nutrient intake throughout the day instead of irregular eating."]},
+      {"Application": ["REAL CONTEXT :- Diet directly affects energy levels, focus, and physical performance."]}
     ]},
     {"Chapter 3 (Social-Emotional Health)": [
-      {"Concepts": ["Leadership and teamwork, Empathy development"]}
+      {"Mental Wellbeing": ["BALANCE :- Mental health includes emotional stability, stress management, and positive thinking. It is as important as physical health."]},
+      {"Teamwork": ["COLLABORATION :- Sports require coordination, communication, and trust among team members."]},
+      {"Leadership": ["ROLE :- Leaders guide teams, make decisions, and maintain morale during challenges."]},
+      {"Empathy": ["UNDERSTANDING :- Recognizing others’ feelings improves relationships and teamwork."]},
+      {"Conflict Management": ["RESOLUTION :- Handling disagreements constructively is essential in group activities."]},
+      {"Application": ["REAL CONTEXT :- Emotional intelligence improves both sports performance and personal life."]}
     ]},
-    {"Chapter 4 (Sex Education)": [
-      {"Concepts": ["Consent, Safe practices, STI awareness"]}
+    {"Chapter 4 (Sex Education & Personal Safety)": [
+      {"Body Awareness": ["UNDERSTANDING :- Knowledge of physical changes, reproductive health, and personal boundaries is essential for safety and confidence."]},
+      {"Consent": ["RESPECT :- Consent means clear and voluntary agreement. It must be informed and can be withdrawn at any time."]},
+      {"Safe Practices": ["HEALTH :- Awareness about protection, hygiene, and responsible behavior prevents health risks."]},
+      {"STI Awareness": ["RISKS :- Sexually transmitted infections spread through unsafe practices. Basic knowledge helps prevention and early treatment."]},
+      {"Myths vs Facts": ["CLARITY :- Many misconceptions exist around sex and health; scientific understanding replaces myths."]},
+      {"Application": ["REAL CONTEXT :- Knowledge ensures safety, respect, and responsible decisions."]}
     ]},
-    {"Chapter 5 (Protection Laws)": [
-      {"Concepts": ["Child safety, POCSO Act, Self-advocacy"]}
+    {"Chapter 5 (Protection Laws & Rights)": [
+      {"Child Safety Laws": ["LEGAL FRAMEWORK :- Laws exist to protect minors from abuse, exploitation, and harassment."]},
+      {"POCSO Act": ["PROTECTION :- The Protection of Children from Sexual Offences Act ensures strict punishment for crimes against minors."]},
+      {"Rights and Responsibilities": ["AWARENESS :- Individuals have rights to safety and dignity, along with responsibility to respect others."]},
+      {"Reporting Mechanisms": ["ACTION :- Victims can report incidents through police, helplines, and trusted authorities."]},
+      {"Self-Advocacy": ["CONFIDENCE :- Knowing rights empowers individuals to speak up and seek help."]},
+      {"Application": ["REAL CONTEXT :- Legal awareness prevents exploitation and promotes safety."]}
     ]},
     {"Chapter 6 (Sports Psychology)": [
-      {"Concepts": ["Motivation, Resilience, Focus building"]}
+      {"Motivation": ["DRIVE :- Motivation influences effort and consistency in sports. Internal motivation (interest, passion) is more sustainable than external rewards."]},
+      {"Focus and Concentration": ["ATTENTION :- Maintaining focus improves performance and reduces mistakes. Techniques include visualization and controlled breathing."]},
+      {"Resilience": ["MENTAL STRENGTH :- Ability to recover from failure and continue improving."]},
+      {"Stress Management": ["CONTROL :- Pressure situations can affect performance; managing stress is essential."]},
+      {"Goal Setting": ["DIRECTION :- Setting short-term and long-term goals improves progress tracking."]},
+      {"Application": ["REAL CONTEXT :- Mental strength is as important as physical ability in sports."]}
+    ]},
+    {"Chapter 7 (Injury Management & First Aid)": [
+      {"Common Injuries": ["Sprains, strains, fractures, dehydration, cramps are common in sports. Each has different symptoms and requires immediate attention to prevent worsening."]},
+      {"Basic First Aid": ["RICE method (Rest, Ice, Compression, Elevation) is used for minor injuries. Immediate care reduces damage and speeds recovery."]},
+      {"Emergency Response": ["Steps like checking consciousness, calling help, and basic response actions are essential before professional help arrives."]},
+      {"Recovery & Rest": ["Proper rest and gradual return to activity prevent re-injury and long-term damage."]}
+    ]},
+    {"Chapter 8 (Personal Fitness Planning)": [
+      {"Goal Setting": ["Fitness goals can be strength, endurance, flexibility, or weight management. Clear goals help structure training."]},
+      {"Workout Design": ["Basic routines include warm-up, main exercise, and cool-down. Balance between cardio and strength is important."]},
+      {"Tracking Progress": ["Monitoring performance through logs (running time, reps, etc.) helps measure improvement over time."]},
+      {"Consistency": ["Regular activity matters more than intensity. Sustainable habits lead to long-term fitness."]}
+    ]},
+    {"Chapter 9 (Recovery, Sleep & Lifestyle)": [
+      {"Sleep Importance": ["Sleep is essential for muscle recovery, brain function, and overall health. Lack of sleep reduces performance and focus."]},
+      {"Recovery": ["Rest days and proper recovery prevent burnout and injuries. Overtraining leads to fatigue and decreased performance."]},
+      {"Lifestyle Balance": ["Screen time, diet, activity, and sleep together affect health. Balance is necessary for long-term wellbeing."]},
+      {"Habits": ["Daily habits like hydration, posture, and routine influence physical and mental health."]}
     ]}
   ],
 
   "🧠 General Knowledge (G.K)": [
-    {"Chapter 1 (Global Diplomacy)": [
-      {"Concepts": ["Paris Agreement, NATO, BRICS, International alliances"]}
+   {"Chapter 1 (Global Diplomacy)": [
+      {"International Alliances": ["GLOBAL STRUCTURE :- Major alliances like NATO, BRICS, and G20 represent cooperation between countries for security, economy, and development. Each group has different objectives and power structures influencing global decisions."]},
+      {"Climate Agreements": ["ENVIRONMENT POLICY :- Agreements like the Paris Agreement focus on reducing global warming through emission control and cooperation. Countries negotiate targets based on economic and environmental priorities."]},
+      {"Geopolitics Basics": ["POWER RELATIONS :- Countries compete and cooperate based on resources, military strength, and economic influence. Concepts like soft power and strategic alliances are introduced."]},
+      {"Conflicts & Cooperation": ["REAL WORLD :- Diplomatic relations involve both conflicts (wars, tensions) and cooperation (trade, treaties)."]},
+      {"Applications": ["CONTEXT :- Understanding global news and international decisions."]},
+      {"Critical Thinking": ["QUESTIONS :- Are alliances based on cooperation or self-interest?"]}
     ]},
-    {"Chapter 2 (Current Affairs)": [
-      {"Activities": ["Weekly editorials, News analysis, Quizzes"]}
+    {"Chapter 2 (Current Affairs & Media Literacy)": [
+      {"News Analysis": ["UNDERSTANDING :- Students learn how to read news critically instead of accepting headlines blindly. Focus is on identifying facts, opinions, and bias."]},
+      {"Editorial Reading": ["INTERPRETATION :- Editorials present viewpoints; students learn to analyze arguments and evidence."]},
+      {"Media Bias": ["AWARENESS :- Different media sources present information differently based on perspective and interest."]},
+      {"Fake News": ["VERIFICATION :- Identifying misinformation through fact-checking and reliable sources."]},
+      {"Weekly Topics": ["APPLICATION :- Major events in politics, economy, science, and society are discussed regularly."]},
+      {"Critical Thinking": ["QUESTIONS :- Can news ever be completely neutral?"]}
     ]},
-    {"Chapter 3 (Judiciary Highlights)": [
-      {"Concepts": ["Judicial structures, Important global judgments"]}
+    {"Chapter 3 (Judiciary & Legal Awareness)": [
+      {"Judicial Structure": ["SYSTEM :- Courts exist at different levels (local, national, international) to interpret laws and resolve disputes."]},
+      {"Important Judgments": ["CASES :- Landmark judgments shape laws and society, influencing rights and governance."]},
+      {"Rule of Law": ["PRINCIPLE :- Everyone is equal before law regardless of status."]},
+      {"Rights & Duties": ["BALANCE :- Legal systems protect rights but also impose responsibilities."]},
+      {"Global Perspective": ["COMPARISON :- Different countries have different legal systems and approaches."]},
+      {"Applications": ["REAL LIFE :- Understanding rights and legal systems."]}
     ]},
-    {"Chapter 4 (Science Frontiers)": [
-      {"Concepts": ["CRISPR, Fusion energy, AI ethics, Nobel updates"]}
+    {"Chapter 4 (Science Frontiers & Innovation)": [
+      {"Emerging Technologies": ["ADVANCEMENT :- Topics like AI, CRISPR gene editing, and fusion energy represent cutting-edge science shaping future industries."]},
+      {"Ethics in Science": ["RESPONSIBILITY :- Technologies raise ethical questions about privacy, environment, and human impact."]},
+      {"Space & Research": ["EXPLORATION :- Space missions and scientific discoveries expand knowledge and technology."]},
+      {"Nobel Insights": ["RECOGNITION :- Nobel Prize highlights major contributions in science and innovation."]},
+      {"Applications": ["REAL WORLD :- Technology affects daily life, jobs, and society."]},
+      {"Critical Thinking": ["QUESTIONS :- Should science have limits?"]}
     ]},
     {"Chapter 5 (UN SDGs & Model UN)": [
-      {"Activities": ["Role-play climate negotiation, SDG policy drafting"]}
+      {"Sustainable Development Goals": ["GLOBAL TARGETS :- 17 SDGs focus on poverty, education, climate, and equality. They guide global development efforts."]},
+      {"Policy Making": ["PROCESS :- Countries design policies to achieve SDGs based on resources and priorities."]},
+      {"Negotiation Skills": ["DIPLOMACY :- Model UN teaches negotiation, debate, and resolution drafting."]},
+      {"Global Challenges": ["ISSUES :- Climate change, inequality, and resource distribution require collective action."]},
+      {"Applications": ["REAL WORLD :- Understanding international cooperation."]},
+      {"Critical Thinking": ["QUESTIONS :- Can global goals be achieved realistically?"]}
     ]},
-    {"Chapter 6 (INSPIRE MANAK Competition)": [
-      {"Concepts": ["Innovation projects, Eligibility and submission"]}
+    {"Chapter 6 (Innovation & Competitions: INSPIRE MANAK)": [
+      {"Innovation Thinking": ["CREATIVITY :- Identifying problems and designing solutions is core of innovation."]},
+      {"INSPIRE MANAK": ["PROGRAM :- Encourages students to develop science-based solutions and projects."]},
+      {"Project Development": ["PROCESS :- Idea → prototype → presentation → evaluation."]},
+      {"Evaluation Criteria": ["ASSESSMENT :- Innovation, feasibility, and impact are key factors."]},
+      {"Applications": ["REAL WORLD :- Encourages problem-solving mindset."]},
+      {"Critical Thinking": ["QUESTIONS :- What makes an idea truly innovative?"]}
+    ]},
+    {"Chapter 7 (Economic & Financial Awareness)": [
+      {"Basic Indicators": ["ECONOMY :- GDP, inflation, unemployment, and HDI explain economic performance."]},
+      {"Global Economy": ["INTERCONNECTION :- Countries depend on each other for trade and resources."]},
+      {"Financial Systems": ["STRUCTURE :- Banks, markets, and digital payments support economy."]},
+      {"Policy Impact": ["DECISIONS :- Government policies affect prices, jobs, and growth."]},
+      {"Applications": ["REAL LIFE :- Understanding economy in daily life."]},
+      {"Critical Thinking": ["QUESTIONS :- Why do economies rise and fall?"]}
+    ]},
+    {"Chapter 8 (Technology, Society & Ethics)": [
+      {"Digital Society": ["MODERN LIFE :- Technology influences communication, work, and lifestyle."]},
+      {"Privacy & Data": ["RISKS :- Data collection raises concerns about privacy and security."]},
+      {"Social Media": ["IMPACT :- Influences opinions, behavior, and information flow."]},
+      {"Ethical Issues": ["DILEMMAS :- AI, automation, and surveillance create moral questions."]},
+      {"Applications": ["REAL LIFE :- Responsible technology use."]},
+      {"Critical Thinking": ["QUESTIONS :- Is technology helping or controlling society?"]}
+    ]},
+    {"Chapter 9 (Geography & Geopolitical Awareness)": [
+      {"World Regions": ["STRUCTURE :- Continents, regions, and important global locations."]},
+      {"Conflict Zones": ["ISSUES :- Regions affected by political or resource conflicts."]},
+      {"Natural Resources": ["IMPORTANCE :- Resources influence economy and geopolitics."]},
+      {"Climate Impact": ["ENVIRONMENT :- Climate affects population and development."]},
+      {"Applications": ["REAL LIFE :- Understanding global events geographically."]},
+      {"Critical Thinking": ["QUESTIONS :- Why geography shapes politics?"]}
+    ]},
+    {"Chapter 10 (Capstone: Debates, Quizzes & Analysis)": [
+      {"Debates": ["DISCUSSION :- Students argue on global issues like climate, economy, and politics."]},
+      {"Quizzes": ["ASSESSMENT :- Regular quizzes reinforce knowledge and awareness."]},
+      {"Case Studies": ["ANALYSIS :- Real-world scenarios are studied deeply."]},
+      {"Data Interpretation": ["SKILL :- Reading charts, reports, and statistics."]},
+      {"Applications": ["REAL LIFE :- Applying knowledge to real situations."]},
+      {"Critical Thinking": ["QUESTIONS :- Can knowledge alone solve real-world problems?"]}
     ]}
   ],
 
   "🔬 Research Projects (R.P)": [
-    {"Chapter 1 (Robotics)": [
-      {"Concepts": ["Basic robotics modules, NPTEL-guided sessions"]}
+   {"Chapter 1 (Robotics)": [
+      {"Robot Fundamentals": ["ROBOT BASICS :- A robot is a system that senses, processes, and acts. Core components include sensors (input), controller (decision-making), and actuators (output). Understanding this structure allows students to break down any robotic system logically."]},
+      {"Basic Modules": ["COMPONENTS :- Motors, sensors (IR, ultrasonic), controllers (Arduino/ESP32), and power systems form basic robotics modules. Each component has a defined role and must be integrated correctly."]},
+      {"Control Systems": ["LOGIC :- Robots operate using programmed instructions and feedback loops. Simple control logic like line-following or obstacle avoidance introduces automation concepts."]},
+      {"Applications": ["REAL SYSTEMS :- Robots are used in industry, medicine, defense, and exploration. Examples include drones, robotic arms, and autonomous vehicles."]},
+      {"NPTEL Integration": ["STRUCTURE :- Guided sessions introduce theoretical understanding along with practical exposure."]},
+      {"Output": ["RESULT :- Ability to build and explain a simple working robot system."]}
     ]},
     {"Chapter 2 (CAD Design)": [
-      {"Concepts": ["AutoCAD, Fusion 360, 3D modeling basics"]}
+      {"Design Thinking": ["PROCESS :- Design starts with identifying problem, creating concept, and refining structure before building."]},
+      {"3D Modeling Basics": ["TOOLS :- Software like Fusion 360 and AutoCAD are used to create digital models of objects with accurate dimensions."]},
+      {"Mechanical Design": ["STRUCTURE :- Concepts like strength, weight distribution, and stability are important while designing parts."]},
+      {"Prototyping": ["DEVELOPMENT :- Digital models are converted into physical prototypes using 3D printing or fabrication."]},
+      {"Iteration": ["IMPROVEMENT :- Designs are modified based on testing results and performance issues."]},
+      {"Output": ["RESULT :- Ability to design and modify functional components digitally."]}
     ]},
     {"Chapter 3 (Machine Learning)": [
-      {"Concepts": ["Intro to ML, Simple algorithms and real-world uses"]}
+      {"ML Basics": ["CONCEPT :- Machine learning allows systems to learn patterns from data instead of being explicitly programmed."]},
+      {"Types of ML": ["CLASSIFICATION :- Supervised (labeled data), unsupervised (pattern finding), and reinforcement learning (decision-based learning)."]},
+      {"Simple Algorithms": ["APPLICATION :- Basic models like linear regression and classification help understand prediction systems."]},
+      {"Data Importance": ["INPUT :- Quality and quantity of data directly affect performance of ML systems."]},
+      {"Real-World Uses": ["EXAMPLES :- Recommendation systems, image recognition, and voice assistants."]},
+      {"Output": ["RESULT :- Understanding how ML systems make decisions."]}
     ]},
-    {"Chapter 4 (Machine Principles)": [
-      {"Mechanisms of machines": ["Glider, Airplane, quadcopter, drone, rocket, space shuttle, fighter jet mechanisms"]},
-      {"Hands on Projects": ["Yearly any one project based on above concepts"]}
+    {"Chapter 4 (Machine Principles & Systems)": [
+      {"Flight Mechanics": ["AERODYNAMICS :- Lift, drag, thrust, and weight govern motion of aircraft, drones, and rockets."]},
+      {"Types of Machines": ["SYSTEMS :- Gliders, airplanes, quadcopters, rockets, and fighter jets operate on different principles but follow same physics laws."]},
+      {"Control & Stability": ["BALANCE :- Systems must maintain stability using control surfaces or feedback mechanisms."]},
+      {"Energy Systems": ["POWER :- Machines use engines, batteries, or fuel systems to generate motion."]},
+      {"Applications": ["REAL SYSTEMS :- Used in transport, defense, and exploration."]},
+      {"Project": ["BUILD :- Students develop one working model based on these principles."]}
     ]},
+    {"Chapter 5 (Research Methodology)": [
+      {"Problem Identification": ["START :- Research begins with identifying a clear and meaningful problem."]},
+      {"Hypothesis": ["IDEA :- A testable assumption is formed based on observation."]},
+      {"Experiment Design": ["METHOD :- Experiments are planned to test the hypothesis with controlled variables."]},
+      {"Data Collection": ["PROCESS :- Accurate data is recorded during experiments."]},
+      {"Analysis": ["RESULT :- Data is interpreted to draw conclusions."]},
+      {"Output": ["RESULT :- Structured approach to solving problems scientifically."]}
+    ]},
+    {"Chapter 6 (Testing, Debugging & Iteration)": [
+      {"Testing": ["VALIDATION :- Systems are tested under different conditions to evaluate performance."]},
+      {"Debugging": ["ERROR FIXING :- Identifying and correcting errors in design or code."]},
+      {"Failure Analysis": ["LEARNING :- Failures are analyzed to improve system design."]},
+      {"Iteration": ["IMPROVEMENT :- Repeated modification leads to better results."]},
+      {"Optimization": ["EFFICIENCY :- Improving performance, cost, and reliability."]},
+      {"Output": ["RESULT :- Ability to refine systems effectively."]}
+    ]},
+    {"Chapter 7 (Documentation & Presentation)": [
+      {"Documentation": ["RECORD :- Research process, design, and results must be documented clearly."]},
+      {"Report Writing": ["STRUCTURE :- Includes introduction, methodology, results, and conclusion."]},
+      {"Presentation": ["COMMUNICATION :- Explaining project clearly using visuals and data."]},
+      {"Visualization": ["CLARITY :- Graphs, diagrams, and models improve understanding."]},
+      {"Peer Review": ["FEEDBACK :- Projects are evaluated and improved based on feedback."]},
+      {"Output": ["RESULT :- Ability to communicate ideas effectively."]}
+    ]},
+    {"Chapter 8 (Ethics, Safety & Real-World Impact)": [
+      {"Ethics": ["RESPONSIBILITY :- Technology should be used responsibly without causing harm."]},
+      {"Safety": ["PRECAUTION :- Safe handling of tools, electronics, and machines."]},
+      {"Environmental Impact": ["AWARENESS :- Projects should consider sustainability and resource use."]},
+      {"Social Impact": ["APPLICATION :- Innovations should solve real-world problems."]},
+      {"Regulations": ["RULES :- Understanding basic compliance and safety standards."]},
+      {"Output": ["RESULT :- Responsible innovation mindset."]}
+    ]},
+    {"Chapter 9 (Capstone Project)": [
+      {"Project Selection": ["CHOICE :- Students select a real-world problem to solve."]},
+      {"Design & Build": ["DEVELOPMENT :- Apply robotics, CAD, ML, or machine principles."]},
+      {"Testing & Improvement": ["ITERATION :- Refine project through multiple trials."]},
+      {"Final Demonstration": ["OUTPUT :- Present working model or solution."]},
+      {"Evaluation": ["ASSESSMENT :- Based on innovation, functionality, and impact."]},
+      {"Outcome": ["RESULT :- Complete end-to-end project experience."]}
+    ]}
   ]
 
 
