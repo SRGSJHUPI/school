@@ -14,3 +14,5 @@
   function closeModal() {
     document.getElementById('customModal').classList.add('hidden');
   }
+
+  

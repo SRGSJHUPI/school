@@ -156,12 +156,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const prevBtn = document.createElement("button");
   prevBtn.id = "prevBtn";
   prevBtn.className = "absolute left-4 top-1/2 transform -translate-y-1/2 text-white text-3xl font-bold focus:outline-none";
-  prevBtn.innerHTML = "&lt;Left";
+  prevBtn.innerHTML = "&lt&lt;";
 
   const nextBtn = document.createElement("button");
   nextBtn.id = "nextBtn";
   nextBtn.className = "absolute right-4 top-1/2 transform -translate-y-1/2 text-white text-3xl font-bold focus:outline-none";
-  nextBtn.innerHTML = "Right&gt;";
+  nextBtn.innerHTML = "&gt&gt;";
 
   const overlayImg = document.createElement("img");
   overlayImg.id = "zoomedImage";

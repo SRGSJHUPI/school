@@ -47,3 +47,94 @@
     transparent 100%
   );
 }
+
+
+
+/* Heros section animation */
+
+.hero-title {
+  position: relative;
+  display: inline-block;
+  
+  opacity: 0;
+  transform: translateY(25px);
+
+  animation:
+    heroSlideIn 1s ease-out forwards,
+    heroGlow 2s ease-in-out infinite;
+    /* heroGlow 2s ease-in-out 1.5s 1; */
+}
+
+/* Green shine sweep */
+.hero-title::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -150%;
+
+  width: 60%;
+  height: 100%;
+
+  background: linear-gradient(
+    120deg,
+    transparent 0%,
+    rgba(34, 197, 94, 0.0) 20%,
+    rgba(34, 197, 94, 0.9) 50%,
+    rgba(34, 197, 94, 0.0) 80%,
+    transparent 100%
+  );
+
+  transform: skewX(-20deg);
+
+  animation: heroShine 2s ease-in-out 0.8s 1;
+
+  pointer-events: none;
+}
+
+/* Slide animation */
+@keyframes heroSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Glow pulse */
+@keyframes heroGlow {
+  0% {
+    text-shadow: 0 0 0px rgba(34, 197, 94, 0);
+  }
+
+  50% {
+    text-shadow:
+      0 0 10px rgba(141, 136, 244, 0.9),
+      0 0 20px rgba(75, 87, 193, 0.7),
+      0 0 35px rgba(113, 91, 173, 0.5);
+  }
+
+  100% {
+    text-shadow: 0 0 0px rgba(34, 197, 94, 0);
+  }
+}
+
+/* Moving shine */
+@keyframes heroShine {
+  0% {
+    left: -150%;
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  100% {
+    left: 160%;
+    opacity: 0;
+  }
+}
