@@ -514,11 +514,6 @@ panel.querySelectorAll(".section-panel").forEach(sec => {
 } else {
   panel.classList.add("hidden");
 }
-
-
-
-
-
         subjectWrapper.appendChild(subjectBtn);
         subjectWrapper.appendChild(panel);
         subjectContainer.appendChild(subjectWrapper);
