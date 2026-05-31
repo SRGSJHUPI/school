@@ -5,12 +5,17 @@ def load_school_content():
 
     website_text = ""
 
-    root_folder = ".."
+    backend_dir = os.path.dirname(
+        os.path.abspath(__file__)
+    )
+
+    root_folder = os.path.abspath(
+        os.path.join(backend_dir, "..")
+    )
 
     for file in os.listdir(root_folder):
 
         if file.endswith(".html"):
-            # print("Reading:", file)
 
             try:
 
