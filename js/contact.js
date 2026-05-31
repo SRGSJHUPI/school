@@ -51,6 +51,8 @@ document.addEventListener('DOMContentLoaded', function () {
   const popup = document.getElementById('popupModal');
   const closeBtn = document.getElementById('closeModal');
 
+  if(form){
+
   form.addEventListener('submit', async function (e) {
     e.preventDefault();
 
@@ -90,4 +92,59 @@ document.addEventListener('DOMContentLoaded', function () {
   closeBtn.addEventListener('click', function () {
     popup.classList.add('hidden'); // Hide modal when close clicked
   });
+}
 });
+
+
+
+
+
+
+
+// AI chat bot ka function hai ye
+
+async function sendMessage() {
+
+    const input =
+      document.getElementById("user-input");
+
+    const question =
+      input.value;
+
+    if (!question.trim()) return;
+
+    const chatBox =
+      document.getElementById("chat-box");
+
+    chatBox.innerHTML +=
+      `<p><strong>You:</strong> ${question}</p>`;
+
+    input.value = "";
+
+    try {
+
+        const response =
+          await fetch(
+            "http://127.0.0.1:8000/chat?question="
+            + encodeURIComponent(question)
+          );
+
+        const data =
+          await response.json();
+
+        chatBox.innerHTML +=
+          `<p><strong>Assistant:</strong> ${data.answer}</p>`;
+
+    }
+
+    catch(error) {
+
+        chatBox.innerHTML +=
+          `<p><strong>Assistant:</strong> Unable to connect.</p>`;
+
+        console.error(error);
+    }
+
+    chatBox.scrollTop =
+      chatBox.scrollHeight;
+}

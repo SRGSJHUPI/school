@@ -1,0 +1,16 @@
+{
+  "faq": [
+    {
+      "keywords": ["jee","neet","olympiad","nda"],
+      "answer": "Rising Nalanda provides preparation support for JEE, NEET, Olympiads and NDA."
+    },
+    {
+      "keywords": ["fee","fees","cost","tuition"],
+      "answer": "Rising Nalanda follows an inclusive fee structure and supports economically weaker families."
+    },
+    {
+      "keywords": ["admission","apply","enroll","enrol"],
+      "answer": "Please visit the Admissions page for application details."
+    }
+  ]
+}
