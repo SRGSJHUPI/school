@@ -102,6 +102,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 // AI chat bot ka function hai ye
+let conversationHistory = "";
 
 async function sendMessage() {
 
@@ -120,31 +121,80 @@ async function sendMessage() {
       `<p><strong>You:</strong> ${question}</p>`;
 
     input.value = "";
+    // show typing message
+    chatBox.innerHTML +=
+  `<p id="typing"><strong>Assistant:</strong> Typing...</p>`;
 
     try {
 
         const response =
           await fetch(
-            "https://school-zy1r.onrender.com/chat?question="
-            + encodeURIComponent(question)
-          );
+              "https://school-zy1r.onrender.com/chat?"
+              + "question=" + encodeURIComponent(question)
+              + "&history=" + encodeURIComponent(conversationHistory)
+            );
 
-        const data =
-          await response.json();
+                  const data =
+            await response.json();
 
-        chatBox.innerHTML +=
-          `<p><strong>Assistant:</strong> ${data.answer}</p>`;
+          // Remove typing message
+          document.getElementById("typing").remove();
+
+          chatBox.innerHTML +=
+            `<p><strong>Assistant:</strong> ${data.answer}</p>`;
+
+            conversationHistory +=
+              `User: ${question}\n`;
+
+            conversationHistory +=
+              `Assistant: ${data.answer}\n\n`;
 
     }
 
     catch(error) {
 
-        chatBox.innerHTML +=
-          `<p><strong>Assistant:</strong> Unable to connect.</p>`;
+    const typing =
+      document.getElementById("typing");
+
+    if (typing) {
+        typing.remove();
+    }
+
+    chatBox.innerHTML +=
+      `<p><strong>Assistant:</strong> Unable to connect.</p>`;
 
         console.error(error);
     }
 
     chatBox.scrollTop =
       chatBox.scrollHeight;
+}
+
+document.getElementById("user-input")
+.addEventListener("keypress", function(event) {
+
+    if (event.key === "Enter") {
+        sendMessage();
+    }
+
+});
+
+function askQuestion(question) {
+
+    document.getElementById(
+      "user-input"
+    ).value = question;
+
+    sendMessage();
+}
+
+function clearChat() {
+
+    conversationHistory = "";
+
+    document.getElementById("chat-box").innerHTML =
+      `<p><strong>Assistant:</strong>
+      Hello! Ask me about admissions,
+      fees, courses, or school facilities.
+      </p>`;
 }

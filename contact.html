@@ -364,70 +364,39 @@
       placeholder="Ask a question..."
       class="flex-1 border rounded p-2">
 
-    <button
-      onclick="sendMessage()"
-      class="bg-blue-600 text-white px-4 rounded">
-
-      Send
-
-    </button>
+    <button onclick="sendMessage()" class="bg-blue-600 text-white px-4 rounded">Send</button>
   </div>
+  <div class="mt-3 flex flex-wrap gap-2">
 
-  <!-- <script>
+    <button
+  onclick="clearChat()"
+  class="bg-red-500 text-white px-3 py-1 rounded text-sm">Clear Chat</button>
 
-function sendMessage() {
+  <button
+    onclick="askQuestion('What courses are offered?')"
+    class="bg-gray-200 px-3 py-1 rounded text-sm">
+    Courses
+  </button>
 
-    const input =
-      document.getElementById("user-input");
+  <button
+    onclick="askQuestion('How does admission work?')"
+    class="bg-gray-200 px-3 py-1 rounded text-sm">
+    Admission
+  </button>
 
-    const chatBox =
-      document.getElementById("chat-box");
+  <button
+    onclick="askQuestion('Do you prepare students for JEE?')"
+    class="bg-gray-200 px-3 py-1 rounded text-sm">
+    JEE
+  </button>
 
-    const question =
-      input.value.toLowerCase();
+  <button
+    onclick="askQuestion('What research opportunities are available?')"
+    class="bg-gray-200 px-3 py-1 rounded text-sm">
+    Research
+  </button>
 
-    let answer =
-      "Please contact school for more details. Note: you can also reach out to us using whatsapp now...";
-
-    if(question.includes("jee")) {
-
-        answer =
-          "Rising Nalanda provides early preparation for JEE, NEET and Olympiads.";
-
-    }
-
-    else if(question.includes("fee")) {
-
-        answer =
-          "The school supports economically weaker families through inclusive fee policies.";
-
-    }
-
-    else if(question.includes("admission")) {
-
-        answer =
-          "Visit the Admissions page to begin the application process.";
-
-    }
-
-     else if(question.includes("2026")) {
-
-        answer =
-          "Abe 2026 me to dunya khatam hai...🤣😂🤣🤣😍";
-
-    }
-
-    chatBox.innerHTML +=
-      `<p><strong>You:</strong> ${input.value}</p>`;
-
-    chatBox.innerHTML +=
-      `<p><strong>Assistant:</strong> ${answer}</p>`;
-
-    input.value = "";
-
-}
-
-</script> -->
+</div>
 
 </div>
 
