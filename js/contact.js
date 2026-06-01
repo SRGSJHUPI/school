@@ -102,7 +102,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 // AI chat bot ka function hai ye
-let conversationHistory = "";
 
 async function sendMessage() {
 
@@ -129,9 +128,9 @@ async function sendMessage() {
 
         const response =
           await fetch(
-              "https://school-zy1r.onrender.com/chat?"
-              + "question=" + encodeURIComponent(question)
-              + "&history=" + encodeURIComponent(conversationHistory)
+            // "https://school-zy1r.onrender.com/chat?"
+              "http://127.0.0.1:8000/chat?question="
+              + encodeURIComponent(question)
             );
 
                   const data =
@@ -143,11 +142,7 @@ async function sendMessage() {
           chatBox.innerHTML +=
             `<p><strong>Assistant:</strong> ${data.answer}</p>`;
 
-            conversationHistory +=
-              `User: ${question}\n`;
-
-            conversationHistory +=
-              `Assistant: ${data.answer}\n\n`;
+            
 
     }
 
@@ -190,7 +185,7 @@ function askQuestion(question) {
 
 function clearChat() {
 
-    conversationHistory = "";
+   
 
     document.getElementById("chat-box").innerHTML =
       `<p><strong>Assistant:</strong>

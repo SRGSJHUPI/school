@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 
 def load_school_content():
 
-    website_text = ""
+    pages = {}
 
     backend_dir = os.path.dirname(
         os.path.abspath(__file__)
@@ -25,24 +25,18 @@ def load_school_content():
                     encoding="utf-8"
                 ) as f:
 
-                    html = f.read()
-
                     soup = BeautifulSoup(
-                        html,
+                        f.read(),
                         "html.parser"
                     )
 
-                    text = soup.get_text(
+                    pages[file] = soup.get_text(
                         separator=" ",
                         strip=True
-                    )
-
-                    website_text += (
-                        f"\n\nFILE: {file}\n{text}"
                     )
 
             except Exception as e:
 
                 print(e)
 
-    return website_text
+    return pages
