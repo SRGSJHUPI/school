@@ -129,7 +129,8 @@ async function sendMessage() {
         const response =
           await fetch(
             // "https://school-zy1r.onrender.com/chat?"
-              "http://127.0.0.1:8000/chat?question="
+              // "http://127.0.0.1:8000/chat?question="
+              "https://school-zy1r.onrender.com/chat?question="
               + encodeURIComponent(question)
             );
 
