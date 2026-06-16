@@ -46,6 +46,8 @@
 // });
 
 
+
+
 document.addEventListener('DOMContentLoaded', function () {
   const form = document.getElementById('messageForm');
   const popup = document.getElementById('popupModal');
@@ -128,14 +130,19 @@ async function sendMessage() {
 
         const response =
           await fetch(
-            // "https://school-zy1r.onrender.com/chat?"
               // "http://127.0.0.1:8000/chat?question="
               "https://school-zy1r.onrender.com/chat?question="
               + encodeURIComponent(question)
             );
 
-                  const data =
+        console.log("STATUS:", response.status);
+
+          const data =
             await response.json();
+
+          console.log("DATA:", data);
+
+          
 
           // Remove typing message
           document.getElementById("typing").remove();
