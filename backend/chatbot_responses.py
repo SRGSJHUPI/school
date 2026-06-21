@@ -6,7 +6,7 @@ RESPONSES = {
     "join", "enroll",
     "enrolment", "admit"
 ):
-"Admissions at Rising Nalanda start from Class 3 onwards. Admission is based on an admission test, the financial condition of parents and other necessary parameters. Financially weaker students may also receive support and concessions. For detailed admission procedures, eligibility criteria and guidelines, visit: https://srgsjhupi.github.io/school/admission.html",
+"Admissions at Rising Nalanda start from Class 3 onwards. Admission is based on an admission test, the financial condition of parents and other necessary parameters. For detailed admission procedures, eligibility criteria and guidelines, visit: https://srgsjhupi.github.io/school/admission.html",
 
 (
     "fee", "fees",
